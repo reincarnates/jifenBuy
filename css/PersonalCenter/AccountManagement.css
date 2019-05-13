@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+.account-wrapper{
+  padding: 0 91px;
+  box-sizing: border-box;
+}
+
+.account-head-wrapper{
+  width: 100%;
+  height: 123px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.account-head-img{
+  width: 86px;
+  height: 74px;
+}
+
+.account-head-words{
+  margin-left: 29px;
+  margin-top: 15px;
+}
+
+.account-head-words-top{
+  font-size: 16px;
+  color: #333;
+  line-height: 31px;
+}
+
+.account-head-words-bottom{
+  line-height: 24px;
+  color: #666;
+  font-size: 14px;
+}
+
+.account-info-wrapper{
+  width: 100%;
+  margin-top: 31px;
+}
+
+.account-info-head{
+  width: 100%;
+  height: 27px;
+  border-bottom: 1px dashed #ddd;
+}
+
+.account-info-head-item{
+  width: 124px;
+  line-height: 25px;
+  font-size: 14px;
+  color: #666666;
+  margin-right: 30px;
+  text-align: center;
+  cursor: pointer;
+  float: left;
+}
+
+.account_active{
+  color: #ffb030;
+  border-bottom: 2px solid #ffb030;
+}
+
+.ob{
+  display: none;
+}
+
+.on{
+  display: block;
+}
+
+.account-essential-info{
+  width: 100%;
+  height: 99px;
+  padding-left: 17px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.account-essential-info-yuan{
+  width: 6px;
+  height: 6px;
+  background-color: #ffc3c3;
+  border: 2px solid #ff0000;
+  border-radius: 50%;
+}
+
+.account-essential-info h5{
+  font-size: 14px;
+  color: #333;
+  margin-left: 6px;
+}
+
+.account-essential-info span{
+  font-size: 12px;
+  color: #999;
+  margin-left: 13px;
+}
+
+.account-info-content{
+  width: 100%;
+  padding-left: 73px;
+  box-sizing: border-box;
+}
+
+.account-portrait{
+  width: 100%;
+  height: 79px;
+  display: flex;
+}
+
+.account-portrait-left{
+  width: 60px;
+  text-align: right;
+}
+
+.account-portrait-right{
+  width: 79px;
+  height: 79px;
+  border: 1px solid #a3bce7;
+  background-color: #eef7fc;
+  background: url(../../images/static/account_avtar.png) no-repeat;
+  background-position: 8px 8px;
+  margin-left: 30px;
+}
+
+.edit-atvar{
+  width: 100%;
+  height: 22px;
+  background-color: rgba(0, 0, 0, .5);
+  text-align: center;
+  line-height: 22px;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 55px;
+}
+
+.account-username{
+  width: 100%;
+}
