@@ -19,10 +19,10 @@ $(function() {
   var priceNum = 0;
   $('#filterprice').on('click', function() {
     if(priceNum == 0) {
-      console.log(1);
+      $(this).addClass('filter-btn-bg');
       priceNum = 1;
     }else{
-      console.log(2);
+      $(this).removeClass('filter-btn-bg');
       priceNum = 0;
     }
   });
