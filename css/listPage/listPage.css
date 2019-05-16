@@ -104,6 +104,7 @@
 .brand-wrapper{
   width: 1200px;
   height: 60px;
+  overflow: hidden;
   border-bottom: 1px dashed #ddd;
   margin: 0 auto;
 }
@@ -180,7 +181,7 @@
 
 .retailers-center {
   /* width: 832px; */
-  line-height: 21px;
+  line-height: 30px;
   color: #555;
   font-size: 13px;
   float: left;
@@ -500,4 +501,154 @@
   width: 100%;
   height: 16px;
   background-color: #f1f1f1;
+}
+
+.paging-wrapper{
+  width: 100%;
+  height: 37px;
+  margin-top: 40px;
+}
+
+.paging-content{
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+.paging-prve,.paging-next{
+  display: inline-block;
+  width: 86px;
+  height: 37px;
+  line-height: 37px;
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.paging-content-ul{
+  display: inline-block;
+}
+
+.paging-content-ul a {
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  color: #666;
+  text-decoration: none;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  margin-right: 5px;
+}
+
+.spot{
+  border: none !important;
+}
+
+.currPaging{
+  border: none !important;
+  color: #ffb030 !important;
+}
+
+.pageNumber{
+  border: none;
+  color: #666;
+  margin-left: 15px;
+}
+
+.pageNumber-input{
+  color: #666;
+  font-size: 14px;
+}
+
+.goPage{
+  margin-left: 14px;
+  margin-right: 7px;
+}
+
+.pageNumber-input input{
+  width: 38px;
+  height: 37px;
+  border: 1px solid #ddd;
+  text-align: center;
+  background-color: #f6f6f6;
+}
+
+.leaf{
+  margin-left: 5px;
+}
+
+.pageNumber-btn{
+  width: 60px;
+  height: 37px;
+  border: 1px solid #ddd;
+  text-align: center;
+  line-height: 37px;
+  color: #666;
+  font-size: 14px;
+  background-color: #f6f6f6;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.fare-well-wrapper2{
+  width: 100%;
+  background-color: #fff;
+}
+
+.second-nav-wrapper2{
+  width: 1200px;
+  height: 62px;
+  line-height: 62px;
+  border-bottom: 1px solid #ddd;
+  color: #333;
+  font-size: 14px;
+  margin: 0 auto;
+}
+
+.frist-classify2 a {
+  color: #999;
+  font-size: 14px;
+}
+
+.second-classify2 a{
+  font-size: 14px;
+  color: #333;
+}
+
+.filter-bottom2 {
+  width: 1200px;
+  height: 57px;
+  background-color: #fff;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.filter-btn{
+  width: 50px;
+  height: 21px;
+  border: 1px solid #ddd;
+  text-align: center;
+  line-height: 19px;
+  color: #333;
+  font-size: 12px;
+  margin-right: 7px;
+  cursor: pointer;
+  float: left;
+}
+
+.filter-btn:last-child{
+  margin-right: 0;
+}
+
+.filter-btn-active{
+  background-color: #fbc84e;
+  color: #fff;
+  line-height: 21px;
+  border: none;
 }

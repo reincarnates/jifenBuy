@@ -84,12 +84,12 @@ img{
   box-sizing: border-box;
 }
 
-.city-select {
+.city-selects {
   font-size: 12px;
   color: #c5c5c5;
 }
 
-.city-select dl {
+.city-selects dl {
   line-height: 2;
   clear: both;
   padding: 3px 0;
@@ -97,7 +97,7 @@ img{
   border-bottom: 1px dotted #ededed;
 }
 
-.city-select a {
+.city-selects a {
   display: inline-block;
   padding: 2px 13px;
   outline: 0;
@@ -108,7 +108,7 @@ img{
   cursor: pointer;
 }
 
-.city-select a:hover{
+.city-selects a:hover{
   background-color: #fe4600;
   color: #fff;
 }
@@ -756,7 +756,7 @@ img{
 .adsense-list-select{
   width: 970px;
   min-width: 970px;
-  height: 600px;
+  min-height: 600px;
   position: absolute;
   background-color: #fff;
   z-index: 1000;
@@ -846,6 +846,11 @@ img{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.adsense-list-select-right-item-img a img{
+  width: 96px;
+  height: 92px;
 }
 
 .adsense-list-select-right-item-word{
@@ -987,7 +992,7 @@ img{
 }
 
 .brand-item-wrapper a:hover{
-  color: #152e01;
+  /* color: #e98930; */
 }
 
 .floor_mid{
@@ -2122,7 +2127,7 @@ img{
 
 .footer-service-word {
   float: left;
-  padding-left: 17px;
+  padding-left: 14px;
   box-sizing: border-box;
 }
 
@@ -2286,4 +2291,16 @@ img{
   width: 1200px;
   min-width: 1200px;
   margin: 0 auto;
+}
+
+.listNone{
+  display: none;
+}
+
+.listBlock{
+  display: block !important;
+}
+
+.fotter-mar{
+  margin-top: 100px;
 }

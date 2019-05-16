@@ -16,12 +16,19 @@ $(function () {
 	});
 
 	//显示列表二级菜单
-	$('.menu ul li,.adsense-list-select').mouseover(function () {
+	$('.menu ul li').mouseover(function () {
 		$(this).find('.mask').css('display', 'block');
-		$('.adsense-list-select').show();
-	}).mouseout(function () {
+		// $('.adsense-list-select').show();
+		$(".listNone").eq($(".menu ul li").index(this)).addClass("listBlock").siblings().removeClass('listBlock');
+	}).mouseout(function() {
 		$(this).find('.mask').css('display', 'none');
-		$('.adsense-list-select').hide();
+		$(".listNone").eq($(".menu ul li").index(this)).removeClass('listBlock');
+	});
+
+	$('.adsense-list-select').mouseover(function() {
+		$(this).show();
+	}).mouseout(function() {
+		$(this).hide();
 	});
 
 	//楼层选项卡

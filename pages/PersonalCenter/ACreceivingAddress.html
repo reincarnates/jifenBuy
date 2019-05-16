@@ -11,11 +11,11 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   <meta name="format-detection" content="telephone=no" />
-  <title>账户管理</title>
+  <title>收货地址</title>
   <link rel="stylesheet" href="../../css/reset.css">
   <link rel="stylesheet" href="../../css/style.css">
   <link rel="stylesheet" href="../../css/PersonalCenter/PersonalCenter.css">
-  <link rel="stylesheet" href="../../css/PersonalCenter/AccountManagement.css">
+  <link rel="stylesheet" href="../../css/PersonalCenter/ACreceivingAddress.css">
   <link rel="stylesheet" href="../../css/index/index.css">
 </head>
 
@@ -430,217 +430,16 @@
             <span>></span>
             <a href="#">我的信息</a>
             <span>></span>
-            <a href="#">基本信息</a>
+            <a href="#">收货地址</a>
           </div>
-          <div class="account-info-wrapper">
-            <div class="account-info-head clearfix">
-              <div class="account-info-head-item">
-                基本信息
-              </div>
-              <div class="account-info-head-item account_active">
-                我的尺寸
-              </div>
-              <div class="account-info-head-item">
-                兴趣设置
-              </div>
+          <div class="receiving-wrapper">
+            <div class="receiving-head">
+              <div class="receiving-head-btn">新增收货地址</div>
+              <div class="receiving-head-wrod">您已创建<span class="receiving-head-wrod-number" id="creatAddressNum"></span>个收货地址，最多可创建<span class="receiving-head-wrod-number">20</span>个</div>
             </div>
-            <div class="ob">
-              <div class="account-essential-info">
-                <div class="account-essential-info-yuan"></div>
-                <h5>基本信息</h5>
-                <span>阳光福利商城不会以任何方式滥用或泄露您的个人信息</span>
-              </div>
-              <div class="account-info-content">
-                <div class="account-portrait">
-                  <div class="account-portrait-left">头&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;像：</div>
-                  <div class="account-portrait-right pointer">
-                    <div class="edit-atvar">编辑头像</div>
-                  </div>
-                  <input type="file" id="upload" style="display:none;">
-                </div>
-                <div class="account-username clearfix">
-                  <div class="account-username-left">
-                    昵&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;称：
-                  </div>
-                  <div class="account-username-right">
-                    <input type="text" class="account-username-right-input" />
-                    <div class="account-username-right-word">昵称长度不超过40个字符</div>
-                  </div>
-                </div>
-                <div class="account-username clearfix">
-                  <div class="account-username-left">
-                    <span>*</span>
-                    真实姓名：
-                  </div>
-                  <div class="account-username-right">
-                    <input type="text" class="account-username-right-input" />
-                  </div>
-                </div>
-                <div class="account-username clearfix">
-                  <div class="account-username-left">
-                    <span>*</span>
-                    性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别：
-                  </div>
-                  <div class="account-username-right">
-                    <input type="radio" name="sex" class="account-username-right-radio" id="male" class="pointer" />
-                    <label for="male">男</label>
-                    <input type="radio" name="sex" class="account-username-right-radio" id="female">
-                    <label for="female" class="pointer">女</label>
-                  </div>
-                </div>
-                <div class="account-username clearfix">
-                  <div class="account-username-left">
-                    <span>*</span>
-                    生&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日：
-                  </div>
-                  <div class="account-username-right">
-                    <select>
-                      <option value="">请选择年</option>
-                    </select>
-                    <span>年</span>
-                    <select>
-                      <option value="">请选择月</option>
-                    </select>
-                    <span>月</span>
-                    <select>
-                      <option value="">请选择日</option>
-                    </select>
-                    <span>日</span>
-                  </div>
-                </div>
-                <div class="account-username clearfix">
-                  <div class="account-username-left">
-                    
-                  </div>
-                  <div class="account-username-right">
-                    <div class="account-username-right-btn">确认保存</div>
-                  </div>
-                </div>
-              </div>
+            <div class="receiving-address">
+              
             </div>
-            <div class="ob on">
-              <div class="mysize_head_wrapper">
-                <div class="mysize_head_my_wrapper">
-                  <div class="mysize_head_item_wrapper mysizShow">
-                    <div class="mysize_head_item">
-                      <div class="del_mysize">
-                        <img src="../../images/static/del_mysize.png" alt="">
-                      </div>
-                    </div>
-                    <div class="mysize_head_name">李易峰</div>
-                    <div class="mysize_head_select">
-                      <img src="../../images/static/mysize_select.png" alt="">
-                    </div>
-                  </div>
-                  <div class="mysize_head_item_wrapper">
-                    <div class="mysize_head_item2">
-                      <div class="del_mysize">
-                        <img src="../../images/static/del_mysize.png" alt="">
-                      </div>
-                    </div>
-                    <div class="mysize_head_name">李易峰</div>
-                    <div class="mysize_head_select">
-                      <img src="../../images/static/mysize_select.png" alt="">
-                    </div>
-                  </div>
-                </div>
-                <div class="new_role_wrapper pointer">
-                  <div class="new_role">
-                    <img src="../../images/static/new_role.png" alt="">
-                  </div>
-                  <div class="new_role_wrapper">
-                    新建角色
-                  </div>
-                </div>
-              </div>
-              <div class="mysize_infomation_wrapper">
-                <div class="mysize_infomation_item">
-                  <div class="mysize_infomation_item_word">
-                    姓名：
-                  </div>
-                  <input type="text" class="mysize_infomation_item_input" name="roleName" id="roleName">
-                </div>
-                <div class="mysize_infomation_item">
-                  <div class="mysize_infomation_item_word">
-                    性别：
-                  </div>
-                  <input type="text" class="mysize_infomation_item_input" name="sex" id="sex">
-                </div>
-                <div class="mysize_infomation_item">
-                  <div class="mysize_infomation_item_word">
-                    身高：
-                  </div>
-                  <input type="text" class="mysize_infomation_item_input" name="stature" id="stature">
-                </div>
-                <div class="mysize_infomation_item">
-                  <div class="mysize_infomation_item_word">
-                    体重：
-                  </div>
-                  <input type="text" class="mysize_infomation_item_input" name="weight" id="weight">
-                </div>
-              </div>
-              <div class="mysize_figure_wrapper">
-                <div class="mysize_figure_head">
-                  <div class="mysize_figure_head_word">
-                    身材尺寸
-                  </div>
-                </div>
-                <div class="mysize_figure_content clearfix">
-                  <div class="mysize_figure_content_left">
-                    <div class="mysize_figure_content_left_item">
-                      <div class="mysize_figure_content_left_item_top">
-                        <div class="figure_name">身高：</div>
-                        <input type="text" class="figure_height" id="figureHeight" />
-                        <div class="figure_unit">cm</div>
-                      </div>
-                      <div class="mysize_figure_content_left_item_bottom">
-                        <div class="figure_name">体重：</div>
-                        <input type="text" class="figure_weight" id="figureWeight" />
-                        <div class="figure_unit">kg</div>
-                      </div>
-                    </div>
-                    <div class="mysize_figure_content_left_item">
-                      <div class="mysize_figure_content_left_item_top">
-                        <div class="figure_name">肩宽：</div>
-                        <input type="text" class="figure_height" id="shoulderWidth" />
-                        <div class="figure_unit">cm</div>
-                      </div>
-                      <div class="mysize_figure_content_left_item_bottom">
-                        <div class="figure_name">胸围：</div>
-                        <input type="text" class="figure_weight" id="bust" />
-                        <div class="figure_unit">cm</div>
-                      </div>
-                    </div>
-                    <div class="mysize_figure_content_left_item">
-                      <div class="mysize_figure_content_left_item_top">
-                        <div class="figure_name">腰围：</div>
-                        <input type="text" class="figure_height" id="waistLine" />
-                        <div class="figure_unit">cm</div>
-                      </div>
-                      <div class="mysize_figure_content_left_item_bottom">
-                        <div class="figure_name">臀围：</div>
-                        <input type="text" class="figure_weight" id="hipline" />
-                        <div class="figure_unit">cm</div>
-                      </div>
-                    </div>
-                    <div class="mysize_figure_content_left_item">
-                      <div class="mysize_figure_content_left_item_top">
-                        <div class="figure_name">脚长：</div>
-                        <input type="text" class="figure_height" id="footLength" />
-                        <div class="figure_unit">cm</div>
-                      </div>
-                      <div class="mysize_figure_content_left_item_bottom">
-                        <div class="figure_name">脚围：</div>
-                        <input type="text" class="figure_weight" id="footGirth" />
-                        <div class="figure_unit">cm</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="mysize_figure_content_right"></div>
-                </div>
-              </div>
-            </div>
-            <div class="ob">3</div>
           </div>
         </div>
       </div>
@@ -648,8 +447,137 @@
   </div>
   <!-- 内容end -->
 
-  
-	<div class="ll-vip-btn ll-layer3">我是弹出层3</div>
+  <!-- 模态框 -->
+  <div class="modal-frame">
+    <div class="modal">
+      <div class="modal-head">
+        <span>添加收货地址</span>
+        <div class="modal-head-img pointer">
+          <img src="../../images/static/madel_close.png" alt="">
+        </div>
+      </div>
+      <div class="modal-content">
+        <div class="modal-content-item">
+          <div class="modal-content-item-word">
+            <span class="must">*</span>
+            收货人：
+          </div>
+          <div class="modal-content-item-input">
+            <input type="text" id="receiver" />
+          </div>
+        </div>
+        <div class="modal-content-item">
+          <div class="modal-content-item-word">
+            <span class="must">*</span>
+            所在地区：
+          </div>
+          <div class="modal-content-item-input">
+            <select class="modal-content-item-select" id="region">
+              <option value="">--请选择--</option>
+              <option value="北京">北京</option>
+            </select>
+          </div>
+        </div>
+        <div class="modal-content-item">
+          <div class="modal-content-item-word">
+            <span class="must">*</span>
+            详细地址：
+          </div>
+          <div class="modal-content-item-input">
+            <input type="text" class="address_input" id="address" />
+          </div>
+        </div>
+        <div class="modal-content-item">
+          <div class="modal-content-item-word">
+            <span class="must">*</span>
+            手机号码：
+            <span class="fixed_phone">固定电话：</span>
+          </div>
+          <div class="modal-content-item-input">
+            <input type="text" class="phone_number" id="mobileNumber"/>
+            <span class="huo">或</span>
+            <input type="text" class="phone_number" id="fixedNumber"/>
+          </div>
+        </div>
+        <div class="modal-content-item">
+          <div class="modal-content-item-word">
+            邮箱：
+          </div>
+          <div class="modal-content-item-input">
+            <input type="text" class="address_input" id="modalEmail" />
+          </div>
+        </div>
+        <div class="modal-content-btn" id="addReceivingAddress">保存收货地址</div>
+      </div>
+    </div>
+  </div>
+  <!-- 模态框end -->
+
+  <!-- 修改收货地址 -->
+  <div class="modal-frame2">
+    <div class="modal">
+      <div class="modal-head">
+        <span>修改收货地址</span>
+        <div class="modal-head-img pointer">
+          <img src="../../images/static/madel_close.png" alt="">
+        </div>
+      </div>
+      <div class="modal-content">
+        <div class="modal-content-item">
+          <div class="modal-content-item-word">
+            <span class="must">*</span>
+            收货人：
+          </div>
+          <div class="modal-content-item-input">
+            <input type="text" id="editReceiver" />
+          </div>
+        </div>
+        <div class="modal-content-item">
+          <div class="modal-content-item-word">
+            <span class="must">*</span>
+            所在地区：
+          </div>
+          <div class="modal-content-item-input">
+            <select class="modal-content-item-select" id="editRegion">
+              <option value="">--请选择--</option>
+              <option value="北京朝阳区建国门外">北京朝阳区建国门外</option>
+            </select>
+          </div>
+        </div>
+        <div class="modal-content-item">
+          <div class="modal-content-item-word">
+            <span class="must">*</span>
+            详细地址：
+          </div>
+          <div class="modal-content-item-input">
+            <input type="text" class="address_input" id="editAddress" />
+          </div>
+        </div>
+        <div class="modal-content-item">
+          <div class="modal-content-item-word">
+            <span class="must">*</span>
+            手机号码：
+            <span class="fixed_phone">固定电话：</span>
+          </div>
+          <div class="modal-content-item-input">
+            <input type="text" class="phone_number" id="editMobileNumber"/>
+            <span class="huo">或</span>
+            <input type="text" class="phone_number" id="editFixedNumber"/>
+          </div>
+        </div>
+        <div class="modal-content-item">
+          <div class="modal-content-item-word">
+            邮箱：
+          </div>
+          <div class="modal-content-item-input">
+            <input type="text" class="address_input" id="editModalEmail" />
+          </div>
+        </div>
+        <div class="modal-content-btn" id="editReceivingAddress">保存收货地址</div>
+      </div>
+    </div>
+  </div>
+  <!-- 修改收货地址end -->
 
   <div class="seat"></div>
 
@@ -885,8 +813,6 @@
   <script src="../../js/index/index.js"></script>
   <script src="../../js/service/service.js"></script>
   <script src="../../js/personalCenter/personalCenter.js"></script>
-  <script src="../../js/personalCenter/AccountManagement.js"></script>
-  <script src="../../until/until.js"></script>
 </body>
 
 </html>

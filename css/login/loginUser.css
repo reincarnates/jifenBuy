@@ -1,0 +1,326 @@
+@charset "utf-8";
+
+.login-header-wrap{
+  width: 100%;
+  height: 111px;
+  background-color: #fff;
+}
+
+.login-head{
+  width: 1200px;
+  height: 111px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.login-head-left{
+  width: 198px;
+  height: 85px;
+}
+
+.login-head-right p{
+  font-size: 14px;
+  color: #e98930;
+  font-family: 'PingFangSC'
+}
+
+.login-content-bg{
+  width: 100%;
+  height: 651px;
+  background-image: url(../../images/static/userLoginBg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.login-content-bg2{
+  width: 100%;
+  height: 651px;
+  background-image: url(../../images/static/userLoginBg2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.login-content{
+  width: 1200px;
+  height: 651px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.login-information{
+  width: 355px;
+  height: 422px;
+  border-radius: 9px;
+  background-color: #ffffff;
+  position: absolute;
+  right: 0;
+  top: 98px;
+}
+
+.login-information-head{
+  width: 100%;
+  height: 58px;
+  border-bottom: 3px solid #fbc84e;
+  padding: 8px 0;
+  display: flex;
+}
+
+.login-information-head-item{
+  width: 50%;
+  height: 41px;
+  border-right: 1px solid #dddddd;
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  line-height: 41px;
+}
+
+.login-information-head-item2{
+  width: 50%;
+  height: 41px;
+  font-size: 18px;
+  color: #333;
+  padding-left: 23px;
+  box-sizing: border-box;
+  line-height: 41px;
+}
+
+.login-information-head-item3{
+  width: 100%;
+  height: 41px;
+  font-size: 18px;
+  color: #333;
+  box-sizing: border-box;
+  line-height: 41px;
+  text-align: center;
+}
+
+.login-information-head-item:last-child{
+  border: none;
+}
+
+.login-form-content{
+  width: 100%;
+  padding-top: 39px;
+  box-sizing: border-box;
+}
+
+.login-user-input{
+  width: 311px;
+  height: 46px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  display: flex;
+}
+
+.login-user-name{
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-user-name-right{
+  width: 100%;
+  position: relative;
+}
+
+.login-user-name-right input{
+  width: 265px;
+  height: 44px;
+  border: none;
+  outline: none;
+}
+
+.password{
+  width: 208px !important;
+  height: 44px !important;
+}
+
+.login-user-btn{
+  width: 309px;
+  height: 44px;
+  line-height: 42px;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'PingFangSC';
+  color: #ffffff;
+  background-color: #ffb030;
+  border: 1px solid #e79f2b;
+  letter-spacing: 5px;
+  margin: 0 auto;
+  margin-top: 48px;
+}
+
+.login-user-forgetPass{
+  font-size: 14px;
+  color: #4f7dff;
+  position: absolute;
+  right: 10px;
+  top: 12px;
+}
+
+.login-user-dynamicPass{
+  width: 175px;
+  height: 46px;
+}
+
+.login-user-dynamicPass input{
+  width: 175px;
+  height: 42px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.login-user-dynamicPass2{
+  width: 201px;
+  height: 46px;
+}
+
+.login-user-dynamicPass2 input{
+  width: 201px;
+  height: 44px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.login-send-code{
+  width: 122px;
+  height: 44px;
+  font-size: 14px;
+  color: #0072fe;
+  text-align: right;
+  line-height: 44px;
+}
+
+.login-send-code2{
+  width: 109px;
+  height: 44px;
+  font-size: 16px;
+  color: #999;
+  text-align: center;
+  line-height: 42px;
+  padding: 2px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.login-send-code2 > a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .6);
+  left: 0;
+  top: 0;
+  color: #fff;
+  font-size: 12px;
+  display: none;
+}
+
+.login-send-code2 img{
+  width: 100%;
+  height: 100%;
+}
+
+.login-proving{
+  width: 311px;
+  /* height: 25px; */
+  background-color: #ffebeb;
+  display: flex; 
+  position: absolute;    
+  left: 20px;
+  top: 65px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  display: none;
+}
+
+.login-proving-left{
+  width: 42px;
+  height: 25px;
+}
+
+.login-proving-right{
+  width: 265px;
+  /* height: 25px; */
+  color: #e4393c;
+  font-size: 12px;
+  line-height: 25px;
+}
+
+.cur2{
+  color: #fbc84e;
+}
+
+.ob2{
+  display: none;
+}
+
+.on2 {
+	display: block;
+}
+
+.login-bottom{
+  width: 100%;
+  height: 88px;
+}
+
+.login-bottom-content{
+  width: 1200px;
+  height: 88px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+.login-bottom-url{
+  padding: 0 10px;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-bottom: 5px;
+  border-right: 2px solid #7d7d7d;
+  color: #333;
+  font-size: 14px;
+}
+
+.login-bottom-url a:hover{
+  color: #e98930;
+}
+
+.login-bottom-url a{
+  color: #333;
+}
+
+.login-bottom-url2 a{
+  color: #333;
+}
+
+.login-bottom-url2{
+  padding: 0 10px;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.login-bottom-url2 a:hover{
+  color: #e98930;
+}
+
+.copy-right{
+  line-height: 47px;
+  color: #666;
+  font-size: 12px;
+}

@@ -2,19 +2,19 @@ $(function () {
     var acount = 1;
 
     //选择商品颜色
-    $('.select-item').first().addClass("active");
-    $('.select-item').first().find('.select-item-img').addClass("db");
-    $('.select-item').click(function () {
-        $(this).addClass("active").siblings().removeClass("active");
+    $('.select-items').first().addClass("actives");
+    $('.select-items').first().find('.select-item-img').addClass("db");
+    $('.select-items').click(function () {
+        $(this).addClass("actives").siblings().removeClass("actives");
         $(this).siblings().find(".select-item-img").removeClass('db');
         $(this).find(".select-item-img").addClass('db');
     });
 
     //选择商品净含量
-    $('.net-content-item').first().addClass("active");
+    $('.net-content-item').first().addClass("actives");
     $('.net-content-item').first().find('.select-item-img2').addClass("db");
     $('.net-content-item').click(function () {
-        $(this).addClass("active").siblings().removeClass("active");
+        $(this).addClass("actives").siblings().removeClass("actives");
         $(this).siblings().find(".select-item-img2").removeClass('db');
         $(this).find(".select-item-img2").addClass('db');
     });
@@ -37,14 +37,14 @@ $(function () {
     //相似推荐
     var currIndex = 0;
     // $("#Barmore-wrapper .Barmore-content").clone().appendTo("#Barmore-wrapper");
-    var a = $('#Barmore-wrapper .Barmore-content').outerHeight();
+    var a = $('#Barmore-wrapper .Barmore-content').outerHeight() ;
     $('.Barmore-head-right').click(function () {
-        if(currIndex == $("#Barmore-wrapper .Barmore-content").length -1){
+        if(currIndex == $("#Barmore-wrapper .Barmore-content").length -2){
             currIndex = 0;
             $("#Barmore-wrapper").animate({marginTop:0},500);
-         }else{
-            currIndex++;
-         }
+        }else{
+            currIndex+=2;
+        }
         
         $("#Barmore-wrapper").stop().animate({marginTop:a * currIndex * -1},500);
     });
@@ -76,6 +76,27 @@ $(function () {
         }
     });
 
+    //展开评论
+    var commentingNum = 0;
+    $('.commenting').click(function() {
+        if(commentingNum == 0) {
+            $(this).addClass('commenting2');
+            $(this).text('收起评论');
+            $('.page-content-test-right').css('height',$('.page-content-test-right span').height());
+            commentingNum = 1;
+        }else{
+            $(this).removeClass('commenting2');
+            $(this).text('展开评论');
+            $('.page-content-test-right').css('height','25px');
+            commentingNum = 0;
+        }
+    })
+
+    //大家觉得
+    $('.highest-right-item').click(function() {
+        $(".highest-right-item").eq($(this).index()).addClass("highest-right-item-active").siblings().removeClass('highest-right-item-active');
+    });
+
 
     // 图片上下滚动
     var count = $("#imageMenu li").length; /* 显示 6 个 li标签内容 */
@@ -104,73 +125,11 @@ $(function () {
 
     // 解决 ie6 select框 问题
 
-    $.fn.decorateIframe = function (options) {
-
-        if ($.browser.msie && $.browser.version < 7) {
-
-            var opts = $.extend({}, $.fn.decorateIframe.defaults, options);
-
-            $(this).each(function () {
-
-                var $myThis = $(this);
-
-                //创建一个IFRAME
-
-                var divIframe = $("<iframe />");
-
-                divIframe.attr("id", opts.iframeId);
-
-                divIframe.css("position", "absolute");
-
-                divIframe.css("display", "none");
-
-                divIframe.css("display", "block");
-
-                divIframe.css("z-index", opts.iframeZIndex);
-
-                divIframe.css("border");
-
-                divIframe.css("top", "0");
-
-                divIframe.css("left", "0");
-
-                if (opts.width == 0) {
-
-                    divIframe.css("width", $myThis.width() + parseInt($myThis.css("padding")) * 2 + "px");
-
-                }
-
-                if (opts.height == 0) {
-
-                    divIframe.css("height", $myThis.height() + parseInt($myThis.css("padding")) * 2 + "px");
-
-                }
-
-                divIframe.css("filter", "mask(color=#fff)");
-
-                $myThis.append(divIframe);
-
-            });
-
-        }
-
-    }
-
-    $.fn.decorateIframe.defaults = {
-
-        iframeId: "decorateIframe1",
-
-        iframeZIndex: -1,
-
-        width: 0,
-
-        height: 0
-
-    }
+    
 
     //放大镜视窗
 
-    $("#bigView").decorateIframe();
+    // $("#bigView").decorateIframe();
 
     //点击到中图
 
