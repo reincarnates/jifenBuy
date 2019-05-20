@@ -96,6 +96,22 @@
   margin: 0 auto;
 }
 
+.crumbs{
+  float: left;
+}
+
+.crumbs-arrow{
+  float: left;
+}
+
+.second-classify{
+  float: left;
+}
+
+.frist-classify{
+  float: left;
+}
+
 .frist-classify a{
   color: #333;
   font-weight: 600;
@@ -171,7 +187,7 @@
 
 .retailers-left{
   width: 100px;
-  line-height: 21px;
+  line-height: 30px;
   font-size: 14px;
   padding-left: 12px;
   box-sizing: border-box;
@@ -661,4 +677,51 @@
   color: #fff;
   line-height: 21px;
   border: none;
+}
+
+.listPageMenu{
+  position: absolute;
+  z-index: 998;
+  background-color: #fff;
+  display: none;
+}
+
+.crumb-select-item {
+  position: relative;
+  float: left;
+  height: 22px;
+  line-height: 22px;
+  border: 1px solid #DDD;
+  font-size: 12px;
+  vertical-align: top;
+  margin: 20px 0 5px 0;
+  padding: 0 26px 0 4px;
+  cursor: pointer;
+  background: #f3f3f3;
+  display: none;
+}
+
+.crumb-select-item:hover{
+  border-color: #e98930;
+  background-color: #fff;
+}
+
+.crumb-select-item b {
+  font-weight: 400;
+  color: #333;
+}
+
+.crumb-select-item em {
+  color: #e4393c;
+  font-style: normal;
+}
+
+.crumb-select-item i {
+  display: block;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  right: 5px;
+  top: 3px;
+  background: url(../../images/static/del_address.png) no-repeat ;
 }

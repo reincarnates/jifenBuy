@@ -68,6 +68,23 @@
               </div>
             </div>
             <div class="login-user-btn pointer" id="loginPass">登录</div>
+            <div class="coagent">
+              <ul class="clearfix">
+                <li>
+                  <a href="javascript:void(0)" class="pdl">
+                    <b class="wx_icon"></b>
+                    <span>微信登录</span>
+                  </a>
+                  <span class="line">|</span>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" class="pdl">
+                    <b class="zfb_icon"></b>
+                    <span>支付宝登录</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
 
           <div class="login-form-content ob2">
@@ -79,15 +96,27 @@
                 <img src="../../images/static/user.png" alt>
               </div>
               <div class="login-user-name-right">
-                <input type="text" id="userName2" placeholder="请输入商城账号" />
+                <input type="text" id="userName2" placeholder="请输入手机号" />
               </div>
             </div>
+            
+            <div class="login-user-input">
+              <div class="login-user-dynamicPass2">
+                <input type="text" id="shortImgRule" placeholder="请输入验证码" />
+              </div>
+              <div class="login-send-code2 pointer">
+                <img src="../../images/static/rule.jpg" alt="">
+                <a class="makecode" href="javascript:void(0)">看不清，换一张</a>
+              </div>
+            </div>
+
             <div class="login-user-input">
               <div class="login-user-dynamicPass">
                 <input type="text" id="shortRule" placeholder="请输入短信验证码" />
               </div>
-              <div class="login-send-code pointer">发送验证码</div>
+              <div class="login-send-code pointer" id="sendCode">发送验证码</div>
             </div>
+
             <div class="login-user-btn pointer" id="ruleLogin">登录</div>
           </div>
         </div>
@@ -107,7 +136,7 @@
     </div>
   </div>
 
-  <script src="../../lib/jq/jquery.min.js"></script>
+  <script src="../../lib/jq/jquery.old.js"></script>
   <script src="../../js/login/login.js"></script>
 </body>
 </html>

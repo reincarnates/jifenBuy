@@ -12,17 +12,4 @@ $(function() {
     $(this).find('.mysize_head_item2').find('.del_mysize').hide();
   });
 
-  
-  $('.ll-layer3').click(function () {
-    var title = '提示';
-    var img = '../../images/static/mk.png';
-    var word = '成功';
-    wk_layer(337, 147, 0, 2, title, img, word, function () {
-      alert('回调')
-    });
-    $('.ll-cancel').click(function () {
-      alert(33)
-    })
-  });
-
 });

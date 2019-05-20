@@ -43,15 +43,21 @@ $(function() {
 
   //短信验证码登录
   $('#ruleLogin').click(function() {
-    if($('#userName2').val() == '' && $('#shortRule').val() == '') {
+    if($('#userName2').val() == '' && $('#shortRule').val() == '' && $('#shortImgRule').val() == '') {
       $('#short').show();
-      $('#short .login-proving-right').text('请输入用户名和短信验证码。');
+      $('#short .login-proving-right').text('请输入用户名和图片验证码和短信验证码。');
       return false;
     }
 
     if($('#userName2').val() == '') {
       $('#short').show();
       $('#short .login-proving-right').text('请输入用户名。');
+      return false;
+    }
+
+    if($('#shortImgRule').val() == '') {
+      $('#short').show();
+      $('#short .login-proving-right').text('请输入图片验证码。');
       return false;
     }
 
@@ -64,8 +70,17 @@ $(function() {
   });
 
   //用户名密码输入框获取焦点隐藏提示
-  $('#userName,#passWord,#userName2').focus(function() {
+  $('#userName,#passWord,#userName2,#shortImgRule').focus(function() {
     $('.login-proving').hide();
+  });
+
+  //发送手机验证码之前验证是否输入验证码
+  $('#sendCode').on('click', function() {
+    if($('#shortImgRule').val() == '') {
+      $('#short').show();
+      $('#short .login-proving-right').text('请先输入图片验证码');
+      return false;
+    }
   });
 
 });

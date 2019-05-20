@@ -41,4 +41,68 @@ $(function() {
     }
   });
 
+
+  //全部分类下拉
+  $('.left_nav').on('mouseover', function() {
+    $('.listPageMenu').show();
+  }).on('mouseout', function() {
+    $('.listPageMenu').hide();
+  });
+
+
+  //选择品牌
+  $('.brand-center ul li').on('click', function() {
+    var myDom = `
+      <span class='crumbs-wrapper'>
+        <span class="crumbs-arrow">></span>
+        <a href="javaScript:;" class="crumb-select-item">
+          <b>${$(this).parent().parent().siblings('.brand-left').text()}</b>
+          <em>${$(this).find('a').text()}</em>
+          <i></i>
+        </a>
+      </span>
+    `
+    // if($('.crumb-select-item').attr('data-id') == crumbId) {
+      $('.crumbs').append(myDom);
+    // console.log(crumbId,$('.crumb-select-item').attr('data-id'));
+    $('.crumb-select-item').show();
+    // }
+  });
+
+  $(document).on('click', '.crumb-select-item i', function() {
+    $(this).parent().parent('.crumbs-wrapper').remove();
+  });
+
+  //选择电商
+  $('.retailers-center ul li').on('click',function() {
+    var myDom = `
+      <span class='crumbs-wrapper'>
+        <span class="crumbs-arrow">></span>
+        <a href="javaScript:;" class="crumb-select-item">
+          <b>${$(this).parent().parent().siblings('.retailers-left').text()}</b>
+          <em>${$(this).find('a').text()}</em>
+          <i></i>
+        </a>
+      </span>
+    ` 
+    $('.crumbs').append(myDom);
+    $('.crumb-select-item').show();
+  });
+
+  //选择价格
+  $('.price-center ul li').on('click',function() {
+    var myDom = `
+      <span class='crumbs-wrapper'>
+        <span class="crumbs-arrow">></span>
+        <a href="javaScript:;" class="crumb-select-item">
+          <b>${$(this).parent().parent().siblings('.price-left').text()}</b>
+          <em>${$(this).find('a').text()}</em>
+          <i></i>
+        </a>
+      </span>
+    ` 
+    $('.crumbs').append(myDom);
+    $('.crumb-select-item').show();
+  });
+
 })

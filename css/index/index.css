@@ -416,7 +416,7 @@ img{
 .nav_main{
   width: 1200px;
   height: 48px;
-  line-height: 48px;
+  /* line-height: 48px; */
   margin: 0 auto;
   position: relative;
   z-index: 6;
@@ -429,10 +429,12 @@ img{
   color: #FFF;
   cursor: pointer;
   background-color: #ffb22c;
+  position: relative;
 }
 
 .left_nav h1 {
   padding-left: 48px;
+  line-height: 48px;
   background: url(../../images/static/qbsp.png) no-repeat 15px 16px;
 }
 
@@ -441,6 +443,7 @@ img{
 }
 
 .jsddm{
+  line-height: 48px;
   float: left;
 }
 
@@ -693,6 +696,7 @@ img{
   border-width: 0 1px 1px 1px;
   float: left;
   position: relative;
+  /* z-index: 999; */
 }
 
 .slide-wrapper{
@@ -725,6 +729,8 @@ img{
   height: 100%;
   display: flex;
   align-items: center;
+  color: #666;
+  font-size: 14px;
 }
 
 .menu ul li span img{
@@ -1577,7 +1583,8 @@ img{
   margin: 0px;
 	padding: 0px;
 	font: 12px/150% Arial,Verdana,"宋体";
-	color: #666;
+  color: #666;
+  z-index: 999;
 }
 
 .tbar-tab-top {

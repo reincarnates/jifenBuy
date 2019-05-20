@@ -159,6 +159,73 @@
   margin-top: 48px;
 }
 
+.coagent{
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 50px;
+  height: 38px;
+  background-color: #fff9ee;
+  border-top: 1px solid #eeeded;
+  margin-top: 23px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+
+.coagent ul {
+  width: 220px;
+  display: inline-block;
+  display: block;
+  margin: 0 auto;
+}
+
+.coagent li {
+  float: left;
+  line-height: 38px;
+}
+
+.coagent li a.pdl {
+  display: inline-block;
+  position: relative;
+  padding-left: 24px;
+}
+
+.coagent li a.pdl b.wx_icon {
+  background-position: 0 0;
+}
+
+.coagent li a.pdl b.zfb_icon {
+  background-position: -26px 0;
+}
+
+.coagent li a.pdl b {
+  width: 24px;
+  height: 24px;
+  display: block;
+  background: url(../../images/static/wx_zfb.png) no-repeat;
+  margin: 0 auto;
+  position: absolute;
+  float: left;
+  left: 0;
+  top: 8px;
+}
+
+.coagent li a.pdl span{
+  margin-left: 9px;
+  font-size: 14px;
+  color: #999;
+}
+
+.coagent li a.pdl span:hover{
+  color: #e98930;
+  text-decoration: underline;
+}
+
+.coagent li .line {
+  color: #ccc;
+  padding: 0 10px;
+}
+
 .login-user-forgetPass{
   font-size: 14px;
   color: #4f7dff;
@@ -179,6 +246,7 @@
   outline: none;
   padding-left: 10px;
   box-sizing: border-box;
+  border-radius: 5px;
 }
 
 .login-user-dynamicPass2{
@@ -193,6 +261,7 @@
   outline: none;
   padding-left: 10px;
   box-sizing: border-box;
+  border-radius: 5px;
 }
 
 .login-send-code{
@@ -202,6 +271,7 @@
   color: #0072fe;
   text-align: right;
   line-height: 44px;
+  user-select: none;
 }
 
 .login-send-code2{
