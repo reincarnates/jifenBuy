@@ -1,11 +1,12 @@
 $(function() {
 
   $('#txtAccount').focus(function() {
-    $(this).keyup(function() {
-      if($(this).val() < 10) {
-        $('.msg-error').show();
-      }
-    });
+    $('.msg-error').hide();
+    // $(this).keyup(function() {
+      // if($(this).val() < 10) {
+      //   $('.msg-error').show();
+      // }
+    // });
   }).blur(function() {
     if($(this).val() < 10) {
       $('.msg-error').show();

@@ -11,7 +11,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   <meta name="format-detection" content="telephone=no" />
-  <title>已完成</title>
+  <title>已取消</title>
   <link rel="stylesheet" href="../../css/reset.css">
   <link rel="stylesheet" href="../../css/style.css">
   <link rel="stylesheet" href="../../css/headOrfooter/headOrfooter.css">
@@ -347,10 +347,10 @@
     </div>
     <div class="shipped-content-wrapper">
       <div class="shipped-step-wrapper">
-        <div class="shipped-step-bg shipped-step-progress"></div>
-        <div class="shipped-step-bg shipped-step-progress shipped-step-position"></div>
-        <div class="shipped-step-bg shipped-step-progress shipped-step-position2"></div>
-        <div class="shipped-step-bg shipped-step-progress shipped-step-position3"></div>
+        <div class="shipped-step-bg"></div>
+        <div class="shipped-step-bg shipped-step-position"></div>
+        <div class="shipped-step-bg shipped-step-position2"></div>
+        <div class="shipped-step-bg shipped-step-position3"></div>
         <ul class="shipped-step clearfix">
           <li class="shipped-step-item">
             <div class="shipped-step-item-title">1.提交订单</div>
@@ -363,87 +363,48 @@
           <li class="shipped-step-item">
             <div class="shipped-step-item-title">2.付款成功</div>
             <div class="shipped-step-item-num">
-              <span class="shipped-step-item-active">
-                <img src="../../images/static/payment_yes.png" alt="">
+              <span>
+                <img src="../../images/static/pament_success_befor.png" alt="">
               </span>
             </div>
           </li>
           <li class="shipped-step-item">
             <div class="shipped-step-item-title">3.仓库发货</div>
             <div class="shipped-step-item-num">
-              <span class="shipped-step-item-line shipped-step-item-active">
-                <img src="../../images/static/warehouse2.png" alt="">
+              <span class="shipped-step-item-line">
+                <img src="../../images/static/warehouse.png" alt="">
               </span>
             </div>
           </li>
           <li class="shipped-step-item">
             <div class="shipped-step-item-title">4.运输中</div>
             <div class="shipped-step-item-num">
-              <span class="shipped-step-item-active">
-                <img src="../../images/static/transport2.png" alt="">
+              <span>
+                <img src="../../images/static/transport.png" alt="">
               </span>
             </div>
           </li>
           <li class="shipped-step-item">
             <div class="shipped-step-item-title">5.确认收货</div>
             <div class="shipped-step-item-num">
-              <span class="shipped-step-item-receipt shipped-step-item-active">
-                <img src="../../images/static/confirm_receipt2.png" alt="">
+              <span class="shipped-step-item-receipt">
+                <img src="../../images/static/confirm_receipt.png" alt="">
               </span>
             </div>
           </li>
         </ul>
       </div>
-      <div class="shipped-current-status-wrapper2 clearfix">
+      <div class="shipped-current-status-wrapper clearfix">
         <div class="shipped-current-status-left">
           <div class="shipped-current-status">
             <span class="shipped-current-status-icon"></span>
-            <span class="shipped-current-status-word">当前状态：已完成</span>
+            <span class="shipped-current-status-word">当前状态：订单已取消</span>
+          </div>
+          <div>
+            <span class="shipped-current-status-word2">您的订单已取消，如有需要可重新购买</span>
           </div>
         </div>
-        <!-- <div class="shipped-current-status-right2">评价</div> -->
-      </div>
-
-      <div class="shipped-logistics-wrapper">
-        <div class="shipped-logistics-word">
-          <span>物流公司：京东快递：http://www.jd-express.com</span>
-          <span class="shipped-logistics-word-number">运单号：246665008781</span>
-        </div>
-        
-        <div class="track-rcol">
-          <div class="track-list">
-            <ul>
-              <li class="first">
-                <span class="time">2016-03-10 18:07:15</span>
-                <i class="node-icon"></i>
-                <span class="txt">[哈尔滨]配送员【申国龙】已出发，联系电话【18410106883，感谢您的耐心等待】</span>
-              </li>
-              <li>
-                <span class="time">2016-03-10 18:07:15</span>
-                <i class="node-icon"></i>
-                <span class="txt">[哈尔滨]订单已从【呼伦贝尔 海拉尔区】服务网点出库,上门送货中</span>
-              </li>
-              <li>
-                <span class="time">2016-03-10 18:07:15</span>
-                <i class="node-icon"></i>
-                <span class="txt">[哈尔滨]订单已到达【呼伦贝尔 海拉尔区】服务网点</span>
-              </li>
-              <li>
-                <span class="time">2016-03-10 18:07:15</span>
-                <i class="node-icon"></i>
-                <span class="txt">[哈尔滨]订单已从【哈尔滨中心】发出,送往日顺【呼伦贝尔 海拉尔区】服务网点</span>
-              </li>
-              <li>
-                <span class="time">2016-03-10 18:07:15</span>
-                <i class="node-icon"></i>
-                <span class="txt">[ibt]订单配车安排发运</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="retract">收起</div>
-
+        <!-- <div class="shipped-current-status-receipt">确认收货</div> -->
       </div>
 
       <div class="shipped-order-wrapper">
@@ -506,11 +467,8 @@
           <div class="shipped-order-goods-item-weight">0.18kg</div>
           <div class="shipped-order-goods-item-price">178.00</div>
           <div class="shipped-order-goods-item-number2">1</div>
-          <div class="shipped-order-goods-item-setting shipped-line-height">
-            <a href="#" class="application">申请售后</a>
-            <div>
-              <a href="#">查看评价</a>
-            </div>
+          <div class="shipped-order-goods-item-setting">
+            <a href="#">重新购买</a>
           </div>
         </div>
         <div class="shipped-order-goods-item-wrapper clearfix">
@@ -525,11 +483,8 @@
           <div class="shipped-order-goods-item-weight">0.18kg</div>
           <div class="shipped-order-goods-item-price">178.00</div>
           <div class="shipped-order-goods-item-number2">1</div>
-          <div class="shipped-order-goods-item-setting shipped-line-height">
-            <a href="#" class="application">申请售后</a>
-            <div>
-              <a href="#">查看评价</a>
-            </div>
+          <div class="shipped-order-goods-item-setting">
+            <a href="#">重新购买</a>
           </div>
         </div>
       </div>

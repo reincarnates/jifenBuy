@@ -486,3 +486,18 @@
 .order-cancel a:hover{
   text-decoration: underline;
 }
+
+.check-order-evaluate{
+  display: none;
+}
+
+.order-evaluate{
+  width: 107px;
+  height: 36px;
+  border: 1px solid #ddd;
+  text-align: center;
+  line-height: 34px;
+  color: #333;
+  font-size: 14px;
+  margin-top: 15px;
+}

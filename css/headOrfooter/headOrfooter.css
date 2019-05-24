@@ -281,7 +281,7 @@
 }
 
 .search-cart-select{
-  width: 290px;
+  width: 310px;
   height: 273px;
   background-color: #fff;
   position: absolute;
@@ -335,7 +335,7 @@
 }
 
 .search-cart-all-price{
-  width: 287px;
+  width: 310px;
   height: 36px;
   line-height: 36px;
   position: absolute;
@@ -375,6 +375,13 @@
   font-size: 12px;
   line-height: 19px;
   margin-left: 3px;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
 }
 
 .goods-account a {

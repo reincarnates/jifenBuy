@@ -120,6 +120,7 @@
   font-size: 14px;
   width: 770px;
   float: left;
+  position: relative;
 }
 
 .text {
@@ -146,6 +147,7 @@
   float: left;
   line-height: 25px;
   display: none;
+  position: absolute;
 }
 
 .balance-introduce {

@@ -286,6 +286,7 @@
 .shipped-order-goods-wrapper{
   width: 100%;
   border: 1px solid #e2e2e2;
+  margin-top: 25px;
 }
 
 .shipped-order-goods-head{
@@ -387,7 +388,7 @@
 }
 
 .shipped-order-goods-item-price{
-  width: 205px;
+  width: 197px;
   text-align: right;
   line-height: 81px;
   font-size: 14px;
@@ -536,4 +537,68 @@
   border-radius: 1px;
   margin-top: 13px;
   float: right;
+}
+
+.shipped-order-goods-head-number2{
+  width: 129px;
+}
+
+.shipped-order-goods-head-setting{
+  width: 75px
+}
+
+.shipped-order-goods-item-number2{
+  width: 110px;
+  text-align: right;
+  line-height: 81px;
+  font-size: 14px;
+  color: #333;
+  float: left;
+}
+
+.shipped-order-goods-item-setting{
+  width: 110px;
+  text-align: right;
+  line-height: 81px;
+  font-size: 14px;
+  float: left;
+}
+
+.shipped-order-goods-item-setting a:hover{
+  text-decoration: underline;
+}
+
+.shipped-order-goods-line{
+  line-height: 35px;
+}
+
+.shipped-order-goods-item-setting-btn{
+  width: 92px;
+  height: 27px;
+  background-color: #ff5826;
+  text-align: center;
+  line-height: 27px;
+  color: #fff;
+  font-size: 14px;
+  margin-left: 35px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.shipped-order-goods-item-setting-btn:hover{
+  opacity: .8;
+}
+
+.shipped-btn-bg{
+  background-color: #0090ff;
+  margin-top: 28px;
+}
+
+.shipped-line-height{
+  line-height: 30px;
+}
+
+.application{
+  margin-top: 10px;
+  display: inline-block;
 }
