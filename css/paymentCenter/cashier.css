@@ -430,3 +430,13 @@
 .payment-recharge-mask-wrod a{
   color: #30a0ff;
 }
+
+.balance-derecharging{
+  color: #30a0ff;
+  margin-left: 15px !important;
+  font-weight: normal !important;
+}
+
+.balance-derecharging:hover{
+  text-decoration: underline;
+}
