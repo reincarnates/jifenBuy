@@ -137,7 +137,7 @@
   background-color: #fff;
   position: absolute;
   box-shadow: 0 10px 10px rgba(213,203,203,.5);
-  padding-top: 15px;
+  /* padding-top: 15px; */
   box-sizing: border-box;
   display: none;
 }
@@ -146,7 +146,7 @@
   line-height: 18px;
   color: #666;
   font-size: 12px;
-  margin-bottom: 15px;
+  margin-bottom: 9px;
 }
 
 .fuli-order-left-item ul li:last-child{
@@ -193,7 +193,7 @@
   background-color: #fff;
   position: absolute;
   box-shadow: 0 10px 10px rgba(213,203,203,.5);
-  padding-top: 15px;
+  padding-top: 10px;
   box-sizing: border-box;
   display: none;
 }
