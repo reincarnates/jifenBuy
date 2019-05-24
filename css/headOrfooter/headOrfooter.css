@@ -330,6 +330,10 @@
   align-items: center;
 }
 
+.search-cart-goods-item:last-child{
+  margin-bottom: 36px;
+}
+
 .search-cart-all-price{
   width: 287px;
   height: 36px;

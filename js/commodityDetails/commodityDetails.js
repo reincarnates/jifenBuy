@@ -83,12 +83,12 @@ $(function () {
         if(commentingNum == 0) {
             $(this).addClass('commenting2');
             $(this).text('收起评论');
-            $('.page-content-test-right').css('height',$('.page-content-test-right span').height());
+            $(this).siblings('.page-content-test-right').css('height',$(this).siblings('.page-content-test-right').find('span').height());
             commentingNum = 1;
         }else{
             $(this).removeClass('commenting2');
             $(this).text('展开评论');
-            $('.page-content-test-right').css('height','25px');
+            $(this).siblings('.page-content-test-right').css('height','25px');
             commentingNum = 0;
         }
     })
