@@ -149,6 +149,10 @@
   margin-bottom: 15px;
 }
 
+.fuli-order-left-item ul li:last-child{
+  margin-bottom: 0;
+}
+
 .fuli-order-left-item ul li:hover{
   background-color: #eee;
   color: #ffb030

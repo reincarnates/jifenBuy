@@ -150,6 +150,34 @@ $(function () {
 		$(this).css('border-color','#ddd');
 	});
 
+	//验证弹框输入的手机号和验证码
+	$('.bind-phone-mask-phone-sure-btn').on('click', function() {
+		var myreg=/^[1][3,4,5,7,8][0-9]{9}$/;
+		if($('.bind-phone-mask-phone-number input').val() == '') {
+			$('.bind-phone-position').show();
+			$('.bind-phone-mask-phone-number input').focus();
+			return false;
+		}else{
+			$('.bind-phone-position').hide();
+		}
+
+		if($('.bind-phone-mask-phone-number input').val()) {
+			if (!myreg.test($('.bind-phone-mask-phone-number input').val())) {
+				alert('请填写正确的手机号');
+				$('.bind-phone-mask-phone-number input').focus();
+			}
+		}
+
+		if($('.bind-phone-mask-phone-rule-code-left input').val() == '') {
+			$('.rule-code').show();
+			$('.bind-phone-mask-phone-number input').focus();
+			return false;
+		}else{
+			$('.rule-code').hide();
+		}
+
+	});
+
 
 	/*************/
 	$('.tbar-cart-item').hover(function () { $(this).find('.p-del').show(); }, function () { $(this).find('.p-del').hide(); });

@@ -662,13 +662,17 @@
   float: left;
 }
 
+.filter-btn span{
+  margin-left: -10px;
+}
+
 .filter-btn2{
   background: url(../../images/static/search_page_price.png) no-repeat;
-  background-position: 38px 9px;
+  background-position: 35px 9px;
 }
 
 .filter-btn-bg{
-  background-position: 38px -6px;
+  background-position: 35px -6px;
 }
 
 
