@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 9e1b3f3ffc1e56f0aa2ccc29e84a873c3757bfc3 Your Name <you@example.com> 1557483852 +0800	update by push
+9e1b3f3ffc1e56f0aa2ccc29e84a873c3757bfc3 55d047658796c009aa0833f36209db641fea111e Your Name <you@example.com> 1557744106 +0800	update by push
+55d047658796c009aa0833f36209db641fea111e 9ca8b584fea46bedaca0148b8a3e3f36518f4520 Your Name <you@example.com> 1558007238 +0800	update by push
+9ca8b584fea46bedaca0148b8a3e3f36518f4520 d382ad85162bd2ddb2f6df78ee7bff4bbce55ca1 Your Name <you@example.com> 1558054707 +0800	fetch origin: fast-forward
+d382ad85162bd2ddb2f6df78ee7bff4bbce55ca1 2a8a2296683f1ea079a3eefc0b3295a16b4913c0 Your Name <you@example.com> 1558349361 +0800	update by push

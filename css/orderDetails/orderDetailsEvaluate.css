@@ -1,0 +1,273 @@
+@charset "utf-8";
+
+.evaluate-wrapper{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.evaluate-head{
+  width: 100%;
+  line-height: 34px;
+}
+
+.evaluate-head a{
+  font-size: 14px;
+  color: #999;
+}
+
+.shipped-head-color {
+  color: #333 !important;
+}
+
+.evaluate-tips-wrapper{
+  width: 100%;
+  line-height: 45px;
+  border: 1px solid #dcdcdc;
+  padding-left: 16px;
+  box-sizing: border-box;
+  color: #999;
+  font-size: 14px;
+}
+
+.evaluate-tips{
+  color: #333;
+  font-size: 14px;
+  margin-left: 19px;
+}
+
+.evaluate-goods-wrapper{
+  width: 100%;
+  border: 1px solid #dcdcdc;
+  margin-top: 20px;
+}
+
+.evaluate-goods-head{
+  width: 100%;
+  height: 39px;
+  border-bottom: 1px solid #dcdcdc;
+  padding: 0 72px 0 17px;
+  box-sizing: border-box;
+  line-height: 39px;
+  color: #999;
+  font-size: 14px;
+}
+
+.evaluate-word{
+  float: right;
+}
+
+.evaluate-goods-content{
+  width: 100%;
+}
+
+.evaluate-goods-content-item{
+  width: 100%;
+  height: 122px;
+  padding-right: 65px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.evaluate-goods-content-item-left{
+  width: 416px;
+  float: left;
+}
+
+.evaluate-goods-content-item-left-img{
+  width: 107px;
+  height: 121px;
+  padding: 24px 15px;
+  float: left;
+}
+
+.evaluate-goods-content-item-left-introduce{
+  float: left;
+  width: 305px;
+  line-height: 22px;
+  color: #333;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.evaluate-introduce{
+  font-size: 12px;
+  color: #666;
+  line-height: 40px;
+}
+
+.evaluate-goods-content-item-right{
+  float: right;
+  color: #0090ff;
+  font-size: 14px;
+  line-height: 122px;
+}
+
+/*向上*/
+.triangle{
+  position: absolute;
+  bottom: -1px;
+  right: 70px;
+}
+
+.triangle_border_up2{
+  width:0;
+  height:0;
+  border-width:0 12px 12px;
+  border-style:solid;
+  border-color:transparent transparent #eee;/*透明 透明  灰*/
+  position:relative;
+}
+
+.triangle_border_up2 span{
+  display:block;
+  width:0;
+  height:0;
+  border-width:0 10px 10px;
+  border-style:solid;
+  border-color:transparent transparent #f7f7f7;/*透明 透明  黄*/
+  position:absolute;
+  top:3px;
+  left:-10px;
+}
+
+.evaluate-container{
+  width: 100%;
+  height: 378px;
+  background-color: #f7f7f7;
+  border-style: solid;
+  border-color: #ddd;
+  border-width: 0 1px 1px 1px;
+  padding: 34px 28px;
+  box-sizing: border-box;
+}
+
+.goods-evaluate-wrapper{
+  color: #333;
+  font-size: 14px;
+}
+
+.goods-evaluate-left-color{
+  color: #ff5826 !important;
+}
+
+.goods-evaluate-left{
+  float: left;
+}
+
+.goods-evaluate-right{
+  float: left;
+}
+
+#star{position:relative;width:600px;margin:0 auto;height:24px;}
+
+#star ul,#star span{float:left;display:inline;height:19px;line-height:19px;}
+
+#star ul{margin:0 10px;}
+
+#star li{float:left;width:24px;cursor:pointer;text-indent:-9999px;background:url(../../images/static/star.png) no-repeat;}
+
+#star strong{color:#f60;padding-left:10px;}
+
+#star li.on{background-position:0 -28px;}
+
+#star p{position:absolute;top:20px;width:159px;height:60px;display:none;background:url(../../images/static/icon.gif) no-repeat;padding:7px 10px 0;font-size: 12px;}
+
+#star p em{color:#f60;display:block;font-style:normal;font-size: 14px;}
+
+.evaluate-wrod{
+  font-size: 14px;
+  color: #333;
+  margin-top: 15px;
+}
+
+.evaluate-wrod-left{
+  float: left;
+}
+
+.evaluate-wrod-right{
+  float: left;
+}
+
+.evaluate-wrod-right textarea{
+  width: 565px;
+  height: 136px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  outline: none;
+  resize: none;
+  padding-left: 11px;
+  padding-top: 20px;
+  color: #999;
+  font-size: 14px;
+}
+
+.evaluate-wrod-limit{
+  float: left;
+  color: #999;
+  font-size: 12px;
+  margin-top: 120px;
+  margin-left: 18px;
+}
+
+.evaluate-upload-wrapper{
+  width: 100%;
+  font-size: 14px;
+  color: #333;
+  margin-top: 20px;
+  position: relative;
+}
+
+.evaluate-upload-left{
+  float: left;
+  line-height: 36px;
+}
+
+.evaluate-upload-right{
+  width: 95px;
+  height: 36px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  color: #333;
+  font-size: 14px;
+  line-height: 36px;
+  padding-left: 25px;
+  box-sizing: border-box;
+  position: relative;
+  cursor: pointer;
+  float: left;
+}
+
+.evaluate-upload-right img{
+  position: absolute;
+  left: 5px;
+  top: 10px;
+}
+
+.evaluate-upload-img-num{
+  color: #666;
+  font-size: 12px;
+  line-height: 36px;
+  margin-left: 14px;
+}
+
+.evaluate-upload-tips{
+  color: #999;
+  font-size: 12px;
+  line-height: 30px;
+  position: absolute;
+  left: 80px;
+  bottom: -30px;
+}
+
+.spoke-evaluate-btn{
+  width: 140px;
+  height: 38px;
+  background-color: #ff5826;
+  text-align: center;
+  line-height: 38px;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 55px;
+  margin-left: 81px;
+  cursor: pointer;
+}
