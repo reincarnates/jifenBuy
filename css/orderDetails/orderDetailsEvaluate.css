@@ -27,6 +27,7 @@
   box-sizing: border-box;
   color: #999;
   font-size: 14px;
+  margin-top: 17px;
 }
 
 .evaluate-tips{
@@ -158,21 +159,21 @@
   float: left;
 }
 
-#star{position:relative;width:600px;margin:0 auto;height:24px;}
+.star{position:relative;width:600px;margin:0 auto;height:24px;}
 
-#star ul,#star span{float:left;display:inline;height:19px;line-height:19px;}
+.star ul,.star span{float:left;display:inline;height:19px;line-height:19px;}
 
-#star ul{margin:0 10px;}
+.star ul{margin:0 10px;}
 
-#star li{float:left;width:24px;cursor:pointer;text-indent:-9999px;background:url(../../images/static/star.png) no-repeat;}
+.star li{float:left;width:24px;cursor:pointer;text-indent:-9999px;background:url(../../images/static/star.png) no-repeat;}
 
-#star strong{color:#f60;padding-left:10px;}
+.star strong{color:#f60;}
 
-#star li.on{background-position:0 -28px;}
+.star li.on{background-position:0 -28px;}
 
-#star p{position:absolute;top:20px;width:159px;height:60px;display:none;background:url(../../images/static/icon.gif) no-repeat;padding:7px 10px 0;font-size: 12px;}
+.star p{position:absolute;top:20px;width:159px;height:60px;display:none;background:url(../../images/static/icon.gif) no-repeat;padding:7px 10px 0;font-size: 12px;}
 
-#star p em{color:#f60;display:block;font-style:normal;font-size: 14px;}
+.star p em{color:#f60;display:block;font-style:normal;font-size: 14px;}
 
 .evaluate-wrod{
   font-size: 14px;
@@ -270,4 +271,84 @@
   margin-top: 55px;
   margin-left: 81px;
   cursor: pointer;
+}
+
+.logistics-service-wrapper{
+  width: 100%;
+  height: 112px;
+  border-style: solid;
+  border-color: #ddd;
+  border-width: 0 1px 1px 1px;
+  position: relative;
+}
+
+.triangle_border_up3{
+  width:0;
+  height:0;
+  border-width:0 12px 12px;
+  border-style:solid;
+  border-color:transparent transparent #e3e3e3;/*透明 透明  灰*/
+  position:relative;
+}
+
+.triangle{
+  position: absolute;
+  right: 128px;
+  bottom: 0;
+}
+
+.triangle_border_up3 span{
+  display:block;
+  width:0;
+  height:0;
+  border-width:0 10px 10px;
+  border-style:solid;
+  border-color:transparent transparent #fff;/*透明 透明  黄*/
+  position:absolute;
+  top:3px;
+  left:-10px;
+}
+
+.logistics-service-comment{
+  width: 357px;
+  padding-top: 21px;
+  padding-bottom: 27px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.logistics-service-comment-img{
+  width: 63px;
+  height: 63px;
+  border-radius: 50%;
+  background-color: #e8e8e8;
+  margin-left: 16px;
+  margin-right: 13px;
+  padding-top: 21px;
+  padding-left: 10px;
+  float: left;
+}
+
+.logistics-service-comment-word{
+  width: 265px;
+  line-height: 26px;
+  float: left;
+}
+
+.logistics-service-comment-word-top{
+  color: #333;
+  font-size: 14px;
+  margin-top: 7px;
+}
+
+.logistics-service-comment-word-bottm{
+  font-size: 12px;
+  color: #999;
+}
+
+.logistics-score-wrapper{
+  width: 840px;
+  padding: 46px 0;
+  box-sizing: border-box;
+  float: left;
 }

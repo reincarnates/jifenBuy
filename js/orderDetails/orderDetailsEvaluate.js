@@ -29,7 +29,7 @@ $(function () {
   /**
    * 评分功能
    */
-  var oStar = document.getElementById("star");
+  var oStar = document.querySelector(".star");
   var aLi = oStar.getElementsByTagName("li");
   var oUl = oStar.getElementsByTagName("ul")[0];
   var oSpan = document.querySelector('.goods-evaluate-span');
@@ -53,12 +53,12 @@ $(function () {
     //鼠标移过显示分数
     aLi[i - 1].onmouseover = function () {
       fnPoint(this.index);
-      //浮动层显示
-      oP.style.display = "block";
-      //计算浮动层位置
-      oP.style.left = oUl.offsetLeft + this.index * this.offsetWidth - 104 + "px";
-      //匹配浮动层文字内容
-      oP.innerHTML = "<em><b>" + this.index + "</b> 分 " + aMsg[this.index - 1].match(/(.+)\|/)[1] + "</em>" + aMsg[this.index - 1].match(/\|(.+)/)[1]
+      // //浮动层显示
+      // oP.style.display = "block";
+      // //计算浮动层位置
+      // oP.style.left = oUl.offsetLeft + this.index * this.offsetWidth - 104 + "px";
+      // //匹配浮动层文字内容
+      // oP.innerHTML = "<em><b>" + this.index + "</b> 分 " + aMsg[this.index - 1].match(/(.+)\|/)[1] + "</em>" + aMsg[this.index - 1].match(/\|(.+)/)[1]
     };
 
     //鼠标离开后恢复上次评分
@@ -72,8 +72,7 @@ $(function () {
     aLi[i - 1].onclick = function () {
       iStar = this.index;
       oP.style.display = "none";
-      console.log(oSpan);
-      oSpan.innerHTML = "<strong>" + (this.index) + " 分</strong> (" + aMsg[this.index - 1].match(/\|(.+)/)[1] + ")";
+      oSpan.innerHTML = "<strong>" + (this.index) + " 分</strong>";
     }
   }
 
