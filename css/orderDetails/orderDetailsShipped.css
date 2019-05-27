@@ -70,8 +70,59 @@
   z-index: 9;
 }
 
+.shipped-step-item2{
+  float: left;
+  width: 33%;
+  height: 88px;
+  padding-left: 10px;
+  z-index: 9;
+}
+
+.shipped-step-item3{
+  float: left;
+  width: 33%;
+  height: 88px;
+  padding-left: 10px;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.shipped-step-item4{
+  float: left;
+  width: 33%;
+  height: 88px;
+  padding-left: 10px;
+  z-index: 9;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.shipped-step-bg2{
+  width: 460px;
+  height: 1px;
+  /* border: 1px dashed #5dc442; */
+  border: 1px dashed #dbdbdb;
+  position: absolute;
+  top: 55px;
+  left: 65px;
+}
+
+.shipped-step-position2{
+  left: 575px;
+}
+
 .shipped-step-item-active{
   border-color: #65c74b !important;
+}
+
+.shipped-step-item-line2{
+  line-height: 40px !important;
+  margin-top: 5px;
 }
 
 .shipped-step-item-title{

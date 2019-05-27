@@ -11,11 +11,12 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   <meta name="format-detection" content="telephone=no" />
-  <title>已取消</title>
+  <title>我的收藏</title>
   <link rel="stylesheet" href="../../css/reset.css">
   <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../css/PersonalCenter/PersonalCenter.css">
   <link rel="stylesheet" href="../../css/headOrfooter/headOrfooter.css">
-  <link rel="stylesheet" href="../../css/orderDetails/orderDetailsShipped.css">
+  <link rel="stylesheet" href="../../css/followCenter/storeCollection.css">
 </head>
 
 <body>
@@ -336,143 +337,277 @@
   <!-- 导航end -->
 
   <!-- 内容 -->
-  <div class="shipped-container">
-    <div class="shipped-head">
-      <a href="#">当前位置：</a>
-      <a href="#" class="shipped-head-color">个人中心</a>
-      <span class="shipped-head-color">></span>
-      <a href="#" class="shipped-head-color">我的订单</a>
-      <span class="shipped-head-color">></span>
-      <a href="#">订单详情</a>
-    </div>
-    <div class="shipped-content-wrapper">
-      <div class="shipped-step-wrapper">
-        <div class="shipped-step-bg2 shipped-step-item-active"></div>
-        <div class="shipped-step-bg2 shipped-step-item-active shipped-step-position2"></div>
-        <ul class="shipped-step clearfix">
-          <li class="shipped-step-item2">
-            <div class="shipped-step-item-title">1.提交订单</div>
-            <div class="shipped-step-item-num">
-              <span class="shipped-step-item-active">
-                <img src="../../images/static/sub_order.png" alt="">
-              </span>
-            </div>
-          </li>
-          <li class="shipped-step-item3">
-            <div class="shipped-step-item-title">2.系统处理</div>
-            <div class="shipped-step-item-num">
-              <span class="shipped-step-item-active" style="line-height: 47px">
-                <img src="../../images/static/system.png" alt="">
-              </span>
-            </div>
-          </li>
-          <li class="shipped-step-item4">
-            <div class="shipped-step-item-title">3.完成</div>
-            <div class="shipped-step-item-num">
-              <span class="shipped-step-item-line2 shipped-step-item-active">
-                <img src="../../images/static/confirm_receipt2.png" alt="">
-              </span>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div class="shipped-current-status-wrapper clearfix">
-        <div class="shipped-current-status-left">
-          <div class="shipped-current-status">
-            <span class="shipped-current-status-icon"></span>
-            <span class="shipped-current-status-word">当前状态：订单已取消</span>
-          </div>
-          <div>
-            <span class="shipped-current-status-word2">您的订单已取消，如有需要可重新购买</span>
-          </div>
+  <div class="fuli-wrapper">
+    <div class="fuli-container">
+      <div class="personal clearfix">
+        <div class="menu2">
+          <dl class="list_dl">
+            <dt class="list_dt">
+              <span class="_after"></span>
+              <i class="list_dt_icon2"></i>
+              <p>订单中心</p>
+              <i class="list_dt_icon"></i>
+            </dt>
+            <dd class="list_dd">
+              <ul>
+                <li class="list_li">我的订单</li>
+                <li class="list_li">常购商品</li>
+              </ul>
+            </dd>
+            <dt class="list_dt">
+              <span class="_after"></span>
+              <i class="list_dt_icon2"></i>
+              <p>我的福利袋</p>
+              <i class="list_dt_icon"></i>
+            </dt>
+            <dd class="list_dd">
+              <ul>
+                <li class="list_li">余额</li>
+                <li class="list_li">积分</li>
+                <!-- <li class="list_li">红包</li>-->
+                <li class="list_li">代金券</li>
+                <!-- <li class="list_li">更多</li>  -->
+              </ul>
+            </dd>
+            <dt class="list_dt">
+              <span class="_after"></span>
+              <i class="list_dt_icon2"></i>
+              <p>账户管理</p>
+              <i class="list_dt_icon"></i>
+            </dt>
+            <dd class="list_dd">
+              <ul>
+                <li class="list_li">我的信息</li>
+                <li class="list_li">账户安全</li>
+                <li class="list_li">地址管理</li>
+              </ul>
+            </dd>
+            <dt class="list_dt">
+              <span class="_after"></span>
+              <i class="list_dt_icon2"></i>
+              <p>消息中心</p>
+              <i class="list_dt_icon"></i>
+            </dt>
+            <dd class="list_dd">
+              <ul>
+                <li class="list_li">活动公告</li>
+                <li class="list_li">交易物流</li>
+                <li class="list_li">系统消息</li>
+              </ul>
+            </dd>
+            <dt class="list_dt">
+              <span class="_after"></span>
+              <i class="list_dt_icon2"></i>
+              <p>个人服务</p>
+              <i class="list_dt_icon"></i>
+            </dt>
+            <dd class="list_dd">
+              <ul>
+                <li class="list_li">退款退货</li>
+                <!-- <li class="list_li">发票服务</li> -->
+                <li class="list_li">投诉举报</li>
+                <li class="list_li">意见反馈</li>
+                <!-- <li class="list_li">在线咨询</li> -->
+              </ul>
+            </dd>
+            <dt class="list_dt">
+              <span class="_after"></span>
+              <i class="list_dt_icon2"></i>
+              <p>关注中心</p>
+              <i class="list_dt_icon"></i>
+            </dt>
+            <dd class="list_dd">
+              <ul>
+                <li class="list_li">我的收藏</li>
+                <li class="list_li">到货通知</li>
+              </ul>
+            </dd>
+          </dl>
         </div>
-        <!-- <div class="shipped-current-status-receipt">确认收货</div> -->
-      </div>
-
-      <div class="shipped-order-wrapper">
-        <div class="shipped-order-head">
-          <span>订单号：81729851</span>
-          <span class="order-time">下单时间：2019-05-15 14:34:20</span>
-        </div>
-        <div class="shipped-order-content clearfix">
-          <div class="shipped-order-content-left">
-            <div class="shipped-order-name-wrapper">
-              <span class="shipped-order-name">收&nbsp;&nbsp;&nbsp;件&nbsp;&nbsp;&nbsp;人：</span>
-              <span class="shipped-order-name-content">李荣阳</span>
+        <div class="store-collection-wrapper">
+          <div class="account-head-wrapper">
+            <a href="#">账户管理</a>
+            <span>></span>
+            <a href="#">我的信息</a>
+            <span>></span>
+            <a href="#">基本信息</a>
+          </div>
+          <div class="store-collection-content">
+            <div class="store-collection-head clearfix">
+              <div class="store-collection-head-item">商品收藏(<span>8</span>)</div>
+              <div class="store-collection-head-item store-collection-head-item-active">店铺收藏(<span>8</span>)</div>
             </div>
-            <div class="shipped-order-name-wrapper">
-              <span class="shipped-order-name">联&nbsp;系&nbsp;方&nbsp;式：</span>
-              <span class="shipped-order-name-content">150***9999</span>
+            <div class="store-collection-show">1</div>
+            <div class="store-collection-show store-collection-hide">
+              <div class="store-collection-item clearfix">
+                <div class="store-collection-item-left">
+                  <div class="store-collection-item-left-img">
+                    <img src="../../images/static/aptamil.png" alt="">
+                  </div>
+                  <div class="store-collection-item-left-word">已收藏</div>
+                  <div class="cancel-collection">取消</div>
+                </div>
+                <div class="store-collection-item-right">
+                  <div class="store-collection-item-right-top clearfix">
+                    <div class="store-collection-item-right-name">Aptamial爱他美官方旗舰店</div>
+                    <div class="store-collection-item-right-more">
+                      <a href="#">查看更多</a>
+                      <span>></span>
+                    </div>
+                  </div>
+                  <div class="store-collection-item-right-content clearfix">
+                    <div class="store-collection-item-right-content-item">
+                      <div class="store-collection-item-right-content-item-img">
+                        <img src="../../images/static/collection_img.png" alt="">
+                      </div>
+                      <div class="store-collection-item-right-content-item-word">
+                        <a href="#">
+                          守护宝（上海中兴）angelcare L600 直板 按键 超长待机守护宝（上海中兴）angelcare L600 直板 按键 超长待机守护宝（上海中兴）angelcare L600 直板
+                          按键 超长待机
+                        </a>
+                      </div>
+                      <div class="store-collection-item-right-content-item-price">
+                        <span class="store-collection-new-price">￥999.00</span>
+                        <span class="store-collection-old-price">￥1011</span>
+                      </div>
+                    </div>
+                    <div class="store-collection-item-right-content-item">
+                      <div class="store-collection-item-right-content-item-img">
+                        <img src="../../images/static/collection_img.png" alt="">
+                      </div>
+                      <div class="store-collection-item-right-content-item-word">
+                        <a href="#">
+                          守护宝（上海中兴）angelcare L600 直板 按键 超长待机守护宝（上海中兴）angelcare L600 直板 按键 超长待机守护宝（上海中兴）angelcare L600 直板
+                          按键 超长待机
+                        </a>
+                      </div>
+                      <div class="store-collection-item-right-content-item-price">
+                        <span class="store-collection-new-price">￥999.00</span>
+                        <span class="store-collection-old-price">￥1011</span>
+                      </div>
+                    </div>
+                    <div class="store-collection-item-right-content-item">
+                      <div class="store-collection-item-right-content-item-img">
+                        <img src="../../images/static/collection_img.png" alt="">
+                      </div>
+                      <div class="store-collection-item-right-content-item-word">
+                        <a href="#">
+                          守护宝（上海中兴）angelcare L600 直板 按键 超长待机守护宝（上海中兴）angelcare L600 直板 按键 超长待机守护宝（上海中兴）angelcare L600 直板
+                          按键 超长待机
+                        </a>
+                      </div>
+                      <div class="store-collection-item-right-content-item-price">
+                        <span class="store-collection-new-price">￥999.00</span>
+                        <span class="store-collection-old-price">￥1011</span>
+                      </div>
+                    </div>
+                    <div class="store-collection-item-right-content-item">
+                      <div class="store-collection-item-right-content-item-img">
+                        <img src="../../images/static/collection_img.png" alt="">
+                      </div>
+                      <div class="store-collection-item-right-content-item-word">
+                        <a href="#">
+                          守护宝（上海中兴）angelcare L600 直板 按键 超长待机守护宝（上海中兴）angelcare L600 直板 按键 超长待机守护宝（上海中兴）angelcare L600 直板
+                          按键 超长待机
+                        </a>
+                      </div>
+                      <div class="store-collection-item-right-content-item-price">
+                        <span class="store-collection-new-price">￥999.00</span>
+                        <span class="store-collection-old-price">￥1011</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="store-collection-item clearfix">
+                <div class="store-collection-item-left">
+                  <div class="store-collection-item-left-img">
+                    <img src="../../images/static/huawei.png" alt="">
+                  </div>
+                  <div class="store-collection-item-left-word">已收藏</div>
+                  <div class="cancel-collection">取消</div>
+                </div>
+                <div class="store-collection-item-right">
+                  <div class="store-collection-item-right-top clearfix">
+                    <div class="store-collection-item-right-name">华为官方旗舰店</div>
+                    <div class="store-collection-item-right-more">
+                      <a href="#">查看更多</a>
+                      <span>></span>
+                    </div>
+                  </div>
+                  <div class="store-collection-item-right-content clearfix">
+                    <div class="store-collection-item-right-content-item">
+                      <div class="store-collection-item-right-content-item-img">
+                        <img src="../../images/static/collection_img.png" alt="">
+                      </div>
+                      <div class="store-collection-item-right-content-item-word">
+                        <a href="#">
+                          守护宝（上海中兴）angelcare L600 直板 按键 超长待机守护宝（上海中兴）angelcare L600 直板 按键 超长待机守护宝（上海中兴）angelcare L600 直板
+                          按键 超长待机
+                        </a>
+                      </div>
+                      <div class="store-collection-item-right-content-item-price">
+                        <span class="store-collection-new-price">￥999.00</span>
+                        <span class="store-collection-old-price">￥1011</span>
+                      </div>
+                    </div>
+                    <div class="store-collection-item-right-content-item">
+                      <div class="store-collection-item-right-content-item-img">
+                        <img src="../../images/static/collection_img.png" alt="">
+                      </div>
+                      <div class="store-collection-item-right-content-item-word">
+                        <a href="#">
+                          守护宝（上海中兴）angelcare L600 直板 按键 超长待机守护宝（上海中兴）angelcare L600 直板 按键 超长待机守护宝（上海中兴）angelcare L600 直板
+                          按键 超长待机
+                        </a>
+                      </div>
+                      <div class="store-collection-item-right-content-item-price">
+                        <span class="store-collection-new-price">￥999.00</span>
+                        <span class="store-collection-old-price">￥1011</span>
+                      </div>
+                    </div>
+                    <div class="store-collection-item-right-content-item">
+                      <div class="store-collection-item-right-content-item-img">
+                        <img src="../../images/static/collection_img.png" alt="">
+                      </div>
+                      <div class="store-collection-item-right-content-item-word">
+                        <a href="#">
+                          守护宝（上海中兴）angelcare L600 直板 按键 超长待机守护宝（上海中兴）angelcare L600 直板 按键 超长待机守护宝（上海中兴）angelcare L600 直板
+                          按键 超长待机
+                        </a>
+                      </div>
+                      <div class="store-collection-item-right-content-item-price">
+                        <span class="store-collection-new-price">￥999.00</span>
+                        <span class="store-collection-old-price">￥1011</span>
+                      </div>
+                    </div>
+                    <div class="store-collection-item-right-content-item">
+                      <div class="store-collection-item-right-content-item-img">
+                        <img src="../../images/static/collection_img.png" alt="">
+                      </div>
+                      <div class="store-collection-item-right-content-item-word">
+                        <a href="#">
+                          守护宝（上海中兴）angelcare L600 直板 按键 超长待机守护宝（上海中兴）angelcare L600 直板 按键 超长待机守护宝（上海中兴）angelcare L600 直板
+                          按键 超长待机
+                        </a>
+                      </div>
+                      <div class="store-collection-item-right-content-item-price">
+                        <span class="store-collection-new-price">￥999.00</span>
+                        <span class="store-collection-old-price">￥1011</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="shipped-order-name-wrapper">
-              <span class="shipped-order-name">收&nbsp;货&nbsp;地&nbsp;址：</span>
-              <span class="shipped-order-name-content">北京市北京市门头沟区大峪街道云泽嘉苑小区4-1号楼 1508</span>
-            </div>
-          </div>
-          <div class="shipped-order-content-right">
-            <div class="shipped-order-settlement">
-              <span class="shipped-order-settlement-name">商品合计：</span>
-              <span class="shipped-order-settlement-content">￥526.00</span>
-            </div>
-            <div class="shipped-order-settlement">
-              <span class="shipped-order-settlement-name">运费：</span>
-              <span class="shipped-order-settlement-content">￥0.00</span>
-            </div>
-            <div class="shipped-order-settlement mar-tw">
-              <span class="shipped-order-settlement-name">实付：</span>
-              <span class="shipped-order-settlement-content shipped-order-settlement-color">￥395.70</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="shipped-order-goods-wrapper">
-        <div class="shipped-order-goods-head">
-          <span class="shipped-order-goods-head-info">商品信息</span>
-          <span class="shipped-order-goods-head-weight">重量</span>
-          <span class="shipped-order-goods-head-price">售价</span>
-          <span class="shipped-order-goods-head-number2">数量</span>
-          <span class="shipped-order-goods-head-setting">操作</span>
-        </div>
-        <div class="shipped-order-goods-address">
-          <img src="../../images/static/order_address.png" class="shipped-order-goods-address-img" alt="">
-          <span>发货地：朝阳区建国门外</span>
-        </div>
-        <div class="shipped-order-goods-item-wrapper clearfix">
-          <div class="shipped-order-goods-item-img">
-            <img src="../../images/static/myphone2.png" alt="">
-          </div>
-          <div class="shipped-order-goods-item-introduce">
-            <a href="#">
-              【耳机套装】vivo U1 水滴全面屏 AI智慧拍照手机  3GB+64GB 极光色 移动联通电信全网通4G手机
-            </a>
-          </div>
-          <div class="shipped-order-goods-item-weight">0.18kg</div>
-          <div class="shipped-order-goods-item-price">178.00</div>
-          <div class="shipped-order-goods-item-number2">1</div>
-          <div class="shipped-order-goods-item-setting">
-            <a href="#">重新购买</a>
-          </div>
-        </div>
-        <div class="shipped-order-goods-item-wrapper clearfix">
-          <div class="shipped-order-goods-item-img">
-            <img src="../../images/static/myphone2.png" alt="">
-          </div>
-          <div class="shipped-order-goods-item-introduce">
-            <a href="#">
-              【耳机套装】vivo U1 水滴全面屏 AI智慧拍照手机  3GB+64GB 极光色 移动联通电信全网通4G手机
-            </a>
-          </div>
-          <div class="shipped-order-goods-item-weight">0.18kg</div>
-          <div class="shipped-order-goods-item-price">178.00</div>
-          <div class="shipped-order-goods-item-number2">1</div>
-          <div class="shipped-order-goods-item-setting">
-            <a href="#">重新购买</a>
           </div>
         </div>
       </div>
     </div>
   </div>
   <!-- 内容end -->
+
+  <div class="seat"></div>
 
   <!-- 底部 -->
   <div class="footer">
@@ -704,6 +839,7 @@
 
   <script src="../../lib/jq/jquery.old.js"></script>
   <script src="../../js/index/index.js"></script>
+  <script src="../../js/followCenter/storeCollection.js"></script>
 </body>
 
 </html>
