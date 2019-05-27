@@ -159,9 +159,9 @@
   float: left;
 }
 
-.star{position:relative;width:600px;margin:0 auto;height:24px;}
+.star{position:relative;margin:0 auto;height:24px;}
 
-.star ul,.star span{float:left;display:inline;height:19px;line-height:19px;}
+.star ul,.star span{float:left;display:inline;height:19px;line-height:19px;margin-right: 15px;}
 
 .star ul{margin:0 10px;}
 
@@ -351,4 +351,325 @@
   padding: 46px 0;
   box-sizing: border-box;
   float: left;
+}
+
+.logistics-score-item{
+  float: left;
+}
+
+.goods-comment-wrapper{
+  width: 100%;
+  border-style: solid;
+  border-color: #ddd;
+  border-width: 0 1px 1px 1px;
+}
+
+.goods-comment-item{
+  width: 100%;
+  height: 341px;
+  border-bottom: 1px dashed #ddd;
+  padding-top: 35px;
+  box-sizing: border-box;
+}
+
+.goods-comment-item:last-child{
+  border-bottom: none;
+}
+
+.goods-comment-item-left{
+  width: 184px;
+  height: 305px;
+  /* padding-left: 19px; */
+  box-sizing: border-box;
+  float: left;
+}
+
+.goods-comment-item-left-img{
+  width: 126px;
+  height: 126px;
+  border: 1px solid #ddd;
+  padding-top: 20px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  margin-left: 19px;
+}
+
+.goods-comment-item-left-suggest{
+  /* width: 146px; */
+  line-height: 25px;
+  color: #333;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-left: 12px;
+}
+
+.goods-comment-item-left-suggest a:hover{
+  color: #e98930;
+  text-decoration: underline;
+}
+
+.goods-comment-item-left-norms{
+  color: #333;
+  font-size: 12px;
+  margin-left: 12px;
+  line-height: 23px;
+}
+
+.goods-comment-item-left-info{
+  color: #666;
+  font-size: 12px;
+  margin-left: 12px;
+  line-height: 23px;
+}
+
+.goods-comment-item-right{
+  width: 1014px;
+  height: 305px;
+  float: left;
+}
+
+.goods-comment-item-right-word{
+  color: #333;
+  font-size: 14px;
+  float: left;
+}
+
+.goods-comment-item-right-word span{
+  color: #ff5826;
+}
+
+.goods-comment-item-right-comment{
+  float: left;
+}
+
+.goods-comment-item-right-input{
+  position: relative;
+  margin-top: 17px;
+}
+
+.goods-comment-item-right-input textarea{
+  width: 950px;
+  height: 136px;
+  border: 1px solid #ddd;
+  padding-top: 20px;
+  padding-left: 11px;
+  color: #999;
+  font-size: 14px;
+  outline: none;
+}
+
+.goods-comment-word-number{
+  position: absolute;
+  right: 63px;
+  bottom: -15px;
+}
+
+.goods-comment-item-right-upload-wrapper{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.goods-comment-item-right-upload-btn{
+  width: 56px;
+  height: 56px;
+  border: 1px solid #ddd;
+  padding-top: 17px;
+  padding-left: 17px;
+  box-sizing: border-box;
+  cursor: pointer;
+  float: left;
+}
+
+.goods-comment-item-right-upload-number{
+  color: #666;
+  font-size: 12px;
+  line-height: 56px;
+  margin-left: 10px;
+  float: left;
+}
+
+.goods-comment-item-right-upload-suggest{
+  float: left;
+  color: #999;
+  line-height: 56px;
+  margin-left: 23px;
+  font-size: 12px;
+}
+
+.goods-comment-item-right-comment-wrapper{
+  position: relative;
+}
+
+.goods-comment-item-right-comment-btn{
+  width: 100px;
+  height: 32px;
+  background-color: #ff5826;
+  text-align: center;
+  line-height: 32px;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.goods-comment-item-right-not-comment{
+  padding-left: 36px;
+  position: absolute;
+  top: 0;
+  left: 100px;
+  color: #ff5826;
+  font-size: 14px;
+  line-height: 32px;
+  background: url(../../images/static/not_comment.png) no-repeat;
+  background-position: 15px 8px;
+  display: none;
+}
+
+.comments{position:relative;margin:0 auto;height:24px;}
+
+.comments ul,.comment span{float:left;display:inline;height:19px;line-height:19px;margin-right: 15px;}
+
+.comments ul{margin:0 10px;}
+
+.comments li{float:left;width:24px;cursor:pointer;text-indent:-9999px;background:url(../../images/static/star.png) no-repeat;}
+
+.comments strong{color:#f60;}
+
+.comments li.on{background-position:0 -28px;}
+
+.comments p{position:absolute;top:20px;width:159px;height:60px;display:none;background:url(../../images/static/icon.gif) no-repeat;padding:7px 10px 0;font-size: 12px;}
+
+.comments p em{color:#f60;display:block;font-style:normal;font-size: 14px;}
+
+.comment-mask-warpper{
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, .3);
+  z-index: 999;
+  display: none;
+}
+
+.comment-mask{
+  width: 527px;
+  height: 236px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -263px;
+  margin-top: -118px;
+  background-color: #fff;
+}
+
+.comment-mask-head{
+  width: 100%;
+  line-height: 53px;
+  border-bottom: 1px dashed #d1d1d1;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+.comment-mask-head-word{
+  color: #999;
+  font-size: 18px;
+  float: left;
+}
+
+.comment-mask-head-img{
+  float: right;
+  cursor: pointer;
+}
+
+.comment-mask-head-img img{
+  vertical-align: middle;
+}
+
+.comment-mask-content{
+  text-align: center;
+  padding-left: 26px;
+  line-height: 38px;
+  color: #333;
+  font-size: 16px;
+  background: url(../../images/static/set_payment_success.png) no-repeat;
+  background-position: 160px 8px;
+  margin-top: 36px;
+  box-sizing: border-box;
+}
+
+.comment-mask-btn{
+  width: 125px;
+  height: 43px;
+  border: 1px solid #d1d1d1;
+  text-align: center;
+  line-height: 41px;
+  color: #333;
+  font-size: 14px;
+  margin: 0 auto;
+  margin-top: 43px;
+  cursor: pointer;
+}
+
+.comment-mask-btn:hover{
+  background-color: #e98930;
+  border-color: #e98930;
+  color: #fff;
+}
+
+.comment-mask-warpper2{
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, .3);
+  z-index: 999;
+  /* display: none; */
+}
+
+.comment-mask-btn-wrapper{
+  width: 279px;
+  height: 43px;
+  margin: 0 auto;
+  margin-top: 43px;
+}
+
+.continue-comment{
+  width: 125px;
+  height: 43px;
+  background-color: #ff5826;
+  text-align: center;
+  line-height: 43px;
+  color: #fff;
+  font-size: 14px;
+  margin-right: 29px;
+  cursor: pointer;
+  float: left;
+}
+
+.continue-comment:hover{
+  opacity: .8;
+}
+
+.comment-mask-btn2{
+  width: 125px;
+  height: 43px;
+  border: 1px solid #d1d1d1;
+  text-align: center;
+  line-height: 41px;
+  color: #333;
+  font-size: 14px;
+  cursor: pointer;
+  float: left;
+}
+
+.comment-mask-btn2:hover{
+  background-color: #e98930;
+  border-color: #e98930;
+  color: #fff;
+}
+
+.comment-mask-content-position{
+  background-position: 105px 8px;
 }

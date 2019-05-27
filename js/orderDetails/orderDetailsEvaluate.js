@@ -1,7 +1,7 @@
 $(function () {
 
   //评价上传弹出上传头像对话框
-  $('.evaluate-upload-right').click(function () {
+  $('.goods-comment-item-right-upload-btn').click(function () {
     return $('#evaluateUpload').click(); //注意这句，主要是需要return点击事件返回值
   });
 
@@ -22,14 +22,25 @@ $(function () {
   });
 
   //发表评价
-  $('.spoke-evaluate-btn').on('click', function () {
+  $(document).on('click','.goods-comment-item-right-comment-btn', function () {
+    var textareaVal = $(this).parent('.goods-comment-item-right-comment-wrapper').siblings('.goods-comment-item-right-input').find('textarea').val();
+    if(textareaVal == '') {
+      $('.goods-comment-item-right-not-comment').show();
+      return false;
+    }else{
+      $('.goods-comment-item-right-not-comment').hide();
+    }
+  });
 
+  //textarea字数变化
+  $(document).on('keyup','.wordNumber', function() {
+    $(this).siblings('.goods-comment-word-number').find('.goods-comment-word-numbers').text($(this).val().length)
   });
 
   /**
-   * 评分功能
+   * 快递包装评分
    */
-  var oStar = document.querySelector(".star");
+  var oStar = document.getElementById("star");
   var aLi = oStar.getElementsByTagName("li");
   var oUl = oStar.getElementsByTagName("ul")[0];
   var oSpan = document.querySelector('.goods-evaluate-span');
@@ -77,12 +88,121 @@ $(function () {
   }
 
 
-  //评分处理
+  /**
+   * 送货速度评分
+   */
+  var oLogistics = document.getElementById("logistics");
+  var LogLi = oLogistics.getElementsByTagName("li");
+  var LogSpan = document.querySelector('.logistics-evaluate-span');
+  var LogP = oLogistics.querySelector(".logisticsP");
+  for (i = 1; i <= LogLi.length; i++) {
+    LogLi[i - 1].index = i;
+    //鼠标移过显示分数
+    LogLi[i - 1].onmouseover = function () {
+      fnPoint2(this.index);
+    };
+
+    //鼠标离开后恢复上次评分
+    LogLi[i - 1].onmouseout = function () {
+      fnPoint2();
+      //关闭浮动层
+      LogP.style.display = "none"
+    };
+
+    //点击后进行评分处理
+    LogLi[i - 1].onclick = function () {
+      iStar = this.index;
+      LogP.style.display = "none";
+      LogSpan.innerHTML = "<strong>" + (this.index) + " 分</strong>";
+    }
+  }
+
+  /**
+   * 配送服务员评分
+   */
+  var oDeliveryistics = document.getElementById("DeliveryService");
+  var DeliveryLi = oDeliveryistics.getElementsByTagName("li");
+  var DeliverySpan = document.querySelector('.Delivery-evaluate-span');
+  var DeliveryP = oDeliveryistics.querySelector(".DeliveryServiceP");
+  for (i = 1; i <= DeliveryLi.length; i++) {
+    DeliveryLi[i - 1].index = i;
+    //鼠标移过显示分数
+    DeliveryLi[i - 1].onmouseover = function () {
+      fnPoint3(this.index);
+    };
+
+    //鼠标离开后恢复上次评分
+    DeliveryLi[i - 1].onmouseout = function () {
+      fnPoint3();
+      //关闭浮动层
+      DeliveryP.style.display = "none"
+    };
+
+    //点击后进行评分处理
+    DeliveryLi[i - 1].onclick = function () {
+      iStar = this.index;
+      DeliveryP.style.display = "none";
+      DeliverySpan.innerHTML = "<strong>" + (this.index) + " 分</strong>";
+    }
+  }
+
+
+  /**
+   * 商品评分
+   */
+  var oComment = document.querySelector('.comments');
+  var CommentLi = oComment.getElementsByTagName("li");
+  var CommentSpan = oComment.querySelector('.Delivery-evaluate-span');
+  var CommentP = oComment.querySelector(".DeliveryServiceP");
+  for (i = 1; i <= CommentLi.length; i++) {
+    CommentLi[i - 1].index = i;
+    //鼠标移过显示分数
+    CommentLi[i - 1].onmouseover = function () {
+      fnPoint4(this.index);
+    };
+
+    //鼠标离开后恢复上次评分
+    CommentLi[i - 1].onmouseout = function () {
+      fnPoint4();
+      //关闭浮动层
+      CommentP.style.display = "none"
+    };
+
+    //点击后进行评分处理
+    CommentLi[i - 1].onclick = function () {
+      iStar = this.index;
+      CommentP.style.display = "none";
+      CommentSpan.innerHTML = "<strong>" + (this.index) + " 分</strong>";
+    }
+  }
+
+
+  //快递包装评分处理
   function fnPoint(iArg) {
     //分数赋值
     iScore = iArg || iStar;
     for (i = 0; i < aLi.length; i++) aLi[i].className = i < iScore ? "on" : "";
   }
 
+  //送货速度评分处理
+  function fnPoint2(iArg) {
+    //分数赋值
+    iScore = iArg || iStar;
+    for (i = 0; i < LogLi.length; i++) LogLi[i].className = i < iScore ? "on" : "";
+  }
+
+  //配送服务员评分处理
+  function fnPoint3(iArg) {
+    //分数赋值
+    iScore = iArg || iStar;
+    for (i = 0; i < DeliveryLi.length; i++) DeliveryLi[i].className = i < iScore ? "on" : "";
+  }
+
+  //商品评分处理
+  function fnPoint4(iArg) {
+    //分数赋值
+    iScore = iArg || iStar;
+    for (i = 0; i < CommentLi.length; i++) CommentLi[i].className = i < iScore ? "on" : "";
+  }
 
 })

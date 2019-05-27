@@ -11,11 +11,12 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   <meta name="format-detection" content="telephone=no" />
-  <title>评价</title>
+  <title>查看评价详情</title>
   <link rel="stylesheet" href="../../css/reset.css">
   <link rel="stylesheet" href="../../css/style.css">
   <link rel="stylesheet" href="../../css/headOrfooter/headOrfooter.css">
   <link rel="stylesheet" href="../../css/orderDetails/orderDetailsEvaluate.css">
+  <link rel="stylesheet" href="../../css/orderDetails/checkCommentDetail.css">
 </head>
 
 <body>
@@ -346,8 +347,7 @@
       <a href="#">评价</a>
     </div>
     <div class="evaluate-tips-wrapper">
-      <span>评价小贴士</span>
-      <span class="evaluate-tips">发表评价，与其他用户分享您的购物体验！</span>
+      <span class="comment-tips">评价详情</span>
     </div>
 
     <div class="logistics-service-wrapper clearfix">
@@ -362,7 +362,7 @@
         </div>
         <div class="logistics-service-comment-word">
           <div class="logistics-service-comment-word-top">物流服务评价</div>
-          <div class="logistics-service-comment-word-bottm">对物流服务还满意吗？评价一下吧！</div>
+          <div class="logistics-service-comment-word-bottm">感谢您的评价我们会继续努力</div>
         </div>
       </div>
       <div class="logistics-score-wrapper clearfix">
@@ -458,26 +458,33 @@
               </div>
             </div>
           </div>
-          <div class="goods-comment-item-right-input">
-            <textarea style="resize: none" placeholder="填写高质量的评价与他人分享"  maxlength="300" onchange="this.value=this.value.substring(0, 300)" onkeydown="this.value=this.value.substring(0, 300)" onkeyup="this.value=this.value.substring(0, 300)" class="wordNumber"></textarea>
-            <span class="goods-comment-word-number">
-              <span class="goods-comment-word-numbers">0</span>
-              /300
-            </span>
-          </div>
-          <div class="goods-comment-item-right-upload-wrapper clearfix">
-            <div class="goods-comment-item-right-upload-btn">
-              <img src="../../images/static/upload_btn.png" alt="">
+          <div class="goods-comment-item-content">
+            <span>质量很好，还会继续购买</span>
+            <div class="goods-comment-item-content-img-wrapper clearfix">
+              <div class="goods-comment-item-content-img-item">
+                <img src="../../images/static/comment_img.png" class="goods-comment-item-content-img-item-size" alt="">
+              </div>
+              <div class="goods-comment-item-content-img-item">
+                <img src="../../images/static/01.jpg" class="goods-comment-item-content-img-item-size" alt="">
+              </div>
+              <div class="goods-comment-item-content-img-item">
+                <img src="../../images/static/microsoft.jpg" class="goods-comment-item-content-img-item-size" alt="">
+              </div>
+              <div class="goods-comment-item-content-img-item">
+                <img src="../../images/static/Lipstick.png" class="goods-comment-item-content-img-item-size" alt="">
+              </div>
+              <div class="goods-comment-item-content-img-item">
+                <img src="../../images/static/hot01.png" class="goods-comment-item-content-img-item-size" alt="">
+              </div>
+              <div class="goods-comment-item-content-img-item-mask">
+                <img src="../../images/static/comment_close.png" class="goods-comment-item-content-img-item-mask-close" alt="">
+                <img src="" class="comment-img" alt="">
+                <div class="comment-btn comment-btn-prev"><</div>
+                <div class="comment-btn comment-btn-next">></div>
+              </div>
             </div>
-            <input type="file" name="evaluateUpload" id="evaluateUpload" style="display:none">
-            <span class="goods-comment-item-right-upload-number">0/5</span>
-            <span class="goods-comment-item-right-upload-suggest">每张不超过5M，支持格式jpg，jpeg，bmp，png</span>
-          </div>
-          <div class="goods-comment-item-right-comment-wrapper">
-            <div class="goods-comment-item-right-comment-btn">提交</div>
-            <div class="goods-comment-item-right-not-comment">
-              请填写评价
-            </div>
+            <div class="goods-comment-item-content-time">2019-05-24 16:28:06</div>
+            <div class="goods-comment-item-content-btn">追评</div>
           </div>
         </div>
       </div>
@@ -566,43 +573,6 @@
     </div> -->
   </div>
   <!-- 内容end -->
-
-  <!-- 评价已完成 -->
-  <div class="comment-mask-warpper">
-    <div class="comment-mask">
-      <div class="comment-mask-head clearfix">
-        <div class="comment-mask-head-word">提示</div>
-        <div class="comment-mask-head-img">
-          <img src="../../images/static/madel_close.png" alt="">
-        </div>
-      </div>
-      <div class="comment-mask-content">
-        评价已完成，感谢评价！
-      </div>
-      <div class="comment-mask-btn">查看评价详情</div>
-    </div>
-  </div>
-  <!-- 评价已完成end -->
-
-  <!-- 评价已完成（一个订单多个商品） -->
-  <div class="comment-mask-warpper2">
-    <div class="comment-mask">
-      <div class="comment-mask-head clearfix">
-        <div class="comment-mask-head-word">提示</div>
-        <div class="comment-mask-head-img">
-          <img src="../../images/static/madel_close.png" alt="">
-        </div>
-      </div>
-      <div class="comment-mask-content comment-mask-content-position">
-        评价完成，此订单还有其他商品待评价！
-      </div>
-      <div class="comment-mask-btn-wrapper clearfix">
-        <div class="continue-comment">继续评价</div>
-        <div class="comment-mask-btn2">查看评价详情</div>
-      </div>
-    </div>
-  </div>
-  <!-- 评价已完成（一个订单多个商品）end -->
 
   <!-- 底部 -->
   <div class="footer">
@@ -834,7 +804,7 @@
 
   <script src="../../lib/jq/jquery.old.js"></script>
   <script src="../../js/index/index.js"></script>
-  <script src="../../js/orderDetails/orderDetailsEvaluate.js"></script>
+  <script src="../../js/orderDetails/checkCommentDetail.js"></script>
 
 </body>
 

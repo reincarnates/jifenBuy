@@ -11,11 +11,12 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   <meta name="format-detection" content="telephone=no" />
-  <title>评价</title>
+  <title>意见反馈</title>
   <link rel="stylesheet" href="../../css/reset.css">
   <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../css/PersonalCenter/PersonalCenter.css">
   <link rel="stylesheet" href="../../css/headOrfooter/headOrfooter.css">
-  <link rel="stylesheet" href="../../css/orderDetails/orderDetailsEvaluate.css">
+  <link rel="stylesheet" href="../../css/feedback/feedback.css">
 </head>
 
 <body>
@@ -336,273 +337,157 @@
   <!-- 导航end -->
 
   <!-- 内容 -->
-  <div class="evaluate-wrapper">
-    <div class="evaluate-head">
-      <a href="#">当前位置：</a>
-      <a href="#" class="shipped-head-color">个人中心</a>
-      <span class="shipped-head-color">></span>
-      <a href="#" class="shipped-head-color">我的订单</a>
-      <span class="shipped-head-color">></span>
-      <a href="#">评价</a>
-    </div>
-    <div class="evaluate-tips-wrapper">
-      <span>评价小贴士</span>
-      <span class="evaluate-tips">发表评价，与其他用户分享您的购物体验！</span>
-    </div>
-
-    <div class="logistics-service-wrapper clearfix">
-      <div class="triangle">
-        <div class="triangle_border_up3">
-          <span></span>
-        </div>
-      </div>
-      <div class="logistics-service-comment clearfix">
-        <div class="logistics-service-comment-img">
-          <img src="../../images/static/logistics_cart.png" alt="">
-        </div>
-        <div class="logistics-service-comment-word">
-          <div class="logistics-service-comment-word-top">物流服务评价</div>
-          <div class="logistics-service-comment-word-bottm">对物流服务还满意吗？评价一下吧！</div>
-        </div>
-      </div>
-      <div class="logistics-score-wrapper clearfix">
-        <div class="logistics-score-item clearfix">
-          <div class="goods-evaluate-left">
-            快递包裹
-          </div>
-          <div class="goods-evaluate-right">
-            <div class="star" id="star">
+  <div class="fuli-wrapper">
+    <div class="fuli-container">
+      <div class="personal clearfix">
+        <div class="menu2">
+          <dl class="list_dl">
+            <dt class="list_dt">
+              <span class="_after"></span>
+              <i class="list_dt_icon2"></i>
+              <p>订单中心</p>
+              <i class="list_dt_icon"></i>
+            </dt>
+            <dd class="list_dd">
               <ul>
-                <li><a href="javascript:;">1</a></li>
-                <li><a href="javascript:;">2</a></li>
-                <li><a href="javascript:;">3</a></li>
-                <li><a href="javascript:;">4</a></li>
-                <li><a href="javascript:;">5</a></li>
+                <li class="list_li">我的订单</li>
+                <li class="list_li">常购商品</li>
               </ul>
-              <span class="goods-evaluate-span"></span>
-              <p></p>
-            </div>
-          </div>
-        </div>
-        <div class="logistics-score-item clearfix">
-          <div class="goods-evaluate-left">
-            送货速度
-          </div>
-          <div class="goods-evaluate-right">
-            <div class="star" id="logistics">
+            </dd>
+            <dt class="list_dt">
+              <span class="_after"></span>
+              <i class="list_dt_icon2"></i>
+              <p>我的福利袋</p>
+              <i class="list_dt_icon"></i>
+            </dt>
+            <dd class="list_dd">
               <ul>
-                <li><a href="javascript:;">1</a></li>
-                <li><a href="javascript:;">2</a></li>
-                <li><a href="javascript:;">3</a></li>
-                <li><a href="javascript:;">4</a></li>
-                <li><a href="javascript:;">5</a></li>
+                <li class="list_li">余额</li>
+                <li class="list_li">积分</li>
+                <!-- <li class="list_li">红包</li>-->
+                <li class="list_li">代金券</li>
+                <!-- <li class="list_li">更多</li>  -->
               </ul>
-              <span class="logistics-evaluate-span"></span>
-              <p class="logisticsP"></p>
-            </div>
-          </div>
-        </div>
-        <div class="logistics-score-item clearfix">
-          <div class="goods-evaluate-left">
-            配送员服务
-          </div>
-          <div class="goods-evaluate-right">
-            <div class="star" id="DeliveryService">
+            </dd>
+            <dt class="list_dt">
+              <span class="_after"></span>
+              <i class="list_dt_icon2"></i>
+              <p>账户管理</p>
+              <i class="list_dt_icon"></i>
+            </dt>
+            <dd class="list_dd">
               <ul>
-                <li><a href="javascript:;">1</a></li>
-                <li><a href="javascript:;">2</a></li>
-                <li><a href="javascript:;">3</a></li>
-                <li><a href="javascript:;">4</a></li>
-                <li><a href="javascript:;">5</a></li>
+                <li class="list_li">我的信息</li>
+                <li class="list_li">账户安全</li>
+                <li class="list_li">地址管理</li>
               </ul>
-              <span class="Delivery-evaluate-span"></span>
-              <p class="DeliveryServiceP"></p>
-            </div>
-          </div>
+            </dd>
+            <dt class="list_dt">
+              <span class="_after"></span>
+              <i class="list_dt_icon2"></i>
+              <p>消息中心</p>
+              <i class="list_dt_icon"></i>
+            </dt>
+            <dd class="list_dd">
+              <ul>
+                <li class="list_li">活动公告</li>
+                <li class="list_li">交易物流</li>
+                <li class="list_li">系统消息</li>
+              </ul>
+            </dd>
+            <dt class="list_dt">
+              <span class="_after"></span>
+              <i class="list_dt_icon2"></i>
+              <p>个人服务</p>
+              <i class="list_dt_icon"></i>
+            </dt>
+            <dd class="list_dd">
+              <ul>
+                <li class="list_li">退款退货</li>
+                <!-- <li class="list_li">发票服务</li> -->
+                <li class="list_li">投诉举报</li>
+                <li class="list_li">意见反馈</li>
+                <!-- <li class="list_li">在线咨询</li> -->
+              </ul>
+            </dd>
+            <dt class="list_dt">
+              <span class="_after"></span>
+              <i class="list_dt_icon2"></i>
+              <p>关注中心</p>
+              <i class="list_dt_icon"></i>
+            </dt>
+            <dd class="list_dd">
+              <ul>
+                <li class="list_li">我的收藏</li>
+                <li class="list_li">到货通知</li>
+              </ul>
+            </dd>
+          </dl>
         </div>
-      </div>
-    </div>
-
-    <div class="goods-comment-wrapper">
-      <div class="goods-comment-item clearfix">
-        <div class="goods-comment-item-left">
-          <div class="goods-comment-item-left-img">
-            <img src="../../images/static/naifen.png" alt="">
+        <div class="fuli-personal-feedback-wrapper">
+          <div class="personal-feedback-head">
+            <h2 class="personal-feedback-head-title">阳光福利购反馈问卷</h2>
+            <p class="personal-feedback-head-content">亲爱的用户，请您将使用此页面之后的意见和建议告诉我们，以便我们更好地改进产品 为您提供更好的服务。谢谢您的支持！</p>
           </div>
-          <div class="goods-comment-item-left-suggest">
-            <a href="#">Aptamil 爱他美（德国） 白金版3段幼儿配方奶粉</a>
-          </div>
-          <div class="goods-comment-item-left-norms">900克 4罐装 12-36个月</div>
-          <div class="goods-comment-item-left-info">净含量：900克 系列：白金</div>
-          <div class="goods-comment-item-left-info">适用阶段：三段</div>
-        </div>
-        <div class="goods-comment-item-right">
-          <div class="goods-comment-item-right-top clearfix">
-            <div class="goods-comment-item-right-word">
-              <span>*</span>
-              评分：
+          <div class="personal-feedback-content">
+            <div class="personal-feedback-frist-term">
+              <div class="personal-feedback-frist-term-title">
+                <span class="must-fill">*</span>1.您在使用“ 当前页面”时，遇到的任何问题、意见或建议，请告诉我们。（请填写）
+              </div>
+              <div class="personal-feedback-frist-term-service">
+                <form>
+                  <textarea style="resize:none" class="personal-feedback-frist-term-textarea"
+                    placeholder="根据您的实际情况填写即可，没有对错之分。"></textarea>
+                </form>
+              </div>
             </div>
-            <div class="goods-comment-item-right-comment">
-              <div class="goods-evaluate-right">
-                <div class="comments">
-                  <ul>
-                    <li><a href="javascript:;">1</a></li>
-                    <li><a href="javascript:;">2</a></li>
-                    <li><a href="javascript:;">3</a></li>
-                    <li><a href="javascript:;">4</a></li>
-                    <li><a href="javascript:;">5</a></li>
-                  </ul>
-                  <span class="Delivery-evaluate-span"></span>
-                  <p class="DeliveryServiceP"></p>
-                </div>
+            <div class="personal-feedback-second-term">
+              <div class="personal-feedback-frist-term-title">
+                <span class="must-fill">*</span>2.如果用图片来说明问题，请上传（最多3张哦）
+              </div>
+              <div class="personal-feedback-second-term-service">
+                <img src="../../images/static/upload_img_03.png" alt="">
+              </div>
+              <input type="file" name="file" id="upload" style="display:none" />
+              <div id="upload-btn" name="file">上传照片</div>
+            </div>
+            <div class="personal-feedback-frist-term">
+              <div class="personal-feedback-frist-term-title">
+                <span class="must-fill">*</span>3.请选择反馈类型
+              </div>
+              <div class="personal-feedback-third-term-service">
+                <div class="personal-feedback-third-term-service-item">商品相关</div>
+                <div class="personal-feedback-third-term-service-item">物流状况</div>
+                <div class="personal-feedback-third-term-service-item">客户服务</div>
+                <div class="personal-feedback-third-term-service-item">功能异常</div>
+                <div class="personal-feedback-third-term-service-item">产品意见</div>
+                <div class="personal-feedback-third-term-service-item">其他</div>
+              </div>
+            </div>
+            <div class="personal-feedback-frist-term">
+              <div class="personal-feedback-frist-term-title">
+                <span class="must-fill">*</span>4.请留下您的信息，以便我们及时反馈
+              </div>
+              <div class="personal-feedback-fourth-term-service">
+                <form class="clearfix">
+                  <div class="you-phone-word">
+                    <label for="">您的手机：</label>
+                  </div>
+                  <div class="you-phone">
+                    <input type="text" />
+                  </div>
+                </form>
+                <div class="personal-feedback-fourth-term-submit">提交</div>
               </div>
             </div>
           </div>
-          <div class="goods-comment-item-right-input">
-            <textarea style="resize: none" placeholder="填写高质量的评价与他人分享"  maxlength="300" onchange="this.value=this.value.substring(0, 300)" onkeydown="this.value=this.value.substring(0, 300)" onkeyup="this.value=this.value.substring(0, 300)" class="wordNumber"></textarea>
-            <span class="goods-comment-word-number">
-              <span class="goods-comment-word-numbers">0</span>
-              /300
-            </span>
-          </div>
-          <div class="goods-comment-item-right-upload-wrapper clearfix">
-            <div class="goods-comment-item-right-upload-btn">
-              <img src="../../images/static/upload_btn.png" alt="">
-            </div>
-            <input type="file" name="evaluateUpload" id="evaluateUpload" style="display:none">
-            <span class="goods-comment-item-right-upload-number">0/5</span>
-            <span class="goods-comment-item-right-upload-suggest">每张不超过5M，支持格式jpg，jpeg，bmp，png</span>
-          </div>
-          <div class="goods-comment-item-right-comment-wrapper">
-            <div class="goods-comment-item-right-comment-btn">提交</div>
-            <div class="goods-comment-item-right-not-comment">
-              请填写评价
-            </div>
-          </div>
         </div>
       </div>
     </div>
-
-
-
-
-    <!-- <div class="evaluate-goods-wrapper">
-      <div class="evaluate-goods-head clearfix">
-        <span>商品信息</span>
-        <span class="evaluate-word">评价</span>
-      </div>
-      <div class="evaluate-goods-content">
-        <div class="evaluate-goods-content-item clearfix">
-          <div class="evaluate-goods-content-item-left clearfix">
-            <div class="evaluate-goods-content-item-left-img">
-              <img src="../../images/static/naifen.png" alt="">
-            </div>
-            <div class="evaluate-goods-content-item-left-introduce">
-              <a href="#">Aptamil 爱他美（德国）白金版3段幼儿配方奶粉 900克 4罐装 12-36个月</a>
-              <div class="evaluate-introduce">净含量：900克 系列：白金 适用阶段：三段</div>
-            </div>
-          </div>
-          <div class="evaluate-goods-content-item-right">待评价</div>
-          <div class="triangle">
-            <div class="triangle_border_up2">
-              <span></span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="evaluate-container">
-      <div class="goods-evaluate-wrapper clearfix">
-        <div class="goods-evaluate-left">
-          <span class="goods-evaluate-left-color">*</span>
-          商品评分：
-        </div>
-        <div class="goods-evaluate-right">
-          <div class="star">
-            <ul>
-              <li><a href="javascript:;">1</a></li>
-              <li><a href="javascript:;">2</a></li>
-              <li><a href="javascript:;">3</a></li>
-              <li><a href="javascript:;">4</a></li>
-              <li><a href="javascript:;">5</a></li>
-            </ul>
-            <span class="goods-evaluate-span"></span>
-            <p></p>
-          </div>
-        </div>
-      </div>
-      <div class="evaluate-wrod clearfix">
-        <div class="evaluate-wrod-left">
-          <span class="goods-evaluate-left-color">*</span>
-          评&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;价：
-        </div>
-        <div class="evaluate-wrod-right">
-          <textarea maxlength="200" onchange="this.value=this.value.substring(0, 200)"
-            onkeydown="this.value=this.value.substring(0, 200)" onkeyup="this.value=this.value.substring(0, 200)"
-            placeholder="商品是否给力，快来分享一下你的购物心得吧！"></textarea>
-        </div>
-        <div class="evaluate-wrod-limit">
-          5-200个汉字
-        </div>
-      </div>
-      <div class="evaluate-upload-wrapper clearfix">
-        <div class="evaluate-upload-left">
-          <span class="goods-evaluate-left-color">*</span>
-          晒&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;单：
-        </div>
-        <div class="evaluate-upload-right">
-          <img src="../../images/static/evaluate_upload_img.png" alt="">
-          <span>上传图片</span>
-        </div>
-        <input type="file" style="display:none;" name="evaluateUpload" id="evaluateUpload">
-        <span class="evaluate-upload-img-num">
-          <span>0</span>
-          <span>/</span>
-          <span>3</span>
-        </span>
-        <span class="evaluate-upload-tips">每张不超过5M，支持格式jpg，jpeg，bmp，png</span>
-      </div>
-      <div class="spoke-evaluate-btn">发表评价</div>
-    </div> -->
   </div>
   <!-- 内容end -->
 
-  <!-- 评价已完成 -->
-  <div class="comment-mask-warpper">
-    <div class="comment-mask">
-      <div class="comment-mask-head clearfix">
-        <div class="comment-mask-head-word">提示</div>
-        <div class="comment-mask-head-img">
-          <img src="../../images/static/madel_close.png" alt="">
-        </div>
-      </div>
-      <div class="comment-mask-content">
-        评价已完成，感谢评价！
-      </div>
-      <div class="comment-mask-btn">查看评价详情</div>
-    </div>
-  </div>
-  <!-- 评价已完成end -->
-
-  <!-- 评价已完成（一个订单多个商品） -->
-  <div class="comment-mask-warpper2">
-    <div class="comment-mask">
-      <div class="comment-mask-head clearfix">
-        <div class="comment-mask-head-word">提示</div>
-        <div class="comment-mask-head-img">
-          <img src="../../images/static/madel_close.png" alt="">
-        </div>
-      </div>
-      <div class="comment-mask-content comment-mask-content-position">
-        评价完成，此订单还有其他商品待评价！
-      </div>
-      <div class="comment-mask-btn-wrapper clearfix">
-        <div class="continue-comment">继续评价</div>
-        <div class="comment-mask-btn2">查看评价详情</div>
-      </div>
-    </div>
-  </div>
-  <!-- 评价已完成（一个订单多个商品）end -->
+  <div class="seat"></div>
 
   <!-- 底部 -->
   <div class="footer">
@@ -834,8 +719,7 @@
 
   <script src="../../lib/jq/jquery.old.js"></script>
   <script src="../../js/index/index.js"></script>
-  <script src="../../js/orderDetails/orderDetailsEvaluate.js"></script>
-
+  <script src="../../js/feedback/feedback.js"></script>
 </body>
 
 </html>

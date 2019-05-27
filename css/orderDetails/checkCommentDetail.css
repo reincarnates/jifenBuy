@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+.comment-tips{
+  color: #333;
+}
+
+.goods-comment-item-content{
+  color: #333;
+  font-size: 14px;
+  margin-top: 25px;
+}
+
+.goods-comment-item-content span{
+  margin-left: 14px;
+  line-height: 32px;
+}
+
+.goods-comment-item-content-img-item{
+  width: 96px;
+  height: 96px;
+  margin-left: 14px;
+  box-sizing: border-box;
+  cursor: pointer;
+  float: left;
+}
+
+.goods-comment-item-content-img-item-mask{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, .8);
+  z-index: 999;
+  transform: scale(0);
+  transition: .8s;
+}
+
+.goods-comment-item-content-img-item-mask>.comment-img{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+
+.goods-comment-item-content-img-item-mask-close{
+  position: fixed;
+  top: 25px;
+  right: 320px;
+  cursor: pointer;
+}
+
+.comment-btn{
+  width: 36px;
+  height: 50px;
+  position: fixed;
+  top: 50%;
+  margin: -25px 0 0;
+  background: rgba(0, 0, 0, .5);
+  font-family: '宋体';
+  font-size: 36px;
+  filter: alpha(opacity=0);
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  cursor: pointer;
+  overflow: hidden;
+  user-select: none;
+}
+
+.comment-btn-prev{
+  left: 0;
+}
+
+.comment-btn-next{
+  right: 0;
+}
+
+.goods-comment-item-content-img-item-size{
+  width: 100%;
+}
+
+.goods-comment-item-content-time{
+  color: #999;
+  font-size: 12px;
+  line-height: 41px;
+  padding-left: 14px;
+  box-sizing: border-box;
+}
+
+.goods-comment-item-content-btn{
+  width: 100px;
+  height: 32px;
+  border: 1px solid #ddd;
+  text-align: center;
+  line-height: 30px;
+  color: #666;
+  font-size: 14px;
+  margin-left: 14px;
+  margin-top: 7px;
+  cursor: pointer;
+}
+
+.goods-comment-item-content-btn:hover{
+  background-color: #e98930;
+  border-color: #e98930;
+  color: #fff;
+}
