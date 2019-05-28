@@ -20,6 +20,34 @@ $(function() {
     $('.fuli-check-time').text($(this).text());
   });
 
+  $('.fuli-order-list-income').mouseover(function() {
+    $(this).addClass('fuli-order-bg');
+    $(this).find('.fuli-order-arrow').addClass('fuli-hover-order-arrow');
+    $(this).find('.fuli-order-left-item-width').css('display','block');
+  }).mouseout(function() {
+    $(this).removeClass('fuli-order-bg');
+    $(this).find('.fuli-order-arrow').removeClass('fuli-hover-order-arrow');
+    $(this).find('.fuli-order-left-item-width').css('display','none');
+  });
+
+  $('.fuli-order-left-item-width ul li').click(function() {
+    $('.fuli-check-time-income').text($(this).text());
+  });
+
+  $('.recharge-details-head-left').mouseover(function() {
+    $(this).addClass('fuli-order-bg');
+    $(this).find('.fuli-order-arrow').addClass('fuli-hover-order-arrow');
+    $(this).find('.fuli-order-left-item-recharge').css('display','block');
+  }).mouseout(function() {
+    $(this).removeClass('fuli-order-bg');
+    $(this).find('.fuli-order-arrow').removeClass('fuli-hover-order-arrow');
+    $(this).find('.fuli-order-left-item-recharge').css('display','none');
+  });
+
+  $('.fuli-order-left-item-recharge ul li').click(function() {
+    $('.fuli-check-recharge').text($(this).text());
+  });
+
   tabPage({
     pageMain: '.fuli-balance-wrapper',
     pageNav: '#pageNav',

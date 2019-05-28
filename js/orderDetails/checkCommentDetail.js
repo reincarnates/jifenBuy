@@ -90,29 +90,29 @@ $(function() {
   var commentsNum = 4;
   if(commentsNum == 1) {
     $('.comments ul li').eq(0).addClass('on');
-    $('.comments .Delivery-evaluate-span').html('<strong>满意</strong>');
+    $('.comments .Delivery-evaluate-span').html('<strong>1分</strong>');
   }else if(commentsNum == 2) {
     $('.comments ul li').eq(0).addClass('on');
     $('.comments ul li').eq(1).addClass('on');
-    $('.comments .Delivery-evaluate-span').html('<strong>满意</strong>');
+    $('.comments .Delivery-evaluate-span').html('<strong>2分</strong>');
   }else if(commentsNum == 3) {
     $('.comments ul li').eq(0).addClass('on');
     $('.comments ul li').eq(1).addClass('on');
     $('.comments ul li').eq(2).addClass('on');
-    $('.comments .Delivery-evaluate-span').html('<strong>满意</strong>');
+    $('.comments .Delivery-evaluate-span').html('<strong>3分</strong>');
   }else if(commentsNum == 4) {
     $('.comments ul li').eq(0).addClass('on');
     $('.comments ul li').eq(1).addClass('on');
     $('.comments ul li').eq(2).addClass('on');
     $('.comments ul li').eq(3).addClass('on');
-    $('.comments .Delivery-evaluate-span').html('<strong>满意</strong>');
+    $('.comments .Delivery-evaluate-span').html('<strong>4分</strong>');
   }else if(commentsNum == 5) {
     $('.comments ul li').eq(0).addClass('on');
     $('.comments ul li').eq(1).addClass('on');
     $('.comments ul li').eq(2).addClass('on');
     $('.comments ul li').eq(3).addClass('on');
     $('.comments ul li').eq(4).addClass('on');
-    $('.comments .Delivery-evaluate-span').html('<strong>非常满意</strong>');
+    $('.comments .Delivery-evaluate-span').html('<strong>5分</strong>');
   }
 
   //

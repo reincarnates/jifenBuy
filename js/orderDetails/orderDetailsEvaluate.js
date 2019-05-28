@@ -173,6 +173,7 @@ $(function () {
       iStar = this.index;
       CommentP.style.display = "none";
       CommentSpan.innerHTML = "<strong>" + (this.index) + " 分</strong>";
+      console.log(this.index);
     }
   }
 

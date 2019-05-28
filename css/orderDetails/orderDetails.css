@@ -53,6 +53,7 @@
 .tab-color{
   font-size: 14px;
   color: #ff5826;
+  margin-left: 5px;
 }
 
 .fuli-search-order{
@@ -143,10 +144,10 @@
 }
 
 .fuli-order-left-item ul li{
-  line-height: 18px;
+  line-height: 30px;
   color: #666;
   font-size: 12px;
-  margin-bottom: 9px;
+  /* margin-bottom: 9px; */
 }
 
 .fuli-order-left-item ul li:last-child{
@@ -199,10 +200,10 @@
 }
 
 .fuli-order-left-item2 ul li{
-  line-height: 18px;
+  line-height: 30px;
   color: #666;
   font-size: 12px;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
 }
 
 .fuli-order-left-item2 ul li:hover{

@@ -250,11 +250,11 @@
   width: 125px;
   height: 42px;
   border: 1px solid #ffb030;
-  background-color: #fffcf6;
+  /* background-color: #fffcf6; */
   position: relative;
   text-align: center;
   line-height: 42px;
-  color: #e98930;
+  color: #ffb030;
   font-size: 14px;
   box-sizing: border-box;
   float: left;
@@ -266,7 +266,8 @@
 }
 
 .shop_cart span{
-  margin-left: 25px;
+  margin-left: 38px;
+  letter-spacing: 3px;
 }
 
 .search-select-small{
@@ -296,11 +297,11 @@
 
 .search-bg{
   background-color: #fff;
-  border-color: #e98930;
+  border-color: #ffb22c;
 }
 
 .small-bg{
-  border-color: #e98930;
+  border-color: #ffb22c;
   display: block;
 }
 
@@ -335,12 +336,12 @@
 }
 
 .search-cart-all-price{
-  width: 310px;
+  width: 308px;
   height: 36px;
   line-height: 36px;
   position: absolute;
   bottom: -273px;
-  left: -164px;
+  left: -185px;
   background-color: #e5e5e5;
   color: #454545;
   font-size: 14px;
@@ -353,8 +354,8 @@
 .go-cart{
   width: 67px;
   height: 23px;
-  background-color: #e88831;
-  border: 1px solid #cd6f18;
+  background-color: #ffb22c;
+  border: 1px solid #ffb22c;
   color: #fff;
   border-radius: 3px;
   text-align: center;

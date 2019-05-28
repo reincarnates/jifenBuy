@@ -112,7 +112,7 @@
   left: 65px;
 }
 
-.shipped-step-position2{
+.shipped-step-position4{
   left: 575px;
 }
 
@@ -503,7 +503,8 @@
 
 .track-rcol {
   width: 900px;
-  /* height: 200px; */
+  /* height: 138px; */
+  overflow: hidden;
 }
 
 .track-list {
@@ -526,6 +527,10 @@
   border-left: 1px solid #d9d9d9;
   color: #333;
   font-size: 12px;
+}
+
+.track-list li:last-child{
+  margin-bottom: 5px;
 }
 
 .track-list li.first .node-icon {
@@ -567,7 +572,7 @@
 }
 
 .retract{
-  width: 100%;
+  width: 80px;
   line-height: 54px;
   color: #333;
   font-size: 14px;
