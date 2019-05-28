@@ -447,6 +447,18 @@
   float: left;
 }
 
+.goods-collection-item-btn-right{
+  width: 96px;
+  cursor: pointer;
+  float: left;
+}
+
+.goods-collection-item-btn-right2{
+  width: 96px;
+  cursor: pointer;
+  float: left;
+}
+
 .goods-collection-item-delete-mask{
   width: 219px;
   height: 328px;
@@ -496,4 +508,17 @@
   color: #333;
   float: left;
   cursor: pointer;
+}
+
+.goods-collection-item-notgoods-mask{
+  width: 219px;
+  height: 328px;
+  background-color: rgba(0, 0, 0, .7);
+  position: absolute;
+  top: 0;
+  line-height: 328px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  display: none;
 }

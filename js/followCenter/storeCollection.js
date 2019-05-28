@@ -55,5 +55,14 @@ $(function() {
     $(this).parents('.goods-collection-item-delete-mask').hide();
   });
 
+  //显示该商品已下架和暂无库存的提示
+  $(document).on('click', '.goods-collection-item-btn-right', function() {
+    $(this).parent('.goods-collection-item-btn').siblings('.goods-collection-item-notgoods-mask').show().delay(2000).hide(200);
+  });
+
+  //有货商品点击立即购买
+  $(document).on('click', '.goods-collection-item-btn-right2', function() {
+    alert()
+  });
 
 })

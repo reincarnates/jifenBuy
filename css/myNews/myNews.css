@@ -1,0 +1,290 @@
+@charset "utf-8";
+
+.seat{
+  width: 100%;
+  height: 50px;
+  background-color: #e9e9e9;
+}
+
+.store-collection-wrapper {
+  width: 980px;
+  background-color: #fff;
+  margin-left: 19px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.account-head-wrapper {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  border-bottom: 1px dashed #e5e5e5;
+  padding-left: 20px;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: #666;
+}
+
+.account-head-wrapper a:last-child {
+  color: #333;
+}
+
+.mynews-wrapper{
+  width: 100%;
+  padding: 0 21px;
+}
+
+.mynews-head-wrapper{
+  width: 100%;
+  height: 32px;
+  border-bottom: 1px dashed #ddd;
+  margin-top: 39px;
+  padding: 6px 0;
+  box-sizing: border-box;
+}
+
+.mynews-head-item{
+  width: 161px;
+  height: 27px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  color: #666;
+  float: left;
+  position: relative;
+}
+
+.mynews-head-item-active{
+  color: #ffb030;
+  border-bottom: 2px solid #ffb030;
+}
+
+.mynews-head-item-ver{
+  width: 1px;
+  height: 19px;
+  background-color: #e0e0e0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.mynews-content-wrapper{
+  width: 100%;
+  margin-top: 28px;
+  padding: 0 28px;
+  box-sizing: border-box;
+}
+
+.mynews-content-item{
+  width: 100%;
+  border-bottom: 1px dashed #dcdcdc;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+}
+
+.mynews-content-head{
+  width: 100%;
+  line-height: 57px;
+}
+
+.mynews-content-head-name{
+  font-size: 16px;
+}
+
+.mynews-content-head-name a{
+  color: #363636;
+}
+
+.mynews-content-head-name a:hover{
+  text-decoration: underline;
+}
+
+.mynews-content-head-time{
+  font-size: 12px;
+  color: #666;
+  margin-left: 15px;
+}
+
+.mynews-content-message{
+  width: 100%;
+}
+
+.mynews-content-message-left{
+  width: 504px;
+  height: 191px;
+  position: relative;
+  float: left;
+}
+
+.mynews-content-message-left img{
+  width: 100%;
+}
+
+.mynews-content-message-right{
+  width: 370px;
+  padding-left: 19px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.mynews-content-message-right-suggest{
+  color: #363636;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.mynews-content-message-right-select-detail{
+  font-size: 12px;
+  line-height: 48px;
+}
+
+.mynews-content-message-right-select-detail a{
+  color: #6698cb;
+}
+
+.mynews-content-message-right-select-detail a:hover{
+  text-decoration: underline;
+}
+
+.end-activity-mask{
+  width: 504px;
+  height: 191px;
+  background-color: rgba(0, 0, 0, .5);
+  position: absolute;
+  top: 0;
+  text-align: center;
+  line-height: 191px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.end-activity-color{
+  color: #cbcbcb !important;
+  cursor: not-allowed;
+}
+
+.mynews-hide{
+  display: none;
+}
+
+.mynews-show{
+  display: block;
+}
+
+.mynews-trade-logistics-wrapper{
+  width: 100%;
+  padding: 0 60px;
+  box-sizing: border-box;
+}
+
+.mynews-trade-logistics-item{
+  width: 100%;
+  /* height: 158px; */
+  margin-top: 21px;
+}
+
+.mynews-trade-logistics-item-head{
+  width: 100%;
+  height: 38px;
+  border-bottom: 1px solid #e7e7e7;
+  position: relative;
+}
+
+.mynews-trade-logistics-item-head-ver{
+  width: 4px;
+  height: 14px;
+  background-color: #ffb030;
+  position: absolute;
+  top: 12px;
+}
+
+.mynews-trade-logistics-item-head-order{
+  line-height: 38px;
+  font-size: 14px;
+  margin-left: 11px;
+}
+
+.mynews-trade-logistics-item-head-order a{
+  color: #333;
+}
+
+.mynews-trade-logistics-item-head-order a:hover{
+  text-decoration: underline;
+}
+
+.mynews-trade-logistics-item-head-time{
+  line-height: 38px;
+  color: #999;
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+.mynews-trade-logistics-item-content{
+  margin-top: 20px;
+}
+
+.mynews-trade-logistics-item-content-img{
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.mynews-trade-logistics-item-content-img img{
+  width: 100%;
+}
+
+.mynews-trade-logistics-item-content-word{
+  float: left;
+  padding-left: 19px;
+  box-sizing: border-box;
+}
+
+.mynews-trade-logistics-item-goods-name{
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 3px;
+}
+
+.mynews-trade-logistics-item-goods-name a{
+  color: #333;
+}
+
+.mynews-trade-logistics-item-goods-name a:hover{
+  color: #ffb22c;
+  text-decoration: underline;
+}
+
+.mynews-trade-logistics-item-goods-number{
+  color: #999;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.mynews-trade-logistics-item-goods-package{
+  color: #999;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.mynews-trade-logistics-item-goods-select-detail{
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.mynews-trade-logistics-item-goods-select-detail a{
+  color: #67a4ff;
+}
+
+.mynews-trade-logistics-item-goods-select-detail a:hover{
+  text-decoration: underline;
+}
+
+.size-seat{
+  width: 100%;
+  height: 100px;
+}
+
+.mynews-color{
+  color: #333;
+  font-size: 14px;
+}
