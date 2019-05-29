@@ -121,7 +121,7 @@
   width: 1200px;
   height: 60px;
   overflow: hidden;
-  border-bottom: 1px dashed #ddd;
+  border-bottom: 1px solid #ddd;
   margin: 0 auto;
 }
 
@@ -181,7 +181,7 @@
 .retailers-wrapper{
   width: 1200px;
   height: 30px;
-  border-bottom: 1px dashed #ddd;
+  border-bottom: 1px solid #ddd;
   margin: 0 auto;
 }
 

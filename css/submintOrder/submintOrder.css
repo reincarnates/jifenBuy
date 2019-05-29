@@ -63,6 +63,7 @@
   cursor: pointer;
   background: url(../../images/static/show_all.png) no-repeat;
   background-position: 90px 16px;
+  display: none;
 }
 
 .fuli-form{
@@ -1736,4 +1737,18 @@
   line-height: 30px;
   cursor: pointer;
   margin-top: 28px;
+}
+
+.fuli-select-goods h4{
+  float: left;
+}
+
+.manage-address{
+  float: right;
+  font-size: 14px;
+  color: #67a4ff !important;
+}
+
+.manage-address:hover{
+  text-decoration: underline;
 }

@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+.payment_cashier_order_info2{
+  width: 1000px;
+  height: 175px;
+  border-bottom: 1px solid #ddd;
+  margin: 0 auto;
+}
+
+.payment_cashier_order_detail2{
+  width: 1000px;
+  height: 84px;
+  margin: 0 auto;
+  padding-top: 20px;
+  box-sizing: border-box;
+  display: none;
+}
+
+.patment_method_wrapper{
+  width: 1200px;
+  margin:  0 auto;
+}
+
+.patment_method_wx_wrapper{
+  width: 1000px;
+  height: 572px;
+  background-color: #fff;
+  box-shadow: -5px 0 10px #eaeaea;
+  margin: 0 auto;
+  padding-top: 67px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.payment_cashier_order_info_wrapper{
+  margin-top: 29px;
+}
+
+.payment_cashier_order_info-wrod{
+  line-height: 35px;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.payment_cashier_order_info-order{
+  line-height: 35px;
+  color: #333;
+  font-size: 16px;
+}
+
+.payment_cashier_order_info_order_word{
+  font-size: 14px;
+  color: #333;
+  line-height: 28px;
+}
+
+.payment_cashier_order_info_order_word span{
+  color: #ff5628;
+}
+
+.check_other_patment_method{
+  line-height: 52px;
+  font-size: 14px;
+}
+
+.check_other_patment_method a{
+  color: #ff5628;
+  margin-left: 100px;
+}
+
+.check_other_patment_method a:hover{
+  text-decoration: underline;
+}
+
+.patment_method_wx_wrapper_left{
+  width: 543px;
+  padding-left: 93px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.patment_method_wx_wrapper_left_head{
+  width: 300px;
+  line-height: 63px;
+  color: #333;
+  font-size: 24px;
+  text-align: center;
+}
+
+.patment_method_wx_wrapper_left_code{
+  width: 300px;
+  height: 300px;
+  border: 1px solid #dcdcdc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.patment_method_wx_wrapper_left_scan{
+  width: 300px;
+  height: 64px;
+  padding-left: 114px;
+  box-sizing: border-box;
+  color: #333;
+  font-size: 14px;
+  line-height: 23px;
+  background: url(../../images/static/scan_img.png) no-repeat;
+  background-position: 70px 7px;
+}
+
+.patment_method_wx_wrapper_left_scan_word{
+  margin-top: 9px;
+}
+
+.patment_method_wx_wrapper_left_ver{
+  width: 1px;
+  height: 328px;
+  border: 1px solid #d1d1d1;
+  position: absolute;
+  left: 545px;
+  top: 106px;
+}
+
+.patment_method_wx_wrapper_right{
+  width: 454px;
+  padding-top: 47px;
+  padding-left: 57px;
+  box-sizing: border-box;
+  float: left;
+}

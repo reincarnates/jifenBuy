@@ -104,12 +104,12 @@
 
 .fuhao{
   font-size: 18px;
-  color: #ffb030;
+  color: #ff5628;
 }
 
 .payment_cashier_order_price{
   font-size: 24px;
-  color: #ffb030;
+  color: #ff5628;
 }
 
 .payment_cashier_select_payment_type{
@@ -234,7 +234,7 @@
 .check_order{
   width: 75px;
   font-size: 14px;
-  color: #67a4ff;
+  color: #333;
   line-height: 27px;
   cursor: pointer;
   background: url(../../images/static/check_order.png) no-repeat;
@@ -243,7 +243,7 @@
 }
 
 .check_order2{
-  background-position: 58px -7px;
+  background-position: 58px -14px;
 }
 
 

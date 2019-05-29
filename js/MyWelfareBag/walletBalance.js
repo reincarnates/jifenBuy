@@ -53,7 +53,7 @@ $(function() {
     pageNav: '#pageNav',
     pagePrev: '#prev',
     pageNext: '#next',
-    curNum: 10, /*每页显示的条数*/
+    curNum: 12, /*每页显示的条数*/
     activeClass: 'pageActive', /*高亮显示的class*/
     ini: 0/*初始化显示的页面*/
   });

@@ -265,7 +265,7 @@
   background-position: 20px 8px;
 }
 
-.shop_cart span{
+.shop_cart span:first-child{
   margin-left: 38px;
   letter-spacing: 3px;
 }

@@ -15,7 +15,8 @@
   <link rel="stylesheet" href="../../css/style.css">
   <link rel="stylesheet" href="../../css/paymentCenter/cashier.css">
   <link rel="stylesheet" href="../../css/headOrfooter/headOrfooter.css">
-  <title>收银台</title>
+  <link rel="stylesheet" href="../../css/paymentCenter/paymentMethodWx.css">
+  <title>微信支付</title>
 </head>
 
 <body>
@@ -41,94 +42,61 @@
   </div>
 
   <div class="payment_cashier_container_wrapper">
-    <div class="payment_cashier_order_info clearfix">
+    <div class="payment_cashier_order_info2 clearfix">
       <div class="payment_cashier_order_info_left">
-        <div class="payment_cashier_order_name">
-          [阳光公采支付订单]124545
+        <div class="payment_cashier_order_info_wrapper">
+          <span class="payment_cashier_order_info-wrod">请您及时付款，以便商城为您尽快处理哦！</span>
+          <span class="payment_cashier_order_info-order">订单号：201905290933GORDER21953939</span>
         </div>
-        <div class="receiving_party">
-          收款方：<span>公菜**收款</span>
-        </div>
-        <div class="receiving_party">
-          订单编号：<span>425536366374774747</span>
-        </div>
-        <div class="receiving_party">
-          商品名：<span>[阳光公采支付订单]34454546</span>
+        <div class="payment_cashier_order_info_order_word">
+          请您在提交订单后 <span>1小时46分37秒</span>内 完成支付，否则订单会自动取消。 阳光福利商城为您服务。
         </div>
       </div>
       <div class="payment_cashier_order_info_right">
         <div>
-          <span>应付金额：</span>
           <span class="fuhao">￥</span>
           <span class="payment_cashier_order_price">138.00</span>
           元
-        </div>
-        <div class="payment_cashier_order_time">
-          请您在2小时内完成支付否则订单将会自动取消！
         </div>
         <div class="check_order">订单详情</div>
       </div>
     </div>
   </div>
 
-  <div class="payment_cashier_order_detail clearfix">
+  <div class="payment_cashier_order_detail2 clearfix">
     <p>收货地址：北京海淀区三环到四环之间远大路39号院1青清商厦411 收货人：**柯 176****5683 </p>
     <p>商品名称：【2件9折】哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</p>
   </div>
 
-  <div class="payment_cashier_select_payment_type">
-    <div class="payment_cashier_select_payment_type_top">
-      <div class="payment_cashier_select_payment_type_bg">
-        福利商城收银台
+  <!-- 微信支付 -->
+  <div class="patment_method_wrapper">
+    <div class="patment_method_wx_wrapper">
+      <div class="patment_method_wx_wrapper_left">
+        <div class="patment_method_wx_wrapper_left_head">微信支付</div>
+        <div class="patment_method_wx_wrapper_left_code">
+          <img src="../../images/static/wx_code.jpg" alt="">
+        </div>
+        <div class="patment_method_wx_wrapper_left_scan">
+          <div class="patment_method_wx_wrapper_left_scan_word">
+            请使用微信扫一扫
+          </div>
+          <div>
+            扫描二维码支付
+          </div>
+        </div>
+      </div>
+      <div class="patment_method_wx_wrapper_left_ver"></div>
+      <div class="patment_method_wx_wrapper_right">
+        <img src="../../images/static/course.jpg" alt="">
       </div>
     </div>
-    <div class="payment_method_wrapper">
-      <div class="payment_method_item payment_method_item_checked">
-        <input type="radio" name="balance" id="balance" checked>
-        <label for="balance" style="cursor:pointer">
-          <img src="../../images/static/balance.png" alt="">
-          账户余额<span class="available-balance">(可用余额：0.00元)</span>
-          <span class="balance-derecharging">余额不足？去充值</span>
-        </label>
-      </div>
-      <div class="payment_method_item">
-        <input type="radio" name="balance" id="zfb">
-        <label for="zfb" style="cursor:pointer">
-          <img src="../../images/static/zfb_03.png" width="99" height="35" alt="">
-        </label>
-      </div>
-      <div class="payment_method_item" data-wx="wx">
-        <input type="radio" name="balance" id="wx">
-        <label for="wx" style="cursor:pointer">
-          <img src="../../images/static/wx_03.png" width="109" height="29" alt="">
-        </label>
-      </div>
-
-      <div class="payment_method_item_ob payment_method_item_on">
-        <div class="pay-password-words">
-          支付密码：
-        </div>
-        <div class="pay-password">
-          <div class="pay-password-left">
-            <input type="password" maxlength=1 class="pay-input" onkeyup="focusNextInput(this)" />
-            <input type="password" maxlength=1 class="pay-input" onkeyup="focusNextInput(this)" />
-            <input type="password" maxlength=1 class="pay-input" onkeyup="focusNextInput(this)" />
-            <input type="password" maxlength=1 class="pay-input" onkeyup="focusNextInput(this)" />
-            <input type="password" maxlength=1 class="pay-input" onkeyup="focusNextInput(this)" />
-            <input type="password" maxlength=1 class="pay-input" onkeyup="focusNextInput(this)" />
-          </div>
-          <span class="pay-password-color mar-lm pointer">忘记支付密码？</span>
-        </div>
-      </div>
-
-      <div class="payment_method_item_ob"></div>
-      <div class="payment_method_item_ob"></div>
-
-      <div class="payment_method_item_btn">
-        立即支付
-      </div>
+    <div class="check_other_patment_method">
+      <a href="javaScript:;">
+        <选择其他支付方式
+      </a>
     </div>
   </div>
+  <!-- 微信支付end -->
 
   <!-- 底部 -->
   <div class="footer">

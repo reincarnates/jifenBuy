@@ -460,6 +460,14 @@
   border-bottom: 1px solid #eee;
 }
 
+.order-goods-info:last-child{
+  border-bottom: none;
+}
+
+.order-goodsPrice-one:last-child{
+  border-bottom: none;
+}
+
 .order-operate{
   width: 92px;
   height: 27px;

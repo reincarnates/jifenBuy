@@ -111,10 +111,25 @@ $(function() {
 
 
   //显示全部地址
+  var addressNum = 0;
+  if($('.fuli-take-goods-wrapper').length > 4) {
+    $('.show-all-address').css('display', 'block');
+  }else{
+    $('.show-all-address').css('display', 'none');
+  }
   $('.show-all-address').on('click', function() {
-    var num = $('.fuli-select-content').find('.fuli-take-goods-wrapper').length/4+1.5;
-    var itemHeight = $('.fuli-select-content').find('.fuli-take-goods-wrapper').outerHeight();
-    $('.fuli-select-content').css('height', itemHeight*num+'px');
+    if(addressNum == 0) {
+      var num = $('.fuli-select-content').find('.fuli-take-goods-wrapper').length/4+1.1;
+      var itemHeight = $('.fuli-select-content').find('.fuli-take-goods-wrapper').outerHeight();
+      $('.fuli-select-content').css('height', itemHeight*num+'px');
+      $('.show-all-address').text('收起全部地址');
+      addressNum = 1;
+    }else{
+      $('.show-all-address').text('显示全部地址');
+      $('.fuli-select-content').css('height', '190px');
+      addressNum = 0;
+    }
+    
   })
 
   //删除地址
@@ -284,7 +299,6 @@ $(function() {
     $(this).hide();
   });
 
-
   //修改地址
   $('#edit_save_address').on('click', function() {
     if($('#editRegion').val() == '') {
@@ -331,6 +345,8 @@ $(function() {
     }
     
   });
+
+
 
 })
 
