@@ -11,12 +11,12 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   <meta name="format-detection" content="telephone=no" />
-  <title>余额</title>
+  <title>退款完成</title>
   <link rel="stylesheet" href="../../css/reset.css">
   <link rel="stylesheet" href="../../css/style.css">
-  <link rel="stylesheet" href="../../css/PersonalCenter/PersonalCenter.css">
   <link rel="stylesheet" href="../../css/headOrfooter/headOrfooter.css">
-  <link rel="stylesheet" href="../../css/MyWelfareBag/walletBalance.css">
+  <link rel="stylesheet" href="../../css/orderDetails/orderDetailsShipped.css">
+  <link rel="stylesheet" href="../../css/afterSale/refundDetail.css">
 </head>
 
 <body>
@@ -270,57 +270,9 @@
         <span>购物车</span>
         <div class="search-select-small"></div>
         <!-- 购物车有商品 -->
-        <div class="search-cart-select">
+        <!-- <div class="search-cart-select">
           <div class="search-cart-select-head">最新加入商品</div>
           <div class="search-cart-goods-all">
-            <div class="search-cart-goods-item">
-              <div class="goods-img"></div>
-              <p class="goods-account">
-                <a href="#">
-                  【买2送1】香水身体乳女全身美肤白净润肤露液体香乳去鸡皮肤
-                </a>
-              </p>
-              <div class="cart-price-del">
-                <p class="cart-price">
-                  ￥88.00 × 1
-                </p>
-                <p class="cart-delete pointer">
-                  删除
-                </p>
-              </div>
-            </div>
-            <div class="search-cart-goods-item">
-              <div class="goods-img"></div>
-              <p class="goods-account">
-                <a href="#">
-                  【买2送1】香水身体乳女全身美肤白净润肤露液体香乳去鸡皮肤
-                </a>
-              </p>
-              <div class="cart-price-del">
-                <p class="cart-price">
-                  ￥88.00 × 1
-                </p>
-                <p class="cart-delete pointer">
-                  删除
-                </p>
-              </div>
-            </div>
-            <div class="search-cart-goods-item">
-              <div class="goods-img"></div>
-              <p class="goods-account">
-                <a href="#">
-                  【买2送1】香水身体乳女全身美肤白净润肤露液体香乳去鸡皮肤
-                </a>
-              </p>
-              <div class="cart-price-del">
-                <p class="cart-price">
-                  ￥88.00 × 1
-                </p>
-                <p class="cart-delete pointer">
-                  删除
-                </p>
-              </div>
-            </div>
             <div class="search-cart-goods-item">
               <div class="goods-img"></div>
               <p class="goods-account">
@@ -344,16 +296,16 @@
           <div class="go-cart pointer">
             去购物车
           </div>
-        </div>
+        </div> -->
         <!-- 购物车有商品end -->
         <div class="cart-count">0</div>
         <!-- 购物车没有商品 -->
-        <!-- <div class="search-not-cart">
+        <div class="search-not-cart">
           <div class="search-not-cart-img">
             <img src="../../images/static/not_cart.png" alt="">
             <span>购物车还没有商品赶快去选购吧！！！</span>
           </div>
-        </div> -->
+        </div>
         <!-- 购物车没有商品end -->
       </div>
     </div>
@@ -385,309 +337,239 @@
   <!-- 导航end -->
 
   <!-- 内容 -->
-  <div class="fuli-wrapper">
-    <div class="fuli-container">
-      <div class="personal clearfix">
-        <div class="menu2">
-          <dl class="list_dl">
-            <dt class="list_dt">
-              <span class="_after"></span>
-              <i class="list_dt_icon2"></i>
-              <p>订单中心</p>
-              <i class="list_dt_icon"></i>
-            </dt>
-            <dd class="list_dd">
-              <ul>
-                <li class="list_li">我的订单</li>
-                <li class="list_li">常购商品</li>
-              </ul>
-            </dd>
-            <dt class="list_dt">
-              <span class="_after"></span>
-              <i class="list_dt_icon2"></i>
-              <p>我的福利袋</p>
-              <i class="list_dt_icon"></i>
-            </dt>
-            <dd class="list_dd">
-              <ul>
-                <li class="list_li">余额</li>
-                <li class="list_li">积分</li>
-                <!-- <li class="list_li">红包</li>-->
-                <li class="list_li">代金券</li>
-                <!-- <li class="list_li">更多</li>  -->
-              </ul>
-            </dd>
-            <dt class="list_dt">
-              <span class="_after"></span>
-              <i class="list_dt_icon2"></i>
-              <p>账户管理</p>
-              <i class="list_dt_icon"></i>
-            </dt>
-            <dd class="list_dd">
-              <ul>
-                <li class="list_li">我的信息</li>
-                <li class="list_li">账户安全</li>
-                <li class="list_li">地址管理</li>
-              </ul>
-            </dd>
-            <dt class="list_dt">
-              <span class="_after"></span>
-              <i class="list_dt_icon2"></i>
-              <p>消息中心</p>
-              <i class="list_dt_icon"></i>
-            </dt>
-            <dd class="list_dd">
-              <ul>
-                <li class="list_li">活动公告</li>
-                <li class="list_li">交易物流</li>
-                <li class="list_li">系统消息</li>
-              </ul>
-            </dd>
-            <dt class="list_dt">
-              <span class="_after"></span>
-              <i class="list_dt_icon2"></i>
-              <p>个人服务</p>
-              <i class="list_dt_icon"></i>
-            </dt>
-            <dd class="list_dd">
-              <ul>
-                <li class="list_li">退款退货</li>
-                <!-- <li class="list_li">发票服务</li> -->
-                <li class="list_li">投诉举报</li>
-                <li class="list_li">意见反馈</li>
-                <!-- <li class="list_li">在线咨询</li> -->
-              </ul>
-            </dd>
-            <dt class="list_dt">
-              <span class="_after"></span>
-              <i class="list_dt_icon2"></i>
-              <p>关注中心</p>
-              <i class="list_dt_icon"></i>
-            </dt>
-            <dd class="list_dd">
-              <ul>
-                <li class="list_li">我的收藏</li>
-                <li class="list_li">到货通知</li>
-              </ul>
-            </dd>
-          </dl>
-        </div>
-        <div class="wallet-wrapper">
-          <div class="wallet-head">
-            我的福利袋><span>余额</span>
+  <div class="shipped-container">
+    <div class="shipped-head">
+      <a href="#">当前位置：</a>
+      <a href="#" class="shipped-head-color">个人中心</a>
+      <span class="shipped-head-color">></span>
+      <a href="#" class="shipped-head-color">我的订单</a>
+      <span class="shipped-head-color">></span>
+      <a href="#">订单详情</a>
+    </div>
+    <div class="shipped-content-wrapper">
+      <div class="shipped-step-wrapper">
+        <div class="shipped-step-bg shipped-step-bg3 shipped-step-progress"></div>
+        <div class="shipped-step-bg shipped-step-bg3 shipped-step-progress shipped-progress-position"></div>
+        <div class="shipped-step-bg shipped-step-bg3 shipped-step-progress shipped-progress-position2"></div>
+        <ul class="shipped-step clearfix">
+          <li class="shipped-step-item shipped-width">
+            <div class="shipped-step-item-title">1.提交申请</div>
+            <div class="shipped-step-item-num">
+              <span class="shipped-step-item-active">
+                <img src="../../images/static/sub_order.png" alt="">
+              </span>
+            </div>
+          </li>
+          <li class="shipped-step-item shipped-width shipped-display" style="padding-right: 90px;">
+            <div class="shipped-step-item-title shipped-step-item-title-next" style="padding-left: 8px;">2.平台审核</div>
+            <div class="shipped-step-item-num">
+              <span class="shipped-step-item-active">
+                <img src="../../images/static/examine.png" alt="">
+              </span>
+            </div>
+          </li>
+          <li class="shipped-step-item shipped-width shipped-display" style="padding-left: 40px;">
+            <div class="shipped-step-item-title shipped-step-item-title-next" style="padding-left: 8px;">3.退款中</div>
+            <div class="shipped-step-item-num">
+              <span class="shipped-step-item-line2 shipped-step-item-active">
+                <img src="../../images/static/return_goods.png" alt="">
+              </span>
+            </div>
+          </li>
+          <li class="shipped-step-item shipped-width shipped-display2" style="padding-right: 28px;">
+            <div class="shipped-step-item-title shipped-step-item-title-next">4.完成</div>
+            <div class="shipped-step-item-num">
+              <span class="shipped-step-item-receipt shipped-step-item-active">
+                <img src="../../images/static/confirm_receipt2.png" alt="">
+              </span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="shipped-current-status-container">
+        <div class="shipped-current-status-wrapper3 clearfix">
+          <div class="shipped-current-status-left">
+            <div class="shipped-current-status">
+              <span class="shipped-current-status-icon"></span>
+              <span class="shipped-current-status-word">当前状态：退货中，注意关注物流状态等待退款！</span>
+            </div>
+            <div>
+              <span class="shipped-current-status-word2">退货之后等待卖家收到商品之后会为您退款请您耐心等待</span>
+            </div>
           </div>
-          <div class="wallet-content">
-            <div class="wallet-account-balance">
-              <div class="wallet-account-balance-word">账户余额</div>
-              <div class="wallet-account-balance-price">￥2866.00</div>
-              <div class="wallet-account-balance-frozen">冻结金额：￥0.00</div>
-              <div class="wallet-account-balance-btn">在线充值</div>
-            </div>
-            <div class="wallet-introduce">
-              <ul class="clearfix wallet-introduce-ul">
-                <li class="wallet-cur">余额明细</li>
-                <li class="mar-lg">充值明细</li>
+        </div>
+        <div class="shipped-logistics-wrapper">
+          <div class="shipped-logistics-word">
+            <span>物流公司：京东快递：http://www.jd-express.com</span>
+            <span class="shipped-logistics-word-number">运单号：246665008781</span>
+          </div>
+
+          <div class="track-rcol">
+            <div class="track-list">
+              <ul>
+                <li class="first">
+                  <span class="time">2016-03-10 18:07:15</span>
+                  <i class="node-icon"></i>
+                  <span class="txt">[哈尔滨]配送员【申国龙】已出发，联系电话【18410106883，感谢您的耐心等待】</span>
+                </li>
+                <li>
+                  <span class="time">2016-03-10 18:07:15</span>
+                  <i class="node-icon"></i>
+                  <span class="txt">[哈尔滨]订单已从【呼伦贝尔 海拉尔区】服务网点出库,上门送货中</span>
+                </li>
+                <li>
+                  <span class="time">2016-03-10 18:07:15</span>
+                  <i class="node-icon"></i>
+                  <span class="txt">[哈尔滨]订单已到达【呼伦贝尔 海拉尔区】服务网点</span>
+                </li>
+                <li>
+                  <span class="time">2016-03-10 18:07:15</span>
+                  <i class="node-icon"></i>
+                  <span class="txt">[哈尔滨]订单已从【哈尔滨中心】发出,送往日顺【呼伦贝尔 海拉尔区】服务网点</span>
+                </li>
+                <li>
+                  <span class="time">2016-03-10 18:07:15</span>
+                  <i class="node-icon"></i>
+                  <span class="txt">[ibt]订单配车安排发运</span>
+                </li>
+                <li>
+                  <span class="time">2016-03-10 18:07:15</span>
+                  <i class="node-icon"></i>
+                  <span class="txt">[ibt]订单配车安排发运</span>
+                </li>
+                <li>
+                  <span class="time">2016-03-10 18:07:15</span>
+                  <i class="node-icon"></i>
+                  <span class="txt">[ibt]订单配车安排发运</span>
+                </li>
+                <li>
+                  <span class="time">2016-03-10 18:07:15</span>
+                  <i class="node-icon"></i>
+                  <span class="txt">[ibt]订单配车安排发运</span>
+                </li>
               </ul>
             </div>
+          </div>
 
-            <div class="wallet-none wallet-on">
-              <div class="fuli-order-head clearfix">
-                <div class="fuli-order-left pointer">
-                  <span class="fuli-check-time">近3个月订单</span>
-                  <!-- <img src="../../images/static/headdown.png" alt=""> -->
-                  <i class="fuli-order-arrow"></i>
-                  <div class="fuli-order-left-item">
-                    <ul>
-                      <li>近3个月订单</li>
-                      <li>今年内</li>
-                      <li>全部历史</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="fuli-order-right2">
-                  <ul class="clearfix fuli-order-list2">
-                    <li class="fuli-order-list-income pointer">
-                      <span class="fuli-check-time-income">收入</span>
-                      <i class="fuli-order-arrow"></i>
-                      <div class="fuli-order-left-item-width">
-                        <ul>
-                          <li>收入</li>
-                          <li>支出</li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li>类型</li>
-                    <li class="fuli-frozen-color">交易单号</li>
-                    <li>说明</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="fuli-balance-wrapper">
-                <div class="fuli-balance-content clearfix">
-                  <div class="fuli-order-left2">
-                    2019-01-07 16:07:42
-                  </div>
-                  <div class="fuli-order-right2">
-                    <ul class="clearfix fuli-order-list2">
-                      <li class="income">+100.00</li>
-                      <li>单位充值</li>
-                      <li class="fuli-frozen-color">200000000000841</li>
-                      <li title="充值100元，福利类型端午。。。" class="change-notes">充值100元，福利类型端午。。。</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="fuli-balance-content clearfix">
-                  <div class="fuli-order-left2">
-                    2019-01-07 16:07:42
-                  </div>
-                  <div class="fuli-order-right2">
-                    <ul class="clearfix fuli-order-list2">
-                      <li class="income">+500.00</li>
-                      <li>订单取消</li>
-                      <li class="fuli-frozen-color">200000000000841</li>
-                      <li title="取消订单，退款京东男士护肤细化" class="change-notes">取消订单，退款京东男士护肤细化</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="fuli-balance-content clearfix">
-                  <div class="fuli-order-left2">
-                    2019-01-07 16:07:42
-                  </div>
-                  <div class="fuli-order-right2">
-                    <ul class="clearfix fuli-order-list2">
-                      <li class="income">+600.00</li>
-                      <li>个人充值</li>
-                      <li class="fuli-frozen-color">200000000000841</li>
-                      <li title="充值1000元，充值方式微信充值" class="change-notes">充值1000元，充值方式微信充值</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="fuli-balance-content clearfix">
-                  <div class="fuli-order-left2">
-                    2019-01-07 16:07:42
-                  </div>
-                  <div class="fuli-order-right2">
-                    <ul class="clearfix fuli-order-list2">
-                      <li class="income">+300.00</li>
-                      <li>退款完成</li>
-                      <li class="fuli-frozen-color">200000000000841</li>
-                      <li title="退款成功，退款京东男士护肤细化" class="change-notes">退款成功，退款京东男士护肤细化</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="fuli-balance-paging">
-                <div id="pageBox">
-                  <span id="prev">上一页</span>
-                  <ul id="pageNav"></ul>
-                  <span id="next">下一页</span>
-                </div>
-              </div>
+          <div class="retract">收起</div>
+
+        </div>
+      </div>
+      <div class="service-list-message-wrapper">
+        <div class="service-list-message-head">
+          服务单信息
+        </div>
+        <div class="service-list-message-content">
+          <div class="service-list-message-content-item">
+            <span>商品返回方式：</span>
+            <span class="service-list-message-content-item-right">客户期望返件方式”上门取件”</span>
+          </div>
+          <div class="service-list-message-content-item">
+            <span>商品处理方式：</span>
+            <span class="service-list-message-content-item-right">客户期望处理方式为”退货”</span>
+          </div>
+          <div class="service-list-message-content-item">
+            <span>申&nbsp;&nbsp;请&nbsp;&nbsp;原&nbsp;&nbsp;因：</span>
+            <span class="service-list-message-content-item-right">不想要了</span>
+          </div>
+          <div class="service-list-message-content-item">
+            <span>问&nbsp;&nbsp;题&nbsp;&nbsp;描&nbsp;&nbsp;述：</span>
+            <span class="service-list-message-content-item-right">不想要了</span>
+          </div>
+          <div class="service-list-message-content-item">
+            <span>取&nbsp;&nbsp;件&nbsp;&nbsp;地&nbsp;&nbsp;址：</span>
+            <span class="service-list-message-content-item-right">北京市朝阳区国际大厦</span>
+          </div>
+          <div class="service-list-message-content-item">
+            <span>取&nbsp;&nbsp;&nbsp;&nbsp;货&nbsp;&nbsp;&nbsp;&nbsp;人：</span>
+            <span class="service-list-message-content-item-right">李荣阳</span>
+          </div>
+          <div class="service-list-message-content-item">
+            <span>手&nbsp;&nbsp;机&nbsp;&nbsp;号&nbsp;&nbsp;码：</span>
+            <span class="service-list-message-content-item-right">150***6666</span>
+          </div>
+        </div>
+      </div>
+      <div class="shipped-order-goods-wrapper">
+        <div class="shipped-order-goods-head">
+          <span class="shipped-order-goods-head-info">商品信息</span>
+          <span class="shipped-order-goods-head-weight">重量</span>
+          <span class="shipped-order-goods-head-price">售价</span>
+          <span class="shipped-order-goods-head-number2">数量</span>
+          <span class="shipped-order-goods-head-setting">操作</span>
+        </div>
+        <div class="shipped-order-goods-address">
+          <img src="../../images/static/order_address.png" class="shipped-order-goods-address-img" alt="">
+          <span>发货地：朝阳区建国门外</span>
+        </div>
+        <div class="shipped-order-goods-item-wrapper clearfix">
+          <div class="shipped-order-goods-item-img">
+            <img src="../../images/static/myphone2.png" alt="">
+          </div>
+          <div class="shipped-order-goods-item-introduce">
+            <a href="#">
+              【耳机套装】vivo U1 水滴全面屏 AI智慧拍照手机 3GB+64GB 极光色 移动联通电信全网通4G手机
+            </a>
+          </div>
+          <div class="shipped-order-goods-item-weight">0.18kg</div>
+          <div class="shipped-order-goods-item-price">178.00</div>
+          <div class="shipped-order-goods-item-number2">1</div>
+          <div class="shipped-order-goods-item-setting shipped-order-goods-line">
+            <!-- <div class="shipped-order-goods-item-setting-btn">去支付</div>
+            <a href="#">取消订单</a> -->
+          </div>
+        </div>
+        <div class="shipped-order-goods-item-wrapper clearfix">
+          <div class="shipped-order-goods-item-img">
+            <img src="../../images/static/myphone2.png" alt="">
+          </div>
+          <div class="shipped-order-goods-item-introduce">
+            <a href="#">
+              【耳机套装】vivo U1 水滴全面屏 AI智慧拍照手机 3GB+64GB 极光色 移动联通电信全网通4G手机
+            </a>
+          </div>
+          <div class="shipped-order-goods-item-weight">0.18kg</div>
+          <div class="shipped-order-goods-item-price">178.00</div>
+          <div class="shipped-order-goods-item-number2">1</div>
+          <div class="shipped-order-goods-item-setting shipped-order-goods-line">
+            <!-- <div class="shipped-order-goods-item-setting-btn">去支付</div>
+            <a href="#">取消订单</a> -->
+          </div>
+        </div>
+      </div>
+      <div class="refund-settlement-wrapper">
+        <div class="refund-settlement-content">
+          <div class="refund-settlement clearfix">
+            <div class="refund-settlement-left">
+              余额支付：
             </div>
-            <div class="wallet-none">
-              <div class="recharge-details-head clearfix">
-                <div class="recharge-details-head-left pointer">
-                  <span class="fuli-check-recharge">近3个月订单</span>
-                  <!-- <img src="../../images/static/headdown.png" alt=""> -->
-                  <i class="fuli-order-arrow"></i>
-                  <div class="fuli-order-left-item-recharge">
-                    <ul>
-                      <li>近3个月订单</li>
-                      <li>今年内</li>
-                      <li>全部历史</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="fuli-order-right2">
-                  <ul class="clearfix fuli-order-list2">
-                    <li>交易单号</li>
-                    <li>充值方式</li>
-                    <li class="fuli-frozen-color">充值金额</li>
-                    <li>状态</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="fuli-balance-content-wrapper">
-                <div class="fuli-balance-content clearfix">
-                  <div class="fuli-order-left2">
-                    2019-01-07 16:07:42
-                  </div>
-                  <div class="fuli-order-right2">
-                    <ul class="clearfix fuli-order-list2">
-                      <li>200000000000841</li>
-                      <li class="change-notes payment-type" title="企业充值（节日福利）">企业充值（节日福利）</li>
-                      <li class="income payment-price">138.00</li>
-                      <li class="recharge-type">充值成功</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="fuli-balance-content clearfix">
-                  <div class="fuli-order-left2">
-                    2019-01-07 16:07:42
-                  </div>
-                  <div class="fuli-order-right2">
-                    <ul class="clearfix fuli-order-list2">
-                      <li>200000000000841</li>
-                      <li class="change-notes payment-type">微信</li>
-                      <li class="income payment-price">138.00</li>
-                      <li class="recharge-type">充值失败</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="fuli-balance-content clearfix">
-                  <div class="fuli-order-left2">
-                    2019-01-07 16:07:42
-                  </div>
-                  <div class="fuli-order-right2">
-                    <ul class="clearfix fuli-order-list2">
-                      <li>200000000000841</li>
-                      <li class="change-notes payment-type">支付宝</li>
-                      <li class="income payment-price">138.00</li>
-                      <li class="recharge-type">充值成功</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="fuli-balance-content clearfix">
-                  <div class="fuli-order-left2">
-                    2019-01-07 16:07:42
-                  </div>
-                  <div class="fuli-order-right2">
-                    <ul class="clearfix fuli-order-list2">
-                      <li>200000000000841</li>
-                      <li class="change-notes payment-type">微信</li>
-                      <li class="income payment-price">138.00</li>
-                      <li class="recharge-type">充值成功</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="fuli-balance-content clearfix">
-                  <div class="fuli-order-left2">
-                    2019-01-07 16:07:42
-                  </div>
-                  <div class="fuli-order-right2">
-                    <ul class="clearfix fuli-order-list2">
-                      <li>200000000000841</li>
-                      <li class="change-notes payment-type">微信</li>
-                      <li class="income payment-price">138.00</li>
-                      <li class="recharge-type">充值成功</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="fuli-balance-content clearfix">
-                  <div class="fuli-order-left2">
-                    2019-01-07 16:07:42
-                  </div>
-                  <div class="fuli-order-right2">
-                    <ul class="clearfix fuli-order-list2">
-                      <li>200000000000841</li>
-                      <li class="change-notes payment-type">微信</li>
-                      <li class="income payment-price">138.00</li>
-                      <li class="recharge-type">充值成功</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="seize-seat"></div>
+            <div class="refund-settlement-center">
+              （预计1-3个工作日到账）
+            </div>
+            <div class="refund-settlement-right">
+              ￥267.00
+            </div>
+          </div>
+          <div class="refund-settlement clearfix">
+            <div class="refund-settlement-left">
+              扣除运费：
+            </div>
+            <div class="refund-settlement-center">
+
+            </div>
+            <div class="refund-settlement-right">
+              ￥4.00
+            </div>
+          </div>
+          <div class="refund-settlement clearfix">
+            <div class="refund-settlement-left">
+              退款金额：
+            </div>
+            <div class="refund-settlement-center">
+
+            </div>
+            <div class="refund-settlement-right refund-settlement-color">
+              ￥263.00
             </div>
           </div>
         </div>
@@ -695,8 +577,6 @@
     </div>
   </div>
   <!-- 内容end -->
-
-  <div class="seat"></div>
 
   <!-- 底部 -->
   <div class="footer">
@@ -928,8 +808,6 @@
 
   <script src="../../lib/jq/jquery.old.js"></script>
   <script src="../../js/index/index.js"></script>
-  <script src="../../js/MyWelfareBag/walletBalance.js"></script>
-
 </body>
 
 </html>

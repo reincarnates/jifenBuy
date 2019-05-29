@@ -22,3 +22,140 @@
   justify-content: center;
   flex-direction: column;
 }
+
+.shipped-step-bg3{
+  width: 290px;
+}
+
+.shipped-progress-position{
+  left: 397px;
+}
+
+.shipped-progress-position2{
+  left: 730px;
+}
+
+.shipped-current-status-right-change-time{
+  width: 123px;
+  height: 33px;
+  background-color: #0090ff;
+  text-align: center;
+  line-height: 33px;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 29px;
+  cursor: pointer;
+  border-radius: 1px;
+  float: right;
+}
+
+.shipped-current-status-right-change-time:hover{
+  opacity: .8;
+}
+
+.shipped-current-status-container{
+  padding: 0 24px;
+  box-sizing: border-box;
+}
+
+.shipped-current-status-wrapper3{
+  width: 100%;
+  height: 91px;
+  border-bottom: 1px dashed #e9e9e9;
+  margin-top: 31px;
+}
+
+.logistics-company{
+  width: 100%;
+  height: 89px;
+  line-height: 56px;
+  color: #333;
+  font-size: 14px;
+  padding-left: 24px;
+  box-sizing: border-box;
+}
+
+.logistics-company span{
+  color: #999;
+}
+
+.service-list-message-wrapper{
+  width: 100%;
+  height: 319px;
+  border: 1px solid #e2e2e2;
+  margin-bottom: 21px;
+}
+
+.service-list-message-head{
+  width: 100%;
+  line-height: 40px;
+  background-color: #fff6f3;
+  padding-left: 20px;
+  box-sizing: border-box;
+  color: #999;
+  font-size: 14px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.service-list-message-content{
+  width: 100%;
+  padding: 16px 15px;
+  box-sizing: border-box;
+}
+
+.service-list-message-content-item{
+  width: 100%;
+  line-height: 36px;
+  color: #999;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.service-list-message-content-item-right{
+  color: #333;
+}
+
+.refund-settlement-wrapper{
+  width: 100%;
+  height: 157px;
+  border: 1px solid #e2e2e2;
+  background-color: #f3f3f3;
+  margin-top: 59px;
+  padding: 28px 0;
+  box-sizing: border-box;
+}
+
+.refund-settlement-content{
+  width: 350px;
+  float: right;
+}
+
+.refund-settlement{
+  width: 100%;
+  line-height: 32px;
+}
+
+.refund-settlement-left{
+  color: #333;
+  font-size: 14px;
+  float: left;
+}
+
+.refund-settlement-center{
+  width: 163px;
+  height: 32px;
+  color: #333;
+  font-size: 14px;
+  float: left;
+}
+
+.refund-settlement-right{
+  color: #333;
+  font-size: 14px;
+  float: left;
+}
+
+.refund-settlement-color{
+  color: #ff5826;
+  font-size: 18px;
+}

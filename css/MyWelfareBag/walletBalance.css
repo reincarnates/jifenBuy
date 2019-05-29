@@ -100,7 +100,7 @@
 }
 
 .wallet-cur{
-  border-bottom: 3px solid #ffb030;
+  border-bottom: 2px solid #ffb030;
 }
 
 .mar-lg{
@@ -356,4 +356,29 @@
 .seize-seat{
   width: 100%;
   height: 100px;
+}
+
+.expend{
+  color: #5dc442 !important;
+}
+
+.fuli-balance-wrapper{
+  height: 480px;
+}
+
+.payment-type{
+  width: 78px !important;
+  margin-left: 52px;
+}
+
+.payment-price{
+  margin-left: 52px;
+}
+
+.payment-price2{
+  color: #666 !important;
+}
+
+.fuli-balance-content-wrapper{
+  height: 480px;
 }

@@ -1,5 +1,12 @@
 $(function() {
 
+  $('.recharge-type').each(function(index,item) {
+    if($(item).text() == '充值失败') {
+      $(this).siblings('.payment-price').addClass('payment-price2');
+    }
+  });
+  
+
   $(".wallet-introduce ul li").click(function() {
     $(".wallet-introduce ul li").eq($(this).index()).addClass("wallet-cur").siblings().removeClass('wallet-cur');
     $(".wallet-none").eq($(".wallet-introduce ul li").index(this)).addClass("wallet-on").siblings().removeClass('wallet-on'); 
@@ -30,8 +37,88 @@ $(function() {
     $(this).find('.fuli-order-left-item-width').css('display','none');
   });
 
+  var expendArr = [
+    {
+      orderTime: '2019-01-07 16:07:42',
+      expend: '-100.00',
+      expendType: '下单支付',
+      expendOrderNumber: '200000000000841',
+      explain: '下单购买商品，京东男士护肤。。。。。。。'
+    }
+  ];
+  var incomeArr = [
+    {
+      orderTime: '2019-01-07 16:07:42',
+      expend: '+100.00',
+      expendType: '单位充值',
+      expendOrderNumber: '200000000000841',
+      explain: '充值100元，福利类型端午。。。'
+    },
+    {
+      orderTime: '2019-01-07 16:07:42',
+      expend: '+500.00',
+      expendType: '订单取消',
+      expendOrderNumber: '200000000000841',
+      explain: ' 取消订单，退款京东男士护肤细化'
+    },
+    {
+      orderTime: '2019-01-07 16:07:42',
+      expend: '+600.00',
+      expendType: '个人充值',
+      expendOrderNumber: '200000000000841',
+      explain: '充值1000元，充值方式微信充值'
+    },
+    {
+      orderTime: '2019-01-07 16:07:42',
+      expend: '+300.00',
+      expendType: '退款完成',
+      expendOrderNumber: '200000000000841',
+      explain: ' 退款成功，退款京东男士护肤细化'
+    }
+  ];
   $('.fuli-order-left-item-width ul li').click(function() {
     $('.fuli-check-time-income').text($(this).text());
+    if($(this).text() == '支出') {
+      $('.fuli-balance-wrapper').find('.fuli-balance-content').remove();
+      expendArr.forEach(element => {
+        var incomeDom = `
+        <div class="fuli-balance-content clearfix" style="display: flex;">
+          <div class="fuli-order-left2">
+            ${element.orderTime}
+          </div>
+          <div class="fuli-order-right2">
+            <ul class="clearfix fuli-order-list2">
+              <li class="expend">${element.expend}</li>
+              <li>${element.expendType}</li>
+              <li class="fuli-frozen-color">${element.expendOrderNumber}</li>
+              <li title="${element.explain}" class="change-notes">${element.explain}</li>
+            </ul>
+          </div>
+        </div>
+        `
+        $('.fuli-balance-wrapper').append(incomeDom);
+      });
+    }else{
+      $('.fuli-balance-wrapper').find('.fuli-balance-content').remove();
+      incomeArr.forEach(element => {
+        var incomeDom = `
+        <div class="fuli-balance-content clearfix" style="display: flex;">
+          <div class="fuli-order-left2">
+            ${element.orderTime}
+          </div>
+          <div class="fuli-order-right2">
+            <ul class="clearfix fuli-order-list2">
+              <li class="income">${element.expend}</li>
+              <li>${element.expendType}</li>
+              <li class="fuli-frozen-color">${element.expendOrderNumber}</li>
+              <li title="${element.explain}" class="change-notes">${element.explain}</li>
+            </ul>
+          </div>
+        </div>
+        `
+        $('.fuli-balance-wrapper').append(incomeDom);
+      });
+    }
   });
 
   $('.recharge-details-head-left').mouseover(function() {
@@ -76,7 +163,6 @@ function tabPage(tabPage) {
   /*每页显示数*/
   var len = Math.ceil(pageMain.find(".fuli-balance-content").length / curNum);
   /*计算总页数*/
-  console.log(len);
   var pageList = '';
   /*生成页码*/
   var iNum = 0;

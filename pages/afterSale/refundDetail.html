@@ -348,9 +348,9 @@
     </div>
     <div class="shipped-content-wrapper">
       <div class="shipped-step-wrapper">
-        <div class="shipped-step-bg shipped-step-progress"></div>
-        <div class="shipped-step-bg shipped-step-progress shipped-step-position"></div>
-        <div class="shipped-step-bg shipped-step-position2"></div>
+        <div class="shipped-step-bg shipped-step-bg3 shipped-step-progress"></div>
+        <div class="shipped-step-bg shipped-step-bg3 shipped-step-progress shipped-progress-position"></div>
+        <div class="shipped-step-bg shipped-step-bg3 shipped-progress-position2"></div>
         <ul class="shipped-step clearfix">
           <li class="shipped-step-item shipped-width">
             <div class="shipped-step-item-title">1.提交申请</div>
@@ -360,23 +360,23 @@
               </span>
             </div>
           </li>
-          <li class="shipped-step-item shipped-width shipped-display">
-            <div class="shipped-step-item-title shipped-step-item-title-next">2.平台审核</div>
+          <li class="shipped-step-item shipped-width shipped-display" style="padding-right: 90px;">
+            <div class="shipped-step-item-title shipped-step-item-title-next" style="padding-left: 8px;">2.平台审核</div>
             <div class="shipped-step-item-num">
               <span class="shipped-step-item-active">
                 <img src="../../images/static/examine.png" alt="">
               </span>
             </div>
           </li>
-          <li class="shipped-step-item shipped-width shipped-display">
-            <div class="shipped-step-item-title shipped-step-item-title-next">3.退款中</div>
+          <li class="shipped-step-item shipped-width shipped-display" style="padding-left: 40px;">
+            <div class="shipped-step-item-title shipped-step-item-title-next" style="padding-left: 8px;">3.退款中</div>
             <div class="shipped-step-item-num">
               <span class="shipped-step-item-line2 shipped-step-item-active">
                 <img src="../../images/static/return_goods.png" alt="">
               </span>
             </div>
           </li>
-          <li class="shipped-step-item shipped-width shipped-display2">
+          <li class="shipped-step-item shipped-width shipped-display2" style="padding-right: 28px;">
             <div class="shipped-step-item-title shipped-step-item-title-next">4.完成</div>
             <div class="shipped-step-item-num">
               <span class="shipped-step-item-receipt">
@@ -386,18 +386,57 @@
           </li>
         </ul>
       </div>
-      <div class="shipped-current-status-wrapper clearfix">
-        <div class="shipped-current-status-left">
-          <div class="shipped-current-status">
-            <span class="shipped-current-status-icon"></span>
-            <span class="shipped-current-status-word">当前状态：等待买家付款</span>
+      <div class="shipped-current-status-container">
+        <div class="shipped-current-status-wrapper3 clearfix">
+          <div class="shipped-current-status-left">
+            <div class="shipped-current-status">
+              <span class="shipped-current-status-icon"></span>
+              <span class="shipped-current-status-word">当前状态：退货中，注意关注物流状态等待退款！</span>
+            </div>
+            <div>
+              <span class="shipped-current-status-word2">退货之后等待卖家收到商品之后会为您退款请您耐心等待</span>
+            </div>
           </div>
-          <div>
-            <span class="shipped-current-status-word2">还有<span>1小时55分47秒</span>进行付款，若未及时付款，系统将自动取消订单</span>
+         <div class="shipped-current-status-right-change-time">更改取件时间</div>
+        </div>
+        <div class="logistics-company">
+          物流公司：<span>暂时还没有物流信息，等待快递员上门取件</span>
+        </div>
+      </div>
+      <div class="service-list-message-wrapper">
+        <div class="service-list-message-head">
+          服务单信息
+        </div>
+        <div class="service-list-message-content">
+          <div class="service-list-message-content-item">
+            <span>商品返回方式：</span>
+            <span class="service-list-message-content-item-right">客户期望返件方式”上门取件”</span>
+          </div>
+          <div class="service-list-message-content-item">
+            <span>商品处理方式：</span>
+            <span class="service-list-message-content-item-right">客户期望处理方式为”退货”</span>
+          </div>
+          <div class="service-list-message-content-item">
+            <span>申&nbsp;&nbsp;请&nbsp;&nbsp;原&nbsp;&nbsp;因：</span>
+            <span class="service-list-message-content-item-right">不想要了</span>
+          </div>
+          <div class="service-list-message-content-item">
+            <span>问&nbsp;&nbsp;题&nbsp;&nbsp;描&nbsp;&nbsp;述：</span>
+            <span class="service-list-message-content-item-right">不想要了</span>
+          </div>
+          <div class="service-list-message-content-item">
+            <span>取&nbsp;&nbsp;件&nbsp;&nbsp;地&nbsp;&nbsp;址：</span>
+            <span class="service-list-message-content-item-right">北京市朝阳区国际大厦</span>
+          </div>
+          <div class="service-list-message-content-item">
+            <span>取&nbsp;&nbsp;&nbsp;&nbsp;货&nbsp;&nbsp;&nbsp;&nbsp;人：</span>
+            <span class="service-list-message-content-item-right">李荣阳</span>
+          </div>
+          <div class="service-list-message-content-item">
+            <span>手&nbsp;&nbsp;机&nbsp;&nbsp;号&nbsp;&nbsp;码：</span>
+            <span class="service-list-message-content-item-right">150***6666</span>
           </div>
         </div>
-         <!-- <div class="shipped-current-status-right-wrod">去支付</div> -->
-       <div class="shipped-current-status-right-payment">去支付</div>
       </div>
       <div class="shipped-order-goods-wrapper">
         <div class="shipped-order-goods-head">
@@ -443,6 +482,43 @@
           <div class="shipped-order-goods-item-setting shipped-order-goods-line">
             <!-- <div class="shipped-order-goods-item-setting-btn">去支付</div>
             <a href="#">取消订单</a> -->
+          </div>
+        </div>
+      </div>
+      <div class="refund-settlement-wrapper">
+        <div class="refund-settlement-content">
+          <div class="refund-settlement clearfix">
+            <div class="refund-settlement-left">
+              余额支付：
+            </div>
+            <div class="refund-settlement-center">
+              （预计1-3个工作日到账）
+            </div>
+            <div class="refund-settlement-right">
+              ￥267.00
+            </div>
+          </div>
+          <div class="refund-settlement clearfix">
+            <div class="refund-settlement-left">
+              扣除运费：
+            </div>
+            <div class="refund-settlement-center">
+              
+            </div>
+            <div class="refund-settlement-right">
+              ￥4.00
+            </div>
+          </div>
+          <div class="refund-settlement clearfix">
+            <div class="refund-settlement-left">
+              退款金额：
+            </div>
+            <div class="refund-settlement-center">
+              
+            </div>
+            <div class="refund-settlement-right refund-settlement-color">
+              ￥263.00
+            </div>
           </div>
         </div>
       </div>
@@ -680,6 +756,7 @@
 
   <script src="../../lib/jq/jquery.old.js"></script>
   <script src="../../js/index/index.js"></script>
+  <script src="../../js/afterSale/refundDetail.js"></script>
 </body>
 
 </html>
