@@ -429,23 +429,23 @@
             <ul class="tab2">
               <li class="cur2">
                 所有订单
-                <span class="tab-color">4</span>
+                <span class="tab-color all-order">4</span>
               </li>
               <li>
                 待付款
-                <span class="tab-color">1</span>
+                <span class="tab-color pending">1</span>
               </li>
               <li>
                 待发货
-                <span class="tab-color">1</span>
+                <span class="tab-color shipped">1</span>
               </li>
               <li>
                 待收货
-                <span class="tab-color">2</span>
+                <span class="tab-color received">2</span>
               </li>
               <li>
                 待评价
-                <span class="tab-color">3</span>
+                <span class="tab-color comment">3</span>
               </li>
               <li>
                 <img src="../../images/static/garbage.png" alt="" class="mar-rn"> 订单回收站
@@ -460,41 +460,43 @@
               </div>
             </div>
           </div>
-          <!-- 所有订单 -->
-          <div class="ob3 on3">
-            <div class="fuli-order-head clearfix">
-              <div class="fuli-order-left pointer">
-                <span class="fuli-check-time">近3个月订单</span>
-                <!-- <img src="../../images/static/headdown.png" alt=""> -->
-                <i class="fuli-order-arrow"></i>
-                <div class="fuli-order-left-item">
-                  <ul>
-                    <li>近3个月订单</li>
-                    <li>今年订单</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="fuli-order-right">
-                <ul class="clearfix fuli-order-list">
-                  <li>商品数量</li>
-                  <li>金额</li>
-                  <li class="all-status pointer">
-                    <span class="check-list">全部状态</span>
-                    <i class="fuli-order-list-arrow"></i>
-                    <div class="fuli-order-left-item2">
-                      <ul>
-                        <li>全部状态</li>
-                        <li>待付款</li>
-                        <li>待发货</li>
-                        <li>已完成</li>
-                        <li>已取消</li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li>操作</li>
+          <div class="fuli-order-head clearfix">
+            <div class="fuli-order-left pointer">
+              <span class="fuli-check-time">近3个月订单</span>
+              <!-- <img src="../../images/static/headdown.png" alt=""> -->
+              <i class="fuli-order-arrow"></i>
+              <div class="fuli-order-left-item">
+                <ul>
+                  <li>近3个月订单</li>
+                  <li>今年订单</li>
                 </ul>
               </div>
             </div>
+            <div class="fuli-order-right">
+              <ul class="clearfix fuli-order-list">
+                <li>商品信息</li>
+                <li style="position: absolute; left: 158px">单价</li>
+                <li style="margin-left: 113px">数量</li>
+                <li style="margin-left: 10px">小计</li>
+                <li class="all-status pointer" style="margin-left: 8px">
+                  <span class="check-list">全部状态</span>
+                  <i class="fuli-order-list-arrow"></i>
+                  <div class="fuli-order-left-item2">
+                    <ul>
+                      <li>全部状态</li>
+                      <li>待付款</li>
+                      <li>待发货</li>
+                      <li>已完成</li>
+                      <li>已取消</li>
+                    </ul>
+                  </div>
+                </li>
+                <li style="margin-left: 23px">操作</li>
+              </ul>
+            </div>
+          </div>
+          <!-- 所有订单 -->
+          <div class="ob3 on3 all-order-info">
             <div class="fuli-order-info">
               <div class="order-info-heade clearfix">
                 <div class="order-info-left">
@@ -732,13 +734,13 @@
                 </div>
                 <div class="order-goods-setting">
                   <div class="order-cancel pointer">
-                    <a href="#">
-                      删除订单
+                    <a href="#" style="display: inline-block; margin-bottom: 10px;">
+                      再次购买
                     </a>
                   </div>
                   <div class="order-cancel pointer">
                     <a href="#">
-                      再次购买
+                      删除订单
                     </a>
                   </div>
                 </div>
@@ -790,11 +792,6 @@
                 </div>
                 <div class="order-goods-setting">
                   <div class="order-cancel pointer">
-                    <a href="#">
-                      删除订单
-                    </a>
-                  </div>
-                  <div class="order-cancel pointer">
                     <a href="#" class="check-order-evaluate">
                       查看评价
                     </a>
@@ -802,16 +799,108 @@
                       评价
                     </div>
                   </div>
+                  <div class="order-cancel pointer">
+                    <a href="#">
+                      删除订单
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <!-- 待付款 -->
-          <div class="ob3">
-            2
+          <div class="ob3 pending-wrapper">
+            <div class="fuli-order-info">
+              <div class="order-info-heade clearfix">
+                <div class="order-info-left">
+                  订单编号：56728272726266363
+                </div>
+                <div class="order-time">
+                  下单时间：2019-04-09
+                </div>
+              </div>
+              <div class="order-info-content clearfix">
+                <div class="order-goods-info">
+                  <div class="order-goods-img">
+                    <img src="../../images/static/order_goods.png" alt="">
+                  </div>
+                  <p class="order-goods-words"><a target="_black" href="./orderDetails.html">SHISEIDO 资生堂旗下HANDCREAM 美润
+                      药用美肌护手霜 100克/罐 2罐装</a></p>
+                  <div class="order-goods-price">
+                    <div class="order-goods-del">￥98</div>
+                    <div class="order-goods-present">￥78</div>
+                  </div>
+                  <div class="order-goods-number">
+                    1件
+                  </div>
+                </div>
+                <div class="order-goodsPrice">
+                  <div class="order-goodsPrice-top">
+                    78.00
+                  </div>
+                  <div class="order-goodsPrice-bottom">
+                    (含运费: 0.00)
+                  </div>
+                </div>
+                <div class="order-goods-status">
+                  <span class="status-color">待付款</span>
+                  <span class="pointer"><a href="#">订单详情</a></span>
+                </div>
+                <div class="order-goods-setting">
+                  <p>请在2小时内付款</p>
+                  <div class="order-operate pointer">
+                    去支付
+                  </div>
+                  <div class="order-cancel pointer">
+                    <a href="#">
+                      取消订单
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="order-info-content clearfix">
+                <div class="order-goods-info">
+                  <div class="order-goods-img">
+                    <img src="../../images/static/order_goods.png" alt="">
+                  </div>
+                  <p class="order-goods-words"><a target="_black" href="./orderDetails.html">SHISEIDO 资生堂旗下HANDCREAM 美润
+                      药用美肌护手霜 100克/罐 2罐装</a></p>
+                  <div class="order-goods-price">
+                    <div class="order-goods-del">￥98</div>
+                    <div class="order-goods-present">￥78</div>
+                  </div>
+                  <div class="order-goods-number">
+                    1件
+                  </div>
+                </div>
+                <div class="order-goodsPrice">
+                  <div class="order-goodsPrice-top">
+                    78.00
+                  </div>
+                  <div class="order-goodsPrice-bottom">
+                    (含运费: 0.00)
+                  </div>
+                </div>
+                <div class="order-goods-status">
+                  <span class="status-color">待付款</span>
+                  <span class="pointer"><a href="#">订单详情</a></span>
+                </div>
+                <div class="order-goods-setting">
+                  <p>请在2小时内付款</p>
+                  <div class="order-operate pointer">
+                    去支付
+                  </div>
+                  <div class="order-cancel pointer">
+                    <a href="#">
+                      取消订单
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <!-- 待发货 -->
-          <div class="ob3">
+          <div class="ob3 shipped-wrapper">
             <div class="fuli-order-info">
               <div class="order-info-heade clearfix">
                 <div class="order-info-left">
@@ -836,29 +925,8 @@
                       1件
                     </div>
                   </div>
-                  <div class="order-goods-info">
-                    <div class="order-goods-img">
-                      <img src="../../images/static/order_goods.png" alt="">
-                    </div>
-                    <p class="order-goods-words"><a href="#">SHISEIDO 资生堂旗下HANDCREAM 美润 药用美肌护手霜 100克/罐 2罐装</a></p>
-                    <div class="order-goods-price">
-                      <div class="order-goods-del">￥98</div>
-                      <div class="order-goods-present">￥78</div>
-                    </div>
-                    <div class="order-goods-number">
-                      1件
-                    </div>
-                  </div>
                 </div>
                 <div class="order-goodsPrice2">
-                  <div class="order-goodsPrice-one">
-                    <div class="order-goodsPrice-top">
-                      78.00
-                    </div>
-                    <div class="order-goodsPrice-bottom">
-                      (含运费: 0.00)
-                    </div>
-                  </div>
                   <div class="order-goodsPrice-one">
                     <div class="order-goodsPrice-top">
                       78.00
@@ -872,20 +940,27 @@
                   <span class="status-color2">待发货</span>
                   <span class="pointer">
                     <a href="#">
+                      查看物流
+                    </a>
+                  </span>
+                  <span class="pointer">
+                    <a href="#">
                       订单详情
                     </a>
                   </span>
                 </div>
                 <div class="order-goods-setting2">
                   <div class="order-cancel pointer">
-                    出库中
+                    <a href="#">
+                      取消订单
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <!-- 待收货 -->
-          <div class="ob3">
+          <div class="ob3 received-wrapper">
             <div class="fuli-order-info">
               <div class="order-info-heade clearfix">
                 <div class="order-info-left">
@@ -918,7 +993,7 @@
                   </div>
                 </div>
                 <div class="order-goods-status">
-                  <span class="status-color2">已发货</span>
+                  <span class="status-color2">待收货</span>
                   <span class="pointer">
                     <a href="#">
                       查看物流
@@ -939,7 +1014,7 @@
             </div>
           </div>
           <!-- 待评价 -->
-          <div class="ob3">
+          <div class="ob3 comment-wrapper">
             <div class="fuli-order-info">
               <div class="order-info-heade clearfix">
                 <div class="order-info-left">
@@ -985,18 +1060,13 @@
                   </span>
                 </div>
                 <div class="order-goods-setting">
-                  <div class="order-assess  pointer">
-                    评价
-                  </div>
                   <div class="order-cancel pointer">
-                    <a href="#">
-                      再次购买
+                    <a href="#" class="check-order-evaluate">
+                      查看评价
                     </a>
-                  </div>
-                  <div class="order-cancel pointer">
-                    <a href="#">
-                      申请售后
-                    </a>
+                    <div class="order-evaluate">
+                      评价
+                    </div>
                   </div>
                   <div class="order-cancel pointer">
                     <a href="#">

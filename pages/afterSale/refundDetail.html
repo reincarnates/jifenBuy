@@ -11,12 +11,12 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   <meta name="format-detection" content="telephone=no" />
-  <title>我的信息</title>
+  <title>退款详情</title>
   <link rel="stylesheet" href="../../css/reset.css">
   <link rel="stylesheet" href="../../css/style.css">
-  <link rel="stylesheet" href="../../css/PersonalCenter/PersonalCenter.css">
   <link rel="stylesheet" href="../../css/headOrfooter/headOrfooter.css">
-  <link rel="stylesheet" href="../../css/myNews/myNews.css">
+  <link rel="stylesheet" href="../../css/orderDetails/orderDetailsShipped.css">
+  <link rel="stylesheet" href="../../css/afterSale/refundDetail.css">
 </head>
 
 <body>
@@ -337,312 +337,118 @@
   <!-- 导航end -->
 
   <!-- 内容 -->
-  <div class="fuli-wrapper">
-    <div class="fuli-container">
-      <div class="personal clearfix">
-        <div class="menu2">
-          <dl class="list_dl">
-            <dt class="list_dt">
-              <span class="_after"></span>
-              <i class="list_dt_icon2"></i>
-              <p>订单中心</p>
-              <i class="list_dt_icon"></i>
-            </dt>
-            <dd class="list_dd">
-              <ul>
-                <li class="list_li">我的订单</li>
-                <li class="list_li">常购商品</li>
-              </ul>
-            </dd>
-            <dt class="list_dt">
-              <span class="_after"></span>
-              <i class="list_dt_icon2"></i>
-              <p>我的福利袋</p>
-              <i class="list_dt_icon"></i>
-            </dt>
-            <dd class="list_dd">
-              <ul>
-                <li class="list_li">余额</li>
-                <li class="list_li">积分</li>
-                <!-- <li class="list_li">红包</li>-->
-                <li class="list_li">代金券</li>
-                <!-- <li class="list_li">更多</li>  -->
-              </ul>
-            </dd>
-            <dt class="list_dt">
-              <span class="_after"></span>
-              <i class="list_dt_icon2"></i>
-              <p>账户管理</p>
-              <i class="list_dt_icon"></i>
-            </dt>
-            <dd class="list_dd">
-              <ul>
-                <li class="list_li">我的信息</li>
-                <li class="list_li">账户安全</li>
-                <li class="list_li">地址管理</li>
-              </ul>
-            </dd>
-            <dt class="list_dt">
-              <span class="_after"></span>
-              <i class="list_dt_icon2"></i>
-              <p>消息中心</p>
-              <i class="list_dt_icon"></i>
-            </dt>
-            <dd class="list_dd">
-              <ul>
-                <li class="list_li">活动公告</li>
-                <li class="list_li">交易物流</li>
-                <li class="list_li">系统消息</li>
-              </ul>
-            </dd>
-            <dt class="list_dt">
-              <span class="_after"></span>
-              <i class="list_dt_icon2"></i>
-              <p>个人服务</p>
-              <i class="list_dt_icon"></i>
-            </dt>
-            <dd class="list_dd">
-              <ul>
-                <li class="list_li">退款退货</li>
-                <!-- <li class="list_li">发票服务</li> -->
-                <li class="list_li">投诉举报</li>
-                <li class="list_li">意见反馈</li>
-                <!-- <li class="list_li">在线咨询</li> -->
-              </ul>
-            </dd>
-            <dt class="list_dt">
-              <span class="_after"></span>
-              <i class="list_dt_icon2"></i>
-              <p>关注中心</p>
-              <i class="list_dt_icon"></i>
-            </dt>
-            <dd class="list_dd">
-              <ul>
-                <li class="list_li">我的收藏</li>
-                <li class="list_li">到货通知</li>
-              </ul>
-            </dd>
-          </dl>
-        </div>
-        <div class="store-collection-wrapper">
-          <div class="account-head-wrapper">
-            <a href="#">账户管理</a>
-            <span>></span>
-            <a href="#">我的信息</a>
-            <span>></span>
-            <a href="#">基本信息</a>
+  <div class="shipped-container">
+    <div class="shipped-head">
+      <a href="#">当前位置：</a>
+      <a href="#" class="shipped-head-color">个人中心</a>
+      <span class="shipped-head-color">></span>
+      <a href="#" class="shipped-head-color">我的订单</a>
+      <span class="shipped-head-color">></span>
+      <a href="#">订单详情</a>
+    </div>
+    <div class="shipped-content-wrapper">
+      <div class="shipped-step-wrapper">
+        <div class="shipped-step-bg shipped-step-progress"></div>
+        <div class="shipped-step-bg shipped-step-progress shipped-step-position"></div>
+        <div class="shipped-step-bg shipped-step-position2"></div>
+        <ul class="shipped-step clearfix">
+          <li class="shipped-step-item shipped-width">
+            <div class="shipped-step-item-title">1.提交申请</div>
+            <div class="shipped-step-item-num">
+              <span class="shipped-step-item-active">
+                <img src="../../images/static/sub_order.png" alt="">
+              </span>
+            </div>
+          </li>
+          <li class="shipped-step-item shipped-width shipped-display">
+            <div class="shipped-step-item-title shipped-step-item-title-next">2.平台审核</div>
+            <div class="shipped-step-item-num">
+              <span class="shipped-step-item-active">
+                <img src="../../images/static/examine.png" alt="">
+              </span>
+            </div>
+          </li>
+          <li class="shipped-step-item shipped-width shipped-display">
+            <div class="shipped-step-item-title shipped-step-item-title-next">3.退款中</div>
+            <div class="shipped-step-item-num">
+              <span class="shipped-step-item-line2 shipped-step-item-active">
+                <img src="../../images/static/return_goods.png" alt="">
+              </span>
+            </div>
+          </li>
+          <li class="shipped-step-item shipped-width shipped-display2">
+            <div class="shipped-step-item-title shipped-step-item-title-next">4.完成</div>
+            <div class="shipped-step-item-num">
+              <span class="shipped-step-item-receipt">
+                <img src="../../images/static/confirm_receipt.png" alt="">
+              </span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="shipped-current-status-wrapper clearfix">
+        <div class="shipped-current-status-left">
+          <div class="shipped-current-status">
+            <span class="shipped-current-status-icon"></span>
+            <span class="shipped-current-status-word">当前状态：等待买家付款</span>
           </div>
-          <div class="mynews-wrapper">
-            <div class="mynews-head-wrapper clearfix">
-              <div class="mynews-head-item mynews-head-item-active">
-                活动信息(<span class="activity">8</span>)
-                <div class="mynews-head-item-ver"></div>
-              </div>
-              <div class="mynews-head-item">
-                交易物流(<span class="trade">8</span>)
-                <div class="mynews-head-item-ver"></div>
-              </div>
-              <div class="mynews-head-item">通知消息(<span class="notice">8</span>)</div>
-            </div>
-            <div class="mynews-hide mynews-show">
-              <div class="mynews-content-wrapper">
-                <div class="mynews-content-item">
-                  <div class="mynews-content-head">
-                    <span class="mynews-content-head-name">
-                      <a href="#">【上新】6月服饰鞋包特惠6折起！</a>
-                    </span>
-                    <span class="mynews-content-head-time">2019-05-21 09:00:25</span>
-                  </div>
-                  <div class="mynews-content-message clearfix">
-                    <div class="mynews-content-message-left">
-                      <img src="../../images/static/mynews.jpg" alt="">
-                    </div>
-                    <div class="mynews-content-message-right">
-                      <div class="mynews-content-message-right-suggest">
-                        蚕丝连衣裙、全棉短袖衬衫清凉款火热上市！遮阳帽、冰感防晒袖套等夏日必备用券没满199减30>>
-                      </div>
-                      <div class="mynews-content-message-right-select-detail">
-                        <a href="#">查看详情></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="mynews-content-item">
-                  <div class="mynews-content-head">
-                    <span class="mynews-content-head-name">
-                      <a href="#">【上新】6月服饰鞋包特惠6折起！</a>
-                    </span>
-                    <span class="mynews-content-head-time">2019-05-21 09:00:25</span>
-                  </div>
-                  <div class="mynews-content-message clearfix">
-                    <div class="mynews-content-message-left">
-                      <img src="../../images/static/mynews.jpg" alt="">
-                      <div class="end-activity-mask">- 活动结束 -</div>
-                    </div>
-                    <div class="mynews-content-message-right">
-                      <div class="mynews-content-message-right-suggest">
-                        蚕丝连衣裙、全棉短袖衬衫清凉款火热上市！遮阳帽、冰感防晒袖套等夏日必备用券没满199减30>>
-                      </div>
-                      <div class="mynews-content-message-right-select-detail">
-                        <a href="#" class="end-activity-color">查看详情></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="mynews-hide">
-              <div class="mynews-trade-logistics-wrapper">
-                <div class="mynews-trade-logistics-item">
-                  <div class="mynews-trade-logistics-item-head">
-                    <div class="mynews-trade-logistics-item-head-ver"></div>
-                    <span class="mynews-trade-logistics-item-head-order">
-                      <a href="#">订单8145768已发货</a>
-                    </span>
-                    <span class="mynews-trade-logistics-item-head-time">2019-05-21 13:45:46</span>
-                  </div>
-                  <div class="mynews-trade-logistics-item-content clearfix">
-                    <div class="mynews-trade-logistics-item-content-img">
-                      <a href="#">
-                        <img src="../../images/static/logistics_img.png" alt="">
-                      </a>
-                    </div>
-                    <div class="mynews-trade-logistics-item-content-word">
-                      <div class="mynews-trade-logistics-item-goods-name">
-                        <a href="#">茶籽薄荷餐具净</a>
-                      </div>
-                      <div class="mynews-trade-logistics-item-goods-number">共3件商品</div>
-                      <div class="mynews-trade-logistics-item-goods-package">包裹1（京东）</div>
-                      <div class="mynews-trade-logistics-item-goods-select-detail">
-                        <a href="#">查看详情></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="mynews-trade-logistics-item">
-                  <div class="mynews-trade-logistics-item-head">
-                    <div class="mynews-trade-logistics-item-head-ver"></div>
-                    <span class="mynews-trade-logistics-item-head-order">
-                      <a href="#">订单8145768已发货</a>
-                    </span>
-                    <span class="mynews-trade-logistics-item-head-time">2019-05-21 13:45:46</span>
-                  </div>
-                  <div class="mynews-trade-logistics-item-content clearfix">
-                    <div class="mynews-trade-logistics-item-content-img">
-                      <a href="#">
-                        <img src="../../images/static/logistics_img.png" alt="">
-                      </a>
-                    </div>
-                    <div class="mynews-trade-logistics-item-content-word">
-                      <div class="mynews-trade-logistics-item-goods-name">
-                        <a href="#">茶籽薄荷餐具净</a>
-                      </div>
-                      <div class="mynews-trade-logistics-item-goods-number">共3件商品</div>
-                      <div class="mynews-trade-logistics-item-goods-package">包裹1（京东）</div>
-                      <div class="mynews-trade-logistics-item-goods-select-detail">
-                        <a href="#">查看详情></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="size-seat"></div>
-            </div>
-            <div class="mynews-hide">
-              <div class="mynews-trade-logistics-wrapper">
-                <div class="mynews-trade-logistics-item2">
-                  <div class="mynews-trade-logistics-item-head">
-                    <div class="mynews-trade-logistics-item-head-ver"></div>
-                    <span class="mynews-trade-logistics-item-head-order mynews-color">
-                      退款完成
-                    </span>
-                    <span class="mynews-trade-logistics-item-head-time">2019-05-21 13:45:46</span>
-                  </div>
-                  <div class="mynews-trade-logistics-item-content clearfix">
-                    <div class="mynews-trade-logistics-item-content-img">
-                      <a href="#">
-                        <img src="../../images/static/logistics_img.png" alt="">
-                      </a>
-                    </div>
-                    <div class="mynews-trade-logistics-item-content-word">
-                      <div class="mynews-trade-logistics-item-goods-name mynews-color">
-                        您的退款申请已完成
-                      </div>
-                      <div class="mynews-trade-logistics-item-goods-select-detail">
-                        <a href="#">查看详情></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="mynews-trade-logistics-item2">
-                  <div class="mynews-trade-logistics-item-head">
-                    <div class="mynews-trade-logistics-item-head-ver"></div>
-                    <span class="mynews-trade-logistics-item-head-order mynews-color">
-                      取消订单申请通过
-                    </span>
-                    <span class="mynews-trade-logistics-item-head-time">2019-05-21 13:45:46</span>
-                  </div>
-                  <div class="mynews-trade-logistics-item-content clearfix">
-                    <div class="mynews-trade-logistics-item-content-img">
-                      <a href="#">
-                        <img src="../../images/static/logistics_img.png" alt="">
-                      </a>
-                    </div>
-                    <div class="mynews-trade-logistics-item-content-word">
-                      <div class="mynews-trade-logistics-item-goods-name mynews-color">
-                        您的订单取消申请已受理
-                      </div>
-                      <div class="mynews-trade-logistics-item-goods-select-detail">
-                        <a href="#">查看详情></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="mynews-trade-logistics-item2">
-                  <div class="mynews-trade-logistics-item-head">
-                    <div class="mynews-trade-logistics-item-head-ver"></div>
-                    <span class="mynews-trade-logistics-item-head-order mynews-color">
-                      升级礼包
-                    </span>
-                    <span class="mynews-trade-logistics-item-head-time">2019-05-21 13:45:46</span>
-                  </div>
-                  <div class="mynews-trade-logistics-item-content">
-                    <div class="mynews-trade-logistics-item-goods-name mynews-color">
-                      恭喜您成功升级为v1会员，赶紧领取您的会员大礼包去吧！
-                    </div>
-                    <div class="mynews-trade-logistics-item-goods-select-detail">
-                      <a href="#">查看详情></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="mynews-trade-logistics-item2">
-                  <div class="mynews-trade-logistics-item-head">
-                    <div class="mynews-trade-logistics-item-head-ver"></div>
-                    <span class="mynews-trade-logistics-item-head-order mynews-color">
-                      【有奖调研】严选粉丝节，您参加了吗？
-                    </span>
-                    <span class="mynews-trade-logistics-item-head-time">2019-05-21 13:45:46</span>
-                  </div>
-                  <div class="mynews-trade-logistics-item-content">
-                    <div class="mynews-trade-logistics-item-goods-name mynews-color">
-                      聊聊近期的浏览、购物体验~完整提交问卷，就有机会抽取50元！（4月20日截止）
-                    </div>
-                    <div class="mynews-trade-logistics-item-goods-select-detail">
-                      <a href="#">查看详情></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="size-seat"></div>
-            </div>
+          <div>
+            <span class="shipped-current-status-word2">还有<span>1小时55分47秒</span>进行付款，若未及时付款，系统将自动取消订单</span>
+          </div>
+        </div>
+         <!-- <div class="shipped-current-status-right-wrod">去支付</div> -->
+       <div class="shipped-current-status-right-payment">去支付</div>
+      </div>
+      <div class="shipped-order-goods-wrapper">
+        <div class="shipped-order-goods-head">
+          <span class="shipped-order-goods-head-info">商品信息</span>
+          <span class="shipped-order-goods-head-weight">重量</span>
+          <span class="shipped-order-goods-head-price">售价</span>
+          <span class="shipped-order-goods-head-number2">数量</span>
+          <span class="shipped-order-goods-head-setting">操作</span>
+        </div>
+        <div class="shipped-order-goods-address">
+          <img src="../../images/static/order_address.png" class="shipped-order-goods-address-img" alt="">
+          <span>发货地：朝阳区建国门外</span>
+        </div>
+        <div class="shipped-order-goods-item-wrapper clearfix">
+          <div class="shipped-order-goods-item-img">
+            <img src="../../images/static/myphone2.png" alt="">
+          </div>
+          <div class="shipped-order-goods-item-introduce">
+            <a href="#">
+              【耳机套装】vivo U1 水滴全面屏 AI智慧拍照手机  3GB+64GB 极光色 移动联通电信全网通4G手机
+            </a>
+          </div>
+          <div class="shipped-order-goods-item-weight">0.18kg</div>
+          <div class="shipped-order-goods-item-price">178.00</div>
+          <div class="shipped-order-goods-item-number2">1</div>
+          <div class="shipped-order-goods-item-setting shipped-order-goods-line">
+            <!-- <div class="shipped-order-goods-item-setting-btn">去支付</div>
+            <a href="#">取消订单</a> -->
+          </div>
+        </div>
+        <div class="shipped-order-goods-item-wrapper clearfix">
+          <div class="shipped-order-goods-item-img">
+            <img src="../../images/static/myphone2.png" alt="">
+          </div>
+          <div class="shipped-order-goods-item-introduce">
+            <a href="#">
+              【耳机套装】vivo U1 水滴全面屏 AI智慧拍照手机  3GB+64GB 极光色 移动联通电信全网通4G手机
+            </a>
+          </div>
+          <div class="shipped-order-goods-item-weight">0.18kg</div>
+          <div class="shipped-order-goods-item-price">178.00</div>
+          <div class="shipped-order-goods-item-number2">1</div>
+          <div class="shipped-order-goods-item-setting shipped-order-goods-line">
+            <!-- <div class="shipped-order-goods-item-setting-btn">去支付</div>
+            <a href="#">取消订单</a> -->
           </div>
         </div>
       </div>
     </div>
   </div>
   <!-- 内容end -->
-
-  <div class="seat"></div>
 
   <!-- 底部 -->
   <div class="footer">
@@ -871,9 +677,9 @@
   </div>
   <!-- 底部end -->
 
+
   <script src="../../lib/jq/jquery.old.js"></script>
   <script src="../../js/index/index.js"></script>
-  <script src="../../js/myNews/myNews.js"></script>
 </body>
 
 </html>

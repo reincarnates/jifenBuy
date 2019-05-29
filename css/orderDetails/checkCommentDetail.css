@@ -32,8 +32,9 @@
   right: 0;
   background-color: rgba(0, 0, 0, .8);
   z-index: 999;
-  transform: scale(0);
-  transition: .8s;
+  /* transform: scale(0);
+  transition: .8s; */
+  display: none;
 }
 
 .goods-comment-item-content-img-item-mask>.comment-img{

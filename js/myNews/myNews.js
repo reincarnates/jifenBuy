@@ -7,5 +7,8 @@ $(function() {
 
   $('.activity').text($('.mynews-content-item').length);
 
+  $('.trade').text($('.mynews-trade-logistics-item').length);
+
+  $('.notice').text($('.mynews-trade-logistics-item2').length);
 
 })

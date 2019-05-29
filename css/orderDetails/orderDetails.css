@@ -117,7 +117,7 @@
 .fuli-order-left>.fuli-order-arrow{
   position: absolute;
   top: 50%;
-  right: 10px;
+  right: 18px;
   width: 10px;
   margin-top: -3px;
   height: 5px;
@@ -160,13 +160,13 @@
 }
 
 .fuli-order-right{
-  width: 530px;
+  width: 770px;
   height: 36px;
   float: right;
 }
 
 .fuli-order-list{
-
+  position: relative;
 }
 
 .fuli-order-list li{
@@ -504,5 +504,5 @@
   line-height: 34px;
   color: #333;
   font-size: 14px;
-  margin-top: 15px;
+  margin-bottom: 15px;
 }

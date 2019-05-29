@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+.shipped-step-item-line2{
+  line-height: 43px !important;
+  margin-top: 5px;
+}
+
+.shipped-width{
+  width: 25%;
+}
+
+.shipped-display{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.shipped-display2{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+}

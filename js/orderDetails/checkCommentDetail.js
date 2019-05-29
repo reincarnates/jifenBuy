@@ -119,7 +119,7 @@ $(function() {
   var commentIndex;
   var commentArr = [];
   $(document).on('click','.goods-comment-item-content-img-item-size', function() {
-    $('.goods-comment-item-content-img-item-mask').css('transform', 'scale(1)');
+    $('.goods-comment-item-content-img-item-mask').show();
     $('.goods-comment-item-content-img-item-mask').find('.comment-img').attr('src', $(this).attr('src'));
     $('.goods-comment-item-content-img-item-mask').find('.comment-img').css({'margin-left': -$('.goods-comment-item-content-img-item-mask .comment-img').width()/2,'margin-top': -$('.goods-comment-item-content-img-item-mask .comment-img').height()/2});
     $(".goods-comment-item-content-img-item-size").each(function(index,item){
@@ -129,7 +129,8 @@ $(function() {
   });
 
   $('.goods-comment-item-content-img-item-mask-close').on('click', function () {
-    $('.goods-comment-item-content-img-item-mask').css('transform', 'scale(0)');
+    // $('.goods-comment-item-content-img-item-mask').css('transform', 'scale(0)');
+    $('.goods-comment-item-content-img-item-mask').hide();
   });
 
   //下一张

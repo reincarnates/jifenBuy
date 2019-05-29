@@ -52,5 +52,15 @@ $(function() {
       retractNum = 0;
     }
   });
+  
+  $('.all-order').text($('.all-order-info .fuli-order-info').length);
+  
+  $('.pending').text($('.pending-wrapper .fuli-order-info').length);
+
+  $('.shipped').text($('.shipped-wrapper .fuli-order-info').length);
+
+  $('.received').text($('.received-wrapper .fuli-order-info').length);
+
+  $('.comment').text($('.comment-wrapper .fuli-order-info').length);
 
 });
