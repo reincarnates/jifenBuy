@@ -15,4 +15,14 @@ $(function() {
   });
 
 
+  $('.shipped-current-status-right-change-time').on('click', function() {
+    $('.express-number-mask-wrapper').show();
+    $('.express-number-mask').animate({top:'50%'})
+  });
+
+  $('.express-number-mask-head-right img').on('click', function() {
+    
+  });
+
+
 })

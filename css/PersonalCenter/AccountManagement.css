@@ -60,7 +60,7 @@
 .account-info-head{
   width: 100%;
   height: 27px;
-  border-bottom: 1px dashed #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 .account-info-head-item{
@@ -263,12 +263,16 @@
 .mysize_head_item{
   width: 82px;
   height: 82px;
-  border: 1px solid #0d96ff;
+  border: 1px solid #f6f7fb;
   border-radius: 50%;
   background-color: #e7f5ff;
   background: url(../../images/static/account_avtar.png) no-repeat;
   background-position: 10px 12px;
   position: relative;
+}
+
+.mysizShow>.mysize_head_item{
+  border: 1px solid #0d96ff;
 }
 
 .del_mysize{
@@ -307,15 +311,18 @@
   display: block;
 }
 
-.mysize_head_item2{
-  width: 82px;
-  height: 82px;
+.mysizShow>.new_role{
   border: 1px solid #0d96ff;
-  border-radius: 50%;
-  background-color: #e9e9e9;
+  background-position: 16px -62px;
+}
+
+.mysizShow>.new_role_wrapper{
+  color: #0091ff
+}
+
+.mysize_head_item2{
   background: url(../../images/static/female.png) no-repeat;
   background-position: 8px 12px;
-  position: relative;
 }
 
 .new_role{
@@ -323,8 +330,9 @@
   height: 82px;
   border-radius: 50%;
   background-color: #e9e9e9;
-  padding: 18px;
-  box-sizing: border-box;
+  border: 1px solid #e9e9e9;
+  background: url(../../images/static/new_role.png) no-repeat;
+  background-position: 16px 17px;
 }
 
 .new_role_wrapper{
@@ -456,4 +464,72 @@
   border: 2px solid #e9e9e9;
   box-sizing: border-box;
   float: left;
+}
+
+.hobby-warpper{
+  width: 100%;
+  padding-left: 84px;
+  padding-right: 202px;
+  box-sizing: border-box;
+}
+
+.hobby-check-word{
+  color: #666;
+  font-size: 12px;
+  margin-top: 81px;
+}
+
+.hobby-btn-wrapper{
+  width: 100%;
+  margin-top: 48px;
+}
+
+.hobby-btn-item{
+  display: inline-block;
+  padding: 12px 9px;
+  border: 1px solid #ddd;
+  font-size: 12px;
+  color: #666;
+  margin-right: 19px;
+  margin-bottom: 19px;
+  cursor: pointer;
+}
+
+.hobby-btn-item-active{
+  color: #ffb030;
+  border-color: #ffb030;
+}
+
+.hobby-btn-item:nth-child(5n+5){
+  margin-right: 0;
+}
+
+.hobby-save-btn{
+  width: 62px;
+  height: 36px;
+  border: 1px solid #ce8f2a;
+  background-color: #ffb030;
+  text-align: center;
+  line-height: 34px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 84px;
+  margin-top: 39px;
+}
+
+.mysize_figure_save{
+  margin-top: 14px;
+}
+
+.mysize_figure_save a{
+  float: right;
+  width: 120px;
+  height: 38px;
+  line-height: 38px;
+  background-color: #0090ff;
+  color: #fff;
+  text-align: center;
+  border-radius: 3px;
+  margin-right: 7px;
 }

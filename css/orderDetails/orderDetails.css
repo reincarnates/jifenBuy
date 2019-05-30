@@ -137,7 +137,7 @@
   width: 160px;
   background-color: #fff;
   position: absolute;
-  box-shadow: 0 10px 10px rgba(213,203,203,.5);
+  box-shadow: 0 10px 10px -5px rgba(213,203,203,.5);
   /* padding-top: 15px; */
   box-sizing: border-box;
   display: none;
@@ -193,7 +193,7 @@
   width: 120px;
   background-color: #fff;
   position: absolute;
-  box-shadow: 0 10px 10px rgba(213,203,203,.5);
+  box-shadow: 0 10px 10px -5px rgba(213,203,203,.5);
   padding-top: 10px;
   box-sizing: border-box;
   display: none;
@@ -221,7 +221,7 @@
   height: 42px;
   line-height: 42px;
   background-color: #f7f7f7;
-  border-top: 1px solid #eee;
+  /* border-top: 1px solid #eee; */
   border-bottom: 1px solid #eee;
 }
 

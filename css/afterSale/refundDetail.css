@@ -61,17 +61,28 @@
 .shipped-current-status-wrapper3{
   width: 100%;
   height: 91px;
-  border-bottom: 1px dashed #e9e9e9;
+  border-bottom: 1px solid #e9e9e9;
   margin-top: 31px;
+}
+
+.shipped-current-status-wrapper4{
+  width: 100%;
+  height: 91px;
+  /* border-bottom: 1px solid #e9e9e9; */
+  /* margin-top: 31px; */
+}
+
+.shipped-order-goods-item-number3{
+  width: 224px;
 }
 
 .logistics-company{
   width: 100%;
-  height: 89px;
-  line-height: 56px;
+  line-height: 59px;
   color: #333;
   font-size: 14px;
   padding-left: 24px;
+  border-top: 1px solid #e9e9e9;
   box-sizing: border-box;
 }
 
@@ -158,4 +169,219 @@
 .refund-settlement-color{
   color: #ff5826;
   font-size: 18px;
+}
+
+.shipped-current-status-container2{
+  width: 100%;
+  border: 1px solid #e9e9e9;
+  margin-bottom: 29px;
+  margin-top: 15px;
+}
+
+.shipped-logistics-wrapper2{
+  width: 100%;
+  padding: 0 48px;
+  box-sizing: border-box;
+}
+
+.shipped-current-padding{
+  padding:  0 18px;
+  box-sizing: border-box;
+}
+
+.shipped-current-status-container2{
+  width: 100;
+  border: 1px solid #e9e9e9;
+  padding: 0 18px;
+}
+
+.express-number-mask-wrapper{
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, .3);
+  z-index: 999;
+  display: none;
+}
+
+.express-number-mask{
+  width: 1089px;
+  height: 469px;
+  background-color: #fff;
+  position: fixed;
+  top: -50%;
+  left: 50%;
+  margin-left: -544px;
+  margin-top: -234px;
+}
+
+.express-number-mask-head{
+  width: 100%;
+  height: 49px;
+  border-bottom: 1px solid #ddd;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.express-number-mask-head-left{
+  float: left;
+  color: #333;
+  font-size: 16px;
+  line-height: 55px;
+  cursor: pointer;
+}
+
+.express-number-mask-head-right{
+  float: right;
+  margin-top: 18px;
+}
+
+.express-number-mask-content{
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.express-number-mask-content-wrapper{
+  border: 1px solid #eeee;
+  margin-top: 9px;
+}
+
+.express-number-mask-goods{
+  width: 100%;
+  border-bottom: 1px solid #eee;
+}
+
+.express-number-mask-goods-head{
+  width: 100%;
+  height: 40px;
+  background-color: #f7f7f7;
+  color: #666;
+  font-size: 14px;
+  text-align: center;
+  line-height: 39px;
+}
+
+.express-number-mask-goods-head-name{
+  width: 369px;
+  float: left;
+}
+
+.express-number-mask-goods-head-time{
+  width: 260px;
+  float: left;
+}
+
+.express-number-mask-goods-head-price{
+  width: 260px;
+  float: left;
+}
+
+.express-number-mask-goods-head-number{
+  width: 158px;
+  float: left;
+}
+
+.express-number-mask-goods-content{
+  width: 100%;
+  height: 120px;
+}
+
+.express-number-mask-goods-content1{
+  width: 369px;
+  height: 120px;
+  padding-left: 21px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #eee;
+  float: left;
+}
+
+.express-number-mask-goods-content-img{
+  width: 80px;
+  height: 80px;
+}
+
+.express-number-mask-goods-content-img img{
+  width: 100%;
+}
+
+.express-number-mask-goods-content-word{
+  width: 267px;
+  line-height: 22px;
+  font-size: 12px;
+  margin-left: 18px;
+  color: #333;
+}
+
+.express-number-mask-goods-content-word a:hover{
+  color: #e98930;
+  text-decoration: underline;
+}
+
+.express-number-mask-goods-content2{
+  width: 260px;
+  line-height: 120px;
+  text-align: center;
+  color: #333;
+  font-size: 12px;
+  border-right: 1px solid #eee;
+  float: left;
+}
+
+.express-number-mask-goods-content3{
+  width: 158px;
+  line-height: 120px;
+  text-align: center;
+  color: #333;
+  font-size: 12px;
+  float: left;
+}
+
+.express-fill-message-wrapper{
+  width: 100%;
+  height: 38px;
+  margin-top: 39px;
+}
+
+.express-fill-message-wrapper-item{
+  width: 279px;
+  line-height: 38px;
+  margin-right: 28px;
+  float: left;
+}
+
+.express-fill-message-wrapper-item-left{
+  float: left;
+  color: #333;
+  font-size: 14px;
+}
+
+.express-fill-message-wrapper-item-left span{
+  color: #ff5826;
+}
+
+.express-fill-message-wrapper-item-right{
+  width: 185px;
+  height: 38px;
+  border: 1px solid #ddd;
+  outline: none;
+  padding-left: 5px;
+  float: left;
+}
+
+.express-confirm-submit-btn{
+  width: 140px;
+  height: 38px;
+  background-color: #ff5826;
+  text-align: center;
+  line-height: 38px;
+  color: #fff;
+  font-size: 16px;
+  margin: 0 auto;
+  margin-top: 76px;
+  cursor: pointer;
 }

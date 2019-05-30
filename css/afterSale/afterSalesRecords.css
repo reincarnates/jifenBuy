@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+.records-container{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 11px;
+  box-sizing: border-box;
+}
+
+.records-head{
+  width: 100%;
+  height: 35px;
+  border-bottom: 1px solid #eee;
+  margin-top: 15px;
+}
+
+.records-head-left{
+  width: 94px;
+  line-height: 34px;
+  border-bottom: 2px solid #ffb030;
+  text-align: center;
+  color: #333;
+  font-size: 16px;
+  float: left;
+}
+
+.records-head-right{
+  width: 240px;
+  height: 30px;
+  border: 1px solid #eee;
+  float: right;
+}
+
+.records-head-search{
+  width: 189px;
+  height: 28px;
+  background-color: #fff;
+  padding-left: 5px;
+  border: none;
+  outline: none;
+  color: #666;
+  font-size: 12px;
+  float: left;
+}
+
+.records-head-search-btn{
+  width: 49px;
+  height: 28px;
+  background-color: #f5f5f5;
+  text-align: center;
+  line-height: 28px;
+  color: #333;
+  font-size: 12px;
+  cursor: pointer;
+  float: left;
+}
+
+.records-content{
+  width: 100%;
+}
+
+.records-goods-order-wrapper{
+  width: 100%;
+  border: 1px solid #eee;
+  margin-top: 20px;
+}
+
+.records-goods-order-head{
+  width: 100%;
+  line-height: 40px;
+  border-bottom: 1px solid #eee;
+  background-color: #f7f7f7;
+  padding-left: 37px;
+  color: #999;
+  font-size: 12px;
+}
+
+.records-goods-order-head-time{
+  margin-left: 45px;
+}
+
+.records-goods-order-head-content{
+  height: 120px;
+  border-bottom: 1px solid #eee;
+}
+
+.records-goods-order-head-content:last-child{
+  border-bottom: none;
+}
+
+.records-goods-order-head-info{
+  width: 642px;
+  height: 120px;
+  border-right: 1px solid #eee;
+  padding-left: 33px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  float: left;
+}
+
+.records-goods-order-head-info-img{
+  width: 80px;
+  height: 80px;
+}
+
+.records-goods-order-head-info-img img{
+  width: 100%;
+}
+
+.records-goods-order-head-info-words{
+  width: 248px;
+  line-height: 22px;
+  font-size: 12px;
+  margin-left: 18px;
+  color: #333;
+}
+
+.records-goods-order-head-info-number{
+  width: 155px;
+  color: #333;
+  font-size: 12px;
+  text-align: right;
+}
+
+.records-goods-order-head-price{
+  width: 174px;
+  height: 120px;
+  border-right: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  float: left;
+}
+
+.records-goods-order-head-status{
+  width: 157px;
+  height: 120px;
+  border-right: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 14px;
+  color: #333;
+  float: left;
+}
+
+.records-goods-order-head-setting{
+  width: 202px;
+  height: 120px;
+  text-align: center;
+  line-height: 120px;
+  font-size: 14px;
+  float: left;
+}
+
+.records-goods-order-head-setting a{
+  color: #699eff;
+}
+
+.records-goods-order-head-setting a:hover{
+  text-decoration: underline;
+}
+
+.fuli-order-right2{
+  width: 1000px;
+  height: 36px;
+  float: right;
+}
