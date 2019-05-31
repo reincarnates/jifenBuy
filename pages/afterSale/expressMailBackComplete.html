@@ -11,11 +11,12 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   <meta name="format-detection" content="telephone=no" />
-  <title>已发货</title>
+  <title>订单号填写完成</title>
   <link rel="stylesheet" href="../../css/reset.css">
   <link rel="stylesheet" href="../../css/style.css">
   <link rel="stylesheet" href="../../css/headOrfooter/headOrfooter.css">
   <link rel="stylesheet" href="../../css/orderDetails/orderDetailsShipped.css">
+  <link rel="stylesheet" href="../../css/afterSale/refundDetail.css">
 </head>
 
 <body>
@@ -334,7 +335,7 @@
     </div>
   </div>
   <!-- 导航end -->
-
+  
   <!-- 内容 -->
   <div class="shipped-container">
     <div class="shipped-head">
@@ -343,50 +344,41 @@
       <span class="shipped-head-color">></span>
       <a href="#" class="shipped-head-color">我的订单</a>
       <span class="shipped-head-color">></span>
-      <a href="#">订单详情</a>
+      <a href="#">申请售后</a>
     </div>
     <div class="shipped-content-wrapper">
       <div class="shipped-step-wrapper">
-        <div class="shipped-step-bg shipped-step-progress"></div>
-        <div class="shipped-step-bg shipped-step-progress shipped-step-position"></div>
-        <div class="shipped-step-bg shipped-step-progress shipped-step-position2"></div>
-        <div class="shipped-step-bg shipped-step-position3"></div>
+        <div class="shipped-step-bg shipped-step-bg3 shipped-step-progress"></div>
+        <div class="shipped-step-bg shipped-step-bg3 shipped-step-progress shipped-progress-position"></div>
+        <div class="shipped-step-bg shipped-step-bg3 shipped-progress-position2"></div>
         <ul class="shipped-step clearfix">
-          <li class="shipped-step-item">
-            <div class="shipped-step-item-title">1.提交订单</div>
+          <li class="shipped-step-item shipped-width">
+            <div class="shipped-step-item-title">1.提交申请</div>
             <div class="shipped-step-item-num">
               <span class="shipped-step-item-active">
                 <img src="../../images/static/sub_order.png" alt="">
               </span>
             </div>
           </li>
-          <li class="shipped-step-item" style="padding-left: 45px;">
-            <div class="shipped-step-item-title">2.支付成功</div>
+          <li class="shipped-step-item shipped-width shipped-display" style="padding-right: 90px;">
+            <div class="shipped-step-item-title" style="padding-left: 8px;">2.平台审核</div>
             <div class="shipped-step-item-num">
               <span class="shipped-step-item-active">
-                <img src="../../images/static/payment_yes.png" alt="">
+                <img src="../../images/static/examine.png" alt="">
               </span>
             </div>
           </li>
-          <li class="shipped-step-item shipped-flex2">
-            <div class="shipped-step-item-title" style="padding-left: 8px;">3.出库中</div>
+          <li class="shipped-step-item shipped-width shipped-display" style="padding-left: 40px;">
+            <div class="shipped-step-item-title" style="padding-left: 8px;">3.售后中</div>
             <div class="shipped-step-item-num">
-              <span class="shipped-step-item-line shipped-step-item-active">
-                <img src="../../images/static/warehouse2.png" alt="">
+              <span class="shipped-step-item-line2 shipped-step-item-active">
+                <img src="../../images/static/return_goods.png" alt="">
               </span>
             </div>
           </li>
-          <li class="shipped-step-item shipped-flex2" style="padding-left: 77px;">
-            <div class="shipped-step-item-title" style="padding-left: 8px;">4.运输中</div>
+          <li class="shipped-step-item shipped-width shipped-display2" style="padding-right: 28px;">
+            <div class="shipped-step-item-title shipped-step-item-title-next">4.完成</div>
             <div class="shipped-step-item-num">
-              <span class="shipped-step-item-active">
-                <img src="../../images/static/transport2.png" alt="">
-              </span>
-            </div>
-          </li>
-          <li class="shipped-step-item shipped-flex">
-            <div class="shipped-step-item-title shipped-step-item-title-next">5.确认收货</div>
-            <div class="shipped-step-item-num" style="padding-right: 8px;">
               <span class="shipped-step-item-receipt">
                 <img src="../../images/static/confirm_receipt.png" alt="">
               </span>
@@ -394,101 +386,93 @@
           </li>
         </ul>
       </div>
-      <div class="shipped-current-status-wrapper2 clearfix">
-        <div class="shipped-current-status-left">
-          <div class="shipped-current-status">
-            <span class="shipped-current-status-icon"></span>
-            <span class="shipped-current-status-word">当前状态：已完成</span>
+      <div class="shipped-current-status-container2">
+        <div class="shipped-current-padding">
+          <div class="shipped-current-status-wrapper3 clearfix">
+            <div class="shipped-current-status-left">
+              <div class="shipped-current-status">
+                <span class="shipped-current-status-icon"></span>
+                <span class="shipped-current-status-word">当前状态：物流运单号填写完成，商品退货中！</span>
+              </div>
+              <div>
+                <span class="shipped-current-status-word2">填写您的快递单号商家可以看到物流进度，方便商家快速退款</span>
+              </div>
+            </div>
           </div>
         </div>
-        <!-- <div class="shipped-current-status-right2">评价</div> -->
+        <div class="shipped-logistics-wrapper2">
+          <div class="shipped-logistics-word">
+            <span>物流公司：京东快递：http://www.jd-express.com</span>
+            <span class="shipped-logistics-word-number">运单号：246665008781</span>
+          </div>
+
+          <div class="track-rcol2">
+            <div class="track-list2">
+              <ul>
+                <li class="transit first2">
+                  <span class="time">2016-03-10 18:07:15</span>
+                  <i class="node-icon2"></i>
+                  <span class="shipped">运输中</span>
+                  <br />
+                  <span class="txt" style="margin-left: 142px;">[ibt]订单配车安排发运</span>
+                </li>
+                <li>
+                  <span class="time">2016-03-10 18:07:15</span>
+                  <i class="node-icon2"></i>
+                  <span class="txt">[哈尔滨]订单已从【哈尔滨中心】发出,送往日顺【呼伦贝尔 海拉尔区】服务网点</span>
+                </li>
+                <li class="shipped2">
+                  <span class="time">2016-03-10 18:07:15</span>
+                  <i class="node-icon2"></i>
+                  <span class="shipped">平台审核通过</span>
+                  <br />
+                  <span class="txt" style="margin-left: 142px;">填写运单号</span>
+                </li>
+                <li class="shipped2">
+                  <span class="time">2016-03-10 18:07:15</span>
+                  <i class="node-icon2"></i>
+                  <span class="shipped">申请退款</span>
+                  <br />
+                  <span class="txt" style="margin-left: 142px;">您已申请退款</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="retract">收起</div>
+        </div>
       </div>
-
-      <div class="shipped-logistics-wrapper">
-        <div class="shipped-logistics-word">
-          <span>物流公司：京东快递：http://www.jd-express.com</span>
-          <span class="shipped-logistics-word-number">运单号：246665008781</span>
+      <div class="service-list-message-wrapper">
+        <div class="service-list-message-head">
+          服务单信息
         </div>
-
-        <div class="track-rcol">
-          <div class="track-list">
-            <ul>
-              <li class="first">
-                <span class="time">2016-03-10 18:07:15</span>
-                <i class="node-icon"></i>
-                <span class="txt">[哈尔滨]配送员【申国龙】已出发，联系电话【18410106883，感谢您的耐心等待】</span>
-              </li>
-              <li>
-                <span class="time">2016-03-10 18:07:15</span>
-                <i class="node-icon"></i>
-                <span class="txt">[哈尔滨]订单已从【呼伦贝尔 海拉尔区】服务网点出库,上门送货中</span>
-              </li>
-              <li>
-                <span class="time">2016-03-10 18:07:15</span>
-                <i class="node-icon"></i>
-                <span class="txt">[哈尔滨]订单已到达【呼伦贝尔 海拉尔区】服务网点</span>
-              </li>
-              <li>
-                <span class="time">2016-03-10 18:07:15</span>
-                <i class="node-icon"></i>
-                <span class="txt">[哈尔滨]订单已从【哈尔滨中心】发出,送往日顺【呼伦贝尔 海拉尔区】服务网点</span>
-              </li>
-              <li>
-                <span class="time">2016-03-10 18:07:15</span>
-                <i class="node-icon"></i>
-                <span class="txt">[ibt]订单配车安排发运</span>
-              </li>
-              <li>
-                <span class="time">2016-03-10 18:07:15</span>
-                <i class="node-icon"></i>
-                <span class="txt">[ibt]订单配车安排发运</span>
-              </li>
-              <li>
-                <span class="time">2016-03-10 18:07:15</span>
-                <i class="node-icon"></i>
-                <span class="txt">[ibt]订单配车安排发运</span>
-              </li>
-            </ul>
+        <div class="service-list-message-content">
+          <div class="service-list-message-content-item">
+            <span>商品返回方式：</span>
+            <span class="service-list-message-content-item-right">客户期望返件方式”快递寄回”</span>
           </div>
-        </div>
-
-        <div class="retract">收起</div>
-
-      </div>
-
-      <div class="shipped-order-wrapper">
-        <div class="shipped-order-head">
-          <span>订单号：81729851</span>
-          <span class="order-time">下单时间：2019-05-15 14:34:20</span>
-        </div>
-        <div class="shipped-order-content clearfix">
-          <div class="shipped-order-content-left">
-            <div class="shipped-order-name-wrapper">
-              <span class="shipped-order-name">收&nbsp;&nbsp;&nbsp;件&nbsp;&nbsp;&nbsp;人：</span>
-              <span class="shipped-order-name-content">李荣阳</span>
-            </div>
-            <div class="shipped-order-name-wrapper">
-              <span class="shipped-order-name">联&nbsp;系&nbsp;方&nbsp;式：</span>
-              <span class="shipped-order-name-content">150***9999</span>
-            </div>
-            <div class="shipped-order-name-wrapper">
-              <span class="shipped-order-name">收&nbsp;货&nbsp;地&nbsp;址：</span>
-              <span class="shipped-order-name-content">北京市北京市门头沟区大峪街道云泽嘉苑小区4-1号楼 1508</span>
-            </div>
+          <div class="service-list-message-content-item">
+            <span>商品处理方式：</span>
+            <span class="service-list-message-content-item-right">客户期望处理方式为”退货”</span>
           </div>
-          <div class="shipped-order-content-right">
-            <div class="shipped-order-settlement">
-              <span class="shipped-order-settlement-name">商品合计：</span>
-              <span class="shipped-order-settlement-content">￥526.00</span>
-            </div>
-            <div class="shipped-order-settlement">
-              <span class="shipped-order-settlement-name">运费：</span>
-              <span class="shipped-order-settlement-content">￥0.00</span>
-            </div>
-            <div class="shipped-order-settlement mar-tw">
-              <span class="shipped-order-settlement-name">实付：</span>
-              <span class="shipped-order-settlement-content shipped-order-settlement-color">￥395.70</span>
-            </div>
+          <div class="service-list-message-content-item">
+            <span>申&nbsp;&nbsp;请&nbsp;&nbsp;原&nbsp;&nbsp;因：</span>
+            <span class="service-list-message-content-item-right">不想要了</span>
+          </div>
+          <div class="service-list-message-content-item">
+            <span>问&nbsp;&nbsp;题&nbsp;&nbsp;描&nbsp;&nbsp;述：</span>
+            <span class="service-list-message-content-item-right">不想要了</span>
+          </div>
+          <div class="service-list-message-content-item">
+            <span>取&nbsp;&nbsp;件&nbsp;&nbsp;地&nbsp;&nbsp;址：</span>
+            <span class="service-list-message-content-item-right">北京市朝阳区国际大厦</span>
+          </div>
+          <div class="service-list-message-content-item">
+            <span>取&nbsp;&nbsp;&nbsp;&nbsp;货&nbsp;&nbsp;&nbsp;&nbsp;人：</span>
+            <span class="service-list-message-content-item-right">李荣阳</span>
+          </div>
+          <div class="service-list-message-content-item">
+            <span>手&nbsp;&nbsp;机&nbsp;&nbsp;号&nbsp;&nbsp;码：</span>
+            <span class="service-list-message-content-item-right">150***6666</span>
           </div>
         </div>
       </div>
@@ -516,11 +500,9 @@
           <div class="shipped-order-goods-item-weight">0.18kg</div>
           <div class="shipped-order-goods-item-price">178.00</div>
           <div class="shipped-order-goods-item-number2">1</div>
-          <div class="shipped-order-goods-item-setting shipped-line-height">
-            <a href="#" class="application">申请售后</a>
-            <div>
-              <a href="#">查看评价</a>
-            </div>
+          <div class="shipped-order-goods-item-setting shipped-order-goods-line">
+            <!-- <div class="shipped-order-goods-item-setting-btn">去支付</div>
+            <a href="#">取消订单</a> -->
           </div>
         </div>
         <div class="shipped-order-goods-item-wrapper clearfix">
@@ -535,10 +517,45 @@
           <div class="shipped-order-goods-item-weight">0.18kg</div>
           <div class="shipped-order-goods-item-price">178.00</div>
           <div class="shipped-order-goods-item-number2">1</div>
-          <div class="shipped-order-goods-item-setting shipped-line-height">
-            <a href="#" class="application">申请售后</a>
-            <div>
-              <a href="#">查看评价</a>
+          <div class="shipped-order-goods-item-setting shipped-order-goods-line">
+            <!-- <div class="shipped-order-goods-item-setting-btn">去支付</div>
+            <a href="#">取消订单</a> -->
+          </div>
+        </div>
+      </div>
+      <div class="refund-settlement-wrapper">
+        <div class="refund-settlement-content">
+          <div class="refund-settlement clearfix">
+            <div class="refund-settlement-left">
+              余额支付：
+            </div>
+            <div class="refund-settlement-center">
+              （预计1-3个工作日到账）
+            </div>
+            <div class="refund-settlement-right">
+              ￥267.00
+            </div>
+          </div>
+          <div class="refund-settlement clearfix">
+            <div class="refund-settlement-left">
+              扣除运费：
+            </div>
+            <div class="refund-settlement-center">
+
+            </div>
+            <div class="refund-settlement-right">
+              ￥4.00
+            </div>
+          </div>
+          <div class="refund-settlement clearfix">
+            <div class="refund-settlement-left">
+              退款金额：
+            </div>
+            <div class="refund-settlement-center">
+
+            </div>
+            <div class="refund-settlement-right refund-settlement-color">
+              ￥263.00
             </div>
           </div>
         </div>
@@ -777,7 +794,7 @@
 
   <script src="../../lib/jq/jquery.old.js"></script>
   <script src="../../js/index/index.js"></script>
-  <script src="../../js/orderDetails/orderDetails.js"></script>
+  <script src="../../js/afterSale/refundDetail.js"></script>
 </body>
 
 </html>

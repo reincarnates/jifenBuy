@@ -31,7 +31,7 @@
 }
 
 .shipped-step-bg{
-  width: 180px;
+  width: 213px;
   height: 1px;
   /* border: 1px dashed #5dc442; */
   border: 1px dashed #dbdbdb;
@@ -45,15 +45,15 @@
 }
 
 .shipped-step-position{
-  left: 284px;
+  left: 321px;
 }
 
 .shipped-step-position2{
-  left: 502px;
+  left: 578px;
 }
 
 .shipped-step-position3{
-  left: 720px;
+  left: 827px;
 }
 
 .shipped-step{
@@ -657,4 +657,18 @@
 .application{
   margin-top: 10px;
   display: inline-block;
+}
+
+.shipped-flex{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.shipped-flex2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
