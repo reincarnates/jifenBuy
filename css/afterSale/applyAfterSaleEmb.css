@@ -482,6 +482,19 @@
   cursor: pointer;
 }
 
-.pick-date-optional:last-child{
-  border-bottom: none;
+.pick-date-optional2{
+  width: 100%;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  color: #0090ff;
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.disabled{
+  width: 100%;
+  height: 55px;
+  cursor: not-allowed;
 }
