@@ -9,6 +9,7 @@ $(function() {
   $('.apply-after-sale-btn').on('click', function() {
     $(".apply-after-sale-btn").eq($(".apply-after-sale-btn").index(this)).addClass("apply-after-sale-btn-active").siblings().removeClass('apply-after-sale-btn-active');
     afterSaletype = $(this).text();
+    $('.after-sale-type').hide();
   });
 
   $('.apply-after-sale-btn2').on('click', function() {
@@ -54,6 +55,25 @@ $(function() {
   //上传图片
   $('.apply-after-sale-upload').on('click', function() {
     return $('#applyUpload').trigger('click');
+  });
+
+  //确认提交
+  $('.confirm-info-content-type-btn').on('click', function() {
+    if(afterSaletype == '') {
+      $('.after-sale-type').show();
+      return false;
+    }
+
+    if($('#checkCause').val() == '') {
+      $('.submit-cause').show();
+      return false;
+    }
+
+  });
+
+  //提交原因
+  $('#checkCause').on('input propertychange', function() {
+    console.log($(this).val());
   });
 
 })

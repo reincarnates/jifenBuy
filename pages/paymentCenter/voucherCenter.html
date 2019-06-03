@@ -19,7 +19,7 @@
   <title>充值中心</title>
 </head>
 
-<body>
+<body class="body-bg">
   <div class="payment_cashier_head_wrapper">
     <div class="payment_cashier_head clearfix">
       <div class="payment_cashier_head_left">
@@ -40,10 +40,28 @@
       </div>
     </div>
   </div>
-
+  <div class="balance-info-wrapper">
+    <div class="balance-info">
+      <div class="recharge-price">
+        输入充值金额
+      </div>
+      <div class="item clearfix">
+        <span class="label">充值账户：</span>
+        <div class="username">jd_500c5275ba497</div>
+      </div>
+      <div class="item clearfix">
+        <span class="label2">充值金额：</span>
+        <div class="username">
+          <input type="text" class="text" name="" id="txtAccount">
+          <label class="text-label">元</label>
+          <div class="msg-error">只能填写大于等于10，小于等于50000的整数金额</div>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="voucher-wrapper">
     <div class="balance-wrapper">
-      <div class="balance-content">
+      <!-- <div class="balance-content">
         <div class="balance-content-head">
           余额充值
         </div>
@@ -77,16 +95,16 @@
             </div>
           </div>
           <div class="enter-recharge-btn">确认充值</div>
-          <!-- <div class="item clearfix">
+          <div class="item clearfix">
             <span class="label">&nbsp;</span>
             <div class="username">
               <a href="#" class="btn-next">下一步</a>
             </div>
-          </div> -->
+          </div>
         </div>
-      </div>
-
-      <!-- <div class="payment_cashier_select_payment_type">
+      </div> -->
+      
+      <div class="payment_cashier_select_payment_type">
           <div class="payment_cashier_select_payment_type_top">
             <div class="payment_cashier_select_payment_type_bg">
               福利商城收银台
@@ -111,7 +129,7 @@
               立即支付
             </div>
           </div>
-      </div> -->
+      </div>
 
       <div class="balance-introduce">
         <div class="balance-introduce-head">

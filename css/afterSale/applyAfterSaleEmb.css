@@ -339,3 +339,42 @@
   font-size: 16px;
   cursor: pointer;
 }
+
+.after-sale{
+  color: red;
+  position: absolute;
+}
+
+.after-sale-type{
+  right: -85px;
+  display: none;
+}
+
+.submit-cause{
+  right: -100px;
+  top: 0;
+  display: none;
+}
+
+.problem-description{
+  right: -100px;
+  top: 50px;
+  display: none;
+}
+
+.return-mode{
+  right: -80px;
+  display: none;
+}
+
+.after-receiver{
+  right: -85px;
+  top: 0; 
+  display: none;
+}
+
+.phone-number{
+  right: -98px;
+  top: 0; 
+  display: none;
+}
