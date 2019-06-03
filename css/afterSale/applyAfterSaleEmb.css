@@ -378,3 +378,110 @@
   top: 0; 
   display: none;
 }
+
+.detail-address{
+  width: 355px;
+  height: 38px;
+  border: 1px solid #ddd;
+  padding-left: 10px;
+}
+
+.pick-address{
+  width: 106px;
+  height: 38px;
+  border: 1px solid #ddd;
+  margin-right: 20px;
+  padding-left: 10px;
+}
+
+.pick-time{
+  width: 355px;
+  height: 38px;
+  border: 1px solid #ddd;
+  padding-left: 10px;
+  outline: none;
+}
+
+.pick-word{
+  color: #999;
+  font-size: 12px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.pick-date-wrapper{
+  width: 837px;
+  height: 178px;
+  border: 1px solid #ddd;
+}
+
+.pick-date-left{
+  width: 162px;
+  border-right: 1px solid #ddd;
+  float: left;
+}
+
+.pick-date-left-time-slot{
+  width: 100%;
+  height: 67px;
+  border-bottom: 1px solid #ddd;
+  background-color: #f9f8f8;
+  text-align: center;
+  line-height: 67px;
+  color: #333;
+  font-size: 14px;
+}
+
+.pick-date-left-item{
+  width: 100%;
+  height: 55px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  line-height: 55px;
+  color: #333;
+  font-size: 14px;
+}
+
+.pick-date-left-item:last-child{
+  border-bottom: none;
+}
+
+.pick-date-right{
+  float: left;
+}
+
+.pick-date-right-item{
+  width: 96px;
+  border-right: 1px solid #ddd;
+  float: left;
+}
+
+.pick-date-right-item:last-child{
+  border-right: none;
+}
+
+.pick-date-right-date{
+  width: 100%;
+  height: 67px;
+  border-bottom: 1px solid #ddd;
+  background-color: #f9f8f8;
+  line-height: 24px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+.pick-date-optional{
+  width: 100%;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  color: #0090ff;
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.pick-date-optional:last-child{
+  border-bottom: none;
+}

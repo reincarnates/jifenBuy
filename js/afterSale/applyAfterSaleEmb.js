@@ -1,7 +1,7 @@
 $(function() {
   var acount = 1;
-  //售后类型
-  var afterSaletype = '';
+  var afterSaletype = '';//售后类型
+  var returnMode = '';//返回方式
 
   //最多可提交的数量
   $('.apply-after-sale-upper-limit span').text($('.apply-after-sale-goods-info-shop-number').text());
@@ -14,6 +14,8 @@ $(function() {
 
   $('.apply-after-sale-btn2').on('click', function() {
     $(".apply-after-sale-btn2").eq($(".apply-after-sale-btn2").index(this)).addClass("apply-after-sale-btn-active").siblings().removeClass('apply-after-sale-btn-active');
+    returnMode = $(this).text();
+    $('.return-mode').hide();
   });
 
   //商品默认数量
@@ -50,6 +52,7 @@ $(function() {
   //下拉框赋值
   $('.apply-after-sale-select-content ul li').on('click', function() {
     $('.apply-after-sale-select-input').val($(this).text());
+    $('.submit-cause').hide();
   })
 
   //上传图片
@@ -69,11 +72,37 @@ $(function() {
       return false;
     }
 
-  });
+    if($('#problemDescription').val() == '') {
+      $('.problem-description').show();
+      $('#problemDescription').focus();
+      return false;
+    }
 
-  //提交原因
-  $('#checkCause').on('input propertychange', function() {
-    console.log($(this).val());
+    if(returnMode == '') {
+      $('.return-mode').show();
+      return false;
+    }
+    
+    if($('#receiver').val() == '') {
+      $('.after-receiver').show();
+      return false;
+    }
+    
+    if($('#phoneNumber').val() == '') {
+      $('.phone-number').show();
+      return false;
+    }
+
+    alert('成功');
+
+  })
+
+  //键盘抬起隐藏提示
+  $('#problemDescription,#receiver,#phoneNumber').on('keyup', function() {
+    $('.problem-description').hide();
+    $('.after-receiver').hide();
+    $('.phone-number').hide();
   });
 
 })
+

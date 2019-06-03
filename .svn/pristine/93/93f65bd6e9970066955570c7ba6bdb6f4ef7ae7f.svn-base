@@ -11,11 +11,11 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   <meta name="format-detection" content="telephone=no" />
-  <title>申请售后-快递寄回</title>
+  <title>待发货</title>
   <link rel="stylesheet" href="../../css/reset.css">
   <link rel="stylesheet" href="../../css/style.css">
   <link rel="stylesheet" href="../../css/headOrfooter/headOrfooter.css">
-  <link rel="stylesheet" href="../../css/afterSale/applyAfterSaleEmb.css">
+  <link rel="stylesheet" href="../../css/orderDetails/orderDetailsShipped.css">
 </head>
 
 <body>
@@ -336,153 +336,159 @@
   <!-- 导航end -->
 
   <!-- 内容 -->
-  <div class="apply-after-sale-wrapper">
-    <div class="apply-after-sale-head">申请售后</div>
-    <div class="apply-after-sale-goods-content">
-      <div class="apply-after-sale-goods-head clearfix">
-        <div class="apply-after-sale-goods-head-name">商品名称</div>
-        <div class="apply-after-sale-goods-head-time">下单时间</div>
-        <div class="apply-after-sale-goods-head-time">退款金额</div>
-        <div class="apply-after-sale-goods-head-time">购买数量</div>
-      </div>
-      <div class="apply-after-sale-goods-info clearfix">
-        <div class="apply-after-sale-goods-info-left">
-          <div class="apply-after-sale-goods-info-left-img">
-            <img src="../../images/static/order_goods.png" alt="">
-          </div>
-          <p>
-            <a href="#">
-              SHISEIDO 资生堂旗下HANDCREAM 美润 药用美肌护手霜 100克/罐 2罐装
-            </a>
-          </p>
-        </div>
-        <div class="apply-after-sale-goods-info-time">
-          2019-05-19
-        </div>
-        <div class="apply-after-sale-goods-info-time">
-          ￥5454.00
-        </div>
-        <div class="apply-after-sale-goods-info-time apply-after-sale-goods-info-shop-number">
-          2
-        </div>
-      </div>
+  <div class="shipped-container">
+    <div class="shipped-head">
+      <a href="#">当前位置：</a>
+      <a href="#" class="shipped-head-color">个人中心</a>
+      <span class="shipped-head-color">></span>
+      <a href="#" class="shipped-head-color">我的订单</a>
+      <span class="shipped-head-color">></span>
+      <a href="#">订单详情</a>
     </div>
-    <div class="apply-after-sale-write-info">
-      <div class="apply-after-sale-write-info-item clearfix">
-        <div class="apply-after-sale-write-info-item-left">
-          <span>*</span>
-          售后类型：
-        </div>
-        <div class="apply-after-sale-write-info-item-right clearfix">
-          <div class="apply-after-sale-btn">仅退款</div>
-          <div class="apply-after-sale-btn">仅退货</div>
-          <div class="apply-after-sale-btn">退款退货</div>
-          <div class="after-sale after-sale-type">请选择售后类型</div>
-        </div>
+    <div class="shipped-content-wrapper">
+      <div class="shipped-step-wrapper">
+        <div class="shipped-step-bg shipped-step-progress"></div>
+        <div class="shipped-step-bg shipped-step-position"></div>
+        <div class="shipped-step-bg shipped-step-position2"></div>
+        <div class="shipped-step-bg shipped-step-position3"></div>
+        <ul class="shipped-step clearfix">
+          <li class="shipped-step-item">
+            <div class="shipped-step-item-title">1.提交订单</div>
+            <div class="shipped-step-item-num">
+              <span class="shipped-step-item-active">
+                <img src="../../images/static/sub_order.png" alt="">
+              </span>
+            </div>
+          </li>
+          <li class="shipped-step-item" style="padding-left: 45px;">
+            <div class="shipped-step-item-title">2.支付成功</div>
+            <div class="shipped-step-item-num">
+              <span class="shipped-step-item-active">
+                <img src="../../images/static/payment_yes.png" alt="">
+              </span>
+            </div>
+          </li>
+          <li class="shipped-step-item shipped-flex2">
+            <div class="shipped-step-item-title shipped-step-item-title-next" style="padding-left: 8px;">3.出库中</div>
+            <div class="shipped-step-item-num">
+              <span class="shipped-step-item-line">
+                <img src="../../images/static/warehouse.png" alt="">
+              </span>
+            </div>
+          </li>
+          <li class="shipped-step-item shipped-flex2" style="padding-left: 77px;">
+            <div class="shipped-step-item-title shipped-step-item-title-next" style="padding-left: 8px;">4.运输中</div>
+            <div class="shipped-step-item-num">
+              <span>
+                <img src="../../images/static/transport.png" alt="">
+              </span>
+            </div>
+          </li>
+          <li class="shipped-step-item shipped-flex">
+            <div class="shipped-step-item-title shipped-step-item-title-next">5.确认收货</div>
+            <div class="shipped-step-item-num" style="padding-right: 8px;">
+              <span class="shipped-step-item-receipt">
+                <img src="../../images/static/confirm_receipt.png" alt="">
+              </span>
+            </div>
+          </li>
+        </ul>
       </div>
-      <div class="apply-after-sale-write-info-item clearfix">
-        <div class="apply-after-sale-write-info-item-left">
-          <span>*</span>
-          提交数量：
-        </div>
-        <div class="apply-after-sale-write-info-item-right clearfix">
-          <div class="apply-after-sale-number apply-after-sale-reduce"></div>
-          <div class="apply-after-sale-input-wrapper">
-            <input type="text" class="apply-after-sale-input" value="1" />
+      <div class="shipped-current-status-wrapper clearfix">
+        <div class="shipped-current-status-left">
+          <div class="shipped-current-status">
+            <span class="shipped-current-status-icon"></span>
+            <span class="shipped-current-status-word">当前状态：付款成功，等待仓库发货...</span>
           </div>
-          <div class="apply-after-sale-number apply-after-sale-plus"></div>
-          <div class="apply-after-sale-upper-limit">您最多可提交数量为<span></span>个</div>
+          <div>
+            <span class="shipped-current-status-word2">温馨提示：商家正在努力发货中，如有问题可联系客服进行咨询。</span>
+          </div>
         </div>
+        <div class="shipped-current-status-right">修改地址</div>
       </div>
-      <div class="apply-after-sale-write-info-item clearfix">
-        <div class="apply-after-sale-write-info-item-left">
-          <span>*</span>
-          提交原因：
+      <div class="shipped-order-wrapper">
+        <div class="shipped-order-head">
+          <span>订单号：81729851</span>
+          <span class="order-time">下单时间：2019-05-15 14:34:20</span>
         </div>
-        <div class="apply-after-sale-write-info-item-right clearfix">
-          <div class="apply-after-sale-select">
-            <input type="text" class="apply-after-sale-select-input" id="checkCause" placeholder="请选择售后原因" readonly>
-            <div class="apply-after-sale-select-content">
-              <ul>
-                <li>发错货</li>
-                <li>质量问题</li>
-                <li>商品与页面描述不符</li>
-                <li>商品损坏</li>
-                <li>缺少件</li>
-                <li>其他</li>
-              </ul>
+        <div class="shipped-order-content clearfix">
+          <div class="shipped-order-content-left">
+            <div class="shipped-order-name-wrapper">
+              <span class="shipped-order-name">收&nbsp;&nbsp;&nbsp;件&nbsp;&nbsp;&nbsp;人：</span>
+              <span class="shipped-order-name-content">李荣阳</span>
+            </div>
+            <div class="shipped-order-name-wrapper">
+              <span class="shipped-order-name">联&nbsp;系&nbsp;方&nbsp;式：</span>
+              <span class="shipped-order-name-content">150***9999</span>
+            </div>
+            <div class="shipped-order-name-wrapper">
+              <span class="shipped-order-name">收&nbsp;货&nbsp;地&nbsp;址：</span>
+              <span class="shipped-order-name-content">北京市北京市门头沟区大峪街道云泽嘉苑小区4-1号楼 1508</span>
             </div>
           </div>
-          <div class="after-sale submit-cause">请选择提交原因</div>
+          <div class="shipped-order-content-right">
+            <div class="shipped-order-settlement">
+              <span class="shipped-order-settlement-name">商品合计：</span>
+              <span class="shipped-order-settlement-content">￥526.00</span>
+            </div>
+            <div class="shipped-order-settlement">
+              <span class="shipped-order-settlement-name">运费：</span>
+              <span class="shipped-order-settlement-content">￥0.00</span>
+            </div>
+            <div class="shipped-order-settlement mar-tw">
+              <span class="shipped-order-settlement-name">实付：</span>
+              <span class="shipped-order-settlement-content shipped-order-settlement-color">￥395.70</span>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="apply-after-sale-write-info-item clearfix">
-        <div class="apply-after-sale-write-info-item-left">
-          <span>*</span>
-          问题描述：
+      <div class="shipped-order-goods-wrapper">
+        <div class="shipped-order-goods-head">
+          <span class="shipped-order-goods-head-info">商品信息</span>
+          <span class="shipped-order-goods-head-weight">重量</span>
+          <span class="shipped-order-goods-head-price">售价</span>
+          <span class="shipped-order-goods-head-number2">数量</span>
+          <span class="shipped-order-goods-head-setting">操作</span>
         </div>
-        <div class="apply-after-sale-write-info-item-right clearfix">
-          <textarea class="apply-after-sale-textarea" placeholder="请填写您的问题" id="problemDescription"></textarea>
-          <span class="apply-after-sale-textarea-word-number">10-500字</span>
-          <div class="after-sale problem-description">请填写问题描述</div>
+        <div class="shipped-order-goods-address">
+          <img src="../../images/static/order_address.png" class="shipped-order-goods-address-img" alt="">
+          <span>发货地：朝阳区建国门外</span>
         </div>
-      </div>
-      <div class="apply-after-sale-write-info-item clearfix">
-        <div class="apply-after-sale-write-info-item-left">
-          图片信息：
-        </div>
-        <div class="apply-after-sale-write-info-item-right clearfix">
-          <div class="apply-after-sale-upload"></div>
-          <span class="apply-after-sale-upload-word">最多可上传5张图片，每张图片不超过5M，支持bmp,png,jepg,gif.jpg格式</span>
-          <input type="file" name="applyUpload" id="applyUpload" style="display: none;" />
-          <span class="apply-after-sale-upload-suggest">为了帮助您更好的解决问题请上传图片</span>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- 确认信息 -->
-  <div class="confirm-info-wrapper">
-    <div class="confirm-info-content">
-      <div class="confirm-info-content-head">确认信息</div>
-      <div class="confirm-info-content-type clearfix">
-        <div class="apply-after-sale-write-info-item clearfix">
-          <div class="apply-after-sale-write-info-item-left">
-            <span>*</span>
-            返回方式：
+        <div class="shipped-order-goods-item-wrapper clearfix">
+          <div class="shipped-order-goods-item-img">
+            <img src="../../images/static/myphone2.png" alt="">
           </div>
-          <div class="apply-after-sale-write-info-item-right clearfix">
-            <div class="apply-after-sale-btn2">快递寄回</div>
-            <div class="apply-after-sale-btn2">上门取件</div>
-            <div class="after-sale return-mode">请选择返回方式</div>
+          <div class="shipped-order-goods-item-introduce">
+            <a href="#">
+              【耳机套装】vivo U1 水滴全面屏 AI智慧拍照手机 3GB+64GB 极光色 移动联通电信全网通4G手机
+            </a>
+          </div>
+          <div class="shipped-order-goods-item-weight">0.18kg</div>
+          <div class="shipped-order-goods-item-price">178.00</div>
+          <div class="shipped-order-goods-item-number2">1</div>
+          <div class="shipped-order-goods-item-setting">
+            <!-- <a href="#">修改地址</a> -->
           </div>
         </div>
-        <div class="apply-after-sale-write-info-item clearfix">
-          <div class="apply-after-sale-write-info-item-left">
-            <span>*</span>
-            收&nbsp;&nbsp;货&nbsp;&nbsp;人：
+        <div class="shipped-order-goods-item-wrapper clearfix">
+          <div class="shipped-order-goods-item-img">
+            <img src="../../images/static/myphone2.png" alt="">
           </div>
-          <div class="apply-after-sale-write-info-item-right clearfix">
-            <input type="text" class="consignee" name="receiver" id="receiver" placeholder="请填写收货人">
-            <div class="after-sale after-receiver">请填写收货人</div>
+          <div class="shipped-order-goods-item-introduce">
+            <a href="#">
+              【耳机套装】vivo U1 水滴全面屏 AI智慧拍照手机 3GB+64GB 极光色 移动联通电信全网通4G手机
+            </a>
           </div>
-        </div>
-        <div class="apply-after-sale-write-info-item clearfix">
-          <div class="apply-after-sale-write-info-item-left">
-            <span>*</span>
-            手机号码：
-          </div>
-          <div class="apply-after-sale-write-info-item-right clearfix">
-            <input type="text" class="consignee" name="phoneNumber" id="phoneNumber" placeholder="请填写手机号码">
-            <div class="after-sale phone-number">请填写手机号码</div>
+          <div class="shipped-order-goods-item-weight">0.18kg</div>
+          <div class="shipped-order-goods-item-price">178.00</div>
+          <div class="shipped-order-goods-item-number2">1</div>
+          <div class="shipped-order-goods-item-setting">
+            <!-- <a href="#">修改地址</a> -->
           </div>
         </div>
-        <div class="confirm-info-content-type-btn">确认提交</div>
       </div>
     </div>
   </div>
-  <!-- 确认信息end -->
-
   <!-- 内容end -->
 
   <!-- 底部 -->
@@ -715,7 +721,6 @@
 
   <script src="../../lib/jq/jquery.old.js"></script>
   <script src="../../js/index/index.js"></script>
-  <script src="../../js/afterSale/applyAfterSaleEmb.js"></script>
 </body>
 
 </html>

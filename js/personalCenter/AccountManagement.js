@@ -12,8 +12,17 @@ $(function() {
     $(this).find('.mysize_head_item2').find('.del_mysize').hide();
   });
 
+
+  var hobbyId = 0;
   $('.hobby-btn-item').on('click', function() {
-    $(".hobby-btn-item").eq($(".hobby-btn-item").index(this)).addClass("hobby-btn-item-active").siblings().removeClass('hobby-btn-item-active');
+    // $(".hobby-btn-item").eq($(".hobby-btn-item").index(this)).addClass("hobby-btn-item-active").siblings().removeClass('hobby-btn-item-active');
+    if(hobbyId == 0) {
+      $(".hobby-btn-item").eq($(".hobby-btn-item").index(this)).addClass("hobby-btn-item-active");
+      hobbyId = 1;
+    }else{
+      $(".hobby-btn-item").eq($(".hobby-btn-item").index(this)).removeClass("hobby-btn-item-active");
+      hobbyId = 0;
+    }
   });
 
 });

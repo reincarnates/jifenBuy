@@ -10,8 +10,8 @@
 
 .cashier-error-reload{
   position: absolute;
-  top: 299px;
-  left: 660px;
+  top: 358px;
+  left: 790px;
   width: 142px;
   height: 28px;
   color: #fff;
@@ -26,16 +26,4 @@
   background: url(../../images/static/error_bg.jpg) no-repeat;
   background-size: cover;
   position: relative;
-}
-
-.cashier-error-reload2{
-  position: absolute;
-  top: 271px;
-  left: 600px;
-  width: 142px;
-  height: 28px;
-  color: #fff;
-  font-size: 16px;
-  cursor: pointer;
-  z-index: 999;
 }
