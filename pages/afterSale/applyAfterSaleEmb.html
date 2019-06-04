@@ -452,9 +452,130 @@
             返回方式：
           </div>
           <div class="apply-after-sale-write-info-item-right clearfix">
-            <div class="apply-after-sale-btn2">快递寄回</div>
+            <div class="apply-after-sale-btn2 apply-after-sale-btn-active">快递寄回</div>
             <div class="apply-after-sale-btn2">上门取件</div>
             <div class="after-sale return-mode">请选择返回方式</div>
+          </div>
+        </div>
+        <div class="apply-after-hide apply-after-show"></div>
+        <div class="apply-after-hide">
+          <div class="apply-after-sale-write-info-item clearfix">
+            <div class="apply-after-sale-write-info-item-left">
+              <span>*</span>
+              取货地址：
+            </div>
+            <div class="apply-after-sale-write-info-item-right clearfix">
+              <select class="pick-address">
+                <option value="">北京</option>
+              </select>
+              <select class="pick-address">
+                <option value="">北京</option>
+              </select>
+              <select class="pick-address">
+                <option value="">朝阳区</option>
+              </select>
+            </div>
+          </div>
+          <div class="apply-after-sale-write-info-item clearfix">
+            <div class="apply-after-sale-write-info-item-left">
+              <span>*</span>
+              详细地址：
+            </div>
+            <div class="apply-after-sale-write-info-item-right clearfix">
+              <input type="text" class="detail-address" name="detailAddress" id="detailAddress" placeholder="请填写详细地址">
+            </div>
+          </div>
+          <div class="apply-after-sale-write-info-item clearfix">
+            <div class="apply-after-sale-write-info-item-left">
+              <span>*</span>
+              取件时间：
+            </div>
+            <div class="apply-after-sale-write-info-item-right clearfix">
+              <input type="text" class="pick-time" name="pickTime" id="pickTime" readonly>
+              <div class="pick-word">请选择预约取件时间，审核通过后，京东将在此时间段为您取件</div>
+              <div class="pick-date-wrapper clearfix">
+                <div class="pick-date-left">
+                  <div class="pick-date-left-time-slot">时间段</div>
+                  <div class="pick-date-left-item">09:00-15:00</div>
+                  <div class="pick-date-left-item">15:00-21:00</div>
+                </div>
+                <div class="pick-date-right clearfix" id="timeSlot">
+                  <!-- <div class="pick-date-right-item">
+                        <div class="pick-date-right-date">
+                          <div>05-20</div>
+                          <div>周一</div>
+                        </div>
+                        <div class="pick-date-optional">可选</div>
+                        <div class="pick-date-optional">可选</div>
+                      </div> -->
+                  <!-- <div class="pick-date-right-item">
+                        <div class="pick-date-right-date">
+                          <div>05-21</div>
+                          <div>周二</div>
+                        </div>
+                        <div class="pick-date-optional">可选</div>
+                        <div class="pick-date-optional">可选</div>
+                      </div>
+                      <div class="pick-date-right-item">
+                        <div class="pick-date-right-date">
+                          <div>05-22</div>
+                          <div>周三</div>
+                        </div>
+                        <div class="pick-date-optional">可选</div>
+                        <div class="pick-date-optional">可选</div>
+                      </div>
+                      <div class="pick-date-right-item">
+                        <div class="pick-date-right-date">
+                          <div>05-23</div>
+                          <div>周四</div>
+                        </div>
+                        <div class="pick-date-optional">可选</div>
+                        <div class="pick-date-optional">可选</div>
+                      </div>
+                      <div class="pick-date-right-item">
+                        <div class="pick-date-right-date">
+                          <div>05-24</div>
+                          <div>周五</div>
+                        </div>
+                        <div class="pick-date-optional">可选</div>
+                        <div class="pick-date-optional">可选</div>
+                      </div>
+                      <div class="pick-date-right-item">
+                        <div class="pick-date-right-date">
+                          <div>05-25</div>
+                          <div>周六</div>
+                        </div>
+                        <div class="pick-date-optional">可选</div>
+                        <div class="pick-date-optional">可选</div>
+                      </div>
+                      <div class="pick-date-right-item">
+                        <div class="pick-date-right-date">
+                          <div>05-26</div>
+                          <div>周日</div>
+                        </div>
+                        <div class="pick-date-optional">可选</div>
+                        <div class="pick-date-optional">可选</div>
+                      </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="apply-after-sale-write-info-item clearfix">
+            <div class="apply-after-sale-write-info-item-left">
+              <span>*</span>
+              收货地址：
+            </div>
+            <div class="apply-after-sale-write-info-item-right clearfix">
+              <select class="pick-address">
+                <option value="">北京</option>
+              </select>
+              <select class="pick-address">
+                <option value="">北京</option>
+              </select>
+              <select class="pick-address">
+                <option value="">朝阳区</option>
+              </select>
+            </div>
           </div>
         </div>
         <div class="apply-after-sale-write-info-item clearfix">
@@ -716,6 +837,145 @@
   <script src="../../lib/jq/jquery.old.js"></script>
   <script src="../../js/index/index.js"></script>
   <script src="../../js/afterSale/applyAfterSaleEmb.js"></script>
+
+  <script>
+    window.onload = function () {
+      //获取今天的日期
+      var year2 = new Date().getFullYear();
+      var month2 = (new Date().getMonth() + 1);
+      var day2 = new Date().getDate();
+      if (month2 < 10) {
+        month2 = '0' + month2;
+      } else {
+        month2 == month2;
+      }
+
+      if (day2 < 10) {
+        day2 = '0' + day2;
+      } else {
+        day2 == day2;
+      }
+
+
+      // var cells = document.getElementById('monitor').getElementsByTagName('td');
+      var clen = 7;
+      var currentFirstDate;
+      var formatDate = function (date) {
+        var year = date.getFullYear();
+        var month = (date.getMonth() + 1);
+        var day = date.getDate();
+        var week = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'][date.getDay()];
+
+        if (month < 10) {
+          month = '0' + month;
+        } else {
+          month == month;
+        }
+
+        if (day < 10) {
+          day = '0' + day;
+        } else {
+          day == day;
+        }
+
+        var myDate = year + '-' + month + '-' + day;
+        var myDate2 = year2 + '-' + month2 + '-' + day2;
+        var currentTime = ConversionTime(myDate2);
+        var myTime = ConversionTime(myDate);
+        if (currentTime == myTime) {
+          myDate = '当天'
+        } else {
+          myDate = myDate;
+        }
+
+        var myDom = `
+            <div class="pick-date-right-item">
+              <div class="pick-date-right-date">
+                <div class='pickDate'>${myDate}</div>
+                <div class='pick-week'>${week}</div>
+              </div>
+              <div class="pick-date-optional">可选</div>
+              <div class="pick-date-optional2">可选</div>
+            </div>
+          `
+        var onedate = new Date().toLocaleString('chinese', { hour12: false });
+        var twodate = onedate.split(' ')[1];
+        var threedate = twodate.substring(0, twodate.length - 3);
+        // setInterval(function() {
+        //   console.log(new Date().getSeconds());
+        // },1000);
+        var flag = time_range('09:00', '15:00', threedate);
+        var flag2 = time_range('15:00', '21:00', threedate);
+        console.log(flag, flag2);
+        // return year + month + '-' + day + ' ' + week;
+        return myDom;
+      };
+      var addDate = function (date, n) {
+        date.setDate(date.getDate() + n);
+        return date;
+      };
+      var setDate = function (date) {
+        var week = date.getDay() - 1;
+        date = addDate(date, week * -1);
+        currentFirstDate = new Date(date);
+
+        for (var i = 0; i < clen; i++) {
+          // cells[i].innerHTML = formatDate(i == 0 ? date : addDate(date, 1));
+          $('#timeSlot').append(formatDate(i == 0 ? date : addDate(date, 1)))
+        }
+      };
+      setDate(new Date());
+
+      //十四位时间转换时间戳
+      function ConversionTime(dateString) {
+        let pattern = /(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})/;
+        let formatedDate = dateString.replace(/(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})/, '$1-$2-$3 $4:$5:$6');
+        let newTime = new Date(formatedDate).getTime();
+        return newTime;
+      }
+
+      function time_range(beginTime, endTime, nowTime) {
+        var strb = beginTime.split(":");
+        if (strb.length != 2) {
+          return false;
+        }
+
+        var stre = endTime.split(":");
+        if (stre.length != 2) {
+          return false;
+        }
+
+        var strn = nowTime.split(":");
+        if (stre.length != 2) {
+          return false;
+        }
+
+        var b = new Date();
+        var e = new Date();
+        var n = new Date();
+
+        b.setHours(strb[0]);
+
+        b.setMinutes(strb[1]);
+
+        e.setHours(stre[0]);
+
+        e.setMinutes(stre[1]);
+
+        n.setHours(strn[0]);
+
+        n.setMinutes(strn[1]);
+
+        if (n.getTime() - b.getTime() > 0 && n.getTime() - e.getTime() < 0) {
+          return true;
+        } else {
+          return false;
+        }
+      }
+
+    }
+
+  </script>
 </body>
 
 </html>

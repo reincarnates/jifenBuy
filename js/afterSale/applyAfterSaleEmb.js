@@ -14,6 +14,7 @@ $(function () {
 
   $('.apply-after-sale-btn2').on('click', function () {
     $(".apply-after-sale-btn2").eq($(".apply-after-sale-btn2").index(this)).addClass("apply-after-sale-btn-active").siblings().removeClass('apply-after-sale-btn-active');
+    $(".apply-after-hide").eq($(".apply-after-sale-btn2").index(this)).addClass("apply-after-show").siblings().removeClass('apply-after-show');
     returnMode = $(this).text();
     $('.return-mode').hide();
   });

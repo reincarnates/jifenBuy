@@ -498,3 +498,11 @@
   height: 55px;
   cursor: not-allowed;
 }
+
+.apply-after-hide{
+  display: none;
+}
+
+.apply-after-show{
+  display: block;
+}
