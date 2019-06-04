@@ -8,15 +8,23 @@
   position: relative;
 }
 
+.cashier-error-reload-wrapper{
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
 .cashier-error-reload{
   position: absolute;
-  top: 358px;
-  left: 790px;
+  top: 356px;
+  left: 378px;
   width: 142px;
   height: 28px;
   color: #fff;
   font-size: 16px;
   cursor: pointer;
+  text-align: center;
+  line-height: 28px;
   z-index: 999;
 }
 
@@ -27,3 +35,7 @@
   background-size: cover;
   position: relative;
 }
+
+/* .cashier-error-wrapper2 img{
+  width: 100%;
+} */

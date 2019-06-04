@@ -757,17 +757,18 @@
 
 .collection-prve{
   position: absolute;
-  top: 60px;
+  top: 80px;
 }
 
 .collection-next{
   position: absolute;
   right: 0;
-  top: 60px;
+  top: 80px;
 }
 
 .collection-goods-item-wrapper{
   height: 192px;
+  /* padding-left: 20px; */
 }
 
 .collection-goods-item-wrapper2{
@@ -849,15 +850,17 @@
 }
 
 .collection-possess{
-  display: none;
+  /* display: none; */
+  padding-left: 20px;
 }
 
 .collection-possess2{
-  display: none;
+  /* display: none; */
+  padding-left: 20px;
 }
 
 .footprint{
-  display: none;
+  /* display: none; */
 }
 
 .not_collection{

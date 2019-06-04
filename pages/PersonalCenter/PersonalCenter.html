@@ -824,18 +824,18 @@
                 <!-- 有商品收藏end -->
 
                 <!-- 没有商品收藏 -->
-                <div class="not_collection">
+                <!-- <div class="not_collection">
                   <img src="../../images/static/not_floow.png" alt="">
                   <div class="not_collection_word">
                     您还没有任何商品收藏
                   </div>
-                </div>
+                </div> -->
                 <!-- 没有商品收藏end -->
               </div>
               <div class="ob2 collection-wrapper clearfix">
                 <!-- 有店铺收藏 -->
                 <div class="collection-possess2">
-                  <div class="collection-prve prevBtn pointer">
+                  <div class="collection-prve prevBtn3 pointer">
                     <img src="../../images/static/prev.png" alt="">
                   </div>
                   <div class="collection-goods-item-wrapper3">
@@ -895,7 +895,7 @@
                       <div class="collection-goods-item-price">￥100</div>
                     </div>
                   </div>
-                  <div class="collection-next nextBtn pointer">
+                  <div class="collection-next nextBtn3 pointer">
                     <img src="../../images/static/next.png" alt="">
                   </div>
                   <div class="collection-more-btn pointer">
@@ -905,18 +905,18 @@
                 <!-- 有店铺收藏end -->
 
                 <!-- 没有店铺收藏 -->
-                <div class="not_collection">
+                <!-- <div class="not_collection">
                   <img src="../../images/static/not_floow.png" alt="">
                   <div class="not_collection_word">
                     您还没有任何店铺收藏
                   </div>
-                </div>
+                </div> -->
                 <!-- 没有店铺收藏end -->
               </div>
               <div class="personal-footprint-wrapper">
                 <!-- 有我的足迹 -->
                 <div class="footprint">
-                  <div class="collection-prve prevBtn pointer">
+                  <div class="collection-prve prevBtn2 pointer">
                     <img src="../../images/static/prev.png" alt="">
                   </div>
                   <div class="collection-goods-item-wrapper2">
@@ -976,7 +976,7 @@
                       <div class="collection-goods-item-price">￥100</div>
                     </div>
                   </div>
-                  <div class="collection-next nextBtn pointer">
+                  <div class="collection-next nextBtn2 pointer">
                     <img src="../../images/static/next.png" alt="">
                   </div>
                   <div class="collection-more-btn pointer">
@@ -986,12 +986,12 @@
                 <!-- 有我的足迹end -->
 
                 <!-- 没有我的足迹 -->
-                <div class="not_collection">
+                <!-- <div class="not_collection">
                   <img src="../../images/static/not_shop.png" alt="">
                   <div class="not_collection_word">
                     您还没有任何店铺收藏
                   </div>
-                </div>
+                </div> -->
                 <!-- 没有我的足迹end -->
               </div>
             </div>
@@ -1247,31 +1247,31 @@
       speed: 1000,//滚动速度
       amount: 1,//单次滚动数量
       showNum: 3,//显示数量
-      autoPlay: true//自动播放
+      autoPlay: false//自动播放
     });
 
     $(".personal-footprint-wrapper").superSlider({
-      prevBtn: ".prevBtn",//左按钮
-      nextBtn: ".nextBtn",//右按钮
+      prevBtn: ".prevBtn2",//左按钮
+      nextBtn: ".nextBtn2",//右按钮
       listCont: ".collection-goods-item-wrapper2",//滚动列表外层
       scrollWhere: "next",//自动滚动方向next
       delayTime: 1200,//自动轮播时间间隔
       speed: 1000,//滚动速度
       amount: 1,//单次滚动数量
       showNum: 3,//显示数量
-      autoPlay: true//自动播放
+      autoPlay: false//自动播放
     });
 
     $(".collection-wrapper").superSlider({
-      prevBtn: ".prevBtn",//左按钮
-      nextBtn: ".nextBtn",//右按钮
+      prevBtn: ".prevBtn3",//左按钮
+      nextBtn: ".nextBtn3",//右按钮
       listCont: ".collection-goods-item-wrapper3",//滚动列表外层
       scrollWhere: "next",//自动滚动方向next
       delayTime: 1200,//自动轮播时间间隔
       speed: 1000,//滚动速度
       amount: 1,//单次滚动数量
       showNum: 3,//显示数量
-      autoPlay: true//自动播放
+      autoPlay: false//自动播放
     });
   </script>
 </body>
