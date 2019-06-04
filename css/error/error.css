@@ -18,8 +18,10 @@
 .cashier-error-reload{
   position: absolute;
   top: 356px;
-  left: -153px;
-  width: 1200px;
+  left: 380px;
+  width: 142px;
+  background-color: #fc6a33;
+  border-radius: 20px;
   height: 28px;
   color: #fff;
   font-size: 16px;
@@ -35,4 +37,22 @@
   background: url(../../images/static/error_bg.jpg) no-repeat;
   /* background-size: cover; */
   position: relative;
+}
+
+.circle-wrapper{
+  position: relative;
+}
+
+.circle{
+  position: absolute;
+  left: 10px;
+  top: -17px;
+  width: 6px;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.circle2{
+  left: 130px;
 }
