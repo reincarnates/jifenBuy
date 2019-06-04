@@ -11,11 +11,12 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   <meta name="format-detection" content="telephone=no" />
-  <title>申请售后-上门取件</title>
+  <title>账户管理</title>
   <link rel="stylesheet" href="../../css/reset.css">
   <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../css/PersonalCenter/PersonalCenter.css">
+  <link rel="stylesheet" href="../../css/PersonalCenter/AccountManagement.css">
   <link rel="stylesheet" href="../../css/headOrfooter/headOrfooter.css">
-  <link rel="stylesheet" href="../../css/afterSale/applyAfterSaleEmb.css">
 </head>
 
 <body>
@@ -336,272 +337,347 @@
   <!-- 导航end -->
 
   <!-- 内容 -->
-  <div class="apply-after-sale-wrapper">
-    <div class="apply-after-sale-head">申请售后</div>
-    <div class="apply-after-sale-goods-content">
-      <div class="apply-after-sale-goods-head clearfix">
-        <div class="apply-after-sale-goods-head-name">商品名称</div>
-        <div class="apply-after-sale-goods-head-time">下单时间</div>
-        <div class="apply-after-sale-goods-head-time">退款金额</div>
-        <div class="apply-after-sale-goods-head-time">购买数量</div>
-      </div>
-      <div class="apply-after-sale-goods-info clearfix">
-        <div class="apply-after-sale-goods-info-left">
-          <div class="apply-after-sale-goods-info-left-img">
-            <img src="../../images/static/order_goods.png" alt="">
-          </div>
-          <p>
-            <a href="#">
-              SHISEIDO 资生堂旗下HANDCREAM 美润 药用美肌护手霜 100克/罐 2罐装
-            </a>
-          </p>
-        </div>
-        <div class="apply-after-sale-goods-info-time">
-          2019-05-19
-        </div>
-        <div class="apply-after-sale-goods-info-time">
-          ￥5454.00
-        </div>
-        <div class="apply-after-sale-goods-info-time apply-after-sale-goods-info-shop-number">
-          2
-        </div>
-      </div>
-    </div>
-    <div class="apply-after-sale-write-info">
-      <div class="apply-after-sale-write-info-item clearfix">
-        <div class="apply-after-sale-write-info-item-left">
-          <span>*</span>
-          售后类型：
-        </div>
-        <div class="apply-after-sale-write-info-item-right clearfix">
-          <div class="apply-after-sale-btn">仅退款</div>
-          <div class="apply-after-sale-btn">仅退货</div>
-          <div class="apply-after-sale-btn">退款退货</div>
-          <div class="after-sale after-sale-type">请选择售后类型</div>
-        </div>
-      </div>
-      <div class="apply-after-sale-write-info-item clearfix">
-        <div class="apply-after-sale-write-info-item-left">
-          <span>*</span>
-          提交数量：
-        </div>
-        <div class="apply-after-sale-write-info-item-right clearfix">
-          <div class="apply-after-sale-number apply-after-sale-reduce"></div>
-          <div class="apply-after-sale-input-wrapper">
-            <input type="text" class="apply-after-sale-input" value="1" />
-          </div>
-          <div class="apply-after-sale-number apply-after-sale-plus"></div>
-          <div class="apply-after-sale-upper-limit">您最多可提交数量为<span></span>个</div>
-        </div>
-      </div>
-      <div class="apply-after-sale-write-info-item clearfix">
-        <div class="apply-after-sale-write-info-item-left">
-          <span>*</span>
-          提交原因：
-        </div>
-        <div class="apply-after-sale-write-info-item-right clearfix">
-          <div class="apply-after-sale-select">
-            <input type="text" class="apply-after-sale-select-input" id="checkCause" placeholder="请选择售后原因" readonly>
-            <div class="apply-after-sale-select-content">
+  <div class="fuli-wrapper">
+    <div class="fuli-container">
+      <div class="personal clearfix">
+        <div class="menu2">
+          <dl class="list_dl">
+            <dt class="list_dt">
+              <span class="_after"></span>
+              <i class="list_dt_icon2"></i>
+              <p>订单中心</p>
+              <i class="list_dt_icon"></i>
+            </dt>
+            <dd class="list_dd">
               <ul>
-                <li>发错货</li>
-                <li>质量问题</li>
-                <li>商品与页面描述不符</li>
-                <li>商品损坏</li>
-                <li>缺少件</li>
-                <li>其他</li>
+                <li class="list_li">我的订单</li>
+                <li class="list_li">常购商品</li>
               </ul>
+            </dd>
+            <dt class="list_dt">
+              <span class="_after"></span>
+              <i class="list_dt_icon2"></i>
+              <p>我的福利袋</p>
+              <i class="list_dt_icon"></i>
+            </dt>
+            <dd class="list_dd">
+              <ul>
+                <li class="list_li">余额</li>
+                <li class="list_li">积分</li>
+                <!-- <li class="list_li">红包</li>-->
+                <li class="list_li">代金券</li>
+                <!-- <li class="list_li">更多</li>  -->
+              </ul>
+            </dd>
+            <dt class="list_dt">
+              <span class="_after"></span>
+              <i class="list_dt_icon2"></i>
+              <p>账户管理</p>
+              <i class="list_dt_icon"></i>
+            </dt>
+            <dd class="list_dd">
+              <ul>
+                <li class="list_li">我的信息</li>
+                <li class="list_li">账户安全</li>
+                <li class="list_li">地址管理</li>
+              </ul>
+            </dd>
+            <dt class="list_dt">
+              <span class="_after"></span>
+              <i class="list_dt_icon2"></i>
+              <p>消息中心</p>
+              <i class="list_dt_icon"></i>
+            </dt>
+            <dd class="list_dd">
+              <ul>
+                <li class="list_li">活动公告</li>
+                <li class="list_li">交易物流</li>
+                <li class="list_li">系统消息</li>
+              </ul>
+            </dd>
+            <dt class="list_dt">
+              <span class="_after"></span>
+              <i class="list_dt_icon2"></i>
+              <p>个人服务</p>
+              <i class="list_dt_icon"></i>
+            </dt>
+            <dd class="list_dd">
+              <ul>
+                <li class="list_li">退款退货</li>
+                <!-- <li class="list_li">发票服务</li> -->
+                <li class="list_li">投诉举报</li>
+                <li class="list_li">意见反馈</li>
+                <!-- <li class="list_li">在线咨询</li> -->
+              </ul>
+            </dd>
+            <dt class="list_dt">
+              <span class="_after"></span>
+              <i class="list_dt_icon2"></i>
+              <p>关注中心</p>
+              <i class="list_dt_icon"></i>
+            </dt>
+            <dd class="list_dd">
+              <ul>
+                <li class="list_li">我的收藏</li>
+                <li class="list_li">到货通知</li>
+              </ul>
+            </dd>
+          </dl>
+        </div>
+        <div class="personal-wrapper2">
+          <div class="account-head-wrapper">
+            <a href="#">账户管理</a>
+            <span>></span>
+            <a href="#">我的信息</a>
+            <span>></span>
+            <a href="#">基本信息</a>
+          </div>
+          <div class="account-info-wrapper">
+            <div class="account-info-head clearfix">
+              <div class="account-info-head-item">
+                基本信息
+              </div>
+              <div class="account-info-head-item">
+                我的尺寸
+              </div>
+              <div class="account-info-head-item account_active">
+                兴趣设置
+              </div>
+            </div>
+            <div class="ob">
+              <div class="account-essential-info">
+                <div class="account-essential-info-yuan"></div>
+                <h5>基本信息</h5>
+                <span>阳光福利商城不会以任何方式滥用或泄露您的个人信息</span>
+              </div>
+              <div class="account-info-content">
+                <div class="account-portrait">
+                  <div class="account-portrait-left">头&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;像：</div>
+                  <div class="account-portrait-right pointer">
+                    <div class="edit-atvar">编辑头像</div>
+                  </div>
+                  <span class="atvar-tips">请上传jpg或png或jpeg格式的图片并且不能大于3M</span>
+                  <input type="file" id="upload" style="display:none;">
+                </div>
+                <div class="account-username clearfix">
+                  <div class="account-username-left">
+                    昵&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;称：
+                  </div>
+                  <div class="account-username-right">
+                    <input type="text" class="account-username-right-input" />
+                    <div class="account-username-right-word">昵称长度不超过40个字符</div>
+                  </div>
+                </div>
+                <div class="account-username clearfix">
+                  <div class="account-username-left">
+                    <span>*</span>
+                    真实姓名：
+                  </div>
+                  <div class="account-username-right">
+                    <input type="text" class="account-username-right-input" />
+                  </div>
+                </div>
+                <div class="account-username clearfix">
+                  <div class="account-username-left">
+                    <span>*</span>
+                    性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别：
+                  </div>
+                  <div class="account-username-right">
+                    <input type="radio" name="sex" class="account-username-right-radio" id="male" class="pointer" />
+                    <label for="male">男</label>
+                    <input type="radio" name="sex" class="account-username-right-radio" id="female">
+                    <label for="female" class="pointer">女</label>
+                  </div>
+                </div>
+                <div class="account-username clearfix">
+                  <div class="account-username-left">
+                    <span>*</span>
+                    生&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日：
+                  </div>
+                  <div class="account-username-right">
+                    <select>
+                      <option value="">请选择年</option>
+                    </select>
+                    <span>年</span>
+                    <select>
+                      <option value="">请选择月</option>
+                    </select>
+                    <span>月</span>
+                    <select>
+                      <option value="">请选择日</option>
+                    </select>
+                    <span>日</span>
+                  </div>
+                </div>
+                <div class="account-username clearfix">
+                  <div class="account-username-left">
+
+                  </div>
+                  <div class="account-username-right">
+                    <div class="account-username-right-btn">确认保存</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ob">
+              <div class="mysize_head_wrapper">
+                <div class="mysize_head_my_wrapper">
+                  <div class="mysize_head_item_wrapper mysizShow">
+                    <div class="mysize_head_item">
+                      <div class="del_mysize">
+                        <img src="../../images/static/del_mysize.png" alt="">
+                      </div>
+                    </div>
+                    <div class="mysize_head_name">李易峰</div>
+                    <div class="mysize_head_select">
+                      <img src="../../images/static/mysize_select.png" alt="">
+                    </div>
+                  </div>
+                  <div class="mysize_head_item_wrapper">
+                    <div class="mysize_head_item mysize_head_item2">
+                      <div class="del_mysize">
+                        <img src="../../images/static/del_mysize.png" alt="">
+                      </div>
+                    </div>
+                    <div class="mysize_head_name">李易峰</div>
+                    <div class="mysize_head_select">
+                      <img src="../../images/static/mysize_select.png" alt="">
+                    </div>
+                  </div>
+                  <div class="mysize_head_item_wrapper pointer">
+                    <div class="new_role">
+                      <!-- <img src="../../images/static/new_role.png" alt=""> -->
+                    </div>
+                    <div class="new_role_wrapper">
+                      新建角色
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mysize_infomation_wrapper">
+                <div class="mysize_infomation_item">
+                  <div class="mysize_infomation_item_word">
+                    姓名：
+                  </div>
+                  <input type="text" class="mysize_infomation_item_input" name="roleName" id="roleName">
+                </div>
+                <div class="mysize_infomation_item">
+                  <div class="mysize_infomation_item_word">
+                    性别：
+                  </div>
+                  <input type="text" class="mysize_infomation_item_input" name="sex" id="sex">
+                </div>
+                <div class="mysize_infomation_item">
+                  <div class="mysize_infomation_item_word">
+                    身高：
+                  </div>
+                  <input type="text" class="mysize_infomation_item_input" name="stature" id="stature">
+                </div>
+                <div class="mysize_infomation_item">
+                  <div class="mysize_infomation_item_word">
+                    体重：
+                  </div>
+                  <input type="text" class="mysize_infomation_item_input" name="weight" id="weight">
+                </div>
+              </div>
+              <div class="mysize_figure_wrapper">
+                <div class="mysize_figure_head">
+                  <div class="mysize_figure_head_word">
+                    身材尺寸
+                  </div>
+                </div>
+                <div class="mysize_figure_content clearfix">
+                  <div class="mysize_figure_content_left">
+                    <div class="mysize_figure_content_left_item">
+                      <div class="mysize_figure_content_left_item_top">
+                        <div class="figure_name">身高：</div>
+                        <input type="text" class="figure_height" id="figureHeight" />
+                        <div class="figure_unit">cm</div>
+                      </div>
+                      <div class="mysize_figure_content_left_item_bottom">
+                        <div class="figure_name">体重：</div>
+                        <input type="text" class="figure_weight" id="figureWeight" />
+                        <div class="figure_unit">kg</div>
+                      </div>
+                    </div>
+                    <div class="mysize_figure_content_left_item">
+                      <div class="mysize_figure_content_left_item_top">
+                        <div class="figure_name">肩宽：</div>
+                        <input type="text" class="figure_height" id="shoulderWidth" />
+                        <div class="figure_unit">cm</div>
+                      </div>
+                      <div class="mysize_figure_content_left_item_bottom">
+                        <div class="figure_name">胸围：</div>
+                        <input type="text" class="figure_weight" id="bust" />
+                        <div class="figure_unit">cm</div>
+                      </div>
+                    </div>
+                    <div class="mysize_figure_content_left_item">
+                      <div class="mysize_figure_content_left_item_top">
+                        <div class="figure_name">腰围：</div>
+                        <input type="text" class="figure_height" id="waistLine" />
+                        <div class="figure_unit">cm</div>
+                      </div>
+                      <div class="mysize_figure_content_left_item_bottom">
+                        <div class="figure_name">臀围：</div>
+                        <input type="text" class="figure_weight" id="hipline" />
+                        <div class="figure_unit">cm</div>
+                      </div>
+                    </div>
+                    <div class="mysize_figure_content_left_item">
+                      <div class="mysize_figure_content_left_item_top">
+                        <div class="figure_name">脚长：</div>
+                        <input type="text" class="figure_height" id="footLength" />
+                        <div class="figure_unit">cm</div>
+                      </div>
+                      <div class="mysize_figure_content_left_item_bottom">
+                        <div class="figure_name">脚围：</div>
+                        <input type="text" class="figure_weight" id="footGirth" />
+                        <div class="figure_unit">cm</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mysize_figure_content_right"></div>
+                </div>
+              </div>
+              <div class="mysize_figure_save">
+                <a href="javaScript:;">保存</a>
+                <a href="javaScript:;">修改尺寸</a>
+              </div>
+            </div>
+            <div class="ob on">
+              <div class="hobby-warpper">
+                <div class="hobby-check-word">兴趣爱好：请选择您感兴趣的分类，给您最精准的推荐</div>
+                <div class="hobby-btn-wrapper">
+                  <span class="hobby-btn-item">图像印象/电子书刊</span>
+                  <span class="hobby-btn-item">家用电器</span>
+                  <span class="hobby-btn-item">手机/数码</span>
+                  <span class="hobby-btn-item">电脑/办公</span>
+                  <span class="hobby-btn-item">个护化妆</span>
+                  <span class="hobby-btn-item">家居/家具/假装/厨具</span>
+                  <span class="hobby-btn-item">服饰内衣/珠宝首饰</span>
+                  <span class="hobby-btn-item">汽车用品</span>
+                  <span class="hobby-btn-item">运动健康</span>
+                  <span class="hobby-btn-item">鞋靴/箱包/钟表/奢侈品</span>
+                  <span class="hobby-btn-item">母婴/玩具乐器</span>
+                  <span class="hobby-btn-item">食品饮料/保健食品</span>
+                  <span class="hobby-btn-item">图书音像/电子书刊</span>
+                  <span class="hobby-btn-item">家用电器</span>
+                  <span class="hobby-btn-item">手机/数码</span>
+                  <span class="hobby-btn-item">电脑/办公</span>
+                  <span class="hobby-btn-item">个护化妆</span>
+                </div>
+              </div>
+              <div class="hobby-save-btn">保存</div>
             </div>
           </div>
-          <div class="after-sale submit-cause">请选择提交原因</div>
-        </div>
-      </div>
-      <div class="apply-after-sale-write-info-item clearfix">
-        <div class="apply-after-sale-write-info-item-left">
-          <span>*</span>
-          问题描述：
-        </div>
-        <div class="apply-after-sale-write-info-item-right clearfix">
-          <textarea class="apply-after-sale-textarea" placeholder="请填写您的问题" id="problemDescription"></textarea>
-          <span class="apply-after-sale-textarea-word-number">10-500字</span>
-          <div class="after-sale problem-description">请填写问题描述</div>
-        </div>
-      </div>
-      <div class="apply-after-sale-write-info-item clearfix">
-        <div class="apply-after-sale-write-info-item-left">
-          图片信息：
-        </div>
-        <div class="apply-after-sale-write-info-item-right clearfix">
-          <div class="apply-after-sale-upload"></div>
-          <span class="apply-after-sale-upload-word">最多可上传5张图片，每张图片不超过5M，支持bmp,png,jepg,gif.jpg格式</span>
-          <input type="file" name="applyUpload" id="applyUpload" style="display: none;" />
-          <span class="apply-after-sale-upload-suggest">为了帮助您更好的解决问题请上传图片</span>
         </div>
       </div>
     </div>
   </div>
-
-  <!-- 确认信息 -->
-  <div class="confirm-info-wrapper">
-    <div class="confirm-info-content">
-      <div class="confirm-info-content-head">确认信息</div>
-      <div class="confirm-info-content-type clearfix">
-        <div class="apply-after-sale-write-info-item clearfix">
-          <div class="apply-after-sale-write-info-item-left">
-            <span>*</span>
-            返回方式：
-          </div>
-          <div class="apply-after-sale-write-info-item-right clearfix">
-            <div class="apply-after-sale-btn2">快递寄回</div>
-            <div class="apply-after-sale-btn2">上门取件</div>
-            <div class="after-sale return-mode">请选择返回方式</div>
-          </div>
-        </div>
-        <div class="apply-after-sale-write-info-item clearfix">
-          <div class="apply-after-sale-write-info-item-left">
-            <span>*</span>
-            取货地址：
-          </div>
-          <div class="apply-after-sale-write-info-item-right clearfix">
-            <select class="pick-address">
-              <option value="">北京</option>
-            </select>
-            <select class="pick-address">
-              <option value="">北京</option>
-            </select>
-            <select class="pick-address">
-              <option value="">朝阳区</option>
-            </select>
-          </div>
-        </div>
-        <div class="apply-after-sale-write-info-item clearfix">
-          <div class="apply-after-sale-write-info-item-left">
-            <span>*</span>
-            详细地址：
-          </div>
-          <div class="apply-after-sale-write-info-item-right clearfix">
-            <input type="text" class="detail-address" name="detailAddress" id="detailAddress" placeholder="请填写详细地址">
-          </div>
-        </div>
-        <div class="apply-after-sale-write-info-item clearfix">
-          <div class="apply-after-sale-write-info-item-left">
-            <span>*</span>
-            取件时间：
-          </div>
-          <div class="apply-after-sale-write-info-item-right clearfix">
-            <input type="text" class="pick-time" name="pickTime" id="pickTime" readonly>
-            <div class="pick-word">请选择预约取件时间，审核通过后，京东将在此时间段为您取件</div>
-            <div class="pick-date-wrapper clearfix">
-              <div class="pick-date-left">
-                <div class="pick-date-left-time-slot">时间段</div>
-                <div class="pick-date-left-item">09:00-15:00</div>
-                <div class="pick-date-left-item">15:00-21:00</div>
-              </div>
-              <div class="pick-date-right clearfix" id="timeSlot">
-                <!-- <div class="pick-date-right-item">
-                  <div class="pick-date-right-date">
-                    <div>05-20</div>
-                    <div>周一</div>
-                  </div>
-                  <div class="pick-date-optional">可选</div>
-                  <div class="pick-date-optional">可选</div>
-                </div> -->
-                <!-- <div class="pick-date-right-item">
-                  <div class="pick-date-right-date">
-                    <div>05-21</div>
-                    <div>周二</div>
-                  </div>
-                  <div class="pick-date-optional">可选</div>
-                  <div class="pick-date-optional">可选</div>
-                </div>
-                <div class="pick-date-right-item">
-                  <div class="pick-date-right-date">
-                    <div>05-22</div>
-                    <div>周三</div>
-                  </div>
-                  <div class="pick-date-optional">可选</div>
-                  <div class="pick-date-optional">可选</div>
-                </div>
-                <div class="pick-date-right-item">
-                  <div class="pick-date-right-date">
-                    <div>05-23</div>
-                    <div>周四</div>
-                  </div>
-                  <div class="pick-date-optional">可选</div>
-                  <div class="pick-date-optional">可选</div>
-                </div>
-                <div class="pick-date-right-item">
-                  <div class="pick-date-right-date">
-                    <div>05-24</div>
-                    <div>周五</div>
-                  </div>
-                  <div class="pick-date-optional">可选</div>
-                  <div class="pick-date-optional">可选</div>
-                </div>
-                <div class="pick-date-right-item">
-                  <div class="pick-date-right-date">
-                    <div>05-25</div>
-                    <div>周六</div>
-                  </div>
-                  <div class="pick-date-optional">可选</div>
-                  <div class="pick-date-optional">可选</div>
-                </div>
-                <div class="pick-date-right-item">
-                  <div class="pick-date-right-date">
-                    <div>05-26</div>
-                    <div>周日</div>
-                  </div>
-                  <div class="pick-date-optional">可选</div>
-                  <div class="pick-date-optional">可选</div>
-                </div> -->
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="apply-after-sale-write-info-item clearfix">
-          <div class="apply-after-sale-write-info-item-left">
-            <span>*</span>
-            收货地址：
-          </div>
-          <div class="apply-after-sale-write-info-item-right clearfix">
-            <select class="pick-address">
-              <option value="">北京</option>
-            </select>
-            <select class="pick-address">
-              <option value="">北京</option>
-            </select>
-            <select class="pick-address">
-              <option value="">朝阳区</option>
-            </select>
-          </div>
-        </div>
-        <div class="apply-after-sale-write-info-item clearfix">
-          <div class="apply-after-sale-write-info-item-left">
-            <span>*</span>
-            收&nbsp;&nbsp;货&nbsp;&nbsp;人：
-          </div>
-          <div class="apply-after-sale-write-info-item-right clearfix">
-            <input type="text" class="consignee" name="receiver" id="receiver" placeholder="请填写收货人">
-            <div class="after-sale after-receiver">请填写收货人</div>
-          </div>
-        </div>
-        <div class="apply-after-sale-write-info-item clearfix">
-          <div class="apply-after-sale-write-info-item-left">
-            <span>*</span>
-            手机号码：
-          </div>
-          <div class="apply-after-sale-write-info-item-right clearfix">
-            <input type="text" class="consignee" name="phoneNumber" id="phoneNumber" placeholder="请填写手机号码">
-            <div class="after-sale phone-number">请填写手机号码</div>
-          </div>
-        </div>
-        <div class="confirm-info-content-type-btn">确认提交</div>
-      </div>
-    </div>
-  </div>
-  <!-- 确认信息end -->
-
   <!-- 内容end -->
+
+  <div class="seat"></div>
 
   <!-- 底部 -->
   <div class="footer">
@@ -833,146 +909,10 @@
 
   <script src="../../lib/jq/jquery.old.js"></script>
   <script src="../../js/index/index.js"></script>
-  <script src="../../js/afterSale/applyAfterSaleEmb.js"></script>
-
-  <script>
-    window.onload = function () {
-      //获取今天的日期
-      var year2 = new Date().getFullYear();
-      var month2 = (new Date().getMonth() + 1);
-      var day2 = new Date().getDate();
-      if (month2 < 10) {
-        month2 = '0' + month2;
-      } else {
-        month2 == month2;
-      }
-
-      if (day2 < 10) {
-        day2 = '0' + day2;
-      } else {
-        day2 == day2;
-      }
-
-
-      // var cells = document.getElementById('monitor').getElementsByTagName('td');
-      var clen = 7;
-      var currentFirstDate;
-      var formatDate = function (date) {
-        var year = date.getFullYear();
-        var month = (date.getMonth() + 1);
-        var day = date.getDate();
-        var week = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'][date.getDay()];
-
-        if (month < 10) {
-          month = '0' + month;
-        } else {
-          month == month;
-        }
-
-        if (day < 10) {
-          day = '0' + day;
-        } else {
-          day == day;
-        }
-
-        var myDate = year + '-' + month + '-' + day;
-        var myDate2 = year2 + '-' + month2 + '-' + day2;
-        var currentTime = ConversionTime(myDate2);
-        var myTime = ConversionTime(myDate);
-        if (currentTime == myTime) {
-          myDate = '当天'
-        } else {
-          myDate = myDate;
-        }
-
-        var myDom = `
-          <div class="pick-date-right-item">
-            <div class="pick-date-right-date">
-              <div class='pickDate'>${myDate}</div>
-              <div class='pick-week'>${week}</div>
-            </div>
-            <div class="pick-date-optional">可选</div>
-            <div class="pick-date-optional2">可选</div>
-          </div>
-        ` 
-        var onedate = new Date().toLocaleString('chinese', { hour12: false }); 
-        var twodate = onedate.split(' ')[1];
-        var threedate = twodate.substring(0,twodate.length - 3);
-        // setInterval(function() {
-        //   console.log(new Date().getSeconds());
-        // },1000);
-        var flag = time_range('09:00','15:00',threedate);
-        var flag2 = time_range('15:00','21:00',threedate);
-        console.log(flag,flag2);
-        // return year + month + '-' + day + ' ' + week;
-        return myDom;
-      };
-      var addDate = function (date, n) {
-        date.setDate(date.getDate() + n);
-        return date;
-      };
-      var setDate = function (date) {
-        var week = date.getDay() - 1;
-        date = addDate(date, week * -1);
-        currentFirstDate = new Date(date);
-
-        for (var i = 0; i < clen; i++) {
-          // cells[i].innerHTML = formatDate(i == 0 ? date : addDate(date, 1));
-          $('#timeSlot').append(formatDate(i == 0 ? date : addDate(date, 1)))
-        }
-      };
-      setDate(new Date());
-
-      //十四位时间转换时间戳
-      function ConversionTime(dateString) {
-        let pattern = /(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})/;
-        let formatedDate = dateString.replace(/(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})/, '$1-$2-$3 $4:$5:$6');
-        let newTime = new Date(formatedDate).getTime();
-        return newTime;
-      }
-
-      function time_range(beginTime, endTime, nowTime) {
-        var strb = beginTime.split(":");
-        if (strb.length != 2) {
-          return false;
-        }
-
-        var stre = endTime.split(":");
-        if (stre.length != 2) {
-          return false;
-        }
-
-        var strn = nowTime.split(":");
-        if (stre.length != 2) {
-          return false;
-        }
-
-        var b = new Date();
-        var e = new Date();
-        var n = new Date();
-
-        b.setHours(strb[0]);
-
-        b.setMinutes(strb[1]);
-
-        e.setHours(stre[0]);
-
-        e.setMinutes(stre[1]);
-
-        n.setHours(strn[0]);
-
-        n.setMinutes(strn[1]);
-
-        if (n.getTime() - b.getTime() > 0 && n.getTime() - e.getTime() < 0) {
-          return true;
-        } else {
-          return false;
-        }
-      }
-
-    }
-
-  </script>
+  <script src="../../js/service/service.js"></script>
+  <script src="../../js/personalCenter/personalCenter.js"></script>
+  <script src="../../js/personalCenter/AccountManagement.js"></script>
+  <script src="../../until/until.js"></script>
 </body>
 
 </html>

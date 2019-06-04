@@ -506,3 +506,8 @@
 .apply-after-show{
   display: block;
 }
+
+.apply-after-bg{
+  background-color: #51c035;
+  color: #fff;
+}

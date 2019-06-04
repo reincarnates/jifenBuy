@@ -129,12 +129,14 @@ $(function () {
       if ($(this).siblings('.pick-date-right-date').find('.pickDate').text() == '当天') {
         var myDate3 = year3 + '-' + month3 + '-' + day3;
         $('#pickTime').val(myDate3 + ' ' + '(' + $(this).siblings('.pick-date-right-date').find('.pick-week').text() + ')' + ' ' + '09:00-15:00');
-        $(this).text('已选').siblings('.pick-date-optional2').text('可选');
-        // $(this).text('已选').parents('.pick-date-right-item').find('.pick-date-optional').text('可选');
-        // console.log($(this).siblings('.pick-date-right-date').find('div').text());
+        $(this).text('已选').siblings('.pick-date-optional2').text('可选').parents('.pick-date-right-item').siblings('.pick-date-right-item').find('.pick-date-optional,.pick-date-optional2').text('可选').siblings('.disabled').text('');
+        $(this).parents('.pick-date-right-item').siblings('.pick-date-right-item').find('.pick-date-optional,.pick-date-optional2').removeClass('apply-after-bg');
+        $(this).addClass("apply-after-bg").siblings('.pick-date-optional2').removeClass('apply-after-bg');
       } else {
         $('#pickTime').val($(this).siblings('.pick-date-right-date').find('.pickDate').text() + ' ' + '(' + $(this).siblings('.pick-date-right-date').find('.pick-week').text() + ')' + ' ' + '09:00-15:00');
-        $(this).text('已选').siblings('.pick-date-optional2').text('可选');
+        $(this).text('已选').siblings('.pick-date-optional2').text('可选').parents('.pick-date-right-item').siblings('.pick-date-right-item').find('.pick-date-optional,.pick-date-optional2').text('可选').siblings('.disabled').text('');
+        $(this).parents('.pick-date-right-item').siblings('.pick-date-right-item').find('.pick-date-optional,.pick-date-optional2').removeClass('apply-after-bg');
+        $(this).addClass("apply-after-bg").siblings('.pick-date-optional2').removeClass('apply-after-bg');
       }
     }
   });
@@ -146,11 +148,14 @@ $(function () {
       if ($(this).siblings('.pick-date-right-date').find('.pickDate').text() == '当天') {
         var myDate3 = year3 + '-' + month3 + '-' + day3;
         $('#pickTime').val(myDate3 + ' ' + '(' + $(this).siblings('.pick-date-right-date').find('.pick-week').text() + ')' + ' ' + '15:00-21:00');
-        $(this).text('已选').siblings('.pick-date-optional').text('可选');
-        // console.log($(this).siblings('.pick-date-right-date').find('div').text());
+        $(this).text('已选').siblings('.pick-date-optional').text('可选').parents('.pick-date-right-item').siblings('.pick-date-right-item').find('.pick-date-optional,.pick-date-optional2').text('可选').siblings('.disabled').text('');
+        $(this).parents('.pick-date-right-item').siblings('.pick-date-right-item').find('.pick-date-optional2,.pick-date-optional').removeClass('apply-after-bg');
+        $(this).addClass("apply-after-bg").siblings('.pick-date-optional').removeClass('apply-after-bg');
       } else {
         $('#pickTime').val($(this).siblings('.pick-date-right-date').find('.pickDate').text() + ' ' + '(' + $(this).siblings('.pick-date-right-date').find('.pick-week').text() + ')' + ' ' + '15:00-21:00');
-        $(this).text('已选').siblings('.pick-date-optional').text('可选');
+        $(this).text('已选').siblings('.pick-date-optional').text('可选').parents('.pick-date-right-item').siblings('.pick-date-right-item').find('.pick-date-optional,.pick-date-optional2').text('可选').siblings('.disabled').text('');
+        $(this).parents('.pick-date-right-item').siblings('.pick-date-right-item').find('.pick-date-optional2,.pick-date-optional').removeClass('apply-after-bg');
+        $(this).addClass("apply-after-bg").siblings('.pick-date-optional').removeClass('apply-after-bg');
       }
     }
   });

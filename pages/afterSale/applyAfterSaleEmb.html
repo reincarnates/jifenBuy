@@ -899,7 +899,29 @@
             </div>
           `
 
-        if(myTime < currentTime) {
+        // if(myTime < currentTime) {
+        //   myDom = `
+        //     <div class="pick-date-right-item">
+        //       <div class="pick-date-right-date">
+        //         <div class='pickDate'>${myDate}</div>
+        //         <div class='pick-week'>${week}</div>
+        //       </div>
+        //       <div class="pick-date-optional disabled"></div>
+        //       <div class="pick-date-optional2 disabled"></div>
+        //     </div>
+        //   `
+        // }
+        
+        var onedate = new Date().toLocaleString('chinese', { hour12: false });
+        var twodate = onedate.split(' ')[1];
+        var threedate = twodate.substring(0, twodate.length - 3);
+        // setInterval(function() {
+        //   console.log(new Date().getSeconds());
+        // },1000);
+        var flag = time_range('09:00', '15:00', threedate);
+        var flag2 = time_range('15:00', '21:00', threedate);
+
+        if(flag == true && flag2 == false && myTime < currentTime) {
           myDom = `
             <div class="pick-date-right-item">
               <div class="pick-date-right-date">
@@ -911,15 +933,6 @@
             </div>
           `
         }
-        
-        var onedate = new Date().toLocaleString('chinese', { hour12: false });
-        var twodate = onedate.split(' ')[1];
-        var threedate = twodate.substring(0, twodate.length - 3);
-        // setInterval(function() {
-        //   console.log(new Date().getSeconds());
-        // },1000);
-        var flag = time_range('09:00', '15:00', threedate);
-        var flag2 = time_range('15:00', '21:00', threedate);
         // console.log(flag, flag2);
         // return year + month + '-' + day + ' ' + week;
         return myDom;
