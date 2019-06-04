@@ -452,13 +452,13 @@
             返回方式：
           </div>
           <div class="apply-after-sale-write-info-item-right clearfix">
-            <div class="apply-after-sale-btn2 apply-after-sale-btn-active">快递寄回</div>
-            <div class="apply-after-sale-btn2">上门取件</div>
+            <div class="apply-after-sale-btn2">快递寄回</div>
+            <div class="apply-after-sale-btn2 apply-after-sale-btn-active">上门取件</div>
             <div class="after-sale return-mode">请选择返回方式</div>
           </div>
         </div>
-        <div class="apply-after-hide apply-after-show"></div>
-        <div class="apply-after-hide">
+        <div class="apply-after-hide"></div>
+        <div class="apply-after-hide apply-after-show">
           <div class="apply-after-sale-write-info-item clearfix">
             <div class="apply-after-sale-write-info-item-left">
               <span>*</span>
@@ -898,6 +898,20 @@
               <div class="pick-date-optional2">可选</div>
             </div>
           `
+
+        if(myTime < currentTime) {
+          myDom = `
+            <div class="pick-date-right-item">
+              <div class="pick-date-right-date">
+                <div class='pickDate'>${myDate}</div>
+                <div class='pick-week'>${week}</div>
+              </div>
+              <div class="pick-date-optional disabled"></div>
+              <div class="pick-date-optional2 disabled"></div>
+            </div>
+          `
+        }
+        
         var onedate = new Date().toLocaleString('chinese', { hour12: false });
         var twodate = onedate.split(' ')[1];
         var threedate = twodate.substring(0, twodate.length - 3);
@@ -906,7 +920,7 @@
         // },1000);
         var flag = time_range('09:00', '15:00', threedate);
         var flag2 = time_range('15:00', '21:00', threedate);
-        console.log(flag, flag2);
+        // console.log(flag, flag2);
         // return year + month + '-' + day + ' ' + week;
         return myDom;
       };

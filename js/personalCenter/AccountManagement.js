@@ -13,15 +13,21 @@ $(function() {
   });
 
 
-  var hobbyId = 0;
+  // var hobbyId = 0;
   $('.hobby-btn-item').on('click', function() {
     // $(".hobby-btn-item").eq($(".hobby-btn-item").index(this)).addClass("hobby-btn-item-active").siblings().removeClass('hobby-btn-item-active');
-    if(hobbyId == 0) {
-      $(".hobby-btn-item").eq($(".hobby-btn-item").index(this)).addClass("hobby-btn-item-active");
-      hobbyId = 1;
-    }else{
+    // if(hobbyId == 0) {
+    //   $(".hobby-btn-item").eq($(".hobby-btn-item").index(this)).addClass("hobby-btn-item-active");
+    //   hobbyId = 1;
+    // }else{
+    //   $(".hobby-btn-item").eq($(".hobby-btn-item").index(this)).removeClass("hobby-btn-item-active");
+    //   hobbyId = 0;
+    // }
+    // console.log(hobbyId);
+    if($(this).hasClass('hobby-btn-item-active')) {
       $(".hobby-btn-item").eq($(".hobby-btn-item").index(this)).removeClass("hobby-btn-item-active");
-      hobbyId = 0;
+    }else{
+      $(".hobby-btn-item").eq($(".hobby-btn-item").index(this)).addClass("hobby-btn-item-active");
     }
   });
 

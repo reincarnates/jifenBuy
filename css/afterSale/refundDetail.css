@@ -441,6 +441,23 @@
   /* color: #e98930; */
   padding-top: 0;
   border-left-color: #fff;
+  padding-top: 30px;
+}
+
+.track-list2 li.delivery {
+  padding-top: 30px;
+}
+
+.track-list2 li.transit {
+  padding-top: 30px;
+}
+
+.track-list2 li.reminder {
+  padding-top: 30px;
+}
+
+.track-list2 li.shipped2 {
+  padding-top: 30px;
 }
 
 .track-list2 li.first2 {
