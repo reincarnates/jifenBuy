@@ -15,7 +15,7 @@ $(function() {
   });
 
   //弹出填写快递单号模态框
-  $('.shipped-current-status-right-change-time').on('click', function() {
+  $('.shipped-current-status-right-change-time2').on('click', function() {
     $('.express-number-mask-wrapper').show();
     $('.express-number-mask').animate({top:'50%'})
   });
@@ -52,7 +52,7 @@ $(function() {
 
     $('.express-number-mask-head-right img').trigger('click');
     $('#LogisticsCompanyInput,#LogisticsOrderInput,#LogisticsNumberInput').val('');
-    $('.shipped-current-status-right-change-time').hide();
+    $('.shipped-current-status-right-change-time2').hide();
 
   });
 
@@ -61,5 +61,13 @@ $(function() {
     $('.express-fill-message-rule2').hide();
     $('.express-fill-message-rule3').hide();
   });
+
+  //问好图标鼠标移入出现文案
+  $('.change-time-img').on('mouseover', function() {
+    $('.prompt-text').show();
+  }).on('mouseout', function() {
+    $('.prompt-text').hide();
+  });
+
 
 })

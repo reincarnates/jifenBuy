@@ -11,12 +11,12 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   <meta name="format-detection" content="telephone=no" />
-  <title>收货地址</title>
+  <title>我的足迹</title>
   <link rel="stylesheet" href="../../css/reset.css">
   <link rel="stylesheet" href="../../css/style.css">
-  <link rel="stylesheet" href="../../css/PersonalCenter/PersonalCenter.css">
-  <link rel="stylesheet" href="../../css/PersonalCenter/ACreceivingAddress.css">
   <link rel="stylesheet" href="../../css/headOrfooter/headOrfooter.css">
+  <link rel="stylesheet" href="../../css/PersonalCenter/PersonalCenter.css">
+  <link rel="stylesheet" href="../../css/myTracks/myTracks.css">
 </head>
 
 <body>
@@ -425,165 +425,67 @@
             </dd>
           </dl>
         </div>
-        <div class="personal-wrapper2">
+        <div class="tracks-wrapper">
           <div class="account-head-wrapper">
             <a href="#">账户管理</a>
             <span>></span>
-            <a href="#">我的信息</a>
-            <span>></span>
-            <a href="#">收货地址</a>
+            <a href="#">我的足迹</a>
           </div>
-          <div class="receiving-wrapper">
-            <div class="receiving-head">
-              <div class="receiving-head-btn">新增收货地址</div>
-              <div class="receiving-head-wrod">您已创建<span class="receiving-head-wrod-number"
-                  id="creatAddressNum"></span>个收货地址，最多可创建<span class="receiving-head-wrod-number">20</span>个</div>
+          <div class="tracks-container clearfix">
+            <div class="tracks-item">
+              <div class="tracks-item-img">
+                <a href="#">
+                  <img src="../../images/static/tracks_goods_img.png" alt="">
+                </a>
+                <div class="tracks-item-close">
+                  <img src="../../images/static/tracks_close.png" alt="">
+                </div>
+              </div>
+              <div class="tracks-item-word">￥415</div>
             </div>
-            <div class="receiving-address">
-
+            <div class="tracks-item">
+              <div class="tracks-item-img">
+                <a href="#">
+                  <img src="../../images/static/tracks_goods_img.png" alt="">
+                </a>
+                <div class="tracks-item-close">
+                  <img src="../../images/static/tracks_close.png" alt="">
+                </div>
+              </div>
+              <div class="tracks-item-word">￥456</div>
+            </div>
+            <div class="tracks-item">
+              <div class="tracks-item-img">
+                <a href="#">
+                  <img src="../../images/static/tracks_goods_img.png" alt="">
+                </a>
+                <div class="tracks-item-close">
+                  <img src="../../images/static/tracks_close.png" alt="">
+                </div>
+              </div>
+              <div class="tracks-item-word">￥666</div>
+            </div>
+            <div class="tracks-item">
+              <div class="tracks-item-img">
+                <a href="#">
+                  <img src="../../images/static/tracks_goods_img.png" alt="">
+                </a>
+                <div class="tracks-item-close">
+                  <img src="../../images/static/tracks_close.png" alt="">
+                </div>
+              </div>
+              <div class="tracks-item-word">￥999</div>
             </div>
           </div>
+          <div class="tracks-word">已到最后，只保存最近 1 个月的浏览记录</div>
+          <div class="trancks-not"></div>
         </div>
       </div>
     </div>
   </div>
   <!-- 内容end -->
 
-  <!-- 模态框 -->
-  <div class="modal-frame">
-    <div class="modal">
-      <div class="modal-head">
-        <span>添加收货地址</span>
-        <div class="modal-head-img pointer">
-          <img src="../../images/static/madel_close.png" alt="">
-        </div>
-      </div>
-      <div class="modal-content">
-        <div class="modal-content-item">
-          <div class="modal-content-item-word">
-            <span class="must">*</span>
-            收货人：
-          </div>
-          <div class="modal-content-item-input">
-            <input type="text" id="receiver" />
-          </div>
-        </div>
-        <div class="modal-content-item">
-          <div class="modal-content-item-word">
-            <span class="must">*</span>
-            所在地区：
-          </div>
-          <div class="modal-content-item-input">
-            <!-- <select class="modal-content-item-select" id="region">
-              <option value="">--请选择--</option>
-              <option value="北京">北京</option>
-            </select> -->
-            <input readonly type="text" data-toggle="city-picker" id="region" placeholder="请选择">
-          </div>
-        </div>
-        <div class="modal-content-item">
-          <div class="modal-content-item-word">
-            <span class="must">*</span>
-            详细地址：
-          </div>
-          <div class="modal-content-item-input">
-            <input type="text" class="address_input" id="address" />
-          </div>
-        </div>
-        <div class="modal-content-item">
-          <div class="modal-content-item-word">
-            <span class="must">*</span>
-            手机号码：
-            <span class="fixed_phone">固定电话：</span>
-          </div>
-          <div class="modal-content-item-input">
-            <input type="text" class="phone_number" id="mobileNumber" />
-            <span class="huo">或</span>
-            <input type="text" class="phone_number" id="fixedNumber" />
-          </div>
-        </div>
-        <div class="modal-content-item">
-          <div class="modal-content-item-word">
-            邮箱：
-          </div>
-          <div class="modal-content-item-input">
-            <input type="text" class="address_input" id="modalEmail" />
-          </div>
-        </div>
-        <div class="modal-content-btn" id="addReceivingAddress">保存收货地址</div>
-      </div>
-    </div>
-  </div>
-  <!-- 模态框end -->
-
-  <!-- 修改收货地址 -->
-  <div class="modal-frame2">
-    <div class="modal">
-      <div class="modal-head">
-        <span>修改收货地址</span>
-        <div class="modal-head-img pointer">
-          <img src="../../images/static/madel_close.png" alt="">
-        </div>
-      </div>
-      <div class="modal-content">
-        <div class="modal-content-item">
-          <div class="modal-content-item-word">
-            <span class="must">*</span>
-            收货人：
-          </div>
-          <div class="modal-content-item-input">
-            <input type="text" id="editReceiver" />
-          </div>
-        </div>
-        <div class="modal-content-item">
-          <div class="modal-content-item-word">
-            <span class="must">*</span>
-            所在地区：
-          </div>
-          <div class="modal-content-item-input">
-            <!-- <select class="modal-content-item-select" id="editRegion">
-              <option value="">--请选择--</option>
-              <option value="北京朝阳区建国门外">北京朝阳区建国门外</option>
-            </select> -->
-            <input readonly type="text" data-toggle="city-picker" id="region" placeholder="请选择">
-          </div>
-        </div>
-        <div class="modal-content-item">
-          <div class="modal-content-item-word">
-            <span class="must">*</span>
-            详细地址：
-          </div>
-          <div class="modal-content-item-input">
-            <input type="text" class="address_input" id="editAddress" />
-          </div>
-        </div>
-        <div class="modal-content-item">
-          <div class="modal-content-item-word">
-            <span class="must">*</span>
-            手机号码：
-            <span class="fixed_phone">固定电话：</span>
-          </div>
-          <div class="modal-content-item-input">
-            <input type="text" class="phone_number" id="editMobileNumber" />
-            <span class="huo">或</span>
-            <input type="text" class="phone_number" id="editFixedNumber" />
-          </div>
-        </div>
-        <div class="modal-content-item">
-          <div class="modal-content-item-word">
-            邮箱：
-          </div>
-          <div class="modal-content-item-input">
-            <input type="text" class="address_input" id="editModalEmail" />
-          </div>
-        </div>
-        <div class="modal-content-btn" id="editReceivingAddress">保存收货地址</div>
-      </div>
-    </div>
-  </div>
-  <!-- 修改收货地址end -->
-
-  <div class="seat"></div>
+  <div class="size-seat"></div>
 
   <!-- 底部 -->
   <div class="footer">
@@ -815,10 +717,7 @@
 
   <script src="../../lib/jq/jquery.old.js"></script>
   <script src="../../js/index/index.js"></script>
-  <script src="../../js/service/service.js"></script>
-  <script src="../../js/personalCenter/personalCenter.js"></script>
-  <script src="../../lib/city-picker/city-picker.data.js"></script>
-  <script src="../../lib/city-picker/city-picker.js"></script>
+  <script src="../../js/myTracks/myTracks.js"></script>
 </body>
 
 </html>

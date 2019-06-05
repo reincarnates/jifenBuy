@@ -7,6 +7,11 @@
   box-sizing: border-box;
 }
 
+.records-content-wrapper{
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
 .records-head{
   width: 100%;
   height: 35px;
@@ -89,7 +94,7 @@
 }
 
 .records-goods-order-head-info{
-  width: 642px;
+  width: 489px;
   height: 120px;
   border-right: 1px solid #eee;
   padding-left: 33px;
@@ -116,15 +121,20 @@
   color: #333;
 }
 
+.records-goods-order-head-info-words a:hover{
+  color: #ffb22c;
+  text-decoration: underline;
+}
+
 .records-goods-order-head-info-number{
-  width: 155px;
+  width: 60px;
   color: #333;
   font-size: 12px;
   text-align: right;
 }
 
 .records-goods-order-head-price{
-  width: 174px;
+  width: 159px;
   height: 120px;
   border-right: 1px solid #eee;
   display: flex;
@@ -135,7 +145,7 @@
 }
 
 .records-goods-order-head-status{
-  width: 157px;
+  width: 165px;
   height: 120px;
   border-right: 1px solid #eee;
   display: flex;
@@ -148,7 +158,7 @@
 }
 
 .records-goods-order-head-setting{
-  width: 202px;
+  width: 125px;
   height: 120px;
   text-align: center;
   line-height: 120px;
@@ -165,7 +175,36 @@
 }
 
 .fuli-order-right2{
-  width: 1000px;
+  width: 770px;
   height: 36px;
   float: right;
+}
+
+.records-wrapper{
+  width: 980px;
+  height: 1137px;
+  background-color: #fff;
+  margin-left: 20px;
+  float: left;
+}
+
+.account-head-wrapper {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  border-bottom: 1px dashed #e5e5e5;
+  padding-left: 20px;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: #666;
+}
+
+.account-head-wrapper a:last-child {
+  color: #333;
+}
+
+.size-seat{
+  width: 100%;
+  height: 50px;
+  background-color: #e9e9e9;
 }

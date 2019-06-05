@@ -36,6 +36,23 @@
 }
 
 .shipped-current-status-right-change-time{
+  width: 133px;
+  height: 33px;
+  background-color: #0090ff;
+  /* text-align: center; */
+  line-height: 33px;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 29px;
+  cursor: pointer;
+  border-radius: 1px;
+  padding-left: 18px;
+  box-sizing: border-box;
+  float: right;
+  position: relative;
+}
+
+.shipped-current-status-right-change-time2{
   width: 123px;
   height: 33px;
   background-color: #0090ff;
@@ -46,11 +63,35 @@
   margin-top: 29px;
   cursor: pointer;
   border-radius: 1px;
+  box-sizing: border-box;
   float: right;
+  position: relative;
+}
+
+.shipped-current-status-right-change-time img{
+  position: absolute;
+  top: 8px;
+  right: 10px;
 }
 
 .shipped-current-status-right-change-time:hover{
   opacity: .8;
+}
+
+.prompt-text{
+  width: 200px;
+  height: 52px;
+  background: url(../../images/static/prompt_bg.png) no-repeat;
+  position: absolute;
+  right: -4px;
+  bottom: -28px;
+  color: #0090ff;
+  font-size: 12px;
+  line-height: 18px;
+  padding-top: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: none;
 }
 
 .shipped-current-status-container{
@@ -70,6 +111,7 @@
   height: 91px;
   /* border-bottom: 1px solid #e9e9e9; */
   /* margin-top: 31px; */
+  position: relative;
 }
 
 .shipped-order-goods-item-number3{
@@ -350,7 +392,7 @@
 .express-fill-message-wrapper{
   width: 100%;
   height: 38px;
-  margin-top: 39px;
+  /* margin-top: 39px; */
 }
 
 .express-fill-message-wrapper-item{
@@ -413,7 +455,7 @@
   color: #fff;
   font-size: 16px;
   margin: 0 auto;
-  margin-top: 76px;
+  margin-top: 36px;
   cursor: pointer;
 }
 
@@ -464,6 +506,7 @@
   /* color: #e98930; */
   padding-top: 0;
   border-left-color: #fff;
+  padding-top: 30px;
 }
 
 .track-list2 li {
@@ -531,4 +574,28 @@
   top: 4px;
   display: inline-block;
   vertical-align: middle;
+}
+
+.business-message-head{
+  width: 100%;
+  line-height: 38px;
+  color: #333;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.business-message-content{
+  width: 100%;
+  height: 29px;
+  background-color: #fff4f1;
+  padding-left: 17px;
+  box-sizing: border-box;
+  line-height: 29px;
+  color: #333;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.business-message-content span{
+  margin-right: 20px;
 }

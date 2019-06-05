@@ -340,6 +340,18 @@
   cursor: pointer;
 }
 
+.confirm-info-content-type-btn2{
+  width: 140px;
+  height: 38px;
+  background-color: #ff5826;
+  text-align: center;
+  line-height: 38px;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 34px;
+  cursor: pointer;
+}
+
 .after-sale{
   color: red;
   position: absolute;
@@ -510,4 +522,139 @@
 .apply-after-bg{
   background-color: #51c035;
   color: #fff;
+}
+
+.receiving-color{
+  color: #333;
+  font-size: 14px;
+}
+
+.pick-suggest{
+  line-height: 25px;
+  color: #666;
+  font-size: 14px;
+  margin-top: 25px;
+}
+
+.select-pick-time{
+  right: 380px;
+  top: 2px;
+  display: none;
+}
+
+.info-address{
+  right: -102px;
+  top: 0;
+  display: none;
+}
+
+.apply-submit-mask-wrapper{
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .3);
+  z-index: 999;
+  display: none;
+}
+
+.apply-submit-mask{
+  width: 527px;
+  height: 236px;
+  position: fixed;
+  left: 50%;
+  top: -50%;
+  margin-left: -263px;
+  margin-top: -118px;
+  background-color: #fff;
+}
+
+.apply-submit-mask-wrapper2{
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .3);
+  z-index: 999;
+  display: none;
+}
+
+.apply-submit-mask2{
+  width: 527px;
+  height: 236px;
+  position: fixed;
+  left: 50%;
+  top: -50%;
+  margin-left: -263px;
+  margin-top: -118px;
+  background-color: #fff;
+}
+
+.apply-submit-mask-head{
+  width: 100%;
+  line-height: 53px;
+  color: #999;
+  font-size: 18px;
+  padding: 0 30px;
+  box-sizing: border-box;
+  border-bottom: 1px dashed #d1d1d1;
+}
+
+.apply-submit-mask-head-right{
+  float: right;
+  cursor: pointer;
+}
+
+.apply-submit-mask-head-right img{
+  vertical-align: middle;
+}
+
+.apply-submit-mask-content{
+  width: 100%;
+  line-height: 72px;
+  color: #333;
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+}
+
+.apply-submit-mask-content span{
+  margin-left: 32px;
+}
+
+.apply-submit-mask-content img{
+  position: absolute;
+  top: 24px;
+}
+
+.apply-submit-mask-btn-wrapper{
+  width: 265px;
+  height: 38px;
+  margin: 0 auto;
+  margin-top: 27px;
+}
+
+.apply-submit-mask-btn-left{
+  width: 105px;
+  line-height: 38px;
+  background-color: #ffb030;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  float: left;
+  margin-right: 45px;
+  cursor: pointer;
+}
+
+.apply-submit-mask-btn-right{
+  width: 115px;
+  line-height: 38px;
+  border: 1px solid #d1d1d1;
+  text-align: center;
+  color: #333;
+  font-size: 14px;
+  float: left;
+  cursor: pointer;
 }
