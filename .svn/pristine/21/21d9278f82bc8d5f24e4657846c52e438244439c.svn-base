@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=EDGE; IE=9; IE=8; IE=7">
+  <meta http-equiv="X-UA-Compatible" content="IE=11" />
+  <meta name="apple-touch-fullscreen" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="format-detection" content="telephone=no" />
+  <link rel="stylesheet" href="../../css/reset.css">
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../css/paymentCenter/voucherCenter.css">
+  <link rel="stylesheet" href="../../css/headOrfooter/headOrfooter.css">
+  <title>充值成功</title>
+</head>
+
+<body>
+  <div class="payment_cashier_head_wrapper">
+    <div class="payment_cashier_head clearfix">
+      <div class="payment_cashier_head_left">
+        <img src="../../images/static/cashier.jpg" alt="">
+        <span>充值中心</span>
+      </div>
+      <div class="payment_cashier_head_right">
+        <div class="cashier_user">
+          下午好！
+          <span>180****2536</span>
+        </div>
+        <div class="cashier_ver">|</div>
+        <div class="cashier_order">
+          <a href="#">
+            我的订单
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="payment_success_wrapper">
+    <div class="payment_success_head">
+      <img src="../../images/static/payment_success.png" alt="">
+      <div class="payment_success_head_word">充值成功</div>
+      <div class="payment_success_head_word2">
+        实付金额：￥1000.00
+      </div>
+    </div>
+    <div class="payment_success_content">
+      <div class="recharge_content_word">
+        充值方式：支付宝支付
+      </div>
+      <div class="recharge_content_word">
+        充值账号：176***8888
+      </div>
+      <div class="recharge_content_word">
+        充值订单：4567
+      </div>
+      <div class="payment_success_content_btn clearfix">
+        <div class="check_order_btn">查看明细</div>
+        <div class="look_around_btn">联系客服</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 底部 -->
+  <div class="footer">
+    <div class="fuli-u-sm-12 fuli-copyright-auth">
+      <div class="fuli-copyright-cont2 clearfix">
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-1 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-2 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-3 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-4 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-6 pointer"></div>
+        </a>
+      </div>
+    </div>
+    <div class="fuli-u-sm-12 fuli-copyright-info">
+      <p>
+        <a href="#" class="fuli-copyright-links">首页</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">招聘英才</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">合作及洽谈</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">联系我们</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">关于我们</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">商家管理</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">门店管理</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">自提站管理</a>
+        <span class="fuli-copyright-split">|</span>
+      </p>
+    </div>
+    <div class="fuli-u-sm-12 fuli-copyright-cert">
+      &copy;2016 athori.com 雷云智链 客户服务中心(7×24):101-88888888
+    </div>
+  </div>
+  <!-- 底部end -->
+
+  <script src="../../lib/jq/jquery.old.js"></script>
+  <script src="../../js/paymentCenter/voucherCenter.js"></script>
+</body>
+
+</html>

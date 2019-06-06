@@ -65,7 +65,11 @@ $(function () {
   $('#upload').on('change', function (event) {
     const files = event.target.files[0];
     var type = files.type.split("/")[1];
-    console.log(files, type);
+    // var fq = $('#upload');
+    // console.log(fq[0].files.length);
+    // if(fq[0].files.length > 3) {
+    //   alert();
+    // }
     if (type == 'jpg' || type == 'png' || type == 'jpeg') {
       if (files.size < 1024 * 1024 * 3) {
         alert('成功');

@@ -241,7 +241,7 @@
 
 .mysize_head_wrapper{
   width: 100%;
-  height: 129px;
+  /* height: 129px; */
   background-color: #f6f7fb;
   margin-top: 17px;
   display: flex;
@@ -254,10 +254,12 @@
   margin-right: 40px;
   cursor: pointer;
   position: relative;
+  padding: 10px 0;
 }
 
 .mysize_head_my_wrapper{
   display: flex;
+  flex-wrap: wrap;
 }
 
 .mysize_head_item{
@@ -591,6 +593,7 @@
   outline: none;
   line-height: 28px;
   margin-left: 28px;
+  display: none;
 }
 
 .mysize_infomation_item_word_strong{
@@ -600,7 +603,6 @@
   font-size: 18px;
   line-height: 10px;
   text-align: center;
-  display: none;
 }
 
 .mysize_infomation_item_sex{
@@ -610,6 +612,7 @@
   background-color: #fff;
   line-height: 26px;
   margin-left: 28px;
+  display: none;
 }
 
 .mysize_infomation_item_sex_s{
@@ -632,4 +635,14 @@
   font-size: 14px;
   position: absolute;
   right: 48px;
+  display: none;
+}
+
+.figure_height2{
+  width: 75px;
+  height: 28px;
+  border: 1px solid #ddd;
+  margin: 0 12px;
+  outline: none;
+  display: none;
 }

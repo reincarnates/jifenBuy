@@ -7,6 +7,12 @@ $(function() {
     if($(this).hasClass('newRole')) {
       $('#saveSize').show();
       $('#editSize').hide();
+      $('.mysize_infomation_item_word_strong').hide();
+      $('.mysize_infomation_item_input_wrap').show();
+      $('.mysize_infomation_item_sex').show();
+      $('.figure_height').hide();
+      $('.figure_weight').hide();
+      $('.figure_height2').show();
     }
   });
 
@@ -45,6 +51,53 @@ $(function() {
   $('.mysize_infomation_item_sex_s').on('click', function() {
     $(".mysize_infomation_item_sex_s").eq($(".mysize_infomation_item_sex_s").index(this)).addClass("mysize_infomation_item_sex_s_cur").siblings().removeClass('mysize_infomation_item_sex_s_cur');
     sexVal = $(this).text();
+  });
+
+  //修改尺寸
+  $('#editSize').on('click', function() {
+    $('#saveSize').show();
+    $('#editSize').hide();
+    $('.mysize_infomation_item_word_strong').hide();
+    $('.mysize_infomation_item_input_wrap').show();
+    $('.mysize_infomation_item_sex').show();
+    $('.figure_height').hide();
+    $('.figure_weight').hide();
+    $('.figure_height2').show();
+  });
+
+  //保存尺寸
+  $('#saveSize').on('click', function() {
+    if(sexVal == '男') {
+      var roleDom = `
+        <div class="mysize_head_item_wrapper">
+          <div class="mysize_head_item">
+            <div class="del_mysize">
+              <img src="../../images/static/del_mysize.png" alt="">
+            </div>
+          </div>
+          <div class="mysize_head_name">李易峰</div>
+          <div class="mysize_head_select">
+            <img src="../../images/static/mysize_select.png" alt="">
+          </div>
+        </div>
+      `;
+      $('.newRole').before(roleDom);
+    }else{
+      var roleDom = `
+        <div class="mysize_head_item_wrapper">
+          <div class="mysize_head_item mysize_head_item2">
+            <div class="del_mysize">
+              <img src="../../images/static/del_mysize.png" alt="">
+            </div>
+          </div>
+          <div class="mysize_head_name">李易峰</div>
+          <div class="mysize_head_select">
+            <img src="../../images/static/mysize_select.png" alt="">
+          </div>
+        </div>
+      `;
+      $('.newRole').before(roleDom);
+    }
   });
 
 });

@@ -61,6 +61,29 @@ $(function () {
     return $('#applyUpload').trigger('click');
   });
 
+  $('#applyUpload').on('change', function() {
+    const files = event.target.files;
+    var type = files.type;
+    var fq = $('#applyUpload');
+    // for(var i in files) {
+    //   console.log(files[i]);
+    // }
+    console.log(files,type);
+    // if(fq[0].files.length > 5) {
+    //   alert('上传图片的张数不能大于5张！');
+    //   return false;
+    // }
+    // if (type == 'jpg' || type == 'png' || type == 'jpeg') {
+    //   if (files.size < 1024 * 1024 * 5) {
+    //     alert('成功');
+    //   } else {
+    //     alert('请上传小于5MB的头像！！！');
+    //   }
+    // } else {
+    //   alert('请上传jpg或png或jpeg格式的图片！');
+    // }
+  });
+
   //快递寄回确认提交
   $('.confirm-info-content-type-btn').on('click', function () {
     if (afterSaletype == '') {

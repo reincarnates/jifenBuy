@@ -435,17 +435,17 @@
           </div>
           <div class="account-info-wrapper">
             <div class="account-info-head clearfix">
-              <div class="account-info-head-item">
+              <div class="account-info-head-item account_active">
                 基本信息
               </div>
-              <div class="account-info-head-item account_active">
+              <div class="account-info-head-item">
                 我的尺寸
               </div>
               <div class="account-info-head-item">
                 兴趣设置
               </div>
             </div>
-            <div class="ob">
+            <div class="ob on">
               <div class="account-essential-info">
                 <div class="account-essential-info-yuan"></div>
                 <h5>基本信息</h5>
@@ -458,7 +458,7 @@
                     <div class="edit-atvar">编辑头像</div>
                   </div>
                   <span class="atvar-tips">请上传jpg或png或jpeg格式的图片并且不能大于3M</span>
-                  <input type="file" id="upload" style="display:none;">
+                  <input type="file" id="upload" accept="image/png,image/gif,image/jpg,image/jpeg" multiple style="display:none;">
                 </div>
                 <div class="account-username clearfix">
                   <div class="account-username-left">
@@ -520,7 +520,7 @@
                 </div>
               </div>
             </div>
-            <div class="ob on">
+            <div class="ob">
               <div class="mysize_head_wrapper">
                 <div class="mysize_head_my_wrapper">
                   <!-- <div class="mysize_head_item_wrapper">
@@ -614,11 +614,13 @@
                       <div class="mysize_figure_content_left_item_top">
                         <div class="figure_name">肩宽：</div>
                         <input type="text" class="figure_height" readonly id="shoulderWidth" />
+                        <input type="text" class="figure_height2" id="shoulderWidth">
                         <div class="figure_unit">cm</div>
                       </div>
                       <div class="mysize_figure_content_left_item_bottom">
                         <div class="figure_name">胸围：</div>
                         <input type="text" class="figure_weight" readonly id="bust" />
+                        <input type="text" class="figure_height2" id="bust2">
                         <div class="figure_unit">cm</div>
                       </div>
                     </div>
@@ -626,11 +628,13 @@
                       <div class="mysize_figure_content_left_item_top">
                         <div class="figure_name">腰围：</div>
                         <input type="text" class="figure_height" readonly id="waistLine" />
+                        <input type="text" class="figure_height2" id="waistLine2">
                         <div class="figure_unit">cm</div>
                       </div>
                       <div class="mysize_figure_content_left_item_bottom">
                         <div class="figure_name">臀围：</div>
                         <input type="text" class="figure_weight" readonly id="hipline" />
+                        <input type="text" class="figure_height2" id="hipline2">
                         <div class="figure_unit">cm</div>
                       </div>
                     </div>
@@ -638,11 +642,13 @@
                       <div class="mysize_figure_content_left_item_top">
                         <div class="figure_name">脚长：</div>
                         <input type="text" class="figure_height" readonly id="footLength" />
+                        <input type="text" class="figure_height2" id="footLength2">
                         <div class="figure_unit">cm</div>
                       </div>
                       <div class="mysize_figure_content_left_item_bottom">
                         <div class="figure_name">脚围：</div>
                         <input type="text" class="figure_weight" readonly id="footGirth" />
+                        <input type="text" class="figure_height2" id="footGirth2">
                         <div class="figure_unit">cm</div>
                       </div>
                     </div>
