@@ -11,13 +11,12 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   <meta name="format-detection" content="telephone=no" />
-  <title>常购商品</title>
+  <title>意见反馈</title>
   <link rel="stylesheet" href="../../css/reset.css">
   <link rel="stylesheet" href="../../css/style.css">
-  <link rel="stylesheet" href="../../css/headOrfooter/headOrfooter.css">
   <link rel="stylesheet" href="../../css/PersonalCenter/PersonalCenter.css">
-  <link rel="stylesheet" href="../../css/myTracks/myTracks.css">
-  <link rel="stylesheet" href="../../css/myTracks/commodityPurchase.css">
+  <link rel="stylesheet" href="../../css/headOrfooter/headOrfooter.css">
+  <link rel="stylesheet" href="../../css/feedback/feedback.css">
 </head>
 
 <body>
@@ -268,7 +267,7 @@
         </div>
       </div>
       <div class="shop_cart pointer">
-        <span class="shop_cart_word">购物车</span>
+        <span>购物车</span>
         <div class="search-select-small"></div>
         <!-- 购物车有商品 -->
         <!-- <div class="search-cart-select">
@@ -404,7 +403,7 @@
             </dt>
             <dd class="list_dd">
               <ul>
-                <li class="list_li">售后记录</li>
+                <li class="list_li">退款退货</li>
                 <!-- <li class="list_li">发票服务</li> -->
                 <li class="list_li">投诉举报</li>
                 <li class="list_li">意见反馈</li>
@@ -421,202 +420,64 @@
               <ul>
                 <li class="list_li">我的收藏</li>
                 <li class="list_li">到货通知</li>
-                <li class="list_li">我的足迹</li>
               </ul>
             </dd>
           </dl>
         </div>
-        <div class="tracks-wrapper">
-          <div class="account-head-wrapper">
-            <a href="#">账户管理</a>
-            <span>></span>
-            <a href="#">常购商品</a>
+        <div class="fuli-personal-feedback-wrapper">
+          <div class="personal-feedback-head">
+            <div class="personal-feedback-head-title">阳光福利购反馈问卷</div>
+            <p class="personal-feedback-head-content">亲爱的用户，请您将使用此页面之后的意见和建议告诉我们，以便我们更好地改进产品 为您提供更好的服务。谢谢您的支持！</p>
           </div>
-          <div class="purchase-container clearfix">
-            <div class="purchase-item">
-              <div class="purchase-item-img">
-                <a href="#">
-                  <img src="../../images/static/purchase_good_img.png" alt="">
-                </a>
+          <div class="personal-feedback-content">
+            <div class="personal-feedback-frist-term">
+              <div class="personal-feedback-frist-term-title">
+                <span class="must-fill">*</span>1.您在使用“ 当前页面”时，遇到的任何问题、意见或建议，请告诉我们。（请填写）
               </div>
-              <div class="purchase-item-suggest">
-                <a href="#">
-                  资生堂 姬芮Za新能真皙美白隔离霜防晒SPF26妆前乳 35g（隔离乳 提亮肤色）
-                </a>
-              </div>
-              <div class="purchase-item-price-wrapper">
-                <span class="purchase-item-price">￥57.00</span>
-                <!-- <span class="price-reduction">
-                  <a href="#">
-                    降价通知
-                  </a>
-                </span> -->
-              </div>
-              <div class="purchase-item-shop-number">已购买1次</div>
-              <div class="purchase-item-operation clearfix">
-                <div class="purchase-item-operation-left">
-                  <!-- <img src="../../images/static/purchase_shop_img.png" alt=""> -->
-                  <span>立即购买</span>
-                </div>
-                <div class="purchase-item-operation-right">
-                  <!-- <img src="../../images/static/purchase_shop_cart.png" alt=""> -->
-                  <span>加入购物车</span>
-                </div>
+              <div class="personal-feedback-frist-term-service">
+                <form>
+                  <textarea style="resize:none" class="personal-feedback-frist-term-textarea"
+                    placeholder="根据您的实际情况填写即可，没有对错之分。"></textarea>
+                </form>
               </div>
             </div>
-            <div class="purchase-item">
-              <div class="purchase-item-img">
-                <a href="#">
-                  <img src="../../images/static/purchase_good_img.png" alt="">
-                </a>
+            <div class="personal-feedback-second-term">
+              <div class="personal-feedback-frist-term-title">
+                <span class="must-fill">*</span>2.如果用图片来说明问题，请上传（最多3张哦）
               </div>
-              <div class="purchase-item-suggest">
-                <a href="#">
-                  资生堂 姬芮Za新能真皙美白隔离霜防晒SPF26妆前乳 35g（隔离乳 提亮肤色）
-                </a>
+              <div class="personal-feedback-second-term-service">
+                <img src="../../images/static/upload_img_03.png" alt="">
               </div>
-              <div class="purchase-item-price-wrapper">
-                <span class="purchase-item-price">￥57.00</span>
-                <!-- <span class="price-reduction">
-                  <a href="#">
-                    降价通知
-                  </a>
-                </span> -->
+              <input type="file" name="file" id="upload" style="display:none" />
+              <div id="upload-btn" name="file">上传照片</div>
+            </div>
+            <div class="personal-feedback-frist-term">
+              <div class="personal-feedback-frist-term-title">
+                <span class="must-fill">*</span>3.请选择反馈类型
               </div>
-              <div class="purchase-item-shop-number">已购买1次</div>
-              <div class="purchase-item-operation clearfix">
-                <div class="purchase-item-operation-left">
-                  <!-- <img src="../../images/static/purchase_shop_img.png" alt=""> -->
-                  <span>立即购买</span>
-                </div>
-                <div class="purchase-item-operation-right">
-                  <!-- <img src="../../images/static/purchase_shop_cart.png" alt=""> -->
-                  <span>加入购物车</span>
-                </div>
+              <div class="personal-feedback-third-term-service">
+                <div class="personal-feedback-third-term-service-item">商品相关</div>
+                <div class="personal-feedback-third-term-service-item">物流状况</div>
+                <div class="personal-feedback-third-term-service-item">客户服务</div>
+                <div class="personal-feedback-third-term-service-item">功能异常</div>
+                <div class="personal-feedback-third-term-service-item">产品意见</div>
+                <div class="personal-feedback-third-term-service-item">其他</div>
               </div>
             </div>
-            <div class="purchase-item">
-              <div class="purchase-item-img">
-                <a href="#">
-                  <img src="../../images/static/purchase_good_img.png" alt="">
-                </a>
+            <div class="personal-feedback-frist-term">
+              <div class="personal-feedback-frist-term-title">
+                <span class="must-fill">*</span>4.请留下您的信息，以便我们及时反馈
               </div>
-              <div class="purchase-item-suggest">
-                <a href="#">
-                  资生堂 姬芮Za新能真皙美白隔离霜防晒SPF26妆前乳 35g（隔离乳 提亮肤色）
-                </a>
-              </div>
-              <div class="purchase-item-price-wrapper">
-                <span class="purchase-item-price">￥57.00</span>
-                <!-- <span class="price-reduction">
-                  <a href="#">
-                    降价通知
-                  </a>
-                </span> -->
-              </div>
-              <div class="purchase-item-shop-number">已购买1次</div>
-              <div class="purchase-item-operation clearfix">
-                <div class="purchase-item-operation-left">
-                  <!-- <img src="../../images/static/purchase_shop_img.png" alt=""> -->
-                  <span>立即购买</span>
-                </div>
-                <div class="purchase-item-operation-right">
-                  <!-- <img src="../../images/static/purchase_shop_cart.png" alt=""> -->
-                  <span>加入购物车</span>
-                </div>
-              </div>
-            </div>
-            <div class="purchase-item">
-              <div class="purchase-item-img">
-                <a href="#">
-                  <img src="../../images/static/purchase_good_img.png" alt="">
-                </a>
-              </div>
-              <div class="purchase-item-suggest">
-                <a href="#">
-                  资生堂 姬芮Za新能真皙美白隔离霜防晒SPF26妆前乳 35g（隔离乳 提亮肤色）
-                </a>
-              </div>
-              <div class="purchase-item-price-wrapper">
-                <span class="purchase-item-price">￥57.00</span>
-                <!-- <span class="price-reduction">
-                  <a href="#">
-                    降价通知
-                  </a>
-                </span> -->
-              </div>
-              <div class="purchase-item-shop-number">已购买1次</div>
-              <div class="purchase-item-operation clearfix">
-                <div class="purchase-item-operation-left">
-                  <!-- <img src="../../images/static/purchase_shop_img.png" alt=""> -->
-                  <span>立即购买</span>
-                </div>
-                <div class="purchase-item-operation-right">
-                  <!-- <img src="../../images/static/purchase_shop_cart.png" alt=""> -->
-                  <span>加入购物车</span>
-                </div>
-              </div>
-            </div>
-            <div class="purchase-item">
-              <div class="purchase-item-img">
-                <a href="#">
-                  <img src="../../images/static/purchase_good_img.png" alt="">
-                </a>
-              </div>
-              <div class="purchase-item-suggest">
-                <a href="#">
-                  资生堂 姬芮Za新能真皙美白隔离霜防晒SPF26妆前乳 35g（隔离乳 提亮肤色）
-                </a>
-              </div>
-              <div class="purchase-item-price-wrapper">
-                <span class="purchase-item-price">￥57.00</span>
-                <!-- <span class="price-reduction">
-                  <a href="#">
-                    降价通知
-                  </a>
-                </span> -->
-              </div>
-              <div class="purchase-item-shop-number">已购买1次</div>
-              <div class="purchase-item-operation clearfix">
-                <div class="purchase-item-operation-left">
-                  <!-- <img src="../../images/static/purchase_shop_img.png" alt=""> -->
-                  <span>立即购买</span>
-                </div>
-                <div class="purchase-item-operation-right">
-                  <!-- <img src="../../images/static/purchase_shop_cart.png" alt=""> -->
-                  <span>加入购物车</span>
-                </div>
-              </div>
-            </div>
-            <div class="purchase-item">
-              <div class="purchase-item-img">
-                <a href="#">
-                  <img src="../../images/static/purchase_good_img.png" alt="">
-                </a>
-              </div>
-              <div class="purchase-item-suggest">
-                <a href="#">
-                  资生堂 姬芮Za新能真皙美白隔离霜防晒SPF26妆前乳 35g（隔离乳 提亮肤色）
-                </a>
-              </div>
-              <div class="purchase-item-price-wrapper">
-                <span class="purchase-item-price">￥57.00</span>
-                <!-- <span class="price-reduction">
-                  <a href="#">
-                    降价通知
-                  </a>
-                </span> -->
-              </div>
-              <div class="purchase-item-shop-number">已购买1次</div>
-              <div class="purchase-item-operation clearfix">
-                <div class="purchase-item-operation-left">
-                  <!-- <img src="../../images/static/purchase_shop_img.png" alt=""> -->
-                  <span>立即购买</span>
-                </div>
-                <div class="purchase-item-operation-right">
-                  <!-- <img src="../../images/static/purchase_shop_cart.png" alt=""> -->
-                  <span>加入购物车</span>
-                </div>
+              <div class="personal-feedback-fourth-term-service">
+                <form class="clearfix">
+                  <div class="you-phone-word">
+                    <label for="">您的手机：</label>
+                  </div>
+                  <div class="you-phone">
+                    <input type="text" />
+                  </div>
+                </form>
+                <div class="personal-feedback-fourth-term-submit">提交</div>
               </div>
             </div>
           </div>
@@ -626,7 +487,7 @@
   </div>
   <!-- 内容end -->
 
-  <div class="size-seat"></div>
+  <div class="seat"></div>
 
   <!-- 底部 -->
   <div class="footer">
@@ -858,7 +719,7 @@
 
   <script src="../../lib/jq/jquery.old.js"></script>
   <script src="../../js/index/index.js"></script>
-  <script src="../../js/myTracks/commodityPurchase.js"></script>
+  <script src="../../js/feedback/feedback.js"></script>
 </body>
 
 </html>

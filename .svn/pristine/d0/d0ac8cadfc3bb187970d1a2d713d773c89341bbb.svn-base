@@ -434,8 +434,7 @@
         <div class="apply-after-sale-write-info-item-right clearfix">
           <div class="apply-after-sale-upload"></div>
           <span class="apply-after-sale-upload-word">最多可上传5张图片，每张图片不超过5M，支持bmp,png,jepg,gif.jpg格式</span>
-          <input type="file" name="applyUpload" id="applyUpload" accept="image/png,image/gif,image/jpg,image/jpeg"
-            multiple style="display: none;" />
+          <input type="file" name="applyUpload" id="applyUpload" accept="image/png,image/gif,image/jpg,image/jpeg" multiple style="display: none;" />
           <span class="apply-after-sale-upload-suggest">为了帮助您更好的解决问题请上传图片</span>
         </div>
       </div>
@@ -501,8 +500,8 @@
               用户姓名：
             </div>
             <div class="apply-after-sale-write-info-item-right clearfix">
-              <input type="text" class="consignee" name="receiver" id="receiver" placeholder="请填写用户姓名">
-              <div class="after-sale after-receiver">请填写用户姓名</div>
+              <input type="text" class="consignee" name="receiver" id="receiver" placeholder="请填写收货人">
+              <div class="after-sale after-receiver">请填写收货人</div>
             </div>
           </div>
           <div class="apply-after-sale-write-info-item pat-lw clearfix">
@@ -518,26 +517,6 @@
           <div class="confirm-info-content-type-btn">确认提交</div>
         </div>
         <div class="apply-after-hide">
-          <div class="apply-after-sale-write-info-item clearfix">
-            <div class="apply-after-sale-write-info-item-left">
-              <span>*</span>
-              用户姓名：
-            </div>
-            <div class="apply-after-sale-write-info-item-right clearfix">
-              <input type="text" class="consignee" name="receiver" id="receiver" placeholder="请填写用户姓名">
-              <div class="after-sale after-receiver">请填写用户姓名</div>
-            </div>
-          </div>
-          <div class="apply-after-sale-write-info-item clearfix">
-            <div class="apply-after-sale-write-info-item-left">
-              <span>*</span>
-              手机号码：
-            </div>
-            <div class="apply-after-sale-write-info-item-right clearfix">
-              <input type="text" class="consignee" name="phoneNumber" id="phoneNumber" placeholder="请填写手机号码">
-              <div class="after-sale phone-number">请填写手机号码</div>
-            </div>
-          </div>
           <div class="apply-after-sale-write-info-item clearfix">
             <div class="apply-after-sale-write-info-item-left">
               <span>*</span>

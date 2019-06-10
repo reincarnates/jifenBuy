@@ -11,13 +11,12 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   <meta name="format-detection" content="telephone=no" />
-  <title>常购商品</title>
+  <title>账户管理</title>
   <link rel="stylesheet" href="../../css/reset.css">
   <link rel="stylesheet" href="../../css/style.css">
-  <link rel="stylesheet" href="../../css/headOrfooter/headOrfooter.css">
   <link rel="stylesheet" href="../../css/PersonalCenter/PersonalCenter.css">
-  <link rel="stylesheet" href="../../css/myTracks/myTracks.css">
-  <link rel="stylesheet" href="../../css/myTracks/commodityPurchase.css">
+  <link rel="stylesheet" href="../../css/PersonalCenter/AccountManagement.css">
+  <link rel="stylesheet" href="../../css/headOrfooter/headOrfooter.css">
 </head>
 
 <body>
@@ -268,7 +267,7 @@
         </div>
       </div>
       <div class="shop_cart pointer">
-        <span class="shop_cart_word">购物车</span>
+        <span>购物车</span>
         <div class="search-select-small"></div>
         <!-- 购物车有商品 -->
         <!-- <div class="search-cart-select">
@@ -426,198 +425,285 @@
             </dd>
           </dl>
         </div>
-        <div class="tracks-wrapper">
+        <div class="personal-wrapper2">
           <div class="account-head-wrapper">
             <a href="#">账户管理</a>
             <span>></span>
-            <a href="#">常购商品</a>
+            <a href="#">我的信息</a>
+            <span>></span>
+            <a href="#">基本信息</a>
           </div>
-          <div class="purchase-container clearfix">
-            <div class="purchase-item">
-              <div class="purchase-item-img">
-                <a href="#">
-                  <img src="../../images/static/purchase_good_img.png" alt="">
-                </a>
+          <div class="account-info-wrapper">
+            <div class="account-info-head clearfix">
+              <div class="account-info-head-item account_active">
+                基本信息
               </div>
-              <div class="purchase-item-suggest">
-                <a href="#">
-                  资生堂 姬芮Za新能真皙美白隔离霜防晒SPF26妆前乳 35g（隔离乳 提亮肤色）
-                </a>
+              <div class="account-info-head-item">
+                我的尺寸
               </div>
-              <div class="purchase-item-price-wrapper">
-                <span class="purchase-item-price">￥57.00</span>
-                <!-- <span class="price-reduction">
-                  <a href="#">
-                    降价通知
-                  </a>
-                </span> -->
+              <div class="account-info-head-item">
+                兴趣设置
               </div>
-              <div class="purchase-item-shop-number">已购买1次</div>
-              <div class="purchase-item-operation clearfix">
-                <div class="purchase-item-operation-left">
-                  <!-- <img src="../../images/static/purchase_shop_img.png" alt=""> -->
-                  <span>立即购买</span>
+            </div>
+            <div class="ob on">
+              <div class="account-essential-info">
+                <div class="account-essential-info-yuan"></div>
+                <h5>基本信息</h5>
+                <span>阳光福利商城不会以任何方式滥用或泄露您的个人信息</span>
+              </div>
+              <div class="account-info-content">
+                <div class="account-portrait">
+                  <div class="account-portrait-left">头&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;像：</div>
+                  <div class="account-portrait-right pointer">
+                    <div class="edit-atvar">编辑头像</div>
+                  </div>
+                  <span class="atvar-tips">请上传jpg或png或jpeg格式的图片并且不能大于3M</span>
+                  <input type="file" id="upload" accept="image/png,image/gif,image/jpg,image/jpeg" multiple style="display:none;">
                 </div>
-                <div class="purchase-item-operation-right">
-                  <!-- <img src="../../images/static/purchase_shop_cart.png" alt=""> -->
-                  <span>加入购物车</span>
+                <div class="account-username clearfix">
+                  <div class="account-username-left">
+                    昵&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;称：
+                  </div>
+                  <div class="account-username-right">
+                    <input type="text" class="account-username-right-input" />
+                    <div class="account-username-right-word">昵称长度不超过40个字符</div>
+                  </div>
+                </div>
+                <div class="account-username clearfix">
+                  <div class="account-username-left">
+                    <span>*</span>
+                    真实姓名：
+                  </div>
+                  <div class="account-username-right">
+                    <input type="text" class="account-username-right-input" />
+                  </div>
+                </div>
+                <div class="account-username clearfix">
+                  <div class="account-username-left">
+                    <span>*</span>
+                    性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别：
+                  </div>
+                  <div class="account-username-right">
+                    <input type="radio" name="sex" class="account-username-right-radio" id="male" class="pointer" />
+                    <label for="male">男</label>
+                    <input type="radio" name="sex" class="account-username-right-radio" id="female">
+                    <label for="female" class="pointer">女</label>
+                  </div>
+                </div>
+                <div class="account-username clearfix">
+                  <div class="account-username-left">
+                    <span>*</span>
+                    生&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日：
+                  </div>
+                  <div class="account-username-right">
+                    <select>
+                      <option value="">请选择年</option>
+                    </select>
+                    <span>年</span>
+                    <select>
+                      <option value="">请选择月</option>
+                    </select>
+                    <span>月</span>
+                    <select>
+                      <option value="">请选择日</option>
+                    </select>
+                    <span>日</span>
+                  </div>
+                </div>
+                <div class="account-username clearfix">
+                  <div class="account-username-left">
+
+                  </div>
+                  <div class="account-username-right">
+                    <div class="account-username-right-btn">确认保存</div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="purchase-item">
-              <div class="purchase-item-img">
-                <a href="#">
-                  <img src="../../images/static/purchase_good_img.png" alt="">
-                </a>
-              </div>
-              <div class="purchase-item-suggest">
-                <a href="#">
-                  资生堂 姬芮Za新能真皙美白隔离霜防晒SPF26妆前乳 35g（隔离乳 提亮肤色）
-                </a>
-              </div>
-              <div class="purchase-item-price-wrapper">
-                <span class="purchase-item-price">￥57.00</span>
-                <!-- <span class="price-reduction">
-                  <a href="#">
-                    降价通知
-                  </a>
-                </span> -->
-              </div>
-              <div class="purchase-item-shop-number">已购买1次</div>
-              <div class="purchase-item-operation clearfix">
-                <div class="purchase-item-operation-left">
-                  <!-- <img src="../../images/static/purchase_shop_img.png" alt=""> -->
-                  <span>立即购买</span>
+            <div class="ob">
+              <div class="mysize_head_wrapper">
+                <div class="mysize_head_my_wrapper">
+                  <!-- <div class="mysize_head_item_wrapper">
+                    <div class="mysize_head_item">
+                      <div class="del_mysize">
+                        <img src="../../images/static/del_mysize.png" alt="">
+                      </div>
+                    </div>
+                    <div class="mysize_head_name">李易峰</div>
+                    <div class="mysize_head_select">
+                      <img src="../../images/static/mysize_select.png" alt="">
+                    </div>
+                  </div> -->
+                  <!-- <div class="mysize_head_item_wrapper">
+                    <div class="mysize_head_item mysize_head_item2">
+                      <div class="del_mysize">
+                        <img src="../../images/static/del_mysize.png" alt="">
+                      </div>
+                    </div>
+                    <div class="mysize_head_name">李易峰</div>
+                    <div class="mysize_head_select">
+                      <img src="../../images/static/mysize_select.png" alt="">
+                    </div>
+                  </div> -->
+                  <div class="mysize_head_item_wrapper pointer newRole">
+                    <div class="new_role">
+                      <!-- <img src="../../images/static/new_role.png" alt=""> -->
+                    </div>
+                    <div class="new_role_wrapper">
+                      新建角色
+                    </div>
+                  </div>
                 </div>
-                <div class="purchase-item-operation-right">
-                  <!-- <img src="../../images/static/purchase_shop_cart.png" alt=""> -->
-                  <span>加入购物车</span>
+              </div>
+              <div class="mysize_infomation_wrapper">
+                <div class="mysize_infomation_item">
+                  <label class="mysize_infomation_item_word">
+                    姓名：
+                  </label>
+                  <strong class="mysize_infomation_item_word_strong"> ——</strong>
+                  <!-- <div>
+                    <input type="text" class="mysize_infomation_item_input" readonly name="roleName" id="roleName">
+                  </div> -->
+                  <div>
+                    <input type="text" class="mysize_infomation_item_input_wrap" placeholder="最多七个字" name="entryName" id="entryName">
+                  </div>
                 </div>
+                <div class="mysize_infomation_item">
+                  <label class="mysize_infomation_item_word">
+                    性别：
+                  </label>
+                  <strong class="mysize_infomation_item_word_strong"> ——</strong>
+                  <!-- <input type="text" class="mysize_infomation_item_input" readonly name="sex" id="sex"> -->
+                  <div class="mysize_infomation_item_sex">
+                    <span class="mysize_infomation_item_sex_s mysize_infomation_item_sex_s_cur">男</span>
+                    <span class="mysize_infomation_item_sex_s">女</span>
+                  </div>
+                </div>
+                <div class="mysize_infomation_item">
+                  <label class="mysize_infomation_item_word">
+                    身高：
+                  </label>
+                  <strong class="mysize_infomation_item_word_strong"> ——</strong>
+                  <!-- <input type="text" class="mysize_infomation_item_input" readonly name="stature" id="stature"> -->
+                  <div style="position: relative;">
+                    <input type="text" class="mysize_infomation_item_input_wrap" name="unitNumber" id="unitNumber">
+                    <span class="unit">cm</span>
+                  </div>
+                </div>
+                <div class="mysize_infomation_item">
+                  <label class="mysize_infomation_item_word">
+                    体重：
+                  </label>
+                  <strong class="mysize_infomation_item_word_strong"> ——</strong>
+                  <!-- <input type="text" class="mysize_infomation_item_input" readonly name="weight" id="weight"> -->
+                  <div style="position: relative;">
+                    <input type="text" class="mysize_infomation_item_input_wrap" name="unitNumber" id="unitNumber">
+                    <span class="unit">kg</span>
+                  </div>
+                </div>
+              </div>
+              <div class="mysize_figure_wrapper">
+                <div class="mysize_figure_head">
+                  <div class="mysize_figure_head_word">
+                    身材尺寸
+                  </div>
+                </div>
+                <div class="mysize_figure_content clearfix">
+                  <div class="mysize_figure_content_left">
+                    <div class="mysize_figure_content_left_item">
+                      <div class="mysize_figure_content_left_item_top">
+                        <div class="figure_name">肩宽：</div>
+                        <input type="text" class="figure_height" readonly id="shoulderWidth" />
+                        <input type="text" class="figure_height2" id="shoulderWidth">
+                        <div class="figure_unit">cm</div>
+                      </div>
+                      <div class="mysize_figure_content_left_item_bottom">
+                        <div class="figure_name">胸围：</div>
+                        <input type="text" class="figure_weight" readonly id="bust" />
+                        <input type="text" class="figure_height2" id="bust2">
+                        <div class="figure_unit">cm</div>
+                      </div>
+                    </div>
+                    <div class="mysize_figure_content_left_item">
+                      <div class="mysize_figure_content_left_item_top">
+                        <div class="figure_name">腰围：</div>
+                        <input type="text" class="figure_height" readonly id="waistLine" />
+                        <input type="text" class="figure_height2" id="waistLine2">
+                        <div class="figure_unit">cm</div>
+                      </div>
+                      <div class="mysize_figure_content_left_item_bottom">
+                        <div class="figure_name">臀围：</div>
+                        <input type="text" class="figure_weight" readonly id="hipline" />
+                        <input type="text" class="figure_height2" id="hipline2">
+                        <div class="figure_unit">cm</div>
+                      </div>
+                    </div>
+                    <div class="mysize_figure_content_left_item">
+                      <div class="mysize_figure_content_left_item_top">
+                        <div class="figure_name">脚长：</div>
+                        <input type="text" class="figure_height" readonly id="footLength" />
+                        <input type="text" class="figure_height2" id="footLength2">
+                        <div class="figure_unit">cm</div>
+                      </div>
+                      <div class="mysize_figure_content_left_item_bottom">
+                        <div class="figure_name">脚围：</div>
+                        <input type="text" class="figure_weight" readonly id="footGirth" />
+                        <input type="text" class="figure_height2" id="footGirth2">
+                        <div class="figure_unit">cm</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mysize_figure_content_right clearfix">
+                    <div class="mysize_figure_content_right_word">测量参考：</div>
+                    <div class="mysize_figure_content_right_img mysize_figure_content_right_img_show">
+                      <img src="../../images/static/shoulder_chest.png" alt="">
+                    </div>
+                    <div class="mysize_figure_content_right_img">
+                      <img src="../../images/static/waist.png" alt="">
+                    </div>
+                    <div class="mysize_figure_content_right_img">
+                      <img src="../../images/static/footer_length.png" style="margin-top: 115px;" alt="">
+                    </div>
+                    <div class="mysize_figure_content_right_suggest">
+                      <p>1.肩宽：肩顶点两点间距</p>
+                      <p>2.胸围：胸高点水平测量一圈</p>
+                      <p>3.腰围：肚脐上2cm水平测量一圈</p>
+                      <p>4.臀围：臀高点水平测量一圈</p>
+                      <p>5.脚长：前脚趾到后跟的最长距离</p>
+                      <p>6.脚围：脚掌最宽处的周长</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mysize_figure_save">
+                <a href="javaScript:;" id="saveSize">保存</a>
+                <a href="javaScript:;" id="editSize">修改尺寸</a>
               </div>
             </div>
-            <div class="purchase-item">
-              <div class="purchase-item-img">
-                <a href="#">
-                  <img src="../../images/static/purchase_good_img.png" alt="">
-                </a>
-              </div>
-              <div class="purchase-item-suggest">
-                <a href="#">
-                  资生堂 姬芮Za新能真皙美白隔离霜防晒SPF26妆前乳 35g（隔离乳 提亮肤色）
-                </a>
-              </div>
-              <div class="purchase-item-price-wrapper">
-                <span class="purchase-item-price">￥57.00</span>
-                <!-- <span class="price-reduction">
-                  <a href="#">
-                    降价通知
-                  </a>
-                </span> -->
-              </div>
-              <div class="purchase-item-shop-number">已购买1次</div>
-              <div class="purchase-item-operation clearfix">
-                <div class="purchase-item-operation-left">
-                  <!-- <img src="../../images/static/purchase_shop_img.png" alt=""> -->
-                  <span>立即购买</span>
-                </div>
-                <div class="purchase-item-operation-right">
-                  <!-- <img src="../../images/static/purchase_shop_cart.png" alt=""> -->
-                  <span>加入购物车</span>
+            <div class="ob">
+              <div class="hobby-warpper">
+                <div class="hobby-check-word">兴趣爱好：请选择您感兴趣的分类，给您最精准的推荐</div>
+                <div class="hobby-btn-wrapper">
+                  <span class="hobby-btn-item">图像印象/电子书刊</span>
+                  <span class="hobby-btn-item">家用电器</span>
+                  <span class="hobby-btn-item">手机/数码</span>
+                  <span class="hobby-btn-item">电脑/办公</span>
+                  <span class="hobby-btn-item">个护化妆</span>
+                  <span class="hobby-btn-item">家居/家具/假装/厨具</span>
+                  <span class="hobby-btn-item">服饰内衣/珠宝首饰</span>
+                  <span class="hobby-btn-item">汽车用品</span>
+                  <span class="hobby-btn-item">运动健康</span>
+                  <span class="hobby-btn-item">鞋靴/箱包/钟表/奢侈品</span>
+                  <span class="hobby-btn-item">母婴/玩具乐器</span>
+                  <span class="hobby-btn-item">食品饮料/保健食品</span>
+                  <span class="hobby-btn-item">图书音像/电子书刊</span>
+                  <span class="hobby-btn-item">家用电器</span>
+                  <span class="hobby-btn-item">手机/数码</span>
+                  <span class="hobby-btn-item">电脑/办公</span>
+                  <span class="hobby-btn-item">个护化妆</span>
                 </div>
               </div>
-            </div>
-            <div class="purchase-item">
-              <div class="purchase-item-img">
-                <a href="#">
-                  <img src="../../images/static/purchase_good_img.png" alt="">
-                </a>
-              </div>
-              <div class="purchase-item-suggest">
-                <a href="#">
-                  资生堂 姬芮Za新能真皙美白隔离霜防晒SPF26妆前乳 35g（隔离乳 提亮肤色）
-                </a>
-              </div>
-              <div class="purchase-item-price-wrapper">
-                <span class="purchase-item-price">￥57.00</span>
-                <!-- <span class="price-reduction">
-                  <a href="#">
-                    降价通知
-                  </a>
-                </span> -->
-              </div>
-              <div class="purchase-item-shop-number">已购买1次</div>
-              <div class="purchase-item-operation clearfix">
-                <div class="purchase-item-operation-left">
-                  <!-- <img src="../../images/static/purchase_shop_img.png" alt=""> -->
-                  <span>立即购买</span>
-                </div>
-                <div class="purchase-item-operation-right">
-                  <!-- <img src="../../images/static/purchase_shop_cart.png" alt=""> -->
-                  <span>加入购物车</span>
-                </div>
-              </div>
-            </div>
-            <div class="purchase-item">
-              <div class="purchase-item-img">
-                <a href="#">
-                  <img src="../../images/static/purchase_good_img.png" alt="">
-                </a>
-              </div>
-              <div class="purchase-item-suggest">
-                <a href="#">
-                  资生堂 姬芮Za新能真皙美白隔离霜防晒SPF26妆前乳 35g（隔离乳 提亮肤色）
-                </a>
-              </div>
-              <div class="purchase-item-price-wrapper">
-                <span class="purchase-item-price">￥57.00</span>
-                <!-- <span class="price-reduction">
-                  <a href="#">
-                    降价通知
-                  </a>
-                </span> -->
-              </div>
-              <div class="purchase-item-shop-number">已购买1次</div>
-              <div class="purchase-item-operation clearfix">
-                <div class="purchase-item-operation-left">
-                  <!-- <img src="../../images/static/purchase_shop_img.png" alt=""> -->
-                  <span>立即购买</span>
-                </div>
-                <div class="purchase-item-operation-right">
-                  <!-- <img src="../../images/static/purchase_shop_cart.png" alt=""> -->
-                  <span>加入购物车</span>
-                </div>
-              </div>
-            </div>
-            <div class="purchase-item">
-              <div class="purchase-item-img">
-                <a href="#">
-                  <img src="../../images/static/purchase_good_img.png" alt="">
-                </a>
-              </div>
-              <div class="purchase-item-suggest">
-                <a href="#">
-                  资生堂 姬芮Za新能真皙美白隔离霜防晒SPF26妆前乳 35g（隔离乳 提亮肤色）
-                </a>
-              </div>
-              <div class="purchase-item-price-wrapper">
-                <span class="purchase-item-price">￥57.00</span>
-                <!-- <span class="price-reduction">
-                  <a href="#">
-                    降价通知
-                  </a>
-                </span> -->
-              </div>
-              <div class="purchase-item-shop-number">已购买1次</div>
-              <div class="purchase-item-operation clearfix">
-                <div class="purchase-item-operation-left">
-                  <!-- <img src="../../images/static/purchase_shop_img.png" alt=""> -->
-                  <span>立即购买</span>
-                </div>
-                <div class="purchase-item-operation-right">
-                  <!-- <img src="../../images/static/purchase_shop_cart.png" alt=""> -->
-                  <span>加入购物车</span>
-                </div>
-              </div>
+              <div class="hobby-save-btn">保存</div>
             </div>
           </div>
         </div>
@@ -626,7 +712,7 @@
   </div>
   <!-- 内容end -->
 
-  <div class="size-seat"></div>
+  <div class="seat"></div>
 
   <!-- 底部 -->
   <div class="footer">
@@ -858,7 +944,10 @@
 
   <script src="../../lib/jq/jquery.old.js"></script>
   <script src="../../js/index/index.js"></script>
-  <script src="../../js/myTracks/commodityPurchase.js"></script>
+  <script src="../../js/service/service.js"></script>
+  <script src="../../js/personalCenter/personalCenter.js"></script>
+  <script src="../../js/personalCenter/AccountManagement.js"></script>
+  <script src="../../until/until.js"></script>
 </body>
 
 </html>
