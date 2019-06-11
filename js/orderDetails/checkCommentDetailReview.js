@@ -30,11 +30,17 @@ $(function() {
     }else{
       $('.goods-comment-item-right-not-comment').hide();
     }
+    $('.comment-mask-warpper').show();
   });
 
   //textarea字数变化
   $(document).on('keyup','.wordNumber', function() {
     $(this).siblings('.goods-comment-word-number').find('.goods-comment-word-numbers').text($(this).val().length)
+  });
+
+  //关闭弹出框
+  $('.comment-mask-head-img').on('click', function() {
+    $('.comment-mask-warpper').hide();
   });
 
 })
