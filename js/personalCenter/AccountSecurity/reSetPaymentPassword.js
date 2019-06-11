@@ -1,10 +1,10 @@
 $(function() {
 
-  var $step = $("#step");
+  var $step = $("#step2");
   $step.step({
     index: 0,
     time: 500,
-    title: ["身份验证", "修改登录密码", "完成"]
+    title: ["身份验证", "修改支付密码", "完成"]
   });
   $(".login-info-btn").on("click", function() {
     if($('#shortInput').val() == '' && $('#verificationCode').val() == '') {
@@ -78,6 +78,15 @@ $(function() {
       $('.confirmPassWord').css('right', '-40px');
       $('.confirmPassWord').text('');
       $('.login-new-password-btn').css({'backgroundColor': '#ffb030', 'cursor': 'pointer'});
+    }
+  });
+
+  var primitiveVal = '123456';
+  $('#primitivePassword').on('keyup', function() {
+    if($('#primitivePassword').val() != primitiveVal) {
+      $('.primitivePassWord').show();
+    }else{
+      $('.primitivePassWord').removeClass('newPassWord-pos');
     }
   });
 
