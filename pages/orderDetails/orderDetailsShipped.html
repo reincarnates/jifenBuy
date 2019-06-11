@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="../../css/style.css">
   <link rel="stylesheet" href="../../css/headOrfooter/headOrfooter.css">
   <link rel="stylesheet" href="../../css/orderDetails/orderDetailsShipped.css">
+  <link rel="stylesheet" href="../../css/PersonalCenter/ACreceivingAddress.css">
 </head>
 
 <body>
@@ -491,6 +492,73 @@
   </div>
   <!-- 内容end -->
 
+  <!-- 模态框 -->
+  <div class="modal-frame">
+    <div class="modal">
+      <div class="modal-head">
+        <span>添加收货地址</span>
+        <div class="modal-head-img pointer">
+          <img src="../../images/static/madel_close.png" alt="">
+        </div>
+      </div>
+      <div class="modal-content">
+        <div class="modal-content-item">
+          <div class="modal-content-item-word">
+            <span class="must">*</span>
+            收货人：
+          </div>
+          <div class="modal-content-item-input">
+            <input type="text" id="receiver" />
+          </div>
+        </div>
+        <div class="modal-content-item">
+          <div class="modal-content-item-word">
+            <span class="must">*</span>
+            所在地区：
+          </div>
+          <div class="modal-content-item-input">
+            <!-- <select class="modal-content-item-select" id="region">
+                <option value="">--请选择--</option>
+                <option value="北京">北京</option>
+              </select> -->
+            <input readonly type="text" data-toggle="city-picker" id="region" placeholder="请选择">
+          </div>
+        </div>
+        <div class="modal-content-item">
+          <div class="modal-content-item-word">
+            <span class="must">*</span>
+            详细地址：
+          </div>
+          <div class="modal-content-item-input">
+            <input type="text" class="address_input" id="address" />
+          </div>
+        </div>
+        <div class="modal-content-item">
+          <div class="modal-content-item-word">
+            <span class="must">*</span>
+            手机号码：
+            <span class="fixed_phone">固定电话：</span>
+          </div>
+          <div class="modal-content-item-input">
+            <input type="text" class="phone_number" id="mobileNumber" />
+            <span class="huo">或</span>
+            <input type="text" class="phone_number" id="fixedNumber" />
+          </div>
+        </div>
+        <div class="modal-content-item">
+          <div class="modal-content-item-word">
+            邮箱：
+          </div>
+          <div class="modal-content-item-input">
+            <input type="text" class="address_input" id="modalEmail" />
+          </div>
+        </div>
+        <div class="modal-content-btn" id="addReceivingAddress">保存收货地址</div>
+      </div>
+    </div>
+  </div>
+  <!-- 模态框end -->
+
   <!-- 底部 -->
   <div class="footer">
     <div class="fuli-u-sm-12 fuli-footer clearfix">
@@ -721,6 +789,9 @@
 
   <script src="../../lib/jq/jquery.old.js"></script>
   <script src="../../js/index/index.js"></script>
+  <script src="../../js/orderDetails/orderDetailsShipped.js"></script>
+  <script src="../../lib/city-picker/city-picker.data.js"></script>
+  <script src="../../lib/city-picker/city-picker.js"></script>
 </body>
 
 </html>
