@@ -11,11 +11,14 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   <meta name="format-detection" content="telephone=no" />
-  <title>已取消</title>
-  <link rel="stylesheet" href="../../css/reset.css">
-  <link rel="stylesheet" href="../../css/style.css">
-  <link rel="stylesheet" href="../../css/headOrfooter/headOrfooter.css">
-  <link rel="stylesheet" href="../../css/orderDetails/orderDetailsShipped.css">
+  <title>修改支付密码</title>
+  <link rel="stylesheet" href="../../../css/reset.css">
+  <link rel="stylesheet" href="../../../css/style.css">
+  <link rel="stylesheet" href="../../../css/PersonalCenter/PersonalCenter.css">
+  <link rel="stylesheet" href="../../../css/PersonalCenter/AccountSecurity/AccountSecurity.css">
+  <link rel="stylesheet" href="../../../css/PersonalCenter/AccountSecurity/reSetPaymentPassword.css">
+  <!-- <link rel="stylesheet" href="../../../css/index/index.css"> -->
+  <link rel="stylesheet" href="../../../css/headOrfooter/headOrfooter.css">
 </head>
 
 <body>
@@ -179,27 +182,27 @@
                 </div>
                 <div class="iphone">
                   <div class="iphone-code">
-                    <img src="../../images/static/iphone_code.png" alt="">
+                    <img src="../../../images/static/iphone_code.png" alt="">
                   </div>
                   <div class="iphone-logo">
                     <a href="#">
-                      <img src="../../images/static/iphone_logo.png" alt="">
+                      <img src="../../../images/static/iphone_logo.png" alt="">
                     </a>
                   </div>
                 </div>
                 <div class="andriod">
                   <div class="iphone-code">
-                    <img src="../../images/static/android_code.png" alt="">
+                    <img src="../../../images/static/android_code.png" alt="">
                   </div>
                   <div class="iphone-logo">
                     <a href="#">
-                      <img src="../../images/static/android_logo.png" alt="">
+                      <img src="../../../images/static/android_logo.png" alt="">
                     </a>
                   </div>
                 </div>
                 <div class="fuli-public">
                   <div class="iphone-code">
-                    <img src="../../images/static/android_code.png" alt="">
+                    <img src="../../../images/static/android_code.png" alt="">
                   </div>
                   <div class="iphone-logo">
                     <p>关注福利商城公众号</p>
@@ -214,7 +217,7 @@
     </div>
     <div class="head_mid">
       <a href="#">
-        <img src="../../images/static/logo.png" alt="">
+        <img src="../../../images/static/logo.png" alt="">
       </a>
       <div class="search">
         <div class="search-input-wrapper clearfix">
@@ -301,7 +304,7 @@
         <!-- 购物车没有商品 -->
         <div class="search-not-cart">
           <div class="search-not-cart-img">
-            <img src="../../images/static/not_cart.png" alt="">
+            <img src="../../../images/static/not_cart.png" alt="">
             <span>购物车还没有商品赶快去选购吧！！！</span>
           </div>
         </div>
@@ -336,180 +339,198 @@
   <!-- 导航end -->
 
   <!-- 内容 -->
-  <div class="shipped-container">
-    <div class="shipped-head">
-      <a href="#">当前位置：</a>
-      <a href="#" class="shipped-head-color">个人中心</a>
-      <span class="shipped-head-color">></span>
-      <a href="#" class="shipped-head-color">我的订单</a>
-      <span class="shipped-head-color">></span>
-      <a href="#">订单详情</a>
-    </div>
-    <div class="shipped-content-wrapper">
-      <div class="shipped-step-wrapper">
-        <div class="shipped-step-bg2 shipped-step-item-active"></div>
-        <div class="shipped-step-bg2 shipped-step-item-active shipped-step-position4"></div>
-        <ul class="shipped-step clearfix">
-          <li class="shipped-step-item2">
-            <div class="shipped-step-item-title">1.提交订单</div>
-            <div class="shipped-step-item-num">
-              <span class="shipped-step-item-active">
-                <img src="../../images/static/sub_order.png" alt="">
-              </span>
-            </div>
-          </li>
-          <li class="shipped-step-item3">
-            <div class="shipped-step-item-title">2.系统处理</div>
-            <div class="shipped-step-item-num">
-              <span class="shipped-step-item-active" style="line-height: 47px">
-                <img src="../../images/static/system.png" alt="">
-              </span>
-            </div>
-          </li>
-          <li class="shipped-step-item4">
-            <div class="shipped-step-item-title">3.完成</div>
-            <div class="shipped-step-item-num">
-              <span class="shipped-step-item-line2 shipped-step-item-active">
-                <img src="../../images/static/confirm_receipt2.png" alt="">
-              </span>
-            </div>
-          </li>
-        </ul>
-      </div>
-
-      <div class="shipped-current-status-wrapper3 clearfix">
-        <div class="shipped-current-status-left2">
-          <div class="shipped-current-status2">
-            <span class="shipped-current-status-icon"></span>
-            <span class="shipped-current-status-word">当前状态：已取消</span>
-          </div>
+  <div class="fuli-wrapper">
+    <div class="fuli-container">
+      <div class="personal clearfix">
+        <div class="menu2">
+            <dl class="list_dl">
+              <dt class="list_dt">
+                <span class="_after"></span>
+                <i class="list_dt_icon2"></i>
+                <p>订单中心</p>
+                <i class="list_dt_icon"></i>
+              </dt>
+              <dd class="list_dd">
+                <ul>
+                  <li class="list_li">我的订单</li>
+                  <li class="list_li">常购商品</li>
+                </ul>
+              </dd>
+              <dt class="list_dt">
+                <span class="_after"></span>
+                <i class="list_dt_icon2"></i>
+                <p>我的福利袋</p>
+                <i class="list_dt_icon"></i>
+              </dt>
+              <dd class="list_dd">
+                <ul>
+                  <li class="list_li">余额</li>
+                  <li class="list_li">积分</li>
+                  <!-- <li class="list_li">红包</li>-->
+                  <li class="list_li">代金券</li>
+                  <!-- <li class="list_li">更多</li>  -->
+                </ul>
+              </dd>
+              <dt class="list_dt">
+                <span class="_after"></span>
+                <i class="list_dt_icon2"></i>
+                <p>账户管理</p>
+                <i class="list_dt_icon"></i>
+              </dt>
+              <dd class="list_dd">
+                <ul>
+                  <li class="list_li">我的信息</li>
+                  <li class="list_li">账户安全</li>
+                  <li class="list_li">地址管理</li>
+                </ul>
+              </dd>
+              <dt class="list_dt">
+                <span class="_after"></span>
+                <i class="list_dt_icon2"></i>
+                <p>消息中心</p>
+                <i class="list_dt_icon"></i>
+              </dt>
+              <dd class="list_dd">
+                <ul>
+                  <li class="list_li">活动公告</li>
+                  <li class="list_li">交易物流</li>
+                  <li class="list_li">系统消息</li>
+                </ul>
+              </dd>
+              <dt class="list_dt">
+                <span class="_after"></span>
+                <i class="list_dt_icon2"></i>
+                <p>个人服务</p>
+                <i class="list_dt_icon"></i>
+              </dt>
+              <dd class="list_dd">
+                <ul>
+                  <li class="list_li">售后记录</li>
+                  <!-- <li class="list_li">发票服务</li> -->
+                  <li class="list_li">投诉举报</li>
+                  <li class="list_li">意见反馈</li>
+                  <!-- <li class="list_li">在线咨询</li> -->
+                </ul>
+              </dd>
+              <dt class="list_dt">
+                <span class="_after"></span>
+                <i class="list_dt_icon2"></i>
+                <p>关注中心</p>
+                <i class="list_dt_icon"></i>
+              </dt>
+              <dd class="list_dd">
+                <ul>
+                  <li class="list_li">我的收藏</li>
+                  <li class="list_li">到货通知</li>
+                  <li class="list_li">我的足迹</li>
+                </ul>
+              </dd>
+            </dl>
         </div>
-      </div>
-  
-        <div class="shipped-logistics-wrapper">
-          <div class="shipped-logistics-word">
-            <span class="cancel-progress">取消进度详情</span>
+        <div class="security-wrapper">
+          <div class="security-head-wrapper">
+            <a href="#">账户管理</a>
+            <span>></span>
+            <a href="#">账户安全</a>
           </div>
-  
-          <div class="track-rcol">
-            <div class="track-list">
-              <ul>
-                <li class="fristCancel">
-                  <i class="node-icon"></i>
-                  <span class="txt">您的取消订单申请已通过，请注意查收退款。</span>
-                  <br />
-                  <span class="node-time">2019-06-11 16：23：11</span>
-                </li>
-                <li class="node-pd">
-                  <i class="node-icon"></i>
-                  <span class="txt">商家已同意申请，系统将尽快为您取消订单。</span>
-                  <br />
-                  <span class="node-time">2019-06-11 16：23：11</span>
-                </li>
-                <li class="node-pd">
-                  <i class="node-icon"></i>
-                  <span class="txt">您的取消申请待商家审核，请耐心等待。</span>
-                  <br />
-                  <span class="node-time">2019-06-11 16：23：11</span>
-                </li>
-                <li class="node-pd">
-                  <i class="node-icon"></i>
-                  <span class="txt">系统将尽快处理您的申请，请耐心等待。</span>
-                  <br />
-                  <span class="node-time">2019-06-11 16：23：11</span>
-                </li>
-                <li class="node-pd">
-                  <i class="node-icon"></i>
-                  <span class="txt">取消申请已提交</span>
-                  <br />
-                  <span class="node-time">2019-06-11 16：23：11</span>
-                </li>
-              </ul>
+          <div class="setpayment-content-wrapper">
+            <div class="setpayment-content-head">
+              修改支付密码
+            </div>
+            <div class="main">
+              <div id="step2"></div>
+              <div class="step1">
+                <div class="login-info-wrapper">
+                  <div class="login-username clearfix">
+                    <div class="login-username-left">
+                      用&nbsp;&nbsp;&nbsp;户&nbsp;&nbsp;&nbsp;名：
+                    </div>
+                    <div class="login-username-right">
+                      哈哈哈哈哈
+                    </div>
+                  </div>
+                  <div class="login-username clearfix">
+                    <div class="login-username-left">
+                      手&nbsp;机&nbsp;号&nbsp;码：
+                    </div>
+                    <div class="login-username-right">
+                      183****0153
+                    </div>
+                  </div>
+                  <div class="login-username clearfix">
+                    <div class="login-username-left">
+                      短信验证码：
+                    </div>
+                    <div class="login-username-right">
+                      <div class="short-rule-input">
+                        <input type="text" name="short" maxlength="6" placeholder="请输入短信验证码" id="shortInput" />
+                        <div class="short-rule-btn">
+                          获取验证码
+                        </div>
+                        <span class="short-rule-error">请输入短信验证码</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="login-username clearfix">
+                    <div class="login-username-left">
+                      验&nbsp;&nbsp;&nbsp;证&nbsp;&nbsp;&nbsp;码：
+                    </div>
+                    <div class="login-username-right">
+                      <div class="verification-code clearfix">
+                        <input type="text" class="verification-code-left" placeholder="请输入验证码" name="verification" id="verificationCode" />
+                        <div class="verification-code-right">
+                          <img src="" alt="">
+                        </div>
+                        <span class="verification-code-word">
+                          看不清，<a href="javascript:;">换一张</a>
+                        </span>
+                        <span class="verification-rule-error">请输入短信验证码</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="login-info-btn">
+                    下一步
+                  </div>
+                </div>
+              </div>
+              <div class="step2">
+                <div class="login-password-wrapper">
+                  <div class="login-new-password clearfix">
+                    <div class="login-new-password-left">原始密码：</div>
+                    <input type="password" placeholder="请输入原始密码" maxlength="6" class="new-pass-word" name="primitivePassword" id="primitivePassword" />
+                    <span class="primitivePassWord newPassWord-pos"></span>
+                  </div>
+                  <div class="login-new-password clearfix">
+                    <div class="login-new-password-left">新&nbsp;&nbsp;密&nbsp;&nbsp;码：</div>
+                    <input type="password" placeholder="请设置6位数字支付密码" maxlength="6" class="new-pass-word" name="newPassWord" id="newPassWord" />
+                  </div>
+                  <div class="login-new-password clearfix">
+                    <div class="login-new-password-left">确认密码：</div>
+                    <input type="password" placeholder="请确认6位数字支付密码" maxlength="6" class="new-pass-word" name="confirmPassWord" id="confirmPassWord" />
+                    <span class="paymentPassWord newPassWord-pos">两次输入密码不一致，请重新输入</span>
+                  </div>
+                  <div class="login-new-password-btn">
+                    提交
+                  </div>
+                </div>
+              </div>
+              <div class="step3">
+                <div class="set_payment_password_success2">
+                  恭喜您重置支付密码成功！使用新的支付密码支付哦！
+                </div>
+              </div>
+              <!-- <button id="nextBtn">下一步</button> -->
             </div>
           </div>
-  
-          <div class="size-seat2"></div>
-  
-        </div>
-
-      <div class="shipped-order-wrapper">
-        <div class="shipped-order-head">
-          <span>订单号：81729851</span>
-          <span class="order-time">下单时间：2019-05-15 14:34:20</span>
-        </div>
-        <div class="shipped-order-content clearfix">
-          <div class="shipped-order-content-left">
-            <div class="shipped-order-name-wrapper">
-              <span class="shipped-order-name">收&nbsp;&nbsp;&nbsp;件&nbsp;&nbsp;&nbsp;人：</span>
-              <span class="shipped-order-name-content">李荣阳</span>
+          <div class="setpayment-footer-wrapper">
+            <div class="setpayment-footer-title">
+              <h3>温馨提示</h3>
             </div>
-            <div class="shipped-order-name-wrapper">
-              <span class="shipped-order-name">联&nbsp;系&nbsp;方&nbsp;式：</span>
-              <span class="shipped-order-name-content">150***9999</span>
-            </div>
-            <div class="shipped-order-name-wrapper">
-              <span class="shipped-order-name">收&nbsp;货&nbsp;地&nbsp;址：</span>
-              <span class="shipped-order-name-content">北京市北京市门头沟区大峪街道云泽嘉苑小区4-1号楼 1508</span>
-            </div>
-          </div>
-          <div class="shipped-order-content-right">
-            <div class="shipped-order-settlement">
-              <span class="shipped-order-settlement-name">商品合计：</span>
-              <span class="shipped-order-settlement-content">￥526.00</span>
-            </div>
-            <div class="shipped-order-settlement">
-              <span class="shipped-order-settlement-name">运费：</span>
-              <span class="shipped-order-settlement-content">￥0.00</span>
-            </div>
-            <div class="shipped-order-settlement mar-tw">
-              <span class="shipped-order-settlement-name">实付：</span>
-              <span class="shipped-order-settlement-content shipped-order-settlement-color">￥395.70</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="shipped-order-goods-wrapper">
-        <div class="shipped-order-goods-head">
-          <span class="shipped-order-goods-head-info">商品信息</span>
-          <span class="shipped-order-goods-head-weight">重量</span>
-          <span class="shipped-order-goods-head-price">售价</span>
-          <span class="shipped-order-goods-head-number2">数量</span>
-          <span class="shipped-order-goods-head-setting">操作</span>
-        </div>
-        <div class="shipped-order-goods-address">
-          <img src="../../images/static/order_address.png" class="shipped-order-goods-address-img" alt="">
-          <span>发货地：朝阳区建国门外</span>
-        </div>
-        <div class="shipped-order-goods-item-wrapper clearfix">
-          <div class="shipped-order-goods-item-img">
-            <img src="../../images/static/myphone2.png" alt="">
-          </div>
-          <div class="shipped-order-goods-item-introduce">
-            <a href="#">
-              【耳机套装】vivo U1 水滴全面屏 AI智慧拍照手机  3GB+64GB 极光色 移动联通电信全网通4G手机
-            </a>
-          </div>
-          <div class="shipped-order-goods-item-weight">0.18kg</div>
-          <div class="shipped-order-goods-item-price">178.00</div>
-          <div class="shipped-order-goods-item-number2">1</div>
-          <div class="shipped-order-goods-item-setting">
-            <a href="#">重新购买</a>
-          </div>
-        </div>
-        <div class="shipped-order-goods-item-wrapper clearfix">
-          <div class="shipped-order-goods-item-img">
-            <img src="../../images/static/myphone2.png" alt="">
-          </div>
-          <div class="shipped-order-goods-item-introduce">
-            <a href="#">
-              【耳机套装】vivo U1 水滴全面屏 AI智慧拍照手机  3GB+64GB 极光色 移动联通电信全网通4G手机
-            </a>
-          </div>
-          <div class="shipped-order-goods-item-weight">0.18kg</div>
-          <div class="shipped-order-goods-item-price">178.00</div>
-          <div class="shipped-order-goods-item-number2">1</div>
-          <div class="shipped-order-goods-item-setting">
-            <a href="#">重新购买</a>
+            <ul class="setpayment-footer-list">
+              <li>为确保您的账号安全，变更重要信息需要身份验证</li>
+              <li>设置过程中有疑问请联系在线客服</li>
+              <li>更改绑定手机，如原手机号停用无法获取验证码，请联系在线客服</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -517,13 +538,15 @@
   </div>
   <!-- 内容end -->
 
+  <div class="seat"></div>
+
   <!-- 底部 -->
   <div class="footer">
     <div class="fuli-u-sm-12 fuli-footer clearfix">
       <div class="fuli-footer-service">
         <div class="footer-service-unit clearfix">
           <div class="footer-service-img">
-            <img src="../../images/static/aftersale.png" alt="">
+            <img src="../../../images/static/aftersale.png" alt="">
           </div>
           <div class="footer-service-word">
             <h6 class="footer-service-tit">正品保障</h6>
@@ -534,7 +557,7 @@
       <div class="fuli-footer-service">
         <div class="footer-service-unit clearfix">
           <div class="footer-service-img">
-            <img src="../../images/static/classify.png" alt="">
+            <img src="../../../images/static/classify.png" alt="">
           </div>
           <div class="footer-service-word">
             <h6 class="footer-service-tit">尊享低价</h6>
@@ -545,7 +568,7 @@
       <div class="fuli-footer-service">
         <div class="footer-service-unit clearfix">
           <div class="footer-service-img">
-            <img src="../../images/static/security.png" alt="">
+            <img src="../../../images/static/security.png" alt="">
           </div>
           <div class="footer-service-word">
             <h6 class="footer-service-tit">售后无忧</h6>
@@ -556,7 +579,7 @@
       <div class="fuli-footer-service">
         <div class="footer-service-unit clearfix">
           <div class="footer-service-img">
-            <img src="../../images/static/like.png" alt="">
+            <img src="../../../images/static/like.png" alt="">
           </div>
           <div class="footer-service-word">
             <h6 class="footer-service-tit">定制服务</h6>
@@ -745,8 +768,11 @@
   <!-- 底部end -->
 
 
-  <script src="../../lib/jq/jquery.old.js"></script>
-  <script src="../../js/index/index.js"></script>
+  <script src="../../../lib/jq/jquery.old.js"></script>
+  <script src="../../../lib/step/jquery.step.min.js"></script>
+  <script src="../../../js/index/index.js"></script>
+  <script src="../../../js/service/service.js"></script>
+  <script src="../../../js/personalCenter/AccountSecurity/reSetPaymentPassword.js"></script>
 </body>
 
 </html>

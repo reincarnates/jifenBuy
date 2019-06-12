@@ -11,7 +11,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   <meta name="format-detection" content="telephone=no" />
-  <title>已取消</title>
+  <title>已发货</title>
   <link rel="stylesheet" href="../../css/reset.css">
   <link rel="stylesheet" href="../../css/style.css">
   <link rel="stylesheet" href="../../css/headOrfooter/headOrfooter.css">
@@ -347,10 +347,12 @@
     </div>
     <div class="shipped-content-wrapper">
       <div class="shipped-step-wrapper">
-        <div class="shipped-step-bg2 shipped-step-item-active"></div>
-        <div class="shipped-step-bg2 shipped-step-item-active shipped-step-position4"></div>
+        <div class="shipped-step-bg shipped-step-progress"></div>
+        <div class="shipped-step-bg shipped-step-progress shipped-step-position"></div>
+        <div class="shipped-step-bg shipped-step-progress shipped-step-position2"></div>
+        <div class="shipped-step-bg shipped-step-position3"></div>
         <ul class="shipped-step clearfix">
-          <li class="shipped-step-item2">
+          <li class="shipped-step-item">
             <div class="shipped-step-item-title">1.提交订单</div>
             <div class="shipped-step-item-num">
               <span class="shipped-step-item-active">
@@ -358,79 +360,102 @@
               </span>
             </div>
           </li>
-          <li class="shipped-step-item3">
-            <div class="shipped-step-item-title">2.系统处理</div>
+          <li class="shipped-step-item" style="padding-left: 45px;">
+            <div class="shipped-step-item-title">2.支付成功</div>
             <div class="shipped-step-item-num">
-              <span class="shipped-step-item-active" style="line-height: 47px">
-                <img src="../../images/static/system.png" alt="">
+              <span class="shipped-step-item-active">
+                <img src="../../images/static/payment_yes.png" alt="">
               </span>
             </div>
           </li>
-          <li class="shipped-step-item4">
-            <div class="shipped-step-item-title">3.完成</div>
+          <li class="shipped-step-item shipped-flex2">
+            <div class="shipped-step-item-title" style="padding-left: 8px;">3.订单发货</div>
             <div class="shipped-step-item-num">
-              <span class="shipped-step-item-line2 shipped-step-item-active">
-                <img src="../../images/static/confirm_receipt2.png" alt="">
+              <span class="shipped-step-item-line shipped-step-item-active">
+                <img src="../../images/static/warehouse2.png" alt="">
+              </span>
+            </div>
+          </li>
+          <li class="shipped-step-item shipped-flex2" style="padding-left: 77px;">
+            <div class="shipped-step-item-title" style="padding-left: 8px;">4.等待收货</div>
+            <div class="shipped-step-item-num">
+              <span class="shipped-step-item-active">
+                <img src="../../images/static/transport2.png" alt="">
+              </span>
+            </div>
+          </li>
+          <li class="shipped-step-item shipped-flex">
+            <div class="shipped-step-item-title shipped-step-item-title-next">5.已完成</div>
+            <div class="shipped-step-item-num" style="padding-right: 8px;">
+              <span class="shipped-step-item-receipt">
+                <img src="../../images/static/confirm_receipt.png" alt="">
               </span>
             </div>
           </li>
         </ul>
       </div>
-
-      <div class="shipped-current-status-wrapper3 clearfix">
-        <div class="shipped-current-status-left2">
-          <div class="shipped-current-status2">
+      <div class="shipped-current-status-wrapper2 clearfix">
+        <div class="shipped-current-status-left">
+          <div class="shipped-current-status">
             <span class="shipped-current-status-icon"></span>
-            <span class="shipped-current-status-word">当前状态：已取消</span>
+            <span class="shipped-current-status-word">当前状态：已完成</span>
           </div>
         </div>
+        <!-- <div class="shipped-current-status-right2">评价</div> -->
+        <div class="shipped-current-status-receipt">确认收货</div>
       </div>
-  
-        <div class="shipped-logistics-wrapper">
-          <div class="shipped-logistics-word">
-            <span class="cancel-progress">取消进度详情</span>
-          </div>
-  
-          <div class="track-rcol">
-            <div class="track-list">
-              <ul>
-                <li class="fristCancel">
-                  <i class="node-icon"></i>
-                  <span class="txt">您的取消订单申请已通过，请注意查收退款。</span>
-                  <br />
-                  <span class="node-time">2019-06-11 16：23：11</span>
-                </li>
-                <li class="node-pd">
-                  <i class="node-icon"></i>
-                  <span class="txt">商家已同意申请，系统将尽快为您取消订单。</span>
-                  <br />
-                  <span class="node-time">2019-06-11 16：23：11</span>
-                </li>
-                <li class="node-pd">
-                  <i class="node-icon"></i>
-                  <span class="txt">您的取消申请待商家审核，请耐心等待。</span>
-                  <br />
-                  <span class="node-time">2019-06-11 16：23：11</span>
-                </li>
-                <li class="node-pd">
-                  <i class="node-icon"></i>
-                  <span class="txt">系统将尽快处理您的申请，请耐心等待。</span>
-                  <br />
-                  <span class="node-time">2019-06-11 16：23：11</span>
-                </li>
-                <li class="node-pd">
-                  <i class="node-icon"></i>
-                  <span class="txt">取消申请已提交</span>
-                  <br />
-                  <span class="node-time">2019-06-11 16：23：11</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-  
-          <div class="size-seat2"></div>
-  
+
+      <div class="shipped-logistics-wrapper">
+        <div class="shipped-logistics-word">
+          <span>物流公司：京东快递：http://www.jd-express.com</span>
+          <span class="shipped-logistics-word-number">运单号：246665008781</span>
         </div>
+
+        <div class="track-rcol">
+          <div class="track-list">
+            <ul>
+              <li class="first">
+                <span class="time">2016-03-10 18:07:15</span>
+                <i class="node-icon"></i>
+                <span class="txt">[哈尔滨]配送员【申国龙】已出发，联系电话【18410106883，感谢您的耐心等待】</span>
+              </li>
+              <li>
+                <span class="time">2016-03-10 18:07:15</span>
+                <i class="node-icon"></i>
+                <span class="txt">[哈尔滨]订单已从【呼伦贝尔 海拉尔区】服务网点出库,上门送货中</span>
+              </li>
+              <li>
+                <span class="time">2016-03-10 18:07:15</span>
+                <i class="node-icon"></i>
+                <span class="txt">[哈尔滨]订单已到达【呼伦贝尔 海拉尔区】服务网点</span>
+              </li>
+              <li>
+                <span class="time">2016-03-10 18:07:15</span>
+                <i class="node-icon"></i>
+                <span class="txt">[哈尔滨]订单已从【哈尔滨中心】发出,送往日顺【呼伦贝尔 海拉尔区】服务网点</span>
+              </li>
+              <li>
+                <span class="time">2016-03-10 18:07:15</span>
+                <i class="node-icon"></i>
+                <span class="txt">[ibt]订单配车安排发运</span>
+              </li>
+              <li>
+                <span class="time">2016-03-10 18:07:15</span>
+                <i class="node-icon"></i>
+                <span class="txt">[ibt]订单配车安排发运</span>
+              </li>
+              <li>
+                <span class="time">2016-03-10 18:07:15</span>
+                <i class="node-icon"></i>
+                <span class="txt">[ibt]订单配车安排发运</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="retract">收起</div>
+
+      </div>
 
       <div class="shipped-order-wrapper">
         <div class="shipped-order-head">
@@ -486,14 +511,17 @@
           </div>
           <div class="shipped-order-goods-item-introduce">
             <a href="#">
-              【耳机套装】vivo U1 水滴全面屏 AI智慧拍照手机  3GB+64GB 极光色 移动联通电信全网通4G手机
+              【耳机套装】vivo U1 水滴全面屏 AI智慧拍照手机 3GB+64GB 极光色 移动联通电信全网通4G手机
             </a>
           </div>
           <div class="shipped-order-goods-item-weight">0.18kg</div>
           <div class="shipped-order-goods-item-price">178.00</div>
           <div class="shipped-order-goods-item-number2">1</div>
-          <div class="shipped-order-goods-item-setting">
-            <a href="#">重新购买</a>
+          <div class="shipped-order-goods-item-setting shipped-line-height">
+            <a href="#" class="application">申请售后</a>
+            <div>
+              <a href="#">查看评价</a>
+            </div>
           </div>
         </div>
         <div class="shipped-order-goods-item-wrapper clearfix">
@@ -502,14 +530,17 @@
           </div>
           <div class="shipped-order-goods-item-introduce">
             <a href="#">
-              【耳机套装】vivo U1 水滴全面屏 AI智慧拍照手机  3GB+64GB 极光色 移动联通电信全网通4G手机
+              【耳机套装】vivo U1 水滴全面屏 AI智慧拍照手机 3GB+64GB 极光色 移动联通电信全网通4G手机
             </a>
           </div>
           <div class="shipped-order-goods-item-weight">0.18kg</div>
           <div class="shipped-order-goods-item-price">178.00</div>
           <div class="shipped-order-goods-item-number2">1</div>
-          <div class="shipped-order-goods-item-setting">
-            <a href="#">重新购买</a>
+          <div class="shipped-order-goods-item-setting shipped-line-height">
+            <a href="#" class="application">申请售后</a>
+            <div>
+              <a href="#">查看评价</a>
+            </div>
           </div>
         </div>
       </div>
@@ -747,6 +778,7 @@
 
   <script src="../../lib/jq/jquery.old.js"></script>
   <script src="../../js/index/index.js"></script>
+  <script src="../../js/orderDetails/orderDetails.js"></script>
 </body>
 
 </html>

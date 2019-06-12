@@ -61,8 +61,8 @@
 }
 
 .cashier-error-content{
-  /* width: 192px;
-  height: 229px; */
+  width: 192px;
+  height: 229px;
 }
 
 .not_status{
@@ -81,16 +81,4 @@
   font-size: 16px;
   margin-top: 19px;
   margin-bottom: 45px;
-}
-
-.time_location{
-  color: #333;
-  font-size: 16px;
-  letter-spacing: 3px;
-  line-height: 70px;
-  margin-left: 18px;
-}
-
-.time_location span{
-  color: #ff5628;
 }

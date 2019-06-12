@@ -11,11 +11,11 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   <meta name="format-detection" content="telephone=no" />
-  <title>已取消</title>
+  <title>评价</title>
   <link rel="stylesheet" href="../../css/reset.css">
   <link rel="stylesheet" href="../../css/style.css">
   <link rel="stylesheet" href="../../css/headOrfooter/headOrfooter.css">
-  <link rel="stylesheet" href="../../css/orderDetails/orderDetailsShipped.css">
+  <link rel="stylesheet" href="../../css/orderDetails/orderDetailsEvaluate.css">
 </head>
 
 <body>
@@ -336,186 +336,280 @@
   <!-- 导航end -->
 
   <!-- 内容 -->
-  <div class="shipped-container">
-    <div class="shipped-head">
+  <div class="evaluate-wrapper">
+    <div class="evaluate-head">
       <a href="#">当前位置：</a>
       <a href="#" class="shipped-head-color">个人中心</a>
       <span class="shipped-head-color">></span>
       <a href="#" class="shipped-head-color">我的订单</a>
       <span class="shipped-head-color">></span>
-      <a href="#">订单详情</a>
+      <a href="#">评价</a>
     </div>
-    <div class="shipped-content-wrapper">
-      <div class="shipped-step-wrapper">
-        <div class="shipped-step-bg2 shipped-step-item-active"></div>
-        <div class="shipped-step-bg2 shipped-step-item-active shipped-step-position4"></div>
-        <ul class="shipped-step clearfix">
-          <li class="shipped-step-item2">
-            <div class="shipped-step-item-title">1.提交订单</div>
-            <div class="shipped-step-item-num">
-              <span class="shipped-step-item-active">
-                <img src="../../images/static/sub_order.png" alt="">
-              </span>
-            </div>
-          </li>
-          <li class="shipped-step-item3">
-            <div class="shipped-step-item-title">2.系统处理</div>
-            <div class="shipped-step-item-num">
-              <span class="shipped-step-item-active" style="line-height: 47px">
-                <img src="../../images/static/system.png" alt="">
-              </span>
-            </div>
-          </li>
-          <li class="shipped-step-item4">
-            <div class="shipped-step-item-title">3.完成</div>
-            <div class="shipped-step-item-num">
-              <span class="shipped-step-item-line2 shipped-step-item-active">
-                <img src="../../images/static/confirm_receipt2.png" alt="">
-              </span>
-            </div>
-          </li>
-        </ul>
-      </div>
+    <div class="evaluate-tips-wrapper">
+      <span>评价小贴士</span>
+      <span class="evaluate-tips">发表评价，与其他用户分享您的购物体验！</span>
+    </div>
 
-      <div class="shipped-current-status-wrapper3 clearfix">
-        <div class="shipped-current-status-left2">
-          <div class="shipped-current-status2">
-            <span class="shipped-current-status-icon"></span>
-            <span class="shipped-current-status-word">当前状态：已取消</span>
-          </div>
+    <div class="logistics-service-wrapper clearfix">
+      <div class="triangle">
+        <div class="triangle_border_up3">
+          <span></span>
         </div>
       </div>
-  
-        <div class="shipped-logistics-wrapper">
-          <div class="shipped-logistics-word">
-            <span class="cancel-progress">取消进度详情</span>
+      <div class="logistics-service-comment clearfix">
+        <div class="logistics-service-comment-img">
+          <img src="../../images/static/logistics_cart.png" alt="">
+        </div>
+        <div class="logistics-service-comment-word">
+          <div class="logistics-service-comment-word-top">物流服务评价</div>
+          <div class="logistics-service-comment-word-bottm">对物流服务还满意吗？评价一下吧！</div>
+        </div>
+      </div>
+      <div class="logistics-score-wrapper clearfix">
+        <div class="logistics-score-item clearfix">
+          <div class="goods-evaluate-left">
+            快递包裹
           </div>
-  
-          <div class="track-rcol">
-            <div class="track-list">
+          <div class="goods-evaluate-right">
+            <div class="star" id="star">
               <ul>
-                <li class="fristCancel">
-                  <i class="node-icon"></i>
-                  <span class="txt">您的取消订单申请已通过，请注意查收退款。</span>
-                  <br />
-                  <span class="node-time">2019-06-11 16：23：11</span>
-                </li>
-                <li class="node-pd">
-                  <i class="node-icon"></i>
-                  <span class="txt">商家已同意申请，系统将尽快为您取消订单。</span>
-                  <br />
-                  <span class="node-time">2019-06-11 16：23：11</span>
-                </li>
-                <li class="node-pd">
-                  <i class="node-icon"></i>
-                  <span class="txt">您的取消申请待商家审核，请耐心等待。</span>
-                  <br />
-                  <span class="node-time">2019-06-11 16：23：11</span>
-                </li>
-                <li class="node-pd">
-                  <i class="node-icon"></i>
-                  <span class="txt">系统将尽快处理您的申请，请耐心等待。</span>
-                  <br />
-                  <span class="node-time">2019-06-11 16：23：11</span>
-                </li>
-                <li class="node-pd">
-                  <i class="node-icon"></i>
-                  <span class="txt">取消申请已提交</span>
-                  <br />
-                  <span class="node-time">2019-06-11 16：23：11</span>
-                </li>
+                <li><a href="javascript:;">1</a></li>
+                <li><a href="javascript:;">2</a></li>
+                <li><a href="javascript:;">3</a></li>
+                <li><a href="javascript:;">4</a></li>
+                <li><a href="javascript:;">5</a></li>
               </ul>
+              <span class="goods-evaluate-span"></span>
+              <p></p>
             </div>
           </div>
-  
-          <div class="size-seat2"></div>
-  
         </div>
-
-      <div class="shipped-order-wrapper">
-        <div class="shipped-order-head">
-          <span>订单号：81729851</span>
-          <span class="order-time">下单时间：2019-05-15 14:34:20</span>
-        </div>
-        <div class="shipped-order-content clearfix">
-          <div class="shipped-order-content-left">
-            <div class="shipped-order-name-wrapper">
-              <span class="shipped-order-name">收&nbsp;&nbsp;&nbsp;件&nbsp;&nbsp;&nbsp;人：</span>
-              <span class="shipped-order-name-content">李荣阳</span>
-            </div>
-            <div class="shipped-order-name-wrapper">
-              <span class="shipped-order-name">联&nbsp;系&nbsp;方&nbsp;式：</span>
-              <span class="shipped-order-name-content">150***9999</span>
-            </div>
-            <div class="shipped-order-name-wrapper">
-              <span class="shipped-order-name">收&nbsp;货&nbsp;地&nbsp;址：</span>
-              <span class="shipped-order-name-content">北京市北京市门头沟区大峪街道云泽嘉苑小区4-1号楼 1508</span>
+        <div class="logistics-score-item clearfix">
+          <div class="goods-evaluate-left">
+            送货速度
+          </div>
+          <div class="goods-evaluate-right">
+            <div class="star" id="logistics">
+              <ul>
+                <li><a href="javascript:;">1</a></li>
+                <li><a href="javascript:;">2</a></li>
+                <li><a href="javascript:;">3</a></li>
+                <li><a href="javascript:;">4</a></li>
+                <li><a href="javascript:;">5</a></li>
+              </ul>
+              <span class="logistics-evaluate-span"></span>
+              <p class="logisticsP"></p>
             </div>
           </div>
-          <div class="shipped-order-content-right">
-            <div class="shipped-order-settlement">
-              <span class="shipped-order-settlement-name">商品合计：</span>
-              <span class="shipped-order-settlement-content">￥526.00</span>
-            </div>
-            <div class="shipped-order-settlement">
-              <span class="shipped-order-settlement-name">运费：</span>
-              <span class="shipped-order-settlement-content">￥0.00</span>
-            </div>
-            <div class="shipped-order-settlement mar-tw">
-              <span class="shipped-order-settlement-name">实付：</span>
-              <span class="shipped-order-settlement-content shipped-order-settlement-color">￥395.70</span>
+        </div>
+        <div class="logistics-score-item clearfix">
+          <div class="goods-evaluate-left">
+            配送员服务
+          </div>
+          <div class="goods-evaluate-right">
+            <div class="star" id="DeliveryService">
+              <ul>
+                <li><a href="javascript:;">1</a></li>
+                <li><a href="javascript:;">2</a></li>
+                <li><a href="javascript:;">3</a></li>
+                <li><a href="javascript:;">4</a></li>
+                <li><a href="javascript:;">5</a></li>
+              </ul>
+              <span class="Delivery-evaluate-span"></span>
+              <p class="DeliveryServiceP"></p>
             </div>
           </div>
         </div>
       </div>
-      <div class="shipped-order-goods-wrapper">
-        <div class="shipped-order-goods-head">
-          <span class="shipped-order-goods-head-info">商品信息</span>
-          <span class="shipped-order-goods-head-weight">重量</span>
-          <span class="shipped-order-goods-head-price">售价</span>
-          <span class="shipped-order-goods-head-number2">数量</span>
-          <span class="shipped-order-goods-head-setting">操作</span>
+    </div>
+
+    <div class="goods-comment-wrapper">
+      <div class="goods-comment-item clearfix">
+        <div class="goods-comment-item-left">
+          <div class="goods-comment-item-left-img">
+            <img src="../../images/static/naifen.png" alt="">
+          </div>
+          <div class="goods-comment-item-left-suggest">
+            <a href="#">Aptamil 爱他美（德国） 白金版3段幼儿配方奶粉 900克 4罐装 12-36个月</a>
+          </div>
+          <div class="goods-comment-item-left-info">净含量：900克 系列：白金</div>
+          <div class="goods-comment-item-left-info">适用阶段：三段</div>
         </div>
-        <div class="shipped-order-goods-address">
-          <img src="../../images/static/order_address.png" class="shipped-order-goods-address-img" alt="">
-          <span>发货地：朝阳区建国门外</span>
+        <div class="goods-comment-item-right">
+          <div class="goods-comment-item-right-top clearfix">
+            <div class="goods-comment-item-right-word">
+              <span>*</span>
+              评分：
+            </div>
+            <div class="goods-comment-item-right-comment">
+              <div class="goods-evaluate-right">
+                <div class="comments">
+                  <ul>
+                    <li><a href="javascript:;">1</a></li>
+                    <li><a href="javascript:;">2</a></li>
+                    <li><a href="javascript:;">3</a></li>
+                    <li><a href="javascript:;">4</a></li>
+                    <li><a href="javascript:;">5</a></li>
+                  </ul>
+                  <span class="Delivery-evaluate-span"></span>
+                  <p class="DeliveryServiceP"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="goods-comment-item-right-input">
+            <textarea style="resize: none" placeholder="填写高质量的评价与他人分享"  maxlength="300" onchange="this.value=this.value.substring(0, 300)" onkeydown="this.value=this.value.substring(0, 300)" onkeyup="this.value=this.value.substring(0, 300)" class="wordNumber"></textarea>
+            <span class="goods-comment-word-number">
+              <span class="goods-comment-word-numbers">0</span>
+              /300
+            </span>
+          </div>
+          <div class="goods-comment-item-right-upload-wrapper clearfix">
+            <div class="goods-comment-item-right-upload-btn">
+              <img src="../../images/static/upload_btn.png" alt="">
+            </div>
+            <input type="file" name="evaluateUpload" id="evaluateUpload" accept="image/png,image/gif,image/jpg,image/jpeg" multiple style="display:none">
+            <div class="goods-comment-item-right-upload-img clearfix">
+              <div class="goods-comment-item-right-upload-img-item">
+                <img src="../../images/static/naifen.png" alt="">
+              </div>
+            </div>
+            <span class="goods-comment-item-right-upload-number">0/5</span>
+            <span class="goods-comment-item-right-upload-suggest">每张不超过5M，支持格式jpg，jpeg，bmp，png</span>
+            <div class="goods-comment-item-tips">
+              最多上传五张图片
+            </div>
+          </div>
+          <div class="goods-comment-item-right-comment-wrapper">
+            <div class="goods-comment-item-right-comment-btn">提交</div>
+            <div class="goods-comment-item-right-not-comment">
+              请填写评价
+            </div>
+          </div>
         </div>
-        <div class="shipped-order-goods-item-wrapper clearfix">
-          <div class="shipped-order-goods-item-img">
-            <img src="../../images/static/myphone2.png" alt="">
+      </div>
+    </div>
+
+
+
+
+    <!-- <div class="evaluate-goods-wrapper">
+      <div class="evaluate-goods-head clearfix">
+        <span>商品信息</span>
+        <span class="evaluate-word">评价</span>
+      </div>
+      <div class="evaluate-goods-content">
+        <div class="evaluate-goods-content-item clearfix">
+          <div class="evaluate-goods-content-item-left clearfix">
+            <div class="evaluate-goods-content-item-left-img">
+              <img src="../../images/static/naifen.png" alt="">
+            </div>
+            <div class="evaluate-goods-content-item-left-introduce">
+              <a href="#">Aptamil 爱他美（德国）白金版3段幼儿配方奶粉 900克 4罐装 12-36个月</a>
+              <div class="evaluate-introduce">净含量：900克 系列：白金 适用阶段：三段</div>
+            </div>
           </div>
-          <div class="shipped-order-goods-item-introduce">
-            <a href="#">
-              【耳机套装】vivo U1 水滴全面屏 AI智慧拍照手机  3GB+64GB 极光色 移动联通电信全网通4G手机
-            </a>
-          </div>
-          <div class="shipped-order-goods-item-weight">0.18kg</div>
-          <div class="shipped-order-goods-item-price">178.00</div>
-          <div class="shipped-order-goods-item-number2">1</div>
-          <div class="shipped-order-goods-item-setting">
-            <a href="#">重新购买</a>
-          </div>
-        </div>
-        <div class="shipped-order-goods-item-wrapper clearfix">
-          <div class="shipped-order-goods-item-img">
-            <img src="../../images/static/myphone2.png" alt="">
-          </div>
-          <div class="shipped-order-goods-item-introduce">
-            <a href="#">
-              【耳机套装】vivo U1 水滴全面屏 AI智慧拍照手机  3GB+64GB 极光色 移动联通电信全网通4G手机
-            </a>
-          </div>
-          <div class="shipped-order-goods-item-weight">0.18kg</div>
-          <div class="shipped-order-goods-item-price">178.00</div>
-          <div class="shipped-order-goods-item-number2">1</div>
-          <div class="shipped-order-goods-item-setting">
-            <a href="#">重新购买</a>
+          <div class="evaluate-goods-content-item-right">待评价</div>
+          <div class="triangle">
+            <div class="triangle_border_up2">
+              <span></span>
+            </div>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="evaluate-container">
+      <div class="goods-evaluate-wrapper clearfix">
+        <div class="goods-evaluate-left">
+          <span class="goods-evaluate-left-color">*</span>
+          商品评分：
+        </div>
+        <div class="goods-evaluate-right">
+          <div class="star">
+            <ul>
+              <li><a href="javascript:;">1</a></li>
+              <li><a href="javascript:;">2</a></li>
+              <li><a href="javascript:;">3</a></li>
+              <li><a href="javascript:;">4</a></li>
+              <li><a href="javascript:;">5</a></li>
+            </ul>
+            <span class="goods-evaluate-span"></span>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="evaluate-wrod clearfix">
+        <div class="evaluate-wrod-left">
+          <span class="goods-evaluate-left-color">*</span>
+          评&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;价：
+        </div>
+        <div class="evaluate-wrod-right">
+          <textarea maxlength="200" onchange="this.value=this.value.substring(0, 200)"
+            onkeydown="this.value=this.value.substring(0, 200)" onkeyup="this.value=this.value.substring(0, 200)"
+            placeholder="商品是否给力，快来分享一下你的购物心得吧！"></textarea>
+        </div>
+        <div class="evaluate-wrod-limit">
+          5-200个汉字
+        </div>
+      </div>
+      <div class="evaluate-upload-wrapper clearfix">
+        <div class="evaluate-upload-left">
+          <span class="goods-evaluate-left-color">*</span>
+          晒&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;单：
+        </div>
+        <div class="evaluate-upload-right">
+          <img src="../../images/static/evaluate_upload_img.png" alt="">
+          <span>上传图片</span>
+        </div>
+        <input type="file" style="display:none;" name="evaluateUpload" id="evaluateUpload">
+        <span class="evaluate-upload-img-num">
+          <span>0</span>
+          <span>/</span>
+          <span>3</span>
+        </span>
+        <span class="evaluate-upload-tips">每张不超过5M，支持格式jpg，jpeg，bmp，png</span>
+      </div>
+      <div class="spoke-evaluate-btn">发表评价</div>
+    </div> -->
+  </div>
+  <!-- 内容end -->
+
+  <!-- 评价已完成 -->
+  <div class="comment-mask-warpper">
+    <div class="comment-mask">
+      <div class="comment-mask-head clearfix">
+        <div class="comment-mask-head-word">提示</div>
+        <div class="comment-mask-head-img">
+          <img src="../../images/static/madel_close.png" alt="">
+        </div>
+      </div>
+      <div class="comment-mask-content">
+        评价已完成，感谢评价！
+      </div>
+      <div class="comment-mask-btn">查看评价详情</div>
+    </div>
+  </div>
+  <!-- 评价已完成end -->
+
+  <!-- 评价已完成（一个订单多个商品） -->
+  <div class="comment-mask-warpper2">
+    <div class="comment-mask">
+      <div class="comment-mask-head clearfix">
+        <div class="comment-mask-head-word">提示</div>
+        <div class="comment-mask-head-img">
+          <img src="../../images/static/madel_close.png" alt="">
+        </div>
+      </div>
+      <div class="comment-mask-content comment-mask-content-position">
+        评价完成，此订单还有其他商品待评价！
+      </div>
+      <div class="comment-mask-btn-wrapper clearfix">
+        <div class="continue-comment">继续评价</div>
+        <div class="comment-mask-btn2">查看评价详情</div>
       </div>
     </div>
   </div>
-  <!-- 内容end -->
+  <!-- 评价已完成（一个订单多个商品）end -->
 
   <!-- 底部 -->
   <div class="footer">
@@ -747,6 +841,8 @@
 
   <script src="../../lib/jq/jquery.old.js"></script>
   <script src="../../js/index/index.js"></script>
+  <script src="../../js/orderDetails/orderDetailsEvaluate.js"></script>
+
 </body>
 
 </html>

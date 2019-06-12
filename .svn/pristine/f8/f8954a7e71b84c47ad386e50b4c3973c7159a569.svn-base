@@ -11,8 +11,4 @@ $(function() {
     $('.modal-frame').hide();
   });
 
-  $('.modal-content-btn-right').on('click', function() {
-    $('.modal-head-img').trigger('click');
-  });
-
 })

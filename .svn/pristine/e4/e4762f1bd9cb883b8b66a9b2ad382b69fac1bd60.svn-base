@@ -11,11 +11,12 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   <meta name="format-detection" content="telephone=no" />
-  <title>已取消</title>
+  <title>待发货</title>
   <link rel="stylesheet" href="../../css/reset.css">
   <link rel="stylesheet" href="../../css/style.css">
   <link rel="stylesheet" href="../../css/headOrfooter/headOrfooter.css">
   <link rel="stylesheet" href="../../css/orderDetails/orderDetailsShipped.css">
+  <link rel="stylesheet" href="../../css/PersonalCenter/ACreceivingAddress.css">
 </head>
 
 <body>
@@ -347,10 +348,12 @@
     </div>
     <div class="shipped-content-wrapper">
       <div class="shipped-step-wrapper">
-        <div class="shipped-step-bg2 shipped-step-item-active"></div>
-        <div class="shipped-step-bg2 shipped-step-item-active shipped-step-position4"></div>
+        <div class="shipped-step-bg shipped-step-progress"></div>
+        <div class="shipped-step-bg shipped-step-position"></div>
+        <div class="shipped-step-bg shipped-step-position2"></div>
+        <div class="shipped-step-bg shipped-step-position3"></div>
         <ul class="shipped-step clearfix">
-          <li class="shipped-step-item2">
+          <li class="shipped-step-item">
             <div class="shipped-step-item-title">1.提交订单</div>
             <div class="shipped-step-item-num">
               <span class="shipped-step-item-active">
@@ -358,80 +361,52 @@
               </span>
             </div>
           </li>
-          <li class="shipped-step-item3">
-            <div class="shipped-step-item-title">2.系统处理</div>
+          <li class="shipped-step-item" style="padding-left: 45px;">
+            <div class="shipped-step-item-title">2.支付成功</div>
             <div class="shipped-step-item-num">
-              <span class="shipped-step-item-active" style="line-height: 47px">
-                <img src="../../images/static/system.png" alt="">
+              <span class="shipped-step-item-active">
+                <img src="../../images/static/payment_yes.png" alt="">
               </span>
             </div>
           </li>
-          <li class="shipped-step-item4">
-            <div class="shipped-step-item-title">3.完成</div>
+          <li class="shipped-step-item shipped-flex2">
+            <div class="shipped-step-item-title shipped-step-item-title-next" style="padding-left: 8px;">3.出库中</div>
             <div class="shipped-step-item-num">
-              <span class="shipped-step-item-line2 shipped-step-item-active">
-                <img src="../../images/static/confirm_receipt2.png" alt="">
+              <span class="shipped-step-item-line">
+                <img src="../../images/static/warehouse.png" alt="">
+              </span>
+            </div>
+          </li>
+          <li class="shipped-step-item shipped-flex2" style="padding-left: 77px;">
+            <div class="shipped-step-item-title shipped-step-item-title-next" style="padding-left: 8px;">4.运输中</div>
+            <div class="shipped-step-item-num">
+              <span>
+                <img src="../../images/static/transport.png" alt="">
+              </span>
+            </div>
+          </li>
+          <li class="shipped-step-item shipped-flex">
+            <div class="shipped-step-item-title shipped-step-item-title-next">5.确认收货</div>
+            <div class="shipped-step-item-num" style="padding-right: 8px;">
+              <span class="shipped-step-item-receipt">
+                <img src="../../images/static/confirm_receipt.png" alt="">
               </span>
             </div>
           </li>
         </ul>
       </div>
-
-      <div class="shipped-current-status-wrapper3 clearfix">
-        <div class="shipped-current-status-left2">
-          <div class="shipped-current-status2">
+      <div class="shipped-current-status-wrapper clearfix">
+        <div class="shipped-current-status-left">
+          <div class="shipped-current-status">
             <span class="shipped-current-status-icon"></span>
-            <span class="shipped-current-status-word">当前状态：已取消</span>
+            <span class="shipped-current-status-word">当前状态：付款成功，等待仓库发货...</span>
+          </div>
+          <div>
+            <span class="shipped-current-status-word2">温馨提示：商家正在努力发货中，如有问题可联系客服进行咨询。</span>
           </div>
         </div>
+        <div class="shipped-current-status-right">修改地址</div>
       </div>
-  
-        <div class="shipped-logistics-wrapper">
-          <div class="shipped-logistics-word">
-            <span class="cancel-progress">取消进度详情</span>
-          </div>
-  
-          <div class="track-rcol">
-            <div class="track-list">
-              <ul>
-                <li class="fristCancel">
-                  <i class="node-icon"></i>
-                  <span class="txt">您的取消订单申请已通过，请注意查收退款。</span>
-                  <br />
-                  <span class="node-time">2019-06-11 16：23：11</span>
-                </li>
-                <li class="node-pd">
-                  <i class="node-icon"></i>
-                  <span class="txt">商家已同意申请，系统将尽快为您取消订单。</span>
-                  <br />
-                  <span class="node-time">2019-06-11 16：23：11</span>
-                </li>
-                <li class="node-pd">
-                  <i class="node-icon"></i>
-                  <span class="txt">您的取消申请待商家审核，请耐心等待。</span>
-                  <br />
-                  <span class="node-time">2019-06-11 16：23：11</span>
-                </li>
-                <li class="node-pd">
-                  <i class="node-icon"></i>
-                  <span class="txt">系统将尽快处理您的申请，请耐心等待。</span>
-                  <br />
-                  <span class="node-time">2019-06-11 16：23：11</span>
-                </li>
-                <li class="node-pd">
-                  <i class="node-icon"></i>
-                  <span class="txt">取消申请已提交</span>
-                  <br />
-                  <span class="node-time">2019-06-11 16：23：11</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-  
-          <div class="size-seat2"></div>
-  
-        </div>
-
       <div class="shipped-order-wrapper">
         <div class="shipped-order-head">
           <span>订单号：81729851</span>
@@ -486,14 +461,14 @@
           </div>
           <div class="shipped-order-goods-item-introduce">
             <a href="#">
-              【耳机套装】vivo U1 水滴全面屏 AI智慧拍照手机  3GB+64GB 极光色 移动联通电信全网通4G手机
+              【耳机套装】vivo U1 水滴全面屏 AI智慧拍照手机 3GB+64GB 极光色 移动联通电信全网通4G手机
             </a>
           </div>
           <div class="shipped-order-goods-item-weight">0.18kg</div>
           <div class="shipped-order-goods-item-price">178.00</div>
           <div class="shipped-order-goods-item-number2">1</div>
           <div class="shipped-order-goods-item-setting">
-            <a href="#">重新购买</a>
+            <!-- <a href="#">修改地址</a> -->
           </div>
         </div>
         <div class="shipped-order-goods-item-wrapper clearfix">
@@ -502,20 +477,87 @@
           </div>
           <div class="shipped-order-goods-item-introduce">
             <a href="#">
-              【耳机套装】vivo U1 水滴全面屏 AI智慧拍照手机  3GB+64GB 极光色 移动联通电信全网通4G手机
+              【耳机套装】vivo U1 水滴全面屏 AI智慧拍照手机 3GB+64GB 极光色 移动联通电信全网通4G手机
             </a>
           </div>
           <div class="shipped-order-goods-item-weight">0.18kg</div>
           <div class="shipped-order-goods-item-price">178.00</div>
           <div class="shipped-order-goods-item-number2">1</div>
           <div class="shipped-order-goods-item-setting">
-            <a href="#">重新购买</a>
+            <!-- <a href="#">修改地址</a> -->
           </div>
         </div>
       </div>
     </div>
   </div>
   <!-- 内容end -->
+
+  <!-- 模态框 -->
+  <div class="modal-frame">
+    <div class="modal">
+      <div class="modal-head">
+        <span>添加收货地址</span>
+        <div class="modal-head-img pointer">
+          <img src="../../images/static/madel_close.png" alt="">
+        </div>
+      </div>
+      <div class="modal-content">
+        <div class="modal-content-item">
+          <div class="modal-content-item-word">
+            <span class="must">*</span>
+            收货人：
+          </div>
+          <div class="modal-content-item-input">
+            <input type="text" id="receiver" />
+          </div>
+        </div>
+        <div class="modal-content-item">
+          <div class="modal-content-item-word">
+            <span class="must">*</span>
+            所在地区：
+          </div>
+          <div class="modal-content-item-input">
+            <!-- <select class="modal-content-item-select" id="region">
+                <option value="">--请选择--</option>
+                <option value="北京">北京</option>
+              </select> -->
+            <input readonly type="text" data-toggle="city-picker" id="region" placeholder="请选择">
+          </div>
+        </div>
+        <div class="modal-content-item">
+          <div class="modal-content-item-word">
+            <span class="must">*</span>
+            详细地址：
+          </div>
+          <div class="modal-content-item-input">
+            <input type="text" class="address_input" id="address" />
+          </div>
+        </div>
+        <div class="modal-content-item">
+          <div class="modal-content-item-word">
+            <span class="must">*</span>
+            手机号码：
+            <span class="fixed_phone">固定电话：</span>
+          </div>
+          <div class="modal-content-item-input">
+            <input type="text" class="phone_number" id="mobileNumber" />
+            <span class="huo">或</span>
+            <input type="text" class="phone_number" id="fixedNumber" />
+          </div>
+        </div>
+        <div class="modal-content-item">
+          <div class="modal-content-item-word">
+            邮箱：
+          </div>
+          <div class="modal-content-item-input">
+            <input type="text" class="address_input" id="modalEmail" />
+          </div>
+        </div>
+        <div class="modal-content-btn" id="addReceivingAddress">保存收货地址</div>
+      </div>
+    </div>
+  </div>
+  <!-- 模态框end -->
 
   <!-- 底部 -->
   <div class="footer">
@@ -747,6 +789,9 @@
 
   <script src="../../lib/jq/jquery.old.js"></script>
   <script src="../../js/index/index.js"></script>
+  <script src="../../js/orderDetails/orderDetailsShipped.js"></script>
+  <script src="../../lib/city-picker/city-picker.data.js"></script>
+  <script src="../../lib/city-picker/city-picker.js"></script>
 </body>
 
 </html>

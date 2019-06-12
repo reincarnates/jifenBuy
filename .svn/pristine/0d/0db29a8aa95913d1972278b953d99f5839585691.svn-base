@@ -535,8 +535,8 @@
   line-height: 32px;
   background: url(../../images/static/not_comment.png) no-repeat;
   background-position: 15px 8px;
-  top: 15px;
-  left: 445px;
+  top: 55px;
+  left: 90px;
   display: none;
 }
 
