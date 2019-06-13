@@ -11,7 +11,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   <meta name="format-detection" content="telephone=no" />
-  <title>苏宁易购</title>
+  <title>网易严选</title>
   <link rel="stylesheet" href="../../css/reset.css">
   <link rel="stylesheet" href="../../css/style.css">
   <link rel="stylesheet" href="../../css/headOrfooter/headOrfooter.css">
@@ -317,10 +317,10 @@
     <div class="yanxuan_nav_content">
       <ul class="clearfix yanxuan_nav_ul">
         <li>
-          <a href="#" class="yanxuan_nav_word2">首页</a>
+          <a href="#">首页</a>
         </li>
         <li>
-          <a href="#" class="yanxuan_nav_word">京东商城</a>
+          <a href="#">京东商城</a>
           <div class="yanxuan_nav_select_wrapper clearfix" style="padding-left: 107px;">
             <div class="yanxuan_nav_select_wrapper_item">
               <div class="yanxuan_nav_select_wrapper_goods" style="float: right;">
@@ -458,7 +458,7 @@
           </div>
         </li>
         <li>
-          <a href="#" class="yanxuan_nav_word">苏宁易购</a>
+          <a href="#">苏宁易购</a>
           <div class="yanxuan_nav_select_wrapper clearfix" style="padding-left: 107px; left: -300px;">
             <div class="yanxuan_nav_select_wrapper_item">
               <div class="yanxuan_nav_select_wrapper_goods" style="float: right;">
@@ -596,7 +596,7 @@
           </div>
         </li>
         <li>
-          <a href="#" class="yanxuan_nav_word">办公伙伴</a>
+          <a href="#">办公伙伴</a>
           <div class="yanxuan_nav_select_wrapper clearfix" style="padding-left: 107px; left: -450px;">
             <div class="yanxuan_nav_select_wrapper_item">
               <div class="yanxuan_nav_select_wrapper_goods" style="float: right;">
@@ -734,7 +734,7 @@
           </div>
         </li>
         <li>
-          <a href="#" class="yanxuan_nav_word">领先未来</a>
+          <a href="#">领先未来</a>
           <div class="yanxuan_nav_select_wrapper clearfix" style="padding-left: 107px; left: -600px;">
             <div class="yanxuan_nav_select_wrapper_item">
               <div class="yanxuan_nav_select_wrapper_goods" style="float: right;">
@@ -872,7 +872,7 @@
           </div>
         </li>
         <li>
-          <a href="#" class="yanxuan_nav_word">浙江物产</a>
+          <a href="#">浙江物产</a>
           <div class="yanxuan_nav_select_wrapper clearfix" style="padding-left: 107px; left: -750px;">
             <div class="yanxuan_nav_select_wrapper_item">
               <div class="yanxuan_nav_select_wrapper_goods" style="float: right;">
@@ -1010,7 +1010,7 @@
           </div>
         </li>
         <li>
-          <a href="#" class="yanxuan_nav_word">一线达通</a>
+          <a href="#">一线达通</a>
           <div class="yanxuan_nav_select_wrapper clearfix" style="padding-left: 107px; left: -900px;">
             <div class="yanxuan_nav_select_wrapper_item">
               <div class="yanxuan_nav_select_wrapper_goods" style="float: right;">
@@ -1148,7 +1148,7 @@
           </div>
         </li>
         <li>
-          <a href="#" class="yanxuan_nav_word">福利品汇</a>
+          <a href="#">福利品汇</a>
           <div class="yanxuan_nav_select_wrapper clearfix" style="padding-left: 107px; left: -1050px;">
             <div class="yanxuan_nav_select_wrapper_item">
               <div class="yanxuan_nav_select_wrapper_goods" style="float: right;">
@@ -1294,7 +1294,7 @@
   <div class="yanxuan_container">
     <div class="yanxuan_banner">
       <a href="#">
-        <img src="../../images/static/suning_banner.png" alt="">
+        <img src="../../images/static/yanxuan_banner.png" alt="">
       </a>
     </div>
     <!-- 选择排序 -->
