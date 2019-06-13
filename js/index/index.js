@@ -68,11 +68,6 @@ $(function () {
 	$('.search-input-left').focus(function () {
 		$('.fuli-shelper').css('display', 'block');
 		$(this).attr('placeholder', "");
-	}).blur(function () {
-		$('.fuli-shelper').css('display', 'none');
-		if ($(this).val() == "") {
-			$(this).attr('placeholder', '国际大牌母婴用品');
-		}
 	});
 
 	//搜索完成显示的列表
@@ -82,6 +77,12 @@ $(function () {
 	}).mouseout(function () {
 		$(this).css('background', 'none');
 		$(this).find('.history').text('历史记录').css('color', '#b7b7b7');
+	});
+
+	$('.fuli-shelper').on('mouseover', function() {
+		$(this).show();
+	}).on('mouseout', function() {
+		$(this).hide();
 	});
 
 	//选择省份
