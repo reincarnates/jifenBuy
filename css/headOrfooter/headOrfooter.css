@@ -143,6 +143,14 @@
   position: relative;
 }
 
+.head-top-min .key span:first-child{
+  background: none;
+}
+
+.login-success{
+  display: none;
+}
+
 .down{
   position: absolute;
   top: 50%;
@@ -770,14 +778,15 @@
 }
 
 .footer-help-list {
-  width: 14.28%;
+  width: 25%;
+  text-align: center;
   float: left;
 }
 
 .help-list-tit {
   margin-bottom: 5px;
-  font-size: 16px;
-  color: #3c363c;
+  font-size: 14px;
+  color: #666;
 }
 
 .help-list-nav li {
@@ -785,7 +794,7 @@
 }
 
 .help-list-nav li a {
-  color: #747774;
+  color: #666;
   font-size: 12px;
 }
 
