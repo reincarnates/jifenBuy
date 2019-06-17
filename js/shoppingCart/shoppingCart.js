@@ -145,7 +145,7 @@ $(function () {
           $obj = $(this).parents('.amount_box').find('.reduce'),
           $priceTotalObj = $(this).parents('.order_lists').find('.sum_price'),
           $price = $(this).parents('.order_lists').find('.newPrice').html(),  //单价
-          $priceTotal = $count*Number($price);
+          $priceTotal = $count*Number($price).toFixed(2);
       $inputVal.val($count);
       $priceTotalObj.html($priceTotal.toFixed(2));
       if($inputVal.val()>1 && $obj.hasClass('reSty')){
@@ -164,7 +164,7 @@ $(function () {
           $priceTotal = $count*Number($price);
       if($inputVal.val()>1){
           $inputVal.val($count);
-          $priceTotalObj.html($priceTotal);
+          $priceTotalObj.html($priceTotal.toFixed(2));
       }
       if($inputVal.val()==1 && !$(this).hasClass('reSty')){
           $(this).addClass('reSty');
@@ -184,7 +184,7 @@ $(function () {
       $count = $(this).val();
       $priceTotal = $count*Number($price);
       $(this).attr('value',$count);
-      $priceTotalObj.html('￥'+$priceTotal);
+      $priceTotalObj.html($priceTotal.toFixed(2));
       totalMoney();
   })
 

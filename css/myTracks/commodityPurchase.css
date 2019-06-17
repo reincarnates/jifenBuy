@@ -13,6 +13,7 @@
   margin-right: 21px;
   margin-bottom: 19px;
   float: left;
+  position: relative;
 }
 
 .purchase-item:nth-child(3n+3){
@@ -110,4 +111,55 @@
 
 .purchase-item-operation-right img{
   vertical-align: middle;
+}
+
+.delete-purchase-mask-wrapper{
+  position: absolute;
+  top: 0;
+  width: 300px;
+  height: 440px;
+  background-color: rgba(0, 0, 0, .7);
+  display: none;
+}
+
+.delete-purchase-mask-word{
+  text-align: center;
+  line-height: 32px;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 180px;
+}
+
+.delete-purchase-mask-btn{
+  width: 116px;
+  height: 20px;
+  font-size: 14px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 11px;
+}
+
+.delete-purchase-mask-btn-left{
+  width: 48px;
+  height: 20px;
+  background-color: #ffb030;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 1px;
+  margin-right: 20px;
+  color: #fff;
+  float: left;
+  cursor: pointer;
+}
+
+.delete-purchase-mask-btn-right{
+  width: 48px;
+  height: 20px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 1px;
+  color: #333;
+  float: left;
+  cursor: pointer;
 }

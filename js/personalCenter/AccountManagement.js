@@ -2,7 +2,7 @@ $(function() {
 
   // $('.mysize_head_item_wrapper:first').addClass('mysizShow');
 
-  $('.mysize_head_item_wrapper').on('click', function() {
+  $(document).on('click', '.mysize_head_item_wrapper', function() {
     $(".mysize_head_item_wrapper").eq($(".mysize_head_item_wrapper").index(this)).addClass("mysizShow").siblings().removeClass('mysizShow');
     if($(this).hasClass('newRole')) {
       $('#saveSize').show();
@@ -16,7 +16,7 @@ $(function() {
     }
   });
 
-  $('.mysize_head_item_wrapper').on('mouseover', function() {
+  $(document).on('mouseover','.mysize_head_item_wrapper', function() {
     $(this).find('.mysize_head_item').find('.del_mysize').show();
     $(this).find('.mysize_head_item2').find('.del_mysize').show();
   }).on('mouseout', function() {
