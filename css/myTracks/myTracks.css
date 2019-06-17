@@ -46,6 +46,7 @@
 
 .tracks-item:hover{
   border-color: #ffb030;
+  box-shadow: 0 5px 10px 1px rgba(0, 0, 0, .1);
 }
 
 .tracks-item:nth-child(4n+4){

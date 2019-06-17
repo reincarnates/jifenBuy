@@ -16,6 +16,11 @@
   position: relative;
 }
 
+.purchase-item:hover{
+  border-color: #ffb030;
+  box-shadow: 0 5px 10px 1px rgba(0, 0, 0, .1);
+}
+
 .purchase-item:nth-child(3n+3){
   margin-right: 0;
 }
@@ -87,7 +92,6 @@
 .purchase-item-operation-left{
   width: 149px;
   float: left;
-  border-right: 1px solid #eee;
   cursor: pointer;
 }
 
@@ -102,6 +106,7 @@
 .purchase-item-operation-right{
   width: 149px;
   float: left;
+  border-right: 1px solid #eee;
   cursor: pointer;
 }
 
