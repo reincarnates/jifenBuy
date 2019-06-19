@@ -67,12 +67,12 @@ $(function () {
         if(collect == 1) {
             $(this).addClass('goods-collect2');
             $(this).find('span').text('取消收藏');
-            $(this).find('span').css('margin-left', '45px');
+            $(this).find('span').css('margin-left', '30px');
             collect = 2;
         }else{
             $(this).removeClass('goods-collect2');
             $(this).find('span').text('收藏');
-            $(this).find('span').css('margin-left', '25px');
+            $(this).find('span').css('margin-left', '10px');
             collect = 1;
         }
     });

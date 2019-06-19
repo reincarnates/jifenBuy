@@ -1610,3 +1610,38 @@ img{
   margin-top: 18px;
   cursor: pointer;
 }
+
+.triangle_border_nw{
+  width: 0;
+  height: 0;
+  border-width: 58px 60px 0 0;
+  border-style: solid;
+  border-color: #23a4ef transparent transparent transparent;
+  position: relative;
+  color: #fff;
+}
+
+.triangle_border_nw span{
+  position: absolute;
+  top: -55px;
+  left: -5px;
+  /* letter-spacing: 5px; */
+  font-size: 24px;
+}
+
+.floor_bg{
+  border-color: #1ecf97 transparent transparent transparent;
+}
+
+.floor_bg2{
+  border-color: #ffbc24 transparent transparent transparent;
+}
+
+.floor_bg3{
+  border-color: #ff735c transparent transparent transparent;
+}
+
+.floor_position span{
+  left: -10px;
+  letter-spacing: -2px;
+}

@@ -138,14 +138,14 @@
   text-align: center;
   background: url(../../images/static/inhert_03.jpg);
   background-repeat:  no-repeat;
-  background-position:  0 7px;
+  background-position:  104px 7px;
   float: left;
   position: relative;
 }
 
-.head-top-min .key span:first-child{
+/* .head-top-min .key span:first-child{
   background: none;
-}
+} */
 
 .login-success{
   display: none;
@@ -605,11 +605,11 @@
   border-top: 1px solid #d1d1d1;
   border-right: 1px solid #d1d1d1;
   border-left: 1px solid #d1d1d1;
-  border-bottom: 2px solid #e98932;
+  border-bottom: 2px solid #ffb030;
   background-color: #fff;
   box-sizing: border-box;
   position: absolute;
-  right: 35px;
+  right: 0;
   z-index: 88;
   display: none;
 }
@@ -622,7 +622,7 @@
   border-color:transparent transparent #d5d5d5;/*透明 透明  灰*/
   position:relative;
   top: -4px;
-  right: -175px;
+  right: -135px;
 }
 
 .triangle_border_up i{

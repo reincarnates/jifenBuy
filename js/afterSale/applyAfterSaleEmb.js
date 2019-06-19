@@ -1,7 +1,7 @@
 $(function () {
   var acount = 1;
   var afterSaletype = '';//售后类型
-  var returnMode = '';//返回方式
+  var returnMode = '快递寄回';//返回方式
 
   //最多可提交的数量
   $('.apply-after-sale-upper-limit span').text($('.apply-after-sale-goods-info-shop-number').text());
@@ -61,14 +61,14 @@ $(function () {
     return $('#applyUpload').trigger('click');
   });
 
-  $('#applyUpload').on('change', function() {
+  $('#applyUpload').on('change', function () {
     const files = event.target.files;
     var type = files.type;
     var fq = $('#applyUpload');
     // for(var i in files) {
     //   console.log(files[i]);
     // }
-    console.log(files,type);
+    console.log(files, type);
     // if(fq[0].files.length > 5) {
     //   alert('上传图片的张数不能大于5张！');
     //   return false;
@@ -97,7 +97,7 @@ $(function () {
     }
 
     if ($('#problemDescription').val() == '') {
-      $('.problem-description').show();
+      $('.problem-description').show().text('请填写问题描述').css('right', '-100px');
       $('#problemDescription').focus();
       return false;
     }
@@ -117,7 +117,7 @@ $(function () {
       return false;
     }
 
-    $('.apply-submit-mask').animate({top:"50%"});
+    $('.apply-submit-mask').animate({ top: "50%" });
     $('.apply-submit-mask-wrapper').show();
 
   })
@@ -135,7 +135,7 @@ $(function () {
     }
 
     if ($('#problemDescription').val() == '') {
-      $('.problem-description').show();
+      $('.problem-description').show().text('请填写问题描述').css('right', '-100px');
       $('#problemDescription').focus();
       return false;
     }
@@ -145,17 +145,17 @@ $(function () {
       return false;
     }
 
-    if($('#detailAddress').val() == '') {
+    if ($('#detailAddress').val() == '') {
       $('.info-address').show();
       return false;
     }
 
-    if($('#pickTime').val() == '') {
+    if ($('#pickTime').val() == '') {
       $('.select-pick-time').show();
       return false;
     }
 
-    $('.apply-submit-mask2').animate({top:"50%"});
+    $('.apply-submit-mask2').animate({ top: "50%" });
     $('.apply-submit-mask-wrapper2').show();
 
   })
@@ -167,6 +167,44 @@ $(function () {
     $('.phone-number').hide();
     $('.info-address').hide();
   });
+
+  //问题描述字数
+  var maxCount = 500; // 最高字数，这个值可以自己配置
+  var len;
+  $("#problemDescription").on('keyup', function (event) {
+    $("#wordNumber").html(maxCount - len);
+    len = getStrLength(this.value)
+    if (len >= 500) {
+      $(this).val($(this).val().substring(0, 500));
+      $('.problem-description').show().text('最多可以输入500字').css('right', '-125px');
+      $('#wordNumber').text('0');
+    }
+
+    if(event.keyCode == 8) {
+      if(len == 0) {
+        $('#wordNumber').text('500');
+      }
+    }
+  }).on('blur', function () {
+    if (len > 500) {
+      $(this).val($(this).val().substring(0, 500));
+      $('#wordNumber').text('0');
+    }
+  });
+  // 中文字符判断
+  function getStrLength(str) {
+    var len = str.length;
+    var reLen = 0;
+    for (var i = 0; i < len; i++) {
+      if (str.charCodeAt(i) < 27 || str.charCodeAt(i) > 126) {
+        // 全角
+        reLen++;
+      } else {
+        reLen++;
+      }
+    }
+    return reLen;
+  }
 
   //获取当前时间
   var year3 = new Date().getFullYear();
@@ -198,9 +236,9 @@ $(function () {
 
         $('#pickTime').val(myDate3 + ' ' + '(' + $(this).siblings('.pick-date-right-date').find('.pick-week').text() + ')' + ' ' + '09:00-15:00');
 
-        if($(this).siblings('.pick-date-optional').hasClass('disabled')) {
+        if ($(this).siblings('.pick-date-optional').hasClass('disabled')) {
           $(this).text('已选').parents('.pick-date-right-item').siblings('.pick-date-right-item').find('.pick-date-optional,.pick-date-optional2').text('可选').siblings('.disabled').text('');
-        }else {
+        } else {
           $(this).text('已选').siblings('.pick-date-optional2').text('可选').parents('.pick-date-right-item').siblings('.pick-date-right-item').find('.pick-date-optional,.pick-date-optional2').text('可选').siblings('.disabled').text('');
         }
 
@@ -214,9 +252,9 @@ $(function () {
 
         $('#pickTime').val($(this).siblings('.pick-date-right-date').find('.pickDate').text() + ' ' + '(' + $(this).siblings('.pick-date-right-date').find('.pick-week').text() + ')' + ' ' + '09:00-15:00');
 
-        if($(this).siblings('.pick-date-optional').hasClass('disabled')) {
+        if ($(this).siblings('.pick-date-optional').hasClass('disabled')) {
           $(this).text('已选').parents('.pick-date-right-item').siblings('.pick-date-right-item').find('.pick-date-optional,.pick-date-optional2').text('可选').siblings('.disabled').text('');
-        }else {
+        } else {
           $(this).text('已选').siblings('.pick-date-optional2').text('可选').parents('.pick-date-right-item').siblings('.pick-date-right-item').find('.pick-date-optional,.pick-date-optional2').text('可选').siblings('.disabled').text('');
         }
 
@@ -235,14 +273,14 @@ $(function () {
     } else {
       if ($(this).siblings('.pick-date-right-date').find('.pickDate').text() == '今日') {
         var myDate3 = year3 + '-' + month3 + '-' + day3;
-        
+
         pickTimeVal = myDate3 + ' ' + '(' + $(this).siblings('.pick-date-right-date').find('.pick-week').text() + ')' + ' ' + '15:00-21:00'
 
         $('#pickTime').val(myDate3 + ' ' + '(' + $(this).siblings('.pick-date-right-date').find('.pick-week').text() + ')' + ' ' + '15:00-21:00');
 
-        if($(this).siblings('.pick-date-optional').hasClass('disabled')) {
+        if ($(this).siblings('.pick-date-optional').hasClass('disabled')) {
           $(this).text('已选').parents('.pick-date-right-item').siblings('.pick-date-right-item').find('.pick-date-optional,.pick-date-optional2').text('可选').siblings('.disabled').text('');
-        }else {
+        } else {
           $(this).text('已选').siblings('.pick-date-optional').text('可选').parents('.pick-date-right-item').siblings('.pick-date-right-item').find('.pick-date-optional,.pick-date-optional2').text('可选').siblings('.disabled').text('');
         }
 
@@ -256,9 +294,9 @@ $(function () {
 
         $('#pickTime').val($(this).siblings('.pick-date-right-date').find('.pickDate').text() + ' ' + '(' + $(this).siblings('.pick-date-right-date').find('.pick-week').text() + ')' + ' ' + '15:00-21:00');
 
-        if($(this).siblings('.pick-date-optional').hasClass('disabled')) {
+        if ($(this).siblings('.pick-date-optional').hasClass('disabled')) {
           $(this).text('已选').parents('.pick-date-right-item').siblings('.pick-date-right-item').find('.pick-date-optional,.pick-date-optional2').text('可选').siblings('.disabled').text('');
-        }else {
+        } else {
           $(this).text('已选').siblings('.pick-date-optional').text('可选').parents('.pick-date-right-item').siblings('.pick-date-right-item').find('.pick-date-optional,.pick-date-optional2').text('可选').siblings('.disabled').text('');
         }
 
@@ -273,10 +311,10 @@ $(function () {
 
 
   //关闭模态框
-  $('.apply-submit-mask-head-right').on('click', function() {
-    $('.apply-submit-mask').animate({top:"-50%"});
+  $('.apply-submit-mask-head-right').on('click', function () {
+    $('.apply-submit-mask').animate({ top: "-50%" });
     $('.apply-submit-mask-wrapper').hide();
-    $('.apply-submit-mask2').animate({top:"-50%"});
+    $('.apply-submit-mask2').animate({ top: "-50%" });
     $('.apply-submit-mask-wrapper2').hide();
   });
 

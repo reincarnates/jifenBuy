@@ -74,7 +74,7 @@
   display: block;
   width: 10px;
   height: 6px;
-  background: url("../../images/static/open.png") no-repeat;
+  /* background: url("../../images/static/open.png") no-repeat; */
   background-size: cover;
 }
 
@@ -258,6 +258,23 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: relative;
+  cursor: pointer;
+}
+
+.not-open-yet{
+  position: absolute;
+  right: 0;
+  top: -20px;
+  width: 62px;
+  height: 30px;
+  border: 1px solid #bfbfbf;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 28px;
+  color: #333;
+  font-size: 14px;
+  display: none;
 }
 
 .personal-head-right-item-number{

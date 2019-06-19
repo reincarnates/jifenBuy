@@ -768,7 +768,7 @@
   border: 1px solid #c9c9c9;
   text-align: center;
   line-height: 38px;
-  color: #bfbfbf;
+  color: #666;
   font-size: 14px;
   background: url(../../images/static/plus_cart_03.png) 10px 10px;
   background-repeat: no-repeat;
@@ -797,7 +797,8 @@
 }
 
 .goods-collect span{
-  margin-left: 25px;
+  margin-left: 10px;
+  user-select: none;
 }
 
 #Barmore-wrapper{

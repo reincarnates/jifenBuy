@@ -265,6 +265,15 @@ $(function () {
   });
 
   $('.personal-order-list-content-status,.personal-order-list-content-center,.personal-order-list-content-operation').css('height', $('.personal-order-list-all').height());
+
+  //显示暂未开通
+  $('.notOpenYet').on('click', function() {
+    $(this).find('.not-open-yet').show();
+    setTimeout(() => {
+      $(this).find('.not-open-yet').hide();
+    }, 2000);
+  });
+
 });
 
 function optionValue(id, value) {
