@@ -11,13 +11,13 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   <meta name="format-detection" content="telephone=no" />
-  <title>退款详情</title>
+  <title>常购商品</title>
   <link rel="stylesheet" href="../../css/reset.css">
   <link rel="stylesheet" href="../../css/style.css">
   <link rel="stylesheet" href="../../css/headOrfooter/headOrfooter.css">
-  <link rel="stylesheet" href="../../css/orderDetails/orderDetailsShipped.css">
-  <link rel="stylesheet" href="../../css/afterSale/refundDetail.css">
-  <link rel="stylesheet" href="../../css/afterSale/applyAfterSaleEmb.css">
+  <link rel="stylesheet" href="../../css/PersonalCenter/PersonalCenter.css">
+  <link rel="stylesheet" href="../../css/myTracks/myTracks.css">
+  <link rel="stylesheet" href="../../css/myTracks/commodityPurchase.css">
 </head>
 
 <body>
@@ -268,7 +268,7 @@
         </div>
       </div>
       <div class="shop_cart pointer">
-        <span>购物车</span>
+        <span class="shop_cart_word">购物车</span>
         <div class="search-select-small"></div>
         <!-- 购物车有商品 -->
         <!-- <div class="search-cart-select">
@@ -338,197 +338,340 @@
   <!-- 导航end -->
 
   <!-- 内容 -->
-  <div class="shipped-container">
-    <div class="shipped-head">
-      <a href="#">当前位置：</a>
-      <a href="#" class="shipped-head-color">个人中心</a>
-      <span class="shipped-head-color">></span>
-      <a href="#" class="shipped-head-color">我的订单</a>
-      <span class="shipped-head-color">></span>
-      <a href="#">申请售后</a>
-    </div>
-    <div class="shipped-content-wrapper">
-      <div class="shipped-step-wrapper">
-        <div class="shipped-step-bg shipped-step-bg3 shipped-step-progress"></div>
-        <div class="shipped-step-bg shipped-step-bg3 shipped-step-progress shipped-progress-position"></div>
-        <div class="shipped-step-bg shipped-step-bg3 shipped-progress-position2"></div>
-        <ul class="shipped-step clearfix">
-          <li class="shipped-step-item shipped-width">
-            <div class="shipped-step-item-title">1.提交申请</div>
-            <div class="shipped-step-item-num">
-              <span class="shipped-step-item-active">
-                <img src="../../images/static/sub_order.png" alt="">
-              </span>
-            </div>
-          </li>
-          <li class="shipped-step-item shipped-width shipped-display" style="padding-right: 90px;">
-            <div class="shipped-step-item-title" style="padding-left: 8px;">2.平台审核</div>
-            <div class="shipped-step-item-num">
-              <span class="shipped-step-item-active">
-                <img src="../../images/static/examine.png" alt="">
-              </span>
-            </div>
-          </li>
-          <li class="shipped-step-item shipped-width shipped-display" style="padding-left: 40px;">
-            <div class="shipped-step-item-title" style="padding-left: 8px;">3.售后中</div>
-            <div class="shipped-step-item-num">
-              <span class="shipped-step-item-line2 shipped-step-item-active">
-                <img src="../../images/static/return_goods.png" alt="">
-              </span>
-            </div>
-          </li>
-          <li class="shipped-step-item shipped-width shipped-display2" style="padding-right: 28px;">
-            <div class="shipped-step-item-title shipped-step-item-title-next">4.完成</div>
-            <div class="shipped-step-item-num">
-              <span class="shipped-step-item-receipt">
-                <img src="../../images/static/confirm_receipt.png" alt="">
-              </span>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div class="shipped-current-status-container2">
-        <div class="shipped-current-status-wrapper4 clearfix">
-          <div class="shipped-current-status-left">
-            <div class="shipped-current-status">
-              <span class="shipped-current-status-icon"></span>
-              <span class="shipped-current-status-word">当前状态：买家退货中</span>
-            </div>
-            <div>
-              <span class="shipped-current-status-word2">退货之后等待卖家收到商品之后会为您退款请您耐心等待</span>
-            </div>
-          </div>
-          <div class="shipped-current-status-right-change-time">
-            <span>更改取件时间</span>
-            <img src="../../images/static/mark_img.png" class="change-time-img" alt="">
-          </div>
-          <div class="prompt-text">请在当24点之前更改取件时间 超过当天24点后则不可修改</div>
+  <div class="fuli-wrapper">
+    <div class="fuli-container">
+      <div class="personal clearfix">
+        <div class="menu2">
+          <dl class="list_dl">
+            <dt class="list_dt">
+              <span class="_after"></span>
+              <i class="list_dt_icon2"></i>
+              <p>订单中心</p>
+              <i class="list_dt_icon"></i>
+            </dt>
+            <dd class="list_dd">
+              <ul>
+                <li class="list_li">我的订单</li>
+                <li class="list_li">常购商品</li>
+              </ul>
+            </dd>
+            <dt class="list_dt">
+              <span class="_after"></span>
+              <i class="list_dt_icon2"></i>
+              <p>我的福利袋</p>
+              <i class="list_dt_icon"></i>
+            </dt>
+            <dd class="list_dd">
+              <ul>
+                <li class="list_li">余额</li>
+                <li class="list_li">积分</li>
+                <!-- <li class="list_li">红包</li>-->
+                <li class="list_li">代金券</li>
+                <!-- <li class="list_li">更多</li>  -->
+              </ul>
+            </dd>
+            <dt class="list_dt">
+              <span class="_after"></span>
+              <i class="list_dt_icon2"></i>
+              <p>账户管理</p>
+              <i class="list_dt_icon"></i>
+            </dt>
+            <dd class="list_dd">
+              <ul>
+                <li class="list_li">我的信息</li>
+                <li class="list_li">账户安全</li>
+                <li class="list_li">地址管理</li>
+              </ul>
+            </dd>
+            <dt class="list_dt">
+              <span class="_after"></span>
+              <i class="list_dt_icon2"></i>
+              <p>消息中心</p>
+              <i class="list_dt_icon"></i>
+            </dt>
+            <dd class="list_dd">
+              <ul>
+                <li class="list_li">活动公告</li>
+                <li class="list_li">交易物流</li>
+                <li class="list_li">系统消息</li>
+              </ul>
+            </dd>
+            <dt class="list_dt">
+              <span class="_after"></span>
+              <i class="list_dt_icon2"></i>
+              <p>个人服务</p>
+              <i class="list_dt_icon"></i>
+            </dt>
+            <dd class="list_dd">
+              <ul>
+                <li class="list_li">售后记录</li>
+                <!-- <li class="list_li">发票服务</li> -->
+                <li class="list_li">投诉举报</li>
+                <li class="list_li">意见反馈</li>
+                <!-- <li class="list_li">在线咨询</li> -->
+              </ul>
+            </dd>
+            <dt class="list_dt">
+              <span class="_after"></span>
+              <i class="list_dt_icon2"></i>
+              <p>关注中心</p>
+              <i class="list_dt_icon"></i>
+            </dt>
+            <dd class="list_dd">
+              <ul>
+                <li class="list_li">我的收藏</li>
+                <li class="list_li">到货通知</li>
+                <li class="list_li">我的足迹</li>
+              </ul>
+            </dd>
+          </dl>
         </div>
-        <div class="logistics-company">
-          物流公司：<span>暂时还没有物流信息，等待快递员上门取件</span>
-        </div>
-      </div>
-      <div class="service-list-message-wrapper">
-        <div class="service-list-message-head">
-          服务单信息
-        </div>
-        <div class="service-list-message-content">
-          <div class="service-list-message-content-item">
-            <span>商品返回方式：</span>
-            <span class="service-list-message-content-item-right">客户期望返件方式”上门取件”</span>
+        <div class="tracks-wrapper">
+          <div class="account-head-wrapper">
+            <a href="#">账户管理</a>
+            <span>></span>
+            <a href="#">常购商品</a>
           </div>
-          <div class="service-list-message-content-item">
-            <span>商品处理方式：</span>
-            <span class="service-list-message-content-item-right">客户期望处理方式为”退货”</span>
-          </div>
-          <div class="service-list-message-content-item">
-            <span>申&nbsp;&nbsp;请&nbsp;&nbsp;原&nbsp;&nbsp;因：</span>
-            <span class="service-list-message-content-item-right">不想要了</span>
-          </div>
-          <div class="service-list-message-content-item">
-            <span>问&nbsp;&nbsp;题&nbsp;&nbsp;描&nbsp;&nbsp;述：</span>
-            <span class="service-list-message-content-item-right">不想要了</span>
-          </div>
-          <div class="service-list-message-content-item">
-            <span>取&nbsp;&nbsp;件&nbsp;&nbsp;地&nbsp;&nbsp;址：</span>
-            <span class="service-list-message-content-item-right">北京市朝阳区国际大厦</span>
-          </div>
-          <div class="service-list-message-content-item">
-            <span>商&nbsp;&nbsp;家&nbsp;&nbsp;信&nbsp;&nbsp;息：</span>
-            <span class="service-list-message-content-item-right">
-              <span>北京市东城区尼奥大厦</span>
-              <span>联系信息：商家大头</span>
-              <span>手机：15456456564</span>
-            </span>
-          </div>
-          <div class="service-list-message-content-item">
-            <span>用&nbsp;&nbsp;户&nbsp;&nbsp;信&nbsp;&nbsp;息：</span>
-            <span class="service-list-message-content-item-right">
-              <span>联系信息：商家大头</span>
-              <span>手机：15456456564</span>
-            </span>
-          </div>
-        </div>
-      </div>
-      <div class="shipped-order-goods-wrapper">
-        <div class="shipped-order-goods-head">
-          <span class="shipped-order-goods-head-info">商品信息</span>
-          <span class="shipped-order-goods-head-weight">重量</span>
-          <span class="shipped-order-goods-head-price">售价</span>
-          <span class="shipped-order-goods-item-number3">数量</span>
-        </div>
-        <div class="shipped-order-goods-address">
-          <img src="../../images/static/order_address.png" class="shipped-order-goods-address-img" alt="">
-          <span>发货地：朝阳区建国门外</span>
-        </div>
-        <div class="shipped-order-goods-item-wrapper clearfix">
-          <div class="shipped-order-goods-item-img">
-            <img src="../../images/static/myphone2.png" alt="">
-          </div>
-          <div class="shipped-order-goods-item-introduce">
-            <a href="#">
-              【耳机套装】vivo U1 水滴全面屏 AI智慧拍照手机 3GB+64GB 极光色 移动联通电信全网通4G手机
-            </a>
-          </div>
-          <div class="shipped-order-goods-item-weight">0.18kg</div>
-          <div class="shipped-order-goods-item-price">178.00</div>
-          <div class="shipped-order-goods-item-number">1</div>
-          <div class="shipped-order-goods-item-setting shipped-order-goods-line">
-            <!-- <div class="shipped-order-goods-item-setting-btn">去支付</div>
-            <a href="#">取消订单</a> -->
-          </div>
-        </div>
-        <div class="shipped-order-goods-item-wrapper clearfix">
-          <div class="shipped-order-goods-item-img">
-            <img src="../../images/static/myphone2.png" alt="">
-          </div>
-          <div class="shipped-order-goods-item-introduce">
-            <a href="#">
-              【耳机套装】vivo U1 水滴全面屏 AI智慧拍照手机 3GB+64GB 极光色 移动联通电信全网通4G手机
-            </a>
-          </div>
-          <div class="shipped-order-goods-item-weight">0.18kg</div>
-          <div class="shipped-order-goods-item-price">178.00</div>
-          <div class="shipped-order-goods-item-number">1</div>
-          <div class="shipped-order-goods-item-setting shipped-order-goods-line">
-            <!-- <div class="shipped-order-goods-item-setting-btn">去支付</div>
-            <a href="#">取消订单</a> -->
-          </div>
-        </div>
-      </div>
-      <div class="refund-settlement-wrapper">
-        <div class="refund-settlement-content">
-          <div class="refund-settlement clearfix">
-            <div class="refund-settlement-left">
-              余额支付：
+          <div class="purchase-container clearfix">
+            <div class="purchase-item">
+              <div class="purchase-item-img">
+                <a href="#">
+                  <img src="../../images/static/purchase_good_img.png" alt="">
+                </a>
+              </div>
+              <div class="purchase-item-suggest">
+                <a href="#">
+                  资生堂 姬芮Za新能真皙美白隔离霜防晒SPF26妆前乳 35g（隔离乳 提亮肤色）
+                </a>
+              </div>
+              <div class="purchase-item-price-wrapper">
+                <span class="purchase-item-price">￥57.00</span>
+                <!-- <span class="price-reduction">
+                  <a href="#">
+                    降价通知
+                  </a>
+                </span> -->
+              </div>
+              <div class="purchase-item-shop-number">已购买1次</div>
+              <div class="purchase-item-operation clearfix">
+                <div class="purchase-item-operation-right">
+                  <!-- <img src="../../images/static/purchase_shop_cart.png" alt=""> -->
+                  <span>删除</span>
+                </div>
+                <div class="purchase-item-operation-left">
+                  <!-- <img src="../../images/static/purchase_shop_img.png" alt=""> -->
+                  <span>立即购买</span>
+                </div>
+              </div>
+              <div class="delete-purchase-mask-wrapper">
+                <div class="delete-purchase-mask-word">
+                  确定要从常购商品中删除该商品吗？
+                </div>
+                <div class="delete-purchase-mask-btn clearfix">
+                  <div class="delete-purchase-mask-btn-left">确定</div>
+                  <div class="delete-purchase-mask-btn-right">取消</div>
+                </div>
+              </div>
             </div>
-            <div class="refund-settlement-center">
-              （预计1-3个工作日到账）
+            <div class="purchase-item">
+              <div class="purchase-item-img">
+                <a href="#">
+                  <img src="../../images/static/purchase_good_img.png" alt="">
+                </a>
+              </div>
+              <div class="purchase-item-suggest">
+                <a href="#">
+                  资生堂 姬芮Za新能真皙美白隔离霜防晒SPF26妆前乳 35g（隔离乳 提亮肤色）
+                </a>
+              </div>
+              <div class="purchase-item-price-wrapper">
+                <span class="purchase-item-price">￥57.00</span>
+                <!-- <span class="price-reduction">
+                  <a href="#">
+                    降价通知
+                  </a>
+                </span> -->
+              </div>
+              <div class="purchase-item-shop-number">已购买1次</div>
+              <div class="purchase-item-operation clearfix">
+                <div class="purchase-item-operation-right">
+                  <!-- <img src="../../images/static/purchase_shop_cart.png" alt=""> -->
+                  <span>删除</span>
+                </div>
+                <div class="purchase-item-operation-left">
+                  <!-- <img src="../../images/static/purchase_shop_img.png" alt=""> -->
+                  <span>立即购买</span>
+                </div>
+              </div>
+              <div class="delete-purchase-mask-wrapper">
+                <div class="delete-purchase-mask-word">
+                  确定要从常购商品中删除该商品吗？
+                </div>
+                <div class="delete-purchase-mask-btn clearfix">
+                  <div class="delete-purchase-mask-btn-left">确定</div>
+                  <div class="delete-purchase-mask-btn-right">取消</div>
+                </div>
+              </div>
             </div>
-            <div class="refund-settlement-right">
-              ￥267.00
+            <div class="purchase-item">
+              <div class="purchase-item-img">
+                <a href="#">
+                  <img src="../../images/static/purchase_good_img.png" alt="">
+                </a>
+              </div>
+              <div class="purchase-item-suggest">
+                <a href="#">
+                  资生堂 姬芮Za新能真皙美白隔离霜防晒SPF26妆前乳 35g（隔离乳 提亮肤色）
+                </a>
+              </div>
+              <div class="purchase-item-price-wrapper">
+                <span class="purchase-item-price">￥57.00</span>
+                <!-- <span class="price-reduction">
+                  <a href="#">
+                    降价通知
+                  </a>
+                </span> -->
+              </div>
+              <div class="purchase-item-shop-number">已购买1次</div>
+              <div class="purchase-item-operation clearfix">
+                <div class="purchase-item-operation-right">
+                  <!-- <img src="../../images/static/purchase_shop_cart.png" alt=""> -->
+                  <span>删除</span>
+                </div>
+                <div class="purchase-item-operation-left">
+                  <!-- <img src="../../images/static/purchase_shop_img.png" alt=""> -->
+                  <span>立即购买</span>
+                </div>
+              </div>
+              <div class="delete-purchase-mask-wrapper">
+                <div class="delete-purchase-mask-word">
+                  确定要从常购商品中删除该商品吗？
+                </div>
+                <div class="delete-purchase-mask-btn clearfix">
+                  <div class="delete-purchase-mask-btn-left">确定</div>
+                  <div class="delete-purchase-mask-btn-right">取消</div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="refund-settlement clearfix">
-            <div class="refund-settlement-left">
-              扣除运费：
+            <div class="purchase-item">
+              <div class="purchase-item-img">
+                <a href="#">
+                  <img src="../../images/static/purchase_good_img.png" alt="">
+                </a>
+              </div>
+              <div class="purchase-item-suggest">
+                <a href="#">
+                  资生堂 姬芮Za新能真皙美白隔离霜防晒SPF26妆前乳 35g（隔离乳 提亮肤色）
+                </a>
+              </div>
+              <div class="purchase-item-price-wrapper">
+                <span class="purchase-item-price">￥57.00</span>
+                <!-- <span class="price-reduction">
+                  <a href="#">
+                    降价通知
+                  </a>
+                </span> -->
+              </div>
+              <div class="purchase-item-shop-number">已购买1次</div>
+              <div class="purchase-item-operation clearfix">
+                <div class="purchase-item-operation-right">
+                  <!-- <img src="../../images/static/purchase_shop_cart.png" alt=""> -->
+                  <span>删除</span>
+                </div>
+                <div class="purchase-item-operation-left">
+                  <!-- <img src="../../images/static/purchase_shop_img.png" alt=""> -->
+                  <span>立即购买</span>
+                </div>
+              </div>
+              <div class="delete-purchase-mask-wrapper">
+                <div class="delete-purchase-mask-word">
+                  确定要从常购商品中删除该商品吗？
+                </div>
+                <div class="delete-purchase-mask-btn clearfix">
+                  <div class="delete-purchase-mask-btn-left">确定</div>
+                  <div class="delete-purchase-mask-btn-right">取消</div>
+                </div>
+              </div>
             </div>
-            <div class="refund-settlement-center">
-
+            <div class="purchase-item">
+              <div class="purchase-item-img">
+                <a href="#">
+                  <img src="../../images/static/purchase_good_img.png" alt="">
+                </a>
+              </div>
+              <div class="purchase-item-suggest">
+                <a href="#">
+                  资生堂 姬芮Za新能真皙美白隔离霜防晒SPF26妆前乳 35g（隔离乳 提亮肤色）
+                </a>
+              </div>
+              <div class="purchase-item-price-wrapper">
+                <span class="purchase-item-price">￥57.00</span>
+                <!-- <span class="price-reduction">
+                  <a href="#">
+                    降价通知
+                  </a>
+                </span> -->
+              </div>
+              <div class="purchase-item-shop-number">已购买1次</div>
+              <div class="purchase-item-operation clearfix">
+                <div class="purchase-item-operation-right">
+                  <!-- <img src="../../images/static/purchase_shop_cart.png" alt=""> -->
+                  <span>删除</span>
+                </div>
+                <div class="purchase-item-operation-left">
+                  <!-- <img src="../../images/static/purchase_shop_img.png" alt=""> -->
+                  <span>立即购买</span>
+                </div>
+              </div>
+              <div class="delete-purchase-mask-wrapper">
+                <div class="delete-purchase-mask-word">
+                  确定要从常购商品中删除该商品吗？
+                </div>
+                <div class="delete-purchase-mask-btn clearfix">
+                  <div class="delete-purchase-mask-btn-left">确定</div>
+                  <div class="delete-purchase-mask-btn-right">取消</div>
+                </div>
+              </div>
             </div>
-            <div class="refund-settlement-right">
-              ￥4.00
-            </div>
-          </div>
-          <div class="refund-settlement clearfix">
-            <div class="refund-settlement-left">
-              退款金额：
-            </div>
-            <div class="refund-settlement-center">
-
-            </div>
-            <div class="refund-settlement-right refund-settlement-color">
-              ￥263.00
+            <div class="purchase-item">
+              <div class="purchase-item-img">
+                <a href="#">
+                  <img src="../../images/static/purchase_good_img.png" alt="">
+                </a>
+              </div>
+              <div class="purchase-item-suggest">
+                <a href="#">
+                  资生堂 姬芮Za新能真皙美白隔离霜防晒SPF26妆前乳 35g（隔离乳 提亮肤色）
+                </a>
+              </div>
+              <div class="purchase-item-price-wrapper">
+                <span class="purchase-item-price">￥57.00</span>
+                <!-- <span class="price-reduction">
+                  <a href="#">
+                    降价通知
+                  </a>
+                </span> -->
+              </div>
+              <div class="purchase-item-shop-number">已购买1次</div>
+              <div class="purchase-item-operation clearfix">
+                <div class="purchase-item-operation-right">
+                  <!-- <img src="../../images/static/purchase_shop_cart.png" alt=""> -->
+                  <span>删除</span>
+                </div>
+                <div class="purchase-item-operation-left">
+                  <!-- <img src="../../images/static/purchase_shop_img.png" alt=""> -->
+                  <span>立即购买</span>
+                </div>
+              </div>
+              <div class="delete-purchase-mask-wrapper">
+                <div class="delete-purchase-mask-word">
+                  确定要从常购商品中删除该商品吗？
+                </div>
+                <div class="delete-purchase-mask-btn clearfix">
+                  <div class="delete-purchase-mask-btn-left">确定</div>
+                  <div class="delete-purchase-mask-btn-right">取消</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -537,63 +680,7 @@
   </div>
   <!-- 内容end -->
 
-  <!-- 更改取件时间弹框 -->
-  <div class="reset-refund-mask-wrapper">
-    <div class="reset-refund-mask">
-      <div class="reset-refund-mask-head clearfix">
-        <div class="reset-refund-mask-head-left">更改取件时间</div>
-        <div class="reset-refund-mask-head-right">
-          <img src="../../images/static/madel_close.png" alt="">
-        </div>
-      </div>
-      <div class="reset-refund-mask-content">
-        <div class="reset-refund-mask-top clearfix">
-          <div class="reset-refund-mask-top-item clearfix">
-            <div class="reset-refund-mask-top-item-left">用户姓名：</div>
-            <div class="reset-refund-mask-top-item-right">
-              <input type="text" readonly value="李荣阳">
-            </div>
-          </div>
-          <div class="reset-refund-mask-top-item clearfix">
-            <div class="reset-refund-mask-top-item-left">手机号码：</div>
-            <div class="reset-refund-mask-top-item-right">
-              <input type="text" readonly value="13045698752">
-            </div>
-          </div>
-          <div class="reset-refund-mask-top-item clearfix">
-            <div class="reset-refund-mask-top-item-left">详细地址：</div>
-            <div class="reset-refund-mask-top-item-right">
-              <input type="text" class="detail-address" readonly value="北京 北京市 朝阳区建国门国际大厦19层bcd">
-            </div>
-          </div>
-        </div>
-        <div class="apply-after-sale-write-info-item clearfix">
-          <div class="apply-after-sale-write-info-item-left2">
-            取件时间：
-          </div>
-          <div class="apply-after-sale-write-info-item-right clearfix">
-            <input type="text" class="pick-time" name="pickTime" id="pickTime" readonly placeholder="请选择取件时间">
-            <div class="after-sale select-pick-time">请选择取件时间</div>
-            <div class="pick-word">请选择预约取件时间，审核通过后，京东将在此时间段为您取件</div>
-            <div class="pick-date-wrapper clearfix">
-              <div class="pick-date-left">
-                <div class="pick-date-left-time-slot">时间段</div>
-                <div class="pick-date-left-item">09:00-15:00</div>
-                <div class="pick-date-left-item">15:00-21:00</div>
-              </div>
-              <div class="pick-date-right clearfix" id="timeSlot"></div>
-            </div>
-            <div class="pick-suggest">
-              <div>1、提交申请后，客服可能与你电话沟通，请保持手机畅通。</div>
-              <div>2、实际上门取件时间以快递服务商电话沟通为准。</div>
-            </div>
-          </div>
-        </div>
-        <div class="reset-refund-mask-bottom">确认提交</div>
-      </div>
-    </div>
-  </div>
-  <!-- 更改取件时间弹框end -->
+  <div class="size-seat"></div>
 
   <!-- 底部 -->
   <div class="footer">
@@ -825,203 +912,7 @@
 
   <script src="../../lib/jq/jquery.old.js"></script>
   <script src="../../js/index/index.js"></script>
-  <script src="../../js/afterSale/refundDetail.js"></script>
-  <script src="../../js/afterSale/applyAfterSaleEmb.js"></script>
-
-  <script>
-    window.onload = function () {
-      //获取今天的日期
-      var year2 = new Date().getFullYear();
-      var month2 = (new Date().getMonth() + 1);
-      var day2 = new Date().getDate();
-      if (month2 < 10) {
-        month2 = '0' + month2;
-      } else {
-        month2 == month2;
-      }
-
-      if (day2 < 10) {
-        day2 = '0' + day2;
-      } else {
-        day2 == day2;
-      }
-
-
-      // var cells = document.getElementById('monitor').getElementsByTagName('td');
-      var clen = 7;
-      var currentFirstDate;
-      var formatDate = function (date) {
-        var year = date.getFullYear();
-        var month = (date.getMonth() + 1);
-        var day = date.getDate();
-        var week = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'][date.getDay()];
-
-        if (month < 10) {
-          month = '0' + month;
-        } else {
-          month == month;
-        }
-
-        if (day < 10) {
-          day = '0' + day;
-        } else {
-          day == day;
-        }
-
-        var myDate = year + '-' + month + '-' + day;
-        var myDate2 = year2 + '-' + month2 + '-' + day2;
-        var currentTime = ConversionTime(myDate2);
-        var myTime = ConversionTime(myDate);
-        if (currentTime == myTime) {
-          myDate = '今日'
-        } else {
-          myDate = myDate;
-        }
-
-        var myDom = `
-            <div class="pick-date-right-item">
-              <div class="pick-date-right-date">
-                <div class='pickDate'>${myDate}</div>
-                <div class='pick-week'>${week}</div>
-              </div>
-              <div class="pick-date-optional">可选</div>
-              <div class="pick-date-optional2">可选</div>
-            </div>
-          `
-        if (myTime < currentTime) {
-          myDom = `
-            <div class="pick-date-right-item">
-              <div class="pick-date-right-date">
-                <div class='pickDate'>${myDate}</div>
-                <div class='pick-week'>${week}</div>
-              </div>
-              <div class="pick-date-optional disabled"></div>
-              <div class="pick-date-optional2 disabled"></div>
-            </div>
-          `
-        }
-
-        var onedate = new Date().toLocaleString('chinese', { hour12: false });
-        var twodate = onedate.split(' ')[1];
-        var threedate = twodate.substring(0, twodate.length - 3);
-        var flag = time_range('09:00', '15:00', threedate);
-        var flag2 = time_range('15:00', '21:00', threedate);
-        // if(flag == true && flag2 == false && myTime < currentTime) {
-        //   myDom = `
-        //     <div class="pick-date-right-item">
-        //       <div class="pick-date-right-date">
-        //         <div class='pickDate'>${myDate}</div>
-        //         <div class='pick-week'>${week}</div>
-        //       </div>
-        //       <div class="pick-date-optional disabled"></div>
-        //       <div class="pick-date-optional2 disabled"></div>
-        //     </div>
-        //   `
-        // }else if(flag == false && flag2 == true && myTime < currentTime && myTime == currentTime) {
-        //   myDom = `
-        //     <div class="pick-date-right-item">
-        //       <div class="pick-date-right-date">
-        //         <div class='pickDate'>${myDate}</div>
-        //         <div class='pick-week'>${week}</div>
-        //       </div>
-        //       <div class="pick-date-optional disabled"></div>
-        //       <div class="pick-date-optional2">可选</div>
-        //     </div>
-        //   `
-        // }
-        // console.log(flag, flag2);
-        // return year + month + '-' + day + ' ' + week;
-        if (myTime == currentTime && flag == false && flag2 == true) {
-          myDom = `
-            <div class="pick-date-right-item">
-              <div class="pick-date-right-date">
-                <div class='pickDate'>${myDate}</div>
-                <div class='pick-week'>${week}</div>
-              </div>
-              <div class="pick-date-optional disabled"></div>
-              <div class="pick-date-optional2">可选</div>
-            </div>
-          `
-        } else if (myTime < currentTime && myTime == currentTime && flag == true && flag2 == false) {
-          myDom = `
-            <div class="pick-date-right-item">
-              <div class="pick-date-right-date">
-                <div class='pickDate'>${myDate}</div>
-                <div class='pick-week'>${week}</div>
-              </div>
-              <div class="pick-date-optional">可选</div>
-              <div class="pick-date-optional2 disabled"></div>
-            </div>
-          `
-        }
-        return myDom;
-      };
-      var addDate = function (date, n) {
-        date.setDate(date.getDate() + n);
-        return date;
-      };
-      var setDate = function (date) {
-        var week = date.getDay() - 1;
-        date = addDate(date, week * -1);
-        currentFirstDate = new Date(date);
-
-        for (var i = 0; i < clen; i++) {
-          // cells[i].innerHTML = formatDate(i == 0 ? date : addDate(date, 1));
-          $('#timeSlot').append(formatDate(i == 0 ? date : addDate(date, 1)))
-        }
-      };
-      setDate(new Date());
-
-      //十四位时间转换时间戳
-      function ConversionTime(dateString) {
-        let pattern = /(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})/;
-        let formatedDate = dateString.replace(/(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})/, '$1-$2-$3 $4:$5:$6');
-        let newTime = new Date(formatedDate).getTime();
-        return newTime;
-      }
-
-      function time_range(beginTime, endTime, nowTime) {
-        var strb = beginTime.split(":");
-        if (strb.length != 2) {
-          return false;
-        }
-
-        var stre = endTime.split(":");
-        if (stre.length != 2) {
-          return false;
-        }
-
-        var strn = nowTime.split(":");
-        if (stre.length != 2) {
-          return false;
-        }
-
-        var b = new Date();
-        var e = new Date();
-        var n = new Date();
-
-        b.setHours(strb[0]);
-
-        b.setMinutes(strb[1]);
-
-        e.setHours(stre[0]);
-
-        e.setMinutes(stre[1]);
-
-        n.setHours(strn[0]);
-
-        n.setMinutes(strn[1]);
-
-        if (n.getTime() - b.getTime() > 0 && n.getTime() - e.getTime() < 0) {
-          return true;
-        } else {
-          return false;
-        }
-      }
-
-    }
-
-  </script>
+  <script src="../../js/myTracks/commodityPurchase.js"></script>
 </body>
 
 </html>
