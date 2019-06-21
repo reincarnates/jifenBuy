@@ -137,7 +137,7 @@
   padding: 20px;
   border-radius: 8px;
   color: #262626;
-  display: none;
+  /* display: none; */
 }
 
 .investment-agree .txt-area {
@@ -177,7 +177,7 @@
 }
 
 .agree-box2{
-  /* display: none; */
+  display: none;
 }
 
 .agree-box3{
