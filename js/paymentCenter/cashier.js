@@ -4,9 +4,19 @@ $(function() {
   $('.payment_method_item').click(function() {
     $(".payment_method_item").eq($(".payment_method_item").index(this)).addClass("payment_method_item_checked").siblings().removeClass('payment_method_item_checked');
     $(".payment_method_item_ob").eq($(".payment_method_item").index(this)).addClass("payment_method_item_on").siblings().removeClass('payment_method_item_on');
+    $(this).siblings('.payment_method_item_zfb').css('border-bottom', '1px dashed #ddd');
     if($(this).attr('data-wx') != undefined) {
       paymentMethod = $(this).attr('data-wx');
     }
+  });
+
+  $('.payment_method_item_zfb').on('click', function() {
+    $(this).siblings('.payment_method_item').eq(0).css('border-bottom', '1px dashed #fff');
+  });
+
+  $('.payment_method_item_wx').on('click', function() {
+    $(this).siblings('.payment_method_item_zfb').css('border-bottom', '1px dashed #fff');
+    $(this).siblings('.payment_method_item').eq(0).css('border-bottom', '1px dashed #ddd');
   });
 
 

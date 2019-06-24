@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="../../css/style.css">
   <link rel="stylesheet" href="../../css/headOrfooter/headOrfooter.css">
   <link rel="stylesheet" href="../../css/inviteInvestment/inviteInvestment.css">
+  <link rel="stylesheet" href="../../css/date-picker/datepicker.css">
 </head>
 
 <body>
@@ -715,7 +716,8 @@
                       营业执照/公司证件号：
                     </div>
                     <div class="tr">
-                      <input id="submitterNumber" name="submitterNumber" class="input" type="text" placeholder="请填写您的营业执照/公司证件号">
+                      <input id="submitterNumber" name="submitterNumber" class="input" type="text"
+                        placeholder="请填写您的营业执照/公司证件号">
                       <div class="invite-rule submitterNumber">请填写您的营业执照/公司证件号</div>
                     </div>
                   </li>
@@ -743,7 +745,8 @@
                       经营范围：
                     </div>
                     <div class="tr">
-                      <input id="submitterRange" name="submitterRange" class="input" type="text" placeholder="请填写您的经营范围">
+                      <input id="submitterRange" name="submitterRange" class="input" type="text"
+                        placeholder="请填写您的经营范围">
                       <div class="invite-rule submitterRange">请填写您的经营范围</div>
                     </div>
                   </li>
@@ -763,7 +766,8 @@
                       法定代表人身份证号：
                     </div>
                     <div class="tr">
-                      <input id="legalNameNumber" name="legalNameNumber" class="input" type="text" placeholder="请填写法定代表人身份证号">
+                      <input id="legalNameNumber" name="legalNameNumber" class="input" type="text"
+                        placeholder="请填写法定代表人身份证号">
                       <div class="invite-rule legalNameNumber">请填写法定代表人身份证号</div>
                     </div>
                   </li>
@@ -786,7 +790,8 @@
                       营业执照详细地址：
                     </div>
                     <div class="tr">
-                      <input id="licenseAddress" name="licenseAddress" class="input" type="text" placeholder="请填写营业执照详细地址">
+                      <input id="licenseAddress" name="licenseAddress" class="input" type="text"
+                        placeholder="请填写营业执照详细地址">
                       <div class="invite-rule licenseAddress">请填写营业执照详细地址</div>
                     </div>
                   </li>
@@ -796,7 +801,11 @@
                       成立日期：
                     </div>
                     <div class="tr">
-                      <input id="foundDate" name="foundDate" class="input" type="text" placeholder="请填写成立日期">
+                      <!-- <input id="foundDate" name="foundDate" class="input" type="text" placeholder="请填写成立日期"> -->
+                      <div class="c-datepicker-date-editor c-datepicker-single-editor J-datepicker-day mt10">
+                        <!-- <i class="c-datepicker-range__icon kxiconfont icon-clock"></i> -->
+                        <input type="text" autocomplete="off" name="foundDate" id="foundDate" placeholder="选择日期" class=" c-datepicker-data-input only-date" value="">
+                      </div>
                       <div class="invite-rule foundDate">请填写成立日期</div>
                     </div>
                   </li>
@@ -806,8 +815,15 @@
                       营业执照有效期：
                     </div>
                     <div class="tr">
-                      <input id="licenseValidDate" name="licenseValidDate" class="input" type="text" placeholder="请填写营业执照有效期">
-                      <div class="invite-rule licenseValidDate">请填写营业执照有效期</div>
+                      <!-- <input id="licenseValidDate" name="licenseValidDate" class="input" type="text"
+                        placeholder="请填写营业执照有效期"> -->
+                      <div class="c-datepicker-date-editor J-datepicker-range-day">
+                        <!-- <i class="c-datepicker-range__icon kxiconfont icon-clock"></i> -->
+                        <input placeholder="开始日期" name="licenseValidStartDate" id="licenseValidStartDate" class="c-datepicker-data-input only-date" value="">
+                        <span class="c-datepicker-range-separator">-</span>
+                        <input placeholder="结束日期" name="licenseValidEndDate" id="licenseValidEndDate" class="c-datepicker-data-input only-date" value="">
+                      </div>
+                      <div class="invite-rule ValidDate">请填写营业执照有效期</div>
                     </div>
                   </li>
                   <li class="clearfix">
@@ -826,7 +842,8 @@
                       公司紧急联系人手机：
                     </div>
                     <div class="tr">
-                      <input id="urgentLiaisonPhone" name="urgentLiaisonPhone" class="input" type="text" placeholder="请填写公司紧急联系人手机">
+                      <input id="urgentLiaisonPhone" name="urgentLiaisonPhone" class="input" type="text"
+                        placeholder="请填写公司紧急联系人手机">
                       <div class="invite-rule urgentLiaisonPhone">请填写公司紧急联系人</div>
                     </div>
                   </li>
@@ -845,36 +862,38 @@
                   <li class="clearfix">
                     <div class="tl"><em>*</em>开户行支行名称：</div>
                     <div class="tr">
-                      <input id="accountBranchName" name="accountBranchName" class="input" type="text" placeholder="请填写您的开户行支行名称"> 
+                      <input id="accountBranchName" name="accountBranchName" class="input" type="text"
+                        placeholder="请填写您的开户行支行名称">
                       <div class="invite-rule accountBranchName">请填写您的开户行支行名称</div>
                     </div>
                   </li>
                   <li class="clearfix">
                     <div class="tl"><em>*</em>开户银行支行所在地：</div>
                     <div class="tr">
-                      <input id="accountLocation" name="accountLocation" class="input" type="text" placeholder="请填写开户银行支行所在地">
-                      <div class="invite-rule accountLocation">请填写开户银行支行所在地</div>
+                      <select name="" id="" class="bank_address">
+                        <option value="">请选择</option>
+                      </select>
+                      <select name="" id="" class="bank_address">
+                        <option value="">请选择</option>
+                      </select>
+                      <select name="" id="" class="bank_address">
+                        <option value="">请选择</option>
+                      </select>
                     </div>
                   </li>
                   <li class="clearfix">
                     <div class="tl"><em>*</em>银行账号：</div>
                     <div class="tr">
                       <!-- <input id="" name="" class="input" type="text" placeholder="请填写银行账号"> -->
-                      <select name="" id="" class="bank_address">
-                        <option value="">请选择</option>
-                      </select>
-                      <select name="" id="" class="bank_address">
-                        <option value="">请选择</option>
-                      </select>
-                      <select name="" id="" class="bank_address">
-                        <option value="">请选择</option>
-                      </select>
+                      <input id="accountLocation" name="accountLocation" class="input" type="text" placeholder="请填写银行账号">
+                      <div class="invite-rule accountLocation">请填写银行账号</div>
                     </div>
                   </li>
                   <li class="clearfix">
                     <div class="tl"><em>*</em>银行支行联行号：</div>
                     <div class="tr">
-                      <input id="accountLinkNumber" name="accountLinkNumber" class="input" type="text" placeholder="请填写银行支行联行号">
+                      <input id="accountLinkNumber" name="accountLinkNumber" class="input" type="text"
+                        placeholder="请填写银行支行联行号">
                       <div class="invite-rule accountLinkNumber">请填写银行支行联行号</div>
                     </div>
                   </li>
@@ -980,7 +999,7 @@
                   <li class="clearfix">
                     <div class="tl"><em>*</em>资质名称：</div>
                     <div class="tr">
-                      <input id="naturalName" name="naturalName" class="input" type="text" placeholder="请填写您的资质名称"> 
+                      <input id="naturalName" name="naturalName" class="input" type="text" placeholder="请填写您的资质名称">
                       <div class="shop-rule naturalName">请填写您的资质名称</div>
                     </div>
                   </li>
@@ -999,8 +1018,14 @@
                   <li class="clearfix">
                     <div class="tl"><em>*</em>有效时间：</div>
                     <div class="tr clearfix">
-                      <input id="startDate" name="startDate" class="start-date" type="text" placeholder="开始日期">
-                      <input id="endDate" name="endDate" class="start-date" type="text" placeholder="结束日期">
+                      <!-- <input id="startDate" name="startDate" class="start-date" type="text" placeholder="开始日期">
+                      <input id="endDate" name="endDate" class="start-date" type="text" placeholder="结束日期"> -->
+                      <div class="c-datepicker-date-editor J-datepicker-range-day">
+                        <!-- <i class="c-datepicker-range__icon kxiconfont icon-clock"></i> -->
+                        <input placeholder="开始日期" name="startDate" id="startDate" class="c-datepicker-data-input only-date" value="">
+                        <span class="c-datepicker-range-separator">-</span>
+                        <input placeholder="结束日期" name="endDate" id="endDate" class="c-datepicker-data-input only-date" value="">
+                      </div>
                       <div class="shop-rule effectiveTime">请填写有效时间</div>
                     </div>
                   </li>
@@ -1019,7 +1044,7 @@
                   <li class="clearfix">
                     <div class="tl"><em>*</em>联系人电话：</div>
                     <div class="tr">
-                      <input id="contactPhone" name="contactPhone" class="input" type="text" placeholder="请填写您的联系人电话"> 
+                      <input id="contactPhone" name="contactPhone" class="input" type="text" placeholder="请填写您的联系人电话">
                       <div class="shop-rule contactPhone">请填写您的联系人电话</div>
                     </div>
                   </li>
@@ -1286,7 +1311,75 @@
 
   <script src="../../lib/jq/jquery.old.js"></script>
   <script src="../../lib/step/jquery.step.min.js"></script>
+  <script src="../../lib/date-picker/plugins/moment.min.js"></script>
+  <script src="../../lib/date-picker/datepicker.all.js"></script>
+  <script src="../../lib/date-picker/datepicker.en.js"></script>
   <script src="../../js/inviteInvestment/inviteInvestment.js"></script>
+
+
+  <script type="text/javascript">
+
+    $(function () {
+
+      var DATAPICKERAPI = {
+        // 默认input显示当前月,自己获取后填充
+        activeMonthRange: function () {
+          return {
+            begin: moment().set({ 'date': 1, 'hour': 0, 'minute': 0, 'second': 0 }).format('YYYY-MM-DD HH:mm:ss'),
+            end: moment().set({ 'hour': 23, 'minute': 59, 'second': 59 }).format('YYYY-MM-DD HH:mm:ss')
+          }
+        },
+        shortcutMonth: function () {
+          // 当月
+          var nowDay = moment().get('date');
+          var prevMonthFirstDay = moment().subtract(1, 'months').set({ 'date': 1 });
+          var prevMonthDay = moment().diff(prevMonthFirstDay, 'days');
+          return {
+            now: '-' + nowDay + ',0',
+            prev: '-' + prevMonthDay + ',-' + nowDay
+          }
+        },
+        // 近n小时计算返回
+        shortcutPrevHours: function (hour) {
+          var nowDay = moment().get('date');
+          var prevHours = moment().subtract(hour, 'hours');
+          var prevDate = prevHours.get('date') - nowDay;
+          var nowTime = moment().format('HH:mm:ss');
+          var prevTime = prevHours.format('HH:mm:ss');
+          return {
+            day: prevDate + ',0',
+            time: prevTime + ',' + nowTime,
+            name: '近' + hour + '小时'
+          }
+        },
+      };
+
+      //年月日单个
+      $('.J-datepicker-day').datePicker({
+        hasShortcut: true,
+        format:'YYYY-MM-DD',
+        // shortcutOptions: [{
+        //   name: '今天',
+        //   day: '0'
+        // }, {
+        //   name: '昨天',
+        //   day: '-1'
+        // }, {
+        //   name: '一周前',
+        //   day: '-7'
+        // }]
+      });
+
+      //年月日范围
+      $('.J-datepicker-range-day').datePicker({
+        hasShortcut: true,
+        format: 'YYYY-MM-DD',
+        isRange: true,
+        shortcutOptions: DATAPICKERAPI.rangeShortcutOption1
+      });
+
+    });
+  </script>
 </body>
 
 </html>

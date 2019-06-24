@@ -692,7 +692,14 @@ a:hover{
   float: left;
 }
 .order_lists .list_con .list_text a{
+  height: 42px;
   color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
 }
 .order_lists .list_con .list_text a:hover{
   color: #ff873e;

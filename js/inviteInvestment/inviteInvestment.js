@@ -100,19 +100,23 @@ $(function () {
 
   //校验手机号
   var phoneReg = /^[1][3,4,5,7,8][0-9]{9}$/;
-  $('#submitterTel,#contactPhone').on('keyup', function () {
+  $('#submitterTel,#contactPhone,#urgentLiaisonPhone').on('keyup', function () {
     if (!phoneReg.test($(this).val())) {
       $('.submitterTel').show();
       $('.contactPhone').show();
+      $('.urgentLiaisonPhone').show();
       $(this).addClass('investment-rule');
       $('.submitterTel').text('请输入正确的手机号');
       $('.contactPhone').text('请输入正确的联系人电话');
+      $('.urgentLiaisonPhone').text('请输入正确的手机号');
     } else {
       $('.submitterTel').hide();
       $('.contactPhone').hide();
+      $('.urgentLiaisonPhone').hide();
       $(this).removeClass('investment-rule');
       $('.submitterTel').text('请填写您的电话联系方式');
       $('.contactPhone').text('请填写您的联系人电话');
+      $('.urgentLiaisonPhone').text('请填写公司紧急联系人');
     }
   });
 
@@ -187,10 +191,11 @@ $(function () {
       return false;
     }
 
-    if($('#licenseValidDate').val() == '') {
-      $('.licenseValidDate').show();
-      $('#licenseValidDate').addClass('investment-rule');
+    if($('#licenseValidStartDate').val() == '' && $('#licenseValidEndDate').val() == '') {
+      $('.ValidDate').show();
       return false;
+    }else{
+      $('.ValidDate').hide();
     }
 
     if($('#urgentLiaison').val() == '') {
@@ -255,7 +260,11 @@ $(function () {
       $('.effectiveTime').show().text('请填写有效时间');
       $('#startDate,#endDate').addClass('shop-rule-color');
       return false;
-    }else if($('#startDate').val() == '') {
+    }else {
+      $('.effectiveTime').hide();
+    }
+
+    if($('#startDate').val() == '') {
       $('.effectiveTime').show().text('请填写开始时间');
     }else if($('#endDate').val() == '') {
       $('.effectiveTime').show().text('请填写结束时间');
@@ -278,9 +287,13 @@ $(function () {
       $('#contactEmail').addClass('investment-rule');
       return false;
     }
-    console.log(123);
     $step.nextStep();
     $('.agree-box4').hide().siblings('.agree-box5').show();
+  });
+
+  $('#startDate,#endDate').on('change', function() {
+    $('.effectiveTime').hide();
+    $('#startDate,#endDate').removeClass('shop-rule-color');
   });
 
   $('.help-content:eq(0)').show();

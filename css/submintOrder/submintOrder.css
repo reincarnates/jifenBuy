@@ -473,9 +473,16 @@
 }
 
 .fuli-take-name{
-  width: 70px;
+  width: 100px;
   font-weight: 600;
   float: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.collect{
+  font-weight: 600;
 }
 
 .fuli-take-default-address{

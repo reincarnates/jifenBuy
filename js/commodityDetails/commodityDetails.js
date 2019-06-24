@@ -37,7 +37,7 @@ $(function () {
     //相似推荐
     var currIndex = 0;
     // $("#Barmore-wrapper .Barmore-content").clone().appendTo("#Barmore-wrapper");
-    var a = $('#Barmore-wrapper .Barmore-content').outerHeight() ;
+    var a = $('#Barmore-wrapper .Barmore-content').outerHeight();
     $('.Barmore-head-right').click(function () {
         if(currIndex == $("#Barmore-wrapper .Barmore-content").length -2){
             currIndex = 0;
@@ -101,9 +101,14 @@ $(function () {
 
     // 图片上下滚动
     var count = $("#imageMenu li").length; /* 显示 6 个 li标签内容 */
-    var interval = $("#imageMenu li:first").width();
+    var interval = $("#imageMenu li:first").width() + 16;
+    console.log(interval);
     var curIndex = 0;
-
+    
+    // if (curIndex < 4) $('.smallImgDown').addClass('disabled');
+    if (count == 1) {
+        $('.smallImgDown').addClass('disabled')
+    }
     $('.scrollbutton').click(function () {
         if (count == 1) {
             $('.smallImgDown').addClass('disabled')
@@ -118,9 +123,9 @@ $(function () {
 
         if (curIndex == 0) $('.smallImgUp').addClass('disabled');
 
-        if (curIndex == count - 1) $('.smallImgDown').addClass('disabled');
+        if (curIndex == count - 4) $('.smallImgDown').addClass('disabled');
 
-        $("#imageMenu ul").stop(false, true).animate({ "marginLeft": -curIndex * interval + "px" }, 600);
+        $("#imageMenu ul").stop(false, true).animate({ "marginLeft": -curIndex * interval + "px" }, 300);
 
     });
 
@@ -147,32 +152,6 @@ $(function () {
             $("#imageMenu li").removeAttr("id");
 
             $(this).parent().attr("id", "onlickImg");
-
-        }
-
-    }).bind("mouseover", function () {
-
-        if ($(this).attr("id") != "onlickImg") {
-
-            window.clearTimeout(midChangeHandler);
-
-            midChange($(this).attr("src").replace("small", "mid"));
-
-            $(this).css({ "border": "3px solid #959595" });
-
-        }
-
-    }).bind("mouseout", function () {
-
-        if ($(this).attr("id") != "onlickImg") {
-
-            $(this).removeAttr("style");
-
-            midChangeHandler = window.setTimeout(function () {
-
-                midChange($("#onlickImg img").attr("src").replace("small", "mid"));
-
-            }, 1000);
 
         }
 

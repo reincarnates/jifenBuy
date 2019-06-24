@@ -10,4 +10,10 @@ $(function() {
     }
   });
 
+  // $(document).on('mouseover', '.tracks-item', function() {
+  //   $(this).find('.tracks-item-close').show();
+  // }).on('mouseout', '.tracks-item', function() {
+  //   $(this).find('.tracks-item-close').hide();
+  // });
+
 })

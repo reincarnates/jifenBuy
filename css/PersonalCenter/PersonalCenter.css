@@ -352,7 +352,7 @@
 }
 
 .personal-operation-item{
-  width: 16.6%;
+  width: 20%;
   cursor: pointer;
   position: relative;
 }
@@ -361,42 +361,42 @@
   width: 100%;
   height: 40px;
   background: url(../../images/static/daifukuan.png) no-repeat;
-  background-position: 61px 0;
+  background-position: 76px 0;
 }
 
 .personal-operation-img2{
   width: 100%;
   height: 40px;
   background: url(../../images/static/daifahuo.png) no-repeat;
-  background-position: 61px 0;
+  background-position: 76px 0;
 }
 
 .personal-operation-img3{
   width: 100%;
   height: 40px;
   background: url(../../images/static/daishouhuo.png) no-repeat;
-  background-position: 61px 0;
+  background-position: 78px 0;
 }
 
 .personal-operation-img4{
   width: 100%;
   height: 40px;
   background: url(../../images/static/yiwancheng.png) no-repeat;
-  background-position: 61px 0;
+  background-position: 79px 0;
 }
 
 .personal-operation-img5{
   width: 100%;
   height: 40px;
   background: url(../../images/static/daipingjia.png) no-repeat;
-  background-position: 61px 0;
+  background-position: 76px 0;
 }
 
 .personal-operation-img6{
   width: 100%;
   height: 40px;
   background: url(../../images/static/tuikuan.png) no-repeat;
-  background-position: 61px 0;
+  background-position: 76px 0;
 }
 
 .personal-operation-words{
@@ -898,6 +898,7 @@
 
 .footprint{
   /* display: none; */
+  position: relative;
 }
 
 .not_collection{

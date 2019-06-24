@@ -405,7 +405,7 @@ li.for-pc {
 }
 
 .form-btn-area .btn-submit {
-  background: #f16866;
+  background: #ffb030;
 }
 
 .form-btn-area .btn-save {
@@ -621,7 +621,7 @@ li.for-pc {
 }
 
 .foundDate{
-  right: -120px;
+  right: 360px;
 }
 
 .licenseValidDate{
@@ -690,7 +690,7 @@ li.for-pc {
 }
 
 .effectiveTime{
-  right: 220px;
+  right: 250px;
 }
 
 .contactName{
@@ -703,4 +703,16 @@ li.for-pc {
 
 .contactEmail{
   right: -130px;
+}
+
+.ValidDate{
+  right: 215px;
+}
+
+.c-datepicker-picker__sidebar{
+  display: none;
+}
+
+.c-datepicker-picker [slot=sidebar]+.c-datepicker-picker__body, .c-datepicker-picker__sidebar+.c-datepicker-picker__body{
+  margin-left: 0 !important;
 }

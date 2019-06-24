@@ -422,7 +422,8 @@
           问题描述：
         </div>
         <div class="apply-after-sale-write-info-item-right clearfix">
-          <textarea class="apply-after-sale-textarea" maxlength="500" placeholder="请填写您的问题" id="problemDescription"></textarea>
+          <textarea class="apply-after-sale-textarea" maxlength="500" placeholder="请填写您的问题"
+            id="problemDescription"></textarea>
           <span class="apply-after-sale-textarea-word-number"><span id="wordNumber">500</span>字</span>
           <div class="after-sale problem-description">请填写问题描述</div>
         </div>
@@ -1006,6 +1007,9 @@
         var threedate = twodate.substring(0, twodate.length - 3);
         var flag = time_range('09:00', '15:00', threedate);
         var flag2 = time_range('15:00', '21:00', threedate);
+        var timestamp = (new Date()).getTime() + 86400000;
+        var aTime = format(timestamp);
+        console.log(aTime);
         // if(flag == true && flag2 == false && myTime < currentTime) {
         //   myDom = `
         //     <div class="pick-date-right-item">
@@ -1071,6 +1075,19 @@
         }
       };
       setDate(new Date());
+
+      function add0(m) { return m < 10 ? '0' + m : m }
+      function format(shijianchuo) {
+        //shijianchuo是整数，否则要parseInt转换
+        var time = new Date(shijianchuo);
+        var y = time.getFullYear();
+        var m = time.getMonth() + 1;
+        var d = time.getDate();
+        return y + '-' + add0(m) + '-' + add0(d);
+      }
+
+
+      
 
       //十四位时间转换时间戳
       function ConversionTime(dateString) {

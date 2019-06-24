@@ -394,6 +394,10 @@
   box-sizing: border-box;
 }
 
+.no-pad{
+  padding: 0;
+}
+
 .listpage-goods-item{
   width: 222px;
   height: 360px;

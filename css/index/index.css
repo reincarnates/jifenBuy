@@ -185,6 +185,7 @@ img{
   float: right;
   width: 28px;
   height: 28px;
+  text-decoration: line-through;
 }
 
 .buy_btn{
@@ -337,7 +338,7 @@ img{
 }
 
 .adsense-dd a{
-  display: inline-block;
+  display: block;
   border-left: 1px solid #909090;
   box-sizing: border-box;
   padding: 1px 5px;
@@ -345,6 +346,7 @@ img{
   transition: all 0.3s;
   color: #646464;
   font-size: 12px;
+  float: left;
 }
 
 .adsense-dd a:hover{
@@ -508,6 +510,10 @@ img{
   text-align: center;
   font-size: 14px;
   border-right: 1px dashed rgba(255, 255, 255, 0.3);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #fff;
 }
 
 .brand-item-right{
@@ -579,7 +585,7 @@ img{
   margin-left: 12px;
   border: 1px solid #e2e2e2;
   background-color: #ffffff;
-  margin-top: 27px;
+  margin-top: 29px;
   position: relative;;
 }
 
