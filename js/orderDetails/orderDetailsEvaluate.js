@@ -150,8 +150,11 @@ $(function () {
   /**
    * 商品评分
    */
-  var oComment = document.querySelector('.comments');
-  var CommentLi = oComment.getElementsByTagName("li");
+  var oComment = document.getElementsByClassName('comments');
+  console.log(oComment,99999)
+  var kkkk = oComment.getElementsByTagName("ul")
+  console.log(kkkk,000000)
+  var CommentLi = kkkk[1].getElementsByTagName("li");
   var CommentSpan = oComment.querySelector('.Delivery-evaluate-span');
   var CommentP = oComment.querySelector(".DeliveryServiceP");
   for (i = 1; i <= CommentLi.length; i++) {
