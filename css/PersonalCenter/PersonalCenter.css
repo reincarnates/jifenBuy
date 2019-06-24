@@ -38,11 +38,11 @@
 }
 
 .list_dt:hover{
-  background: #ffe6cf;
-  color: #e98930;
+  /* background: #ffe6cf; */
+  /* color: #ffb030; */
 }
 
-.list_dt:hover ._after{
+/* .list_dt:hover ._after{
   display: block;
   width: 3px;
   height: 100%;
@@ -50,21 +50,21 @@
   left: 0;
   top: 0;
   background: #e98930;
-}
+} */
 
 #open{
   background: #ffe6cf;
-  color: #e98930;
+  color: #ffb030;
 }
 
 #open ._after{
-  display: block;
+  /* display: block;
   width: 3px;
   height: 100%;
   position: absolute;
   left: 0;
   top: 0;
-  background: #e98930;
+  background: #e98930; */
 }
 
 .list_dt_icon{
@@ -74,7 +74,7 @@
   display: block;
   width: 10px;
   height: 6px;
-  background: url("../../images/static/open.png") no-repeat;
+  /* background: url("../../images/static/open.png") no-repeat; */
   background-size: cover;
 }
 
@@ -85,8 +85,28 @@
   display: block;
   width: 20px;
   height: 20px;
-  background: url("../../images/static/order.png") no-repeat;
+  background: url("../../images/static/menu_icon.png") no-repeat;
   background-size: cover;
+}
+
+.list_dt_position{
+  background-position: 0 -48px;
+}
+
+.list_dt_position2{
+  background-position: 0 -85px;
+}
+
+.list_dt_position3{
+  background-position: 1px -122px;
+}
+
+.list_dt_position4{
+  background-position: 0 -162px;
+}
+
+.list_dt_position5{
+  background-position: 0 -200px;
 }
 
 #open .list_dt_icon{
@@ -112,8 +132,8 @@
 }
 
 .list_li:hover{
-  background: #ffe6cf;
-  color: #e98930;
+  /* background: #ffe6cf; */
+  color: #ffb030;
 }
 
 .list_li_active{
@@ -123,6 +143,7 @@
 
 .personal-wrapper{
   width: 980px;
+  /* height: 972px; */
   background-color: #fff;
   margin-left: 20px;
   float: left;
@@ -237,6 +258,23 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: relative;
+  cursor: pointer;
+}
+
+.not-open-yet{
+  position: absolute;
+  right: 0;
+  top: -20px;
+  width: 62px;
+  height: 30px;
+  border: 1px solid #bfbfbf;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 28px;
+  color: #333;
+  font-size: 14px;
+  display: none;
 }
 
 .personal-head-right-item-number{
@@ -265,7 +303,7 @@
 
 .personal-content-wrapper{
   width: 100%;
-  padding: 0 11px;
+  /* padding: 0 11px; */
   box-sizing: border-box;
 }
 
@@ -279,6 +317,8 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 30px;
+  padding: 0 10px;
+  box-sizing: border-box;
 }
 
 .personal-myorder-all{
@@ -298,8 +338,8 @@
 
 .personal-operation-wrapper{
   width: 100%;
-  padding: 0 24px;
-  margin: 19px 0;
+  padding: 0 10px;
+  margin-top: 19px;
   box-sizing: border-box;
 }
 
@@ -312,7 +352,8 @@
 }
 
 .personal-operation-item{
-  width: 16.6%;
+  width: 20%;
+  cursor: pointer;
   position: relative;
 }
 
@@ -320,42 +361,42 @@
   width: 100%;
   height: 40px;
   background: url(../../images/static/daifukuan.png) no-repeat;
-  background-position: 57px 0;
+  background-position: 76px 0;
 }
 
 .personal-operation-img2{
   width: 100%;
   height: 40px;
   background: url(../../images/static/daifahuo.png) no-repeat;
-  background-position: 57px 0;
+  background-position: 76px 0;
 }
 
 .personal-operation-img3{
   width: 100%;
   height: 40px;
   background: url(../../images/static/daishouhuo.png) no-repeat;
-  background-position: 57px 0;
+  background-position: 78px 0;
 }
 
 .personal-operation-img4{
   width: 100%;
   height: 40px;
   background: url(../../images/static/yiwancheng.png) no-repeat;
-  background-position: 57px 0;
+  background-position: 79px 0;
 }
 
 .personal-operation-img5{
   width: 100%;
   height: 40px;
   background: url(../../images/static/daipingjia.png) no-repeat;
-  background-position: 57px 0;
+  background-position: 76px 0;
 }
 
 .personal-operation-img6{
   width: 100%;
   height: 40px;
   background: url(../../images/static/tuikuan.png) no-repeat;
-  background-position: 57px 0;
+  background-position: 76px 0;
 }
 
 .personal-operation-words{
@@ -363,6 +404,7 @@
   color: #333;
   font-size: 14px;
   text-align: center;
+  font-weight: bold;
 }
 
 .personal-operation-number{
@@ -651,6 +693,8 @@
   height: 36px;
   display: flex;
   align-items: center;
+  padding: 0 10px;
+  box-sizing: border-box;
 }
 
 .collection-tabs-left{
@@ -750,17 +794,18 @@
 
 .collection-prve{
   position: absolute;
-  top: 60px;
+  top: 80px;
 }
 
 .collection-next{
   position: absolute;
   right: 0;
-  top: 60px;
+  top: 80px;
 }
 
 .collection-goods-item-wrapper{
   height: 192px;
+  /* padding-left: 20px; */
 }
 
 .collection-goods-item-wrapper2{
@@ -810,4 +855,144 @@
 .personal-all-order a:hover{
   color: #e98930;
   text-decoration: underline;
+}
+
+.not_message_wrapper{
+  width: 100%;
+  height: 359px;
+  text-align: center;
+  padding-top: 68px;
+  box-sizing: border-box;
+  /* display: none; */
+}
+
+.not_message_word{
+  width: 100;
+  line-height: 41px;
+  color: #999;
+  font-size: 14px;
+  text-align: center;
+}
+
+.not_message_btn{
+  width: 90px;
+  height: 28px;
+  border: 1px solid #eee;
+  text-align: center;
+  line-height: 26px;
+  color: #666;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.collection-possess{
+  /* display: none; */
+  padding-left: 20px;
+}
+
+.collection-possess2{
+  /* display: none; */
+  padding-left: 20px;
+}
+
+.footprint{
+  /* display: none; */
+  position: relative;
+}
+
+.not_collection{
+  width: 100%;
+  height: 314px;
+  text-align: center;
+  padding-top: 65px;
+  box-sizing: border-box;
+}
+
+.not_collection_word{
+  width: 100%;
+  line-height: 52px;
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+}
+
+.personal_goods_order_wrapper{
+  width: 100%;
+  padding: 0 11px;
+  box-sizing: border-box
+}
+
+.personal_goods_order_item{
+  width: 100%;
+  height: 86px;
+  border-bottom: 1px solid #eee;
+  padding: 16px 21px 0 21px;
+  box-sizing: border-box;
+}
+
+.personal_goods_order_item:last-child{
+  margin-bottom: 16px;
+}
+
+.size_seat{
+  width: 100%;
+  height: 10px;
+  background-color: #e9e9e9;
+}
+
+.personal_goods_order_item_left{
+  float: left;
+}
+
+.personal_goods_order_item_img{
+  width: 60px;
+  height: 60px;
+  float: left;
+}
+
+.personal_goods_order_item_img img{
+  width: 100%;
+}
+
+.personal_goods_order_item_word{
+  float: left;
+  padding-left: 15px;
+  box-sizing: border-box;
+  line-height: 21px;
+  font-size: 12px;
+}
+
+.personal_goods_order_item_word_item{
+  color: #666;
+  margin-top: 10px;
+}
+
+.personal_goods_order_item_word_item_price{
+  color: #ff5628;
+}
+
+.personal_goods_order_item_right{
+  float: right;
+  line-height: 55px;
+  font-size: 12px;
+}
+
+.personal_goods_order_item_right a{
+  color: #333;
+}
+
+.personal_goods_order_item_right a:hover{
+  text-decoration: underline;
+}
+
+.personal_goods_order_item_right span{
+  display: inline-block;
+  margin: 0 6px;
+}
+
+.seat{
+  width: 100%;
+  height: 50px;
+  background-color: #e9e9e9;
 }

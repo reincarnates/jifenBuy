@@ -21,7 +21,7 @@
   line-height: 94px;
   text-align: center;
   color: #fdb86d;
-  font-size: 36px;
+  font-size: 20px;
 }
 
 .personal-feedback-head-content {
@@ -123,6 +123,7 @@
   height: 31px;
   outline: none;
   border-radius: 10px;
+  padding-left: 10px;
   border: none;
 }
 

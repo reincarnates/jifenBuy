@@ -1,0 +1,4884 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=EDGE; IE=9; IE=8; IE=7">
+  <meta http-equiv="X-UA-Compatible" content="IE=11" />
+  <meta name="apple-touch-fullscreen" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>FuliBuy福利商城</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/slide/slide.css">
+  <link rel="stylesheet" href="./css/index/index.css">
+  <link rel="stylesheet" href="./css/headOrfooter/headOrfooter.css">
+</head>
+
+<body>
+  <!-- 头部 -->
+  <div class="head">
+    <div class="head-top">
+      <div class="head-top-min">
+        <div id="seetion-info clearfix">
+          <div class="login-success-wrapper">
+            <!-- <div class="address">
+              <img src="./images/static/landmark.png" alt="">
+              <span class="check-city">北京</span>
+              <div class="cover"></div>
+              <div class="home-city">
+                <div class="city-select-content">
+                  <div class="city-selects">
+                    <dl class="clearfix">
+                      <dd class="clearfix">
+                        <a>北京</a>
+                        <a>上海</a>
+                        <a>天津</a>
+                        <a>重庆</a>
+                        <a>河北</a>
+                      </dd>
+                      <dd class="clearfix">
+                        <a>北京</a>
+                        <a>上海</a>
+                        <a>天津</a>
+                        <a>重庆</a>
+                        <a>河北</a>
+                      </dd>
+                      <dd class="clearfix">
+                        <a>北京</a>
+                        <a>北京</a>
+                        <a>北京</a>
+                        <a>北京</a>
+                        <a>北京</a>
+                      </dd>
+                      <dd class="clearfix">
+                        <a>北京</a>
+                        <a>北京</a>
+                        <a>北京</a>
+                        <a>北京</a>
+                        <a>北京</a>
+                      </dd>
+                      <dd class="clearfix">
+                        <a>北京</a>
+                        <a>北京</a>
+                        <a>北京</a>
+                        <a>北京</a>
+                        <a>北京</a>
+                      </dd>
+                      <dd class="clearfix">
+                        <a>北京</a>
+                        <a>北京</a>
+                        <a>北京</a>
+                        <a>北京</a>
+                        <a>北京</a>
+                      </dd>
+                      <dd class="clearfix">
+                        <a>北京</a>
+                        <a>北京</a>
+                        <a>北京</a>
+                        <a>北京</a>
+                        <a>北京</a>
+                      </dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="login-name">您好，<span>张勇</span>！</div>
+            <div class="sign-out pointer">退出</div> -->
+            <div class="not-login">您好，欢迎来到阳光福利商城</div>
+            <div class="login-success">您好，用户名！</div>
+          </div>
+          <div class="key clearfix">
+            <span><a href="#">登录</a></span>
+            <span class="myOrder">
+              <a href="#">
+                我的订单
+              </a>
+              <i class="down"></i>
+              <div class="myOrder-item">
+                <ul>
+                  <li class="myOrder-item-one">
+                    <a href="#">
+
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      待付款（1）
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      待收货（1）
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      待评价（5）
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      售后（0）
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </span>
+            <span class="myOrder2">
+              <a href="#">
+                个人中心
+              </a>
+              <i class="down"></i>
+              <div class="myOrder-item">
+                <ul>
+                  <li class="myOrder-item-one">
+                    <a href="#">
+
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      我的余额
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      我的收藏
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      消息（5）
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      我的客服
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      退出登录
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </span>
+            <span><a href="#">商户工作台</a></span>
+            <span><a href="#">服务中心</a></span>
+            <span class="App">
+              <a href="#">
+                App
+              </a>
+              <div class="App-item">
+                <div class="triangle_border_up">
+                  <i></i>
+                </div>
+                <div class="iphone">
+                  <div class="iphone-code">
+                    <img src="./images/static/iphone_code.png" alt="">
+                  </div>
+                  <div class="iphone-logo">
+                    <a href="#">
+                      <img src="./images/static/iphone_logo.png" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="andriod">
+                  <div class="iphone-code">
+                    <img src="./images/static/android_code.png" alt="">
+                  </div>
+                  <div class="iphone-logo">
+                    <a href="#">
+                      <img src="./images/static/android_logo.png" alt="">
+                    </a>
+                  </div>
+                </div>
+                <!-- <div class="fuli-public">
+                  <div class="iphone-code">
+                    <img src="./images/static/android_code.png" alt="">
+                  </div>
+                  <div class="iphone-logo">
+                    <p>关注福利商城公众号</p>
+                    <p>公众号/福利商城</p>
+                  </div>
+                </div> -->
+              </div>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="head_mid">
+      <a href="#">
+        <img src="./images/static/logo.png" alt="">
+      </a>
+      <div class="search">
+        <div class="search-input-wrapper clearfix">
+          <input class="search-input-left" type="text" placeholder="国际大牌母婴用品" />
+          <div class="search-input-right"></div>
+        </div>
+        <div class="hot">
+          <a href="#">打印机</a>
+          <a href="#">台式机</a>
+          <a href="#">便携式</a>
+        </div>
+        <div class="fuli-shelper">
+          <p class="fuli-shelper-words">
+            <span>热门搜索</span>
+            <span class="fuli-shelper-words-color">惠普i5内存条</span>
+            <span class="fuli-shelper-words-color">惠普i5内存条</span>
+            <span class="fuli-shelper-words-color">惠普i5内存条</span>
+            <span class="fuli-shelper-words-color">惠普</span>
+          </p>
+          <ul class="goods-list">
+            <li>
+              <a href="#">
+                <span class="goods-name">内存条8g</span>
+                <span class="history">历史记录</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="goods-name">内存条8g</span>
+                <span class="history">历史记录</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="goods-name">内存条8g</span>
+                <span class="history">历史记录</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="goods-name">内存条8g</span>
+                <span class="history">历史记录</span>
+              </a>
+            </li>
+          </ul>
+          <div class="all-delete">
+            <span class="pointer">全部清除</span>
+          </div>
+        </div>
+      </div>
+      <div class="shop_cart pointer">
+        <span class="shop_cart_word">购物车</span>
+        <div class="search-select-small"></div>
+        <div class="search-cart-select">
+          <div class="search-cart-select-head">最新加入商品</div>
+          <div class="search-cart-goods-all">
+            <div class="search-cart-goods-item">
+              <div class="goods-img"></div>
+              <p class="goods-account">
+                <a href="#">
+                  【买2送1】香水身体乳女全身美肤白净润肤露液体香乳去鸡皮肤
+                </a>
+              </p>
+              <div class="cart-price-del">
+                <p class="cart-price">
+                  ￥88.00 × 1
+                </p>
+                <p class="cart-delete pointer">
+                  删除
+                </p>
+              </div>
+            </div>
+            <div class="search-cart-goods-item">
+              <div class="goods-img"></div>
+              <p class="goods-account">
+                <a href="#">
+                  【买2送1】香水身体乳女全身美肤白净润肤露液体香乳去鸡皮肤
+                </a>
+              </p>
+              <div class="cart-price-del">
+                <p class="cart-price">
+                  ￥88.00 × 1
+                </p>
+                <p class="cart-delete pointer">
+                  删除
+                </p>
+              </div>
+            </div>
+            <div class="search-cart-goods-item">
+              <div class="goods-img"></div>
+              <p class="goods-account">
+                <a href="#">
+                  【买2送1】香水身体乳女全身美肤白净润肤露液体香乳去鸡皮肤
+                </a>
+              </p>
+              <div class="cart-price-del">
+                <p class="cart-price">
+                  ￥88.00 × 1
+                </p>
+                <p class="cart-delete pointer">
+                  删除
+                </p>
+              </div>
+            </div>
+            <div class="search-cart-goods-item">
+              <div class="goods-img"></div>
+              <p class="goods-account">
+                <a href="#">
+                  【买2送1】香水身体乳女全身美肤白净润肤露液体香乳去鸡皮肤
+                </a>
+              </p>
+              <div class="cart-price-del">
+                <p class="cart-price">
+                  ￥88.00 × 1
+                </p>
+                <p class="cart-delete pointer">
+                  删除
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="search-cart-all-price clearfix">
+          <span class="total">共3件商品 共计<span>￥1100.00</span></span>
+          <div class="go-cart pointer">
+            去购物车
+          </div>
+        </div>
+        <div class="cart-count">0</div>
+        <!-- <div class="search-not-cart">
+          <div class="search-not-cart-img">
+            <img src="./images/static/not_cart.png" alt="">
+            <span>购物车还没有商品赶快去选购吧！！！</span>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+  <!-- 头部end -->
+
+  <!-- 右侧面板 -->
+  <div class="J-global-toolbar">
+    <div class="toolbar-wrap J-wrap">
+      <div class="toolbar">
+        <div class="toolbar-panels J-panel">
+          <div style="visibility: hidden;" class="J-content toolbar-panel tbar-panel-cart toolbar-animate-out">
+            <div class="ichat-head">联系客服</div>
+            <div class="ichat">
+              <div class="ichat-title">苏宁易购</div>
+              <div class="ichat-list">
+                <ul class="ichat-list-ul">
+                  <li>
+                    <a href="#" style="background-image: url(./images/static/tel.png);">400-8516516</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="ichat">
+              <div class="ichat-title">京东商城</div>
+              <div class="ichat-list">
+                <ul class="ichat-list-ul">
+                  <li>
+                    <a href="#" style="background-image: url(./images/static/tel.png);">400-6066866</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="ichat">
+              <div class="ichat-title">办公伙伴</div>
+              <div class="ichat-list">
+                <ul class="ichat-list-ul">
+                  <li>
+                    <a href="#" style="background-image: url(./images/static/tel.png);">400-6066866</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="ichat">
+              <div class="ichat-title">企事通</div>
+              <div class="ichat-list">
+                <ul class="ichat-list-ul">
+                  <li>
+                    <a href="#" style="background-image: url(./images/static/tel.png);">400-6066866</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="ichat">
+              <div class="ichat-title">一线达通</div>
+              <div class="ichat-list">
+                <ul class="ichat-list-ul">
+                  <li>
+                    <a href="#" style="background-image: url(./images/static/tel.png);">400-6066866</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="ichat">
+              <div class="ichat-title">一线达通</div>
+              <div class="ichat-list">
+                <ul class="ichat-list-ul">
+                  <li>
+                    <a href="#" style="background-image: url(./images/static/tel.png);">400-6066866</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div style="visibility: hidden;" data-name="follow" class="J-content toolbar-panel tbar-panel-follow">
+            <div class="ichat-head2">我的消息</div>
+            <div class="mssage-content">
+              <div class="mssage-content-item">
+                <span>拥抱母亲，请珍惜时光</span>
+              </div>
+
+              <div class="mssage-btn-wrapper">
+                <div class="mssage-btn pointer">查看全部消息</div>
+              </div>
+            </div>
+          </div>
+
+          <div style="visibility: hidden;" class="J-content toolbar-panel tbar-panel-history toolbar-animate-in">
+            <div class="ichat-head2">我的足迹</div>
+            <div class="tbar-panel-main">
+              <div class="tbar-panel-content J-panel-content">
+                <div class="jt-history-wrap">
+                  <ul>
+                    <li class="jth-item">
+                      <a href="#" class="img-wrap"> <img
+                          src="http://img10.360buyimg.com/n0/s100x100_g9/M03/0C/18/rBEHalCKCk8IAAAAAAD5nbR5xOAAACfgQENi_wAAPm1269.jpg"
+                          height="100" width="100" /> </a>
+                      <a class="add-cart-button" href="#" target="_blank">加入购物车</a>
+                      <a href="#" target="_blank" class="prices">￥498.00</a>
+                    </li>
+                    <li class="jth-item">
+                      <a href="#" class="img-wrap"> <img
+                          src="http://img10.360buyimg.com/n0/s100x100_g9/M03/0C/18/rBEHalCKCk8IAAAAAAD5nbR5xOAAACfgQENi_wAAPm1269.jpg"
+                          height="100" width="100" /></a>
+                      <a class="add-cart-button" href="#" target="_blank">加入购物车</a>
+                      <a href="#" target="_blank" class="prices">￥498.00</a>
+                    </li>
+                  </ul>
+                  <a href="#" class="history-bottom-more" target="_blank">查看更多足迹商品 &gt;&gt;</a>
+                </div>
+              </div>
+            </div>
+            <div class="tbar-panel-footer J-panel-footer"></div>
+          </div>
+
+          <div style="visibility: hidden;" class="J-content toolbar-panel tbar-panel-back toolbar-animate-in">
+            <div class="ichat-head2">填写反馈</div>
+            <div class="feedback-content">
+              <p>亲爱的用户，您的宝贵意见和建议将 帮助我们更好的提升服务质量!</p>
+              <div class="form-title">
+                <span>*</span>内容
+              </div>
+              <textarea name="content" class="form-content"></textarea>
+              <div class="form-title">
+                <span>*</span>邮箱
+              </div>
+              <input type="email" id="email" class="form-email">
+              <div class="form-title">
+                <span>*</span>姓名
+              </div>
+              <input type="text" id="userName" class="form-email">
+              <div class="form-submit pointer">提交</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="toolbar-header"></div>
+
+        <div class="toolbar-tabs J-tab">
+          <div class="toolbar-tab tbar-tab-cart">
+            <i class="tab-ico"></i>
+            <em class="tab-text">客服</em>
+            客服
+          </div>
+          <div class=" toolbar-tab tbar-tab-follow">
+            <i class="tab-ico"></i>
+            <em class="tab-text">消息</em>
+            消息
+          </div>
+          <div class=" toolbar-tab tbar-tab-history ">
+            <i class="tab-ico"></i>
+            <em class="tab-text">足迹</em>
+            足迹
+          </div>
+          <div class=" toolbar-tab tbar-tab-back">
+            <i class="tab-ico"></i>
+            <em class="tab-text">反馈</em>
+            反馈
+          </div>
+        </div>
+
+        <div class="toolbar-mini"></div>
+
+      </div>
+
+      <div id="J-toolbar-load-hook"></div>
+
+    </div>
+  </div>
+
+  <div class="toolbar-footer" id="toTop">
+    <div class="toolbar-tab tbar-tab-top">
+      <a>
+        <i class="tab-ico"></i>
+        顶部
+      </a>
+    </div>
+  </div>
+  <!-- 右侧面板end -->
+
+  <!-- 导航 -->
+  <div class="nav">
+    <div class="nav_main">
+      <div class="left_nav">
+        <h1 style="color: #fff;">
+          <a href="#">全部商品分类</a>
+        </h1>
+      </div>
+      <ul class="jsddm clearfix">
+        <li class="jsddmli2"><a href="#">首页</a></li>
+        <li class="jsddmli"><a href="#">京东商城</a></li>
+        <li class="jsddmli"><a href="#">苏宁易购</a></li>
+        <li class="jsddmli"><a href="#">办公伙伴</a></li>
+        <li class="jsddmli"><a href="#">领先未来</a></li>
+        <li class="jsddmli"><a href="#">浙江物产</a></li>
+        <li class="jsddmli"><a href="#">一线达通</a></li>
+        <li class="jsddmli"><a href="#">福利品汇</a></li>
+      </ul>
+      <!-- 有多种品类的展示页面 -->
+      <!-- <div class="all-goods"></div> -->
+    </div>
+  </div>
+  <!-- 导航end -->
+
+  <!-- 品目展示 -->
+  <div class="item-display">
+    <div class="menu">
+      <ul>
+        <li>
+          <span href="#">
+            <img src="./images/static/dian.png" width="20" height="20" alt="">
+            电脑办公
+          </span>
+          <div class="mask"></div>
+        </li>
+        <li>
+          <span href="#">
+            <img src="./images/static/dian.png" width="20" height="20" alt="">
+            办公电器
+          </span>
+          <div class="mask"></div>
+        </li>
+      </ul>
+      <div class="adsense-list-select listNone clearfix">
+        <div class="adsense-list-select-left">
+          <p class="clearfix">
+            <a href="#">平板电脑</a>
+            <a href="#">便携式计算机</a>
+            <a href="#">台式计算机</a>
+            <a href="#">一体机</a>
+            <a href="#">多功能一体机</a>
+            <a href="#">墨水</a>
+            <a href="#">油墨</a>
+            <a href="#">粉盒</a>
+          </p>
+          <dl class="adsense-list-select-item-left-content clearfix">
+            <dt class="adsense-dt">
+              <a href="#">计算机></a>
+            </dt>
+            <dd class="adsense-dd">
+              <a href="#">平板电脑</a>
+              <a href="#">便携式计算机</a>
+              <a href="#">台式计算机</a>
+              <a href="#">PC服务器</a>
+              <a href="#">一体机</a>
+              <a href="#">组装电脑</a>
+            </dd>
+          </dl>
+        </div>
+        <div class="adsense-list-select-right">
+          <div class="adsense-list-select-right-item">
+            <div class="adsense-list-select-right-item-img">
+              <a href="#"><img src="./images/static/list_img_03.png" alt=""></a>
+            </div>
+            <div class="adsense-list-select-right-item-word">
+              养生壶
+            </div>
+          </div>
+          <div class="adsense-list-select-right-item">
+            <div class="adsense-list-select-right-item-img">
+              <a href="#"><img src="./images/static/list_img_03.png" alt=""></a>
+            </div>
+            <div class="adsense-list-select-right-item-word">
+              养生壶
+            </div>
+          </div>
+          <div class="adsense-list-select-right-item">
+            <div class="adsense-list-select-right-item-img">
+              <a href="#"><img src="./images/static/list_img_03.png" alt=""></a>
+            </div>
+            <div class="adsense-list-select-right-item-word">
+              养生壶
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="adsense-list-select listNone clearfix" style="display: none;">
+        <div class="adsense-list-select-left">
+          <dl class="adsense-list-select-item-left-content clearfix">
+            <dt class="adsense-dt">
+              <a href="#">冷饮冻食&gt;</a>
+            </dt>
+            <dd class="adsense-dd">
+              <a href="/mall/listpage/index.html?id=2148">水饺馄饨</a>
+            </dd>
+            <dt class="adsense-dt">
+              <a href="#">进口食品&gt;</a>
+            </dt>
+            <dd class="adsense-dd">
+              <a href="/mall/listpage/index.html?id=2152">牛奶</a>
+            </dd>
+            <dt class="adsense-dt">
+              <a href="#">休闲食品&gt;</a>
+            </dt>
+            <dd class="adsense-dd">
+              <a href="/mall/listpage/index.html?id=2153">中华老字号</a>
+            </dd>
+            <dt class="adsense-dt">
+              <a href="#">茗茶&gt;</a>
+            </dt>
+            <dd class="adsense-dd">
+              <a href="/mall/listpage/index.html?id=2154">铁观音</a>
+            </dd>
+            <dt class="adsense-dt">
+              <a href="#">饮料冲调&gt;</a>
+            </dt>
+            <dd class="adsense-dd">
+              <a href="/mall/listpage/index.html?id=2155">饮料</a>
+            </dd>
+            <dt class="adsense-dt">
+              <a href="#">中外名酒&gt;</a>
+            </dt>
+            <dd class="adsense-dd">
+              <a href="#">123</a>
+            </dd>
+            <dt class="adsense-dt">
+              <a href="#">新鲜水果&gt;</a>
+            </dt>
+            <dd class="adsense-dd">
+              <a href="#">123</a>
+            </dd>
+            <dt class="adsense-dt">
+              <a href="#">蔬菜蛋品&gt;</a>
+            </dt>
+            <dd class="adsense-dd">
+              <a href="#">123</a>
+            </dd>
+            <dt class="adsense-dt">
+              <a href="#">精选肉类&gt;</a>
+            </dt>
+            <dd class="adsense-dd">
+              <a href="#">123</a>
+            </dd>
+            <dt class="adsense-dt">
+              <a href="#">海鲜水产&gt;</a>
+            </dt>
+            <dd class="adsense-dd">
+              <a href="#">123</a>
+            </dd>
+            <dt class="adsense-dt">
+              <a href="#">地方特产&gt;</a>
+            </dt>
+            <dd class="adsense-dd">
+              <a href="#">123</a>
+            </dd>
+            <dt class="adsense-dt">
+              <a href="#">礼品&gt;</a>
+            </dt>
+            <dd class="adsense-dd">
+              <a href="#">123</a>
+            </dd>
+            <dt class="adsense-dt">
+              <a href="#">鲜花速递&gt;</a>
+            </dt>
+            <dd class="adsense-dd">
+              <a href="#">123</a>
+            </dd>
+          </dl>
+        </div>
+        <div class="adsense-list-select-right">
+          <div class="adsense-list-select-right-item">
+            <div class="adsense-list-select-right-item-img">
+              <a href="#"><img src="/uploads/20190531/4e951e777d8294c0ce404c795065113a.png" alt=""></a>
+            </div>
+            <div class="adsense-list-select-right-item-word">
+              1 </div>
+          </div>
+          <div class="adsense-list-select-right-item">
+            <div class="adsense-list-select-right-item-img">
+              <a href="#"><img src="/uploads/20190531/9b22a130d75f2eb942cd0d2a97f414b3.png" alt=""></a>
+            </div>
+            <div class="adsense-list-select-right-item-word">
+              2 </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="box">
+        <div class="list">
+          <ul>
+            <li><a href="#"><img src="./images/static/bannerimg.jpg" alt="" /></a></li>
+            <li><a href="#"><img src="./images/static/bannertwo.jpg" alt="" /></a></li>
+            <li><a href="#"><img src="./images/static/bannerthree.jpg" alt="" /></a></li>
+          </ul>
+        </div>
+        <div class="btn prev">&lt;</div>
+        <div class="btn next">&gt;</div>
+        <div class="ico"></div>
+      </div>
+    </div>
+  </div>
+  <!-- 品目展示end -->
+
+  <!-- 热销商品 -->
+  <div class="contact">
+    <div class="good">
+      <h1>
+        <b></b>
+        <span class="surprice"></span>
+        <span class="fr"><a href="#">更多热销商品>></a></span>
+      </h1>
+      <section class="slider-container">
+        <div class="good_l">
+          <img src="./images/static/good_info.png" width="228" height="265" alt="">
+          <div class="good_i">
+            夜间易着凉，防直吹空调护你健康
+          </div>
+        </div>
+        <div class="index_slide">
+          <div class="slide_current">
+            <div class="index_slide_item">
+              <div class="product_photo">
+                <a href="#">
+                  <div class="effect-lily">
+                    <img data-src="./images/static/goods.jpg" src="" width="150px" height="150px"
+                      style="display:inline;" alt="">
+                  </div>
+                </a>
+                <div class="product_name">
+                  <a href="#" title="雀巢（Nestle）醇品速溶咖啡48杯 （48包*1.8克）">雀巢（Nestle）醇品速溶咖啡48杯 （48包*1.8克）</a>
+                </div>
+                <div class="price clearfix">
+                  <div class="product_price">
+                    ￥999.00
+                  </div>
+                  <div class="grey_price2">
+                    ¥48.00
+                  </div>
+                </div>
+                <div class="buy_btn">
+                  <a href="#">立即购买</a>
+                </div>
+              </div>
+            </div>
+            <div class="index_slide_item">
+              <div class="product_photo">
+                <a href="#">
+                  <div class="effect-lily">
+                    <img data-src="./images/static/goods.jpg" src="" width="150px" height="150px"
+                      style="display:inline;" alt="">
+                  </div>
+                </a>
+                <div class="product_name">
+                  <a href="#" title="雀巢（Nestle）醇品速溶咖啡48杯 （48包*1.8克）">雀巢（Nestle）醇品速溶咖啡48杯 （48包*1.8克）</a>
+                </div>
+                <div class="price clearfix">
+                  <div class="product_price">
+                    ￥999.00
+                  </div>
+                  <div class="grey_price2">
+                    ¥48.00
+                  </div>
+                </div>
+                <div class="buy_btn">
+                  <a href="#">立即购买</a>
+                </div>
+              </div>
+            </div>
+            <div class="index_slide_item">
+              <div class="product_photo">
+                <a href="#">
+                  <div class="effect-lily">
+                    <img data-src="./images/static/goods.jpg" src="" width="150px" height="150px"
+                      style="display:inline;" alt="">
+                  </div>
+                </a>
+                <div class="product_name">
+                  <a href="#" title="雀巢（Nestle）醇品速溶咖啡48杯 （48包*1.8克）">雀巢（Nestle）醇品速溶咖啡48杯 （48包*1.8克）</a>
+                </div>
+                <div class="price clearfix">
+                  <div class="product_price">
+                    ￥999.00
+                  </div>
+                  <div class="grey_price2">
+                    ¥48.00
+                  </div>
+                </div>
+                <div class="buy_btn">
+                  <a href="#">立即购买</a>
+                </div>
+              </div>
+            </div>
+            <div class="index_slide_item">
+              <div class="product_photo">
+                <a href="#">
+                  <div class="effect-lily">
+                    <img data-src="./images/static/goods.jpg" src="" width="150px" height="150px"
+                      style="display:inline;" alt="">
+                  </div>
+                </a>
+                <div class="product_name">
+                  <a href="#" title="雀巢（Nestle）醇品速溶咖啡48杯 （48包*1.8克）">雀巢（Nestle）醇品速溶咖啡48杯 （48包*1.8克）</a>
+                </div>
+                <div class="price clearfix">
+                  <div class="product_price">
+                    ￥999.00
+                  </div>
+                  <div class="grey_price2">
+                    ¥48.00
+                  </div>
+                </div>
+                <div class="buy_btn">
+                  <a href="#">立即购买</a>
+                </div>
+              </div>
+            </div>
+            <div class="index_slide_item">
+              <div class="product_photo">
+                <a href="#">
+                  <div class="effect-lily">
+                    <img data-src="./images/static/goods.jpg" src="" width="150px" height="150px"
+                      style="display:inline;" alt="">
+                  </div>
+                </a>
+                <div class="product_name">
+                  <a href="#" title="雀巢（Nestle）醇品速溶咖啡48杯 （48包*1.8克）">雀巢（Nestle）醇品速溶咖啡48杯 （48包*1.8克）</a>
+                </div>
+                <div class="price clearfix">
+                  <div class="product_price">
+                    ￥999.00
+                  </div>
+                  <div class="grey_price2">
+                    ¥48.00
+                  </div>
+                </div>
+                <div class="buy_btn">
+                  <a href="#">立即购买</a>
+                </div>
+              </div>
+            </div>
+            <div class="index_slide_item">
+              <div class="product_photo">
+                <a href="#">
+                  <div class="effect-lily">
+                    <img data-src="./images/static/goods.jpg" src="" width="150px" height="150px"
+                      style="display:inline;" alt="">
+                  </div>
+                </a>
+                <div class="product_name">
+                  <a href="#" title="雀巢（Nestle）醇品速溶咖啡48杯 （48包*1.8克）">雀巢（Nestle）醇品速溶咖啡48杯 （48包*1.8克）</a>
+                </div>
+                <div class="price clearfix">
+                  <div class="product_price">
+                    ￥999.00
+                  </div>
+                  <div class="grey_price2">
+                    ¥48.00
+                  </div>
+                </div>
+                <div class="buy_btn">
+                  <a href="#">立即购买</a>
+                </div>
+              </div>
+            </div>
+            <div class="index_slide_item">
+              <div class="product_photo">
+                <a href="#">
+                  <div class="effect-lily">
+                    <img data-src="./images/static/goods.jpg" src="" width="150px" height="150px"
+                      style="display:inline;" alt="">
+                  </div>
+                </a>
+                <div class="product_name">
+                  <a href="#" title="雀巢（Nestle）醇品速溶咖啡48杯 （48包*1.8克）">雀巢（Nestle）醇品速溶咖啡48杯 （48包*1.8克）</a>
+                </div>
+                <div class="price clearfix">
+                  <div class="product_price">
+                    ￥999.00
+                  </div>
+                  <div class="grey_price2">
+                    ¥48.00
+                  </div>
+                </div>
+                <div class="buy_btn">
+                  <a href="#">立即购买</a>
+                </div>
+              </div>
+            </div>
+            <div class="index_slide_item">
+              <div class="product_photo">
+                <a href="#">
+                  <div class="effect-lily">
+                    <img data-src="./images/static/goods.jpg" src="" width="150px" height="150px"
+                      style="display:inline;" alt="">
+                  </div>
+                </a>
+                <div class="product_name">
+                  <a href="#" title="雀巢（Nestle）醇品速溶咖啡48杯 （48包*1.8克）">雀巢（Nestle）醇品速溶咖啡48杯 （48包*1.8克）</a>
+                </div>
+                <div class="price clearfix">
+                  <div class="product_price">
+                    ￥999.00
+                  </div>
+                  <div class="grey_price2">
+                    ¥48.00
+                  </div>
+                </div>
+                <div class="buy_btn">
+                  <a href="#">立即购买</a>
+                </div>
+              </div>
+            </div>
+            <div class="index_slide_item">
+              <div class="product_photo">
+                <a href="#">
+                  <div class="effect-lily">
+                    <img data-src="./images/static/goods.jpg" src="" width="150px" height="150px"
+                      style="display:inline;" alt="">
+                  </div>
+                </a>
+                <div class="product_name">
+                  <a href="#" title="雀巢（Nestle）醇品速溶咖啡48杯 （48包*1.8克）">雀巢（Nestle）醇品速溶咖啡48杯 （48包*1.8克）</a>
+                </div>
+                <div class="price clearfix">
+                  <div class="product_price">
+                    ￥999.00
+                  </div>
+                  <div class="grey_price2">
+                    ¥48.00
+                  </div>
+                </div>
+                <div class="buy_btn">
+                  <a href="#">立即购买</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div style="clear:both"></div>
+    <div class="jianju_x"></div>
+    <div class="floor_1 clearfix">
+      <div class="floor_left">
+        <div class="clearfix">
+          <img src="./images/static/floor_01.png" class="fl" alt="">
+          <h2>电脑办公</h2>
+        </div>
+        <div class="floor_leftmain">
+          <div class="smallbanner">
+            <img data-src="./images/static/device.png" src="" width="230" height="360" alt="">
+          </div>
+          <div class="brand clearfix">
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 选项卡 -->
+      <div class="floor_mid">
+        <div class="floor_midtitle">
+          <ul style="border: none">
+            <li class="cur"><a href="#">特惠产品</a></li>
+            <li><a href="#">便携式计算机</a></li>
+            <li><a href="#">激光打印机</a></li>
+            <li><a href="#">复印机</a></li>
+            <li><a href="#">传真机</a></li>
+            <li><a href="#">扫描仪</a></li>
+            <li><a href="#">台式计算机</a></li>
+          </ul>
+        </div>
+        <div class="menudiv">
+          <div class="ob on">
+            <ul class="clearfix">
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="ob">2</div>
+          <div class="ob">3</div>
+          <div class="ob">4</div>
+          <div class="ob">5</div>
+          <div class="ob">6</div>
+          <div class="ob">7</div>
+        </div>
+      </div>
+    </div>
+    <div class="floor_1 clearfix">
+      <div class="floor_left">
+        <div class="clearfix">
+          <img src="./images/static/floor_02.jpg" class="fl" alt="">
+          <h2>家用电器</h2>
+        </div>
+        <div class="floor_leftmain2">
+          <div class="smallbanner">
+            <img data-src="./images/static/device.png" src="" width="230" height="360" alt="">
+          </div>
+          <div class="brand2 clearfix">
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 选项卡 -->
+      <div class="floor_mid">
+        <div class="floor_midtitle">
+          <ul style="border: none">
+            <li class="cur"><a href="#">特惠产品</a></li>
+            <li><a href="#">便携式计算机</a></li>
+            <li><a href="#">激光打印机</a></li>
+            <li><a href="#">复印机</a></li>
+            <li><a href="#">传真机</a></li>
+            <li><a href="#">扫描仪</a></li>
+            <li><a href="#">台式计算机</a></li>
+          </ul>
+        </div>
+        <div class="menudiv2">
+          <div class="ob on">
+            <ul class="clearfix">
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="ob">2</div>
+          <div class="ob">3</div>
+          <div class="ob">4</div>
+          <div class="ob">5</div>
+          <div class="ob">6</div>
+          <div class="ob">7</div>
+        </div>
+      </div>
+    </div>
+    <div class="floor_1 clearfix">
+      <div class="floor_left">
+        <div class="clearfix">
+          <img src="./images/static/floor_03.png" class="fl" alt="">
+          <h2>办公用品</h2>
+        </div>
+        <div class="floor_leftmain3">
+          <div class="smallbanner">
+            <img data-src="./images/static/device.png" src="" width="230" height="360" alt="">
+          </div>
+          <div class="brand3 clearfix">
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 选项卡 -->
+      <div class="floor_mid">
+        <div class="floor_midtitle">
+          <ul style="border: none">
+            <li class="cur"><a href="#">特惠产品</a></li>
+            <li><a href="#">便携式计算机</a></li>
+            <li><a href="#">激光打印机</a></li>
+            <li><a href="#">复印机</a></li>
+            <li><a href="#">传真机</a></li>
+            <li><a href="#">扫描仪</a></li>
+            <li><a href="#">台式计算机</a></li>
+          </ul>
+        </div>
+        <div class="menudiv3">
+          <div class="ob on">
+            <ul class="clearfix">
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="ob">2</div>
+          <div class="ob">3</div>
+          <div class="ob">4</div>
+          <div class="ob">5</div>
+          <div class="ob">6</div>
+          <div class="ob">7</div>
+        </div>
+      </div>
+    </div>
+    <div class="floor_1 clearfix">
+      <div class="floor_left">
+        <div class="clearfix">
+          <img src="./images/static/floor_04.png" class="fl" alt="">
+          <h2>通讯数码</h2>
+        </div>
+        <div class="floor_leftmain4">
+          <div class="smallbanner">
+            <img data-src="./images/static/device.png" src="" width="230" height="360" alt="">
+          </div>
+          <div class="brand4 clearfix">
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 选项卡 -->
+      <div class="floor_mid">
+        <div class="floor_midtitle">
+          <ul style="border: none">
+            <li class="cur"><a href="#">特惠产品</a></li>
+            <li><a href="#">便携式计算机</a></li>
+            <li><a href="#">激光打印机</a></li>
+            <li><a href="#">复印机</a></li>
+            <li><a href="#">传真机</a></li>
+            <li><a href="#">扫描仪</a></li>
+            <li><a href="#">台式计算机</a></li>
+          </ul>
+        </div>
+        <div class="menudiv4">
+          <div class="ob on">
+            <ul class="clearfix">
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="ob">2</div>
+          <div class="ob">3</div>
+          <div class="ob">4</div>
+          <div class="ob">5</div>
+          <div class="ob">6</div>
+          <div class="ob">7</div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="floor_1 clearfix">
+      <div class="floor_left">
+        <div class="clearfix">
+          <img src="./images/static/floor_05.png" class="fl" alt="">
+          <h2>家居装饰</h2>
+        </div>
+        <div class="floor_leftmain">
+          <div class="smallbanner">
+            <img data-src="./images/static/device.png" src="" width="230" height="360" alt="">
+          </div>
+          <div class="brand clearfix">
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 选项卡 -->
+      <div class="floor_mid">
+        <div class="floor_midtitle">
+          <ul style="border: none">
+            <li class="cur"><a href="#">特惠产品</a></li>
+            <li><a href="#">便携式计算机</a></li>
+            <li><a href="#">激光打印机</a></li>
+            <li><a href="#">复印机</a></li>
+            <li><a href="#">传真机</a></li>
+            <li><a href="#">扫描仪</a></li>
+            <li><a href="#">台式计算机</a></li>
+          </ul>
+        </div>
+        <div class="menudiv">
+          <div class="ob on">
+            <ul class="clearfix">
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="ob">2</div>
+          <div class="ob">3</div>
+          <div class="ob">4</div>
+          <div class="ob">5</div>
+          <div class="ob">6</div>
+          <div class="ob">7</div>
+        </div>
+      </div>
+    </div>
+    <div class="floor_1 clearfix">
+      <div class="floor_left">
+        <div class="clearfix">
+          <img src="./images/static/floor_06.png" class="fl" alt="">
+          <h2>酒水生鲜</h2>
+        </div>
+        <div class="floor_leftmain2">
+          <div class="smallbanner">
+            <img data-src="./images/static/device.png" src="" width="230" height="360" alt="">
+          </div>
+          <div class="brand2 clearfix">
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 选项卡 -->
+      <div class="floor_mid">
+        <div class="floor_midtitle">
+          <ul style="border: none">
+            <li class="cur"><a href="#">特惠产品</a></li>
+            <li><a href="#">便携式计算机</a></li>
+            <li><a href="#">激光打印机</a></li>
+            <li><a href="#">复印机</a></li>
+            <li><a href="#">传真机</a></li>
+            <li><a href="#">扫描仪</a></li>
+            <li><a href="#">台式计算机</a></li>
+          </ul>
+        </div>
+        <div class="menudiv2">
+          <div class="ob on">
+            <ul class="clearfix">
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="ob">2</div>
+          <div class="ob">3</div>
+          <div class="ob">4</div>
+          <div class="ob">5</div>
+          <div class="ob">6</div>
+          <div class="ob">7</div>
+        </div>
+      </div>
+    </div>
+    <div class="floor_1 clearfix">
+      <div class="floor_left">
+        <div class="clearfix">
+          <img src="./images/static/floor_07.png" class="fl" alt="">
+          <h2>个护化妆</h2>
+        </div>
+        <div class="floor_leftmain3">
+          <div class="smallbanner">
+            <img data-src="./images/static/device.png" src="" width="230" height="360" alt="">
+          </div>
+          <div class="brand3 clearfix">
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 选项卡 -->
+      <div class="floor_mid">
+        <div class="floor_midtitle">
+          <ul style="border: none">
+            <li class="cur"><a href="#">特惠产品</a></li>
+            <li><a href="#">便携式计算机</a></li>
+            <li><a href="#">激光打印机</a></li>
+            <li><a href="#">复印机</a></li>
+            <li><a href="#">传真机</a></li>
+            <li><a href="#">扫描仪</a></li>
+            <li><a href="#">台式计算机</a></li>
+          </ul>
+        </div>
+        <div class="menudiv3">
+          <div class="ob on">
+            <ul class="clearfix">
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="ob">2</div>
+          <div class="ob">3</div>
+          <div class="ob">4</div>
+          <div class="ob">5</div>
+          <div class="ob">6</div>
+          <div class="ob">7</div>
+        </div>
+      </div>
+    </div>
+    <div class="floor_1 clearfix">
+      <div class="floor_left">
+        <div class="clearfix">
+          <img src="./images/static/floor_08.png" class="fl" alt="">
+          <h2>运动户外</h2>
+        </div>
+        <div class="floor_leftmain4">
+          <div class="smallbanner">
+            <img data-src="./images/static/device.png" src="" width="230" height="360" alt="">
+          </div>
+          <div class="brand4 clearfix">
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 选项卡 -->
+      <div class="floor_mid">
+        <div class="floor_midtitle">
+          <ul style="border: none">
+            <li class="cur"><a href="#">特惠产品</a></li>
+            <li><a href="#">便携式计算机</a></li>
+            <li><a href="#">激光打印机</a></li>
+            <li><a href="#">复印机</a></li>
+            <li><a href="#">传真机</a></li>
+            <li><a href="#">扫描仪</a></li>
+            <li><a href="#">台式计算机</a></li>
+          </ul>
+        </div>
+        <div class="menudiv4">
+          <div class="ob on">
+            <ul class="clearfix">
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="ob">2</div>
+          <div class="ob">3</div>
+          <div class="ob">4</div>
+          <div class="ob">5</div>
+          <div class="ob">6</div>
+          <div class="ob">7</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="floor_1 clearfix">
+      <div class="floor_left">
+        <div class="clearfix">
+          <img src="./images/static/floor_09.png" class="fl" alt="">
+          <h2>汽车用品</h2>
+        </div>
+        <div class="floor_leftmain">
+          <div class="smallbanner">
+            <img data-src="./images/static/device.png" src="" width="230" height="360" alt="">
+          </div>
+          <div class="brand clearfix">
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 选项卡 -->
+      <div class="floor_mid">
+        <div class="floor_midtitle">
+          <ul style="border: none">
+            <li class="cur"><a href="#">特惠产品</a></li>
+            <li><a href="#">便携式计算机</a></li>
+            <li><a href="#">激光打印机</a></li>
+            <li><a href="#">复印机</a></li>
+            <li><a href="#">传真机</a></li>
+            <li><a href="#">扫描仪</a></li>
+            <li><a href="#">台式计算机</a></li>
+          </ul>
+        </div>
+        <div class="menudiv">
+          <div class="ob on">
+            <ul class="clearfix">
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="ob">2</div>
+          <div class="ob">3</div>
+          <div class="ob">4</div>
+          <div class="ob">5</div>
+          <div class="ob">6</div>
+          <div class="ob">7</div>
+        </div>
+      </div>
+    </div>
+    <div class="floor_1 clearfix">
+      <div class="floor_left">
+        <div class="clearfix">
+          <img src="./images/static/floor_10.png" class="fl" alt="">
+          <h2>服装配饰</h2>
+        </div>
+        <div class="floor_leftmain2">
+          <div class="smallbanner">
+            <img data-src="./images/static/device.png" src="" width="230" height="360" alt="">
+          </div>
+          <div class="brand2 clearfix">
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 选项卡 -->
+      <div class="floor_mid">
+        <div class="floor_midtitle">
+          <ul style="border: none">
+            <li class="cur"><a href="#">特惠产品</a></li>
+            <li><a href="#">便携式计算机</a></li>
+            <li><a href="#">激光打印机</a></li>
+            <li><a href="#">复印机</a></li>
+            <li><a href="#">传真机</a></li>
+            <li><a href="#">扫描仪</a></li>
+            <li><a href="#">台式计算机</a></li>
+          </ul>
+        </div>
+        <div class="menudiv2">
+          <div class="ob on">
+            <ul class="clearfix">
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="ob">2</div>
+          <div class="ob">3</div>
+          <div class="ob">4</div>
+          <div class="ob">5</div>
+          <div class="ob">6</div>
+          <div class="ob">7</div>
+        </div>
+      </div>
+    </div>
+    <div class="floor_1 clearfix">
+      <div class="floor_left">
+        <div class="clearfix">
+          <img src="./images/static/floor_11.png" class="fl" alt="">
+          <h2>母婴玩具</h2>
+        </div>
+        <div class="floor_leftmain3">
+          <div class="smallbanner">
+            <img data-src="./images/static/device.png" src="" width="230" height="360" alt="">
+          </div>
+          <div class="brand3 clearfix">
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 选项卡 -->
+      <div class="floor_mid">
+        <div class="floor_midtitle">
+          <ul style="border: none">
+            <li class="cur"><a href="#">特惠产品</a></li>
+            <li><a href="#">便携式计算机</a></li>
+            <li><a href="#">激光打印机</a></li>
+            <li><a href="#">复印机</a></li>
+            <li><a href="#">传真机</a></li>
+            <li><a href="#">扫描仪</a></li>
+            <li><a href="#">台式计算机</a></li>
+          </ul>
+        </div>
+        <div class="menudiv3">
+          <div class="ob on">
+            <ul class="clearfix">
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="ob">2</div>
+          <div class="ob">3</div>
+          <div class="ob">4</div>
+          <div class="ob">5</div>
+          <div class="ob">6</div>
+          <div class="ob">7</div>
+        </div>
+      </div>
+    </div>
+    <div class="floor_1 clearfix">
+      <div class="floor_left">
+        <div class="clearfix">
+          <img src="./images/static/floor_12.png" class="fl" alt="">
+          <h2>鞋包珠宝</h2>
+        </div>
+        <div class="floor_leftmain4">
+          <div class="smallbanner">
+            <img data-src="./images/static/device.png" src="" width="230" height="360" alt="">
+          </div>
+          <div class="brand4 clearfix">
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 选项卡 -->
+      <div class="floor_mid">
+        <div class="floor_midtitle">
+          <ul style="border: none">
+            <li class="cur"><a href="#">特惠产品</a></li>
+            <li><a href="#">便携式计算机</a></li>
+            <li><a href="#">激光打印机</a></li>
+            <li><a href="#">复印机</a></li>
+            <li><a href="#">传真机</a></li>
+            <li><a href="#">扫描仪</a></li>
+            <li><a href="#">台式计算机</a></li>
+          </ul>
+        </div>
+        <div class="menudiv4">
+          <div class="ob on">
+            <ul class="clearfix">
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="ob">2</div>
+          <div class="ob">3</div>
+          <div class="ob">4</div>
+          <div class="ob">5</div>
+          <div class="ob">6</div>
+          <div class="ob">7</div>
+        </div>
+      </div>
+    </div>
+    <div class="floor_1 clearfix">
+      <div class="floor_left">
+        <div class="clearfix">
+          <img src="./images/static/floor_13.png" class="fl" alt="">
+          <h2>建材劳保</h2>
+        </div>
+        <div class="floor_leftmain4">
+          <div class="smallbanner">
+            <img data-src="./images/static/device.png" src="" width="230" height="360" alt="">
+          </div>
+          <div class="brand4 clearfix">
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 选项卡 -->
+      <div class="floor_mid">
+        <div class="floor_midtitle">
+          <ul style="border: none">
+            <li class="cur"><a href="#">特惠产品</a></li>
+            <li><a href="#">便携式计算机</a></li>
+            <li><a href="#">激光打印机</a></li>
+            <li><a href="#">复印机</a></li>
+            <li><a href="#">传真机</a></li>
+            <li><a href="#">扫描仪</a></li>
+            <li><a href="#">台式计算机</a></li>
+          </ul>
+        </div>
+        <div class="menudiv4">
+          <div class="ob on">
+            <ul class="clearfix">
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="ob">2</div>
+          <div class="ob">3</div>
+          <div class="ob">4</div>
+          <div class="ob">5</div>
+          <div class="ob">6</div>
+          <div class="ob">7</div>
+        </div>
+      </div>
+    </div>
+    <div class="floor_1 clearfix">
+      <div class="floor_left">
+        <div class="clearfix">
+          <img src="./images/static/floor_14.png" class="fl" alt="">
+          <h2>图书宠物</h2>
+        </div>
+        <div class="floor_leftmain4">
+          <div class="smallbanner">
+            <img data-src="./images/static/device.png" src="" width="230" height="360" alt="">
+          </div>
+          <div class="brand4 clearfix">
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+            <div class="brand-item-wrapper">
+              <div class="brand-item-left">
+                <a href="#">惠普</a>
+              </div>
+              <div class="brand-item-right">
+                <a href="#">科密</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 选项卡 -->
+      <div class="floor_mid">
+        <div class="floor_midtitle">
+          <ul style="border: none">
+            <li class="cur"><a href="#">特惠产品</a></li>
+            <li><a href="#">便携式计算机</a></li>
+            <li><a href="#">激光打印机</a></li>
+            <li><a href="#">复印机</a></li>
+            <li><a href="#">传真机</a></li>
+            <li><a href="#">扫描仪</a></li>
+            <li><a href="#">台式计算机</a></li>
+          </ul>
+        </div>
+        <div class="menudiv4">
+          <div class="ob on">
+            <ul class="clearfix">
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <div class="cheap_icon cheap_icon1">
+                    <h3>优<br>惠</h3>
+                  </div>
+                  <a href="#">
+                    <div class="effect-lily">
+                      <img data-src="./images/static/microsoft.jpg" src="" width="150px" height="150px" alt="">
+                    </div>
+                  </a>
+                  <div class="product_name">
+                    <a href="#">微软（Microsoft）Surface Laptop超轻薄触控笔哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+                  </div>
+                  <div class="price2 clearfix">
+                    <div class="product_price2 clearfix">
+                      <div class="product_new_price">￥999.00</div>
+                      <div class="product_old_price">￥1111</div>
+                    </div>
+                    <div class="grey_price">
+
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="ob">2</div>
+          <div class="ob">3</div>
+          <div class="ob">4</div>
+          <div class="ob">5</div>
+          <div class="ob">6</div>
+          <div class="ob">7</div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </div>
+  <!-- 热销商品end -->
+
+  <!-- 底部 -->
+  <div class="footer">
+    <div class="fuli-u-sm-12 fuli-footer clearfix">
+      <div class="fuli-footer-service">
+        <div class="footer-service-unit clearfix">
+          <div class="footer-service-img">
+            <img src="./images/static/aftersale.png" alt="">
+          </div>
+          <div class="footer-service-word">
+            <h6 class="footer-service-tit">正品保障</h6>
+            <div class="footer-service-text">优质商品 福利放心购</div>
+          </div>
+        </div>
+      </div>
+      <div class="fuli-footer-service">
+        <div class="footer-service-unit clearfix">
+          <div class="footer-service-img">
+            <img src="./images/static/classify.png" alt="">
+          </div>
+          <div class="footer-service-word">
+            <h6 class="footer-service-tit">尊享低价</h6>
+            <div class="footer-service-text">剔除溢价 保证性价比</div>
+          </div>
+        </div>
+      </div>
+      <div class="fuli-footer-service">
+        <div class="footer-service-unit clearfix">
+          <div class="footer-service-img">
+            <img src="./images/static/security.png" alt="">
+          </div>
+          <div class="footer-service-word">
+            <h6 class="footer-service-tit">售后无忧</h6>
+            <div class="footer-service-text">退换便捷 物流全覆盖</div>
+          </div>
+        </div>
+      </div>
+      <div class="fuli-footer-service">
+        <div class="footer-service-unit clearfix">
+          <div class="footer-service-img">
+            <img src="./images/static/like.png" alt="">
+          </div>
+          <div class="footer-service-word">
+            <h6 class="footer-service-tit">定制服务</h6>
+            <div class="footer-service-text">按需定制 享专属平台</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="fuli-u-sm-12 fuli-footer-help clearfix">
+      <div class="footer-help-list">
+        <div class="help-list-tit">用户指南</div>
+        <ul class="help-list-nav">
+          <li>
+            <a href="#">
+              关于注册
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              操作指南
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              支付与充值
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-help-list">
+        <div class="help-list-tit">阳光福利购特色</div>
+        <ul class="help-list-nav">
+          <li>
+            <a href="#">
+              阳光福利购特色
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              员工关怀平台
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              阳光福利购商城
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-help-list">
+        <div class="help-list-tit">商户服务</div>
+        <ul class="help-list-nav">
+          <li>
+            <a href="#">
+              招商入驻
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              平台政策
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              商户工作台
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              结算售后
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- <div class="footer-help-list">
+        <div class="help-list-tit">商户服务</div>
+        <ul class="help-list-nav">
+          <li>
+            <a href="#">
+              招商入驻
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              平台政策
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              商户工作台
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              结算售后
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-help-list">
+        <div class="help-list-tit">关于我们</div>
+        <ul class="help-list-nav">
+          <li>
+            <a href="#">
+              企业合作
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              招聘英才
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              帮助中心
+            </a>
+          </li>
+        </ul>
+      </div> -->
+      <div class="footer-help-list public-mar">
+        <div class="footer-help-public">
+          <div class="footer-help-code"></div>
+          <div class="footer-help-word">
+            公众号
+          </div>
+        </div>
+      </div>
+      <!-- <div class="footer-help-list">
+        <div class="footer-help-public">
+          <div class="footer-help-code"></div>
+          <div class="footer-help-word">
+            官方微信
+          </div>
+        </div>
+      </div> -->
+    </div>
+    <div class="fuli-u-sm-12 fuli-copyright-auth">
+      <div class="fuli-copyright-cont clearfix">
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-1 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-2 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-3 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-4 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-5 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-6 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-7 pointer"></div>
+        </a>
+      </div>
+    </div>
+    <div class="fuli-u-sm-12 fuli-copyright-info">
+      <p>
+        <a href="#" class="fuli-copyright-links">首页</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">招聘英才</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">合作及洽谈</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">联系我们</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">关于我们</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">商家管理</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">门店管理</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">自提站管理</a>
+        <span class="fuli-copyright-split">|</span>
+      </p>
+    </div>
+    <div class="fuli-u-sm-12 fuli-copyright-cert">
+      &copy;2016 athori.com 雷云智链 客户服务中心(7×24):101-88888888
+    </div>
+  </div>
+  <!-- 底部end -->
+
+
+  <!-- 绑定手机号模态框 -->
+  <div class="bind-phone-mask-wrapper">
+    <div class="bind-phone-mask">
+      <div class="bind-before">
+        <div class="bind-phone-mask-head">快去绑定手机号查看的您的账号余额吧！</div>
+        <div class="bind-phone-mask-phone-wrapper clearfix">
+          <div class="bind-phone-mask-phone-line"></div>
+          <div class="bind-phone-mask-phone-word">请绑定手机号</div>
+          <div class="bind-phone-mask-phone-line"></div>
+        </div>
+        <div class="bind-phone-mask-phone-number clearfix">
+          <div class="bind-phone-mask-phone-number-left">+86</div>
+          <input type="text" placeholder="手机号">
+          <div class="bind-phone-mask-phone-rule bind-phone-position">手机号不能为空</div>
+        </div>
+        <div class="bind-phone-mask-phone-rule-code clearfix">
+          <div class="bind-phone-mask-phone-rule-code-left">
+            <input type="text" placeholder="验证码">
+          </div>
+          <div class="bind-phone-mask-phone-rule-code-btn">获取验证码</div>
+          <div class="bind-phone-mask-phone-rule rule-code">验证码不能为空</div>
+        </div>
+        <div class="bind-phone-mask-phone-sure-btn">
+          确定
+        </div>
+      </div>
+      <div class="bind-after">
+        <div class="bind-phone-mask-success-img">
+          <img src="./images/static/attestation.png" alt="">
+        </div>
+        <div class="bind-phone-mask-success-word">恭喜您手机绑定成功，快去购物吧！</div>
+        <div class="bind-phone-mask-success-btn">去购物</div>
+      </div>
+    </div>
+  </div>
+  <!-- 绑定手机号模态框end -->
+
+  <script src="./lib/jq/jquery.old.js"></script>
+  <script src="./lib/slide/slide.js"></script>
+  <script src="./lib/slide/super_slider.js"></script>
+  <script src="./lib/lazyload/lazyload.js"></script>
+  <script src="./js/index/index.js"></script>
+  <script src="./js/service/service.js"></script>
+
+  <script>
+    $(".index_slide").superSlider({
+      prevBtn: ".prevBtn",//左按钮
+      nextBtn: ".nextBtn",//右按钮
+      listCont: ".slide_current",//滚动列表外层
+      scrollWhere: "next",//自动滚动方向next
+      delayTime: 1000,//自动轮播时间间隔
+      speed: 1000,//滚动速度
+      amount: 1,//单次滚动数量
+      showNum: 4,//显示数量
+      autoPlay: true//自动播放
+    });
+  </script>
+</body>
+
+</html>

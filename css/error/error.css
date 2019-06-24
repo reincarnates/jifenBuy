@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+.cashier-error-wrapper{
+  width: 100%;
+  height: 85%;
+  background: url(../../images/static/error_bg.png) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.cashier-error-reload-wrapper{
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  padding-left: 340px;
+  padding-top: 148px;
+}
+
+.cashier-error-reload{
+  /* position: absolute;
+  top: 356px;
+  left: 380px; */
+  width: 142px;
+  background-color: #fc6a33;
+  border-radius: 20px;
+  height: 28px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 28px;
+  margin-left: 18px;
+  z-index: 999;
+}
+
+.cashier-error-wrapper2{
+  width: 100%;
+  height: 77%;
+  background: url(../../images/static/error_bg.png) no-repeat;
+  /* background-size: cover; */
+  position: relative;
+}
+
+.circle-wrapper{
+  position: relative;
+}
+
+.circle{
+  position: absolute;
+  left: 10px;
+  top: -17px;
+  width: 6px;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.circle2{
+  left: 130px;
+}
+
+.cashier-error-content{
+  /* width: 192px;
+  height: 229px; */
+}
+
+.not_status{
+  color: #ffb030;
+  font-size: 84px;
+  padding-left: 15px;
+}
+
+.not_suggest{
+  color: #ffb030;
+  font-size: 18px;
+}
+
+.not_word{
+  color: #ffb030;
+  font-size: 16px;
+  margin-top: 19px;
+  margin-bottom: 45px;
+}
+
+.time_location{
+  color: #333;
+  font-size: 16px;
+  letter-spacing: 3px;
+  line-height: 70px;
+  margin-left: 18px;
+}
+
+.time_location span{
+  color: #ff5628;
+}

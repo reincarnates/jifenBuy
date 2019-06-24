@@ -63,6 +63,7 @@
   cursor: pointer;
   background: url(../../images/static/show_all.png) no-repeat;
   background-position: 90px 16px;
+  display: none;
 }
 
 .fuli-form{
@@ -366,6 +367,7 @@
 .fuli-invoice-rule-right{
   width: 295px;
   height: 167px;
+  margin-top: 25px;
   float: right;
 }
 
@@ -471,9 +473,16 @@
 }
 
 .fuli-take-name{
-  width: 70px;
+  width: 100px;
   font-weight: 600;
   float: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.collect{
+  font-weight: 600;
 }
 
 .fuli-take-default-address{
@@ -1735,4 +1744,18 @@
   line-height: 30px;
   cursor: pointer;
   margin-top: 28px;
+}
+
+.fuli-select-goods h4{
+  float: left;
+}
+
+.manage-address{
+  float: right;
+  font-size: 14px;
+  color: #67a4ff !important;
+}
+
+.manage-address:hover{
+  text-decoration: underline;
 }

@@ -168,7 +168,7 @@ img{
   float: left;
 }
 
-.grey_price{
+/* .grey_price{
   float: right;
   width: 28px;
   height: 28px;
@@ -179,12 +179,13 @@ img{
   background-repeat: no-repeat;
   background-position: 5px 6px;
   cursor: pointer;
-}
+} */
 
 .grey_price2{
   float: right;
   width: 28px;
   height: 28px;
+  text-decoration: line-through;
 }
 
 .buy_btn{
@@ -210,7 +211,7 @@ img{
 
 .menu{
   width: 230px;
-  height: 600px;
+  height: 513px;
   /* border: 1px solid #ffb030; */
   border-color: #ffb030;
   border-style: solid;
@@ -241,7 +242,7 @@ img{
 }
 
 .menu ul li:first-child{
-  margin-top: 0;
+  margin-top: 15px;
 }
 
 .menu ul li span{
@@ -277,13 +278,14 @@ img{
   background-color: #fff;
   right: -1px;
   top: 0;
+  z-index: 1001;
   display: none;
 }
 
 .adsense-list-select{
   width: 970px;
   min-width: 970px;
-  min-height: 600px;
+  min-height: 513px;
   position: absolute;
   background-color: #fff;
   z-index: 1000;
@@ -293,6 +295,8 @@ img{
   box-sizing: border-box;
   border-right: 1px solid #ffb030;
   border-bottom: 1px solid #ffb030;
+  border-left: 1px solid #ffb030;
+  margin-left: -1px;
   display: none;
 }
 
@@ -334,14 +338,15 @@ img{
 }
 
 .adsense-dd a{
-  display: inline-block;
+  display: block;
   border-left: 1px solid #909090;
   box-sizing: border-box;
-  padding: 1px 10px;
+  padding: 1px 5px;
   margin: 4px 0;
   transition: all 0.3s;
   color: #646464;
   font-size: 12px;
+  float: left;
 }
 
 .adsense-dd a:hover{
@@ -505,6 +510,10 @@ img{
   text-align: center;
   font-size: 14px;
   border-right: 1px dashed rgba(255, 255, 255, 0.3);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #fff;
 }
 
 .brand-item-right{
@@ -576,7 +585,7 @@ img{
   margin-left: 12px;
   border: 1px solid #e2e2e2;
   background-color: #ffffff;
-  margin-top: 27px;
+  margin-top: 29px;
   position: relative;;
 }
 
@@ -1606,4 +1615,39 @@ img{
   margin: 0 auto;
   margin-top: 18px;
   cursor: pointer;
+}
+
+.triangle_border_nw{
+  width: 0;
+  height: 0;
+  border-width: 58px 60px 0 0;
+  border-style: solid;
+  border-color: #23a4ef transparent transparent transparent;
+  position: relative;
+  color: #fff;
+}
+
+.triangle_border_nw span{
+  position: absolute;
+  top: -55px;
+  left: -5px;
+  /* letter-spacing: 5px; */
+  font-size: 24px;
+}
+
+.floor_bg{
+  border-color: #1ecf97 transparent transparent transparent;
+}
+
+.floor_bg2{
+  border-color: #ffbc24 transparent transparent transparent;
+}
+
+.floor_bg3{
+  border-color: #ff735c transparent transparent transparent;
+}
+
+.floor_position span{
+  left: -10px;
+  letter-spacing: -2px;
 }

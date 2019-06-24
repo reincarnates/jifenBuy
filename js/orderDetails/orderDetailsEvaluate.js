@@ -9,7 +9,12 @@ $(function () {
   $('#evaluateUpload').on('change', function (event) {
     const files = event.target.files[0];
     var type = files.type.split("/")[1];
-    console.log(files, type);
+    var fq = $('#evaluateUpload');
+    // console.log(fq[0].files.length);
+    if(fq[0].files.length > 5) {
+      $('.goods-comment-item-tips').show();
+      return false;
+    }
     if (type == 'jpg' || type == 'png' || type == 'jpeg' || type == 'bmp') {
       if (files.size < 1024 * 1024 * 5) {
         alert('成功');
@@ -30,6 +35,18 @@ $(function () {
     }else{
       $('.goods-comment-item-right-not-comment').hide();
     }
+
+    if($('.goods-comment-item').length == 1) {
+      $('.comment-mask-warpper').show();
+    }else{
+      $('.comment-mask-warpper2').show();
+    }
+
+  });
+
+  //关闭评分成功弹出框
+  $('.comment-mask-head-img').on('click', function() {
+    $('.comment-mask-warpper').hide();
   });
 
   //textarea字数变化
@@ -176,6 +193,7 @@ $(function () {
       iStar = this.index;
       CommentP.style.display = "none";
       CommentSpan.innerHTML = "<strong>" + (this.index) + " 分</strong>";
+      // console.log(this.index);
     }
   }
 

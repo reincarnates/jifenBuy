@@ -121,7 +121,7 @@
   width: 1200px;
   height: 60px;
   overflow: hidden;
-  border-bottom: 1px dashed #ddd;
+  border-bottom: 1px solid #ddd;
   margin: 0 auto;
 }
 
@@ -181,7 +181,7 @@
 .retailers-wrapper{
   width: 1200px;
   height: 30px;
-  border-bottom: 1px dashed #ddd;
+  border-bottom: 1px solid #ddd;
   margin: 0 auto;
 }
 
@@ -394,9 +394,13 @@
   box-sizing: border-box;
 }
 
+.no-pad{
+  padding: 0;
+}
+
 .listpage-goods-item{
   width: 222px;
-  /* height: 360px; */
+  height: 360px;
   border: 1px solid #fff;
   margin-right: 18px;
   margin-bottom: 10px;
@@ -426,6 +430,7 @@
 
 .listpage-goods-item-word p{
   width: 196px;
+  height: 35px;
   line-height: 18px;
   overflow: hidden;
   text-overflow: ellipsis;

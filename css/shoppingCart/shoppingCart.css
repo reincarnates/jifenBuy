@@ -210,6 +210,7 @@ input[type=checkbox]:checked{
 .shop-goods-item-word-promise{
   float: left;
   margin-top: 5px;
+  margin-left: 10px;
 }
 
 .shop-goods-item-word-promise-seven{
@@ -682,7 +683,7 @@ a:hover{
   vertical-align: top;
 }
 .order_lists .list_con .list_text{
-  margin: 30px 0 0 0;
+  margin: 30px 0 0 10px;
   text-indent: 5px;
   color: #333;
   font-size: 12px;
@@ -691,7 +692,14 @@ a:hover{
   float: left;
 }
 .order_lists .list_con .list_text a{
+  height: 42px;
   color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
 }
 .order_lists .list_con .list_text a:hover{
   color: #ff873e;

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=EDGE; IE=9; IE=8; IE=7">
+  <meta http-equiv="X-UA-Compatible" content="IE=11" />
+  <meta name="apple-touch-fullscreen" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="format-detection" content="telephone=no" />
+  <link rel="stylesheet" href="../../css/reset.css">
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../css/paymentCenter/cashier.css">
+  <link rel="stylesheet" href="../../css/headOrfooter/headOrfooter.css">
+  <link rel="stylesheet" href="../../css/error/error.css">
+  <title>404</title>
+</head>
+
+<body>
+  <div class="payment_cashier_head_wrapper">
+    <div class="payment_cashier_head clearfix">
+      <div class="payment_cashier_head_left">
+        <img src="../../images/static/cashier.jpg" alt="">
+        <span>支付中心</span>
+      </div>
+      <div class="payment_cashier_head_right">
+        <div class="cashier_user">
+          下午好！
+          <span>180****2536</span>
+        </div>
+        <div class="cashier_ver">|</div>
+        <div class="cashier_order">
+          <a href="#">
+            我的订单
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cashier-error-wrapper">
+    <div class="cashier-error-reload-wrapper">
+      <div class="cashier-error-content">
+        <div class="not_status">404</div>
+        <div class="not_suggest">PAGE NOT FOUND</div>
+        <div class="not_word">页面好像迷路了！！！</div>
+        <div class="cashier-error-reload">
+          <span>返回</span>
+          <div class="circle-wrapper">
+            <div class="circle"></div>
+            <div class="circle circle2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../../lib/jq/jquery.old.js"></script>
+  <script src="../../js/error/error.js"></script>
+</body>
+
+</html>

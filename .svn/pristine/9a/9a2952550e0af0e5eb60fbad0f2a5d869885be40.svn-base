@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+.fuli-personal-feedback-wrapper {
+  width: 980px;
+  background-color: #fff;
+  margin-left: 19px;
+  padding: 0 33px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.personal-feedback-head {
+  width: 100%;
+  height: 156px;
+  border-bottom: 1px dashed #7f7f7f;
+  margin-top: 45px;
+}
+
+.personal-feedback-head-title {
+  width: 100%;
+  line-height: 94px;
+  text-align: center;
+  color: #fdb86d;
+  font-size: 20px;
+}
+
+.personal-feedback-head-content {
+  width: 620px;
+  line-height: 28px;
+  color: #666;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+.personal-feedback-content {
+  width: 545px;
+  margin: 0 auto;
+  margin-top: 13px;
+}
+
+.personal-feedback-frist-term {
+  width: 100%;
+}
+
+.personal-feedback-frist-term-title {
+  width: 100%;
+  line-height: 56px;
+  color: #666;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.must-fill {
+  font-size: 12px;
+  color: #ff1515;
+}
+
+.personal-feedback-frist-term-service {
+  width: 100%;
+  height: 168px;
+  background-color: #f6f6f6;
+  margin-bottom: 10px;
+  padding: 23px 43px;
+  box-sizing: border-box;
+  margin-left: 15px;
+}
+
+.personal-feedback-frist-term-textarea {
+  width: 100%;
+  height: 125px;
+  background-color: #f6f6f6;
+  outline: none;
+  border: none;
+}
+
+#upload-btn {
+  width: 227px;
+  height: 37px;
+  background-color: #fdb86d;
+  color: #fff;
+  text-align: center;
+  line-height: 37px;
+  margin: 20px 0;
+  cursor: pointer;
+  margin-left: 25px;
+}
+
+.personal-feedback-third-term-service-item {
+  width: 100px;
+  height: 33px;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 33px;
+  font-size: 12px;
+  color: #666;
+  margin-right: 40px;
+  margin-bottom: 34px;
+}
+
+.thirdColor {
+  border-color: #e98930;
+  color: #e98930;
+}
+
+.you-phone-word {
+  line-height: 33px;
+  font-size: 12px;
+  color: #666;
+  float: left;
+}
+
+.you-phone {
+  width: 230px;
+  height: 33px;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  float: left;
+}
+
+.you-phone input {
+  width: 100%;
+  height: 31px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+}
+
+.personal-feedback-second-term-service {
+  width: 251px;
+  height: 168px;
+  background-color: #f6f6f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+}
+
+.personal-feedback-third-term-service {
+  width: 100%;
+  padding-left: 18px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.personal-feedback-third-term-service-item:nth-child(4n+4){
+  margin-right: 0;
+}
+
+.personal-feedback-third-term-service-item:hover{
+  border-color: #e98930;
+  color: #e98930;
+  cursor: pointer;
+}
+
+.personal-feedback-fourth-term-submit{
+  width: 103px;
+  height: 37px;
+  background-color: #fdb86d;
+  color: #fff;
+  text-align: center;
+  line-height: 37px;
+  font-size: 18px;
+  margin: 50px 0;
+  cursor: pointer;
+}
+
+.seat{
+  width: 100%;
+  height: 50px;
+  background-color: #e9e9e9;
+}
