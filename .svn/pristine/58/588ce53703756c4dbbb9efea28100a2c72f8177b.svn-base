@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=EDGE; IE=9; IE=8; IE=7">
+  <meta http-equiv="X-UA-Compatible" content="IE=11" />
+  <meta name="apple-touch-fullscreen" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>提交订单</title>
+  <link rel="stylesheet" href="../../css/reset.css">
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../css/submintOrder/submintOrder.css">
+  <link rel="stylesheet" href="../../css/index/index.css">
+  <link rel="stylesheet" href="../../css/headOrfooter/headOrfooter.css">
+</head>
+
+<body>
+  <!-- 头部 -->
+  <div class="head">
+    <div class="head-top">
+      <div class="head-top-min">
+        <div id="seetion-info clearfix">
+          <div class="login-success-wrapper">
+            <!-- <div class="address">
+                <img src="./images/static/landmark.png" alt="">
+                <span class="check-city">北京</span>
+                <div class="cover"></div>
+                <div class="home-city">
+                  <div class="city-select-content">
+                    <div class="city-select">
+                      <dl class="clearfix">
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>上海</a>
+                          <a>天津</a>
+                          <a>重庆</a>
+                          <a>河北</a>
+                        </dd>
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>上海</a>
+                          <a>天津</a>
+                          <a>重庆</a>
+                          <a>河北</a>
+                        </dd>
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                        </dd>
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                        </dd>
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                        </dd>
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                        </dd>
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                        </dd>
+                      </dl>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="login-name">您好，<span>张勇</span>！</div>
+              <div class="sign-out pointer">退出</div> -->
+            <div class="not-login">你好，欢迎来到阳光福利采购网上商城</div>
+          </div>
+          <div class="key clearfix">
+            <span class="myOrder">
+              <a href="#">
+                我的订单
+              </a>
+              <i class="down"></i>
+              <div class="myOrder-item">
+                <ul>
+                  <li class="myOrder-item-one">
+                    <a href="#">
+
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      待付款（1）
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      待收货（1）
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      待评价（5）
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      售后（0）
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </span>
+            <span class="myOrder2">
+              <a href="#">
+                个人中心
+              </a>
+              <i class="down"></i>
+              <div class="myOrder-item">
+                <ul>
+                  <li>
+                  <li class="myOrder-item-one">
+                    <a href="#">
+
+                    </a>
+                  </li>
+                  <a href="#">
+                    我的余额
+                  </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      我的收藏
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      消息（5）
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      我的客服
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      退出登录
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </span>
+            <span><a href="#">商户工作台</a></span>
+            <span><a href="#">服务中心</a></span>
+            <span class="App">
+              <a href="#">
+                App
+              </a>
+              <div class="App-item">
+                <div class="triangle_border_up">
+                  <i></i>
+                </div>
+                <div class="iphone">
+                  <div class="iphone-code">
+                    <img src="../../images/static/iphone_code.png" alt="">
+                  </div>
+                  <div class="iphone-logo">
+                    <a href="#">
+                      <img src="../../images/static/iphone_logo.png" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="andriod">
+                  <div class="iphone-code">
+                    <img src="../../images/static/android_code.png" alt="">
+                  </div>
+                  <div class="iphone-logo">
+                    <a href="#">
+                      <img src="../../images/static/android_logo.png" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="fuli-public">
+                  <div class="iphone-code">
+                    <img src="../../images/static/android_code.png" alt="">
+                  </div>
+                  <div class="iphone-logo">
+                    <p>关注福利商城公众号</p>
+                    <p>公众号/福利商城</p>
+                  </div>
+                </div>
+              </div>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="head_mid">
+      <a href="#">
+        <img src="../../images/static/logo.png" alt="">
+      </a>
+      <div class="search">
+        <div class="search-input-wrapper clearfix">
+          <input class="search-input-left" type="text" placeholder="国际大牌母婴用品" />
+          <div class="search-input-right"></div>
+        </div>
+        <div class="hot">
+          <a href="#">打印机</a>
+          <a href="#">台式机</a>
+          <a href="#">便携式</a>
+        </div>
+        <div class="fuli-shelper">
+          <p class="fuli-shelper-words">
+            <span>热门搜索</span>
+            <span class="fuli-shelper-words-color">惠普i5内存条</span>
+            <span class="fuli-shelper-words-color">惠普i5内存条</span>
+            <span class="fuli-shelper-words-color">惠普i5内存条</span>
+            <span class="fuli-shelper-words-color">惠普</span>
+          </p>
+          <ul class="goods-list">
+            <li>
+              <a href="#">
+                <span class="goods-name">内存条8g</span>
+                <span class="history">历史记录</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="goods-name">内存条8g</span>
+                <span class="history">历史记录</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="goods-name">内存条8g</span>
+                <span class="history">历史记录</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="goods-name">内存条8g</span>
+                <span class="history">历史记录</span>
+              </a>
+            </li>
+          </ul>
+          <div class="all-delete">
+            <span class="pointer">全部清除</span>
+          </div>
+        </div>
+      </div>
+      <div class="shop_cart pointer">
+        <span>购物车</span>
+        <div class="search-select-small"></div>
+        <!-- 购物车有商品 -->
+        <!-- <div class="search-cart-select">
+          <div class="search-cart-select-head">最新加入商品</div>
+          <div class="search-cart-goods-all">
+            <div class="search-cart-goods-item">
+              <div class="goods-img"></div>
+              <p class="goods-account">
+                <a href="#">
+                  【买2送1】香水身体乳女全身美肤白净润肤露液体香乳去鸡皮肤
+                </a>
+              </p>
+              <div class="cart-price-del">
+                <p class="cart-price">
+                  ￥88.00 × 1
+                </p>
+                <p class="cart-delete pointer">
+                  删除
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="search-cart-all-price clearfix">
+          <span>共3件商品 共计0.00元</span>
+          <div class="go-cart pointer">
+            去购物车
+          </div>
+        </div> -->
+        <!-- 购物车有商品end -->
+        <div class="cart-count">0</div>
+        <!-- 购物车没有商品 -->
+        <div class="search-not-cart">
+          <div class="search-not-cart-img">
+            <img src="../../images/static/not_cart.png" alt="">
+            <span>购物车还没有商品赶快去选购吧！！！</span>
+          </div>
+        </div>
+        <!-- 购物车没有商品end -->
+      </div>
+    </div>
+  </div>
+  <!-- 头部end -->
+
+  <!-- 导航 -->
+  <div class="nav">
+    <div class="nav_main">
+      <div class="left_nav">
+        <h1 style="color: #fff;">
+          <a href="#">全部商品分类</a>
+        </h1>
+        <div class="listPageMenu">
+          <div class="menu">
+            <ul>
+              <li>
+                <span href="#">
+                  <img src="../../images/static/dian.png" width="20" height="20" alt="">
+                  电脑办公
+                </span>
+                <div class="mask"></div>
+              </li>
+              <li>
+                <span href="#">
+                  <img src="../../images/static/dian.png" width="20" height="20" alt="">
+                  办公电器
+                </span>
+                <div class="mask"></div>
+              </li>
+            </ul>
+            <div class="adsense-list-select listNone clearfix">
+              <div class="adsense-list-select-left">
+                <p class="clearfix">
+                  <a href="#">平板电脑</a>
+                  <a href="#">便携式计算机</a>
+                  <a href="#">台式计算机</a>
+                  <a href="#">一体机</a>
+                  <a href="#">多功能一体机</a>
+                  <a href="#">墨水</a>
+                  <a href="#">油墨</a>
+                  <a href="#">粉盒</a>
+                </p>
+                <dl class="adsense-list-select-item-left-content clearfix">
+                  <dt class="adsense-dt">
+                    <a href="#">计算机></a>
+                  </dt>
+                  <dd class="adsense-dd">
+                    <a href="#">平板电脑</a>
+                    <a href="#">便携式计算机</a>
+                    <a href="#">台式计算机</a>
+                    <a href="#">PC服务器</a>
+                    <a href="#">一体机</a>
+                    <a href="#">组装电脑</a>
+                  </dd>
+                </dl>
+              </div>
+              <div class="adsense-list-select-right">
+                <div class="adsense-list-select-right-item">
+                  <div class="adsense-list-select-right-item-img">
+                    <a href="#"><img src="../../images/static/list_img_03.png" alt=""></a>
+                  </div>
+                  <div class="adsense-list-select-right-item-word">
+                    养生壶
+                  </div>
+                </div>
+                <div class="adsense-list-select-right-item">
+                  <div class="adsense-list-select-right-item-img">
+                    <a href="#"><img src="../../images/static/list_img_03.png" alt=""></a>
+                  </div>
+                  <div class="adsense-list-select-right-item-word">
+                    养生壶
+                  </div>
+                </div>
+                <div class="adsense-list-select-right-item">
+                  <div class="adsense-list-select-right-item-img">
+                    <a href="#"><img src="../../images/static/list_img_03.png" alt=""></a>
+                  </div>
+                  <div class="adsense-list-select-right-item-word">
+                    养生壶
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="adsense-list-select listNone clearfix">
+              <div class="adsense-list-select-left">
+                <dl class="adsense-list-select-item-left-content clearfix">
+                  <dt class="adsense-dt">
+                    <a href="#">计算机></a>
+                  </dt>
+                  <dd class="adsense-dd">
+                    <a href="#">平板电脑</a>
+                    <a href="#">便携式计算机</a>
+                    <a href="#">台式计算机</a>
+                  </dd>
+                </dl>
+              </div>
+              <div class="adsense-list-select-right">
+                <div class="adsense-list-select-right-item">
+                  <div class="adsense-list-select-right-item-img">
+                    <a href="#"><img src="../../images/static/list_img_03.png" alt=""></a>
+                  </div>
+                  <div class="adsense-list-select-right-item-word">
+                    养生壶
+                  </div>
+                </div>
+                <div class="adsense-list-select-right-item">
+                  <div class="adsense-list-select-right-item-img">
+                    <a href="#"><img src="../../images/static/list_img_03.png" alt=""></a>
+                  </div>
+                  <div class="adsense-list-select-right-item-word">
+                    养生壶
+                  </div>
+                </div>
+                <div class="adsense-list-select-right-item">
+                  <div class="adsense-list-select-right-item-img">
+                    <a href="#"><img src="../../images/static/list_img_03.png" alt=""></a>
+                  </div>
+                  <div class="adsense-list-select-right-item-word">
+                    养生壶
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="jsddm clearfix">
+        <li class="jsddmli2"><a href="#">首页</a></li>
+        <li class="jsddmli"><a href="#">京东商城</a></li>
+        <li class="jsddmli"><a href="#">苏宁易购</a></li>
+        <li class="jsddmli"><a href="#">办公伙伴</a></li>
+        <li class="jsddmli"><a href="#">领先未来</a></li>
+        <li class="jsddmli"><a href="#">浙江物产</a></li>
+        <li class="jsddmli"><a href="#">一线达通</a></li>
+        <li class="jsddmli"><a href="#">福利品汇</a></li>
+      </ul>
+      <!-- 有多种品类的展示页面 -->
+      <!-- <div class="all-goods"></div> -->
+    </div>
+  </div>
+  <!-- 导航end -->
+
+  <!-- 内容 -->
+  <div class="fuli-bg">
+    <div class="fuli-container">
+      <div class="fuli-select-goods clearfix">
+        <h4>选择收货地址</h4>
+        <a href="#" class="manage-address">
+          管理收货地址
+        </a>
+      </div>
+      <div class="fuli-select-content">
+        <div class="fuli-select-height clearfix">
+          <div class="fuli-take-goods-wrapper pointer">
+            <div class="fuli-take-goods-head clearfix">
+              <div class="fuli-take-name">
+                <span>运费测试无运费地址</span> 
+              </div>
+              <span class="collect">收</span>
+              <div class="fuli-take-default-address">
+                默认地址
+              </div>
+              <div class="fuli-take-setdefault-address">
+                设为默认
+              </div>
+            </div>
+            <p class="prefecture">北京市 北京市 朝阳区</p>
+            <p class="detailed-address">国际大厦A座19层</p>
+            <p class="myphone">176***5683</p>
+            <p class="fuli-take-email">2461905877@qq.com</p>
+            <div class="fuli-take-setting">
+              <a href="javaScript:;" class="edit-take">修改</a>
+              <a href="javaScript:;" class="delete-take">删除</a>
+            </div>
+            <img src="../../images/static/selected.png" class="selected" alt="">
+          </div>
+          <div class="fuli-take-goods-wrapper pointer">
+            <div class="fuli-take-goods-head clearfix">
+              <div class="fuli-take-name">
+                <span>张××</span> 收
+              </div>
+              <div class="fuli-take-default-address">
+                默认地址
+              </div>
+              <div class="fuli-take-setdefault-address">
+                设为默认
+              </div>
+            </div>
+            <p class="prefecture">北京市 北京市 朝阳区</p>
+            <p class="detailed-address">国际大厦A座19层</p>
+            <p class="myphone">176***5683</p>
+            <p class="fuli-take-email">2461905877@qq.com</p>
+            <div class="fuli-take-setting">
+              <a href="javaScript:;" class="edit-take">修改</a>
+              <a href="javaScript:;" class="delete-take">删除</a>
+            </div>
+            <img src="../../images/static/selected.png" class="selected" alt="">
+          </div>
+          <div class="fuli-take-goods-wrapper pointer">
+            <div class="fuli-take-goods-head clearfix">
+              <div class="fuli-take-name">
+                <span>张××</span> 收
+              </div>
+              <div class="fuli-take-default-address">
+                默认地址
+              </div>
+              <div class="fuli-take-setdefault-address">
+                设为默认
+              </div>
+            </div>
+            <p class="prefecture">北京市 北京市 朝阳区</p>
+            <p class="detailed-address">国际大厦A座19层</p>
+            <p class="myphone">176***5683</p>
+            <p class="fuli-take-email">2461905877@qq.com</p>
+            <div class="fuli-take-setting">
+              <a href="javaScript:;" class="edit-take">修改</a>
+              <a href="javaScript:;" class="delete-take">删除</a>
+            </div>
+            <img src="../../images/static/selected.png" class="selected" alt="">
+          </div>
+          <div class="fuli-take-goods-wrapper pointer">
+            <div class="fuli-take-goods-head clearfix">
+              <div class="fuli-take-name">
+                <span>张××</span> 收
+              </div>
+              <div class="fuli-take-default-address">
+                默认地址
+              </div>
+              <div class="fuli-take-setdefault-address">
+                设为默认
+              </div>
+            </div>
+            <p class="prefecture">北京市 北京市 朝阳区</p>
+            <p class="detailed-address">国际大厦A座19层</p>
+            <p class="myphone">176***5683</p>
+            <p class="fuli-take-email">2461905877@qq.com</p>
+            <div class="fuli-take-setting">
+              <a href="javaScript:;" class="edit-take">修改</a>
+              <a href="javaScript:;" class="delete-take">删除</a>
+            </div>
+            <img src="../../images/static/selected.png" class="selected" alt="">
+          </div>
+          <div class="fuli-take-goods-wrapper pointer">
+            <div class="fuli-take-goods-head clearfix">
+              <div class="fuli-take-name">
+                <span>张××</span> 收
+              </div>
+              <div class="fuli-take-default-address">
+                默认地址
+              </div>
+              <div class="fuli-take-setdefault-address">
+                设为默认
+              </div>
+            </div>
+            <p class="prefecture">北京市 北京市 朝阳区</p>
+            <p class="detailed-address">国际大厦A座19层</p>
+            <p class="myphone">176***5683</p>
+            <p class="fuli-take-email">2461905877@qq.com</p>
+            <div class="fuli-take-setting">
+              <a href="javaScript:;" class="edit-take">修改</a>
+              <a href="javaScript:;" class="delete-take">删除</a>
+            </div>
+            <img src="../../images/static/selected.png" class="selected" alt="">
+          </div>
+          <div class="fuli-take-goods-wrapper pointer">
+            <div class="fuli-take-goods-head clearfix">
+              <div class="fuli-take-name">
+                <span>张××</span> 收
+              </div>
+              <div class="fuli-take-default-address">
+                默认地址
+              </div>
+              <div class="fuli-take-setdefault-address">
+                设为默认
+              </div>
+            </div>
+            <p class="prefecture">北京市 北京市 朝阳区</p>
+            <p class="detailed-address">国际大厦A座19层</p>
+            <p class="myphone">176***5683</p>
+            <p class="fuli-take-email">2461905877@qq.com</p>
+            <div class="fuli-take-setting">
+              <a href="javaScript:;" class="edit-take">修改</a>
+              <a href="javaScript:;" class="delete-take">删除</a>
+            </div>
+            <img src="../../images/static/selected.png" class="selected" alt="">
+          </div>
+          <div class="fuli-take-goods-wrapper pointer">
+            <div class="fuli-take-goods-head clearfix">
+              <div class="fuli-take-name">
+                <span>张××</span> 收
+              </div>
+              <div class="fuli-take-default-address">
+                默认地址
+              </div>
+              <div class="fuli-take-setdefault-address">
+                设为默认
+              </div>
+            </div>
+            <p class="prefecture">北京市 北京市 朝阳区</p>
+            <p class="detailed-address">国际大厦A座19层</p>
+            <p class="myphone">176***5683</p>
+            <p class="fuli-take-email">2461905877@qq.com</p>
+            <div class="fuli-take-setting">
+              <a href="javaScript:;" class="edit-take">修改</a>
+              <a href="javaScript:;" class="delete-take">删除</a>
+            </div>
+            <img src="../../images/static/selected.png" class="selected" alt="">
+          </div>
+          <div class="fuli-take-goods-wrapper pointer">
+            <div class="fuli-take-goods-head clearfix">
+              <div class="fuli-take-name">
+                <span>张××</span> 收
+              </div>
+              <div class="fuli-take-default-address">
+                默认地址
+              </div>
+              <div class="fuli-take-setdefault-address">
+                设为默认
+              </div>
+            </div>
+            <p class="prefecture">北京市 北京市 朝阳区</p>
+            <p class="detailed-address">国际大厦A座19层</p>
+            <p class="myphone">176***5683</p>
+            <p class="fuli-take-email">2461905877@qq.com</p>
+            <div class="fuli-take-setting">
+              <a href="javaScript:;" class="edit-take">修改</a>
+              <a href="javaScript:;" class="delete-take">删除</a>
+            </div>
+            <img src="../../images/static/selected.png" class="selected" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="show-all-address">
+        显示全部地址
+      </div>
+      <div class="fuli-new-address pointer">
+        + 新增收货地址
+      </div>
+      <div class="fuli-select-goods">
+        <h4>确认商品信息</h4>
+      </div>
+      <div class="fuli-submit-goods-info">
+        <div class="fuli-submit-goods-head">
+          <table class="fuli-submit-table">
+            <tr>
+              <td class="fuli-submit-news">商品信息</td>
+              <td class="fuli-submit-weight">重量（kg）</td>
+              <td class="fuli-submit-weight">单价（元）</td>
+              <td class="fuli-submit-weight">数量</td>
+              <td class="fuli-submit-weight">金额（元）</td>
+            </tr>
+          </table>
+        </div>
+        <div class="fuli-submit-service-time">
+          <img src="../../images/static/watch_time.png" class="mar-rn" alt="">
+          以下商品预计送达时间：2019-04-24
+        </div>
+        <div class="fuli-submit-goods-head2">
+          <table class="fuli-submit-table2">
+            <tr class="fuli-submit-table-tr">
+              <td class="fuli-submit-news clearfix">
+                <div class="fuli-news-img">
+                  <img src="../../images/static/myphone.png" alt="">
+                </div>
+                <div class="fuli-news-word">
+                  <p><a href="#">【保护视力 脑聪明】华为手机话u艾活动年啊就是</a></p>
+                </div>
+                <div class="fuli-return-goods">
+                  <span class="fuli-goods-seven">7</span>
+                  <span class="return-color">不支持天无理由退货</span>
+                </div>
+              </td>
+              <td class="fuli-submit-weight">0.13</td>
+              <td class="fuli-submit-weight">1850.00</td>
+              <td class="fuli-submit-weight">1</td>
+              <td class="fuli-submit-weight">185.00</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="fuli-invoice-wrapper">
+        <div class="fuli-invoice-rule clearfix">
+          <div class="fuli-invoice-rule-right mar-tw">
+            <div class="fuli-invoice-rule-word clearfix">
+              <div class="fuli-rule-goods-acount">
+                商品应付总计：
+              </div>
+              <div class="fuli-rule-goods-number">
+                ￥267.00
+              </div>
+            </div>
+            <div class="fuli-invoice-rule-word clearfix">
+              <div class="fuli-rule-goods-acount">
+                运费：
+              </div>
+              <div class="fuli-rule-goods-number">
+                ￥0.00
+              </div>
+            </div>
+            <div class="fuli-invoice-rule-word clearfix">
+              <div class="fuli-rule-goods-acount">
+                应付金额：
+              </div>
+              <div class="fuli-rule-goods-number acount-color">
+                ￥267.00
+              </div>
+            </div>
+            <div class="fuli-sub-order pointer">
+              提交订单
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 内容 -->
+
+  <!-- 删除地址模态框 -->
+  <div class="order-del-mask">
+    <div class="order-del-mask-wrapper">
+      <div class="order-del-mask-head clearfix">
+        <div class="order-del-mask-head-left">删除收货人信息</div>
+        <div class="order-del-mask-head-right">
+          <img src="../../images/static/del_goods_modal_close.png" alt="">
+        </div>
+      </div>
+      <div class="order-del-mask-content">
+        您确定要删除收货地址吗？
+      </div>
+      <div class="order-del-mask-setting clearfix">
+        <div class="order-del-mask-setting-left">
+          确定
+        </div>
+        <div class="order-del-mask-setting-right">
+          取消
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 删除地址模态框end -->
+
+  <!-- 添加地址模态框 -->
+  <div class="order-add-mask">
+    <div class="modal">
+      <div class="modal-head">
+        <span>添加收货地址</span>
+        <div class="modal-head-img pointer">
+          <img src="../../images/static/madel_close.png" alt="">
+        </div>
+      </div>
+      <div class="modal-content">
+        <!-- <div class="modal-content-item">
+          <div class="modal-content-item-word">
+            <span class="must">*</span>
+            收货人：
+          </div>
+          <div class="modal-content-item-input">
+            <input type="text" id="receiver" />
+          </div>
+        </div>
+        <div class="modal-content-item">
+          <div class="modal-content-item-word">
+            <span class="must">*</span>
+            所在地区：
+          </div>
+          <div class="modal-content-item-input">
+            <select class="modal-content-item-select" id="region">
+              <option value="">--请选择--</option>
+              <option value="北京">北京</option>
+            </select>
+          </div>
+        </div>
+        <div class="modal-content-item">
+          <div class="modal-content-item-word">
+            <span class="must">*</span>
+            详细地址：
+          </div>
+          <div class="modal-content-item-input">
+            <input type="text" class="address_input" id="address" />
+          </div>
+        </div>
+        <div class="modal-content-item">
+          <div class="modal-content-item-word">
+            <span class="must">*</span>
+            手机号码：
+            <span class="fixed_phone">固定电话：</span>
+          </div>
+          <div class="modal-content-item-input">
+            <input type="text" class="phone_number" id="mobileNumber" />
+            <span class="huo">或</span>
+            <input type="text" class="phone_number" id="fixedNumber" />
+          </div>
+        </div>
+        <div class="modal-content-item">
+          <div class="modal-content-item-word">
+            邮箱：
+          </div>
+          <div class="modal-content-item-input">
+            <input type="text" class="address_input" id="modalEmail" />
+          </div>
+        </div> -->
+        <form class="fuli-form">
+          <div class="fuli-form-item clearfix">
+            <div class="fuli-form-item-label">
+              <label class="fuli-form-item-required">所在地区</label>
+            </div>
+            <div class="fuli-form-item-contorl">
+              <div class="fuli-form-select-region pointer">
+                <input readonly type="text" data-toggle="city-picker" id="cityPicker" placeholder="请选择">
+              </div>
+              <span class="rule address-rule">请选择所在地区</span>
+            </div>
+          </div>
+          <div class="fuli-form-item clearfix">
+            <div class="fuli-form-item-label">
+              <label class="fuli-form-item-required">详细地址</label>
+            </div>
+            <div class="fuli-form-item-contorl">
+              <textarea class="fuli-form-textarea" id="infoAddress" placeholder="请具体到门牌号"></textarea>
+              <span class="rule info-address-rule">请填写详细地址</span>
+            </div>
+          </div>
+          <div class="fuli-form-item clearfix">
+            <div class="fuli-form-item-label">
+              <label class="fuli-form-item-required">收货人姓名</label>
+            </div>
+            <div class="fuli-form-item-contorl">
+              <input type="text" class="fuli-form-input" id="receiver" placeholder="请填写收货人姓名" />
+              <span class="rule info-address-rule2">请填写收货人姓名</span>
+            </div>
+          </div>
+          <div class="fuli-form-item clearfix">
+            <div class="fuli-form-item-label">
+              <label class="fuli-form-item-required">手机号码</label>
+            </div>
+            <div class="fuli-form-item-contorl">
+              <input type="text" class="fuli-form-input" id="phoneNumber" placeholder="请填写联系人手机号" />
+              <span class="rule info-address-rule3">请填写联系人手机号</span>
+            </div>
+          </div>
+          <div class="fuli-form-item clearfix">
+            <div class="fuli-form-item-label">
+              <label>电话号码</label>
+            </div>
+            <div class="fuli-form-item-contorl clearfix">
+              <div class="fuli-areacode">
+                <input type="text" class="fuli-form-input" id="areaCode" placeholder="区号" />
+              </div>
+              <em class="fuli-em">-</em>
+              <div class="fuli-phonecode">
+                <input type="text" class="fuli-form-input" id="landlineNumber" placeholder="电话号码" />
+              </div>
+              <em class="fuli-em">-</em>
+              <div class="fuli-extension">
+                <input type="text" class="fuli-form-input" id="extensionNumber" placeholder="分机号（可选）" />
+              </div>
+            </div>
+          </div>
+          <div class="fuli-form-item clearfix">
+            <div class="fuli-form-item-label">
+              <label>邮箱</label>
+            </div>
+            <div class="fuli-form-item-contorl">
+              <input type="text" class="fuli-form-input" id="modalEmail" placeholder="接收订单提醒邮件，便于您即使了解订单详情" />
+            </div>
+          </div>
+          <div class="fuli-form-item2 clearfix">
+            <div class="set_default">
+              <input type="checkbox" name="set_default" id="set_default">
+              <label for="">设为默认地址</label>
+            </div>
+          </div>
+          <div class="fuli-form-item clearfix">
+            <div class="save_new_address pointer">
+              保存新地址
+            </div>
+          </div>
+        </form>
+        <!-- <div class="modal-content-btn" id="addReceivingAddress">保存收货地址</div> -->
+      </div>
+    </div>
+  </div>
+  <!-- 添加地址模态框end -->
+
+  <!-- 修改地址模态框 -->
+  <div class="order-edit-mask">
+    <div class="modal">
+      <div class="modal-head">
+        <span>修改收货地址</span>
+        <div class="modal-head-img pointer">
+          <img src="../../images/static/madel_close.png" alt="">
+        </div>
+      </div>
+      <div class="modal-content">
+        <!-- <div class="modal-content-item">
+          <div class="modal-content-item-word">
+            <span class="must">*</span>
+            收货人：
+          </div>
+          <div class="modal-content-item-input">
+            <input type="text" id="editReceiver" />
+          </div>
+        </div>
+        <div class="modal-content-item">
+          <div class="modal-content-item-word">
+            <span class="must">*</span>
+            所在地区：
+          </div>
+          <div class="modal-content-item-input">
+            <select class="modal-content-item-select" id="editRegion">
+              <option value="">--请选择--</option>
+              <option value="北京市 北京市 朝阳区">北京市 北京市 朝阳区</option>
+            </select>
+          </div>
+        </div>
+        <div class="modal-content-item">
+          <div class="modal-content-item-word">
+            <span class="must">*</span>
+            详细地址：
+          </div>
+          <div class="modal-content-item-input">
+            <input type="text" class="address_input" id="editAddress" />
+          </div>
+        </div>
+        <div class="modal-content-item">
+          <div class="modal-content-item-word">
+            <span class="must">*</span>
+            手机号码：
+            <span class="fixed_phone">固定电话：</span>
+          </div>
+          <div class="modal-content-item-input">
+            <input type="text" class="phone_number" id="editMobileNumber" />
+            <span class="huo">或</span>
+            <input type="text" class="phone_number" id="editFixedNumber" />
+          </div>
+        </div>
+        <div class="modal-content-item">
+          <div class="modal-content-item-word">
+            邮箱：
+          </div>
+          <div class="modal-content-item-input">
+            <input type="text" class="address_input" id="editModalEmail" />
+          </div>
+        </div>
+        <div class="modal-content-btn" id="editReceivingAddress">保存收货地址</div> -->
+        <form class="fuli-form">
+          <div class="fuli-form-item clearfix">
+            <div class="fuli-form-item-label">
+              <label class="fuli-form-item-required">所在地区</label>
+            </div>
+            <div class="fuli-form-item-contorl">
+              <div class="fuli-form-select-region pointer">
+                <input readonly type="text" data-toggle="city-picker" id="editRegion" placeholder="请选择">
+              </div>
+              <span class="rule address-rule">请选择所在地区</span>
+            </div>
+          </div>
+          <div class="fuli-form-item clearfix">
+            <div class="fuli-form-item-label">
+              <label class="fuli-form-item-required">详细地址</label>
+            </div>
+            <div class="fuli-form-item-contorl">
+              <textarea class="fuli-form-textarea" id="editAddress" placeholder="请具体到门牌号"></textarea>
+              <span class="rule info-address-rule">请填写详细地址</span>
+            </div>
+          </div>
+          <div class="fuli-form-item clearfix">
+            <div class="fuli-form-item-label">
+              <label class="fuli-form-item-required">收货人姓名</label>
+            </div>
+            <div class="fuli-form-item-contorl">
+              <input type="text" class="fuli-form-input" id="editReceiver" placeholder="请填写收货人姓名" />
+              <span class="rule info-address-rule2">请填写收货人姓名</span>
+            </div>
+          </div>
+          <div class="fuli-form-item clearfix">
+            <div class="fuli-form-item-label">
+              <label class="fuli-form-item-required">手机号码</label>
+            </div>
+            <div class="fuli-form-item-contorl">
+              <input type="text" class="fuli-form-input" id="editMobileNumber" placeholder="请填写联系人手机号" />
+              <span class="rule info-address-rule3">请填写联系人手机号</span>
+            </div>
+          </div>
+          <div class="fuli-form-item clearfix">
+            <div class="fuli-form-item-label">
+              <label>电话号码</label>
+            </div>
+            <div class="fuli-form-item-contorl clearfix">
+              <div class="fuli-areacode">
+                <input type="text" class="fuli-form-input" id="areaCode" placeholder="区号" />
+              </div>
+              <em class="fuli-em">-</em>
+              <div class="fuli-phonecode">
+                <input type="text" class="fuli-form-input" id="landlineNumber" placeholder="电话号码" />
+              </div>
+              <em class="fuli-em">-</em>
+              <div class="fuli-extension">
+                <input type="text" class="fuli-form-input" id="extensionNumber" placeholder="分机号（可选）" />
+              </div>
+            </div>
+          </div>
+          <div class="fuli-form-item clearfix">
+            <div class="fuli-form-item-label">
+              <label>邮箱</label>
+            </div>
+            <div class="fuli-form-item-contorl">
+              <input type="text" class="fuli-form-input" id="editModalEmail" placeholder="接收订单提醒邮件，便于您即使了解订单详情" />
+            </div>
+          </div>
+          <div class="fuli-form-item2 clearfix">
+            <div class="set_default">
+              <input type="checkbox" name="set_default_address" id="set_default_address">
+              <label for="set_default_address">设为默认地址</label>
+            </div>
+          </div>
+          <div class="fuli-form-item clearfix">
+            <div class="save_new_address2 pointer" id="edit_save_address">
+              保存新地址
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- 修改地址模态框end -->
+
+  <script src="../../lib/jq/jquery.old.js"></script>
+  <script src="../../js/listPage/listPage.js"></script>
+  <script src="../../js/submintOrder/submintOrder.js"></script>
+  <script src="../../js/index/index.js"></script>
+  <script src="../../js/service/service.js"></script>
+  <script src="../../lib/city-picker/city-picker.data.js"></script>
+  <script src="../../lib/city-picker/city-picker.js"></script>
+</body>
+
+</html>

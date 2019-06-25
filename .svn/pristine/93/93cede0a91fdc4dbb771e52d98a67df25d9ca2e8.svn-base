@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=EDGE; IE=9; IE=8; IE=7">
+  <meta http-equiv="X-UA-Compatible" content="IE=11" />
+  <meta name="apple-touch-fullscreen" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="format-detection" content="telephone=no" />
+  <link rel="stylesheet" href="../../css/reset.css">
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../css/login/loginUser.css">
+  <title>用户登录</title>
+</head>
+<body>
+  <div class="login-header-wrap">
+    <div class="login-head">
+      <div class="login-head-left">
+        <img src="../../images/static/logo.png" alt="">
+      </div>
+      <div class="login-head-right">
+        <p>您好，欢迎来到FuliBuy福利商城</p>
+      </div>
+    </div>
+    <div class="login-content-bg">
+      <div class="login-content">
+        <div class="login-information">
+          <div class="login-information-head">
+            <div class="login-information-head-item cur2 pointer">
+              密码登录
+            </div>
+            <div class="login-information-head-item pointer">
+              短信登录
+            </div>
+          </div>
+          
+          <div class="login-form-content ob2 on2">
+            <div class="login-proving">
+              <div class="login-proving-right"></div>
+            </div>
+            <div class="login-user-input">
+              <div class="login-user-name">
+                <img src="../../images/static/user.png" alt>
+              </div>
+              <div class="login-user-name-right">
+                <input type="text" id="userName" placeholder="请输入商城账号" />
+              </div>
+            </div>
+            <div class="login-user-input">
+              <div class="login-user-name">
+                <img src="../../images/static/passImg.png" alt>
+              </div>
+              <div class="login-user-name-right">
+                <input type="password" id="passWord" class="password" placeholder="请输入密码" />
+                <a class="login-user-forgetPass pointer">重置密码</a>
+              </div>
+            </div>
+            <div class="login-user-input">
+              <div class="login-user-dynamicPass2">
+                <input type="text" id="rule" autocomplete="off" placeholder="请输入验证码" />
+              </div>
+              <div class="login-send-code2 pointer">
+                <img src="../../images/static/rule.jpg" alt="">
+                <a class="makecode" href="javascript:void(0)">看不清，换一张</a>
+              </div>
+            </div>
+            <div class="login-user-btn pointer" id="loginPass">登录</div>
+            <div class="coagent">
+              <ul class="clearfix">
+                <li>
+                  <a href="javascript:void(0)" class="pdl">
+                    <b class="wx_icon"></b>
+                    <span>微信登录</span>
+                  </a>
+                  <span class="line">|</span>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" class="pdl">
+                    <b class="zfb_icon"></b>
+                    <span>支付宝登录</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="login-form-content ob2">
+            <div class="login-proving" id="short">
+              <div class="login-proving-right"></div>
+            </div>
+            <div class="login-user-input">
+              <div class="login-user-name">
+                <img src="../../images/static/user.png" alt>
+              </div>
+              <div class="login-user-name-right">
+                <input type="text" id="userName2" placeholder="请输入手机号" />
+              </div>
+            </div>
+            
+            <div class="login-user-input">
+              <div class="login-user-dynamicPass2">
+                <input type="text" id="shortImgRule" placeholder="请输入验证码" />
+              </div>
+              <div class="login-send-code2 pointer">
+                <img src="../../images/static/rule.jpg" alt="">
+                <a class="makecode" href="javascript:void(0)">看不清，换一张</a>
+              </div>
+            </div>
+
+            <div class="login-user-input">
+              <div class="login-user-dynamicPass">
+                <input type="text" id="shortRule" placeholder="请输入短信验证码" />
+              </div>
+              <div class="login-send-code pointer" id="sendCode">发送验证码</div>
+            </div>
+
+            <div class="login-user-btn pointer" id="ruleLogin">登录</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="login-bottom">
+      <div class="login-bottom-content">
+        <span class="login-bottom-url"><a href="#">关于我们</a></span>
+        <span class="login-bottom-url"><a href="#">联系我们</a></span>
+        <span class="login-bottom-url"><a href="#">商家入驻</a></span>
+        <span class="login-bottom-url"><a href="#">友情链接</a></span>
+        <span class="login-bottom-url"><a href="#">手机商城</a></span>
+        <span class="login-bottom-url"><a href="#">商户工作台</a></span>
+        <span class="login-bottom-url2"><a href="#">帮助中心</a></span>
+        <div class="copy-right">Copyright@2010-2019 福利商城fulibuy.com版权所有</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../../lib/jq/jquery.old.js"></script>
+  <script src="../../js/login/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=EDGE; IE=9; IE=8; IE=7">
+  <meta http-equiv="X-UA-Compatible" content="IE=11" />
+  <meta name="apple-touch-fullscreen" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>申请售后-快递寄回</title>
+  <link rel="stylesheet" href="../../css/reset.css">
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../css/headOrfooter/headOrfooter.css">
+  <link rel="stylesheet" href="../../css/afterSale/applyAfterSaleEmb.css">
+</head>
+
+<body>
+  <!-- 头部 -->
+  <div class="head">
+    <div class="head-top">
+      <div class="head-top-min">
+        <div id="seetion-info clearfix">
+          <div class="login-success-wrapper">
+            <!-- <div class="address">
+                <img src="./images/static/landmark.png" alt="">
+                <span class="check-city">北京</span>
+                <div class="cover"></div>
+                <div class="home-city">
+                  <div class="city-select-content">
+                    <div class="city-select">
+                      <dl class="clearfix">
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>上海</a>
+                          <a>天津</a>
+                          <a>重庆</a>
+                          <a>河北</a>
+                        </dd>
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>上海</a>
+                          <a>天津</a>
+                          <a>重庆</a>
+                          <a>河北</a>
+                        </dd>
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                        </dd>
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                        </dd>
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                        </dd>
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                        </dd>
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                        </dd>
+                      </dl>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="login-name">您好，<span>张勇</span>！</div>
+              <div class="sign-out pointer">退出</div> -->
+            <div class="not-login">你好，欢迎来到阳光福利采购网上商城</div>
+          </div>
+          <div class="key clearfix">
+            <span class="myOrder">
+              <a href="#">
+                我的订单
+              </a>
+              <i class="down"></i>
+              <div class="myOrder-item">
+                <ul>
+                  <li class="myOrder-item-one">
+                    <a href="#">
+
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      待付款（1）
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      待收货（1）
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      待评价（5）
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      售后（0）
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </span>
+            <span class="myOrder2">
+              <a href="#">
+                个人中心
+              </a>
+              <i class="down"></i>
+              <div class="myOrder-item">
+                <ul>
+                  <li>
+                  <li class="myOrder-item-one">
+                    <a href="#">
+
+                    </a>
+                  </li>
+                  <a href="#">
+                    我的余额
+                  </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      我的收藏
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      消息（5）
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      我的客服
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      退出登录
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </span>
+            <span><a href="#">商户工作台</a></span>
+            <span><a href="#">服务中心</a></span>
+            <span class="App">
+              <a href="#">
+                App
+              </a>
+              <div class="App-item">
+                <div class="triangle_border_up">
+                  <i></i>
+                </div>
+                <div class="iphone">
+                  <div class="iphone-code">
+                    <img src="../../images/static/iphone_code.png" alt="">
+                  </div>
+                  <div class="iphone-logo">
+                    <a href="#">
+                      <img src="../../images/static/iphone_logo.png" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="andriod">
+                  <div class="iphone-code">
+                    <img src="../../images/static/android_code.png" alt="">
+                  </div>
+                  <div class="iphone-logo">
+                    <a href="#">
+                      <img src="../../images/static/android_logo.png" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="fuli-public">
+                  <div class="iphone-code">
+                    <img src="../../images/static/android_code.png" alt="">
+                  </div>
+                  <div class="iphone-logo">
+                    <p>关注福利商城公众号</p>
+                    <p>公众号/福利商城</p>
+                  </div>
+                </div>
+              </div>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="head_mid">
+      <a href="#">
+        <img src="../../images/static/logo.png" alt="">
+      </a>
+      <div class="search">
+        <div class="search-input-wrapper clearfix">
+          <input class="search-input-left" type="text" placeholder="国际大牌母婴用品" />
+          <div class="search-input-right"></div>
+        </div>
+        <div class="hot">
+          <a href="#">打印机</a>
+          <a href="#">台式机</a>
+          <a href="#">便携式</a>
+        </div>
+        <div class="fuli-shelper">
+          <p class="fuli-shelper-words">
+            <span>热门搜索</span>
+            <span class="fuli-shelper-words-color">惠普i5内存条</span>
+            <span class="fuli-shelper-words-color">惠普i5内存条</span>
+            <span class="fuli-shelper-words-color">惠普i5内存条</span>
+            <span class="fuli-shelper-words-color">惠普</span>
+          </p>
+          <ul class="goods-list">
+            <li>
+              <a href="#">
+                <span class="goods-name">内存条8g</span>
+                <span class="history">历史记录</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="goods-name">内存条8g</span>
+                <span class="history">历史记录</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="goods-name">内存条8g</span>
+                <span class="history">历史记录</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="goods-name">内存条8g</span>
+                <span class="history">历史记录</span>
+              </a>
+            </li>
+          </ul>
+          <div class="all-delete">
+            <span class="pointer">全部清除</span>
+          </div>
+        </div>
+      </div>
+      <div class="shop_cart pointer">
+        <span class="shop_cart_word">购物车</span>
+        <div class="search-select-small"></div>
+        <!-- 购物车有商品 -->
+        <!-- <div class="search-cart-select">
+          <div class="search-cart-select-head">最新加入商品</div>
+          <div class="search-cart-goods-all">
+            <div class="search-cart-goods-item">
+              <div class="goods-img"></div>
+              <p class="goods-account">
+                <a href="#">
+                  【买2送1】香水身体乳女全身美肤白净润肤露液体香乳去鸡皮肤
+                </a>
+              </p>
+              <div class="cart-price-del">
+                <p class="cart-price">
+                  ￥88.00 × 1
+                </p>
+                <p class="cart-delete pointer">
+                  删除
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="search-cart-all-price clearfix">
+          <span>共3件商品 共计0.00元</span>
+          <div class="go-cart pointer">
+            去购物车
+          </div>
+        </div> -->
+        <!-- 购物车有商品end -->
+        <div class="cart-count">0</div>
+        <!-- 购物车没有商品 -->
+        <div class="search-not-cart">
+          <div class="search-not-cart-img">
+            <img src="../../images/static/not_cart.png" alt="">
+            <span>购物车还没有商品赶快去选购吧！！！</span>
+          </div>
+        </div>
+        <!-- 购物车没有商品end -->
+      </div>
+    </div>
+  </div>
+  <!-- 头部end -->
+
+  <!-- 导航 -->
+  <div class="nav">
+    <div class="nav_main">
+      <div class="left_nav">
+        <h1 style="color: #fff;">
+          <a href="#">全部商品分类</a>
+        </h1>
+      </div>
+      <ul class="jsddm clearfix">
+        <li class="jsddmli2"><a href="#">首页</a></li>
+        <li class="jsddmli"><a href="#">京东商城</a></li>
+        <li class="jsddmli"><a href="#">苏宁易购</a></li>
+        <li class="jsddmli"><a href="#">办公伙伴</a></li>
+        <li class="jsddmli"><a href="#">领先未来</a></li>
+        <li class="jsddmli"><a href="#">浙江物产</a></li>
+        <li class="jsddmli"><a href="#">一线达通</a></li>
+        <li class="jsddmli"><a href="#">福利品汇</a></li>
+      </ul>
+      <!-- 有多种品类的展示页面 -->
+      <!-- <div class="all-goods"></div> -->
+    </div>
+  </div>
+  <!-- 导航end -->
+
+  <!-- 内容 -->
+  <div class="apply-after-sale-wrapper">
+    <div class="apply-after-sale-head">申请售后</div>
+    <div class="apply-after-sale-goods-content">
+      <div class="apply-after-sale-goods-head clearfix">
+        <div class="apply-after-sale-goods-head-name">商品名称</div>
+        <div class="apply-after-sale-goods-head-time">下单时间</div>
+        <div class="apply-after-sale-goods-head-time">退款金额</div>
+        <div class="apply-after-sale-goods-head-time">购买数量</div>
+      </div>
+      <div class="apply-after-sale-goods-info clearfix">
+        <div class="apply-after-sale-goods-info-left">
+          <div class="apply-after-sale-goods-info-left-img">
+            <img src="../../images/static/order_goods.png" alt="">
+          </div>
+          <p>
+            <a href="#">
+              SHISEIDO 资生堂旗下HANDCREAM 美润 药用美肌护手霜 100克/罐 2罐装
+            </a>
+          </p>
+        </div>
+        <div class="apply-after-sale-goods-info-time">
+          2019-05-19
+        </div>
+        <div class="apply-after-sale-goods-info-time">
+          ￥5454.00
+        </div>
+        <div class="apply-after-sale-goods-info-time apply-after-sale-goods-info-shop-number">
+          2
+        </div>
+      </div>
+    </div>
+    <div class="apply-after-sale-write-info">
+      <div class="apply-after-sale-write-info-item clearfix">
+        <div class="apply-after-sale-write-info-item-left">
+          <span>*</span>
+          售后类型：
+        </div>
+        <div class="apply-after-sale-write-info-item-right clearfix">
+          <div class="apply-after-sale-btn">仅退款</div>
+          <div class="apply-after-sale-btn">仅退货</div>
+          <div class="apply-after-sale-btn">退款退货</div>
+          <div class="after-sale after-sale-type">请选择售后类型</div>
+        </div>
+      </div>
+      <div class="apply-after-sale-write-info-item clearfix">
+        <div class="apply-after-sale-write-info-item-left">
+          <span>*</span>
+          提交数量：
+        </div>
+        <div class="apply-after-sale-write-info-item-right clearfix">
+          <div class="apply-after-sale-number apply-after-sale-reduce"></div>
+          <div class="apply-after-sale-input-wrapper">
+            <input type="text" class="apply-after-sale-input" value="1" />
+          </div>
+          <div class="apply-after-sale-number apply-after-sale-plus"></div>
+          <div class="apply-after-sale-upper-limit">您最多可提交数量为<span></span>个</div>
+        </div>
+      </div>
+      <div class="apply-after-sale-write-info-item clearfix">
+        <div class="apply-after-sale-write-info-item-left">
+          <span>*</span>
+          提交原因：
+        </div>
+        <div class="apply-after-sale-write-info-item-right clearfix">
+          <div class="apply-after-sale-select">
+            <input type="text" class="apply-after-sale-select-input" id="checkCause" placeholder="请选择售后原因" readonly>
+            <div class="apply-after-sale-select-content">
+              <ul>
+                <li>发错货</li>
+                <li>质量问题</li>
+                <li>商品与页面描述不符</li>
+                <li>商品损坏</li>
+                <li>缺少件</li>
+                <li>其他</li>
+              </ul>
+            </div>
+          </div>
+          <div class="after-sale submit-cause">请选择提交原因</div>
+        </div>
+      </div>
+      <div class="apply-after-sale-write-info-item clearfix">
+        <div class="apply-after-sale-write-info-item-left">
+          <span>*</span>
+          问题描述：
+        </div>
+        <div class="apply-after-sale-write-info-item-right clearfix">
+          <textarea class="apply-after-sale-textarea" maxlength="500" placeholder="请填写您的问题"
+            id="problemDescription"></textarea>
+          <span class="apply-after-sale-textarea-word-number"><span id="wordNumber">500</span>字</span>
+          <div class="after-sale problem-description">请填写问题描述</div>
+        </div>
+      </div>
+      <div class="apply-after-sale-write-info-item clearfix">
+        <div class="apply-after-sale-write-info-item-left">
+          图片信息：
+        </div>
+        <div class="apply-after-sale-write-info-item-right clearfix">
+          <div class="apply-after-sale-upload"></div>
+          <span class="apply-after-sale-upload-word">最多可上传5张图片，每张图片不超过5M，支持bmp,png,jepg,gif.jpg格式</span>
+          <input type="file" name="applyUpload" id="applyUpload" accept="image/png,image/gif,image/jpg,image/jpeg"
+            multiple style="display: none;" />
+          <span class="apply-after-sale-upload-suggest">为了帮助您更好的解决问题请上传图片</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 确认信息 -->
+  <div class="confirm-info-wrapper">
+    <div class="confirm-info-content">
+      <div class="confirm-info-content-head">确认信息</div>
+      <div class="confirm-info-content-type clearfix">
+        <div class="apply-after-sale-write-info-item clearfix">
+          <div class="apply-after-sale-write-info-item-left">
+            <span>*</span>
+            返回方式：
+          </div>
+          <div class="apply-after-sale-write-info-item-right clearfix">
+            <div class="apply-after-sale-btn2 apply-after-sale-btn-active">快递寄回</div>
+            <div class="apply-after-sale-btn2">上门取件</div>
+            <div class="after-sale return-mode">请选择返回方式</div>
+          </div>
+        </div>
+        <div class="apply-after-hide apply-after-show">
+          <div class="apply-after-sale-write-info-item clearfix">
+            <div class="apply-after-sale-write-info-item-left">
+              <span>*</span>
+              商家信息：
+            </div>
+          </div>
+          <div class="apply-after-sale-write-info-item pat-lw clearfix">
+            <div class="apply-after-sale-write-info-item-left">
+              收&nbsp;&nbsp;货&nbsp;&nbsp;人：
+            </div>
+            <div class="apply-after-sale-write-info-item-right clearfix">
+              <span class="receiving-color">李荣阳</span>
+            </div>
+          </div>
+          <div class="apply-after-sale-write-info-item pat-lw clearfix">
+            <div class="apply-after-sale-write-info-item-left">
+              手机号码：
+            </div>
+            <div class="apply-after-sale-write-info-item-right clearfix">
+              <span class="receiving-color">176****8888</span>
+            </div>
+          </div>
+          <div class="apply-after-sale-write-info-item pat-lw clearfix">
+            <div class="apply-after-sale-write-info-item-left">
+              退货地址：
+            </div>
+            <div class="apply-after-sale-write-info-item-right clearfix">
+              <span class="receiving-color">北京市门头沟区大约街道41000-1000</span>
+            </div>
+          </div>
+          <div class="apply-after-sale-write-info-item clearfix">
+            <div class="apply-after-sale-write-info-item-left">
+              <span>*</span>
+              用户信息：
+            </div>
+          </div>
+          <div class="apply-after-sale-write-info-item pat-lw clearfix">
+            <div class="apply-after-sale-write-info-item-left">
+              <!-- <span>*</span> -->
+              用户姓名：
+            </div>
+            <div class="apply-after-sale-write-info-item-right clearfix">
+              <input type="text" class="consignee" name="receiver" id="receiver" placeholder="请填写用户姓名">
+              <div class="after-sale after-receiver">请填写用户姓名</div>
+            </div>
+          </div>
+          <div class="apply-after-sale-write-info-item pat-lw clearfix">
+            <div class="apply-after-sale-write-info-item-left">
+              <!-- <span>*</span> -->
+              手机号码：
+            </div>
+            <div class="apply-after-sale-write-info-item-right clearfix">
+              <input type="text" class="consignee" name="phoneNumber" id="phoneNumber" placeholder="请填写手机号码">
+              <div class="after-sale phone-number">请填写手机号码</div>
+            </div>
+          </div>
+          <div class="confirm-info-content-type-btn">确认提交</div>
+        </div>
+        <div class="apply-after-hide">
+          <div class="apply-after-sale-write-info-item clearfix">
+            <div class="apply-after-sale-write-info-item-left">
+              <span>*</span>
+              用户姓名：
+            </div>
+            <div class="apply-after-sale-write-info-item-right clearfix">
+              <input type="text" class="consignee" name="receiver" id="receiver" placeholder="请填写用户姓名">
+              <div class="after-sale after-receiver">请填写用户姓名</div>
+            </div>
+          </div>
+          <div class="apply-after-sale-write-info-item clearfix">
+            <div class="apply-after-sale-write-info-item-left">
+              <span>*</span>
+              手机号码：
+            </div>
+            <div class="apply-after-sale-write-info-item-right clearfix">
+              <input type="text" class="consignee" name="phoneNumber" id="phoneNumber" placeholder="请填写手机号码">
+              <div class="after-sale phone-number">请填写手机号码</div>
+            </div>
+          </div>
+          <div class="apply-after-sale-write-info-item clearfix">
+            <div class="apply-after-sale-write-info-item-left">
+              <span>*</span>
+              取货地址：
+            </div>
+            <div class="apply-after-sale-write-info-item-right clearfix">
+              <select class="pick-address">
+                <option value="">北京</option>
+              </select>
+              <select class="pick-address">
+                <option value="">北京</option>
+              </select>
+              <select class="pick-address">
+                <option value="">朝阳区</option>
+              </select>
+            </div>
+          </div>
+          <div class="apply-after-sale-write-info-item clearfix">
+            <div class="apply-after-sale-write-info-item-left">
+              <span>*</span>
+              详细地址：
+            </div>
+            <div class="apply-after-sale-write-info-item-right clearfix">
+              <input type="text" class="detail-address" name="detailAddress" id="detailAddress" placeholder="请填写详细地址">
+              <div class="after-sale info-address">请填写详细地址</div>
+            </div>
+          </div>
+          <div class="apply-after-sale-write-info-item clearfix">
+            <div class="apply-after-sale-write-info-item-left">
+              <span>*</span>
+              取件时间：
+            </div>
+            <div class="apply-after-sale-write-info-item-right clearfix">
+              <input type="text" class="pick-time" name="pickTime" id="pickTime" readonly placeholder="请选择取件时间">
+              <div class="after-sale select-pick-time">请选择取件时间</div>
+              <div class="pick-word">请选择预约取件时间，审核通过后，京东将在此时间段为您取件</div>
+              <div class="pick-date-wrapper clearfix">
+                <div class="pick-date-left">
+                  <div class="pick-date-left-time-slot">时间段</div>
+                  <div class="pick-date-left-item">09:00-15:00</div>
+                  <div class="pick-date-left-item">15:00-21:00</div>
+                </div>
+                <div class="pick-date-right clearfix" id="timeSlot">
+                  <!-- <div class="pick-date-right-item">
+                        <div class="pick-date-right-date">
+                          <div>05-20</div>
+                          <div>周一</div>
+                        </div>
+                        <div class="pick-date-optional">可选</div>
+                        <div class="pick-date-optional">可选</div>
+                      </div> -->
+                  <!-- <div class="pick-date-right-item">
+                        <div class="pick-date-right-date">
+                          <div>05-21</div>
+                          <div>周二</div>
+                        </div>
+                        <div class="pick-date-optional">可选</div>
+                        <div class="pick-date-optional">可选</div>
+                      </div>
+                      <div class="pick-date-right-item">
+                        <div class="pick-date-right-date">
+                          <div>05-22</div>
+                          <div>周三</div>
+                        </div>
+                        <div class="pick-date-optional">可选</div>
+                        <div class="pick-date-optional">可选</div>
+                      </div>
+                      <div class="pick-date-right-item">
+                        <div class="pick-date-right-date">
+                          <div>05-23</div>
+                          <div>周四</div>
+                        </div>
+                        <div class="pick-date-optional">可选</div>
+                        <div class="pick-date-optional">可选</div>
+                      </div>
+                      <div class="pick-date-right-item">
+                        <div class="pick-date-right-date">
+                          <div>05-24</div>
+                          <div>周五</div>
+                        </div>
+                        <div class="pick-date-optional">可选</div>
+                        <div class="pick-date-optional">可选</div>
+                      </div>
+                      <div class="pick-date-right-item">
+                        <div class="pick-date-right-date">
+                          <div>05-25</div>
+                          <div>周六</div>
+                        </div>
+                        <div class="pick-date-optional">可选</div>
+                        <div class="pick-date-optional">可选</div>
+                      </div>
+                      <div class="pick-date-right-item">
+                        <div class="pick-date-right-date">
+                          <div>05-26</div>
+                          <div>周日</div>
+                        </div>
+                        <div class="pick-date-optional">可选</div>
+                        <div class="pick-date-optional">可选</div>
+                      </div> -->
+                </div>
+              </div>
+              <div class="pick-suggest">
+                <div>1、提交申请后，客服可能与你电话沟通，请保持手机畅通。</div>
+                <div>2、实际上门取件时间以快递服务商电话沟通为准。</div>
+              </div>
+              <div class="confirm-info-content-type-btn2">确认提交</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 确认信息end -->
+
+  <!-- 内容end -->
+
+  <!-- 提交成功弹框 -->
+  <div class="apply-submit-mask-wrapper">
+    <div class="apply-submit-mask">
+      <div class="apply-submit-mask-head clearfix">
+        <span>提示</span>
+        <div class="apply-submit-mask-head-right">
+          <img src="../../images/static/madel_close.png" alt="">
+        </div>
+      </div>
+      <div class="apply-submit-mask-content">
+        <img src="../../images/static/set_payment_success.png" alt="">
+        <span>提交成功</span>
+      </div>
+      <div class="apply-submit-mask-btn-wrapper clearfix">
+        <div class="apply-submit-mask-btn-left">填写运单号</div>
+        <div class="apply-submit-mask-btn-right">返回售后记录</div>
+      </div>
+    </div>
+  </div>
+  <!-- 提交成功弹框end -->
+
+  <!-- 上门取件提交成功弹框 -->
+  <div class="apply-submit-mask-wrapper2">
+    <div class="apply-submit-mask2">
+      <div class="apply-submit-mask-head clearfix">
+        <span>提示</span>
+        <div class="apply-submit-mask-head-right">
+          <img src="../../images/static/madel_close.png" alt="">
+        </div>
+      </div>
+      <div class="apply-submit-mask-content">
+        <img src="../../images/static/set_payment_success.png" alt="">
+        <span>提交成功</span>
+      </div>
+      <div class="apply-submit-mask-btn-wrapper clearfix">
+        <div class="apply-submit-mask-btn-left">查看详情</div>
+        <div class="apply-submit-mask-btn-right">返回售后记录</div>
+      </div>
+    </div>
+  </div>
+  <!-- 上门取件提交成功弹框end -->
+
+  <!-- 底部 -->
+  <div class="footer">
+    <div class="fuli-u-sm-12 fuli-footer clearfix">
+      <div class="fuli-footer-service">
+        <div class="footer-service-unit clearfix">
+          <div class="footer-service-img">
+            <img src="../../images/static/aftersale.png" alt="">
+          </div>
+          <div class="footer-service-word">
+            <h6 class="footer-service-tit">正品保障</h6>
+            <div class="footer-service-text">优质商品 福利放心购</div>
+          </div>
+        </div>
+      </div>
+      <div class="fuli-footer-service">
+        <div class="footer-service-unit clearfix">
+          <div class="footer-service-img">
+            <img src="../../images/static/classify.png" alt="">
+          </div>
+          <div class="footer-service-word">
+            <h6 class="footer-service-tit">尊享低价</h6>
+            <div class="footer-service-text">剔除溢价 保证性价比</div>
+          </div>
+        </div>
+      </div>
+      <div class="fuli-footer-service">
+        <div class="footer-service-unit clearfix">
+          <div class="footer-service-img">
+            <img src="../../images/static/security.png" alt="">
+          </div>
+          <div class="footer-service-word">
+            <h6 class="footer-service-tit">售后无忧</h6>
+            <div class="footer-service-text">退换便捷 物流全覆盖</div>
+          </div>
+        </div>
+      </div>
+      <div class="fuli-footer-service">
+        <div class="footer-service-unit clearfix">
+          <div class="footer-service-img">
+            <img src="../../images/static/like.png" alt="">
+          </div>
+          <div class="footer-service-word">
+            <h6 class="footer-service-tit">定制服务</h6>
+            <div class="footer-service-text">按需定制 享专属平台</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="fuli-u-sm-12 fuli-footer-help clearfix">
+      <div class="footer-help-list">
+        <div class="help-list-tit">操作指南</div>
+        <ul class="help-list-nav">
+          <li>
+            <a href="#">
+              免费注册
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              用户登录
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              采购流程
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              联系客户
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              购物保障
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-help-list">
+        <div class="help-list-tit">支付方式</div>
+        <ul class="help-list-nav">
+          <li>
+            <a href="#">
+              收费标准
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              验货签收
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-help-list">
+        <div class="help-list-tit">支付与充值</div>
+        <ul class="help-list-nav">
+          <li>
+            <a href="#">
+              在线支付
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              账户充值
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              账户安全
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-help-list">
+        <div class="help-list-tit">商户服务</div>
+        <ul class="help-list-nav">
+          <li>
+            <a href="#">
+              招商入驻
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              平台政策
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              商户工作台
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              结算售后
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-help-list">
+        <div class="help-list-tit">关于我们</div>
+        <ul class="help-list-nav">
+          <li>
+            <a href="#">
+              企业合作
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              招聘英才
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              帮助中心
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-help-list">
+        <div class="footer-help-public">
+          <div class="footer-help-code"></div>
+          <div class="footer-help-word">
+            公众号
+          </div>
+        </div>
+      </div>
+      <div class="footer-help-list">
+        <div class="footer-help-public">
+          <div class="footer-help-code"></div>
+          <div class="footer-help-word">
+            官方微信
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="fuli-u-sm-12 fuli-copyright-auth">
+      <div class="fuli-copyright-cont clearfix">
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-1 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-2 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-3 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-4 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-5 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-6 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-7 pointer"></div>
+        </a>
+      </div>
+    </div>
+    <div class="fuli-u-sm-12 fuli-copyright-info">
+      <p>
+        <a href="#" class="fuli-copyright-links">首页</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">招聘英才</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">合作及洽谈</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">联系我们</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">关于我们</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">商家管理</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">门店管理</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">自提站管理</a>
+        <span class="fuli-copyright-split">|</span>
+      </p>
+    </div>
+    <div class="fuli-u-sm-12 fuli-copyright-cert">
+      &copy;2016 athori.com 雷云智链 客户服务中心(7×24):101-88888888
+    </div>
+  </div>
+  <!-- 底部end -->
+
+
+  <script src="../../lib/jq/jquery.old.js"></script>
+  <script src="../../js/index/index.js"></script>
+  <script src="../../js/afterSale/applyAfterSaleEmb.js"></script>
+
+  <script>
+    window.onload = function () {
+      //获取今天的日期
+      var year2 = new Date().getFullYear();
+      var month2 = (new Date().getMonth() + 1);
+      var day2 = new Date().getDate();
+      if (month2 < 10) {
+        month2 = '0' + month2;
+      } else {
+        month2 == month2;
+      }
+
+      if (day2 < 10) {
+        day2 = '0' + day2;
+      } else {
+        day2 == day2;
+      }
+
+
+      // var cells = document.getElementById('monitor').getElementsByTagName('td');
+      var clen = 7;
+      var currentFirstDate;
+      var formatDate = function (date) {
+        var year = date.getFullYear();
+        var month = (date.getMonth() + 1);
+        var day = date.getDate();
+        var week = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'][date.getDay()];
+
+        if (month < 10) {
+          month = '0' + month;
+        } else {
+          month == month;
+        }
+
+        if (day < 10) {
+          day = '0' + day;
+        } else {
+          day == day;
+        }
+
+        var myDate = year + '-' + month + '-' + day;
+        var myDate2 = year2 + '-' + month2 + '-' + day2;
+        var currentTime = ConversionTime(myDate2);
+        var myTime = ConversionTime(myDate);
+        if (currentTime == myTime) {
+          myDate = '今日'
+        } else {
+          myDate = myDate;
+        }
+
+        var myDom = `
+            <div class="pick-date-right-item">
+              <div class="pick-date-right-date">
+                <div class='pickDate'>${myDate}</div>
+                <div class='pick-week'>${week}</div>
+              </div>
+              <div class="pick-date-optional">可选</div>
+              <div class="pick-date-optional2">可选</div>
+            </div>
+          `
+        if (myTime < currentTime) {
+          myDom = `
+            <div class="pick-date-right-item">
+              <div class="pick-date-right-date">
+                <div class='pickDate'>${myDate}</div>
+                <div class='pick-week'>${week}</div>
+              </div>
+              <div class="pick-date-optional disabled"></div>
+              <div class="pick-date-optional2 disabled"></div>
+            </div>
+          `
+        }
+
+        var onedate = new Date().toLocaleString('chinese', { hour12: false });
+        var twodate = onedate.split(' ')[1];
+        var threedate = twodate.substring(0, twodate.length - 3);
+        var flag = time_range('09:00', '15:00', threedate);
+        var flag2 = time_range('15:00', '21:00', threedate);
+        var timestamp = (new Date()).getTime() + 86400000;
+        var aTime = format(timestamp);
+        console.log(aTime);
+        // if(flag == true && flag2 == false && myTime < currentTime) {
+        //   myDom = `
+        //     <div class="pick-date-right-item">
+        //       <div class="pick-date-right-date">
+        //         <div class='pickDate'>${myDate}</div>
+        //         <div class='pick-week'>${week}</div>
+        //       </div>
+        //       <div class="pick-date-optional disabled"></div>
+        //       <div class="pick-date-optional2 disabled"></div>
+        //     </div>
+        //   `
+        // }else if(flag == false && flag2 == true && myTime < currentTime && myTime == currentTime) {
+        //   myDom = `
+        //     <div class="pick-date-right-item">
+        //       <div class="pick-date-right-date">
+        //         <div class='pickDate'>${myDate}</div>
+        //         <div class='pick-week'>${week}</div>
+        //       </div>
+        //       <div class="pick-date-optional disabled"></div>
+        //       <div class="pick-date-optional2">可选</div>
+        //     </div>
+        //   `
+        // }
+        // console.log(flag, flag2);
+        // return year + month + '-' + day + ' ' + week;
+        if (myTime == currentTime && flag == false && flag2 == true) {
+          myDom = `
+            <div class="pick-date-right-item">
+              <div class="pick-date-right-date">
+                <div class='pickDate'>${myDate}</div>
+                <div class='pick-week'>${week}</div>
+              </div>
+              <div class="pick-date-optional disabled"></div>
+              <div class="pick-date-optional2">可选</div>
+            </div>
+          `
+        } else if (myTime < currentTime && myTime == currentTime && flag == true && flag2 == false) {
+          myDom = `
+            <div class="pick-date-right-item">
+              <div class="pick-date-right-date">
+                <div class='pickDate'>${myDate}</div>
+                <div class='pick-week'>${week}</div>
+              </div>
+              <div class="pick-date-optional">可选</div>
+              <div class="pick-date-optional2 disabled"></div>
+            </div>
+          `
+        }
+        return myDom;
+      };
+      var addDate = function (date, n) {
+        date.setDate(date.getDate() + n);
+        return date;
+      };
+      var setDate = function (date) {
+        var week = date.getDay() - 1;
+        date = addDate(date, week * -1);
+        currentFirstDate = new Date(date);
+
+        for (var i = 0; i < clen; i++) {
+          // cells[i].innerHTML = formatDate(i == 0 ? date : addDate(date, 1));
+          $('#timeSlot').append(formatDate(i == 0 ? date : addDate(date, 1)))
+        }
+      };
+      setDate(new Date());
+
+      function add0(m) { return m < 10 ? '0' + m : m }
+      function format(shijianchuo) {
+        //shijianchuo是整数，否则要parseInt转换
+        var time = new Date(shijianchuo);
+        var y = time.getFullYear();
+        var m = time.getMonth() + 1;
+        var d = time.getDate();
+        return y + '-' + add0(m) + '-' + add0(d);
+      }
+
+
+      
+
+      //十四位时间转换时间戳
+      function ConversionTime(dateString) {
+        let pattern = /(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})/;
+        let formatedDate = dateString.replace(/(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})/, '$1-$2-$3 $4:$5:$6');
+        let newTime = new Date(formatedDate).getTime();
+        return newTime;
+      }
+
+      function time_range(beginTime, endTime, nowTime) {
+        var strb = beginTime.split(":");
+        if (strb.length != 2) {
+          return false;
+        }
+
+        var stre = endTime.split(":");
+        if (stre.length != 2) {
+          return false;
+        }
+
+        var strn = nowTime.split(":");
+        if (stre.length != 2) {
+          return false;
+        }
+
+        var b = new Date();
+        var e = new Date();
+        var n = new Date();
+
+        b.setHours(strb[0]);
+
+        b.setMinutes(strb[1]);
+
+        e.setHours(stre[0]);
+
+        e.setMinutes(stre[1]);
+
+        n.setHours(strn[0]);
+
+        n.setMinutes(strn[1]);
+
+        if (n.getTime() - b.getTime() > 0 && n.getTime() - e.getTime() < 0) {
+          return true;
+        } else {
+          return false;
+        }
+      }
+
+    }
+
+  </script>
+</body>
+
+</html>

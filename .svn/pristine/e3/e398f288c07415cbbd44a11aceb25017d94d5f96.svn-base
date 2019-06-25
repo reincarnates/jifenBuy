@@ -1,0 +1,1272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=EDGE; IE=9; IE=8; IE=7">
+  <meta http-equiv="X-UA-Compatible" content="IE=11" />
+  <meta name="apple-touch-fullscreen" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>列表</title>
+  <link rel="stylesheet" href="../../css/reset.css">
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../css/slide/slide.css">
+  <link rel="stylesheet" href="../../css/listPage/listPage.css">
+  <link rel="stylesheet" href="../../css/index/index.css">
+  <link rel="stylesheet" href="../../css/headOrfooter/headOrfooter.css">
+</head>
+
+<body>
+  <!-- 头部 -->
+  <div class="head">
+    <div class="head-top">
+      <div class="head-top-min">
+        <div id="seetion-info clearfix">
+          <div class="login-success-wrapper">
+            <!-- <div class="address">
+                <img src="./images/static/landmark.png" alt="">
+                <span class="check-city">北京</span>
+                <div class="cover"></div>
+                <div class="home-city">
+                  <div class="city-select-content">
+                    <div class="city-select">
+                      <dl class="clearfix">
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>上海</a>
+                          <a>天津</a>
+                          <a>重庆</a>
+                          <a>河北</a>
+                        </dd>
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>上海</a>
+                          <a>天津</a>
+                          <a>重庆</a>
+                          <a>河北</a>
+                        </dd>
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                        </dd>
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                        </dd>
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                        </dd>
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                        </dd>
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                        </dd>
+                      </dl>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="login-name">您好，<span>张勇</span>！</div>
+              <div class="sign-out pointer">退出</div> -->
+            <div class="not-login">你好，欢迎来到阳光福利采购网上商城</div>
+          </div>
+          <div class="key clearfix">
+            <span class="myOrder">
+              <a href="#">
+                我的订单
+              </a>
+              <i class="down"></i>
+              <div class="myOrder-item">
+                <ul>
+                  <li class="myOrder-item-one">
+                    <a href="#">
+
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      待付款（1）
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      待收货（1）
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      待评价（5）
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      售后（0）
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </span>
+            <span class="myOrder2">
+              <a href="#">
+                个人中心
+              </a>
+              <i class="down"></i>
+              <div class="myOrder-item">
+                <ul>
+                  <li>
+                  <li class="myOrder-item-one">
+                    <a href="#">
+
+                    </a>
+                  </li>
+                  <a href="#">
+                    我的余额
+                  </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      我的收藏
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      消息（5）
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      我的客服
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      退出登录
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </span>
+            <span><a href="#">商户工作台</a></span>
+            <span><a href="#">服务中心</a></span>
+            <span class="App">
+              <a href="#">
+                App
+              </a>
+              <div class="App-item">
+                <div class="triangle_border_up">
+                  <i></i>
+                </div>
+                <div class="iphone">
+                  <div class="iphone-code">
+                    <img src="../../images/static/iphone_code.png" alt="">
+                  </div>
+                  <div class="iphone-logo">
+                    <a href="#">
+                      <img src="../../images/static/iphone_logo.png" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="andriod">
+                  <div class="iphone-code">
+                    <img src="../../images/static/android_code.png" alt="">
+                  </div>
+                  <div class="iphone-logo">
+                    <a href="#">
+                      <img src="../../images/static/android_logo.png" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="fuli-public">
+                  <div class="iphone-code">
+                    <img src="../../images/static/android_code.png" alt="">
+                  </div>
+                  <div class="iphone-logo">
+                    <p>关注福利商城公众号</p>
+                    <p>公众号/福利商城</p>
+                  </div>
+                </div>
+              </div>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="head_mid">
+      <a href="#">
+        <img src="../../images/static/logo.png" alt="">
+      </a>
+      <div class="search">
+        <div class="search-input-wrapper clearfix">
+          <input class="search-input-left" type="text" placeholder="国际大牌母婴用品" />
+          <div class="search-input-right"></div>
+        </div>
+        <div class="hot">
+          <a href="#">打印机</a>
+          <a href="#">台式机</a>
+          <a href="#">便携式</a>
+        </div>
+        <div class="fuli-shelper">
+          <p class="fuli-shelper-words">
+            <span>热门搜索</span>
+            <span class="fuli-shelper-words-color">惠普i5内存条</span>
+            <span class="fuli-shelper-words-color">惠普i5内存条</span>
+            <span class="fuli-shelper-words-color">惠普i5内存条</span>
+            <span class="fuli-shelper-words-color">惠普</span>
+          </p>
+          <ul class="goods-list">
+            <li>
+              <a href="#">
+                <span class="goods-name">内存条8g</span>
+                <span class="history">历史记录</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="goods-name">内存条8g</span>
+                <span class="history">历史记录</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="goods-name">内存条8g</span>
+                <span class="history">历史记录</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="goods-name">内存条8g</span>
+                <span class="history">历史记录</span>
+              </a>
+            </li>
+          </ul>
+          <div class="all-delete">
+            <span class="pointer">全部清除</span>
+          </div>
+        </div>
+      </div>
+      <div class="shop_cart pointer">
+        <span>购物车</span>
+        <div class="search-select-small"></div>
+        <!-- 购物车有商品 -->
+        <!-- <div class="search-cart-select">
+          <div class="search-cart-select-head">最新加入商品</div>
+          <div class="search-cart-goods-all">
+            <div class="search-cart-goods-item">
+              <div class="goods-img"></div>
+              <p class="goods-account">
+                <a href="#">
+                  【买2送1】香水身体乳女全身美肤白净润肤露液体香乳去鸡皮肤
+                </a>
+              </p>
+              <div class="cart-price-del">
+                <p class="cart-price">
+                  ￥88.00 × 1
+                </p>
+                <p class="cart-delete pointer">
+                  删除
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="search-cart-all-price clearfix">
+          <span>共3件商品 共计0.00元</span>
+          <div class="go-cart pointer">
+            去购物车
+          </div>
+        </div> -->
+        <!-- 购物车有商品end -->
+        <div class="cart-count">100</div>
+        <!-- 购物车没有商品 -->
+        <div class="search-not-cart">
+          <div class="search-not-cart-img">
+            <img src="../../images/static/not_cart.png" alt="">
+            <span>购物车还没有商品赶快去选购吧！！！</span>
+          </div>
+        </div>
+        <!-- 购物车没有商品end -->
+      </div>
+    </div>
+  </div>
+  <!-- 头部end -->
+
+  <!-- 右侧面板 -->
+  <div class="J-global-toolbar">
+    <div class="toolbar-wrap J-wrap">
+      <div class="toolbar">
+        <div class="toolbar-panels J-panel">
+          <div style="visibility: hidden;" class="J-content toolbar-panel tbar-panel-cart toolbar-animate-out">
+            <div class="ichat-head">联系客服</div>
+            <div class="ichat">
+              <div class="ichat-title">苏宁易购</div>
+              <div class="ichat-list">
+                <ul class="ichat-list-ul">
+                  <li>
+                    <a href="#" style="background-image: url(../../images/static/tel.png);">400-8516516</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="ichat">
+              <div class="ichat-title">京东商城</div>
+              <div class="ichat-list">
+                <ul class="ichat-list-ul">
+                  <li>
+                    <a href="#" style="background-image: url(../../images/static/tel.png);">400-6066866</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="ichat">
+              <div class="ichat-title">办公伙伴</div>
+              <div class="ichat-list">
+                <ul class="ichat-list-ul">
+                  <li>
+                    <a href="#" style="background-image: url(../../images/static/tel.png);">400-6066866</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="ichat">
+              <div class="ichat-title">企事通</div>
+              <div class="ichat-list">
+                <ul class="ichat-list-ul">
+                  <li>
+                    <a href="#" style="background-image: url(../../images/static/tel.png);">400-6066866</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="ichat">
+              <div class="ichat-title">一线达通</div>
+              <div class="ichat-list">
+                <ul class="ichat-list-ul">
+                  <li>
+                    <a href="#" style="background-image: url(../../images/static/tel.png);">400-6066866</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="ichat">
+              <div class="ichat-title">一线达通</div>
+              <div class="ichat-list">
+                <ul class="ichat-list-ul">
+                  <li>
+                    <a href="#" style="background-image: url(../../images/static/tel.png);">400-6066866</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div style="visibility: hidden;" data-name="follow" class="J-content toolbar-panel tbar-panel-follow">
+            <div class="ichat-head2">我的消息</div>
+            <div class="mssage-content">
+              <div class="mssage-content-item">
+                <span>拥抱母亲，请珍惜时光</span>
+              </div>
+
+              <div class="mssage-btn-wrapper">
+                <div class="mssage-btn pointer">查看全部消息</div>
+              </div>
+            </div>
+          </div>
+
+          <div style="visibility: hidden;" class="J-content toolbar-panel tbar-panel-history toolbar-animate-in">
+            <div class="ichat-head2">我的足迹</div>
+            <div class="tbar-panel-main">
+              <div class="tbar-panel-content J-panel-content">
+                <div class="jt-history-wrap">
+                  <ul>
+                    <li class="jth-item">
+                      <a href="#" class="img-wrap"> <img
+                          src="http://img10.360buyimg.com/n0/s100x100_g9/M03/0C/18/rBEHalCKCk8IAAAAAAD5nbR5xOAAACfgQENi_wAAPm1269.jpg"
+                          height="100" width="100" /> </a>
+                      <a class="add-cart-button" href="#" target="_blank">加入购物车</a>
+                      <a href="#" target="_blank" class="prices">￥498.00</a>
+                    </li>
+                    <li class="jth-item">
+                      <a href="#" class="img-wrap"> <img
+                          src="http://img10.360buyimg.com/n0/s100x100_g9/M03/0C/18/rBEHalCKCk8IAAAAAAD5nbR5xOAAACfgQENi_wAAPm1269.jpg"
+                          height="100" width="100" /></a>
+                      <a class="add-cart-button" href="#" target="_blank">加入购物车</a>
+                      <a href="#" target="_blank" class="prices">￥498.00</a>
+                    </li>
+                  </ul>
+                  <a href="#" class="history-bottom-more" target="_blank">查看更多足迹商品 &gt;&gt;</a>
+                </div>
+              </div>
+            </div>
+            <div class="tbar-panel-footer J-panel-footer"></div>
+          </div>
+
+          <div style="visibility: hidden;" class="J-content toolbar-panel tbar-panel-back toolbar-animate-in">
+            <div class="ichat-head2">填写反馈</div>
+            <div class="feedback-content">
+              <p>亲爱的用户，您的宝贵意见和建议将 帮助我们更好的提升服务质量!</p>
+              <div class="form-title">
+                <span>*</span>内容
+              </div>
+              <textarea name="content" class="form-content"></textarea>
+              <div class="form-title">
+                <span>*</span>邮箱
+              </div>
+              <input type="email" class="form-email">
+              <div class="form-title">
+                <span>*</span>姓名
+              </div>
+              <input type="text" class="form-email">
+              <div class="form-submit pointer">提交</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="toolbar-header"></div>
+
+        <div class="toolbar-tabs J-tab">
+          <div class="toolbar-tab tbar-tab-cart">
+            <i class="tab-ico"></i>
+            <em class="tab-text">客服</em>
+            客服
+          </div>
+          <div class=" toolbar-tab tbar-tab-follow">
+            <i class="tab-ico"></i>
+            <em class="tab-text">消息</em>
+            消息
+          </div>
+          <div class=" toolbar-tab tbar-tab-history ">
+            <i class="tab-ico"></i>
+            <em class="tab-text">足迹</em>
+            足迹
+          </div>
+          <div class=" toolbar-tab tbar-tab-back">
+            <i class="tab-ico"></i>
+            <em class="tab-text">反馈</em>
+            反馈
+          </div>
+        </div>
+
+        <div class="toolbar-mini"></div>
+
+      </div>
+
+      <div id="J-toolbar-load-hook"></div>
+
+    </div>
+  </div>
+
+  <div class="toolbar-footer" id="toTop">
+    <div class="toolbar-tab tbar-tab-top">
+      <a>
+        <i class="tab-ico"></i>
+        顶部
+      </a>
+    </div>
+  </div>
+  <!-- 右侧面板end -->
+
+  <!-- 导航 -->
+  <div class="nav">
+    <div class="nav_main">
+      <div class="left_nav">
+        <h1 style="color: #fff;">
+          <a href="#">全部商品分类</a>
+        </h1>
+        <div class="listPageMenu">
+          <div class="menu">
+            <ul>
+              <li>
+                <span href="#">
+                  <img src="../../images/static/dian.png" width="20" height="20" alt="">
+                  电脑办公
+                </span>
+                <div class="mask"></div>
+              </li>
+              <li>
+                <span href="#">
+                  <img src="../../images/static/dian.png" width="20" height="20" alt="">
+                  办公电器
+                </span>
+                <div class="mask"></div>
+              </li>
+            </ul>
+            <div class="adsense-list-select listNone clearfix">
+              <div class="adsense-list-select-left">
+                <p class="clearfix">
+                  <a href="#">平板电脑</a>
+                  <a href="#">便携式计算机</a>
+                  <a href="#">台式计算机</a>
+                  <a href="#">一体机</a>
+                  <a href="#">多功能一体机</a>
+                  <a href="#">墨水</a>
+                  <a href="#">油墨</a>
+                  <a href="#">粉盒</a>
+                </p>
+                <dl class="adsense-list-select-item-left-content clearfix">
+                  <dt class="adsense-dt">
+                    <a href="#">计算机></a>
+                  </dt>
+                  <dd class="adsense-dd">
+                    <a href="#">平板电脑</a>
+                    <a href="#">便携式计算机</a>
+                    <a href="#">台式计算机</a>
+                    <a href="#">PC服务器</a>
+                    <a href="#">一体机</a>
+                    <a href="#">组装电脑</a>
+                  </dd>
+                </dl>
+              </div>
+              <div class="adsense-list-select-right">
+                <div class="adsense-list-select-right-item">
+                  <div class="adsense-list-select-right-item-img">
+                    <a href="#"><img src="./images/static/list_img_03.png" alt=""></a>
+                  </div>
+                  <div class="adsense-list-select-right-item-word">
+                    养生壶
+                  </div>
+                </div>
+                <div class="adsense-list-select-right-item">
+                  <div class="adsense-list-select-right-item-img">
+                    <a href="#"><img src="./images/static/list_img_03.png" alt=""></a>
+                  </div>
+                  <div class="adsense-list-select-right-item-word">
+                    养生壶
+                  </div>
+                </div>
+                <div class="adsense-list-select-right-item">
+                  <div class="adsense-list-select-right-item-img">
+                    <a href="#"><img src="./images/static/list_img_03.png" alt=""></a>
+                  </div>
+                  <div class="adsense-list-select-right-item-word">
+                    养生壶
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="adsense-list-select listNone clearfix">
+              <div class="adsense-list-select-left">
+                <dl class="adsense-list-select-item-left-content clearfix">
+                  <dt class="adsense-dt">
+                    <a href="#">计算机></a>
+                  </dt>
+                  <dd class="adsense-dd">
+                    <a href="#">平板电脑</a>
+                    <a href="#">便携式计算机</a>
+                    <a href="#">台式计算机</a>
+                  </dd>
+                </dl>
+              </div>
+              <div class="adsense-list-select-right">
+                <div class="adsense-list-select-right-item">
+                  <div class="adsense-list-select-right-item-img">
+                    <a href="#"><img src="./images/static/list_img_03.png" alt=""></a>
+                  </div>
+                  <div class="adsense-list-select-right-item-word">
+                    养生壶
+                  </div>
+                </div>
+                <div class="adsense-list-select-right-item">
+                  <div class="adsense-list-select-right-item-img">
+                    <a href="#"><img src="./images/static/list_img_03.png" alt=""></a>
+                  </div>
+                  <div class="adsense-list-select-right-item-word">
+                    养生壶
+                  </div>
+                </div>
+                <div class="adsense-list-select-right-item">
+                  <div class="adsense-list-select-right-item-img">
+                    <a href="#"><img src="./images/static/list_img_03.png" alt=""></a>
+                  </div>
+                  <div class="adsense-list-select-right-item-word">
+                    养生壶
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="jsddm clearfix">
+        <li class="jsddmli2"><a href="#">首页</a></li>
+        <li class="jsddmli"><a href="#">京东商城</a></li>
+        <li class="jsddmli"><a href="#">苏宁易购</a></li>
+        <li class="jsddmli"><a href="#">办公伙伴</a></li>
+        <li class="jsddmli"><a href="#">领先未来</a></li>
+        <li class="jsddmli"><a href="#">浙江物产</a></li>
+        <li class="jsddmli"><a href="#">一线达通</a></li>
+        <li class="jsddmli"><a href="#">福利品汇</a></li>
+      </ul>
+      <!-- 有多种品类的展示页面 -->
+      <!-- <div class="all-goods"></div> -->
+    </div>
+  </div>
+  <!-- 导航end -->
+
+  <!-- 热卖推荐 -->
+  <div class="fare-well-wrapper2">
+    <!-- 二级导航 -->
+    <div class="second-nav-wrapper2 clearfix">
+      <span class="frist-classify2"><a href="#">数码通讯</a></span>
+      <span class="crumbs-arrow">></span>
+      <span class="second-classify"><a href="#">'手机'</a></span>
+      <span class="crumbs">
+        <span class='crumbs-wrapper'>
+          <span class="crumbs-arrow">></span>
+          <a href="javaScript:;" class="crumb-select-item">
+            <b></b>
+            <em></em>
+            <i></i>
+          </a>
+        </span>
+        <span class='crumbs-wrapper2'>
+          <span class="crumbs-arrow">></span>
+          <a href="javaScript:;" class="crumb-select-item">
+            <b></b>
+            <em></em>
+            <i></i>
+          </a>
+        </span>
+        <span class='crumbs-wrapper3'>
+          <span class="crumbs-arrow">></span>
+          <a href="javaScript:;" class="crumb-select-item">
+            <b></b>
+            <em></em>
+            <i></i>
+          </a>
+        </span>
+      </span>
+    </div>
+    <!-- 二级导航end -->
+
+    <!-- 品牌 -->
+    <div class="brand-wrapper clearfix">
+      <div class="brand-left">品牌：</div>
+      <div class="brand-center">
+        <ul class="clearfix">
+          <li><a href="#" title="SAMSUNG /三星">SAMSUNG /三星</a></li>
+          <li><a href="#" title="LG">LG</a></li>
+          <li><a href="#" title="Skywort">Skywort Skywort</a></li>
+          <li><a href="#" title="Hisense/海信">Hisense/海信</a></li>
+          <li><a href="#" title="TCL">TCL</a></li>
+          <li><a href="#" title="CHANGHO">CHANGHO CHANGHO</a></li>
+          <li><a href="#" title="KONKA/康佳">KONKA/康佳</a></li>
+          <li><a href="#" title="乐视先锋/Pioneer">乐视先锋/Pioneer</a></li>
+          <li><a href="#" title="乐歌小米/MI">乐歌小米/MI</a></li>
+          <li><a href="#" title="乐视先锋/Pioneer">乐视先锋/Pioneer</a></li>
+          <li><a href="#" title="乐歌小米/MI">乐歌小米/MI</a></li>
+          <li><a href="#" title="乐视先锋/Pioneer">乐视先锋/Pioneer</a></li>
+          <li><a href="#" title="乐歌小米/MI">乐歌小米/MI</a></li>
+          <li><a href="#" title="乐视先锋/Pioneer">乐视先锋/Pioneer</a></li>
+          <li><a href="#" title="乐歌小米/MI">乐歌小米/MI</a></li>
+          <li><a href="#" title="乐视先锋/Pioneer">乐视先锋/Pioneer</a></li>
+          <li><a href="#" title="乐歌小米/MI">乐歌小米/MI</a></li>
+          <li><a href="#" title="乐视先锋/Pioneer">乐视先锋/Pioneer</a></li>
+          <li><a href="#" title="乐歌小米/MI">乐歌小米/MI</a></li>
+          <li><a href="#" title="乐视先锋/Pioneer">乐视先锋/Pioneer</a></li>
+          <li><a href="#" title="乐歌小米/MI">乐歌小米/MI</a></li>
+        </ul>
+      </div>
+      <div class="brand-right">
+        <div class="brand-right-btn pointer">展开</div>
+      </div>
+    </div>
+
+    <div class="brand-wrapper clearfix">
+      <div class="brand-left">品牌：</div>
+      <div class="brand-center">
+        <ul class="clearfix">
+          <li><a href="#" title="SAMSUNG /三星">SAMSUNG /三星</a></li>
+          <li><a href="#" title="LG">LG</a></li>
+          <li><a href="#" title="Skywort">Skywort Skywort</a></li>
+          <li><a href="#" title="Hisense/海信">Hisense/海信</a></li>
+          <li><a href="#" title="TCL">TCL</a></li>
+          <li><a href="#" title="CHANGHO">CHANGHO CHANGHO</a></li>
+          <li><a href="#" title="KONKA/康佳">KONKA/康佳</a></li>
+          <li><a href="#" title="乐视先锋/Pioneer">乐视先锋/Pioneer</a></li>
+          <li><a href="#" title="乐歌小米/MI">乐歌小米/MI</a></li>
+          <li><a href="#" title="乐视先锋/Pioneer">乐视先锋/Pioneer</a></li>
+          <li><a href="#" title="乐歌小米/MI">乐歌小米/MI</a></li>
+          <li><a href="#" title="乐视先锋/Pioneer">乐视先锋/Pioneer</a></li>
+          <li><a href="#" title="乐歌小米/MI">乐歌小米/MI</a></li>
+          <li><a href="#" title="乐视先锋/Pioneer">乐视先锋/Pioneer</a></li>
+          <li><a href="#" title="乐歌小米/MI">乐歌小米/MI</a></li>
+          <li><a href="#" title="乐视先锋/Pioneer">乐视先锋/Pioneer</a></li>
+          <li><a href="#" title="乐歌小米/MI">乐歌小米/MI</a></li>
+          <li><a href="#" title="乐视先锋/Pioneer">乐视先锋/Pioneer</a></li>
+          <li><a href="#" title="乐歌小米/MI">乐歌小米/MI</a></li>
+          <li><a href="#" title="乐视先锋/Pioneer">乐视先锋/Pioneer</a></li>
+          <li><a href="#" title="乐歌小米/MI">乐歌小米/MI</a></li>
+        </ul>
+      </div>
+      <div class="brand-right">
+        <div class="brand-right-btn pointer">展开</div>
+      </div>
+    </div>
+    <!-- 品牌end -->
+
+    <!-- 电商 -->
+    <div class="retailers-wrapper clearfix">
+      <div class="retailers-left">电商：</div>
+      <div class="retailers-center">
+        <ul class="clearfix">
+          <li><a href="#" title="苏宁易购">苏宁易购</a></li>
+          <li><a href="#" title="京东商城">京东商城</a></li>
+          <li><a href="#" title="晨光科利普">晨光科利普</a></li>
+          <li><a href="#" title="办公伙伴">办公伙伴</a></li>
+          <li><a href="#" title="一线达通">一线达通</a></li>
+          <li><a href="#" title="深圳齐心集团科技股份有限公司">深圳齐心集团科技股份有限公司</a></li>
+          <li><a href="#" title="得力集团有限公司">得力集团有限公司</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- 电商end -->
+
+    <!-- 价格 -->
+    <div class="retailers-wrapper clearfix">
+      <div class="price-left">价格：</div>
+      <div class="price-center">
+        <ul class="clearfix">
+          <li><a href="#" title="0-2000">0-2000</a></li>
+          <li><a href="#" title="2000-4000">2000-4000</a></li>
+          <li><a href="#" title="4000-6000">4000-6000</a></li>
+          <li><a href="#" title="6000-8000">6000-8000</a></li>
+          <li><a href="#" title="8000-10000">8000-10000</a></li>
+          <li><a href="#" title="10000以上">10000以上</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- 价格end -->
+
+    <!-- 支付方式 -->
+    <!-- <div class="retailers-wrapper clearfix">
+      <div class="price-left">支付方式：</div>
+      <div class="price-center">
+        <ul class="clearfix">
+          <li><a href="#" title="货到付款">货到付款</a></li>
+          <li><a href="#" title="余额支付">在线支付</a></li>
+        </ul>
+      </div>
+    </div> -->
+    <!-- 支付方式end -->
+
+    <!-- 选择排序 -->
+    <div class="filter-bottom2 clearfix">
+      <div class="filter-btn-wrapper clearfix">
+        <div class="filter-btn filter-btn-active">默认排序</div>
+        <div class="filter-btn filter-btn2" id="filterprice">
+          <span>价格</span>
+        </div>
+        <div class="filter-btn">销量</div>
+      </div>
+    </div>
+    <!-- 选择排序end -->
+
+    <!-- 商品 -->
+    <div class="listpage-goods-wrapper no-pad">
+      <div class="listpage-goods-all clearfix">
+        <div class="listpage-goods-item">
+          <div class="listpage-goods-item-img">
+            <a href="#">
+              <img src="../../images/static/sale_good.png" width="154" height="180" alt="">
+            </a>
+          </div>
+          <div class="listpage-goods-item-word">
+            <p><a href="#">守护宝（上海中兴）angelcare L600 直板 按键 超长待机超长待机超长待机超长待机</a></p>
+            <div class="listpage-goods-item-jprice">
+              <span class="jd">京东价：</span>
+              <span class="jprice">￥96.00</span>
+            </div>
+            <div class="listpage-goods-item-price clearfix">
+              <span class="my-price">￥999.00</span>
+              <span class="comment">评论0条</span>
+            </div>
+            <div class="listpage-goods-item-btn clearfix">
+              <div class="listpage-goods-item-btn-left pointer">加入购物车</div>
+              <div class="listpage-goods-item-btn-right pointer">收藏</div>
+            </div>
+          </div>
+        </div>
+        <div class="listpage-goods-item">
+          <div class="listpage-goods-item-img">
+            <a href="#">
+              <img src="../../images/static/sale_good.png" width="154" height="180" alt="">
+            </a>
+          </div>
+          <div class="listpage-goods-item-word">
+            <p><a href="#">守护宝（上海中兴）angelcare L600 直板 按键 超长待机超长待机超长待机超长待机</a></p>
+            <div class="listpage-goods-item-jprice">
+              <span class="jd">京东价：</span>
+              <span class="jprice">￥96.00</span>
+            </div>
+            <div class="listpage-goods-item-price clearfix">
+              <span class="my-price">￥999.00</span>
+              <span class="comment">评论0条</span>
+            </div>
+            <div class="listpage-goods-item-btn clearfix">
+              <div class="listpage-goods-item-btn-left pointer">加入购物车</div>
+              <div class="listpage-goods-item-btn-right pointer">收藏</div>
+            </div>
+          </div>
+        </div>
+        <div class="listpage-goods-item">
+          <div class="listpage-goods-item-img">
+            <a href="#">
+              <img src="../../images/static/sale_good.png" width="154" height="180" alt="">
+            </a>
+          </div>
+          <div class="listpage-goods-item-word">
+            <p><a href="#">守护宝（上海中兴）angelcare L600 直板 按键 超长待机超长待机超长待机超长待机</a></p>
+            <div class="listpage-goods-item-jprice">
+              <span class="jd">京东价：</span>
+              <span class="jprice">￥96.00</span>
+            </div>
+            <div class="listpage-goods-item-price clearfix">
+              <span class="my-price">￥999.00</span>
+              <span class="comment">评论0条</span>
+            </div>
+            <div class="listpage-goods-item-btn clearfix">
+              <div class="listpage-goods-item-btn-left pointer">加入购物车</div>
+              <div class="listpage-goods-item-btn-right pointer">收藏</div>
+            </div>
+          </div>
+        </div>
+        <div class="listpage-goods-item">
+          <div class="listpage-goods-item-img">
+            <a href="#">
+              <img src="../../images/static/sale_good.png" width="154" height="180" alt="">
+            </a>
+          </div>
+          <div class="listpage-goods-item-word">
+            <p><a href="#">守护宝（上海中兴）angelcare L600 直板 按键 超长待机超长待机超长待机超长待机</a></p>
+            <div class="listpage-goods-item-jprice">
+              <span class="jd">京东价：</span>
+              <span class="jprice">￥96.00</span>
+            </div>
+            <div class="listpage-goods-item-price clearfix">
+              <span class="my-price">￥999.00</span>
+              <span class="comment">评论0条</span>
+            </div>
+            <div class="listpage-goods-item-btn clearfix">
+              <div class="listpage-goods-item-btn-left pointer">加入购物车</div>
+              <div class="listpage-goods-item-btn-right pointer">收藏</div>
+            </div>
+          </div>
+        </div>
+        <div class="listpage-goods-item">
+          <div class="listpage-goods-item-img">
+            <a href="#">
+              <img src="../../images/static/sale_good.png" width="154" height="180" alt="">
+            </a>
+          </div>
+          <div class="listpage-goods-item-word">
+            <p><a href="#">守护宝（上海中兴）angelcare L600 直板 按键 超长待机超长待机超长待机超长待机</a></p>
+            <div class="listpage-goods-item-jprice">
+              <span class="jd">京东价：</span>
+              <span class="jprice">￥96.00</span>
+            </div>
+            <div class="listpage-goods-item-price clearfix">
+              <span class="my-price">￥999.00</span>
+              <span class="comment">评论0条</span>
+            </div>
+            <div class="listpage-goods-item-btn clearfix">
+              <div class="listpage-goods-item-btn-left pointer">加入购物车</div>
+              <div class="listpage-goods-item-btn-right pointer">收藏</div>
+            </div>
+          </div>
+        </div>
+        <div class="listpage-goods-item">
+          <div class="listpage-goods-item-img">
+            <a href="#">
+              <img src="../../images/static/sale_good.png" width="154" height="180" alt="">
+            </a>
+          </div>
+          <div class="listpage-goods-item-word">
+            <p><a href="#">守护宝（上海中兴）angelcare L600 直板 按键 超长待机超长待机超长待机超长待机</a></p>
+            <div class="listpage-goods-item-jprice">
+              <span class="jd">京东价：</span>
+              <span class="jprice">￥96.00</span>
+            </div>
+            <div class="listpage-goods-item-price clearfix">
+              <span class="my-price">￥999.00</span>
+              <span class="comment">评论0条</span>
+            </div>
+            <div class="listpage-goods-item-btn clearfix">
+              <div class="listpage-goods-item-btn-left pointer">加入购物车</div>
+              <div class="listpage-goods-item-btn-right pointer">收藏</div>
+            </div>
+          </div>
+        </div>
+        <div class="listpage-goods-item">
+          <div class="listpage-goods-item-img">
+            <a href="#">
+              <img src="../../images/static/sale_good.png" width="154" height="180" alt="">
+            </a>
+          </div>
+          <div class="listpage-goods-item-word">
+            <p><a href="#">守护宝（上海中兴）angelcare L600 直板 按键 超长待机超长待机超长待机超长待机</a></p>
+            <div class="listpage-goods-item-jprice">
+              <span class="jd">京东价：</span>
+              <span class="jprice">￥96.00</span>
+            </div>
+            <div class="listpage-goods-item-price clearfix">
+              <span class="my-price">￥999.00</span>
+              <span class="comment">评论0条</span>
+            </div>
+            <div class="listpage-goods-item-btn clearfix">
+              <div class="listpage-goods-item-btn-left pointer">加入购物车</div>
+              <div class="listpage-goods-item-btn-right pointer">收藏</div>
+            </div>
+          </div>
+        </div>
+        <div class="listpage-goods-item">
+          <div class="listpage-goods-item-img">
+            <a href="#">
+              <img src="../../images/static/sale_good.png" width="154" height="180" alt="">
+            </a>
+          </div>
+          <div class="listpage-goods-item-word">
+            <p><a href="#">守护宝（上海中兴）angelcare L600 直板 按键 超长待机超长待机超长待机超长待机</a></p>
+            <div class="listpage-goods-item-jprice">
+              <span class="jd">京东价：</span>
+              <span class="jprice">￥96.00</span>
+            </div>
+            <div class="listpage-goods-item-price clearfix">
+              <span class="my-price">￥999.00</span>
+              <span class="comment">评论0条</span>
+            </div>
+            <div class="listpage-goods-item-btn clearfix">
+              <div class="listpage-goods-item-btn-left pointer">加入购物车</div>
+              <div class="listpage-goods-item-btn-right pointer">收藏</div>
+            </div>
+          </div>
+        </div>
+        <div class="listpage-goods-item">
+          <div class="listpage-goods-item-img">
+            <a href="#">
+              <img src="../../images/static/sale_good.png" width="154" height="180" alt="">
+            </a>
+          </div>
+          <div class="listpage-goods-item-word">
+            <p><a href="#">守护宝（上海中兴）angelcare L600 直板 按键 超长待机超长待机超长待机超长待机</a></p>
+            <div class="listpage-goods-item-jprice">
+              <span class="jd">京东价：</span>
+              <span class="jprice">￥96.00</span>
+            </div>
+            <div class="listpage-goods-item-price clearfix">
+              <span class="my-price">￥999.00</span>
+              <span class="comment">评论0条</span>
+            </div>
+            <div class="listpage-goods-item-btn clearfix">
+              <div class="listpage-goods-item-btn-left pointer">加入购物车</div>
+              <div class="listpage-goods-item-btn-right pointer">收藏</div>
+            </div>
+          </div>
+        </div>
+        <div class="listpage-goods-item">
+          <div class="listpage-goods-item-img">
+            <a href="#">
+              <img src="../../images/static/sale_good.png" width="154" height="180" alt="">
+            </a>
+          </div>
+          <div class="listpage-goods-item-word">
+            <p><a href="#">守护宝（上海中兴）angelcare L600 直板 按键 超长待机超长待机超长待机超长待机</a></p>
+            <div class="listpage-goods-item-jprice">
+              <span class="jd">京东价：</span>
+              <span class="jprice">￥96.00</span>
+            </div>
+            <div class="listpage-goods-item-price clearfix">
+              <span class="my-price">￥999.00</span>
+              <span class="comment">评论0条</span>
+            </div>
+            <div class="listpage-goods-item-btn clearfix">
+              <div class="listpage-goods-item-btn-left pointer">加入购物车</div>
+              <div class="listpage-goods-item-btn-right pointer">收藏</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="paging-wrapper clearfix">
+        <div class="paging-content clearfix">
+          <span class="paging-prve">
+            < 上一页</span> <ul class="paging-content-ul">
+              <a href="javascript:;" class="currPaging">1</a>
+              <a href="javascript:;">2</a>
+              <a href="javascript:;">3</a>
+              <a href="javascript:;">4</a>
+              <a href="javascript:;">5</a>
+              <a href="javascript:;">6</a>
+              <a href="javascript:;" class="spot">...</a>
+              </ul>
+              <span class="paging-next">下一页 ></span>
+              <span class="pageNumber">共100页</span>
+              <div class="pageNumber-input">
+                <span class="goPage">到第</span>
+                <input type="text" value="1" />
+                <span class="leaf">页</span>
+              </div>
+              <span class="pageNumber-btn">确定</span>
+        </div>
+      </div>
+    </div>
+    <!-- 商品end -->
+    <div class="kong"></div>
+  </div>
+  <!-- 热卖推荐end -->
+
+  <!-- 底部 -->
+  <div class="footer">
+    <div class="fuli-u-sm-12 fuli-footer clearfix">
+      <div class="fuli-footer-service">
+        <div class="footer-service-unit clearfix">
+          <div class="footer-service-img">
+            <img src="../../images/static/aftersale.png" alt="">
+          </div>
+          <div class="footer-service-word">
+            <h6 class="footer-service-tit">正品保障</h6>
+            <div class="footer-service-text">优质商品 福利放心购</div>
+          </div>
+        </div>
+      </div>
+      <div class="fuli-footer-service">
+        <div class="footer-service-unit clearfix">
+          <div class="footer-service-img">
+            <img src="../../images/static/classify.png" alt="">
+          </div>
+          <div class="footer-service-word">
+            <h6 class="footer-service-tit">尊享低价</h6>
+            <div class="footer-service-text">剔除溢价 保证性价比</div>
+          </div>
+        </div>
+      </div>
+      <div class="fuli-footer-service">
+        <div class="footer-service-unit clearfix">
+          <div class="footer-service-img">
+            <img src="../../images/static/security.png" alt="">
+          </div>
+          <div class="footer-service-word">
+            <h6 class="footer-service-tit">售后无忧</h6>
+            <div class="footer-service-text">退换便捷 物流全覆盖</div>
+          </div>
+        </div>
+      </div>
+      <div class="fuli-footer-service">
+        <div class="footer-service-unit clearfix">
+          <div class="footer-service-img">
+            <img src="../../images/static/like.png" alt="">
+          </div>
+          <div class="footer-service-word">
+            <h6 class="footer-service-tit">定制服务</h6>
+            <div class="footer-service-text">按需定制 享专属平台</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="fuli-u-sm-12 fuli-footer-help clearfix">
+      <div class="footer-help-list">
+        <div class="help-list-tit">操作指南</div>
+        <ul class="help-list-nav">
+          <li>
+            <a href="#">
+              免费注册
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              用户登录
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              采购流程
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              联系客户
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              购物保障
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-help-list">
+        <div class="help-list-tit">支付方式</div>
+        <ul class="help-list-nav">
+          <li>
+            <a href="#">
+              收费标准
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              验货签收
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-help-list">
+        <div class="help-list-tit">支付与充值</div>
+        <ul class="help-list-nav">
+          <li>
+            <a href="#">
+              在线支付
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              账户充值
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              账户安全
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-help-list">
+        <div class="help-list-tit">商户服务</div>
+        <ul class="help-list-nav">
+          <li>
+            <a href="#">
+              招商入驻
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              平台政策
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              商户工作台
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              结算售后
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-help-list">
+        <div class="help-list-tit">关于我们</div>
+        <ul class="help-list-nav">
+          <li>
+            <a href="#">
+              企业合作
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              招聘英才
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              帮助中心
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-help-list">
+        <div class="footer-help-public">
+          <div class="footer-help-code"></div>
+          <div class="footer-help-word">
+            公众号
+          </div>
+        </div>
+      </div>
+      <div class="footer-help-list">
+        <div class="footer-help-public">
+          <div class="footer-help-code"></div>
+          <div class="footer-help-word">
+            官方微信
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="fuli-u-sm-12 fuli-copyright-auth">
+      <div class="fuli-copyright-cont clearfix">
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-1 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-2 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-3 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-4 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-5 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-6 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-7 pointer"></div>
+        </a>
+      </div>
+    </div>
+    <div class="fuli-u-sm-12 fuli-copyright-info">
+      <p>
+        <a href="#" class="fuli-copyright-links">首页</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">招聘英才</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">合作及洽谈</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">联系我们</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">关于我们</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">商家管理</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">门店管理</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">自提站管理</a>
+        <span class="fuli-copyright-split">|</span>
+      </p>
+    </div>
+    <div class="fuli-u-sm-12 fuli-copyright-cert">
+      &copy;2016 athori.com 雷云智链 客户服务中心(7×24):101-88888888
+    </div>
+  </div>
+  <!-- 底部end -->
+
+  <script src="../../lib/jq/jquery.old.js"></script>
+  <script src="../../js/listPage/searchEnterList.js"></script>
+  <script src="../../js/index/index.js"></script>
+  <script src="../../js/service/service.js"></script>
+</body>
+
+</html>
