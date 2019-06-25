@@ -98,6 +98,15 @@ $(function () {
         $(".highest-right-item").eq($(this).index()).addClass("highest-right-item-active").siblings().removeClass('highest-right-item-active');
     });
 
+    //购买数量限制
+    var shopNum = 200;
+    $('#shopNumLimit').on('keyup', function() {
+        if($(this).val() > shopNum) {
+            $(this).val(shopNum);
+        }else{
+            $(this).val($(this).val());
+        }
+    });
 
     // 图片上下滚动
     var count = $("#imageMenu li").length; /* 显示 6 个 li标签内容 */
