@@ -453,11 +453,11 @@
 
 .introduction-price{
   width: 100%;
-  /* height: 146px; */
+  height: 131px;
   margin-top: 5px;
-  background-color: #ffb030;
-  border: 1px solid #ffdbdb;
-  padding: 8px 12px;
+  background-color: #ffe9c5;
+  border: 1px solid #f9f9f9;
+  padding: 25px 12px 0;
   box-sizing: border-box;
 }
 
@@ -465,26 +465,45 @@
   width: 100%;
   height: 39px;
   font-size: 20px;
-  font-style: oblique;
-  font-weight: bold;
+  /* font-style: oblique;
+  font-weight: bold; */
 }
 
 .welfare-price{
-  color: #000;
+  color: #333;
+  font-size: 14px;
+  letter-spacing: 8px;
   float: left;
 }
 
 .welfare-price span{
   color: #ff0000;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0;
 }
 
 .supplier{
-  float: right;
-  color: #fff;
+  float: left;
+  font-size: 14px;
+  margin-top: 7px;
+  margin-left: 29px;
+  color: #666;
 }
 
-.supplier a{
-  color: #fff;
+.supplier span{
+  text-decoration: line-through;
+}
+
+.supplier-word{
+  color: #333;
+  font-size: 14px;
+  letter-spacing: 8px;
+  margin-top: 15px;
+}
+
+.supplier-word span{
+  letter-spacing: 0;
 }
 
 .introduction-price p{
@@ -747,8 +766,7 @@
 .into-buy{
   width: 112px;
   height: 38px;
-  background-color: #ffb030;
-  border: 1px solid #e49d2a;
+  background-color: #fe4a1a;
   text-align: center;
   line-height: 38px;
   color: #fff;
@@ -773,6 +791,13 @@
   background: url(../../images/static/plus_cart_03.png) 10px 10px;
   background-repeat: no-repeat;
   float: left;
+}
+
+.plus-shopCart:hover{
+  background-color: #ffb030;
+  color: #fff;
+  border-color: #ffb030;
+  background-position: 10px -30px;
 }
 
 .plus-shopCart span{
