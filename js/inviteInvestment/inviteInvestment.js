@@ -9,6 +9,36 @@ $(function () {
   });
   $index.text($step.getIndex());
 
+  $('.ui-step-item:eq(0)').on('click', function() {
+    if($(this).hasClass('active')) {
+      $('.agree-box').show().siblings().hide();
+    }
+  });
+
+  $('.ui-step-item:eq(1)').on('click', function() {
+    if($(this).hasClass('active')) {
+      $('.agree-box2').show().siblings().hide();
+    }
+  });
+
+  $('.ui-step-item:eq(2)').on('click', function() {
+    if($(this).hasClass('active')) {
+      $('.agree-box3').show().siblings().hide();
+    }
+  });
+
+  $('.ui-step-item:eq(3)').on('click', function() {
+    if($(this).hasClass('active')) {
+      $('.agree-box4').show().siblings().hide();
+    }
+  });
+
+  $('.ui-step-item:eq(4)').on('click', function() {
+    if($(this).hasClass('active')) {
+      $('.agree-box5').show().siblings().hide();
+    }
+  });
+
   $('#iAgree').on('click', function () {
     if ($('#iAgree').is(':checked')) {
       // do something
@@ -21,6 +51,8 @@ $(function () {
   $('#agree').on('click', function () {
     $step.nextStep();
     $('.agree-box').hide().siblings('.agree-box2').show();
+    $('#read').hide();
+    $('.btn-area').hide();
   });
 
   $('#saveAndNext').on('click', function () {
@@ -96,6 +128,11 @@ $(function () {
       $(this).siblings('.invite-rule').show();
       $(this).siblings('.shop-rule').show();
     }
+  });
+
+  //上传文件
+  $('#upladFile').on('click', function() {
+    return $('.webuploader-element-invisible').trigger('click');
   });
 
   //校验手机号

@@ -104,6 +104,7 @@
 .ui-step-wrap .ui-step .ui-step-item {
 	float: left;
   height: 66px;
+  cursor: pointer;
 }
 
 .ui-step-wrap .ui-step .ui-step-item div {
