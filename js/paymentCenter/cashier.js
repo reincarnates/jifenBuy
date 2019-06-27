@@ -8,6 +8,14 @@ $(function() {
     if($(this).attr('data-wx') != undefined) {
       paymentMethod = $(this).attr('data-wx');
     }
+
+    if($(this).hasClass('payment_method_item_wx')) {
+      $('#hiddenVal').val('wx');
+    }
+
+    if($(this).hasClass('payment_method_item_zfb')) {
+      $('#hiddenVal').val('zfb');
+    }
   });
 
   $('.payment_method_item_zfb').on('click', function() {
@@ -42,9 +50,9 @@ $(function() {
   });
 
   //点击立即支付的时候判断是不是微信支付
-  $('.payment_method_item_btn').on('click', function() {
-    alert();
-  });
+  // $('.payment_method_item_btn').on('click', function() {
+  //   alert();
+  // });
 
 })
 

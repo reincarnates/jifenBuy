@@ -1,5 +1,14 @@
 $(function() {
 
+  var $step2 = $("#step1");
+  $step2.step({
+    index: 1,
+    time: 500,
+    title: ["身份验证", "修改支付密码", "完成"]
+  });
+
+  $('.step1').hide().siblings('.step2').show();
+
   var $step = $("#step2");
   $step.step({
     index: 0,
@@ -78,6 +87,7 @@ $(function() {
       $('.confirmPassWord').css('right', '-40px');
       $('.confirmPassWord').text('');
       $('.login-new-password-btn').css({'backgroundColor': '#ffb030', 'cursor': 'pointer'});
+      $('.login-new-password-btn2').css({'backgroundColor': '#ffb030', 'cursor': 'pointer'});
     }
   });
 
@@ -106,6 +116,13 @@ $(function() {
         $('.step2').css('display','none');
         $('.step3').css('display','block');
       }
+    }
+  });
+
+  $('.login-new-password-btn2').on('click', function() {
+    if($('#confirmPassWord').val() != '' && $('#newPassWord').val() != '') {
+      $step2.nextStep();
+      $('.step2').hide().siblings('.step3').show();
     }
   });
 

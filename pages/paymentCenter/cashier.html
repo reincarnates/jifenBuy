@@ -91,16 +91,18 @@
           <span class="balance-derecharging">余额不足？去充值</span>
         </label>
       </div>
-      <div class="payment_method_item payment_method_item_zfb">
-        <input type="radio" name="balance" id="zfb">
-        <label for="zfb" style="cursor:pointer">
-          <img src="../../images/static/zfb_03.png" width="99" height="35" alt="">
-        </label>
-      </div>
+      <input type="hidden" value="wx" id="hiddenVal">
+      <input type="text" id="refreshed" value="no" style="display: none;">
       <div class="payment_method_item payment_method_item_wx" data-wx="wx">
         <input type="radio" name="balance" id="wx">
         <label for="wx" style="cursor:pointer">
           <img src="../../images/static/wx_03.png" width="109" height="29" alt="">
+        </label>
+      </div>
+      <div class="payment_method_item payment_method_item_zfb">
+        <input type="radio" name="balance" id="zfb">
+        <label for="zfb" style="cursor:pointer">
+          <img src="../../images/static/zfb_03.png" width="99" height="35" alt="">
         </label>
       </div>
 
@@ -180,6 +182,22 @@
 
   <script src="../../lib/jq/jquery.old.js"></script>
   <script src="../../js/paymentCenter/cashier.js"></script>
+
+
+  <script>
+    
+    // $(function() {
+    //   $('.payment_method_item_btn').on('click', function() {
+    //     $('#refreshed').val('yes');
+    //     location.href = './paymentMethodWx.html';
+    //   });
+    //   if($('#refreshed').val() == 'yes') {
+    //     $('#refreshed').val('no');
+    //     location.reload();
+    //   }
+    // })
+    
+  </script>
 </body>
 
 </html>
