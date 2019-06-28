@@ -33,7 +33,7 @@ $(function() {
   });
 
   //确定删除
-  $('.cancel-collection-mask-btn-left').on('click', function() {
+  $('.cancel-collection-mask-btn-left,.cancel-collection-mask-btn-right').on('click', function() {
     $('.cancel-collection-mask-head img').trigger('click');
   });
 
