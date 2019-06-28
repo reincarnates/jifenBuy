@@ -1,6 +1,8 @@
 $(function() {
+  
   //店铺收藏的数量
   $('#shopCollection').find('span').text($('.store-collection-item').length);
+
   //商品收藏的数量
   $('#goodsCollection').find('span').text($('.goods-collection-item').length);
 
