@@ -63,7 +63,7 @@ function focusNextInput(thisInput) {
     for(var i = 0;i<inputs.length;i++){   
       if(i==(inputs.length-1)){   
         inputs[i].blur(); break;   
-      }else if(thisInput == inputs[i]){   
+      }else if(thisInput == inputs[i] && thisInput.value != ''){   
         dex = i + 1; 
         inputs[i+1].focus(); break;  
       }

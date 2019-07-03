@@ -1,6 +1,6 @@
 $(function() {
   //快递包裹
-  var expressNum = 3;
+  var expressNum = 2;
   if(expressNum == 1) {
     $('#star ul li').eq(0).addClass('on');
     $('.goods-evaluate-span').html('<strong>1分</strong>');
@@ -29,7 +29,7 @@ $(function() {
   }
 
   //送货速度
-  var deliveryNum = 5;
+  var deliveryNum = 3;
   if(deliveryNum == 1) {
     $('#logistics ul li').eq(0).addClass('on');
     $('.logistics-evaluate-span').html('<strong>1分</strong>');
@@ -58,7 +58,7 @@ $(function() {
   }
 
   //配送员
-  var clerkNum = 4;
+  var clerkNum = 5;
   if(clerkNum == 1) {
     $('#DeliveryService ul li').eq(0).addClass('on');
     $('.Delivery-evaluate-span').html('<strong>1分</strong>');
@@ -87,7 +87,7 @@ $(function() {
   }
 
   //商品评分
-  var commentsNum = 4;
+  var commentsNum = 5;
   if(commentsNum == 1) {
     $('.comments ul li').eq(0).addClass('on');
     $('.comments .Delivery-evaluate-span').html('<strong>1分</strong>');
@@ -153,6 +153,18 @@ $(function() {
     $('.goods-comment-item-content-img-item-mask').find('.comment-img').css({'margin-left': -$('.goods-comment-item-content-img-item-mask .comment-img').width()/2,'margin-top': -$('.goods-comment-item-content-img-item-mask .comment-img').height()/2});
   });
 
-  
+  //评价图片移入显示删除
+  $(document).on('mouseover', '.goods-comment-item-content-img-item', function() {
+    $(this).find('.goods-comment-img-mask').show();
+  }).on('mouseout', '.goods-comment-item-content-img-item', function() {
+    $(this).find('.goods-comment-img-mask').hide();
+  });
+
+  //删除评价图片
+  $(document).on('click', '.goods-comment-img-mask', function() {
+
+    alert();
+
+  });
 
 });

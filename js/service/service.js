@@ -10,16 +10,18 @@
      * errorfn 失败回调函数
      */
     var service = {};
-    // var headers = {
-    //     "Content-Type": "application/json",
-    //     "Access-Token": window.localStorage.getItem('token') ? window.localStorage.getItem('token') : "",
-    // }
+   // var headers = {
+        // "Content-Type": "application/json",
+        // "Access-Token": window.localStorage.getItem('token') ? window.localStorage.getItem('token') : "",
+        // "access_token": "a07bf79ee653e2a9264aa7ccda516300",
+        // "appid": "kj234nfygfl"
+    //}
     service.get = function(url, data,successfn){
     	$.ajax({
          	type: "get",
             data: data,
             url: url,
-            // headers: headers,
+            //headers: headers,
             dataType: "json",
             success: function(d){
                 successfn(d);
@@ -31,7 +33,7 @@
          	type: "post",
             data: data,
             url: url,
-            // headers: headers,
+            //headers: headers,
             dataType: "json",
             success: function(d){
                 successfn(d);
