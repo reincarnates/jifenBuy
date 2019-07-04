@@ -1,0 +1,648 @@
+@charset "utf-8";
+
+.businessBanner{
+  width: 100%;
+  height: 500px;
+}
+
+.businessBanner img{
+  width: 100%;
+}
+
+.businessSettled-container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.mains {
+  padding: 0;
+  margin: 30px 0 10px 0;
+  overflow: hidden;
+}
+
+.mains {
+  padding: 0;
+  margin: 30px auto 10px auto;
+  overflow: hidden;
+}
+
+.joinin-index-step {
+  font-size: 0;
+  height: 110px;
+  overflow: hidden;
+  line-height: 110px;
+}
+
+.joinin-index-step span.step {
+  line-height: 20px;
+  text-align: center;
+  width: 200px;
+}
+
+.joinin-index-step span {
+  font-size: 12px;
+  vertical-align: middle;
+  letter-spacing: normal;
+  word-spacing: normal;
+  display: inline-block;
+}
+
+.joinin-index-step span a:hover{
+  color: #ffb030;
+}
+
+.joinin-index-step span.step i {
+  background: url(../../images/static/new_joinin.png) no-repeat;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.joinin-index-step span.step i.a {
+  width: 42px;
+  height: 41px;
+  background-position: 0 0;
+}
+
+.joinin-index-step span.step i.b {
+  width: 32px;
+  height: 40px;
+  background-position: -54px 0;
+}
+
+.joinin-index-step span.step i.c {
+  width: 40px;
+  height: 32px;
+  background-position: -100px 0;
+}
+
+.joinin-index-step span.step i.d {
+  width: 40px;
+  height: 38px;
+  background-position: -145px 0;
+}
+
+.joinin-index-step span.step i.e {
+  width: 37px;
+  height: 35px;
+  background-position: -190px 0;
+}
+
+.joinin-index-step span.step i.f {
+  width: 35px;
+  height: 34px;
+  background-position: -235px 0;
+}
+
+.platform_advantage {
+  z-index: 1;
+}
+
+.platform_advantage .platform_logo {
+  padding: 35px 0;
+  text-align: center;
+}
+
+.advantage-list {
+  height: 370px;
+  margin-bottom: 50px;
+}
+
+.list-item {
+  width: 261px;
+  height: 370px;
+  float: left;
+  border-radius: 10px;
+}
+
+.item-leader {
+  background-color: #35d198;
+}
+
+.item-user {
+  background-color: #ff907e;
+  margin-left: 52px;
+}
+
+.item-team {
+  background-color: #a68aff;
+  margin-left: 52px;
+}
+
+.item-cost {
+  background-color: #ffc740;
+  margin-left: 52px;
+}
+
+.item-leader .item-number span {
+  color: #59E5B2;
+  background-color: #2aba85;
+}
+
+.item-number span {
+  display: block;
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.item-logo .logo_1 {
+  width: 50px;
+  height: 73px;
+  background-position: -33px -50px;
+}
+
+.item-logo i {
+  display: block;
+  margin: 0 auto;
+  background: url(../../images/static/new_joinin.png) no-repeat;
+}
+
+.item-text {
+  color: #fff;
+  text-align: center;
+}
+
+.item-text .title {
+  font-size: 24px;
+  padding: 20px 0 8px 0;
+  font-weight: 700;
+}
+
+.item-text .t-eng {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.item-text .line {
+  height: 1px;
+  background-color: #cecece;
+  opacity: .5;
+  filter: alpha(50);
+  width: 80%;
+  margin: 30px auto;
+}
+
+.item-user .item-number span {
+  color: #FAA;
+  background-color: #fc6c55;
+}
+
+.item-logo .logo_2 {
+  width: 68px;
+  height: 61px;
+  background-position: -91px -48px;
+}
+
+.item-team .item-number span {
+  color: #BBA5FF;
+  background-color: #9270ff;
+}
+
+.item-logo .logo_3 {
+  width: 65px;
+  height: 64px;
+  background-position: -170px -48px;
+}
+
+.item-cost .item-number span {
+  color: #FFD170;
+  background-color: #eeb12e;
+}
+
+.item-logo .logo_4 {
+  width: 51px;
+  height: 66px;
+  background-position: -218px -118px;
+}
+
+.settled-flow {
+  padding-top: 50px;
+  background-color: #daf8f6;
+}
+
+.settled-flow .settled {
+  margin: 0 auto;
+  width: 1200px;
+  height: 940px;
+}
+
+.settled .left {
+  width: 200px;
+  height: 200px;
+  background-color: #01cbbb;
+  float: left;
+}
+
+.left .i_1 {
+  width: 27px;
+  height: 28px;
+  background-position: 0 -135px;
+}
+
+.left i {
+  display: block;
+  margin: 40px auto 20px;
+  background: url(../../images/static/new_joinin.png) no-repeat;
+}
+
+.left p {
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.left .eng {
+  font-size: 12px;
+}
+
+.left .span_1 {
+  width: 20px;
+  height: 20px;
+  background-position: -280px -1px;
+}
+
+.left span {
+  display: block;
+  margin: 20px auto 0;
+  background: url(../../images/static/new_joinin.png) no-repeat;
+}
+
+.settled .right {
+  width: 1000px;
+  height: 905px;
+  background-color: #fff;
+  float: right;
+}
+
+.right .right-top {
+  padding: 0 100px;
+  margin-bottom: 30px;
+  height: 200px;
+}
+
+.right-top li {
+  float: left;
+}
+
+.right-top .single {
+  width: 107px;
+  height: 106px;
+  background: url(../../images/static/new_joinin.png) no-repeat;
+  background-position: -290px -94px;
+  margin-top: 46px;
+}
+
+.right-top .double {
+  padding: 0 10px;
+  width: 124px;
+  height: 100%;
+  line-height: 140px;
+  position: relative;
+  text-align: center;
+}
+
+.single .first {
+  width: 80px;
+  margin: 32px auto 0;
+}
+
+.single p {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 18px;
+  color: #01CBBB;
+  font-weight: 700;
+}
+
+.right-top .double span {
+  /* position: absolute;
+  left: 35px;
+  top: 70px; */
+  color: #01CBBB;
+  font-size: 14px;
+}
+
+.right .t-1, .right .t-2, .right .t-3, .right .t-4, .right .t-5, .right .t-6 {
+  margin: 0 auto;
+  padding: 10px 0;
+  background-color: #01cbbb;
+  border-radius: 4px;
+  color: #fff;
+  text-align: center;
+}
+
+.t-1, .t-2 {
+  width: 450px;
+}
+
+.t-1 .title, .t-2 .title, .t-3 .title, .t-4 .title, .t-5 .title, .t-6 .title {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.right .bg-icon {
+  width: 24px;
+  height: 48px;
+  margin: 0 auto;
+  background: url(../../images/static/new_joinin.png) no-repeat;
+  background-position: -75px -152px;
+}
+
+.settled-stander {
+  padding-top: 50px;
+  background-color: #d2f8ea;
+}
+
+.settled-stander .stand {
+  margin: 0 auto;
+  width: 1200px;
+  height: 1388px;
+}
+
+.stand .left {
+  width: 200px;
+  height: 200px;
+  background-color: #35d198;
+  float: left;
+}
+
+.stand .right {
+  width: 1000px;
+  height: 1355px;
+  background-color: #fff;
+  float: right;
+}
+
+.stand .right .text {
+  height: 120px;
+  line-height: 120px;
+  margin: 0 50px;
+  border-bottom: 1px solid #eee;
+  font-size: 16px;
+  color: #333;
+}
+
+.stand .right .text span {
+  margin-right: 10px;
+  padding: 2px 9px;
+  background: #aaa;
+  border-radius: 6px;
+  color: #fff;
+}
+
+.stand .right .text .more {
+  line-height: 1.5;
+  padding-top: 45px;
+}
+
+.stand .right .text .sign {
+  background: #35d198;
+  padding: 8px 15px;
+}
+
+.stand .right .last-text {
+  border-bottom: none;
+}
+
+.stand .right .b-request, .stand .right .c-request {
+  padding: 50px;
+  border-top: 1px solid #eee;
+  box-sizing: content-box;
+}
+
+.stand .right .c-request {
+  height: 270px;
+}
+
+.b-request .title, .c-request .title, .rule .title {
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: #000;
+  font-weight: 700;
+}
+
+.b-request .title span, .c-request .title span {
+  border-right: 5px solid #35d198;
+  margin-right: 10px;
+}
+
+.b-request table, .c-request table {
+  height: 220px;
+  border: 1px solid #E4E4E4;
+  font-size: 14px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.b-request table .col1, .c-request table .col1 {
+  width: 280px;
+}
+
+.b-request table td, .c-request table td {
+  padding-left: 36px;
+  border-bottom: 1px solid #E4E4E4;
+  border-right: 1px solid #E4E4E4;
+  line-height: 35px;
+}
+
+address, caption, cite, code, em, h1, h2, h3, h4, h5, h6, pre, strong, table, td, th {
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.b-request table a, .c-request table a {
+  color: #FF644B;
+}
+
+.stand .right .b-request {
+  height: 480px;
+}
+
+.left .i_2 {
+  width: 22px;
+  height: 27px;
+  background-position: 0 -170px;
+}
+
+.left .span_2 {
+  width: 20px;
+  height: 20px;
+  background-position: -308px -1px;
+}
+
+.settled-rules {
+  padding-top: 50px;
+  background-color: #ffefec;
+}
+
+.settled-rules .rule {
+  margin: 0 auto;
+  width: 1200px;
+  height: 3045px;
+  font-size: 14px;
+}
+
+.rule .left {
+  width: 200px;
+  height: 200px;
+  background-color: #ff907e;
+  float: left;
+}
+
+.left .i_3 {
+  width: 25px;
+  height: 23px;
+  background-position: -39px -172px;
+}
+
+.left .span_3 {
+  width: 20px;
+  height: 20px;
+  background-position: -334px -1px;
+}
+
+.rule .right {
+  width: 1000px;
+  height: 3045px;
+  background-color: #fff;
+  float: right;
+}
+
+.rule .right .fee, .rule .right .fee-rule, .rule .right .meiliyou, .rule .right .qianshou, .rule .right .services, .rule .right .tuihuo {
+  padding: 35px 0;
+  width: 900px;
+  margin: 20px 50px;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.rule .fee .title span, .rule .fee-rule .title span {
+  border-right: 5px solid #ff907e;
+  margin-right: 10px;
+}
+
+.rule .fee p {
+  margin-left: 18px;
+  line-height: 35px;
+}
+
+.rule .fee-rule p {
+  margin-left: 18px;
+  line-height: 1.5;
+  padding: 10px 0;
+}
+
+.rule .right .meiliyou h3 {
+  padding: 15px 0;
+  color: #000;
+  font-weight: 700;
+}
+
+.settled-brands {
+  padding-top: 50px;
+  background-color: #eae7f5;
+}
+
+.settled-brands .brand10 {
+  margin: 0 auto;
+  width: 1200px;
+  height: 1110px;
+}
+
+.brand10 .left {
+  width: 200px;
+  height: 200px;
+  background-color: #a68aff;
+  float: left;
+}
+
+.left .i_4 {
+  width: 25px;
+  height: 24px;
+  background-position: -42px -138PX;
+}
+
+.left .span_4 {
+  width: 20px;
+  height: 20px;
+  background-position: -363px -1px;
+}
+
+.brand10 .right {
+  width: 1000px;
+  height: 1050px;
+  background-color: #fff;
+  float: right;
+}
+
+.brand10 .right .brand_img {
+  margin: 80px 80px;
+}
+
+.suspension-box {
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: none;
+}
+
+.suspension-step {
+  width: 1200px;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.suspension-step span.step {
+  line-height: 48px;
+  width: 100px;
+  margin: 0 35px;
+}
+
+.suspension-step span.step a:hover{
+  color: #ffb030;
+}
+
+.suspension-step a {
+  font-size: 14px;
+  display: block;
+  height: 48px;
+}
+
+.suspension-step div.item-l2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 180px;
+  text-align: center;
+  background: #01cbbb;
+  font-weight: 700;
+  font-family: "微软雅黑";
+}
+
+.suspension-step div.item-l2 a {
+  color: #fff;
+  font-size: 18px;
+}
+
+.suspension-step div a.login i {
+  vertical-align: middle;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(../../images/static/new_joinin.png) no-repeat;
+  background-position: 0 -79px;
+  margin: -3px 0 0 5px;
+}
