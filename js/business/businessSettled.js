@@ -25,4 +25,6 @@ $(function() {
     $('body,html').animate({ scrollTop: 2255 }, 500);
   });
 
+  console.log(window);
+
 })

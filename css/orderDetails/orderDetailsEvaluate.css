@@ -169,7 +169,7 @@
 
 .star strong{color:#f60;}
 
-.star li.on{background-position:0 -28px;}
+.star li.on{background-position:0 -29px;}
 
 .star p{position:absolute;top:20px;width:159px;height:60px;display:none;background:url(../../images/static/icon.gif) no-repeat;padding:7px 10px 0;font-size: 12px;}
 
@@ -582,7 +582,7 @@
 
 .comments strong{color:#f60;}
 
-.comments li.on{background-position:0 -28px;}
+.comments li.on{background-position:0 -29px;}
 
 .comments p{position:absolute;top:20px;width:159px;height:60px;display:none;background:url(../../images/static/icon.gif) no-repeat;padding:7px 10px 0;font-size: 12px;}
 

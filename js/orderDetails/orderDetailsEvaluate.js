@@ -1,115 +1,115 @@
 $(function () {
 
-  //快递包裹
-  var expressNum = 1;
-  if (expressNum == 1) {
-    $('#star ul li').slice(0, 1).addClass('on');
-    $('.goods-evaluate-span').html('<strong>1分</strong>');
-    $('#star').find('li').css('pointer-events','none');
-  } else if (expressNum == 2) {
-    $('#star ul li').slice(0, 2).addClass('on');
-    $('.goods-evaluate-span').html('<strong>2分</strong>');
-    $('#star').find('li').css('pointer-events','none');
-  } else if (expressNum == 3) {
-    $('#star ul li').slice(0, 3).addClass('on');
-    $('.goods-evaluate-span').html('<strong>3分</strong>');
-    $('#star').find('li').css('pointer-events','none');
-  } else if (expressNum == 4) {
-    $('#star ul li').slice(0, 4).addClass('on');
-    $('.goods-evaluate-span').html('<strong>4分</strong>');
-    $('#star').find('li').css('pointer-events','none');
-  } else if (expressNum == 5) {
-    $('#star ul li').slice(0).addClass('on');
-    $('.goods-evaluate-span').html('<strong>5分</strong>');
-    $('#star').find('li').css('pointer-events','none');
-  }
+  // //快递包裹
+  // var expressNum = 1;
+  // if (expressNum == 1) {
+  //   $('#star ul li').slice(0, 1).addClass('on');
+  //   $('.goods-evaluate-span').html('<strong>失望</strong>');
+  //   // $('#star').find('li').css('pointer-events', 'none');
+  // } else if (expressNum == 2) {
+  //   $('#star ul li').slice(0, 2).addClass('on');
+  //   $('.goods-evaluate-span').html('<strong>不满</strong>');
+  //   // $('#star').find('li').css('pointer-events', 'none');
+  // } else if (expressNum == 3) {
+  //   $('#star ul li').slice(0, 3).addClass('on');
+  //   $('.goods-evaluate-span').html('<strong>一般</strong>');
+  //   // $('#star').find('li').css('pointer-events', 'none');
+  // } else if (expressNum == 4) {
+  //   $('#star ul li').slice(0, 4).addClass('on');
+  //   $('.goods-evaluate-span').html('<strong>不错</strong>');
+  //   // $('#star').find('li').css('pointer-events', 'none');
+  // } else if (expressNum == 5) {
+  //   $('#star ul li').slice(0).addClass('on');
+  //   $('.goods-evaluate-span').html('<strong>非常满意</strong>');
+  //   // $('#star').find('li').css('pointer-events', 'none');
+  // }
 
-  //送货速度
-  var deliveryNum = 0;
-  if (deliveryNum == 1) {
-    $('#logistics ul li').eq(0).addClass('on');
-    $('.logistics-evaluate-span').html('<strong>1分</strong>');
-  } else if (deliveryNum == 2) {
-    $('#logistics ul li').eq(0).addClass('on');
-    $('#logistics ul li').eq(1).addClass('on');
-    $('.logistics-evaluate-span').html('<strong>2分</strong>');
-  } else if (deliveryNum == 3) {
-    $('#logistics ul li').eq(0).addClass('on');
-    $('#logistics ul li').eq(1).addClass('on');
-    $('#logistics ul li').eq(2).addClass('on');
-    $('.logistics-evaluate-span').html('<strong>3分</strong>');
-  } else if (deliveryNum == 4) {
-    $('#logistics ul li').eq(0).addClass('on');
-    $('#logistics ul li').eq(1).addClass('on');
-    $('#logistics ul li').eq(2).addClass('on');
-    $('#logistics ul li').eq(3).addClass('on');
-    $('.logistics-evaluate-span').html('<strong>4分</strong>');
-  } else if (deliveryNum == 5) {
-    $('#logistics ul li').eq(0).addClass('on');
-    $('#logistics ul li').eq(1).addClass('on');
-    $('#logistics ul li').eq(2).addClass('on');
-    $('#logistics ul li').eq(3).addClass('on');
-    $('#logistics ul li').eq(4).addClass('on');
-    $('.logistics-evaluate-span').html('<strong>5分</strong>');
-  }
+  // //送货速度
+  // var deliveryNum = 0;
+  // if (deliveryNum == 1) {
+  //   $('#logistics ul li').eq(0).addClass('on');
+  //   $('.logistics-evaluate-span').html('<strong>失望</strong>');
+  // } else if (deliveryNum == 2) {
+  //   $('#logistics ul li').eq(0).addClass('on');
+  //   $('#logistics ul li').eq(1).addClass('on');
+  //   $('.logistics-evaluate-span').html('<strong>不满</strong>');
+  // } else if (deliveryNum == 3) {
+  //   $('#logistics ul li').eq(0).addClass('on');
+  //   $('#logistics ul li').eq(1).addClass('on');
+  //   $('#logistics ul li').eq(2).addClass('on');
+  //   $('.logistics-evaluate-span').html('<strong>一般</strong>');
+  // } else if (deliveryNum == 4) {
+  //   $('#logistics ul li').eq(0).addClass('on');
+  //   $('#logistics ul li').eq(1).addClass('on');
+  //   $('#logistics ul li').eq(2).addClass('on');
+  //   $('#logistics ul li').eq(3).addClass('on');
+  //   $('.logistics-evaluate-span').html('<strong>不错</strong>');
+  // } else if (deliveryNum == 5) {
+  //   $('#logistics ul li').eq(0).addClass('on');
+  //   $('#logistics ul li').eq(1).addClass('on');
+  //   $('#logistics ul li').eq(2).addClass('on');
+  //   $('#logistics ul li').eq(3).addClass('on');
+  //   $('#logistics ul li').eq(4).addClass('on');
+  //   $('.logistics-evaluate-span').html('<strong>非常满意</strong>');
+  // }
 
-  //配送员
-  var clerkNum = 0;
-  if (clerkNum == 1) {
-    $('#DeliveryService ul li').eq(0).addClass('on');
-    $('.Delivery-evaluate-span').html('<strong>1分</strong>');
-  } else if (clerkNum == 2) {
-    $('#DeliveryService ul li').eq(0).addClass('on');
-    $('#DeliveryService ul li').eq(1).addClass('on');
-    $('.Delivery-evaluate-span').html('<strong>2分</strong>');
-  } else if (clerkNum == 3) {
-    $('#DeliveryService ul li').eq(0).addClass('on');
-    $('#DeliveryService ul li').eq(1).addClass('on');
-    $('#DeliveryService ul li').eq(2).addClass('on');
-    $('.Delivery-evaluate-span').html('<strong>3分</strong>');
-  } else if (clerkNum == 4) {
-    $('#DeliveryService ul li').eq(0).addClass('on');
-    $('#DeliveryService ul li').eq(1).addClass('on');
-    $('#DeliveryService ul li').eq(2).addClass('on');
-    $('#DeliveryService ul li').eq(3).addClass('on');
-    $('.Delivery-evaluate-span').html('<strong>4分</strong>');
-  } else if (clerkNum == 5) {
-    $('#DeliveryService ul li').eq(0).addClass('on');
-    $('#DeliveryService ul li').eq(1).addClass('on');
-    $('#DeliveryService ul li').eq(2).addClass('on');
-    $('#DeliveryService ul li').eq(3).addClass('on');
-    $('#DeliveryService ul li').eq(4).addClass('on');
-    $('.Delivery-evaluate-span').html('<strong>5分</strong>');
-  }
+  // //配送员
+  // var clerkNum = 0;
+  // if (clerkNum == 1) {
+  //   $('#DeliveryService ul li').eq(0).addClass('on');
+  //   $('.Delivery-evaluate-span').html('<strong>失望</strong>');
+  // } else if (clerkNum == 2) {
+  //   $('#DeliveryService ul li').eq(0).addClass('on');
+  //   $('#DeliveryService ul li').eq(1).addClass('on');
+  //   $('.Delivery-evaluate-span').html('<strong>不满</strong>');
+  // } else if (clerkNum == 3) {
+  //   $('#DeliveryService ul li').eq(0).addClass('on');
+  //   $('#DeliveryService ul li').eq(1).addClass('on');
+  //   $('#DeliveryService ul li').eq(2).addClass('on');
+  //   $('.Delivery-evaluate-span').html('<strong>一般</strong>');
+  // } else if (clerkNum == 4) {
+  //   $('#DeliveryService ul li').eq(0).addClass('on');
+  //   $('#DeliveryService ul li').eq(1).addClass('on');
+  //   $('#DeliveryService ul li').eq(2).addClass('on');
+  //   $('#DeliveryService ul li').eq(3).addClass('on');
+  //   $('.Delivery-evaluate-span').html('<strong>不错</strong>');
+  // } else if (clerkNum == 5) {
+  //   $('#DeliveryService ul li').eq(0).addClass('on');
+  //   $('#DeliveryService ul li').eq(1).addClass('on');
+  //   $('#DeliveryService ul li').eq(2).addClass('on');
+  //   $('#DeliveryService ul li').eq(3).addClass('on');
+  //   $('#DeliveryService ul li').eq(4).addClass('on');
+  //   $('.Delivery-evaluate-span').html('<strong>非常满意</strong>');
+  // }
 
-  //商品评分
-  var commentsNum = 0;
-  if (commentsNum == 1) {
-    $('.comments ul li').eq(0).addClass('on');
-    $('.comments .Delivery-evaluate-span').html('<strong>1分</strong>');
-  } else if (commentsNum == 2) {
-    $('.comments ul li').eq(0).addClass('on');
-    $('.comments ul li').eq(1).addClass('on');
-    $('.comments .Delivery-evaluate-span').html('<strong>2分</strong>');
-  } else if (commentsNum == 3) {
-    $('.comments ul li').eq(0).addClass('on');
-    $('.comments ul li').eq(1).addClass('on');
-    $('.comments ul li').eq(2).addClass('on');
-    $('.comments .Delivery-evaluate-span').html('<strong>3分</strong>');
-  } else if (commentsNum == 4) {
-    $('.comments ul li').eq(0).addClass('on');
-    $('.comments ul li').eq(1).addClass('on');
-    $('.comments ul li').eq(2).addClass('on');
-    $('.comments ul li').eq(3).addClass('on');
-    $('.comments .Delivery-evaluate-span').html('<strong>4分</strong>');
-  } else if (commentsNum == 5) {
-    $('.comments ul li').eq(0).addClass('on');
-    $('.comments ul li').eq(1).addClass('on');
-    $('.comments ul li').eq(2).addClass('on');
-    $('.comments ul li').eq(3).addClass('on');
-    $('.comments ul li').eq(4).addClass('on');
-    $('.comments .Delivery-evaluate-span').html('<strong>5分</strong>');
-  }
+  // //商品评分
+  // var commentsNum = 0;
+  // if (commentsNum == 1) {
+  //   $('.comments ul li').eq(0).addClass('on');
+  //   $('.comments .Delivery-evaluate-span').html('<strong>失望</strong>');
+  // } else if (commentsNum == 2) {
+  //   $('.comments ul li').eq(0).addClass('on');
+  //   $('.comments ul li').eq(1).addClass('on');
+  //   $('.comments .Delivery-evaluate-span').html('<strong>不满</strong>');
+  // } else if (commentsNum == 3) {
+  //   $('.comments ul li').eq(0).addClass('on');
+  //   $('.comments ul li').eq(1).addClass('on');
+  //   $('.comments ul li').eq(2).addClass('on');
+  //   $('.comments .Delivery-evaluate-span').html('<strong>一般</strong>');
+  // } else if (commentsNum == 4) {
+  //   $('.comments ul li').eq(0).addClass('on');
+  //   $('.comments ul li').eq(1).addClass('on');
+  //   $('.comments ul li').eq(2).addClass('on');
+  //   $('.comments ul li').eq(3).addClass('on');
+  //   $('.comments .Delivery-evaluate-span').html('<strong>不错</strong>');
+  // } else if (commentsNum == 5) {
+  //   $('.comments ul li').eq(0).addClass('on');
+  //   $('.comments ul li').eq(1).addClass('on');
+  //   $('.comments ul li').eq(2).addClass('on');
+  //   $('.comments ul li').eq(3).addClass('on');
+  //   $('.comments ul li').eq(4).addClass('on');
+  //   $('.comments .Delivery-evaluate-span').html('<strong>非常满意</strong>');
+  // }
 
   //
   var commentIndex;
@@ -272,7 +272,18 @@ $(function () {
     aLi[i - 1].onclick = function () {
       iStar = this.index;
       oP.style.display = "none";
-      oSpan.innerHTML = "<strong>" + (this.index) + " 分</strong>";
+      // oSpan.innerHTML = "<strong>" + (this.index) + " 分</strong>";
+      if (this.index == 1) {
+        oSpan.innerHTML = "<strong>失望</strong>";
+      } else if (this.index == 2) {
+        oSpan.innerHTML = "<strong>不满</strong>";
+      } else if (this.index == 3) {
+        oSpan.innerHTML = "<strong>一般</strong>";
+      } else if (this.index == 4) {
+        oSpan.innerHTML = "<strong>不错</strong>";
+      } else if (this.index == 5) {
+        oSpan.innerHTML = "<strong>非常满意</strong>";
+      }
     }
   }
 
@@ -302,7 +313,18 @@ $(function () {
     LogLi[i - 1].onclick = function () {
       iStar = this.index;
       LogP.style.display = "none";
-      LogSpan.innerHTML = "<strong>" + (this.index) + " 分</strong>";
+      // LogSpan.innerHTML = "<strong>" + (this.index) + " 分</strong>";
+      if (this.index == 1) {
+        LogSpan.innerHTML = "<strong>失望</strong>";
+      } else if (this.index == 2) {
+        LogSpan.innerHTML = "<strong>不满</strong>";
+      } else if (this.index == 3) {
+        LogSpan.innerHTML = "<strong>一般</strong>";
+      } else if (this.index == 4) {
+        LogSpan.innerHTML = "<strong>不错</strong>";
+      } else if (this.index == 5) {
+        LogSpan.innerHTML = "<strong>非常满意</strong>";
+      }
     }
   }
 
@@ -331,7 +353,18 @@ $(function () {
     DeliveryLi[i - 1].onclick = function () {
       iStar = this.index;
       DeliveryP.style.display = "none";
-      DeliverySpan.innerHTML = "<strong>" + (this.index) + " 分</strong>";
+      // DeliverySpan.innerHTML = "<strong>" + (this.index) + " 分</strong>";
+      if (this.index == 1) {
+        DeliverySpan.innerHTML = "<strong>失望</strong>";
+      } else if (this.index == 2) {
+        DeliverySpan.innerHTML = "<strong>不满</strong>";
+      } else if (this.index == 3) {
+        DeliverySpan.innerHTML = "<strong>一般</strong>";
+      } else if (this.index == 4) {
+        DeliverySpan.innerHTML = "<strong>不错</strong>";
+      } else if (this.index == 5) {
+        DeliverySpan.innerHTML = "<strong>非常满意</strong>";
+      }
     }
   }
 
@@ -494,7 +527,18 @@ $(function () {
       //点击后进行评分处理
       CommentLi[i - 1].onclick = function () {
         iStar = this.index;
-        CommentSpan.innerHTML = "<strong>" + (this.index) + " 分</strong>";
+        // CommentSpan.innerHTML = "<strong>" + (this.index) + " 分</strong>";
+        if (this.index == 1) {
+          CommentSpan.innerHTML = "<strong>失望</strong>";
+        } else if (this.index == 2) {
+          CommentSpan.innerHTML = "<strong>不满</strong>";
+        } else if (this.index == 3) {
+          CommentSpan.innerHTML = "<strong>一般</strong>";
+        } else if (this.index == 4) {
+          CommentSpan.innerHTML = "<strong>不错</strong>";
+        } else if (this.index == 5) {
+          CommentSpan.innerHTML = "<strong>非常满意</strong>";
+        }
       }
     }
 

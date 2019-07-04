@@ -655,7 +655,7 @@
 }
 
 .filter-btn{
-  width: 50px;
+  width: 55px;
   height: 21px;
   border: 1px solid #ddd;
   text-align: center;
@@ -668,7 +668,7 @@
 }
 
 .filter-btn span{
-  margin-left: -10px;
+  /* margin-left: -10px; */
 }
 
 .filter-btn2{

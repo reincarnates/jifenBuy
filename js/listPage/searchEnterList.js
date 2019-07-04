@@ -14,6 +14,9 @@ $(function() {
 
   $('.filter-btn').click(function() {
     $(".filter-btn").eq($(".filter-btn").index(this)).addClass("filter-btn-active").siblings().removeClass('filter-btn-active');
+    if($(this).find('span').text() == '价格' && $(this).hasClass('filter-btn-active')) {
+      $(this).find('span').css('margin-left', '-10px');
+    }
   });
 
   var priceNum = 0;
