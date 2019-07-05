@@ -94,3 +94,48 @@
 .time_location span{
   color: #ff5628;
 }
+
+.img-error-wrapper{
+  width: 100%;
+  height: calc(100% - 218px);
+  background-color: #f6f5f5;
+}
+
+.img-error{
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 178px;
+  box-sizing: border-box;
+}
+
+.img-error-word{
+  color: #666;
+  font-size: 14px;
+  margin-top: 45px;
+}
+
+.img-error-load{
+  font-size: 14px;
+  color: #0043ed;
+  cursor: pointer;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.img-error-load:hover{
+  text-decoration: underline;
+}
+
+.img-error-btn{
+  width: 170px;
+  height: 40px;
+  border: 1px solid #999;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 38px;
+  font-size: 14px;
+  color: #666;
+  margin: 25px auto 0 auto;
+  cursor: pointer;
+}

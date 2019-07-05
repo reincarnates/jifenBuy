@@ -1,1 +1,3 @@
-/page/business/businessRegistration.html   商户注册
+/pages/business/businessRegistration.html   商户注册
+
+/pages/error/imgError.html  图片加载错误
