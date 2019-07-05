@@ -8,10 +8,12 @@
 
 .investment-header{
   width: 100%;
-  height: 155px;
-  background: #ffb030;
+  height: 264px;
+  /* background: #ffb030; */
+  background-image: url(../../images/static/invite_bg.png);
+  background-size: center center;
   color: #fff;
-  margin: 20px 0;
+  /* margin: 20px 0; */
 }
 
 .investment-wrap .inner{
@@ -21,7 +23,7 @@
 }
 
 .investment-header .investment-area{
-  padding: 50px 0 20px 20px;
+  padding: 62px 0 20px 20px;
 }
 
 .investment-header .investment-area strong{
