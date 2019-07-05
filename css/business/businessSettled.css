@@ -2,7 +2,7 @@
 
 .businessBanner{
   width: 100%;
-  height: 500px;
+  height: 400px;
 }
 
 .businessBanner img{
@@ -554,7 +554,7 @@ address, caption, cite, code, em, h1, h2, h3, h4, h5, h6, pre, strong, table, td
 .settled-brands .brand10 {
   margin: 0 auto;
   width: 1200px;
-  height: 1110px;
+  height: 520px;
 }
 
 .brand10 .left {
@@ -578,7 +578,7 @@ address, caption, cite, code, em, h1, h2, h3, h4, h5, h6, pre, strong, table, td
 
 .brand10 .right {
   width: 1000px;
-  height: 1050px;
+  /* height: 1050px; */
   background-color: #fff;
   float: right;
 }

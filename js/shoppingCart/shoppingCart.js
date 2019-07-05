@@ -146,6 +146,7 @@ $(function () {
     var $plus = $('.plus'),
         $reduce = $('.reduce'),
         $all_sum = $('.sum');
+    var numMax = 8;
     $plus.click(function () {
         var $inputVal = $(this).prev('input'),
             $count = Number($inputVal.val()) + 1,
@@ -153,8 +154,10 @@ $(function () {
             $priceTotalObj = $(this).parents('.order_lists').find('.sum_price'),
             $price = $(this).parents('.order_lists').find('.newPrice').html(),  //单价
             $priceTotal = $count * Number($price).toFixed(2);
-        $inputVal.val($count);
-        $priceTotalObj.html($priceTotal.toFixed(2));
+        if($inputVal.val() < numMax) {
+            $inputVal.val($count);
+            $priceTotalObj.html($priceTotal.toFixed(2));
+        }
         if ($inputVal.val() > 1 && $obj.hasClass('reSty')) {
             $obj.removeClass('reSty');
         }
@@ -186,6 +189,10 @@ $(function () {
             $priceTotal = 0;
         if ($(this).val() == '') {
             $(this).val('1');
+        }
+        if($(this).val() > numMax) {
+            alert('最大');
+            $(this).val(numMax);
         }
         $(this).val($(this).val().replace(/\D|^0/g, ''));
         $count = $(this).val();

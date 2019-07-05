@@ -1,3 +1,5 @@
 /pages/business/businessRegistration.html   商户注册
 
 /pages/error/imgError.html  图片加载错误
+
+/pages/special/specialFood.html  美食专题页面

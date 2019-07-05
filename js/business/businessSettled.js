@@ -10,7 +10,7 @@ $(function() {
   });
 
   $('#residence').on('click', function() {
-    $('body,html').animate({ scrollTop: 1273 }, 500);
+    $('body,html').animate({ scrollTop: 1173 }, 500);
   });
 
   // $('#criteria').on('click', function() {
@@ -22,9 +22,7 @@ $(function() {
   // });
 
   $('#cooperativeBrand').on('click', function() {
-    $('body,html').animate({ scrollTop: 2255 }, 500);
+    $('body,html').animate({ scrollTop: 2155 }, 500);
   });
-
-  console.log(window);
 
 })
