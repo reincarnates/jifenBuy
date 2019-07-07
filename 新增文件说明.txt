@@ -3,3 +3,7 @@
 /pages/error/imgError.html  图片加载错误
 
 /pages/special/specialFood.html  美食专题页面
+
+/pages/special/specialTea.html  茶专题页面
+
+/pages/special/specialFestival.html 节日类电器类专题页面

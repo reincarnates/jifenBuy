@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+/* 美食 */
 .special-food-banner{
   width: 100%;
   height: 600px;
@@ -7,6 +8,7 @@
 
 .special-food-banner img{
   width: 100%;
+  height: 100%;
 }
 
 .special-food-content{
@@ -130,7 +132,19 @@
   float: left;
 }
 
+.special-food-goods-item2{
+  width: 260px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  float: left;
+}
+
 .special-food-goods-item:nth-child(4n+4){
+  margin-right: 0;
+}
+
+.special-food-goods-item2:nth-child(4n+4){
   margin-right: 0;
 }
 
@@ -159,8 +173,16 @@
   padding: 0 17px;
   box-sizing: border-box;
   font-size: 12px;
-  color: #333;
   line-height: 20px;
+}
+
+.special-food-goods-item-name a{
+  color: #333;
+}
+
+.special-food-goods-item-name a:hover{
+  color: #ffb030;
+  text-decoration: underline;
 }
 
 .special-food-goods-item-price{
@@ -189,6 +211,7 @@
   line-height: 30px;
   margin: 0 auto 21px auto;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .special-food-goods-item-check{
@@ -204,7 +227,24 @@
   cursor: pointer;
 }
 
+.special-food-goods-item-check2{
+  width: 137px;
+  height: 41px;
+  border: 1px solid #969696;
+  text-align: center;
+  line-height: 41px;
+  color: #3c1d0e;
+  font-size: 14px;
+  border-radius: 4px;
+  margin: 11px auto 39px auto;
+  cursor: pointer;
+}
+
 .special-food-goods-item-check:last-child{
+  margin-bottom: 0;
+}
+
+.special-food-goods-item-check2:last-child{
   margin-bottom: 0;
 }
 
@@ -213,3 +253,49 @@
   margin-bottom: 40px;
   text-align: center;
 }
+
+/* 美食end */
+
+/* 茶 */
+
+.special-tea-wrapper{
+  width: 100%;
+  background: url(../../images/static/special_tea_bg.png) no-repeat center center;
+}
+
+.special-tea-goods-wrapper{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.special-tea-goods-item-head{
+  width: 100%;
+  height: 163px;
+  padding-top: 51px;
+}
+
+.special-tea-goods-item-head-content{
+  width: 464px;
+  height: 63px;
+  border: 2px solid #f4c984;
+  border-radius: 30px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px 5px #ccc;
+  text-align: center;
+  line-height: 60px;
+  color: #3c1d0e;
+  font-size: 32px;
+  font-family: '新宋体'
+}
+
+.special-food-goods-item-wrapper2{
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.special-food-goods-item-wrapper2:last-child{
+  padding-bottom: 39px;
+}
+
+/* 茶end */
