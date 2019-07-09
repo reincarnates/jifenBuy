@@ -11,12 +11,14 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   <meta name="format-detection" content="telephone=no" />
-  <title>我的信息</title>
-  <link rel="stylesheet" href="../../css/reset.css">
-  <link rel="stylesheet" href="../../css/style.css">
-  <link rel="stylesheet" href="../../css/PersonalCenter/PersonalCenter.css">
-  <link rel="stylesheet" href="../../css/headOrfooter/headOrfooter.css">
-  <link rel="stylesheet" href="../../css/myNews/myNews.css">
+  <title>修改支付密码</title>
+  <link rel="stylesheet" href="../../../css/reset.css">
+  <link rel="stylesheet" href="../../../css/style.css">
+  <link rel="stylesheet" href="../../../css/PersonalCenter/PersonalCenter.css">
+  <link rel="stylesheet" href="../../../css/PersonalCenter/AccountSecurity/AccountSecurity.css">
+  <link rel="stylesheet" href="../../../css/PersonalCenter/AccountSecurity/reSetPaymentPassword.css">
+  <!-- <link rel="stylesheet" href="../../../css/index/index.css"> -->
+  <link rel="stylesheet" href="../../../css/headOrfooter/headOrfooter.css">
 </head>
 
 <body>
@@ -180,27 +182,27 @@
                 </div>
                 <div class="iphone">
                   <div class="iphone-code">
-                    <img src="../../images/static/iphone_code.png" alt="">
+                    <img src="../../../images/static/iphone_code.png" alt="">
                   </div>
                   <div class="iphone-logo">
                     <a href="#">
-                      <img src="../../images/static/iphone_logo.png" alt="">
+                      <img src="../../../images/static/iphone_logo.png" alt="">
                     </a>
                   </div>
                 </div>
                 <div class="andriod">
                   <div class="iphone-code">
-                    <img src="../../images/static/android_code.png" alt="">
+                    <img src="../../../images/static/android_code.png" alt="">
                   </div>
                   <div class="iphone-logo">
                     <a href="#">
-                      <img src="../../images/static/android_logo.png" alt="">
+                      <img src="../../../images/static/android_logo.png" alt="">
                     </a>
                   </div>
                 </div>
                 <div class="fuli-public">
                   <div class="iphone-code">
-                    <img src="../../images/static/android_code.png" alt="">
+                    <img src="../../../images/static/android_code.png" alt="">
                   </div>
                   <div class="iphone-logo">
                     <p>关注福利商城公众号</p>
@@ -215,7 +217,7 @@
     </div>
     <div class="head_mid">
       <a href="#">
-        <img src="../../images/static/logo.png" alt="">
+        <img src="../../../images/static/logo.png" alt="">
       </a>
       <div class="search">
         <div class="search-input-wrapper clearfix">
@@ -302,7 +304,7 @@
         <!-- 购物车没有商品 -->
         <div class="search-not-cart">
           <div class="search-not-cart-img">
-            <img src="../../images/static/not_cart.png" alt="">
+            <img src="../../../images/static/not_cart.png" alt="">
             <span>购物车还没有商品赶快去选购吧！！！</span>
           </div>
         </div>
@@ -341,319 +343,194 @@
     <div class="fuli-container">
       <div class="personal clearfix">
         <div class="menu2">
-          <dl class="list_dl">
-            <dt class="list_dt">
-              <span class="_after"></span>
-              <i class="list_dt_icon2"></i>
-              <p>订单中心</p>
-              <i class="list_dt_icon"></i>
-            </dt>
-            <dd class="list_dd">
-              <ul>
-                <li class="list_li">我的订单</li>
-                <li class="list_li">常购商品</li>
-              </ul>
-            </dd>
-            <dt class="list_dt">
-              <span class="_after"></span>
-              <i class="list_dt_icon2"></i>
-              <p>我的福利袋</p>
-              <i class="list_dt_icon"></i>
-            </dt>
-            <dd class="list_dd">
-              <ul>
-                <li class="list_li">余额</li>
-                <li class="list_li">积分</li>
-                <!-- <li class="list_li">红包</li>-->
-                <li class="list_li">代金券</li>
-                <!-- <li class="list_li">更多</li>  -->
-              </ul>
-            </dd>
-            <dt class="list_dt">
-              <span class="_after"></span>
-              <i class="list_dt_icon2"></i>
-              <p>账户管理</p>
-              <i class="list_dt_icon"></i>
-            </dt>
-            <dd class="list_dd">
-              <ul>
-                <li class="list_li">我的信息</li>
-                <li class="list_li">账户安全</li>
-                <li class="list_li">地址管理</li>
-              </ul>
-            </dd>
-            <dt class="list_dt">
-              <span class="_after"></span>
-              <i class="list_dt_icon2"></i>
-              <p>消息中心</p>
-              <i class="list_dt_icon"></i>
-            </dt>
-            <dd class="list_dd">
-              <ul>
-                <li class="list_li">活动公告</li>
-                <li class="list_li">交易物流</li>
-                <li class="list_li">系统消息</li>
-              </ul>
-            </dd>
-            <dt class="list_dt">
-              <span class="_after"></span>
-              <i class="list_dt_icon2"></i>
-              <p>个人服务</p>
-              <i class="list_dt_icon"></i>
-            </dt>
-            <dd class="list_dd">
-              <ul>
-                <li class="list_li">退款退货</li>
-                <!-- <li class="list_li">发票服务</li> -->
-                <li class="list_li">投诉举报</li>
-                <li class="list_li">意见反馈</li>
-                <!-- <li class="list_li">在线咨询</li> -->
-              </ul>
-            </dd>
-            <dt class="list_dt">
-              <span class="_after"></span>
-              <i class="list_dt_icon2"></i>
-              <p>关注中心</p>
-              <i class="list_dt_icon"></i>
-            </dt>
-            <dd class="list_dd">
-              <ul>
-                <li class="list_li">我的收藏</li>
-                <li class="list_li">到货通知</li>
-              </ul>
-            </dd>
-          </dl>
+            <dl class="list_dl">
+              <dt class="list_dt">
+                <span class="_after"></span>
+                <i class="list_dt_icon2"></i>
+                <p>订单中心</p>
+                <i class="list_dt_icon"></i>
+              </dt>
+              <dd class="list_dd">
+                <ul>
+                  <li class="list_li">我的订单</li>
+                  <li class="list_li">常购商品</li>
+                </ul>
+              </dd>
+              <dt class="list_dt">
+                <span class="_after"></span>
+                <i class="list_dt_icon2"></i>
+                <p>我的福利袋</p>
+                <i class="list_dt_icon"></i>
+              </dt>
+              <dd class="list_dd">
+                <ul>
+                  <li class="list_li">余额</li>
+                  <li class="list_li">积分</li>
+                  <!-- <li class="list_li">红包</li>-->
+                  <li class="list_li">代金券</li>
+                  <!-- <li class="list_li">更多</li>  -->
+                </ul>
+              </dd>
+              <dt class="list_dt">
+                <span class="_after"></span>
+                <i class="list_dt_icon2"></i>
+                <p>账户管理</p>
+                <i class="list_dt_icon"></i>
+              </dt>
+              <dd class="list_dd">
+                <ul>
+                  <li class="list_li">我的信息</li>
+                  <li class="list_li">账户安全</li>
+                  <li class="list_li">地址管理</li>
+                </ul>
+              </dd>
+              <dt class="list_dt">
+                <span class="_after"></span>
+                <i class="list_dt_icon2"></i>
+                <p>消息中心</p>
+                <i class="list_dt_icon"></i>
+              </dt>
+              <dd class="list_dd">
+                <ul>
+                  <li class="list_li">活动公告</li>
+                  <li class="list_li">交易物流</li>
+                  <li class="list_li">系统消息</li>
+                </ul>
+              </dd>
+              <dt class="list_dt">
+                <span class="_after"></span>
+                <i class="list_dt_icon2"></i>
+                <p>个人服务</p>
+                <i class="list_dt_icon"></i>
+              </dt>
+              <dd class="list_dd">
+                <ul>
+                  <li class="list_li">售后记录</li>
+                  <!-- <li class="list_li">发票服务</li> -->
+                  <li class="list_li">投诉举报</li>
+                  <li class="list_li">意见反馈</li>
+                  <!-- <li class="list_li">在线咨询</li> -->
+                </ul>
+              </dd>
+              <dt class="list_dt">
+                <span class="_after"></span>
+                <i class="list_dt_icon2"></i>
+                <p>关注中心</p>
+                <i class="list_dt_icon"></i>
+              </dt>
+              <dd class="list_dd">
+                <ul>
+                  <li class="list_li">我的收藏</li>
+                  <li class="list_li">到货通知</li>
+                  <li class="list_li">我的足迹</li>
+                </ul>
+              </dd>
+            </dl>
         </div>
-        <div class="store-collection-wrapper">
-          <div class="account-head-wrapper">
+        <div class="security-wrapper">
+          <div class="security-head-wrapper">
             <a href="#">账户管理</a>
             <span>></span>
-            <a href="#">我的消息</a>
-            <span>></span>
-            <a href="#">活动消息</a>
+            <a href="#">账户安全</a>
           </div>
-          <div class="mynews-wrapper">
-            <div class="mynews-head-wrapper clearfix">
-              <div class="mynews-head-item mynews-head-item-active">
-                交易物流(<span class="activity">8</span>)
-              </div>
-              <div class="mynews-head-item">
-                系统消息(<span class="trade">8</span>)
-              </div>
-              <div class="mynews-head-item">活动消息(<span class="notice">8</span>)</div>
+          <div class="setpayment-content-wrapper">
+            <div class="setpayment-content-head">
+              修改支付密码
             </div>
-            <div class="mynews-hide mynews-show">
-              <div class="mynews-trade-logistics-wrapper">
-                <div class="mynews-trade-logistics-item">
-                  <div class="mynews-trade-logistics-item-tips">【发货提醒】</div>
-                  <div class="mynews-trade-logistics-item-head">
-                    <div class="mynews-trade-logistics-item-head-ver"></div>
-                    <span class="mynews-trade-logistics-item-head-order">
-                      <a href="#">订单8145768已发货</a>
-                    </span>
-                    <span class="mynews-trade-logistics-item-head-time">2019-05-21 13:45:46</span>
-                  </div>
-                  <div class="mynews-trade-logistics-item-content clearfix">
-                    <div class="mynews-trade-logistics-item-content-img">
-                      <a href="#">
-                        <img src="../../images/static/logistics_img.png" alt="">
-                      </a>
+            <div class="main">
+              <div id="step2"></div>
+              <div class="step1">
+                <div class="login-info-wrapper">
+                  <div class="login-username clearfix">
+                    <div class="login-username-left">
+                      用&nbsp;&nbsp;&nbsp;户&nbsp;&nbsp;&nbsp;名：
                     </div>
-                    <div class="mynews-trade-logistics-item-content-word">
-                      <div class="mynews-trade-logistics-item-goods-name">
-                        <a href="#">茶籽薄荷餐具净</a>
-                      </div>
-                      <div class="mynews-trade-logistics-item-goods-number">共3件商品</div>
-                      <div class="mynews-trade-logistics-item-goods-package">包裹1（京东）</div>
-                      <div class="mynews-trade-logistics-item-goods-select-detail">
-                        <a href="#">查看详情></a>
-                      </div>
+                    <div class="login-username-right">
+                      哈哈哈哈哈
                     </div>
                   </div>
-                </div>
-                <div class="mynews-trade-logistics-item">
-                  <div class="mynews-trade-logistics-item-tips">【签收提醒】</div>
-                  <div class="mynews-trade-logistics-item-head">
-                    <div class="mynews-trade-logistics-item-head-ver"></div>
-                    <span class="mynews-trade-logistics-item-head-order">
-                      <a href="#">订单8145768已签收</a>
-                    </span>
-                    <span class="mynews-trade-logistics-item-head-time">2019-05-21 13:45:46</span>
-                  </div>
-                  <div class="mynews-trade-logistics-item-content clearfix">
-                    <div class="mynews-trade-logistics-item-content-img">
-                      <a href="#">
-                        <img src="../../images/static/logistics_img.png" alt="">
-                      </a>
+                  <div class="login-username clearfix">
+                    <div class="login-username-left">
+                      手&nbsp;机&nbsp;号&nbsp;码：
                     </div>
-                    <div class="mynews-trade-logistics-item-content-word">
-                      <div class="mynews-trade-logistics-item-goods-name">
-                        <a href="#">茶籽薄荷餐具净</a>
-                      </div>
-                      <div class="mynews-trade-logistics-item-goods-number">共3件商品</div>
-                      <div class="mynews-trade-logistics-item-goods-package">包裹1（京东）</div>
-                      <div class="mynews-trade-logistics-item-goods-select-detail">
-                        <a href="#">查看详情></a>
+                    <div class="login-username-right">
+                      183****0153
+                    </div>
+                  </div>
+                  <div class="login-username clearfix">
+                    <div class="login-username-left">
+                      短信验证码：
+                    </div>
+                    <div class="login-username-right">
+                      <div class="short-rule-input">
+                        <input type="text" name="short" maxlength="6" placeholder="请输入短信验证码" id="shortInput" />
+                        <div class="short-rule-btn">
+                          获取验证码
+                        </div>
+                        <span class="short-rule-error">请输入短信验证码</span>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="mynews-trade-logistics-item">
-                  <div class="mynews-trade-logistics-item-tips">【售后提醒】</div>
-                  <div class="mynews-trade-logistics-item-head">
-                    <div class="mynews-trade-logistics-item-head-ver"></div>
-                    <span class="mynews-trade-logistics-item-head-order">
-                      <a href="#">退款完成</a>
-                    </span>
-                    <span class="mynews-trade-logistics-item-head-time">2019-05-21 13:45:46</span>
-                  </div>
-                  <div class="mynews-trade-logistics-item-content clearfix">
-                    <div class="mynews-trade-logistics-item-content-img">
-                      <a href="#">
-                        <img src="../../images/static/logistics_img.png" alt="">
-                      </a>
+                  <div class="login-username clearfix">
+                    <div class="login-username-left">
+                      验&nbsp;&nbsp;&nbsp;证&nbsp;&nbsp;&nbsp;码：
                     </div>
-                    <div class="mynews-trade-logistics-item-content-word">
-                      <div class="mynews-trade-logistics-item-goods-name">
-                        <a href="#">您的退款申请已完成</a>
-                      </div>
-                      <div class="mynews-trade-logistics-item-goods-select-detail">
-                        <a href="#">查看详情></a>
+                    <div class="login-username-right">
+                      <div class="verification-code clearfix">
+                        <input type="text" class="verification-code-left" placeholder="请输入验证码" name="verification" id="verificationCode" />
+                        <div class="verification-code-right">
+                          <img src="" alt="">
+                        </div>
+                        <span class="verification-code-word">
+                          看不清，<a href="javascript:;">换一张</a>
+                        </span>
+                        <span class="verification-rule-error">请输入短信验证码</span>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="mynews-trade-logistics-item">
-                  <div class="mynews-trade-logistics-item-tips">【售后提醒】</div>
-                  <div class="mynews-trade-logistics-item-head">
-                    <div class="mynews-trade-logistics-item-head-ver"></div>
-                    <span class="mynews-trade-logistics-item-head-order">
-                      <a href="#">取消订单申请通过</a>
-                    </span>
-                    <span class="mynews-trade-logistics-item-head-time">2019-05-21 13:45:46</span>
-                  </div>
-                  <div class="mynews-trade-logistics-item-content clearfix">
-                    <div class="mynews-trade-logistics-item-content-img">
-                      <a href="#">
-                        <img src="../../images/static/logistics_img.png" alt="">
-                      </a>
-                    </div>
-                    <div class="mynews-trade-logistics-item-content-word">
-                      <div class="mynews-trade-logistics-item-goods-name">
-                        <a href="#">您的订单取消申请已受理</a>
-                      </div>
-                      <div class="mynews-trade-logistics-item-goods-select-detail">
-                        <a href="#">查看详情></a>
-                      </div>
-                    </div>
+                  <div class="login-info-btn">
+                    下一步
                   </div>
                 </div>
               </div>
-              <div class="size-seat"></div>
-            </div>
-            <div class="mynews-hide">
-              <div class="mynews-trade-logistics-wrapper">
-                <div class="mynews-trade-logistics-item2">
-                  <div class="mynews-trade-logistics-item-tips">【会员通知】</div>
-                  <div class="mynews-trade-logistics-item-head">
-                    <div class="mynews-trade-logistics-item-head-ver"></div>
-                    <span class="mynews-trade-logistics-item-head-order mynews-color">
-                      升级礼包
-                    </span>
-                    <span class="mynews-trade-logistics-item-head-time">2019-05-21 13:45:46</span>
+              <div class="step2">
+                <div class="login-password-wrapper">
+                  <!-- <div class="login-new-password clearfix">
+                    <div class="login-new-password-left">原始密码：</div>
+                    <input type="password" placeholder="请输入原始密码" maxlength="6" class="new-pass-word" name="primitivePassword" id="primitivePassword" />
+                    <span class="primitivePassWord newPassWord-pos"></span>
+                  </div> -->
+                  <div class="login-new-password clearfix">
+                    <div class="login-new-password-left">新&nbsp;&nbsp;密&nbsp;&nbsp;码：</div>
+                    <input type="password" placeholder="请设置6位数字支付密码" maxlength="6" class="new-pass-word" name="newPassWord" id="newPassWord" />
                   </div>
-                  <div class="mynews-trade-logistics-item-content">
-                    <div class="mynews-trade-logistics-item-goods-name mynews-color">
-                      恭喜您成功升级为v1会员，赶紧领取您的会员大礼包去吧！
-                    </div>
-                    <div class="mynews-trade-logistics-item-goods-select-detail">
-                      <a href="#">查看详情></a>
-                    </div>
+                  <div class="login-new-password clearfix">
+                    <div class="login-new-password-left">确认密码：</div>
+                    <input type="password" placeholder="请确认6位数字支付密码" maxlength="6" class="new-pass-word" name="confirmPassWord" id="confirmPassWord" />
+                    <span class="paymentPassWord newPassWord-pos">两次输入密码不一致，请重新输入</span>
                   </div>
-                </div>
-                <div class="mynews-trade-logistics-item2">
-                  <div class="mynews-trade-logistics-item-tips">【系统通知】</div>
-                  <div class="mynews-trade-logistics-item-head">
-                    <div class="mynews-trade-logistics-item-head-ver"></div>
-                    <span class="mynews-trade-logistics-item-head-order mynews-color">
-                      【有奖调研】严选粉丝节，您参加了吗？
-                    </span>
-                    <span class="mynews-trade-logistics-item-head-time">2019-05-21 13:45:46</span>
-                  </div>
-                  <div class="mynews-trade-logistics-item-content">
-                    <div class="mynews-trade-logistics-item-goods-name mynews-color">
-                      聊聊近期的浏览、购物体验~完整提交问卷，就有机会抽取50元！（4月20日截止）
-                    </div>
-                    <div class="mynews-trade-logistics-item-goods-select-detail">
-                      <a href="#">查看详情></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="mynews-trade-logistics-item2">
-                  <div class="mynews-trade-logistics-item-tips">【系统通知】</div>
-                  <div class="mynews-trade-logistics-item-head">
-                    <div class="mynews-trade-logistics-item-head-ver"></div>
-                    <span class="mynews-trade-logistics-item-head-order mynews-color">
-                      余额变更
-                    </span>
-                    <span class="mynews-trade-logistics-item-head-time">2019-05-21 13:45:46</span>
-                  </div>
-                  <!-- <div class="mynews-trade-logistics-item-content"> -->
-                    <div class="mynews-trade-logistics-item-goods-select-detail">
-                      <a href="#">查看详情></a>
-                    </div>
-                  <!-- </div> -->
-                </div>
-              </div>
-              <div class="size-seat"></div>
-            </div>
-            <div class="mynews-hide">
-              <div class="mynews-content-wrapper">
-                <div class="mynews-content-item">
-                  <div class="mynews-content-head">
-                    <span class="mynews-content-head-name">
-                      <a href="#">【上新】6月服饰鞋包特惠6折起！</a>
-                    </span>
-                    <span class="mynews-content-head-time">2019-05-21 09:00:25</span>
-                  </div>
-                  <div class="mynews-content-message clearfix">
-                    <div class="mynews-content-message-left">
-                      <img src="../../images/static/mynews.jpg" alt="">
-                    </div>
-                    <div class="mynews-content-message-right">
-                      <div class="mynews-content-message-right-suggest">
-                        蚕丝连衣裙、全棉短袖衬衫清凉款火热上市！遮阳帽、冰感防晒袖套等夏日必备用券没满199减30>>
-                      </div>
-                      <div class="mynews-content-message-right-select-detail">
-                        <a href="#">查看详情></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="mynews-content-item">
-                  <div class="mynews-content-head">
-                    <span class="mynews-content-head-name">
-                      <a href="#">【上新】6月服饰鞋包特惠6折起！</a>
-                    </span>
-                    <span class="mynews-content-head-time">2019-05-21 09:00:25</span>
-                  </div>
-                  <div class="mynews-content-message clearfix">
-                    <div class="mynews-content-message-left">
-                      <img src="../../images/static/mynews.jpg" alt="">
-                      <div class="end-activity-mask">- 活动结束 -</div>
-                    </div>
-                    <div class="mynews-content-message-right">
-                      <div class="mynews-content-message-right-suggest">
-                        蚕丝连衣裙、全棉短袖衬衫清凉款火热上市！遮阳帽、冰感防晒袖套等夏日必备用券没满199减30>>
-                      </div>
-                      <div class="mynews-content-message-right-select-detail">
-                        <a href="#" class="end-activity-color">查看详情></a>
-                      </div>
-                    </div>
+                  <div class="login-new-password-btn">
+                    提交
                   </div>
                 </div>
               </div>
+              <div class="step3">
+                <div class="set_payment_password_success2">
+                  恭喜您重置支付密码成功！使用新的支付密码支付哦！
+                </div>
+              </div>
+              <!-- <button id="nextBtn">下一步</button> -->
             </div>
+          </div>
+          <div class="setpayment-footer-wrapper">
+            <div class="setpayment-footer-title">
+              <h3>温馨提示</h3>
+            </div>
+            <ul class="setpayment-footer-list">
+              <li>为确保您的账号安全，变更重要信息需要身份验证</li>
+              <li>设置过程中有疑问请联系在线客服</li>
+              <li>更改绑定手机，如原手机号停用无法获取验证码，请联系在线客服</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -669,7 +546,7 @@
       <div class="fuli-footer-service">
         <div class="footer-service-unit clearfix">
           <div class="footer-service-img">
-            <img src="../../images/static/aftersale.png" alt="">
+            <img src="../../../images/static/aftersale.png" alt="">
           </div>
           <div class="footer-service-word">
             <h6 class="footer-service-tit">正品保障</h6>
@@ -680,7 +557,7 @@
       <div class="fuli-footer-service">
         <div class="footer-service-unit clearfix">
           <div class="footer-service-img">
-            <img src="../../images/static/classify.png" alt="">
+            <img src="../../../images/static/classify.png" alt="">
           </div>
           <div class="footer-service-word">
             <h6 class="footer-service-tit">尊享低价</h6>
@@ -691,7 +568,7 @@
       <div class="fuli-footer-service">
         <div class="footer-service-unit clearfix">
           <div class="footer-service-img">
-            <img src="../../images/static/security.png" alt="">
+            <img src="../../../images/static/security.png" alt="">
           </div>
           <div class="footer-service-word">
             <h6 class="footer-service-tit">售后无忧</h6>
@@ -702,7 +579,7 @@
       <div class="fuli-footer-service">
         <div class="footer-service-unit clearfix">
           <div class="footer-service-img">
-            <img src="../../images/static/like.png" alt="">
+            <img src="../../../images/static/like.png" alt="">
           </div>
           <div class="footer-service-word">
             <h6 class="footer-service-tit">定制服务</h6>
@@ -890,9 +767,12 @@
   </div>
   <!-- 底部end -->
 
-  <script src="../../lib/jq/jquery.old.js"></script>
-  <script src="../../js/index/index.js"></script>
-  <script src="../../js/myNews/myNews.js"></script>
+
+  <script src="../../../lib/jq/jquery.old.js"></script>
+  <script src="../../../lib/step/jquery.step.min.js"></script>
+  <script src="../../../js/index/index.js"></script>
+  <script src="../../../js/service/service.js"></script>
+  <script src="../../../js/personalCenter/AccountSecurity/reSetPaymentPassword.js"></script>
 </body>
 
 </html>

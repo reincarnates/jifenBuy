@@ -8,9 +8,11 @@
 
 .store-collection-wrapper {
   width: 980px;
+  min-height: 972px;
   background-color: #fff;
   margin-left: 19px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   float: left;
 }
 
@@ -20,7 +22,8 @@
   line-height: 30px;
   border-bottom: 1px dashed #e5e5e5;
   padding-left: 20px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-size: 12px;
   color: #666;
 }
@@ -31,7 +34,7 @@
 
 .mynews-wrapper{
   width: 100%;
-  padding: 0 21px;
+  padding: 0 60px;
 }
 
 .mynews-head-wrapper{
@@ -40,7 +43,8 @@
   border-bottom: 1px solid #ddd;
   margin-top: 39px;
   padding: 6px 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .mynews-head-item{
@@ -71,15 +75,17 @@
 .mynews-content-wrapper{
   width: 100%;
   margin-top: 28px;
-  padding: 0 28px;
-  box-sizing: border-box;
+  /* padding: 0 28px; */
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .mynews-content-item{
   width: 100%;
   border-bottom: 1px dashed #dcdcdc;
   padding-bottom: 30px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .mynews-content-head{
@@ -121,9 +127,10 @@
 }
 
 .mynews-content-message-right{
-  width: 370px;
+  width: 350px;
   padding-left: 19px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   float: left;
 }
 
@@ -173,8 +180,8 @@
 
 .mynews-trade-logistics-wrapper{
   width: 100%;
-  padding: 0 60px;
-  box-sizing: border-box;
+  /* padding: 0 60px;
+  box-sizing: border-box; */
 }
 
 .mynews-trade-logistics-item{
@@ -187,6 +194,11 @@
   width: 100%;
   /* height: 158px; */
   margin-top: 21px;
+}
+
+.mynews-trade-logistics-item-tips{
+  color: #ffb030;
+  font-size: 14px;
 }
 
 .mynews-trade-logistics-item-head{
@@ -242,7 +254,8 @@
 .mynews-trade-logistics-item-content-word{
   float: left;
   padding-left: 19px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .mynews-trade-logistics-item-goods-name{

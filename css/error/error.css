@@ -97,6 +97,7 @@
 
 .img-error-wrapper{
   width: 100%;
+  height: -webkit-calc(100% - 218px);
   height: calc(100% - 218px);
   background-color: #f6f5f5;
 }
@@ -106,7 +107,8 @@
   margin: 0 auto;
   text-align: center;
   padding-top: 178px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .img-error-word{

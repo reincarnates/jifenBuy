@@ -140,7 +140,7 @@
   padding: 20px;
   border-radius: 8px;
   color: #262626;
-  display: none;
+  /* display: none; */
 }
 
 .investment-agree .txt-area {
@@ -196,7 +196,7 @@
 }
 
 .agree-box6{
-  /* display: none; */
+  display: none;
 }
 
 .agree-box2 .left{
@@ -490,6 +490,7 @@ li.for-pc {
   float: left;
   width: 134px;
   height: 127px;
+  text-align: center;
 }
 
 .apply-success-img2{
@@ -504,7 +505,8 @@ li.for-pc {
 }
 
 .apply-success-img img{
-  width: 100%;
+  /* width: 100%; */
+  margin-top: 10px;
 }
 
 .apply-success-word{

@@ -24,7 +24,8 @@
   line-height: 45px;
   border: 1px solid #dcdcdc;
   padding-left: 16px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   color: #999;
   font-size: 14px;
   margin-top: 17px;
@@ -47,7 +48,8 @@
   height: 39px;
   border-bottom: 1px solid #dcdcdc;
   padding: 0 72px 0 17px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   line-height: 39px;
   color: #999;
   font-size: 14px;
@@ -65,7 +67,8 @@
   width: 100%;
   height: 122px;
   padding-right: 65px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   position: relative;
 }
 
@@ -139,7 +142,8 @@
   border-color: #ddd;
   border-width: 0 1px 1px 1px;
   padding: 34px 28px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .goods-evaluate-wrapper{
@@ -232,7 +236,8 @@
   font-size: 14px;
   line-height: 36px;
   padding-left: 25px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   position: relative;
   cursor: pointer;
   float: left;
@@ -313,7 +318,8 @@
   width: 357px;
   padding-top: 21px;
   padding-bottom: 27px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   float: left;
 }
 
@@ -349,7 +355,8 @@
 .logistics-score-wrapper{
   width: 840px;
   padding: 46px 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   float: left;
 }
 
@@ -369,7 +376,8 @@
   /* height: 341px; */
   border-bottom: 1px dashed #ddd;
   padding-top: 35px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .goods-comment-item:last-child{
@@ -380,7 +388,8 @@
   width: 184px;
   height: 305px;
   /* padding-left: 19px; */
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   float: left;
 }
 
@@ -390,7 +399,8 @@
   border: 1px solid #ddd;
   padding-top: 20px;
   padding-left: 20px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin-left: 19px;
 }
 
@@ -484,7 +494,8 @@
   border: 1px solid #ddd;
   padding-top: 17px;
   padding-left: 17px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   float: left;
   margin-right: 9px;
@@ -615,7 +626,8 @@
   line-height: 53px;
   border-bottom: 1px dashed #d1d1d1;
   padding: 0 30px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .comment-mask-head-word{
@@ -642,7 +654,8 @@
   background: url(../../images/static/set_payment_success.png) no-repeat;
   background-position: 160px 8px;
   margin-top: 36px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .comment-mask-btn{
@@ -741,7 +754,8 @@
   width: 96px;
   height: 96px;
   margin-left: 14px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   float: left;
   position: relative;
@@ -800,7 +814,10 @@
   color: #fff;
   cursor: pointer;
   overflow: hidden;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .comment-btn-prev{
@@ -820,7 +837,8 @@
   font-size: 12px;
   line-height: 41px;
   padding-left: 14px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .goods-comment-item-content-btn{

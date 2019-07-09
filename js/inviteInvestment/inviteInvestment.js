@@ -56,60 +56,60 @@ $(function () {
   });
 
   $('#saveAndNext').on('click', function () {
-    // if($('.tr2').find('input').val() == '') {
-    //   $('.tr2').find('.investment-rule').show();
-    //   $('.tr2').find('input').addClass('investment-rule');
-    //   $('.tr2').find('textarea').addClass('investment-rule');
-    //   return false;
-    // }
+    if($('.tr2').find('input').val() == '') {
+      $('.tr2').find('.investment-rule').show();
+      $('.tr2').find('input').addClass('investment-rule');
+      $('.tr2').find('textarea').addClass('investment-rule');
+      return false;
+    }
 
-    // if ($('#companyName').val() == '') {
-    //   $('.companyName').show();
-    //   $('#companyName').addClass('investment-rule');
-    //   return false;
-    // }
+    if ($('#companyName').val() == '') {
+      $('.companyName').show();
+      $('#companyName').addClass('investment-rule');
+      return false;
+    }
 
-    // if ($('#submitterName').val() == '') {
-    //   $('.submitterName').show();
-    //   $('#submitterName').addClass('investment-rule');
-    //   return false;
-    // }
+    if ($('#submitterName').val() == '') {
+      $('.submitterName').show();
+      $('#submitterName').addClass('investment-rule');
+      return false;
+    }
 
-    // if ($('#submitterPosition').val() == '') {
-    //   $('.submitterPosition').show();
-    //   $('#submitterPosition').addClass('investment-rule');
-    //   return false;
-    // }
+    if ($('#submitterPosition').val() == '') {
+      $('.submitterPosition').show();
+      $('#submitterPosition').addClass('investment-rule');
+      return false;
+    }
 
-    // if ($('#submitterTel').val() == '') {
-    //   $('.submitterTel').show();
-    //   $('#submitterTel').addClass('investment-rule');
-    //   return false;
-    // }
+    if ($('#submitterTel').val() == '') {
+      $('.submitterTel').show();
+      $('#submitterTel').addClass('investment-rule');
+      return false;
+    }
 
-    // if ($('#submitterEmail').val() == '') {
-    //   $('.submitterEmail').show();
-    //   $('#submitterEmail').addClass('investment-rule');
-    //   return false;
-    // }
+    if ($('#submitterEmail').val() == '') {
+      $('.submitterEmail').show();
+      $('#submitterEmail').addClass('investment-rule');
+      return false;
+    }
 
-    // if ($('#uscc').val() == '') {
-    //   $('.uscc').show();
-    //   $('#uscc').addClass('investment-rule');
-    //   return false;
-    // }
+    if ($('#uscc').val() == '') {
+      $('.uscc').show();
+      $('#uscc').addClass('investment-rule');
+      return false;
+    }
 
-    // if ($('#brandName').val() == '') {
-    //   $('.brandName').show();
-    //   $('#brandName').addClass('investment-rule');
-    //   return false;
-    // }
+    if ($('#brandName').val() == '') {
+      $('.brandName').show();
+      $('#brandName').addClass('investment-rule');
+      return false;
+    }
 
-    // if ($('#brandIntroduction').val() == '') {
-    //   $('.brandIntroduction').show();
-    //   $('#brandIntroduction').addClass('investment-rule');
-    //   return false;
-    // }
+    if ($('#brandIntroduction').val() == '') {
+      $('.brandIntroduction').show();
+      $('#brandIntroduction').addClass('investment-rule');
+      return false;
+    }
     $step.nextStep();
     $('.agree-box2').hide().siblings('.agree-box3').show();
   });
@@ -186,144 +186,144 @@ $(function () {
   });
 
   $('#saveAndNext2').on('click', function () {
-    // if ($('#companyName2').val() == '') {
-    //   $('.companyName2').show();
-    //   $('#companyName2').addClass('investment-rule');
-    //   return false;
-    // }
+    if ($('#companyName2').val() == '') {
+      $('.companyName2').show();
+      $('#companyName2').addClass('investment-rule');
+      return false;
+    }
 
-    // if ($('#submitterNumber').val() == '') {
-    //   $('.submitterNumber').show();
-    //   $('#submitterNumber').addClass('investment-rule');
-    //   return false;
-    // }
+    if ($('#submitterNumber').val() == '') {
+      $('.submitterNumber').show();
+      $('#submitterNumber').addClass('investment-rule');
+      return false;
+    }
 
-    // if ($('#submitterRange').val() == '') {
-    //   $('.submitterRange').show();
-    //   $('#submitterRange').addClass('investment-rule');
-    //   return false;
-    // }
+    if ($('#submitterRange').val() == '') {
+      $('.submitterRange').show();
+      $('#submitterRange').addClass('investment-rule');
+      return false;
+    }
 
-    // if ($('#legalName').val() == '') {
-    //   $('.legalName').show();
-    //   $('#legalName').addClass('investment-rule');
-    //   return false;
-    // }
+    if ($('#legalName').val() == '') {
+      $('.legalName').show();
+      $('#legalName').addClass('investment-rule');
+      return false;
+    }
 
-    // if ($('#legalNameNumber').val() == '') {
-    //   $('.legalNameNumber').show();
-    //   $('#legalNameNumber').addClass('investment-rule');
-    //   return false;
-    // }
+    if ($('#legalNameNumber').val() == '') {
+      $('.legalNameNumber').show();
+      $('#legalNameNumber').addClass('investment-rule');
+      return false;
+    }
 
-    // if ($('#licenseAddress').val() == '') {
-    //   $('.licenseAddress').show();
-    //   $('#licenseAddress').addClass('investment-rule');
-    //   return false;
-    // }
+    if ($('#licenseAddress').val() == '') {
+      $('.licenseAddress').show();
+      $('#licenseAddress').addClass('investment-rule');
+      return false;
+    }
 
-    // if ($('#foundDate').val() == '') {
-    //   $('.foundDate').show();
-    //   $('#foundDate').addClass('investment-rule');
-    //   return false;
-    // }
+    if ($('#foundDate').val() == '') {
+      $('.foundDate').show();
+      $('#foundDate').addClass('investment-rule');
+      return false;
+    }
 
-    // if ($('#licenseValidStartDate').val() == '' && $('#licenseValidEndDate').val() == '') {
-    //   $('.ValidDate').show();
-    //   return false;
-    // } else {
-    //   $('.ValidDate').hide();
-    // }
+    if ($('#licenseValidStartDate').val() == '' && $('#licenseValidEndDate').val() == '') {
+      $('.ValidDate').show();
+      return false;
+    } else {
+      $('.ValidDate').hide();
+    }
 
-    // if ($('#urgentLiaison').val() == '') {
-    //   $('.urgentLiaison').show();
-    //   $('#urgentLiaison').addClass('investment-rule');
-    //   return false;
-    // }
+    if ($('#urgentLiaison').val() == '') {
+      $('.urgentLiaison').show();
+      $('#urgentLiaison').addClass('investment-rule');
+      return false;
+    }
 
-    // if ($('#urgentLiaisonPhone').val() == '') {
-    //   $('.urgentLiaisonPhone').show();
-    //   $('#urgentLiaisonPhone').addClass('investment-rule');
-    //   return false;
-    // }
+    if ($('#urgentLiaisonPhone').val() == '') {
+      $('.urgentLiaisonPhone').show();
+      $('#urgentLiaisonPhone').addClass('investment-rule');
+      return false;
+    }
 
-    // if ($('#accountName').val() == '') {
-    //   $('.accountName').show();
-    //   $('#accountName').addClass('investment-rule');
-    //   return false;
-    // }
+    if ($('#accountName').val() == '') {
+      $('.accountName').show();
+      $('#accountName').addClass('investment-rule');
+      return false;
+    }
 
-    // if ($('#accountBranchName').val() == '') {
-    //   $('.accountBranchName').show();
-    //   $('#accountBranchName').addClass('investment-rule');
-    //   return false;
-    // }
+    if ($('#accountBranchName').val() == '') {
+      $('.accountBranchName').show();
+      $('#accountBranchName').addClass('investment-rule');
+      return false;
+    }
 
-    // if ($('#accountLocation').val() == '') {
-    //   $('.accountLocation').show();
-    //   $('#accountLocation').addClass('investment-rule');
-    //   return false;
-    // }
+    if ($('#accountLocation').val() == '') {
+      $('.accountLocation').show();
+      $('#accountLocation').addClass('investment-rule');
+      return false;
+    }
     $step.nextStep();
     $('.agree-box3').hide().siblings('.agree-box4').show();
   });
 
   $('#saveAndNext3').on('click', function () {
-    // if ($('#shopName').val() == '') {
-    //   $('.shopName').show();
-    //   $('#shopName').addClass('investment-rule');
-    //   return false;
-    // }
+    if ($('#shopName').val() == '') {
+      $('.shopName').show();
+      $('#shopName').addClass('investment-rule');
+      return false;
+    }
 
-    // if ($('#shopSuggest').val() == '') {
-    //   $('.shopSuggest').show();
-    //   $('#shopSuggest').addClass('investment-rule');
-    //   return false;
-    // }
+    if ($('#shopSuggest').val() == '') {
+      $('.shopSuggest').show();
+      $('#shopSuggest').addClass('investment-rule');
+      return false;
+    }
 
-    // if ($('#categoryName').val() == '') {
-    //   $('.categoryName').show();
-    //   $('#categoryName').addClass('investment-rule');
-    //   return false;
-    // }
+    if ($('#categoryName').val() == '') {
+      $('.categoryName').show();
+      $('#categoryName').addClass('investment-rule');
+      return false;
+    }
 
-    // if ($('#naturalName').val() == '') {
-    //   $('.naturalName').show();
-    //   $('#naturalName').addClass('investment-rule');
-    //   return false;
-    // }
+    if ($('#naturalName').val() == '') {
+      $('.naturalName').show();
+      $('#naturalName').addClass('investment-rule');
+      return false;
+    }
 
-    // if ($('#startDate').val() == '' && $('#endDate').val() == '') {
-    //   $('.effectiveTime').show().text('请填写有效时间');
-    //   $('#startDate,#endDate').addClass('shop-rule-color');
-    //   return false;
-    // } else {
-    //   $('.effectiveTime').hide();
-    // }
+    if ($('#startDate').val() == '' && $('#endDate').val() == '') {
+      $('.effectiveTime').show().text('请填写有效时间');
+      $('#startDate,#endDate').addClass('shop-rule-color');
+      return false;
+    } else {
+      $('.effectiveTime').hide();
+    }
 
-    // if ($('#startDate').val() == '') {
-    //   $('.effectiveTime').show().text('请填写开始时间');
-    // } else if ($('#endDate').val() == '') {
-    //   $('.effectiveTime').show().text('请填写结束时间');
-    // }
+    if ($('#startDate').val() == '') {
+      $('.effectiveTime').show().text('请填写开始时间');
+    } else if ($('#endDate').val() == '') {
+      $('.effectiveTime').show().text('请填写结束时间');
+    }
 
-    // if ($('#contactName').val() == '') {
-    //   $('.contactName').show();
-    //   $('#contactName').addClass('investment-rule');
-    //   return false;
-    // }
+    if ($('#contactName').val() == '') {
+      $('.contactName').show();
+      $('#contactName').addClass('investment-rule');
+      return false;
+    }
 
-    // if ($('#contactPhone').val() == '') {
-    //   $('.contactPhone').show();
-    //   $('#contactPhone').addClass('investment-rule');
-    //   return false;
-    // }
+    if ($('#contactPhone').val() == '') {
+      $('.contactPhone').show();
+      $('#contactPhone').addClass('investment-rule');
+      return false;
+    }
 
-    // if ($('#contactEmail').val() == '') {
-    //   $('.contactEmail').show();
-    //   $('#contactEmail').addClass('investment-rule');
-    //   return false;
-    // }
+    if ($('#contactEmail').val() == '') {
+      $('.contactEmail').show();
+      $('#contactEmail').addClass('investment-rule');
+      return false;
+    }
     $step.nextStep();
     $('.agree-box4').hide().siblings('.agree-box5').show();
   });

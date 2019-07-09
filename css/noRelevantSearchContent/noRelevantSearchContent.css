@@ -8,7 +8,8 @@
 .relevant-container{
   width: 1200px;
   padding-top: 21px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0 auto;
 }
 
@@ -19,7 +20,8 @@
   padding-left: 11px;
   color: #333;
   font-size: 14px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .relevant-head span{
@@ -48,7 +50,8 @@
   width: 303px;
   height: 263px;
   padding: 20px 30px 0 30px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .relevant-pick-week-content-item-img img{
@@ -60,7 +63,8 @@
   margin-top: 16px;
   text-align: center;
   padding: 0 30px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .relevant-new-price{
@@ -80,9 +84,11 @@
   color: #333;
   font-size: 14px;
   padding: 0 20px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   overflow: hidden;
-  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
   white-space: nowrap;
 }
 

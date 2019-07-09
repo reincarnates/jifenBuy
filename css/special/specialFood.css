@@ -15,12 +15,13 @@
   width: 100%;
   background-color: #f9e4e5;
   padding-bottom: 50px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .special-food-head{
   width: 100%;
-  height: 220px;
+  height: 237px;
   background: url(../../images/static/special_title.png) no-repeat center center;
   margin-top: 30px;
   position: relative;
@@ -42,7 +43,8 @@
   width: 1200px;
   margin: 0 auto;
   padding-top: 60px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .special-food-goods{
@@ -52,7 +54,8 @@
   margin: 0 auto;
   margin-bottom: 30px;
   padding: 14px 0 0 83px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .special-food-goods-left{
@@ -65,7 +68,8 @@
   width: 574px;
   margin-left: 73px;
   padding-top: 35px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   float: left;
 }
 
@@ -128,6 +132,7 @@
 .special-food-goods-item{
   width: 260px;
   margin-right: 20px;
+  margin-bottom: 20px;
   background-color: #fff;
   float: left;
 }
@@ -171,7 +176,8 @@
 .special-food-goods-item-name{
   width: 100%;
   padding: 0 17px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-size: 12px;
   line-height: 20px;
 }
@@ -250,8 +256,25 @@
 
 .special-food-goods-item-head{
   width: 100%;
+  height: 138px;
   margin-bottom: 40px;
+  background: url(../../images/static/jinkou.png) no-repeat center center;
+  padding-top: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.special-food-goods-item-head-title{
+  color: #ff8084;
+  font-size: 40px;
   text-align: center;
+}
+
+.special-food-goods-item-head-word{
+  color: #999;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 5px;
 }
 
 /* 美食end */
@@ -281,7 +304,8 @@
   border-radius: 30px;
   margin: 0 auto;
   background-color: #fff;
-  box-shadow: 0 0 10px 5px #ccc;
+  -webkit-box-shadow: 0 0 10px 5px #ccc;
+          box-shadow: 0 0 10px 5px #ccc;
   text-align: center;
   line-height: 60px;
   color: #3c1d0e;

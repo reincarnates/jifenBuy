@@ -412,7 +412,8 @@
 .stand .right .b-request, .stand .right .c-request {
   padding: 50px;
   border-top: 1px solid #eee;
-  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
 }
 
 .stand .right .c-request {

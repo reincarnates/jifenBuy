@@ -10,9 +10,18 @@
   width: 1200px;
   height: 111px;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: #fff;
 }
 
@@ -65,6 +74,9 @@
   height: 58px;
   border-bottom: 3px solid #fbc84e;
   padding: 8px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -84,7 +96,8 @@
   font-size: 18px;
   color: #333;
   padding-left: 23px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   line-height: 41px;
 }
 
@@ -93,7 +106,8 @@
   height: 41px;
   font-size: 18px;
   color: #333;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   line-height: 41px;
   text-align: center;
 }
@@ -105,7 +119,8 @@
 .login-form-content{
   width: 100%;
   padding-top: 39px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .login-user-input{
@@ -116,15 +131,27 @@
   margin: 0 auto;
   margin-bottom: 20px;
   border-radius: 5px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .login-user-name{
   width: 42px;
   height: 42px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .login-user-name-right{
@@ -246,7 +273,8 @@
   border: none;
   outline: none;
   padding-left: 10px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border-radius: 5px;
 }
 
@@ -261,7 +289,8 @@
   border: none;
   outline: none;
   padding-left: 10px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border-radius: 5px;
 }
 
@@ -272,7 +301,10 @@
   color: #0072fe;
   text-align: right;
   line-height: 44px;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .login-send-code2{
@@ -283,7 +315,8 @@
   text-align: center;
   line-height: 42px;
   padding: 2px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   position: relative;
 }
 
@@ -308,12 +341,16 @@
   width: 311px;
   /* height: 25px; */
   background-color: #ffebeb;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex; 
   position: absolute;    
   left: 20px;
   top: 65px;
   padding-left: 10px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   display: none;
 }
 
@@ -353,12 +390,14 @@
   margin: 0 auto;
   text-align: center;
   padding-top: 20px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .login-bottom-url{
   padding: 0 10px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   display: inline-block;
   margin-bottom: 5px;
   border-right: 2px solid #7d7d7d;
@@ -380,7 +419,8 @@
 
 .login-bottom-url2{
   padding: 0 10px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   display: inline-block;
   margin-bottom: 5px;
   font-size: 14px;

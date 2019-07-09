@@ -13,7 +13,8 @@
 .speical-festival-content{
     width: 100%;
     padding: 39px 40px 0 40px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     background-color: #fff;
 }
 
@@ -109,7 +110,8 @@
     margin-bottom: 29px;
     cursor: pointer;
     padding: 0 17px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     float: left;
 }
 

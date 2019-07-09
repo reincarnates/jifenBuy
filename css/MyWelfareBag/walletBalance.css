@@ -18,7 +18,8 @@
   line-height: 30px;
   border-bottom: 1px dashed #e5e5e5;
   padding-left: 20px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-size: 12px;
   color: #666;
 }
@@ -30,7 +31,8 @@
 .wallet-content{
   width: 100%;
   padding: 0 21px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .wallet-account-balance{
@@ -39,7 +41,8 @@
   background-color: #fdf7f8;
   margin-top: 31px;
   padding-top: 20px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   text-align: center;
 }
 
@@ -96,7 +99,8 @@
   color: #666;
   text-align: center;
   cursor: pointer;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .wallet-cur{
@@ -149,16 +153,19 @@
 
 .fuli-order-bg{
   background-color: #fff;
-  box-shadow: 0 0 10px rgba(213,203,203,.5);
+  -webkit-box-shadow: 0 0 10px rgba(213,203,203,.5);
+          box-shadow: 0 0 10px rgba(213,203,203,.5);
 }
 
 .fuli-order-left-item{
   width: 160px;
   background-color: #fff;
   position: absolute;
-  box-shadow: 0 10px 10px rgba(213,203,203,.5);
+  -webkit-box-shadow: 0 10px 10px rgba(213,203,203,.5);
+          box-shadow: 0 10px 10px rgba(213,203,203,.5);
   /* padding-top: 15px; */
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   display: none;
 }
 
@@ -189,9 +196,16 @@
   width: 100%;
   height: 40px;
   border-bottom: 1px solid #ddd;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 14px;
 }
 
@@ -211,7 +225,8 @@
 
 .change-notes{
   overflow:hidden;
-  text-overflow:ellipsis;
+  -o-text-overflow:ellipsis;
+     text-overflow:ellipsis;
   white-space:nowrap
 }
 
@@ -223,9 +238,18 @@
 .fuli-balance-paging{
   width: 100%;
   height: 118px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #pageBox {
@@ -297,9 +321,11 @@
   cursor: pointer;
   background-color: #fff;
   position: absolute;
-  box-shadow: 0 10px 10px rgba(213,203,203,.5);
+  -webkit-box-shadow: 0 10px 10px rgba(213,203,203,.5);
+          box-shadow: 0 10px 10px rgba(213,203,203,.5);
   /* padding-top: 15px; */
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   display: none;
 }
 
@@ -342,9 +368,11 @@
   cursor: pointer;
   background-color: #fff;
   position: absolute;
-  box-shadow: 0 10px 10px rgba(213,203,203,.5);
+  -webkit-box-shadow: 0 10px 10px rgba(213,203,203,.5);
+          box-shadow: 0 10px 10px rgba(213,203,203,.5);
   /* padding-top: 15px; */
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   display: none;
 }
 

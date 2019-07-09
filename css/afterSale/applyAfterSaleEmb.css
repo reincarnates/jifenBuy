@@ -50,9 +50,16 @@
   width: 418px;
   height: 120px;
   padding-left: 33px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-right: 1px solid #eee;
   float: left;
 }
@@ -100,7 +107,8 @@
 .apply-after-sale-write-info{
   width: 100%;
   padding-top: 35px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .apply-after-sale-write-info-item{
@@ -250,7 +258,8 @@
   font-size: 14px;
   padding-left: 10px;
   border-bottom: 1px solid #ddd;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .apply-after-sale-select-content ul li:hover{
@@ -418,7 +427,8 @@
   color: #999;
   font-size: 12px;
   padding-left: 10px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .pick-date-wrapper{
@@ -480,7 +490,8 @@
   line-height: 24px;
   text-align: center;
   padding-top: 10px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .pick-date-optional{
@@ -598,7 +609,8 @@
   color: #999;
   font-size: 18px;
   padding: 0 30px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border-bottom: 1px dashed #d1d1d1;
 }
 

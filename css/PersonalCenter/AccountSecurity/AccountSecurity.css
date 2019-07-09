@@ -20,7 +20,8 @@
   line-height: 30px;
   border-bottom: 1px dashed #e5e5e5;
   padding-left: 20px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-size: 12px;
   color: #666;
 }
@@ -28,7 +29,8 @@
 .security-content-wrapper{
   width: 100%;
   padding: 23px 88px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .security-content-item{
@@ -43,7 +45,8 @@
   font-size: 14px;
   color: #333;
   padding-left: 5px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   float: left;
   position: relative;
 }
@@ -102,7 +105,8 @@
 .setpayment-content-wrapper{
   width: 100%;
   padding: 0 66px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .setpayment-content-head{
@@ -192,7 +196,8 @@
 
 .step1{
   padding-top: 23px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .step1-bind-phone{
@@ -209,7 +214,8 @@
   height: 44px;
   border: 1px solid #e2e2e2;
   border-radius: 5px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0 auto;
 }
 
@@ -256,7 +262,8 @@
   height: 119px;
   background-color: #f5f5f5;
   padding: 15px 79px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin-top: 88px;
 }
 
@@ -272,7 +279,8 @@
 .setpayment-footer-list li{
   line-height: 22px;
   padding-left: 10px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-size: 12px;
   color: #989898;
   background: url(../../../images/static/setpayment_footer_list.jpg) no-repeat;
@@ -340,6 +348,7 @@
   background: url(../../../images/static/set_payment_success.png) no-repeat;
   background-position: 0 26px;
   padding-left: 30px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0 auto;
 }

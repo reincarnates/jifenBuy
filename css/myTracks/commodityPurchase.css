@@ -3,7 +3,8 @@
 .purchase-container{
   width: 100%;
   padding: 19px 18px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .purchase-item{
@@ -18,7 +19,8 @@
 
 .purchase-item:hover{
   border-color: #ffb030;
-  box-shadow: 0 5px 10px 1px rgba(0, 0, 0, .1);
+  -webkit-box-shadow: 0 5px 10px 1px rgba(0, 0, 0, .1);
+          box-shadow: 0 5px 10px 1px rgba(0, 0, 0, .1);
 }
 
 .purchase-item:nth-child(3n+3){
@@ -28,9 +30,18 @@
 .purchase-item-img{
   width: 100%;
   height: 280px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .purchase-item-img img{
@@ -42,7 +53,8 @@
   line-height: 26px;
   font-size: 14px;
   padding: 0 13px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   /* text-align: center; */
 }
 
