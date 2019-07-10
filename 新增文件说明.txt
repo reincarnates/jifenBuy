@@ -7,3 +7,5 @@
 /pages/special/specialTea.html  茶专题页面
 
 /pages/special/specialFestival.html 节日类电器类专题页面
+
+/pages/error/errorTips.html 异常报错页面
