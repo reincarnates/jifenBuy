@@ -373,7 +373,7 @@ img{
 
 .adsense-list-select-right{
   width: 15%;
-  padding: 4px;
+  padding: 2px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background-color: #ededed;
@@ -381,10 +381,10 @@ img{
 }
 
 .adsense-list-select-right-item{
-  width: 135px;
+  width: 138px;
   height: 149px;
   background-color: #fff;
-  margin-bottom: 5px;
+  margin-bottom: 2px;
 }
 
 .adsense-list-select-right-item:last-child{
