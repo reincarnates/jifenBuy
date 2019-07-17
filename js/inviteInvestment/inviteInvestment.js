@@ -581,6 +581,18 @@ $(function () {
     }
   });
 
+  var longNum = 1;
+  $('.long-term').on('click', function() {
+    if(longNum == 1) {
+      $('.long').removeClass('long').addClass('long2').siblings('.starOrend').hide();
+      longNum = 2;
+    }else{
+      $('.long2').addClass('long').siblings('.starOrend').show();
+      longNum = 1;
+    }
+  });
+
+
   //银行卡号Luhn校验算法
   //luhn校验规则：16位银行卡号（19位通用）: 
   //1.将未带校验位的 15（或18）位卡号从右依次编号 1 到 15（18），位于奇数位号上的数字乘以 2。

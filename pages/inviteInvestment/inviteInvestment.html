@@ -714,15 +714,22 @@
                     <div class="tr">
                       <!-- <input id="licenseValidDate" name="licenseValidDate" class="input" type="text"
                         placeholder="请填写营业执照有效期"> -->
-                      <div class="c-datepicker-date-editor J-datepicker-range-day">
-                        <!-- <i class="c-datepicker-range__icon kxiconfont icon-clock"></i> -->
+                      <div class="c-datepicker-date-editor J-datepicker-range-day starOrend">
                         <input placeholder="开始日期" name="licenseValidStartDate" id="licenseValidStartDate"
                           class="c-datepicker-data-input only-date" value="">
                         <span class="c-datepicker-range-separator">-</span>
                         <input placeholder="结束日期" name="licenseValidEndDate" id="licenseValidEndDate"
                           class="c-datepicker-data-input only-date" value="">
                       </div>
+
+                      <div class="c-datepicker-date-editor c-datepicker-single-editor J-datepicker-day long">
+                        <input type="text" autocomplete="off" name="foundDate" id="foundDate" placeholder="选择日期"
+                          class=" c-datepicker-data-input only-date" value="">
+                        <span class="c-datepicker-range-separator">-</span>
+                        <span style="width: 84px; display: inline-block; padding-left: 15px;">长期</span>
+                      </div>
                       <div class="invite-rule ValidDate">请填写营业执照有效期</div>
+                      <button type="button" class="long-term">长期</button>
                     </div>
                   </li>
                   <li class="clearfix">
