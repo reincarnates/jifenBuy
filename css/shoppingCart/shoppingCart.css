@@ -691,7 +691,21 @@ a:hover{
   height: 80px;
   margin-top: 20px;
   float: left;
+  position: relative;
 }
+
+.list_img_mask{
+  width: 80px;
+  height: 80px;
+  background-color: rgba(0, 0, 0, .3);
+  text-align: center;
+  line-height: 80px;
+  color: #fff;
+  font-size: 14px;
+  position: absolute;
+  top: 0;
+}
+
 .order_lists .list_con .list_img img{
   width: 100%;
   vertical-align: top;
@@ -950,4 +964,28 @@ a:hover{
   border-color: #ffb22c;
   color: #fff;
   cursor: pointer;
+}
+
+.invalid-goods-wrapper{
+  width: 100%;
+}
+
+.invalid-goods-title{
+  width: 100%;
+  line-height: 62px;
+  color: #666;
+  font-size: 14px;
+}
+
+.invalid-lists-wrapper{
+  border: 1px solid #ebebeb;
+  background-color: #f7f7f7;
+}
+
+.invalid-lists{
+  border-bottom: 1px solid #ebebeb;
+}
+
+.invalid-lists:last-child{
+  border-bottom: 0;
 }

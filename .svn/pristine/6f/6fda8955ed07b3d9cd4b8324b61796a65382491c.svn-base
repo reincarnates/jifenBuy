@@ -1,0 +1,1552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=EDGE; IE=9; IE=8; IE=7">
+  <meta http-equiv="X-UA-Compatible" content="IE=11" />
+  <meta name="apple-touch-fullscreen" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>详情</title>
+  <link rel="stylesheet" href="../../css/reset.css">
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../css/slide/slide.css">
+  <link rel="stylesheet" href="../../css/CommodityDetails/CommodityDetails.css">
+  <link rel="stylesheet" href="../../css/index/index.css">
+  <link rel="stylesheet" href="../../css/headOrfooter/headOrfooter.css">
+</head>
+
+<body>
+  <!-- 头部 -->
+  <div class="head">
+    <div class="head-top">
+      <div class="head-top-min">
+        <div id="seetion-info clearfix">
+          <div class="login-success-wrapper">
+            <!-- <div class="address">
+                <img src="./images/static/landmark.png" alt="">
+                <span class="check-city">北京</span>
+                <div class="cover"></div>
+                <div class="home-city">
+                  <div class="city-select-content">
+                    <div class="city-select">
+                      <dl class="clearfix">
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>上海</a>
+                          <a>天津</a>
+                          <a>重庆</a>
+                          <a>河北</a>
+                        </dd>
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>上海</a>
+                          <a>天津</a>
+                          <a>重庆</a>
+                          <a>河北</a>
+                        </dd>
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                        </dd>
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                        </dd>
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                        </dd>
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                        </dd>
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                        </dd>
+                      </dl>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="login-name">您好，<span>张勇</span>！</div>
+              <div class="sign-out pointer">退出</div> -->
+            <div class="not-login">你好，欢迎来到阳光福利采购网上商城</div>
+          </div>
+          <div class="key clearfix">
+            <span class="myOrder">
+              <a href="#">
+                我的订单
+              </a>
+              <i class="down"></i>
+              <div class="myOrder-item">
+                <ul>
+                  <li class="myOrder-item-one">
+                    <a href="#">
+
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      待付款（1）
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      待收货（1）
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      待评价（5）
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      售后（0）
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </span>
+            <span class="myOrder2">
+              <a href="#">
+                个人中心
+              </a>
+              <i class="down"></i>
+              <div class="myOrder-item">
+                <ul>
+                  <li>
+                  <li class="myOrder-item-one">
+                    <a href="#">
+
+                    </a>
+                  </li>
+                  <a href="#">
+                    我的余额
+                  </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      我的收藏
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      消息（5）
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      我的客服
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      退出登录
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </span>
+            <span><a href="#">商户工作台</a></span>
+            <span><a href="#">服务中心</a></span>
+            <span class="App">
+              <a href="#">
+                App
+              </a>
+              <div class="App-item">
+                <div class="triangle_border_up">
+                  <i></i>
+                </div>
+                <div class="iphone">
+                  <div class="iphone-code">
+                    <img src="../../images/static/iphone_code.png" alt="">
+                  </div>
+                  <div class="iphone-logo">
+                    <a href="#">
+                      <img src="../../images/static/iphone_logo.png" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="andriod">
+                  <div class="iphone-code">
+                    <img src="../../images/static/android_code.png" alt="">
+                  </div>
+                  <div class="iphone-logo">
+                    <a href="#">
+                      <img src="../../images/static/android_logo.png" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="fuli-public">
+                  <div class="iphone-code">
+                    <img src="../../images/static/android_code.png" alt="">
+                  </div>
+                  <div class="iphone-logo">
+                    <p>关注福利商城公众号</p>
+                    <p>公众号/福利商城</p>
+                  </div>
+                </div>
+              </div>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="head_mid">
+      <a href="#">
+        <img src="../../images/static/logo.png" alt="">
+      </a>
+      <div class="search">
+        <div class="search-input-wrapper clearfix">
+          <input class="search-input-left" type="text" placeholder="国际大牌母婴用品" />
+          <div class="search-input-right"></div>
+        </div>
+        <div class="hot">
+          <a href="#">打印机</a>
+          <a href="#">台式机</a>
+          <a href="#">便携式</a>
+        </div>
+        <div class="fuli-shelper">
+          <p class="fuli-shelper-words">
+            <span>热门搜索</span>
+            <span class="fuli-shelper-words-color">惠普i5内存条</span>
+            <span class="fuli-shelper-words-color">惠普i5内存条</span>
+            <span class="fuli-shelper-words-color">惠普i5内存条</span>
+            <span class="fuli-shelper-words-color">惠普</span>
+          </p>
+          <ul class="goods-list">
+            <li>
+              <a href="#">
+                <span class="goods-name">内存条8g</span>
+                <span class="history">历史记录</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="goods-name">内存条8g</span>
+                <span class="history">历史记录</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="goods-name">内存条8g</span>
+                <span class="history">历史记录</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="goods-name">内存条8g</span>
+                <span class="history">历史记录</span>
+              </a>
+            </li>
+          </ul>
+          <div class="all-delete">
+            <span class="pointer">全部清除</span>
+          </div>
+        </div>
+      </div>
+      <div class="shop_cart pointer">
+        <span>购物车</span>
+        <div class="search-select-small"></div>
+        <!-- 购物车有商品 -->
+        <div class="search-cart-select">
+          <div class="search-cart-select-head">最新加入商品</div>
+          <div class="search-cart-goods-all">
+            <div class="search-cart-goods-item">
+              <div class="goods-img"></div>
+              <p class="goods-account">
+                <a href="#">
+                  【买2送1】香水身体乳女全身美肤白净润肤露液体香乳去鸡皮肤
+                </a>
+              </p>
+              <div class="cart-price-del">
+                <p class="cart-price">
+                  ￥88.00 × 1
+                </p>
+                <p class="cart-delete pointer">
+                  删除
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="search-cart-all-price clearfix">
+          <span>共3件商品 共计0.00元</span>
+          <div class="go-cart pointer">
+            去购物车
+          </div>
+        </div>
+        <!-- 购物车有商品end -->
+        <div class="cart-count">0</div>
+        <!-- 购物车没有商品 -->
+        <!-- <div class="search-not-cart">
+            <div class="search-not-cart-img">
+                <img src="../../images/static/not_cart.png" alt="">
+                <span>购物车还没有商品赶快去选购吧！！！</span>
+            </div>
+        </div> -->
+        <!-- 购物车没有商品end -->
+      </div>
+    </div>
+  </div>
+  <!-- 头部end -->
+  
+  <!-- 右侧面板 -->
+  <div class="J-global-toolbar">
+    <div class="toolbar-wrap J-wrap">
+      <div class="toolbar">
+        <div class="toolbar-panels J-panel">
+          <div style="visibility: hidden;" class="J-content toolbar-panel tbar-panel-cart toolbar-animate-out">
+            <div class="ichat-head">联系客服</div>
+            <div class="ichat">
+              <div class="ichat-title">苏宁易购</div>
+              <div class="ichat-list">
+                <ul class="ichat-list-ul">
+                  <li>
+                    <a href="#" style="background-image: url(../../images/static/tel.png);">400-8516516</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="ichat">
+              <div class="ichat-title">京东商城</div>
+              <div class="ichat-list">
+                <ul class="ichat-list-ul">
+                  <li>
+                    <a href="#" style="background-image: url(../../images/static/tel.png);">400-6066866</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="ichat">
+              <div class="ichat-title">办公伙伴</div>
+              <div class="ichat-list">
+                <ul class="ichat-list-ul">
+                  <li>
+                    <a href="#" style="background-image: url(../../images/static/tel.png);">400-6066866</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="ichat">
+              <div class="ichat-title">企事通</div>
+              <div class="ichat-list">
+                <ul class="ichat-list-ul">
+                  <li>
+                    <a href="#" style="background-image: url(../../images/static/tel.png);">400-6066866</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="ichat">
+              <div class="ichat-title">一线达通</div>
+              <div class="ichat-list">
+                <ul class="ichat-list-ul">
+                  <li>
+                    <a href="#" style="background-image: url(../../images/static/tel.png);">400-6066866</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="ichat">
+              <div class="ichat-title">一线达通</div>
+              <div class="ichat-list">
+                <ul class="ichat-list-ul">
+                  <li>
+                    <a href="#" style="background-image: url(../../images/static/tel.png);">400-6066866</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div style="visibility: hidden;" data-name="follow" class="J-content toolbar-panel tbar-panel-follow">
+            <div class="ichat-head2">我的消息</div>
+            <div class="mssage-content">
+              <div class="mssage-content-item">
+                <span>拥抱母亲，请珍惜时光</span>
+              </div>
+
+              <div class="mssage-btn-wrapper">
+                <div class="mssage-btn pointer">查看全部消息</div>
+              </div>
+            </div>
+          </div>
+
+          <div style="visibility: hidden;" class="J-content toolbar-panel tbar-panel-history toolbar-animate-in">
+            <div class="ichat-head2">我的足迹</div>
+            <div class="tbar-panel-main">
+              <div class="tbar-panel-content J-panel-content">
+                <div class="jt-history-wrap">
+                  <ul>
+                    <li class="jth-item">
+                      <a href="#" class="img-wrap"> <img
+                          src="http://img10.360buyimg.com/n0/s100x100_g9/M03/0C/18/rBEHalCKCk8IAAAAAAD5nbR5xOAAACfgQENi_wAAPm1269.jpg"
+                          height="100" width="100" /> </a>
+                      <a class="add-cart-button" href="#" target="_blank">加入购物车</a>
+                      <a href="#" target="_blank" class="prices">￥498.00</a>
+                    </li>
+                    <li class="jth-item">
+                      <a href="#" class="img-wrap"> <img
+                          src="http://img10.360buyimg.com/n0/s100x100_g9/M03/0C/18/rBEHalCKCk8IAAAAAAD5nbR5xOAAACfgQENi_wAAPm1269.jpg"
+                          height="100" width="100" /></a>
+                      <a class="add-cart-button" href="#" target="_blank">加入购物车</a>
+                      <a href="#" target="_blank" class="prices">￥498.00</a>
+                    </li>
+                  </ul>
+                  <a href="#" class="history-bottom-more" target="_blank">查看更多足迹商品 &gt;&gt;</a>
+                </div>
+              </div>
+            </div>
+            <div class="tbar-panel-footer J-panel-footer"></div>
+          </div>
+
+          <div style="visibility: hidden;" class="J-content toolbar-panel tbar-panel-back toolbar-animate-in">
+            <div class="ichat-head2">填写反馈</div>
+            <div class="feedback-content">
+              <p>亲爱的用户，您的宝贵意见和建议将 帮助我们更好的提升服务质量!</p>
+              <div class="form-title">
+                <span>*</span>内容
+              </div>
+              <textarea name="content" class="form-content"></textarea>
+              <div class="form-title">
+                <span>*</span>邮箱
+              </div>
+              <input type="email" class="form-email">
+              <div class="form-title">
+                <span>*</span>姓名
+              </div>
+              <input type="text" class="form-email">
+              <div class="form-submit pointer">提交</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="toolbar-header"></div>
+
+        <div class="toolbar-tabs J-tab">
+          <div class="toolbar-tab tbar-tab-cart">
+            <i class="tab-ico"></i>
+            <em class="tab-text">客服</em>
+            客服
+          </div>
+          <div class=" toolbar-tab tbar-tab-follow">
+            <i class="tab-ico"></i>
+            <em class="tab-text">消息</em>
+            消息
+          </div>
+          <div class=" toolbar-tab tbar-tab-history ">
+            <i class="tab-ico"></i>
+            <em class="tab-text">足迹</em>
+            足迹
+          </div>
+          <div class=" toolbar-tab tbar-tab-back">
+            <i class="tab-ico"></i>
+            <em class="tab-text">反馈</em>
+            反馈
+          </div>
+        </div>
+
+        <div class="toolbar-mini"></div>
+
+      </div>
+
+      <div id="J-toolbar-load-hook"></div>
+
+    </div>
+  </div>
+
+  <div class="toolbar-footer" id="toTop">
+    <div class="toolbar-tab tbar-tab-top">
+      <a>
+        <i class="tab-ico"></i>
+        顶部
+      </a>
+    </div>
+  </div>
+  <!-- 右侧面板end -->
+
+  <!-- 导航 -->
+  <div class="nav">
+    <div class="nav_main">
+      <div class="left_nav">
+        <h1 style="color: #fff;">
+          <a href="#">全部商品分类</a>
+        </h1>
+      </div>
+      <ul class="jsddm clearfix">
+        <li class="jsddmli2"><a href="#">首页</a></li>
+        <li class="jsddmli"><a href="#">京东商城</a></li>
+        <li class="jsddmli"><a href="#">苏宁易购</a></li>
+        <li class="jsddmli"><a href="#">办公伙伴</a></li>
+        <li class="jsddmli"><a href="#">领先未来</a></li>
+        <li class="jsddmli"><a href="#">浙江物产</a></li>
+        <li class="jsddmli"><a href="#">一线达通</a></li>
+        <li class="jsddmli"><a href="#">福利品汇</a></li>
+      </ul>
+      <!-- 有多种品类的展示页面 -->
+      <!-- <div class="all-goods"></div> -->
+    </div>
+  </div>
+  <!-- 导航end -->
+
+  <!-- 小导航 -->
+  <div class="commodity-bg">
+    <div class="fuli-container smallMenu">
+      美妆护肤>香水彩妆>唇彩唇蜜>唇釉>迪奥
+    </div>
+  </div>
+  <!-- 小导航end -->
+
+  <!-- 商品信息 -->
+  <div class="commodity-bg">
+    <div class="fuli-container introduce-wrapper clearfix">
+      <div class="commodity-planting">
+        <div class="preview">
+          <div id="vertical" class="bigImg">
+            <img src="../../images/static/01.jpg" width="400" height="400" alt="" id="midimg" />
+            <div style="display:none;" id="winSelector"></div>
+          </div>
+          <div class="smallImg">
+            <div class="scrollbutton smallImgUp disabled"></div>
+            <div id="imageMenu">
+              <ul>
+                <li id="onlickImg"><img src="../../images/static/01.jpg" width="74" height="74" /></li>
+                <li><img src="../../images/static/01.jpg" width="74" height="74" /></li>
+                <li><img src="../../images/static/01.jpg" width="74" height="74" /></li>
+                <li><img src="../../images/static/01.jpg" width="74" height="74" /></li>
+                <li><img src="../../images/static/01.jpg" width="74" height="74" /></li>
+                <li><img src="../../images/static/01.jpg" width="74" height="74" /></li>
+                <li><img src="../../images/static/01.jpg" width="74" height="74" /></li>
+              </ul>
+            </div>
+            <div class="scrollbutton smallImgDown"></div>
+          </div>
+          <div id="bigView" style="display:none;"><img width="800" height="800" alt="" src="" /></div>
+        </div>
+      </div>
+      <div class="commodity-planting-right">
+        <div class="introduction">
+          <div class="introduction-head">
+            <h1>惠普 HP A4彩色激光打印机 LaserJet Pro M452dw</h1>
+          </div>
+          <div class="introduction-price">
+            <div class="introduction-price-top clearfix">
+              <div class="welfare-price">福利价：<span>￥387.00</span></div>
+              <div class="supplier">京东价：<span>￥499.00</span></div>
+            </div>
+            <div class="supplier-word">供应商：<span>京东商城</span></div>
+          </div>
+          <div class="select-target-focused">
+            <div class="select-color">
+              <div class="select-word clearfix">
+                <div class="select-items-dt">选择颜色：</div>
+                <div class="select-items-dd clearfix">
+                  <div class="select-items pointer">
+                    红色
+                    <div class="select-item-img">
+                      <img src="../../images/static/rightmark.png">
+                    </div>
+                  </div>
+                  <div class="select-items pointer">
+                    <div class="select-item-img">
+                      <img src="../../images/static/rightmark.png">
+                    </div>
+                  </div>
+                  <div class="select-items pointer">
+                    <div class="select-item-img">
+                      <img src="../../images/static/rightmark.png">
+                    </div>
+                  </div>
+                  <div class="select-items pointer">
+                    <div class="select-item-img">
+                      <img src="../../images/static/rightmark.png">
+                    </div>
+                  </div>
+                  <div class="select-items pointer">
+                    <div class="select-item-img">
+                      <img src="../../images/static/rightmark.png">
+                    </div>
+                  </div>
+                  <div class="select-items pointer">
+                    <div class="select-item-img">
+                      <img src="../../images/static/rightmark.png">
+                    </div>
+                  </div>
+                  <div class="select-items pointer">
+                    <div class="select-item-img">
+                      <img src="../../images/static/rightmark.png">
+                    </div>
+                  </div>
+                  <div class="select-items pointer">
+                    <div class="select-item-img">
+                      <img src="../../images/static/rightmark.png">
+                    </div>
+                  </div>
+                  <div class="select-items pointer">
+                    <div class="select-item-img">
+                      <img src="../../images/static/rightmark.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="net-content clearfix">
+                <div class="net-content-word">选择净含量：</div>
+                <div class="net-content-wrapper">
+                  <div class="net-content-item pointer">
+                    <div class="select-item-img2">
+                      <img src="../../images/static/rightmark.png">
+                    </div>
+                  </div>
+                  <div class="net-content-item pointer">
+                    <div class="select-item-img2">
+                      <img src="../../images/static/rightmark.png">
+                    </div>
+                  </div>
+                  <div class="net-content-item pointer">
+                    <div class="select-item-img2">
+                      <img src="../../images/static/rightmark.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="delivery-wrapper">
+            <div class="delivery-wrod">送货至：</div>
+            <!-- <div class="delivery-selected-city-wrapper pointer">
+              <span>北京朝阳区</span>
+            </div> -->
+            <div class="selected-city">
+              <input type="text" class="delivery-selected-city-wrapper pointer" data-toggle="city-picker"
+                placeholder="请选择" readonly />
+            </div>
+            <div class="place-order-word">有货，下单立即发货</div>
+          </div>
+          <div class="payment-mode">
+            支付方式：货到付款
+          </div>
+          <div class="shop-number-wrapper">
+            <div class="shop-number-word">购买数量：</div>
+            <div class="shop-reduce pointer">-</div>
+            <input type="text" class="shop-input" id="shopNumLimit"/>
+            <div class="shop-plus pointer">+</div>
+          </div>
+          <div class="evaluate-wrapper">
+            <div class="evaluate-word">电商评价：</div>
+            <input type="button" style="background-position: left center;" />
+            <input type="button" style="background-position: left center;" />
+            <input type="button" style="background-position: left center;" />
+            <input type="button" style="background-position: left center;" />
+            <input type="button" style="background-position: left center;" />
+            <span>
+              <a href="#">(共有1116条评价)</a>
+            </span>
+          </div>
+          <div class="setting clearfix">
+            <div class="into-buy pointer">立即购买</div>
+            <div class="plus-shopCart pointer"><span>加入购物车</span></div>
+            <div class="goods-collect pointer">
+              <span>收藏</span>
+            </div>
+          </div>
+        </div>
+        <div class="Barmore">
+          <div class="Barmore-head">
+            <div class="Barmore-head-left">
+              相似推荐
+            </div>
+            <div class="Barmore-head-right pointer">
+              <img src="../../images/static/refresh.png">
+              <span>换一批</span>
+            </div>
+          </div>
+          <div id="Barmore-wrapper">
+            <div class="Barmore-content">
+              <a href="#"><img src="../../images/static/Lipstick.png"></a>
+              <div class="Barmore-content-word">
+                <a href="#">迪奥 (DIOR) 烈焰兰金唇膏999 33333</a>
+              </div>
+              <div class="Barmore-price">
+                ￥480.0
+              </div>
+            </div>
+            <div class="Barmore-content">
+              <a href="#"><img src="../../images/static/Lipstick.png"></a>
+              <div class="Barmore-content-word">
+                <a href="#">迪奥 (DIOR) 烈焰兰金唇膏999 33333</a>
+              </div>
+              <div class="Barmore-price">
+                ￥470.0
+              </div>
+            </div>
+            <div class="Barmore-content">
+              <a href="#"><img src="../../images/static/Lipstick.png"></a>
+              <div class="Barmore-content-word">
+                <a href="#">迪奥 (DIOR) 烈焰兰金唇膏999 33333</a>
+              </div>
+              <div class="Barmore-price">
+                ￥460.0
+              </div>
+            </div>
+            <div class="Barmore-content">
+              <a href="#"><img src="../../images/static/Lipstick.png"></a>
+              <div class="Barmore-content-word">
+                <a href="#">迪奥 (DIOR) 烈焰兰金唇膏999 33333</a>
+              </div>
+              <div class="Barmore-price">
+                ￥460.0
+              </div>
+            </div>
+            <div class="Barmore-content">
+              <a href="#"><img src="../../images/static/Lipstick.png"></a>
+              <div class="Barmore-content-word">
+                <a href="#">迪奥 (DIOR) 烈焰兰金唇膏999 33333</a>
+              </div>
+              <div class="Barmore-price">
+                ￥460.0
+              </div>
+            </div>
+            <div class="Barmore-content">
+              <a href="#"><img src="../../images/static/Lipstick.png"></a>
+              <div class="Barmore-content-word">
+                <a href="#">迪奥 (DIOR) 烈焰兰金唇膏999 33333</a>
+              </div>
+              <div class="Barmore-price">
+                ￥460.0
+              </div>
+            </div>
+            <div class="Barmore-content">
+              <a href="#"><img src="../../images/static/Lipstick.png"></a>
+              <div class="Barmore-content-word">
+                <a href="#">迪奥 (DIOR) 烈焰兰金唇膏999 33333</a>
+              </div>
+              <div class="Barmore-price">
+                ￥460.0
+              </div>
+            </div>
+            <div class="Barmore-content">
+              <a href="#"><img src="../../images/static/Lipstick.png"></a>
+              <div class="Barmore-content-word">
+                <a href="#">迪奥 (DIOR) 烈焰兰金唇膏999 33333</a>
+              </div>
+              <div class="Barmore-price">
+                ￥460.0
+              </div>
+            </div>
+            <div class="Barmore-content">
+              <a href="#"><img src="../../images/static/Lipstick.png"></a>
+              <div class="Barmore-content-word">
+                <a href="#">迪奥 (DIOR) 烈焰兰金唇膏999 33333</a>
+              </div>
+              <div class="Barmore-price">
+                ￥460.0
+              </div>
+            </div>
+            <div class="Barmore-content">
+              <a href="#"><img src="../../images/static/Lipstick.png"></a>
+              <div class="Barmore-content-word">
+                <a href="#">迪奥 (DIOR) 烈焰兰金唇膏999 33333</a>
+              </div>
+              <div class="Barmore-price">
+                ￥460.0
+              </div>
+            </div>
+            <div class="Barmore-content">
+              <a href="#"><img src="../../images/static/Lipstick.png"></a>
+              <div class="Barmore-content-word">
+                <a href="#">迪奥 (DIOR) 烈焰兰金唇膏999 33333</a>
+              </div>
+              <div class="Barmore-price">
+                ￥460.0
+              </div>
+            </div>
+            <div class="Barmore-content">
+              <a href="#"><img src="../../images/static/Lipstick.png"></a>
+              <div class="Barmore-content-word">
+                <a href="#">迪奥 (DIOR) 烈焰兰金唇膏999 33333</a>
+              </div>
+              <div class="Barmore-price">
+                ￥460.0
+              </div>
+            </div>
+            <div class="Barmore-content">
+              <a href="#"><img src="../../images/static/Lipstick.png"></a>
+              <div class="Barmore-content-word">
+                <a href="#">迪奥 (DIOR) 烈焰兰金唇膏999 33333</a>
+              </div>
+              <div class="Barmore-price">
+                ￥460.0
+              </div>
+            </div>
+            <div class="Barmore-content">
+              <a href="#"><img src="../../images/static/Lipstick.png"></a>
+              <div class="Barmore-content-word">
+                <a href="#">迪奥 (DIOR) 烈焰兰金唇膏999 33333</a>
+              </div>
+              <div class="Barmore-price">
+                ￥460.0
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 商品信息end -->
+
+  <!-- 商品介绍 -->
+  <div class="commodity-bg">
+    <div class="fuli-container introduce-wrapper clearfix">
+      <div class="introduce-left">
+        <div class="introduce-left-header clearfix">
+          月销量排行榜
+        </div>
+        <div class="seize-seat"></div>
+        <div class="numbered-wrapper">
+          <div class="numbered-list">
+            <a href="#">
+              <img src="../../images/static/Lipstick.png">
+            </a>
+            <div class="numbered-list-describe">
+              <a href="#">
+                迪奥 (DIOR) 烈焰兰金唇膏999 333
+              </a>
+            </div>
+            <div class="numbered-list-price">
+              ￥499.0
+            </div>
+          </div>
+          <div class="numbered-list">
+            <a href="#">
+              <img src="../../images/static/Lipstick.png">
+            </a>
+            <div class="numbered-list-describe">
+              <a href="#">
+                迪奥 (DIOR) 烈焰兰金唇膏999 333
+              </a>
+            </div>
+            <div class="numbered-list-price">
+              ￥499.0
+            </div>
+          </div>
+          <div class="numbered-list">
+            <a href="#">
+              <img src="../../images/static/Lipstick.png">
+            </a>
+            <div class="numbered-list-describe">
+              <a href="#">
+                迪奥 (DIOR) 烈焰兰金唇膏999 333
+              </a>
+            </div>
+            <div class="numbered-list-price">
+              ￥499.0
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="introduce-right">
+        <div class="introduce-tab">
+          <ul class="tab">
+            <li class="curs">商品介绍</li>
+            <li>规格包装</li>
+            <li id="evaluate">本网评价</li>
+            <li>售后服务</li>
+          </ul>
+        </div>
+        <div class="seize-seat"></div>
+        <!-- 商品介绍 -->
+        <div class="tab-evaluate tab-on">
+          <div class="tab-con-head">
+            <div class="specifications">
+              规格参数
+            </div>
+            <div class="big-introduction">
+              <div class="introduction-two">
+                品牌：迪奥
+              </div>
+              <div class="introduction-two">
+                品牌：迪奥
+              </div>
+              <div class="introduction-two">
+                品牌：迪奥
+              </div>
+              <div class="introduction-two">
+                品牌：迪奥
+              </div>
+              <div class="introduction-two">
+                品牌：迪奥
+              </div>
+              <div class="introduction-two">
+                品牌：迪奥
+              </div>
+            </div>
+          </div>
+          <div class="tab-con-img">
+            <img src="../../images/static/Goods-one.jpg" class="mar-tm">
+            <img src="../../images/static/Goods-two.jpg">
+            <img src="../../images/static/Goods-three.jpg">
+            <!-- <div class="Characters"></div> -->
+          </div>
+        </div>
+        <!-- 商品介绍end -->
+        <!-- 规格包装 -->
+        <div class="tab-evaluate">
+          <!-- <div class="tab-table" id="specs">
+            <div class="tab-table-head">主体</div>
+            <div class="tab-table-item">
+              <div class="tab-table-item-left">
+                保质期（年）
+              </div>
+              <div class="tab-table-item-right">
+                3年
+              </div>
+            </div>
+            <div class="tab-table-item">
+              <div class="tab-table-item-left">
+                产品产地
+              </div>
+              <div class="tab-table-item-right">
+                其他
+              </div>
+            </div>
+            <div class="tab-table-item">
+              <div class="tab-table-item-left">
+                净含量（ml/g）
+              </div>
+              <div class="tab-table-item-right">
+                3.5g
+              </div>
+            </div>
+            <div class="tab-table-item">
+              <div class="tab-table-item-left">
+                色号颜色
+              </div>
+              <div class="tab-table-item-right">
+                001
+              </div>
+            </div>
+            <div class="tab-table-item">
+              <div class="tab-table-item-left">
+                功效
+              </div>
+              <div class="tab-table-item-right">
+                丰唇/显色；修护/滋润/保湿；其他
+              </div>
+            </div>
+            <div class="tab-table-item">
+              <div class="tab-table-item-left">
+                妆效
+              </div>
+              <div class="tab-table-item-right">
+                润泽/镜面
+              </div>
+            </div>
+            <div class="Packing-list">
+              包装清单
+            </div>
+            <div class="Packing-number">
+              迪奥DIOR魅惑润唇蜜SPF10 × 1
+            </div>
+          </div> -->
+          <div class="standards-wrapper">
+            <div class="standards-head clearfix">
+              <div class="standards-head-left">主体</div>
+            </div>
+            <div class="standards-content clearfix">
+              <div class="standards-content-left">
+                系列
+              </div>
+              <div class="standards-content-right">灵越（inspiron）</div>
+            </div>
+            <div class="standards-content clearfix">
+              <div class="standards-content-left">
+                系列
+              </div>
+              <div class="standards-content-right">灵越（inspiron）</div>
+            </div>
+            <div class="standards-content clearfix">
+              <div class="standards-content-left">
+                系列
+              </div>
+              <div class="standards-content-right">灵越（inspiron）</div>
+            </div>
+          </div>
+        </div>
+        <!-- 规格包装end -->
+        <!-- 本网评价 -->
+        <div class="tab-evaluate">
+          <div class="highest" id="comment">
+            <div class="highest-left">
+              <div class="rate_n">
+                <div class="rate_word">好评率</div>
+                <div class="Percentage">
+                  99<span>%</span>
+                </div>
+                <div class="rate_word_bottom">
+                  共21万人评论
+                </div>
+              </div>
+              <div class="everyone-feels">
+                <div class="triangle_border_right">
+                  <span></span>
+                </div>
+                大<br />家<br />觉<br />得
+              </div>
+            </div>
+            <div class="highest-right">
+              <div class="highest-right-item pointer">
+                颜色漂亮(23)
+              </div>
+              <div class="highest-right-item pointer">
+                颜色漂亮(23)
+              </div>
+              <div class="highest-right-item pointer">
+                颜色漂亮(23)
+              </div>
+            </div>
+          </div>
+          <div class="introduce-tab2 mar-tw">
+            <div class="tab-wrapper clearfix">
+              <ul class="tab2">
+                <li class="cur2">
+                  <label class="checkRadio pointer">
+                    <input name="Fruit" type="radio" checked value="" class="mar-rn" />
+                    全部(21万+)
+                  </label>
+                </li>
+                <li>
+                  <label class="checkRadio pointer">
+                    <input name="Fruit" type="radio" value="" class="mar-rn" />
+                    有图(1.2万+)
+                  </label>
+                </li>
+                <li>
+                  <label class="checkRadio pointer">
+                    <input name="Fruit" type="radio" value="" class="mar-rn" />
+                    追评(700+)
+                  </label>
+                </li>
+                <li>
+                  <label class="checkRadio pointer">
+                    <input name="Fruit" type="radio" value="" class="mar-rn" />
+                    好评(20万+)
+                  </label>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="ob2 on2">
+            <!-- <div class="not-comment">暂时没有评论</div> -->
+            <div class="Category-content clearfix">
+              <div class="mastheader">
+                <div class="redheads"></div>
+                <div class="mastheader-word">
+                  哈***哈
+                </div>
+              </div>
+              <div class="page-content">
+                <div class="page-content-head">
+                  <span>评分：</span>
+                  <input type="button" style="background-position: left center;" />
+                  <input type="button" style="background-position: left center;" />
+                  <input type="button" style="background-position: left center;" />
+                  <input type="button" style="background-position: left center;" />
+                  <input type="button" style="background-position: left center;" />
+                </div>
+                <div class="page-content-test clearfix">
+                  <div class="page-content-test-left">
+                    内容：
+                  </div>
+                  <div class="page-content-test-right">
+                    <span>
+                      本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买
+                    </span>
+                  </div>
+                  <div class="commenting">
+                    <span>展开评论</span>
+                  </div>
+                </div>
+                <div class="page-content-img">
+                  <span>
+                    晒单：
+                  </span>
+                  <div class="contentImg">
+                    <div class="contentImg-item">
+                      <img src="../../images/static/goods.jpg" alt="">
+                    </div>
+                    <div class="contentImg-item"></div>
+                    <div class="contentImg-item"></div>
+                    <div class="contentImg-item"></div>
+                    <div class="contentImg-item"></div>
+                    <div class="contentImg-item"></div>
+                    <div class="contentImg-item"></div>
+                    <div class="contentImg-item"></div>
+                    <div class="contentImg-item"></div>
+                    <div class="contentImg-item"></div>
+                  </div>
+                </div>
+                <div class="modelTypes">
+                  <span>粉色001</span>
+                  <span>2017-11-29 21:12:13</span>
+                </div>
+              </div>
+              <div class="review">
+                <div class="review-word">追评：</div>
+                <div class="page-content-test clearfix">
+                  <div class="page-content-test-left">
+                    内容：
+                  </div>
+                  <div class="page-content-test-right">
+                    <span>
+                      本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买
+                    </span>
+                  </div>
+                  <div class="commenting">
+                    <span>展开评论</span>
+                  </div>
+                </div>
+                <div class="page-content-img">
+                  <span>
+                    晒单：
+                  </span>
+                  <div class="contentImg">
+                    <div class="contentImg-item">
+                      <img src="../../images/static/goods.jpg" alt="">
+                    </div>
+                    <div class="contentImg-item"></div>
+                    <div class="contentImg-item"></div>
+                    <div class="contentImg-item"></div>
+                    <div class="contentImg-item"></div>
+                    <div class="contentImg-item"></div>
+                    <div class="contentImg-item"></div>
+                    <div class="contentImg-item"></div>
+                    <div class="contentImg-item"></div>
+                    <div class="contentImg-item"></div>
+                  </div>
+                </div>
+                <div class="modelTypes">
+                  <span>粉色001</span>
+                  <span>2017-11-29 21:12:13</span>
+                </div>
+                <div class="shopkeeper">
+                  店家：亲爱的，感谢您对esang的支持与信赖，E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ob2">
+            <div class="not-comment">暂时没有评论</div>
+          </div>
+          <div class="ob2">
+            <!-- <div class="not-comment">暂时没有评论</div> -->
+            <div class="Category-content clearfix">
+              <div class="mastheader">
+                <div class="redheads"></div>
+                <div class="mastheader-word">
+                  哈***哈
+                </div>
+              </div>
+              <div class="page-content">
+                <div class="page-content-test clearfix">
+                  <div class="review-word2">追评：</div>
+                  <div class="page-content-test-left">
+                    内容：
+                  </div>
+                  <div class="page-content-test-right">
+                    <span>
+                      本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买本来想买
+                    </span>
+                  </div>
+                  <div class="commenting">
+                    <span>展开评论</span>
+                  </div>
+                </div>
+                <div class="page-content-img">
+                  <span>
+                    晒单：
+                  </span>
+                  <div class="contentImg">
+                    <div class="contentImg-item">
+                      <img src="../../images/static/goods.jpg" alt="">
+                    </div>
+                    <div class="contentImg-item"></div>
+                    <div class="contentImg-item"></div>
+                    <div class="contentImg-item"></div>
+                    <div class="contentImg-item"></div>
+                    <div class="contentImg-item"></div>
+                    <div class="contentImg-item"></div>
+                    <div class="contentImg-item"></div>
+                    <div class="contentImg-item"></div>
+                    <div class="contentImg-item"></div>
+                  </div>
+                </div>
+                <div class="modelTypes">
+                  <span>粉色001</span>
+                  <span>2017-11-29 21:12:13</span>
+                </div>
+                <div class="shopkeeper">
+                  店家：亲爱的，感谢您对esang的支持与信赖，E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设E5智能全球家用跑步机这款是我们的新品首发款，有智能手控设计以及智能APP管理设
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ob2">
+            <div class="not-comment">暂时没有评论</div>
+          </div>
+          <div class="ob2">
+            <div class="not-comment">暂时没有评论</div>
+          </div>
+          <div class="ob2">
+            <div class="not-comment">暂时没有评论</div>
+          </div>
+        </div>
+        <!-- 本网评价end -->
+        <!-- 售后服务 -->
+        <div class="tab-evaluate">
+          <div class="after-service">
+            支持七天无理由退货
+          </div>
+          <!-- <div class="paragraph" id="service">
+            <div>
+              <div class="paragraph-title">
+                福利购承诺
+              </div>
+              <div class="mar-tm">
+                <p class="paragraph-content">
+                  福利购平台卖家销售并发货的商品，由平台卖家提供发票和相应的售后服务，请您放心购买！
+                </p>
+                <p class="paragraph-content">
+                  注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若没有及时更新，请大家谅解！
+                </p>
+              </div>
+            </div>
+            <div>
+              <div class="paragraph-title">
+                全国联保
+              </div>
+              <div class="mar-tm">
+                <p class="paragraph-content">
+                  福利购平台卖家销售并发货的商品，由平台卖家提供发票和相应的售后服务，请您放心购买！
+                </p>
+                <p class="paragraph-content">
+                  注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若没有及时更新，请大家谅解！
+                </p>
+              </div>
+            </div>
+            <div>
+              <div class="paragraph-title">
+                权力声明
+              </div>
+              <div class="mar-tm">
+                <p class="paragraph-content">
+                  福利购平台卖家销售并发货的商品，由平台卖家提供发票和相应的售后服务，请您放心购买！
+                </p>
+                <p class="paragraph-content">
+                  注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若没有及时更新，请大家谅解！
+                </p>
+              </div>
+            </div>
+            <div>
+              <div class="paragraph-title">
+                价格说明
+              </div>
+              <div class="mar-tm">
+                <p class="paragraph-content">
+                  福利购平台卖家销售并发货的商品，由平台卖家提供发票和相应的售后服务，请您放心购买！
+                </p>
+                <p class="paragraph-content">
+                  注：因厂家会在没有任何提前通知的情况下更改产品包装、产地或者一些附件，本司不能确保客户收到的货物与商城图片、产地、附件说明完全一致。只能确保为原厂正货！并且保证与当时市场上同样主流新品一致。若没有及时更新，请大家谅解！
+                </p>
+              </div>
+            </div>
+          </div> -->
+        </div>
+        <!-- 售后服务 -->
+      </div>
+    </div>
+  </div>
+  <!-- 商品介绍end -->
+
+  <!-- 底部 -->
+  <div class="footer">
+    <div class="fuli-u-sm-12 fuli-footer clearfix">
+      <div class="fuli-footer-service">
+        <div class="footer-service-unit clearfix">
+          <div class="footer-service-img">
+            <img src="../../images/static/aftersale.png" alt="">
+          </div>
+          <div class="footer-service-word">
+            <h6 class="footer-service-tit">正品保障</h6>
+            <div class="footer-service-text">优质商品 福利放心购</div>
+          </div>
+        </div>
+      </div>
+      <div class="fuli-footer-service">
+        <div class="footer-service-unit clearfix">
+          <div class="footer-service-img">
+            <img src="../../images/static/classify.png" alt="">
+          </div>
+          <div class="footer-service-word">
+            <h6 class="footer-service-tit">尊享低价</h6>
+            <div class="footer-service-text">剔除溢价 保证性价比</div>
+          </div>
+        </div>
+      </div>
+      <div class="fuli-footer-service">
+        <div class="footer-service-unit clearfix">
+          <div class="footer-service-img">
+            <img src="../../images/static/security.png" alt="">
+          </div>
+          <div class="footer-service-word">
+            <h6 class="footer-service-tit">售后无忧</h6>
+            <div class="footer-service-text">退换便捷 物流全覆盖</div>
+          </div>
+        </div>
+      </div>
+      <div class="fuli-footer-service">
+        <div class="footer-service-unit clearfix">
+          <div class="footer-service-img">
+            <img src="../../images/static/like.png" alt="">
+          </div>
+          <div class="footer-service-word">
+            <h6 class="footer-service-tit">定制服务</h6>
+            <div class="footer-service-text">按需定制 享专属平台</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="fuli-u-sm-12 fuli-footer-help clearfix">
+      <div class="footer-help-list">
+        <div class="help-list-tit">用户指南</div>
+        <ul class="help-list-nav">
+          <li>
+            <a href="#">
+              关于注册
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              操作指南
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              支付与充值
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-help-list">
+        <div class="help-list-tit">阳光福利购特色</div>
+        <ul class="help-list-nav">
+          <li>
+            <a href="#">
+              阳光福利购特色
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              员工关怀平台
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              阳光福利购商城
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-help-list">
+        <div class="help-list-tit">商户服务</div>
+        <ul class="help-list-nav">
+          <li>
+            <a href="#">
+              招商入驻
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              平台政策
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              商户工作台
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              结算售后
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- <div class="footer-help-list">
+          <div class="help-list-tit">商户服务</div>
+          <ul class="help-list-nav">
+            <li>
+              <a href="#">
+                招商入驻
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                平台政策
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                商户工作台
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                结算售后
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-help-list">
+          <div class="help-list-tit">关于我们</div>
+          <ul class="help-list-nav">
+            <li>
+              <a href="#">
+                企业合作
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                招聘英才
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                帮助中心
+              </a>
+            </li>
+          </ul>
+        </div> -->
+      <div class="footer-help-list public-mar">
+        <div class="footer-help-public">
+          <div class="footer-help-code"></div>
+          <div class="footer-help-word">
+            公众号
+          </div>
+        </div>
+      </div>
+      <!-- <div class="footer-help-list">
+          <div class="footer-help-public">
+            <div class="footer-help-code"></div>
+            <div class="footer-help-word">
+              官方微信
+            </div>
+          </div>
+        </div> -->
+    </div>
+    <div class="fuli-u-sm-12 fuli-copyright-auth">
+      <div class="fuli-copyright-cont clearfix">
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-1 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-2 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-3 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-4 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-5 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-6 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-7 pointer"></div>
+        </a>
+      </div>
+    </div>
+    <div class="fuli-u-sm-12 fuli-copyright-info">
+      <p>
+        <a href="#" class="fuli-copyright-links">首页</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">招聘英才</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">合作及洽谈</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">联系我们</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">关于我们</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">商家管理</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">门店管理</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">自提站管理</a>
+        <span class="fuli-copyright-split">|</span>
+      </p>
+    </div>
+    <div class="fuli-u-sm-12 fuli-copyright-cert">
+      &copy;2016 athori.com 雷云智链 客户服务中心(7×24):101-88888888
+    </div>
+  </div>
+  <!-- 底部end -->
+
+
+  <script src="../../lib/jq/jquery.old.js"></script>
+  <script src="../../js/CommodityDetails/CommodityDetails.js"></script>
+  <script src="../../js/index/index.js"></script>
+  <script src="../../lib/city-picker/city-picker.data.js"></script>
+  <script src="../../lib/city-picker/city-picker.js"></script>
+
+  <script>
+    $(function () {
+
+      var barTop = $('.introduce-tab').offset().top;
+      //on方法相当于原生的绑定
+      $(window).on('scroll', function () {
+        var scrollTop = $(document).scrollTop();
+        if (scrollTop >= barTop) {
+          //固定在上方
+          $('.introduce-tab').addClass('pro-detail-hd-fixed2');
+          $('.introduce-left-header').addClass('pro-detail-hd-fixed');
+          // 显示替代的条
+          $('.seize-seat').css('display', 'block');
+        } else {
+          $('.introduce-tab').removeClass('pro-detail-hd-fixed2');
+          $('.introduce-left-header').removeClass('pro-detail-hd-fixed');
+          // 隐藏替代的条
+          $('.seize-seat').css('display', 'none');
+        }
+      });
+
+    });
+  </script>
+</body>
+
+</html>

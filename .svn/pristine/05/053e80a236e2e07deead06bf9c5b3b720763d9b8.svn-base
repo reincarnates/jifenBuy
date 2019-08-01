@@ -1,0 +1,1386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=EDGE; IE=9; IE=8; IE=7">
+  <meta http-equiv="X-UA-Compatible" content="IE=11" />
+  <meta name="apple-touch-fullscreen" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>招商入驻</title>
+  <link rel="stylesheet" href="../../css/reset.css">
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../css/headOrfooter/headOrfooter.css">
+  <link rel="stylesheet" href="../../css/inviteInvestment/inviteInvestment.css">
+  <link rel="stylesheet" href="../../css/date-picker/datepicker.css">
+</head>
+
+<body>
+  <!-- 头部 -->
+  <div class="head">
+    <div class="head-top">
+      <div class="head-top-min">
+        <div id="seetion-info clearfix">
+          <div class="login-success-wrapper">
+            <!-- <div class="address">
+                <img src="./images/static/landmark.png" alt="">
+                <span class="check-city">北京</span>
+                <div class="cover"></div>
+                <div class="home-city">
+                  <div class="city-select-content">
+                    <div class="city-select">
+                      <dl class="clearfix">
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>上海</a>
+                          <a>天津</a>
+                          <a>重庆</a>
+                          <a>河北</a>
+                        </dd>
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>上海</a>
+                          <a>天津</a>
+                          <a>重庆</a>
+                          <a>河北</a>
+                        </dd>
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                        </dd>
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                        </dd>
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                        </dd>
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                        </dd>
+                        <dd class="clearfix">
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                          <a>北京</a>
+                        </dd>
+                      </dl>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="login-name">您好，<span>张勇</span>！</div>
+              <div class="sign-out pointer">退出</div> -->
+            <div class="not-login">你好，欢迎来到阳光福利采购网上商城</div>
+          </div>
+          <div class="key clearfix">
+            <span class="myOrder">
+              <a href="#">
+                我的订单
+              </a>
+              <i class="down"></i>
+              <div class="myOrder-item">
+                <ul>
+                  <li class="myOrder-item-one">
+                    <a href="#">
+
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      待付款（1）
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      待收货（1）
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      待评价（5）
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      售后（0）
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </span>
+            <span class="myOrder2">
+              <a href="#">
+                个人中心
+              </a>
+              <i class="down"></i>
+              <div class="myOrder-item">
+                <ul>
+                  <li>
+                  <li class="myOrder-item-one">
+                    <a href="#">
+
+                    </a>
+                  </li>
+                  <a href="#">
+                    我的余额
+                  </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      我的收藏
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      消息（5）
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      我的客服
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      退出登录
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </span>
+            <span><a href="#">商户工作台</a></span>
+            <span><a href="#">服务中心</a></span>
+            <span class="App">
+              <a href="#">
+                App
+              </a>
+              <div class="App-item">
+                <div class="triangle_border_up">
+                  <i></i>
+                </div>
+                <div class="iphone">
+                  <div class="iphone-code">
+                    <img src="../../images/static/iphone_code.png" alt="">
+                  </div>
+                  <div class="iphone-logo">
+                    <a href="#">
+                      <img src="../../images/static/iphone_logo.png" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="andriod">
+                  <div class="iphone-code">
+                    <img src="../../images/static/android_code.png" alt="">
+                  </div>
+                  <div class="iphone-logo">
+                    <a href="#">
+                      <img src="../../images/static/android_logo.png" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="fuli-public">
+                  <div class="iphone-code">
+                    <img src="../../images/static/android_code.png" alt="">
+                  </div>
+                  <div class="iphone-logo">
+                    <p>关注福利商城公众号</p>
+                    <p>公众号/福利商城</p>
+                  </div>
+                </div>
+              </div>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="head_mid">
+      <a href="#">
+        <img src="../../images/static/logo.png" alt="">
+      </a>
+      <div class="search">
+        <div class="search-input-wrapper clearfix">
+          <input class="search-input-left" type="text" placeholder="国际大牌母婴用品" />
+          <div class="search-input-right"></div>
+        </div>
+        <div class="hot">
+          <a href="#">打印机</a>
+          <a href="#">台式机</a>
+          <a href="#">便携式</a>
+        </div>
+        <div class="fuli-shelper">
+          <p class="fuli-shelper-words">
+            <span>热门搜索</span>
+            <span class="fuli-shelper-words-color">惠普i5内存条</span>
+            <span class="fuli-shelper-words-color">惠普i5内存条</span>
+            <span class="fuli-shelper-words-color">惠普i5内存条</span>
+            <span class="fuli-shelper-words-color">惠普</span>
+          </p>
+          <ul class="goods-list">
+            <li>
+              <a href="#">
+                <span class="goods-name">内存条8g</span>
+                <span class="history">历史记录</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="goods-name">内存条8g</span>
+                <span class="history">历史记录</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="goods-name">内存条8g</span>
+                <span class="history">历史记录</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="goods-name">内存条8g</span>
+                <span class="history">历史记录</span>
+              </a>
+            </li>
+          </ul>
+          <div class="all-delete">
+            <span class="pointer">全部清除</span>
+          </div>
+        </div>
+      </div>
+      <div class="shop_cart pointer">
+        <span class="shop_cart_word">购物车</span>
+        <div class="search-select-small"></div>
+        <!-- 购物车有商品 -->
+        <!-- <div class="search-cart-select">
+          <div class="search-cart-select-head">最新加入商品</div>
+          <div class="search-cart-goods-all">
+            <div class="search-cart-goods-item">
+              <div class="goods-img"></div>
+              <p class="goods-account">
+                <a href="#">
+                  【买2送1】香水身体乳女全身美肤白净润肤露液体香乳去鸡皮肤
+                </a>
+              </p>
+              <div class="cart-price-del">
+                <p class="cart-price">
+                  ￥88.00 × 1
+                </p>
+                <p class="cart-delete pointer">
+                  删除
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="search-cart-all-price clearfix">
+          <span>共3件商品 共计0.00元</span>
+          <div class="go-cart pointer">
+            去购物车
+          </div>
+        </div> -->
+        <!-- 购物车有商品end -->
+        <div class="cart-count">0</div>
+        <!-- 购物车没有商品 -->
+        <div class="search-not-cart">
+          <div class="search-not-cart-img">
+            <img src="../../images/static/not_cart.png" alt="">
+            <span>购物车还没有商品赶快去选购吧！！！</span>
+          </div>
+        </div>
+        <!-- 购物车没有商品end -->
+      </div>
+    </div>
+  </div>
+  <!-- 头部end -->
+
+  <!-- 导航 -->
+  <div class="nav">
+    <div class="nav_main">
+      <div class="left_nav">
+        <h1 style="color: #fff;">
+          <a href="#">全部商品分类</a>
+        </h1>
+      </div>
+      <ul class="jsddm clearfix">
+        <li class="jsddmli2"><a href="#">首页</a></li>
+        <li class="jsddmli"><a href="#">京东商城</a></li>
+        <li class="jsddmli"><a href="#">苏宁易购</a></li>
+        <li class="jsddmli"><a href="#">办公伙伴</a></li>
+        <li class="jsddmli"><a href="#">领先未来</a></li>
+        <li class="jsddmli"><a href="#">浙江物产</a></li>
+        <li class="jsddmli"><a href="#">一线达通</a></li>
+        <li class="jsddmli"><a href="#">福利品汇</a></li>
+      </ul>
+      <!-- 有多种品类的展示页面 -->
+      <!-- <div class="all-goods"></div> -->
+    </div>
+  </div>
+  <!-- 导航end -->
+
+  <!-- 内容 -->
+  <div class="investment-wrap">
+    <div>
+      <div class="investment-header">
+        <div class="inner">
+          <div class="investment-area">
+            <strong>
+              Welcome
+              <em>jd_500c5275ba497</em>
+            </strong>
+            <p>欢迎进入阳光福利商城供应商快速申请通道</p>
+          </div>
+        </div>
+      </div>
+      <div class="investment-step">
+        <div class="inner">
+          <span class="title">申请进程一览</span>
+          <div class="step">
+            <div id="step"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="investment-agree">
+      <div class="inner">
+        <div class="agree-box">
+          <strong>请仔细阅读以下自营供应商入驻服务协议及规则</strong>
+          <div class="txt-area">
+            <p> 用户使用“阳光公采供应商在线入驻系统”前请认真阅读并理解本协议内容，本协议内容中以加粗方式显著标识的条款，请用户着重阅读、慎重考虑。</p>
+            <p>1.本协议的订立</p>
+            <p>依据《阳光公采商城网站用户注册协议》登记注册，且符合本网站商家入驻标准的用户（以下简称“商家”），在同意本协议全部条款后，方有资格使用“阳光公采商城商家在线入驻系统”（以下简称“入驻系统”）
+              申请入驻。一经商家点击“我已阅读并且同意以上服务协议”按键，即意味着商家同意与本网站签订本协议并同意受本协议约束。</p>
+            <p>2.入驻系统使用说明</p>
+            <p>2.1
+              商家通过入驻系统提出入驻申请，并按照要求填写商家信息、提供商家资质资料后，由本网站审核并与有合作意向的商家联系协商合作相关事宜，经双方协商一致线下签订书面《产品购销协议》（以下简称“购销协议”），且商家按照“购销协议”约定支付相应保证金等必要费用后，商家可申请开通后台系统操作权限。
+            </p>
+            <p>2.2
+              商家以及本网站通过入驻系统做出的申请、资料提交及确认等各类沟通，仅为双方合作的意向以及本网站对商家资格审核的必备程序，除遵守本协议各项约定外，对双方不产生法律约束力。双方间最终合作事宜及运营规则均以“购销协议”的约定及商家后台系统公示的各项规则为准。
+            </p>
+            <p>3.商家权利义务</p>
+            <p>3.1 商家应查看本网站公示的入驻商家标准，并确保资质符合本网站公示的基本要求，商家知悉并理解本网站将结合自身业务发展情况对商家进行选择。</p>
+            <p>3.2
+              商家应按照本网站要求诚信提供入驻申请所需资料并如实填写相关信息，商家应确保提供的申请资料及信息真实、准确、完整、合法有效，经本网站审核通过后，商家不得擅自修改替换相应资料及主要信息。如商家提供的申请资料及信息不合法、不真实、不准确的，商家需承担因此引起的相应责任及后果，并且本网站有权立即终止商家使用入驻系统的权利。
+            </p>
+            <p>3.3
+              商家使用入驻系统提交的所有内容应不含有木马等软件病毒、政治宣传、或其他任何形式的“垃圾信息”、违法信息，且商家应按本网站规则使用入驻系统，不得从事影响或可能影响本网站或入驻系统正常运营的行为，否则，本网站有权清除前述内容，并有权立即终止商家使用入驻系统的权利。
+            </p>
+            <p>3.4
+              商家应注意查看入驻系统公示的入驻申请结果，如审核通过的商家，则按照本网站工作人员的通知按要求办理入驻的相关手续；如审批未通过的商家，则可自本网站通过入驻系统将审批结果告知商家（需商家登陆入驻系统查看）之日起 15
+              日内提出异议并提供相应资料，如审批仍未通过的，则商家同意提交的申请资料及信息本网站无需返还，由本网站自行处理。</p>
+            <p>3.5 商家不得以任何形式擅自转让或授权他人使用自己在本网站的用户帐号使用入驻系统，否则由此产生的不利后果均由商家自行承担。</p>
+            <p>4.本网站权利义务</p>
+            <p>4.1 本网站开发的入驻系统仅为商家申请入驻的平台，商家正式入驻后，将在商家后台系统中进行相关操作。</p>
+            <p>4.2
+              本网站有权对商家提供的资料及信息进行审核，并有权结合自身业务情况对合作商家进行选择；本网站对商家提交资料及信息的审核均不代表本网站对审核内容的真实、合法、准确、完整性作出的确认，商家应对提供资料及信息承担相应的法律责任。
+            </p>
+            <p>4.3 无论商家是否通过本网站的审核，本网站有权对商家提供的资料及信息予以留存并随时查阅，同时，本网站有义务对商家提供的资料予以保密，但国家行政机关、司法机关等国家机构调取资料的除外。</p>
+            <p>4.4 本网站会尽力维护本系统信息的安全，但法律规定的不可抗力，以及因为黑客入侵、计算机病毒侵入发作等原因造成商家资料泄露、丢失、被盗用、被篡改的，本网站不承担任何责任。</p>
+            <p>4.5 本网站应在现有技术支持的基础上确保入驻系统的正常运营，尽量避免入驻系统服务的中断给商家带来的不便。</p>
+            <p>5.知识产权</p>
+            <p>5.1 本网站开发的入驻系统及其包含的各类信息的知识产权归本网站所有者所有，受国家法律保护,本网站有权不时地对入驻系统的内容进行修改，并在入驻系统中公示，无须另行通知商家。</p>
+            <p>5.2 在法律允许的最大限度范围内，本网站所有者对本协议及入驻系统涉及的内容拥有解释权。</p>
+            <p>5.3 商家未经本网站所有者书面许可，不得擅自使用、非法全部或部分的复制、转载、抓取入驻系统中的信息，否则由此给本网站造成的损失，商家应予以全部赔偿。</p>
+            <p>6.入驻系统服务的终止</p>
+            <p>6.1 商家自行终止入驻申请，或商家经本网站审批未通过的，则入驻系统服务自行终止。</p>
+            <p>6.2 商家使用本网站或入驻系统时，如违反相关法律法规或者违反本协议规定的，本网站有权随时终止商家使用入驻系统。</p>
+            <p>7.本协议的修改</p>
+            <p>本协议可由本网站随时修订，并将修订后的协议公告于本网站及入驻系统，修订后的条款内容自公告时起生效，并成为本协议的一部分。</p>
+            <p>8.法律适用与争议解决</p>
+            <p>8.1 本协议适用中华人民共和国法律。</p>
+            <p>8.2 因本协议产生的任何争议，由双方协商解决，协商不成的，任何一方有权向有管辖权的中华人民共和国大陆地区法院提起诉讼。</p>
+          </div>
+          <span id="read">
+            <input type="checkbox" id="iAgree">
+            <label for="iAgree">我已阅读以上协议</label>
+          </span>
+          <div class="btn-area">
+            <button class="btn-agree" disabled="disabled" id="agree">同意</button>
+          </div>
+          <div class="area-line"></div>
+        </div>
+        <div class="agree-box2">
+          <div class="inner">
+            <div class="left">
+              <form>
+                <div class="form-box">
+                  <h3>联系信息</h3>
+                  <ul>
+                    <li>
+                      <div class="tl2">
+                        <em>*</em>
+                        公司名称：
+                      </div>
+                      <div class="tr2">
+                        <input id="companyName" name="companyName" class="input" type="text" placeholder="请填写公司的完整名称">
+                        <span class="investment-rule companyName">请填写公司名称</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="tl2">
+                        <em>*</em>
+                        申请人姓名：
+                      </div>
+                      <div class="tr2">
+                        <input id="submitterName" name="submitterName" class="input" type="text" placeholder="请填写您的姓名">
+                        <span class="investment-rule submitterName">请填写您的姓名</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="tl2">
+                        <em>*</em>
+                        申请人职位：
+                      </div>
+                      <div class="tr2">
+                        <input id="submitterPosition" name="submitterPosition" class="input" type="text"
+                          placeholder="请填写您的职位">
+                        <span class="investment-rule submitterPosition">请填写您的职位</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="tl2">
+                        <em>*</em>
+                        申请人固定电话：
+                      </div>
+                      <div class="tr2">
+                        <input id="submitterTel" name="submitterTel" class="input" type="text"
+                          placeholder="请填写您的电话联系方式">
+                        <span class="investment-rule submitterTel">请填写您的电话联系方式</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="tl2">
+                        <em>*</em>
+                        申请人邮箱：
+                      </div>
+                      <div class="tr2">
+                        <input id="submitterEmail" name="submitterEmail" class="input" type="text"
+                          placeholder="请填写您的邮箱联系方式">
+                        <span class="investment-rule submitterEmail">请填写您的邮箱联系方式</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="tl2">
+                        <em>*</em>
+                        统一社会信用代码（或税号）：
+                      </div>
+                      <div class="tr2">
+                        <input id="uscc" name="uscc" class="input" type="text" placeholder="请填写统一社会信用代码（或税号）">
+                        <span class="investment-rule uscc">请填写统一社会信用代码（或税号）</span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="form-box">
+                  <h3>经营信息</h3>
+                  <ul>
+                    <li class="for-pc">
+                      <div class="tl2"><em>*</em>主要经营类目（三级类目）：</div>
+                      <div class="tr2">
+                        <div id="cmbDiv" class="comboMenu in" title="" style="height: 35px; width: 250px;"><span
+                            class="prefix" style="padding-top: 7px;">品类: </span><a href="javascript:void(0);"
+                            class="comboMenu_text" style="padding-top: 7px; width: 186px; height: 29px;"></a><span
+                            class="arrow in" style="margin-top: 5px;"></span>
+                          <div class="popup popup_0" index="0" style="width: 252px; top: 35px;">
+                            <div class="comboMenu_search"><span class="prefix">搜索:</span><input type="text"
+                                log="search_cate" style="width: 173px;"><span class="cf"></span></div>
+                            <div class="search-bottom"></div>
+                            <div class="popup_wrap"></div>
+                            <div class="popuplist">
+                              <a href="javascript:void(0);" class="comboItem" keyvalue="">全部数据</a>
+                              <a href="javascript:void(0);" class="comboItem hasLeaf">数码</a>
+                              <a href="javascript:void(0);" class="comboItem hasLeaf" keyvalue="670">电脑、办公</a>
+                            </div>
+                            <div class="popup popup_1" index="1" style="left: 250px; width: 120px; top: 30px;">
+                              <div class="popuplist" style="height: auto;">
+                                <a href="javascript:void(0);" class="comboItem hasLeaf" keyvalue="670-699">网络产品</a>
+                                <a href="javascript:void(0);" class="comboItem hasLeaf" keyvalue="670-716">办公设备</a>
+                                <a href="javascript:void(0);" class="comboItem hasLeaf" keyvalue="670-729">文具/耗材</a>
+                                <a href="javascript:void(0);" class="comboItem hasLeaf" keyvalue="670-12800">游戏设备</a>
+                              </div>
+                            </div>
+                            <div class="popup popup_1" index="1" style="left: 250px; width: 120px; top: 30px;">
+                              <div class="popuplist" style="height: auto;">
+                                <a href="javascript:void(0);" class="comboItem hasLeaf" keyvalue="670-671">电脑整机</a>
+                                <a href="javascript:void(0);" class="comboItem hasLeaf" keyvalue="670-677">电脑配件</a>
+                                <a href="javascript:void(0);" class="comboItem hasLeaf" keyvalue="670-686">外设产品</a>
+                              </div>
+                            </div>
+                            <div class="popup popup_2" index="2" style="left: 369px; width: 120px; top: 30px;">
+                              <div class="popuplist" style="height: auto;">
+                                <a href="javascript:void(0);" class="comboItem" keyvalue="6994-14692-14693">洗护服务</a>
+                                <a href="javascript:void(0);" class="comboItem" keyvalue="6994-14692-14694">医疗服务</a>
+                                <a href="javascript:void(0);" class="comboItem" keyvalue="6994-14692-14695">寄养服务</a>
+                                <a href="javascript:void(0);" class="comboItem" keyvalue="6994-14692-14696">赛事活动</a>
+                              </div>
+                            </div>
+                            <div class="popup popup_2" index="2" style="left: 369px; width: 120px; top: 30px;">
+                              <div class="popuplist" style="height: auto;">
+                                <a href="javascript:void(0);" class="comboItem" keyvalue="6994-14692-14693">洗护服务</a>
+                                <a href="javascript:void(0);" class="comboItem" keyvalue="6994-14692-14694">医疗服务</a>
+                                <a href="javascript:void(0);" class="comboItem" keyvalue="6994-14692-14695">寄养服务</a>
+                              </div>
+                            </div>
+                            <div class="popup popup_2" index="2" style="left: 369px; width: 120px; top: 30px;">
+                              <div class="popuplist" style="height: auto;">
+                                <a href="javascript:void(0);" class="comboItem" keyvalue="6994-14692-14693">洗护服务</a>
+                                <a href="javascript:void(0);" class="comboItem" keyvalue="6994-14692-14694">医疗服务</a>
+                              </div>
+                            </div>
+                            <div class="popup popup_2" index="2" style="left: 369px; width: 120px; top: 30px;">
+                              <div class="popuplist" style="height: auto;">
+                                <a href="javascript:void(0);" class="comboItem" keyvalue="6994-14692-14693">洗护服务</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- <li class="for-mobile">
+                        <div class="tl" style="line-height: 37px;"><em>*</em>主要经营类目（三级类目）：</div>
+                        <div class="tr">
+                          <select class="select firstSort" style="margin-bottom: 8px;">
+                            <option value="">请选择</option>
+                            <option value="652">数码</option>
+                            <option value="670">电脑、办公</option>
+                            <option value="737">家用电器</option>
+                            <option value="1315">服饰内衣</option>
+                            <option value="1316">美妆护肤</option>
+                            <option value="1318">运动户外</option>
+                            <option value="1319">母婴</option>
+                            <option value="1320">食品饮料</option>
+                            <option value="1620">家居日用</option>
+                            <option value="1672">礼品</option>
+                            <option value="1713">图书</option>
+                            <option value="4053">文娱</option>
+                            <option value="4938">本地生活/旅游出行</option>
+                            <option value="5025">钟表</option>
+                            <option value="5272">数字内容</option>
+                            <option value="6196">厨具</option>
+                            <option value="6233">玩具乐器</option>
+                            <option value="6728">汽车用品</option>
+                            <option value="6994">宠物生活</option>
+                            <option value="9192">医药保健</option>
+                            <option value="9847">家具</option>
+                            <option value="9855">家装建材</option>
+                            <option value="9987">手机通讯</option>
+                            <option value="11729">鞋靴</option>
+                            <option value="12218">生鲜</option>
+                            <option value="12259">酒类</option>
+                            <option value="12473">农资园艺</option>
+                            <option value="13678">教育培训</option>
+                            <option value="13765">二手商品</option>
+                            <option value="14065">工业品</option>
+                            <option value="15901">家庭清洁/纸品</option>
+                            <option value="16750">个人护理</option>
+                            <option value="17329">箱包皮具</option>
+                          </select>
+                          <select class="select secondSort" style="margin-bottom: 8px;">
+                            <option value="">请选择</option>
+                          </select>
+                          <select class="select thirdSort" style="margin-bottom: 8px;">
+                            <option value="">请选择</option>
+                          </select>
+                        </div>
+                      </li> -->
+                    <li>
+                      <div class="tl2"><em>*</em>品牌名称：</div>
+                      <div class="tr2">
+                        <input id="brandName" name="brandName" class="input" type="text" placeholder="请填写您的品牌名称">
+                        <span class="investment-rule brandName">请填写您的品牌名称</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="tl2"><em>*</em>品牌简介：</div>
+                      <div class="tr2">
+                        <textarea id="brandIntroduction" name="brandIntroduction" class="input textarea" cols="30"
+                          rows="10" placeholder="请介绍您的品牌，以便于招采人员更好的了解您的公司。"></textarea>
+                        <span class="investment-rule brandIntroduction">请填写您的品牌简介</span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </form>
+              <form>
+                <div class="form-box form-upload" id="attachmentInfoDiv">
+                  <h3>资质信息</h3>
+                  <div class="tips2">
+                    <p>请确保图片清晰，文字可辨并有清晰的红色公章；附件文件名请勿包含！@#（）等特殊字符。</p>
+                    <p>建议使用Chrome/FireFox等主流浏览器上传。</p>
+                  </div>
+                  <div class="upload-row" data-code="1">
+                    <span class="upload-row-title"><em style="color: red; font-style: normal;">*</em>营业执照和商品图片</span>
+                    <span id="filePicker" class="webuploader-container">
+                      <div class="webuploader-pick">选择文件</div>
+                      <div id="rt_rt_1ddngk20h1e2r1ojq1rl51imu7qf1"
+                        style="position: absolute; top: -10px; left: 0px; width: 66px; height: 24px; overflow: hidden; bottom: auto; right: auto;">
+                        <input type="file" name="file" class="webuploader-element-invisible"
+                          accept="image/jpeg,image/bmp,image/png,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+                        <label style="opacity: 0; width: 100%; height: 100%; display: block; cursor: pointer; background: rgb(255, 255, 255);" id="upladFile"></label>
+                      </div>
+                    </span>
+                    <ul class="upload-file-list"></ul>
+                  </div>
+                  <div id="file_up"></div>
+                </div>
+              </form>
+              <div class="form-btn-area">
+                <button type="button" name="button" class="btn-save" id="saveAndExit">保存草稿</button>
+                <button type="button" name="button" class="btn-submit" id="saveAndNext">保存并提交</button>
+              </div>
+            </div>
+            <div class="form-help">
+              <h3>入驻帮助</h3>
+              <div class="list">
+                <ul>
+                  <li>
+                    <div class="help-title">1. 供应商入驻条件：</div>
+                    <div class="help-content" style="display: none;">
+                      <p>① 产品生产厂商，不接受授权和代理</p>
+                      <p>② 已依照中华人民共和国法律注册并领取合法有效营业执照及其他经营许可</p>
+                      <p>③ 申请经营的商品符合国家规定标准，来源合法，资质齐全</p>
+                      <p>④ 同意并遵守阳光福利平台的相关规则 </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="help-title">2. 入驻审核要求：</div>
+                    <div class="help-content" style="display: none;">
+                      <p>① 基础资质要求<br>
+                        提供三证合一营业执照扫描件，需确保未在企业经营异常名录中且所售商品在营业执照经营范围内。<br>
+                        企业法定代表人身份证扫描件正反面，且有效期大于90天。<br>
+                        开户行许可证扫描件，需与营业执照一致。<br>
+                        一般纳税人资格证明，如为一般纳税人需提供此证件（税务局网站查询截图亦可，需加盖公司公章红章）
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="help-title">3. 产品资质要求：</div>
+                    <div class="help-content" style="display: none;">
+                      <p>① 商标注册证及专利权证书等知识产权证明复印件</p>
+                      <p>② 质检报告或产品质量合格证复印件（根据不同品牌与类目均需单独提供）</p>
+                      <p>③ 进口商品的报关单、检验检疫证书、产品来源地证明等复印件</p>
+                      <p>④ 特殊商品生产许可证或质量合格证明等复印件，例如，食品流通许可证，肉禽产品防疫证明等。<br>
+                        真实有效：请务必保证您入驻前后提供的相关资质的真实有效性（若您提供的 相关资质为第三方提供，如商标注册证、授权书等，请务必先行核实其真实有效性），<br>
+                        一旦发现虚假资质，您的公司将被列入非诚信商家名单。
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="help-title">4. 商品定价要求：</div>
+                    <div class="help-content" style="display: none;">
+                      <p>① 必须低于市场价以及其他电商平台价格</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="agree-box3">
+          <div class="inner">
+            <form>
+              <div class="form-box">
+                <h3>公司信息</h3>
+                <ul>
+                  <li class="clearfix">
+                    <div class="tl">
+                      <em>*</em>
+                      公司名称：
+                    </div>
+                    <div class="tr">
+                      <input id="companyName2" name="companyName2" class="input" type="text" placeholder="请填写公司的完整名称">
+                      <div class="invite-rule companyName2">请填写公司的完整名称</div>
+                    </div>
+                    <!-- <div class="tips">请填写贵公司英文名称，与营业执照、银行账户名称一致，务必使用半角英文输入法，不得有特殊符号。</div> -->
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl">
+                      <em>*</em>
+                      营业执照/公司证件号：
+                    </div>
+                    <div class="tr">
+                      <input id="submitterNumber" name="submitterNumber" class="input" type="text"
+                        placeholder="请填写您的营业执照/公司证件号">
+                      <div class="invite-rule submitterNumber">请填写您的营业执照/公司证件号</div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl">
+                      <em>*</em>
+                      公司注册文件/营业执照电子版：
+                    </div>
+                    <div class="tr">
+                      <!-- <input id="submitterPosition" name="submitterPosition" class="input" type="text"
+                        placeholder="请填写您的职位"> -->
+                      <div class="upload_file_word">请上传入驻公司营业执照扫描文件，加盖公章（三证合一）。</div>
+                      <div class="upload_file_btn">
+                        <img src="../../images/static/upload_btn.png" alt="">
+                      </div>
+                      <input type="file" name="uploadCompanyFile" id="uploadCompanyFile" style="display: none;">
+                      <div class="upload_file_tips">
+                        图片尺寸请确保<span>800px*800px</span>以上，文件大小在<span>1MB以内</span>，支持<span>png、jpeg、gif</span>格式，最多可上传<span>2张</span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl">
+                      <em>*</em>
+                      经营范围：
+                    </div>
+                    <div class="tr">
+                      <input id="submitterRange" name="submitterRange" class="input" type="text"
+                        placeholder="请填写您的经营范围">
+                      <div class="invite-rule submitterRange">请填写您的经营范围</div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl">
+                      <em>*</em>
+                      法定代表人姓名：
+                    </div>
+                    <div class="tr">
+                      <input id="legalName" name="legalName" class="input" type="text" placeholder="请填写您的法定代表人姓名">
+                      <div class="invite-rule legalName">请填写您的法定代表人姓名</div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl">
+                      <em>*</em>
+                      法定代表人身份证号：
+                    </div>
+                    <div class="tr">
+                      <input id="legalNameNumber" name="legalNameNumber" class="input" type="text"
+                        placeholder="请填写法定代表人身份证号">
+                      <div class="invite-rule legalNameNumber">请填写法定代表人身份证号</div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl">
+                      <em>*</em>
+                      法人身份证电子版：
+                    </div>
+                    <div class="tr">
+                      <div class="upload_file_word">身份证要求正反两面，复印件请加盖开店公司公章</div>
+                      <div class="upload_file_btn2">
+                        <img src="../../images/static/upload_btn.png" alt="">
+                      </div>
+                      <input type="file" name="uploadCompanyFile2" id="uploadCompanyFile2" style="display: none;">
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl">
+                      <em>*</em>
+                      营业执照详细地址：
+                    </div>
+                    <div class="tr">
+                      <input id="licenseAddress" name="licenseAddress" class="input" type="text"
+                        placeholder="请填写营业执照详细地址">
+                      <div class="invite-rule licenseAddress">请填写营业执照详细地址</div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl">
+                      <em>*</em>
+                      成立日期：
+                    </div>
+                    <div class="tr">
+                      <!-- <input id="foundDate" name="foundDate" class="input" type="text" placeholder="请填写成立日期"> -->
+                      <div class="c-datepicker-date-editor c-datepicker-single-editor J-datepicker-day mt10">
+                        <!-- <i class="c-datepicker-range__icon kxiconfont icon-clock"></i> -->
+                        <input type="text" autocomplete="off" name="foundDate" id="foundDate" placeholder="选择日期" class=" c-datepicker-data-input only-date" value="">
+                      </div>
+                      <div class="invite-rule foundDate">请填写成立日期</div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl">
+                      <em>*</em>
+                      营业执照有效期：
+                    </div>
+                    <div class="tr">
+                      <!-- <input id="licenseValidDate" name="licenseValidDate" class="input" type="text"
+                        placeholder="请填写营业执照有效期"> -->
+                      <div class="c-datepicker-date-editor J-datepicker-range-day">
+                        <!-- <i class="c-datepicker-range__icon kxiconfont icon-clock"></i> -->
+                        <input placeholder="开始日期" name="licenseValidStartDate" id="licenseValidStartDate" class="c-datepicker-data-input only-date" value="">
+                        <span class="c-datepicker-range-separator">-</span>
+                        <input placeholder="结束日期" name="licenseValidEndDate" id="licenseValidEndDate" class="c-datepicker-data-input only-date" value="">
+                      </div>
+                      <div class="invite-rule ValidDate">请填写营业执照有效期</div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl">
+                      <em>*</em>
+                      公司紧急联系人：
+                    </div>
+                    <div class="tr">
+                      <input id="urgentLiaison" name="urgentLiaison" class="input" type="text" placeholder="请填写公司紧急联系人">
+                      <div class="invite-rule urgentLiaison">请填写公司紧急联系人</div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl">
+                      <em>*</em>
+                      公司紧急联系人手机：
+                    </div>
+                    <div class="tr">
+                      <input id="urgentLiaisonPhone" name="urgentLiaisonPhone" class="input" type="text"
+                        placeholder="请填写公司紧急联系人手机">
+                      <div class="invite-rule urgentLiaisonPhone">请填写公司紧急联系人</div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="form-box">
+                <h3>结算银行信息</h3>
+                <ul>
+                  <li class="for-pc clearfix">
+                    <div class="tl"><em>*</em>开户名：</div>
+                    <div class="tr">
+                      <input id="accountName" name="accountName" class="input" type="text" placeholder="请填写开户名">
+                      <div class="invite-rule accountName">请填写开户名</div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl"><em>*</em>开户行支行名称：</div>
+                    <div class="tr">
+                      <input id="accountBranchName" name="accountBranchName" class="input" type="text"
+                        placeholder="请填写您的开户行支行名称">
+                      <div class="invite-rule accountBranchName">请填写您的开户行支行名称</div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl"><em>*</em>开户银行支行所在地：</div>
+                    <div class="tr">
+                      <select name="" id="" class="bank_address">
+                        <option value="">请选择</option>
+                      </select>
+                      <select name="" id="" class="bank_address">
+                        <option value="">请选择</option>
+                      </select>
+                      <select name="" id="" class="bank_address">
+                        <option value="">请选择</option>
+                      </select>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl"><em>*</em>银行账号：</div>
+                    <div class="tr">
+                      <!-- <input id="" name="" class="input" type="text" placeholder="请填写银行账号"> -->
+                      <input id="accountLocation" name="accountLocation" class="input" type="text" placeholder="请填写银行账号">
+                      <div class="invite-rule accountLocation">请填写银行账号</div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl"><em>*</em>银行支行联行号：</div>
+                    <div class="tr">
+                      <input id="accountLinkNumber" name="accountLinkNumber" class="input" type="text"
+                        placeholder="请填写银行支行联行号">
+                      <div class="invite-rule accountLinkNumber">请填写银行支行联行号</div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl"><em>*</em>银行开户许可证：</div>
+                    <div class="tr">
+                      <div class="upload_file_btn3">
+                        <img src="../../images/static/upload_btn.png" alt="">
+                      </div>
+                      <input type="file" name="uploadCompanyFile3" id="uploadCompanyFile3" style="display: none;">
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </form>
+            <div class="form-btn-area" style="padding-right: 365px;">
+              <button type="button" name="button" class="btn-save" id="saveAndExit">保存草稿</button>
+              <button type="button" name="button" class="btn-submit" id="saveAndNext2">保存并提交</button>
+            </div>
+          </div>
+        </div>
+        <div class="agree-box4">
+          <div class="inner">
+            <form>
+              <div class="form-box">
+                <h3>店铺信息</h3>
+                <ul>
+                  <li class="clearfix">
+                    <div class="tl">
+                      <em>*</em>
+                      店铺名称：
+                    </div>
+                    <div class="tr">
+                      <input id="shopName" name="shopName" class="input" type="text" placeholder="请填写店铺的完整名称">
+                      <div class="shop-rule shopName">请填写店铺的完整名称</div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl">
+                      <em>*</em>
+                      经营类目：
+                    </div>
+                    <div class="tr">
+                      <select name="" id="" class="bank_address">
+                        <option value="">请选择</option>
+                      </select>
+                      <select name="" id="" class="bank_address">
+                        <option value="">请选择</option>
+                      </select>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl">
+                      <em>*</em>
+                      店铺LOGO：
+                    </div>
+                    <div class="tr">
+                      <div class="upload_file_btn4">
+                        <img src="../../images/static/upload_btn.png" alt="">
+                      </div>
+                      <input type="file" name="uploadCompanyFile4" id="uploadCompanyFile4" style="display: none;">
+                      <div class="upload_file_tips">
+                        图片尺寸请确保<span>800px*800px</span>以上，文件大小在<span>1MB以内</span>，支持<span>png、jpeg、gif</span>格式，最多可上传<span>1张</span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl">
+                      店铺介绍：
+                    </div>
+                    <div class="tr">
+                      <input id="shopSuggest" name="shopSuggest" class="input" type="text" placeholder="请填写您的店铺介绍">
+                      <div class="shop-rule shopSuggest">请填写您的店铺介绍</div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl">
+                      <em>*</em>
+                      合同上传：
+                    </div>
+                    <div class="tr">
+                      <div class="upload_file_btn5">
+                        <img src="../../images/static/upload_btn.png" alt="">
+                      </div>
+                      <input type="file" name="uploadCompanyFile5" id="uploadCompanyFile5" style="display: none;">
+                      <div class="upload_file_tips">
+                        图片尺寸请确保<span>800px*800px</span>以上，文件大小在<span>1MB以内</span>，支持<span>png、jpeg、gif</span>格式，最多可上传<span>1张</span>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="form-box">
+                <h3>经营类目行业资质</h3>
+                <ul>
+                  <li class="for-pc clearfix">
+                    <div class="tl"><em>*</em>类目名称：</div>
+                    <div class="tr">
+                      <input id="categoryName" name="categoryName" class="input" type="text" placeholder="请填写类目名称">
+                      <div class="shop-rule categoryName">请填写类目名称</div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl"><em>*</em>资质名称：</div>
+                    <div class="tr">
+                      <input id="naturalName" name="naturalName" class="input" type="text" placeholder="请填写您的资质名称">
+                      <div class="shop-rule naturalName">请填写您的资质名称</div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl"><em>*</em>上传资质电子版：</div>
+                    <div class="tr">
+                      <div class="upload_file_btn6">
+                        <img src="../../images/static/upload_btn.png" alt="">
+                      </div>
+                      <input type="file" name="uploadCompanyFile6" id="uploadCompanyFile6" style="display: none;">
+                      <div class="upload_file_tips">
+                        图片尺寸请确保<span>800px*800px</span>以上，文件大小在<span>1MB以内</span>，支持<span>png、jpeg、gif</span>格式，最多可上传<span>1张</span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl"><em>*</em>有效时间：</div>
+                    <div class="tr clearfix">
+                      <!-- <input id="startDate" name="startDate" class="start-date" type="text" placeholder="开始日期">
+                      <input id="endDate" name="endDate" class="start-date" type="text" placeholder="结束日期"> -->
+                      <div class="c-datepicker-date-editor J-datepicker-range-day">
+                        <!-- <i class="c-datepicker-range__icon kxiconfont icon-clock"></i> -->
+                        <input placeholder="开始日期" name="startDate" id="startDate" class="c-datepicker-data-input only-date" value="">
+                        <span class="c-datepicker-range-separator">-</span>
+                        <input placeholder="结束日期" name="endDate" id="endDate" class="c-datepicker-data-input only-date" value="">
+                      </div>
+                      <div class="shop-rule effectiveTime">请填写有效时间</div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="form-box">
+                <h3>联系人信息</h3>
+                <ul>
+                  <li class="for-pc clearfix">
+                    <div class="tl"><em>*</em>联系人姓名：</div>
+                    <div class="tr">
+                      <input id="contactName" name="contactName" class="input" type="text" placeholder="请填写联系人姓名">
+                      <div class="shop-rule contactName">请填写联系人姓名</div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl"><em>*</em>联系人电话：</div>
+                    <div class="tr">
+                      <input id="contactPhone" name="contactPhone" class="input" type="text" placeholder="请填写您的联系人电话">
+                      <div class="shop-rule contactPhone">请填写您的联系人电话</div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl"><em>*</em>联系人邮箱：</div>
+                    <div class="tr">
+                      <input id="contactEmail" name="contactEmail" class="input" type="text" placeholder="请填写联系人邮箱">
+                      <div class="shop-rule contactEmail">请填写联系人邮箱</div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </form>
+            <div class="form-btn-area" style="padding-right: 365px;">
+              <button type="button" name="button" class="btn-save" id="saveAndExit">保存草稿</button>
+              <button type="button" name="button" class="btn-submit" id="saveAndNext3">保存并提交</button>
+            </div>
+          </div>
+        </div>
+        <div class="agree-box5">
+          <div class="inner">
+            <div class="apply-success clearfix">
+              <div class="apply-success-img">
+                <img src="../../images/static/enter.png" alt="">
+              </div>
+              <div class="apply-success-word">
+                <h3>申请成功，请您耐心等待审核。</h3>
+                <span>我们会在2个工作日内完成审核，审核通过会短信或电话通知您！</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 内容end -->
+
+  <!-- 底部 -->
+  <div class="footer">
+    <div class="fuli-u-sm-12 fuli-footer clearfix">
+      <div class="fuli-footer-service">
+        <div class="footer-service-unit clearfix">
+          <div class="footer-service-img">
+            <img src="../../images/static/aftersale.png" alt="">
+          </div>
+          <div class="footer-service-word">
+            <h6 class="footer-service-tit">正品保障</h6>
+            <div class="footer-service-text">优质商品 福利放心购</div>
+          </div>
+        </div>
+      </div>
+      <div class="fuli-footer-service">
+        <div class="footer-service-unit clearfix">
+          <div class="footer-service-img">
+            <img src="../../images/static/classify.png" alt="">
+          </div>
+          <div class="footer-service-word">
+            <h6 class="footer-service-tit">尊享低价</h6>
+            <div class="footer-service-text">剔除溢价 保证性价比</div>
+          </div>
+        </div>
+      </div>
+      <div class="fuli-footer-service">
+        <div class="footer-service-unit clearfix">
+          <div class="footer-service-img">
+            <img src="../../images/static/security.png" alt="">
+          </div>
+          <div class="footer-service-word">
+            <h6 class="footer-service-tit">售后无忧</h6>
+            <div class="footer-service-text">退换便捷 物流全覆盖</div>
+          </div>
+        </div>
+      </div>
+      <div class="fuli-footer-service">
+        <div class="footer-service-unit clearfix">
+          <div class="footer-service-img">
+            <img src="../../images/static/like.png" alt="">
+          </div>
+          <div class="footer-service-word">
+            <h6 class="footer-service-tit">定制服务</h6>
+            <div class="footer-service-text">按需定制 享专属平台</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="fuli-u-sm-12 fuli-footer-help clearfix">
+      <div class="footer-help-list">
+        <div class="help-list-tit">用户指南</div>
+        <ul class="help-list-nav">
+          <li>
+            <a href="#">
+              关于注册
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              操作指南
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              支付与充值
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-help-list">
+        <div class="help-list-tit">阳光福利购特色</div>
+        <ul class="help-list-nav">
+          <li>
+            <a href="#">
+              阳光福利购特色
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              员工关怀平台
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              阳光福利购商城
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-help-list">
+        <div class="help-list-tit">商户服务</div>
+        <ul class="help-list-nav">
+          <li>
+            <a href="#">
+              招商入驻
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              平台政策
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              商户工作台
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              结算售后
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- <div class="footer-help-list">
+          <div class="help-list-tit">商户服务</div>
+          <ul class="help-list-nav">
+            <li>
+              <a href="#">
+                招商入驻
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                平台政策
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                商户工作台
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                结算售后
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-help-list">
+          <div class="help-list-tit">关于我们</div>
+          <ul class="help-list-nav">
+            <li>
+              <a href="#">
+                企业合作
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                招聘英才
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                帮助中心
+              </a>
+            </li>
+          </ul>
+        </div> -->
+      <div class="footer-help-list public-mar">
+        <div class="footer-help-public">
+          <div class="footer-help-code"></div>
+          <div class="footer-help-word">
+            公众号
+          </div>
+        </div>
+      </div>
+      <!-- <div class="footer-help-list">
+          <div class="footer-help-public">
+            <div class="footer-help-code"></div>
+            <div class="footer-help-word">
+              官方微信
+            </div>
+          </div>
+        </div> -->
+    </div>
+    <div class="fuli-u-sm-12 fuli-copyright-auth">
+      <div class="fuli-copyright-cont clearfix">
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-1 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-2 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-3 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-4 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-5 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-6 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-7 pointer"></div>
+        </a>
+      </div>
+    </div>
+    <div class="fuli-u-sm-12 fuli-copyright-info">
+      <p>
+        <a href="#" class="fuli-copyright-links">首页</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">招聘英才</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">合作及洽谈</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">联系我们</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">关于我们</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">商家管理</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">门店管理</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">自提站管理</a>
+        <span class="fuli-copyright-split">|</span>
+      </p>
+    </div>
+    <div class="fuli-u-sm-12 fuli-copyright-cert">
+      &copy;2016 athori.com 雷云智链 客户服务中心(7×24):101-88888888
+    </div>
+  </div>
+  <!-- 底部end -->
+
+  <script src="../../lib/jq/jquery.old.js"></script>
+  <script src="../../lib/step/jquery.step.min.js"></script>
+  <script src="../../lib/date-picker/plugins/moment.min.js"></script>
+  <script src="../../lib/date-picker/datepicker.all.js"></script>
+  <script src="../../lib/date-picker/datepicker.en.js"></script>
+  <script src="../../js/inviteInvestment/inviteInvestment.js"></script>
+
+
+  <script type="text/javascript">
+
+    $(function () {
+
+      var DATAPICKERAPI = {
+        // 默认input显示当前月,自己获取后填充
+        activeMonthRange: function () {
+          return {
+            begin: moment().set({ 'date': 1, 'hour': 0, 'minute': 0, 'second': 0 }).format('YYYY-MM-DD HH:mm:ss'),
+            end: moment().set({ 'hour': 23, 'minute': 59, 'second': 59 }).format('YYYY-MM-DD HH:mm:ss')
+          }
+        },
+        shortcutMonth: function () {
+          // 当月
+          var nowDay = moment().get('date');
+          var prevMonthFirstDay = moment().subtract(1, 'months').set({ 'date': 1 });
+          var prevMonthDay = moment().diff(prevMonthFirstDay, 'days');
+          return {
+            now: '-' + nowDay + ',0',
+            prev: '-' + prevMonthDay + ',-' + nowDay
+          }
+        },
+        // 近n小时计算返回
+        shortcutPrevHours: function (hour) {
+          var nowDay = moment().get('date');
+          var prevHours = moment().subtract(hour, 'hours');
+          var prevDate = prevHours.get('date') - nowDay;
+          var nowTime = moment().format('HH:mm:ss');
+          var prevTime = prevHours.format('HH:mm:ss');
+          return {
+            day: prevDate + ',0',
+            time: prevTime + ',' + nowTime,
+            name: '近' + hour + '小时'
+          }
+        },
+      };
+
+      //年月日单个
+      $('.J-datepicker-day').datePicker({
+        hasShortcut: true,
+        format:'YYYY-MM-DD',
+        // shortcutOptions: [{
+        //   name: '今天',
+        //   day: '0'
+        // }, {
+        //   name: '昨天',
+        //   day: '-1'
+        // }, {
+        //   name: '一周前',
+        //   day: '-7'
+        // }]
+      });
+
+      //年月日范围
+      $('.J-datepicker-range-day').datePicker({
+        hasShortcut: true,
+        format: 'YYYY-MM-DD',
+        isRange: true,
+        shortcutOptions: DATAPICKERAPI.rangeShortcutOption1
+      });
+
+    });
+  </script>
+</body>
+
+</html>

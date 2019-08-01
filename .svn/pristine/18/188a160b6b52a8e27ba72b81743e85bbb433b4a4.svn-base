@@ -1,0 +1,244 @@
+@charset "utf-8";
+
+.login-info-wrapper{
+  width: 100%;
+  padding-left: 230px;
+  box-sizing: border-box;
+}
+
+.login-username{
+  width: 100%;
+  line-height: 49px;
+  font-size: 14px;
+}
+
+.login-username-left{
+  width: 94px;
+  color: #666;
+  float: left;
+}
+
+.login-username-right{
+  float: left;
+  color: #333;
+}
+
+.short-rule-input{
+  width: 235px;
+  height: 35px;
+  border: 1px solid #ddd;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.short-rule-error{
+  color: #ff4040;
+  position: absolute;
+  right: -145px;
+  display: none;
+}
+
+.short-rule-input input{
+  width: 129px;
+  height: 33px;
+  padding-left: 5px;
+  border: none;
+  outline: none;
+}
+
+.short-rule-btn{
+  width: 105px;
+  height: 35px;
+  background-color: #ffb030;
+  text-align: center;
+  line-height: 35px;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.verification-code{
+  /* width: 190px; */
+  height: 35px;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.verification-rule-error{
+  color: #ff4040;
+  position: absolute;
+  bottom: -38px;
+  display: none;
+}
+
+.verification-code-left{
+  width: 100px;
+  height: 35px;
+  border-style: solid;
+  border-color: #ddd;
+  border-width: 1px 0 1px 1px;
+  outline: none;
+  padding-left: 5px;
+  float: left;
+}
+
+.verification-code-right{
+  width: 90px;
+  height: 35px;
+  background-color: #e6e6e6;
+  float: left;
+}
+
+.verification-code-word{
+  line-height: 35px;
+  display: inline-block;
+  margin-left: 12px;
+  color: #333;
+  font-size: 12px;
+}
+
+.verification-code-word a{
+  color: #0113ff;
+}
+
+.login-info-btn{
+  width: 146px;
+  height: 44px;
+  background-color: #ffb030;
+  color: #fff;
+  text-align: center;
+  line-height: 44px;
+  font-size: 16px;
+  border-radius: 1px;
+  cursor: pointer;
+  margin-left: 95px;
+  margin-top: 50px;
+}
+
+.login-password-wrapper{
+  width: 100%;
+  margin-top: 60px;
+  padding-left: 240px;
+  box-sizing: border-box;
+}
+
+.login-new-password{
+  width: 378px;
+  height: 44px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.login-new-password-left{
+  width: 79px;
+  line-height: 44px;
+  color: #666666;
+  font-size: 14px;
+  float: left;
+}
+
+.new-pass-word{
+  width: 299px;
+  height: 44px;
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  padding-left: 15px;
+}
+
+.newPassWord{
+  height: 24px;
+  line-height: 24px;
+  color: #ff4040;
+  font-size: 14px;
+  padding-left: 30px;
+  background: url(../../../images/static/success_or_error.png) no-repeat;
+  position: absolute;
+  top: 10px;
+  right: -270px;
+  display: none;
+}
+
+.confirmPassWord{
+  height: 24px;
+  line-height: 24px;
+  color: #ff4040;
+  font-size: 14px;
+  padding-left: 30px;
+  background: url(../../../images/static/success_or_error.png) no-repeat;
+  position: absolute;
+  top: 10px;
+  right: -250px;
+  display: none;
+}
+
+.primitivePassWord{
+  height: 24px;
+  line-height: 24px;
+  color: #ff4040;
+  font-size: 14px;
+  padding-left: 30px;
+  background: url(../../../images/static/success_or_error.png) no-repeat;
+  position: absolute;
+  top: 10px;
+  right: -40px;
+  display: none;
+}
+
+.paymentPassWord{
+  height: 24px;
+  line-height: 24px;
+  color: #ff4040;
+  font-size: 14px;
+  padding-left: 30px;
+  background: url(../../../images/static/success_or_error.png) no-repeat;
+  position: absolute;
+  top: 10px;
+  right: -250px;
+  display: none;
+}
+
+.newPassWord-pos{
+  background-position: 0px -37px;
+}
+
+.login-new-password-btn{
+  width: 146px;
+  height: 44px;
+  background-color: #cbcbcb;
+  text-align: center;
+  line-height: 44px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 1px;
+  margin-left: 155px;
+  margin-top: 27px;
+  cursor: not-allowed; 
+}
+
+.login-new-password-btn2{
+  width: 146px;
+  height: 44px;
+  background-color: #cbcbcb;
+  text-align: center;
+  line-height: 44px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 1px;
+  margin-left: 155px;
+  margin-top: 27px;
+  cursor: not-allowed; 
+}
+
+.set_payment_password_success2{
+  width: 350px;
+  line-height: 78px;
+  background: url(../../../images/static/set_payment_success.png) no-repeat;
+  background-position: 0 26px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=EDGE; IE=9; IE=8; IE=7">
+  <meta http-equiv="X-UA-Compatible" content="IE=11" />
+  <meta name="apple-touch-fullscreen" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="format-detection" content="telephone=no" />
+  <link rel="stylesheet" href="../../css/reset.css">
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../css/paymentCenter/cashier.css">
+  <link rel="stylesheet" href="../../css/headOrfooter/headOrfooter.css">
+  <title>收银台</title>
+</head>
+
+<body class="body-bg2">
+  <div class="payment_cashier_head_wrapper">
+    <div class="payment_cashier_head clearfix">
+      <div class="payment_cashier_head_left">
+        <img src="../../images/static/cashier.jpg" alt="">
+        <span>支付中心</span>
+      </div>
+      <div class="payment_cashier_head_right">
+        <div class="cashier_user">
+          下午好！
+          <span>180****2536</span>
+        </div>
+        <div class="cashier_ver">|</div>
+        <div class="cashier_order">
+          <a href="#">
+            我的订单
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="payment_cashier_container_wrapper">
+    <div class="payment_cashier_order_info clearfix">
+      <div class="payment_cashier_order_info_left">
+        <div class="payment_cashier_order_name">
+          [阳光公采支付订单]124545
+        </div>
+        <div class="receiving_party">
+          收款方：<span>公菜**收款</span>
+        </div>
+        <div class="receiving_party">
+          订单编号：<span>425536366374774747</span>
+        </div>
+        <div class="receiving_party">
+          商品名：<span>[阳光公采支付订单]34454546</span>
+        </div>
+      </div>
+      <div class="payment_cashier_order_info_right">
+        <div>
+          <span>应付金额：</span>
+          <span class="fuhao">￥</span>
+          <span class="payment_cashier_order_price">138.00</span>
+          元
+        </div>
+        <div class="payment_cashier_order_time">
+          请您在2小时内完成支付否则订单将会自动取消！
+        </div>
+        <div class="check_order">订单详情</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="payment_cashier_order_detail clearfix">
+    <p>收货地址：北京海淀区三环到四环之间远大路39号院1青清商厦411 收货人：**柯 176****5683 </p>
+    <p>商品名称：【2件9折】哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</p>
+  </div>
+
+  <div class="payment_cashier_select_payment_type2">
+    <div class="payment_cashier_select_payment_type_top">
+      <div class="payment_cashier_select_payment_type_bg">
+        福利商城收银台
+      </div>
+    </div>
+    <div class="payment_method_wrapper">
+      <div class="payment_method_item payment_method_item_checked">
+        <input type="radio" name="balance" id="balance" checked>
+        <label for="balance" style="cursor:pointer">
+          <img src="../../images/static/balance.png" alt="">
+          账户余额<span class="available-balance">(可用余额：0.00元)</span>
+          <span class="balance-derecharging">余额不足？去充值</span>
+        </label>
+      </div>
+      <input type="hidden" value="wx" id="hiddenVal">
+      <input type="text" id="refreshed" value="no" style="display: none;">
+      <div class="payment_method_item payment_method_item_wx" data-wx="wx">
+        <input type="radio" name="balance" id="wx">
+        <label for="wx" style="cursor:pointer">
+          <img src="../../images/static/wx_03.png" width="109" height="29" alt="">
+        </label>
+      </div>
+      <div class="payment_method_item payment_method_item_zfb">
+        <input type="radio" name="balance" id="zfb">
+        <label for="zfb" style="cursor:pointer">
+          <img src="../../images/static/zfb_03.png" width="99" height="35" alt="">
+        </label>
+      </div>
+
+      <div class="payment_method_item_ob payment_method_item_on">
+        <div class="pay-password-words">
+          支付密码：
+        </div>
+        <div class="pay-password">
+          <div class="pay-password-left">
+            <input type="password" maxlength=1 class="pay-input" onkeyup="focusNextInput(this)" />
+            <input type="password" maxlength=1 class="pay-input" onkeyup="focusNextInput(this)" />
+            <input type="password" maxlength=1 class="pay-input" onkeyup="focusNextInput(this)" />
+            <input type="password" maxlength=1 class="pay-input" onkeyup="focusNextInput(this)" />
+            <input type="password" maxlength=1 class="pay-input" onkeyup="focusNextInput(this)" />
+            <input type="password" maxlength=1 class="pay-input" onkeyup="focusNextInput(this)" />
+          </div>
+          <span class="pay-password-color mar-lm pointer">忘记支付密码？</span>
+        </div>
+      </div>
+
+      <div class="payment_method_item_ob"></div>
+      <div class="payment_method_item_ob"></div>
+
+      <div class="payment_method_item_btn">
+        立即支付
+      </div>
+    </div>
+  </div>
+
+  <!-- 底部 -->
+  <div class="footer">
+    <div class="fuli-u-sm-12 fuli-copyright-auth">
+      <div class="fuli-copyright-cont2 clearfix">
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-1 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-2 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-3 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-4 pointer"></div>
+        </a>
+        <a href="#">
+          <div class="fuli-copyright-icon fuli-copyright-icon-6 pointer"></div>
+        </a>
+      </div>
+    </div>
+    <div class="fuli-u-sm-12 fuli-copyright-info">
+      <p>
+        <a href="#" class="fuli-copyright-links">首页</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">招聘英才</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">合作及洽谈</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">联系我们</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">关于我们</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">商家管理</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">门店管理</a>
+        <span class="fuli-copyright-split">|</span>
+        <a href="#" class="fuli-copyright-links">自提站管理</a>
+        <span class="fuli-copyright-split">|</span>
+      </p>
+    </div>
+    <div class="fuli-u-sm-12 fuli-copyright-cert">
+      &copy;2016 athori.com 雷云智链 客户服务中心(7×24):101-88888888
+    </div>
+  </div>
+  <!-- 底部end -->
+  
+
+  <script src="../../lib/jq/jquery.old.js"></script>
+  <script src="../../js/paymentCenter/cashier.js"></script>
+
+
+  <script>
+    
+    // $(function() {
+    //   $('.payment_method_item_btn').on('click', function() {
+    //     $('#refreshed').val('yes');
+    //     location.href = './paymentMethodWx.html';
+    //   });
+    //   if($('#refreshed').val() == 'yes') {
+    //     $('#refreshed').val('no');
+    //     location.reload();
+    //   }
+    // })
+    
+  </script>
+</body>
+
+</html>
