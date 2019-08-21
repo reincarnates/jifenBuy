@@ -148,7 +148,7 @@
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 8px 10px;
-  height: 650px;
+  height: 450px;
   overflow: auto;
   overflow-x: hidden;
 }
@@ -409,6 +409,7 @@ li.for-pc {
   margin-left: 20px;
   border: 0;
   outline: none;
+  cursor: pointer;
 }
 
 .form-btn-area .btn-submit {
@@ -826,14 +827,14 @@ li.for-pc {
 }
 
 .agreement-mask-cont{
-  width: 1200px;
-  height: 800px;
+  width: 800px;
+  height: 600px;
   background-color: #fff;
   position: absolute;
   left: 50%;
   top: 50%;
-  margin-left: -600px;
-  margin-top: -400px;
+  margin-left: -400px;
+  margin-top: -300px;
   border-radius: 10px;
   padding: 30px;
   box-sizing: border-box;

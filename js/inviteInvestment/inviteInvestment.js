@@ -9,32 +9,32 @@ $(function () {
   });
   $index.text($step.getIndex());
 
-  $('.ui-step-item:eq(0)').on('click', function() {
-    if($(this).hasClass('active')) {
+  $('.ui-step-item:eq(0)').on('click', function () {
+    if ($(this).hasClass('active')) {
       $('.agree-box').show().siblings().hide();
     }
   });
 
-  $('.ui-step-item:eq(1)').on('click', function() {
-    if($(this).hasClass('active')) {
+  $('.ui-step-item:eq(1)').on('click', function () {
+    if ($(this).hasClass('active')) {
       $('.agree-box2').show().siblings().hide();
     }
   });
 
-  $('.ui-step-item:eq(2)').on('click', function() {
-    if($(this).hasClass('active')) {
+  $('.ui-step-item:eq(2)').on('click', function () {
+    if ($(this).hasClass('active')) {
       $('.agree-box3').show().siblings().hide();
     }
   });
 
-  $('.ui-step-item:eq(3)').on('click', function() {
-    if($(this).hasClass('active')) {
+  $('.ui-step-item:eq(3)').on('click', function () {
+    if ($(this).hasClass('active')) {
       $('.agree-box4').show().siblings().hide();
     }
   });
 
-  $('.ui-step-item:eq(4)').on('click', function() {
-    if($(this).hasClass('active')) {
+  $('.ui-step-item:eq(4)').on('click', function () {
+    if ($(this).hasClass('active')) {
       $('.agree-box5').show().siblings().hide();
     }
   });
@@ -132,7 +132,7 @@ $(function () {
   });
 
   //上传文件
-  $('#upladFile').on('click', function() {
+  $('#upladFile').on('click', function () {
     return $('.webuploader-element-invisible').trigger('click');
   });
 
@@ -359,6 +359,20 @@ $(function () {
     return $('#uploadCompanyFile4').trigger('click');
   });
 
+  $('#uploadCompanyFile4').on('change', function () {
+    var _URL = window.URL || window.webkitURL;
+    var file, img;
+    if ((file = this.files[0])) {
+      img = new Image();
+      img.onload = function () {
+        if(this.width > 200 && this.height > 100) {
+          alert('请确认上传图片的宽高');
+        }
+      };
+      img.src = _URL.createObjectURL(file);
+    }
+  });
+
   //上传合同
   $('.upload_file_btn5').on('click', function () {
     return $('#uploadCompanyFile5').trigger('click');
@@ -552,7 +566,7 @@ $(function () {
 
   });
 
-  $('#shopName').on('keyup', function() {
+  $('#shopName').on('keyup', function () {
     if (!companyReg.test($(this).val())) {
       $('.shopName').show().text('不能输入特殊字符').css('right', '-120px');
       $('#shopName').addClass('investment-rule');
@@ -565,7 +579,7 @@ $(function () {
 
   //联系人姓名
   var contactReg = /^[a-zA-Z\u4e00-\u9fa5]+$/
-  $('#contactName').on('keyup', function() {
+  $('#contactName').on('keyup', function () {
     if (!companyReg.test($(this).val())) {
       $('.contactName').show().text('不能输入特殊字符').css('right', '-120px');
       $('#contactName').addClass('investment-rule');
@@ -578,8 +592,8 @@ $(function () {
 
   //银行支行联行号
   var linkNumber = /^[0-9]*$/;
-  $('#accountLinkNumber').on('keyup', function() {
-    if($(this).val() == '') {
+  $('#accountLinkNumber').on('keyup', function () {
+    if ($(this).val() == '') {
       $('.accountLinkNumber').show();
       return false;
     }
@@ -594,11 +608,11 @@ $(function () {
   });
 
   var longNum = 1;
-  $('.long-term').on('click', function() {
-    if(longNum == 1) {
+  $('.long-term').on('click', function () {
+    if (longNum == 1) {
       $('.long').removeClass('long').addClass('long2').siblings('.starOrend').hide();
       longNum = 2;
-    }else{
+    } else {
       $('.long2').addClass('long').siblings('.starOrend').show();
       longNum = 1;
     }

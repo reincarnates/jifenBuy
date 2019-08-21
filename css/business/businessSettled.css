@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+/* img { 
+  outline-width:0px; 
+  vertical-align:top; 
+}  */
+
 .businessBanner{
   width: 100%;
   height: 400px;
@@ -7,40 +12,50 @@
 
 .businessBanner img{
   width: 100%;
+  height: 100%;
+}
+
+.businessSettled-warpper{
+  width: 100%;
+  background-color: #f5f5f5;
 }
 
 .businessSettled-container{
   width: 1200px;
   margin: 0 auto;
+  padding: 60px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .mains {
   padding: 0;
-  margin: 30px 0 10px 0;
-  overflow: hidden;
-}
-
-.mains {
-  padding: 0;
-  margin: 30px auto 10px auto;
+  margin-bottom: 10px;
   overflow: hidden;
 }
 
 .joinin-index-step {
   font-size: 0;
-  height: 110px;
+  /* height: 110px;
   overflow: hidden;
-  line-height: 110px;
+  line-height: 110px; */
 }
 
 .joinin-index-step span.step {
   line-height: 20px;
   text-align: center;
-  width: 200px;
+  width: 239px;
+}
+
+.joinin-index-step span.line{
+  width: 1px;
+  height: 100px;
+  background-color: #111;
 }
 
 .joinin-index-step span {
-  font-size: 12px;
+  font-size: 18px;
+  color: #111;
   vertical-align: middle;
   letter-spacing: normal;
   word-spacing: normal;
@@ -52,39 +67,39 @@
 }
 
 .joinin-index-step span.step i {
-  background: url(../../images/static/new_joinin.png) no-repeat;
+  background: url(../../images/static/new_join.png) no-repeat;
   display: block;
-  margin: 0 auto 10px;
+  margin: 0 auto 25px;
 }
 
 .joinin-index-step span.step i.a {
-  width: 42px;
-  height: 41px;
+  width: 72px;
+  height: 120px;
   background-position: 0 0;
 }
 
 .joinin-index-step span.step i.b {
-  width: 32px;
-  height: 40px;
-  background-position: -54px 0;
+  width: 88px;
+  height: 120px;
+  background-position: -235px 0;
 }
 
 .joinin-index-step span.step i.c {
-  width: 40px;
-  height: 32px;
-  background-position: -100px 0;
+  width: 80px;
+  height: 121px;
+  background-position: -482px 0;
 }
 
 .joinin-index-step span.step i.d {
-  width: 40px;
-  height: 38px;
-  background-position: -145px 0;
+  width: 56px;
+  height: 121px;
+  background-position: -731px 0;
 }
 
 .joinin-index-step span.step i.e {
-  width: 37px;
-  height: 35px;
-  background-position: -190px 0;
+  width: 119px;
+  height: 121px;
+  background-position: -939px 0;
 }
 
 .joinin-index-step span.step i.f {
@@ -95,16 +110,16 @@
 
 .platform_advantage {
   z-index: 1;
+  margin-top: 118px;
 }
 
 .platform_advantage .platform_logo {
-  padding: 35px 0;
+  padding: 80px 0;
   text-align: center;
 }
 
 .advantage-list {
   height: 370px;
-  margin-bottom: 50px;
 }
 
 .list-item {
@@ -151,15 +166,15 @@
 }
 
 .item-logo .logo_1 {
-  width: 50px;
-  height: 73px;
-  background-position: -33px -50px;
+  width: 82px;
+  height: 55px;
+  background-position: -15px 0;
 }
 
 .item-logo i {
   display: block;
   margin: 0 auto;
-  background: url(../../images/static/new_joinin.png) no-repeat;
+  background: url(../../images/static/platform.png) no-repeat;
 }
 
 .item-text {
@@ -193,9 +208,9 @@
 }
 
 .item-logo .logo_2 {
-  width: 68px;
-  height: 61px;
-  background-position: -91px -48px;
+  width: 60px;
+  height: 65px;
+  background-position: -175px 0;
 }
 
 .item-team .item-number span {
@@ -204,9 +219,9 @@
 }
 
 .item-logo .logo_3 {
-  width: 65px;
-  height: 64px;
-  background-position: -170px -48px;
+  width: 68px;
+  height: 58px;
+  background-position: -315px 0;
 }
 
 .item-cost .item-number span {
@@ -215,9 +230,9 @@
 }
 
 .item-logo .logo_4 {
-  width: 51px;
+  width: 54px;
   height: 66px;
-  background-position: -218px -118px;
+  background-position: -466px 0;
 }
 
 .settled-flow {
@@ -646,4 +661,307 @@ address, caption, cite, code, em, h1, h2, h3, h4, h5, h6, pre, strong, table, td
   background: url(../../images/static/new_joinin.png) no-repeat;
   background-position: 0 -79px;
   margin: -3px 0 0 5px;
+}
+
+.text-1,
+.text-2,
+.text-3,
+.text-4{
+  margin-top: 20px;
+}
+
+.item-logo{
+  margin-top: 51px;
+}
+
+.business-process-wrapper{
+  width: 100%;
+  height: 1439px;
+  background-color: #fff;
+  padding-top: 18px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.business-process{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.process_logo{
+  padding: 80px 0;
+  text-align: center;
+}
+
+.business_process_item{
+  width: 100%;
+  height: 136px;
+  padding: 0 60px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.business_process_item_bg{
+  width: 156px;
+  height: 136px;
+  background: url(../../images/static/process_bg.png) no-repeat;
+  color: #111;
+  font-size: 24px;
+  text-align: center;
+  line-height: 136px;
+  float: left;
+}
+
+.business_process_item1{
+  background-position: 0 0;
+}
+
+.business_process_item2{
+  background-position: -309px 0;
+}
+
+.business_process_item3{
+  background-position: -618px 0;
+}
+
+.business_process_item4{
+  background-position: -925px 0;
+}
+
+.business_process_item_arrow{
+  width: 152px;
+  height: 136px;
+  text-align: center;
+  line-height: 136px;
+  float: left;
+}
+
+.business_process_flow_wrapper{
+  width: 100%;
+  padding: 80px 14px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.business_process_flow_item{
+  width: 310px;
+  height: 207px;
+  border: 2px solid #ffb031;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 25px;
+  float: left;
+}
+
+.business_process_flow_line{
+  width: 120px;
+  height: 2px;
+  background-color: #ffb031;
+  margin-top: 104px;
+  float: left;
+}
+
+.business_process_flow_size{
+  width: 1030px;
+  height: 119px;
+  border-right: 2px solid #ffb031;
+}
+
+.business_process_flow_wrapper2{
+  width: 100%;
+  padding-left: 145px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.business_process_flow_left{
+  width: 134px;
+  height: 233px;
+  border-width: 0 0 2px 2px;
+  border-style: solid;
+  border-color: #ffb031;
+  border-bottom-left-radius: 28px;
+  float: left;
+}
+
+.business_process_flow_item2{
+  width: 616px;
+  height: 230px;
+  border: 2px solid #ffb031;
+  border-radius: 10px;
+  margin-top: 120px;
+  padding-top: 23px;
+  float: left;
+}
+
+.business_process_flow_item_top{
+  width: 100%;
+  color: #0f1019;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.business_process_flow_item_top_img{
+  background: url(../../images/static/process_flow_bg.png) no-repeat;
+  margin-right: 20px;
+}
+
+.flow_img{
+  width: 36px;
+  height: 40px;
+  background-position: 0 -9px;
+}
+
+.business_process_flow_item_bottom{
+  color: #111;
+  font-size: 14px;
+  text-align: center;
+}
+
+.flow_img2{
+  width: 31px;
+  height: 35px;
+  background-position: -67px -14px;
+}
+
+.flow_img3{
+  width: 26px;
+  height: 32px;
+  background-position: -128px -17px;
+}
+
+.flow_img4{
+  width: 28px;
+  height: 37px;
+  background-position: -184px -12px;
+}
+
+.flow_img5{
+  width: 34px;
+  height: 34px;
+  background-position: -241px -15px;
+}
+
+.flow_img6{
+  width: 31px;
+  height: 31px;
+  background-position: -305px -18px;
+}
+
+.flow_img7{
+  width: 45px;
+  height: 49px;
+  background-position: -377px 0;
+}
+
+.business-standard-wrapper{
+  width: 100%;
+  height: 547px;
+  background-color: #f5f5f5;
+  padding-top: 18px;
+  box-sizing: border-box;
+}
+
+.business-standard{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.business-standard-list{
+  padding: 0 178px;
+  box-sizing: border-box;
+}
+
+.business-standard-ver{
+  width: 10px;
+  height: 10px;
+  background-color: #ffb031;
+  margin-right: 20px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.business-standard-list ul li{
+  margin-bottom: 46px;
+  color: #111;
+  font-size: 18px;
+}
+
+.corporate-qualifications-wrapper{
+  width: 100%;
+  height: 2084px;
+  background-color: #fff;
+}
+
+.corporate-qualifications{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.corporate-logo{
+  padding: 99px 0;
+  text-align: center;
+}
+
+.corporate-qualifications-content{
+  width: 100%;
+  padding: 13px 63px 0;
+  box-sizing: border-box;
+}
+
+.brand-qualifications-wrapper{
+  width: 100%;
+  height: 645px;
+  background-color: #f5f5f5;
+  padding-top: 18px;
+  box-sizing: border-box;
+}
+
+.brand-qualifications{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.brand-logo{
+  padding: 80px 0;
+  text-align: center;
+}
+
+.brand-qualifications-content{
+  width: 100%;
+  padding: 0 67px;
+  box-sizing: border-box;
+}
+
+.brand-qualifications-content ul li{
+  margin-bottom: 30px;
+  color: #111;
+  font-size: 18px;
+  letter-spacing: 6px;
+}
+
+.cooperation-brand-wrapper{
+  width: 100%;
+  height: 712px;
+  background-color: #fff;
+  padding-top: 18px;
+  box-sizing: border-box;
+}
+
+.cooperation-brand{
+  width: 1200px;
+  margin:  0 auto;
+}
+
+.cooperation-logo{
+  padding: 80px 0;
+  text-align: center;
+}
+
+.cooperation-brand-img{
+  text-align: center;
 }

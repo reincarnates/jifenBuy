@@ -1009,32 +1009,6 @@
         var flag2 = time_range('15:00', '21:00', threedate);
         var timestamp = (new Date()).getTime() + 86400000;
         var aTime = format(timestamp);
-        console.log(aTime);
-        // if(flag == true && flag2 == false && myTime < currentTime) {
-        //   myDom = `
-        //     <div class="pick-date-right-item">
-        //       <div class="pick-date-right-date">
-        //         <div class='pickDate'>${myDate}</div>
-        //         <div class='pick-week'>${week}</div>
-        //       </div>
-        //       <div class="pick-date-optional disabled"></div>
-        //       <div class="pick-date-optional2 disabled"></div>
-        //     </div>
-        //   `
-        // }else if(flag == false && flag2 == true && myTime < currentTime && myTime == currentTime) {
-        //   myDom = `
-        //     <div class="pick-date-right-item">
-        //       <div class="pick-date-right-date">
-        //         <div class='pickDate'>${myDate}</div>
-        //         <div class='pick-week'>${week}</div>
-        //       </div>
-        //       <div class="pick-date-optional disabled"></div>
-        //       <div class="pick-date-optional2">可选</div>
-        //     </div>
-        //   `
-        // }
-        // console.log(flag, flag2);
-        // return year + month + '-' + day + ' ' + week;
         if (myTime == currentTime && flag == false && flag2 == true) {
           myDom = `
             <div class="pick-date-right-item">
@@ -1068,14 +1042,25 @@
         var week = date.getDay() - 1;
         date = addDate(date, week * -1);
         currentFirstDate = new Date(date);
-
+        console.log(week,date);
         for (var i = 0; i < clen; i++) {
           // cells[i].innerHTML = formatDate(i == 0 ? date : addDate(date, 1));
-          $('#timeSlot').append(formatDate(i == 0 ? date : addDate(date, 1)))
+          // $('#timeSlot').append(formatDate(i == 0 ? date : addDate(date, 1)));
+          $('#timeSlot').append(formatDate(addDate(GetDateStr(i), 0)));
+          // console.log(GetDateStr(i))
         }
       };
       setDate(new Date());
-
+      function GetDateStr(AddDayCount) {
+        var dd = new Date();
+        dd.setDate(dd.getDate() + AddDayCount);//获取AddDayCount天后的日期
+        var y = dd.getFullYear();
+        var m = (dd.getMonth() + 1) < 10 ? "0" + (dd.getMonth() + 1) : (dd.getMonth() + 1);//获取当前月份的日期，不足10补0
+        var d = dd.getDate() < 10 ? "0" + dd.getDate() : dd.getDate();//获取当前几号，不足10补0
+        //return y+"-"+m+"-"+d;年月日
+        // return y + "-" + m + "-" + d;
+        return dd;
+      }
       function add0(m) { return m < 10 ? '0' + m : m }
       function format(shijianchuo) {
         //shijianchuo是整数，否则要parseInt转换
