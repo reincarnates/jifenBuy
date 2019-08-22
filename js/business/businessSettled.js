@@ -10,19 +10,23 @@ $(function() {
   });
 
   $('#residence').on('click', function() {
-    $('body,html').animate({ scrollTop: 1173 }, 500);
+    $('body,html').animate({ scrollTop: 1407 }, 500);
   });
 
-  // $('#criteria').on('click', function() {
-  //   $('body,html').animate({ scrollTop: 2468 }, 500);
-  // });
+  $('#criteria').on('click', function() {
+    $('body,html').animate({ scrollTop: 2827 }, 500);
+  });
 
-  // $('#cooperation').on('click', function() {
-  //   $('body,html').animate({ scrollTop: 3893 }, 500);
-  // });
+  $('#company').on('click', function() {
+    $('body,html').animate({ scrollTop: 3373 }, 500);
+  });
+
+  $('#brand').on('click', function() {
+    $('body,html').animate({ scrollTop: 5473 }, 500);
+  });
 
   $('#cooperativeBrand').on('click', function() {
-    $('body,html').animate({ scrollTop: 2155 }, 500);
+    $('body,html').animate({ scrollTop: 6113 }, 500);
   });
 
 })
