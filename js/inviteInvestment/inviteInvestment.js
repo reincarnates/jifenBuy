@@ -406,7 +406,7 @@ $(function () {
   });
 
   //公司名称
-  var companyReg = /[^\.\`\·\~\!\！\@\#\$\￥\%\^\&\*\(\)\-\——\_\=\+\{\}\[\]\【\】\;\:\；\：\'\“\”\,\，\.\。\<\>\《\》\?\？\、|]+$/;
+  var companyReg = /[^\.\`\·\~\!\！\@\#\$\￥\%\^\&\*\-\——\_\=\+\{\}\[\]\【\】\;\:\；\：\'\“\”\,\，\.\。\<\>\《\》\?\？\、|]+$/;
   $('#companyName').on('keyup', function () {
     if (!companyReg.test($(this).val())) {
       $('.companyName').show().text('不能输入特殊字符');
@@ -618,6 +618,170 @@ $(function () {
     }
   });
 
+  //弹出添加品牌弹框
+  $('.add-brand').on('click', function() {
+    $('.brand-mask-bg').show();
+  });
+
+  //关闭添加品牌弹框
+  $('.el-dialog__headerbtn').on('click', function() {
+    $('.brand-mask-bg').hide();
+  });
+
+  //点击申请品牌
+  var brandState = 0;
+  $('.apply-brand').on('click', function() {
+    $('.brand-mask-bg, #noCheckBrand').hide();
+    $('#addBrand').show();
+    $('.el-tabs__item:eq(0), .el-tab-pane:eq(0)').show();
+    $('.el-tab-pane:eq(1)').hide();
+    $('.el-tabs__item:eq(0)').addClass('is-active');
+    $('.el-tabs__item:eq(1)').removeClass('is-active');
+    brandState = 1;
+  });
+
+  //选择品牌类型
+  $('.checkBrandType').on('click', function() {
+    $(this).addClass('is-checked').find('.el-radio__inner').addClass('is-checked2').parents('.checkBrandType').siblings('.checkBrandType').removeClass('is-checked').find('.el-radio__inner').removeClass('is-checked2');
+    //选择品牌类型展示品牌资质
+    $('#brandNatural').show();
+  });
+
+  //选择品牌类型
+  $('.checkBrandType2').on('click', function() {
+    $(this).addClass('is-checked').find('.el-radio__inner').addClass('is-checked2').parents('.checkBrandType2').siblings('.checkBrandType2').removeClass('is-checked').find('.el-radio__inner').removeClass('is-checked2');
+    //选择品牌类型展示品牌资质
+    $('#brandNatural2').show();
+  });
+
+  //选择经营类型
+  $('.checkManageType').on('click', function() {
+    $(this).addClass('is-checked').find('.el-radio__inner').addClass('is-checked2').parents('.checkManageType').siblings('.checkManageType').removeClass('is-checked').find('.el-radio__inner').removeClass('is-checked2');
+  });
+
+  //时间选择是否永久
+  var perState = 1;
+  $('.checkPermanent').on('click', function() {
+    if(perState == 1) {
+      $('.checkPermanentLabel').addClass('checkbox-check').find('.el-checkbox__inner').addClass('checkbox-check2');
+      $('.fiveDate').css({'cursor':'no-drop', 'opacity': '.3'});
+      $('#fiveDate').attr('disabled', 'true').css('cursor', 'no-drop');
+      perState = 2;
+    }else{
+      $('.checkPermanentLabel').removeClass('checkbox-check').find('.el-checkbox__inner').removeClass('checkbox-check2');
+      $('.fiveDate').css({'cursor':'pointer', 'opacity': '1'});
+      $('#fiveDate').removeAttr('disabled').css('cursor', 'pointer');
+      perState = 1;
+    }
+  });
+
+  //选择品牌商标类别
+  var markState = 1;
+  $('#checkTrademark').on('click', function() {
+    if(markState == 1) {
+      $('.checkTrademark').show();
+      markState = 2;
+    }else{
+      $('.checkTrademark').hide();
+      markState = 1;
+    }
+  });
+
+  //选择品牌商标类别列表
+  $('.el-select-dropdown__list li').on('click', function() {
+    $('#checkTrademark').val($(this).text());
+    $(this).addClass('hover').siblings().removeClass('hover');
+    $('.checkTrademark').hide();
+    markState = 1;
+  });
+
+  //选择类目
+  $('.checkThick').on('click', function() {
+    $('.thickdiv, .thickbox').show();
+  });
+
+  //关闭选择类目弹框
+  $('.thickclose').on('click', function() {
+    $('.thickdiv, .thickbox').hide();
+  });
+
+  //选择类目
+  $('.has-child, .has-child2').on('click', function() {
+    $(this).addClass('curr').siblings().removeClass('curr');
+  });
+
+  //选择三级类目
+  var levNum = 1;
+  $('.lev3-area ul li').on('click', function() {
+    if(levNum == 1) {
+      $(this).addClass('curr').siblings().removeClass('curr');
+      $(this).find('a span').removeClass('none').addClass('all');
+      levNum = 2;
+    }else{
+      $(this).find('a span').removeClass('all').addClass('none');
+      levNum = 1;
+    }
+  });
+
+  //全选三级类目
+  var allNum = 1;
+  $('#all-limit-lev3').on('click', function() {
+    if(allNum == 1) {
+      $(this).removeClass('none').addClass('all');
+      $('.lev3-area ul li').find('a span').removeClass('none').addClass('all');
+      allNum = 2;
+    }else{
+      $(this).removeClass('all').addClass('none');
+      $('.lev3-area ul li').find('a span').removeClass('all').addClass('none');
+      allNum = 1;
+    }
+  });
+
+  //取消选择类目
+  $('.button_cancel').on('click', function() {
+    $('.thickclose').trigger('click');
+  });
+  
+  //选择品牌信息类型
+  // $('.el-tabs__item:eq(0)').addClass('is-active');
+  $('.el-tabs__item').on('click', function() {
+    $(this).addClass('is-active').siblings().removeClass('is-active');
+    var index = $(this).index();
+    if(index == 1) {
+      $('.el-tab-pane:eq(0)').show().siblings().hide();
+    }else if(index == 2) {
+      $('.el-tab-pane:eq(1)').show().siblings().hide();
+    }
+  });
+
+  //添加新品牌
+  $('.addNewBrand').on('click', function() {
+    if(brandState == 1) {
+      $('.apply-brand').trigger('click');
+      $('.el-tabs__item:eq(0)').removeClass('is-active');
+      $('.el-tabs__item:eq(1)').addClass('is-active').show();
+      $('.el-tab-pane:eq(1)').show().siblings().hide();
+    }else{
+      $('.apply-brand').trigger('click');
+      $('.el-tabs__item:eq(0)').removeClass('is-active').hide();
+      $('.el-tabs__item:eq(1)').addClass('is-active').show();
+      $('.el-tab-pane:eq(1)').show().siblings().hide();
+    }
+  });
+
+  //添加新品牌的中文名称
+  $('#brandChineseName').on('input', function() {
+    $('.brand-tab-content:eq(1)').text($(this).val());
+  });
+
+  //是否有人员对接
+  $('.yesOrno').on('change', function() {
+    if($(this).val() == '是') {
+      $('.personNameLi').show();
+    }else{
+      $('.personNameLi').hide();
+    }
+  });
 
   //银行卡号Luhn校验算法
   //luhn校验规则：16位银行卡号（19位通用）: 

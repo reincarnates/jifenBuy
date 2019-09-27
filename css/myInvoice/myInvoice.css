@@ -1,0 +1,503 @@
+@charset "utf-8";
+
+.myInvoice-wrapper{
+  width: 980px;
+  min-height: 972px;
+  background-color: #fff;
+  margin-left: 20px;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+}
+
+.sezie {
+  width: 100%;
+  height: 48px;
+  background-color: #e9e9e9;
+}
+
+.myInvoice-head{
+  width: 100%;
+  height: 37px;
+  border-bottom: 1px solid #f0f0f0;
+  color: #333;
+  font-size: 14px;
+  line-height: 37px;
+}
+
+.myInvoice-head-word{
+  float: left; 
+  width: 72px;
+  text-align: center;
+  line-height: 36px;
+  border-bottom: 2px solid transparent;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.myInvoice-head-word:first-child{
+  margin-left: 0;
+}
+
+.myInvoice-head-word-cur{
+  border-color: #ffb030;
+}
+
+.invoiceOff{
+  display: none;
+}
+
+.invoiceOn{
+  display: block;
+}
+
+.myInvoice-one{
+  width: 100%;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+.myInvoice-tips{
+  width: 100%;
+  height: 304px;
+}
+
+.myInvoice-tips img{
+  width: 100%;
+  height: 100%;
+}
+
+.myInvoice-order-list-wrapper{
+  width: 100%;
+  margin-top: 27px;
+}
+
+.myInvoice-order-list-head{
+  width: 100%;
+  height: 38px;
+  border-top: 1px solid #e5e5e5;
+  display: flex;
+  align-items: center;
+  color: #999;
+  font-size: 12px;
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+
+.myInvoice-order-list-item{
+  width: 100%;
+  margin-bottom: 19px;
+}
+
+.myInvoice-order-list-item-head{
+  width: 100%;
+  height: 41px;
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: #eee;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  color: #999;
+  font-size: 12px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.myInvoice-order-list-item-content{
+  width: 100%;
+  border: 1px solid #eee;
+}
+
+.myInvoice-order-list-item-content-item{
+  width: 100%;
+  height: 121px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+}
+
+.myInvoice-order-list-item-content-item:last-child{
+  border-bottom: none;
+}
+
+.myInvoice-order-list-item-goods{
+  width: 406px;
+  height: 121px;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.myInvoice-order-list-item-goods:last-child{
+  border-bottom: none;
+}
+
+.myInvoice-order-list-item-goods-img{
+  width: 80px;
+  height: 80px;
+}
+
+.myInvoice-order-list-item-goods-img img{
+  width: 100%;
+  height: 100%;
+}
+
+.myInvoice-order-list-item-goods-word{
+  width: 223px;
+  height: 32px;
+  color: #333;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  padding-left: 18px;
+  box-sizing: border-box;
+}
+
+.myInvoice-order-list-item-goods-num{
+  width: 42px;
+  color: #333;
+  font-size: 12px;
+  text-align: right;
+}
+
+.myInvoice-order-list-item-unit-price,
+.myInvoice-actual-payment,
+.myInvoice-price,
+.myInvoice-status{
+  width: 119px;
+  height: 121px;
+  border-right: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: #333;
+}
+
+.myInvoice-order-list-item-unit-price,
+.myInvoice-actual-payment{
+  border-bottom: 1px solid #eee;
+}
+
+.myInvoice-order-list-item-unit-price:last-child,
+.myInvoice-actual-payment:last-child{
+  border-bottom: none;
+}
+
+.myInvoice-actual-payment{
+  width: 111px;
+}
+
+.myInvoice-price{
+  width: 100px;
+}
+
+.myInvoice-status{
+  width: 90px;
+}
+
+.myInvoice-setting{
+  width: 114px;
+  height: 121px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.myInvoice-setting-btn{
+  width: 83px;
+  height: 30px;
+  border: 1px solid #c5c5c5;
+  text-align: center;
+  line-height: 28px;
+  color: #333;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.myInvoice-setting span {
+  cursor: pointer;
+}
+
+.myInvoice-setting span:hover{
+  text-decoration: underline;
+}
+
+.myInvoice-order-list-item-content-item2{
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #eee;
+  display: flex;
+}
+
+.myInvoice-price2{
+  width: 100px;
+  height: 121px;
+  border-right: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: #333;
+}
+
+.myInvoice-status2{
+  width: 90px;
+  height: 121px;
+  border-right: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: #333;
+}
+
+.myInvoice-setting2 {
+  width: 114px;
+  height: 121px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.myInvoice-setting2 span {
+  cursor: pointer;
+}
+
+.myInvoice-setting2 span:hover {
+  text-decoration: underline;
+}
+
+.apply-myInvoice-bg{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, .3);
+  z-index: 998;
+  /* display: none; */
+}
+
+.apply-myInvoice{
+  width: 640px;
+  min-height: 490px;
+  background-color: #fff;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -320px;
+  margin-top: -400px;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+  z-index: 999;
+}
+
+.apply-myInvoice-head{
+  width: 100%;
+  height: 47px;
+  border-bottom: 1px dashed #e5e5e5;
+  padding: 0 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #999;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.apply-myInvoice-close{
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+}
+
+.apply-myInvoice-close img{
+  width: 100%;
+  height: 100%;
+}
+
+.apply-myInvoice-content{
+  width: 100%;
+  padding: 22px 194px 0 98px;
+  box-sizing: border-box;
+}
+
+.apply-myInvoice-item{
+  width: 100%;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  color: #333;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.apply-myInvoice-item-word{
+  width: 95px;
+  text-align: right;
+  color: #333;
+  font-size: 12px;
+}
+
+.apply-myInvoice-item-word span{
+  color: red;
+}
+
+.apply-myInvoice-item-btn{
+  width: 110px;
+  height: 26px;
+  border: 1px solid #d5d5d5;
+  text-align: center;
+  line-height: 24px;
+  cursor: pointer;
+  position: relative;
+}
+
+.apply-myInvoice-item-btn span{
+  color: #333;
+  font-size: 12px;
+}
+
+.apply-myInvoice-item-btn2,
+.apply-myInvoice-item-btn3{
+  width: 60px;
+  height: 26px;
+  border: 1px solid #d5d5d5;
+  text-align: center;
+  line-height: 24px;
+  margin-right: 20px;
+  color: #333;
+  font-size: 12px;
+  cursor: pointer;
+  position: relative;
+}
+
+.apply-myInvoice-item-btn3{
+  width: 80px;
+}
+
+.apply-myInvoice-item-input{
+  width: 260px;
+  height: 26px;
+  position: relative;
+}
+
+.apply-myInvoice-item-input input{
+  width: 100%;
+  height: 100%;
+  border: 1px solid #d5d5d5;
+  outline: none;
+  padding-left: 10px;
+}
+
+.apply-myInvoice-tips{
+  width: 100%;
+  margin-top: 35px;
+}
+
+.apply-myInvoice-tips-head{
+  color: #ff5c54;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.apply-myInvoice-tips p{
+  line-height: 20px;
+  color: #999;
+  font-size: 12px;
+}
+
+.apply-myInvoice-btn-wrapper{
+  width: 255px;
+  height: 38px;
+  margin: 35px auto 0;
+  display: flex;
+  align-items: center;
+}
+
+.apply-myInvoice-btn-submit{
+  width: 108px;
+  height: 38px;
+  background-color: #ffb030;
+  text-align: center;
+  line-height: 38px;
+  color: #fff;
+  font-size: 18px;
+  margin-right: 39px; 
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+.apply-myInvoice-btn-cancel{
+  width: 108px;
+  height: 38px;
+  border: 1px solid #c9c9c9;
+  text-align: center;
+  line-height: 36px;
+  color: #333;
+  font-size: 18px;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+.apply-myInvoice-item-btn img{
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.apply-myInvoice-item-btn2 img,
+.apply-myInvoice-item-btn3 img{
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: none;
+}
+
+.applyOff{
+  display: none;
+}
+
+.applyOn{
+  display: block;
+}
+
+.personPhoneRule{
+  color: red;
+  font-size: 14px;
+  position: absolute;
+  right: -135px;
+  top: 3px;
+  display: none;
+}
+
+.personEmailRule{
+  color: red;
+  font-size: 14px;
+  position: absolute;
+  right: -150px;
+  top: 3px;
+  display: none;
+}
+
+.taxpayerNumberRule{
+  color: red;
+  font-size: 14px;
+  position: absolute;
+  right: -175px;
+  top: 3px;
+  display: none;
+}
