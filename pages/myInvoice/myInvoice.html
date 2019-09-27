@@ -539,8 +539,56 @@
                 </div>
               </div>
             </div>
+            <div class="myInvoice-detail-wrapper">
+              <div class="myInvoice-detail-head">
+                <div>发票信息</div>
+                <div style="margin-left: 39px;">订单编号：56728272726266363</div>
+              </div>
+              <div class="myInvoice-detail-list-item">
+                <div class="myInvoice-detail-list-item-left">发票类型</div>
+                <div class="myInvoice-detail-list-item-right">电子普通发票</div>
+              </div>
+              <div class="myInvoice-detail-list-item">
+                <div class="myInvoice-detail-list-item-left">发票内容</div>
+                <div class="myInvoice-detail-list-item-right">商品明细</div>
+              </div>
+              <div class="myInvoice-detail-list-item">
+                <div class="myInvoice-detail-list-item-left">发票抬头</div>
+                <div class="myInvoice-detail-list-item-right">个人</div>
+              </div>
+            </div>
+            <div class="myInvoice-detail-wrapper">
+              <div class="myInvoice-detail-head">
+                <div>发票信息</div>
+                <div style="margin-left: 39px;">订单编号：56728272726266363</div>
+              </div>
+              <div class="myInvoice-detail-list-item">
+                <div class="myInvoice-detail-list-item-left">发票类型</div>
+                <div class="myInvoice-detail-list-item-right">电子普通发票</div>
+              </div>
+              <div class="myInvoice-detail-list-item">
+                <div class="myInvoice-detail-list-item-left">发票内容</div>
+                <div class="myInvoice-detail-list-item-right">商品明细</div>
+              </div>
+              <div class="myInvoice-detail-list-item">
+                <div class="myInvoice-detail-list-item-left">发票抬头</div>
+                <div class="myInvoice-detail-list-item-right">企业</div>
+              </div>
+            </div>
           </div>
-          <div class="invoiceOff">456</div>
+          <div class="invoiceOff myInvoice-one">
+            <div class="myInvoice-intelligence">
+              <div style="margin-bottom: 20px;">我们会在七个工作日内开具发票完成审核工作。</div>
+              <div style="margin-bottom: 20px;">1）注意有效增值税发票开票资质仅为一个。</div>
+              <div>2）发票常见问题查看发票帮助</div>
+            </div>
+            <div class="myInvoice-intelligence-content">
+              <div>您的增票资质：</div>
+              <div>未添加</div>
+              <div class="myInvoice-intelligence-btn">添加资质</div>
+              <div class="edit-intelligence-btn">修改</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -661,7 +709,8 @@
               银&nbsp;行&nbsp;账&nbsp;号：
             </div>
             <div class="apply-myInvoice-item-input">
-              <input type="text">
+              <input type="text" id="bankNumber" maxlength="19">
+              <div class="accountLocation">请填写银行账号</div>
             </div>
           </div>
           <div class="apply-myInvoice-item">
@@ -684,7 +733,8 @@
               手&nbsp;&nbsp;&nbsp;机&nbsp;&nbsp;&nbsp;号：
             </div>
             <div class="apply-myInvoice-item-input">
-              <input type="text">
+              <input type="text" id="enterprisePhone">
+              <div class="enterprisePhoneRule">请填写正确的手机号</div>
             </div>
           </div>
           <div class="apply-myInvoice-item">
@@ -693,7 +743,8 @@
               邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;箱：
             </div>
             <div class="apply-myInvoice-item-input">
-              <input type="text">
+              <input type="text" id="enterpriseEmail">
+              <div class="enterpriseEmailRule">请填写正确格式的邮箱</div>
             </div>
           </div>
         </div>
@@ -710,6 +761,85 @@
     </div>
   </div>
   <!-- 申请开票end -->
+
+  <!-- 添加增票资质 -->
+  <div class="add-intelligence-bg">
+    <div class="add-intelligence">
+      <div class="add-intelligence-head">
+        <div>填写增票资质信息<span style="font-size: 14px;">（所有信息均为必填）</span></div>
+        <img class="closeIntelligence" src="../../images/static/myInvoice_close.png" alt="">
+      </div>
+      <div class="add-intelligence-content">
+        <div class="add-intelligence-item">
+          <div class="add-intelligence-item-left">
+            <span>*</span>
+            单&nbsp;位&nbsp;名&nbsp;称：
+          </div>
+          <div class="add-intelligence-item-input">
+            <input type="text" id="unitName">
+            <div class="unitNameRule">请填写单位名称</div>
+          </div>
+        </div>
+        <div class="add-intelligence-item">
+          <div class="add-intelligence-item-left">
+            <span>*</span>
+            纳税人识别码：
+          </div>
+          <div class="add-intelligence-item-input">
+            <input type="text" id="taxpayerID">
+            <div class="taxpayerIDRule">请填写正确的纳税人识别码</div>
+          </div>
+        </div>
+        <div class="add-intelligence-item">
+          <div class="add-intelligence-item-left" style="padding-left: 6px;">
+            注&nbsp;册&nbsp;地&nbsp;址：
+          </div>
+          <div class="add-intelligence-item-input">
+            <input type="text">
+          </div>
+        </div>
+        <div class="add-intelligence-item">
+          <div class="add-intelligence-item-left" style="padding-left: 6px;">
+            开&nbsp;户&nbsp;银&nbsp;行：
+          </div>
+          <div class="add-intelligence-item-input">
+            <input type="text">
+          </div>
+        </div>
+        <div class="add-intelligence-item">
+          <div class="add-intelligence-item-left" style="padding-left: 6px;">
+            银&nbsp;行&nbsp;账&nbsp;户：
+          </div>
+          <div class="add-intelligence-item-input">
+            <input type="text" id="intelligenceBack" maxlength="19">
+            <div class="accountLocation2"></div>
+          </div>
+        </div>
+        <div class="add-intelligence-item">
+          <div class="add-intelligence-item-left">
+            <span>*</span>
+            手&nbsp;&nbsp;&nbsp;机&nbsp;&nbsp;&nbsp;号：
+          </div>
+          <div class="add-intelligence-item-input">
+            <input type="text" id="intelligencePhone" maxlength="11">
+            <div class="intelligencePhoneRule">请填写正确的手机号</div>
+          </div>
+        </div>
+        <div class="add-intelligence-item">
+          <div class="add-intelligence-item-left">
+            <span>*</span>
+            邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;箱：
+          </div>
+          <div class="add-intelligence-item-input">
+            <input type="text" id="intelligenceEmail">
+            <div class="intelligenceEmailRule">请填写正确格式的邮箱</div>
+          </div>
+        </div>
+      </div>
+      <div class="add-intelligence-save">保存</div>
+    </div>
+  </div>
+  <!-- 添加增票资质end -->
 
   <div class="sezie"></div>
 

@@ -284,17 +284,17 @@
   right: 0;
   background-color: rgba(0, 0, 0, .3);
   z-index: 998;
-  /* display: none; */
+  display: none;
 }
 
 .apply-myInvoice{
-  width: 640px;
+  width: 685px;
   min-height: 490px;
   background-color: #fff;
   position: fixed;
   top: 50%;
   left: 50%;
-  margin-left: -320px;
+  margin-left: -342.5px;
   margin-top: -400px;
   padding-bottom: 30px;
   box-sizing: border-box;
@@ -475,7 +475,9 @@
   display: block;
 }
 
-.personPhoneRule{
+.personPhoneRule,
+.enterprisePhoneRule,
+.intelligencePhoneRule{
   color: red;
   font-size: 14px;
   position: absolute;
@@ -484,7 +486,8 @@
   display: none;
 }
 
-.personEmailRule{
+.personEmailRule,
+.intelligenceEmailRule{
   color: red;
   font-size: 14px;
   position: absolute;
@@ -493,11 +496,224 @@
   display: none;
 }
 
-.taxpayerNumberRule{
+.taxpayerNumberRule,
+.taxpayerIDRule{
   color: red;
   font-size: 14px;
   position: absolute;
   right: -175px;
   top: 3px;
   display: none;
+}
+
+.unitNameRule{
+  color: red;
+  font-size: 14px;
+  position: absolute;
+  right: -105px;
+  top: 3px;
+  display: none;
+}
+
+.accountLocation,
+.accountLocation2{
+  color: red;
+  font-size: 14px;
+  position: absolute;
+  right: -110px;
+  top: 3px;
+  display: none;
+}
+
+.enterpriseEmailRule{
+  color: red;
+  font-size: 14px;
+  position: absolute;
+  right: -150px;
+  top: 3px;
+  display: none;
+}
+
+.myInvoice-detail-wrapper{
+  width: 100%;
+  height: 155px;
+  border: 1px solid #eee;
+  margin-bottom: 20px;
+}
+
+.myInvoice-detail-head{
+  width: 100%;
+  height: 40px;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  color: #999;
+  font-size: 12px;
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+
+.myInvoice-detail-list-item{
+  width: 100%;
+  height: 38px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  color: #333;
+  font-size: 12px;
+}
+
+.myInvoice-detail-list-item-left{
+  width: 115px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #eee;
+}
+
+.myInvoice-detail-list-item-right{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 32px;
+  box-sizing: border-box;
+}
+
+.myInvoice-intelligence{
+  width: 100%;
+  height: 146px;
+  background-color: #f7f7f7;
+  color: #666;
+  font-size: 12px;
+  padding: 25px 20px;
+  box-sizing: border-box;
+}
+
+.myInvoice-intelligence-content{
+  width: 100%;
+  height: 38px;
+  margin-top: 28px;
+  display: flex;
+  align-items: center;
+  color: #666;
+  font-size: 14px;
+}
+
+.myInvoice-intelligence-btn{
+  width: 120px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffb030;
+  font-size: 14px;
+  border: 1px solid #ffb030;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.add-intelligence-bg{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, .3);
+  z-index: 998;
+  display: none;
+}
+
+.add-intelligence{
+  width: 695px;
+  height: 490px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -245px;
+  margin-left: -347.5px;
+  z-index: 999;
+}
+
+.add-intelligence-head{
+  width: 100%;
+  height: 47px;
+  border-bottom: 1px dashed #e5e5e5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #999;
+  font-size: 16px;
+  padding: 0 25px;
+  box-sizing: border-box;
+}
+
+.add-intelligence-head img{
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+}
+
+.add-intelligence-content{
+  width: 100%;
+  padding: 22px 0 0 90px;
+  box-sizing: border-box;
+}
+
+.add-intelligence-item{
+  width: 100%;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-intelligence-item-left{
+  width: 118px;
+  color: #333;
+  font-size: 12px;
+  text-align: left;
+}
+
+.add-intelligence-item-left span{
+  color: red;
+}
+
+.add-intelligence-item-input{
+  width: 260px;
+  height: 26px;
+  position: relative;
+}
+
+.add-intelligence-item-input input{
+  width: 100%;
+  height: 100%;
+  border: 1px solid #d5d5d5;
+  padding-left: 10px;
+  outline: none;
+}
+
+.add-intelligence-save{
+  width: 108px;
+  height: 38px;
+  background-color: #ffb030;
+  border-radius: 1px;
+  margin: 25px auto 0;
+  text-align: center;
+  line-height: 38px;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.edit-intelligence-btn{
+  width: 100px;
+  height: 38px;
+  border: 1px solid #ffb030;
+  font-size: 14px;
+  color: #ffb030;
+  text-align: center;
+  line-height: 36px;
+  cursor: pointer;
+  margin-left: 12px;
 }

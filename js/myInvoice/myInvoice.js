@@ -70,6 +70,156 @@ $(function() {
     }
   });
 
+  //校验银行账号
+  $('#bankNumber').on('input', function() {
+    var bankno = $(this).val().replace(/\s/g, '');
+    if (bankno.length < 16 || bankno.length > 19) {
+      $('.accountLocation').show().text('银行卡号长度必须在16到19之间').css('right', '-210px');
+      return false;
+    } else {
+      $('.accountLocation').hide().text('请填写银行账号').css('right', '-194px');
+    }
+    var num = /^\d*$/;//全数字
+    if (!num.exec(bankno)) {
+      $('.accountLocation').show().text('银行卡号必须全为数字');
+      return false;
+    } else {
+      $('.accountLocation').hide().text('请填写银行账号');
+    }
+    //开头6位
+    var strBin = "10,18,30,35,37,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,58,60,62,65,68,69,84,87,88,94,95,98,99";
+    if (strBin.indexOf(bankno.substring(0, 2)) == -1) {
+      $('.accountLocation').show().text('银行卡号开头6位不符合规范');
+      return false;
+    } else {
+      $('.accountLocation').hide().text('请填写银行账号');
+    }
+  });
+
+  //选择企业校验手机号
+  $('#enterprisePhone').on('input', function() {
+    if(!phoneReg.test($(this).val())) {
+      $('.enterprisePhoneRule').show();
+      $(this).css('border-color', 'red');
+    }else{
+      $('.enterprisePhoneRule').hide();
+      $(this).css('border-color', '#d5d5d5');
+    }
+  });
+
+  //选择企业校验邮箱
+  $('#enterpriseEmail').on('input', function() {
+    if(!emailReg.test($(this).val())) {
+      $('.enterpriseEmailRule').show();
+      $(this).css('border-color', 'red');
+    }else{
+      $('.enterpriseEmailRule').hide();
+      $(this).css('border-color', '#d5d5d5');
+    }
+  });
+
+  //增加资质校验纳税人识别码
+  $('#taxpayerID').on('input', function() {
+    if(checkTaxId($(this).val())) {
+      $('.taxpayerIDRule').show().text('请填写正确的纳税人识别码');
+      $(this).css('border-color', 'red');
+    }else{
+      $('.taxpayerIDRule').hide();
+      $(this).css('border-color', '#d5d5d5');
+    }
+  });
+
+  //增加资质校验银行账号
+  $('#intelligenceBack').on('input', function() {
+    var bankno = $(this).val().replace(/\s/g, '');
+    if (bankno.length < 16 || bankno.length > 19) {
+      $('.accountLocation2').show().text('银行卡号长度必须在16到19之间').css('right', '-210px');
+      return false;
+    } else {
+      $('.accountLocation2').hide().text('请填写银行账号').css('right', '-194px');
+    }
+    var num = /^\d*$/;//全数字
+    if (!num.exec(bankno)) {
+      $('.accountLocation2').show().text('银行卡号必须全为数字');
+      return false;
+    } else {
+      $('.accountLocation2').hide().text('请填写银行账号');
+    }
+    //开头6位
+    var strBin = "10,18,30,35,37,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,58,60,62,65,68,69,84,87,88,94,95,98,99";
+    if (strBin.indexOf(bankno.substring(0, 2)) == -1) {
+      $('.accountLocation2').show().text('银行卡号开头6位不符合规范');
+      return false;
+    } else {
+      $('.accountLocation2').hide().text('请填写银行账号');
+    }
+  });
+
+  //增加资质校验手机号
+  $('#intelligencePhone').on('input', function() {
+    if(!phoneReg.test($(this).val())) {
+      $('.intelligencePhoneRule').show().text('请填写正确的手机号');
+      $(this).css('border-color', 'red');
+    }else{
+      $('.intelligencePhoneRule').hide();
+      $(this).css('border-color', '#d5d5d5');
+    }
+  });
+
+  //增加资质校验邮箱
+  $('#intelligenceEmail').on('input', function() {
+    if(!emailReg.test($(this).val())) {
+      $('.intelligenceEmailRule').show().text('请填写正确格式的邮箱');
+      $(this).css('border-color', 'red');
+    }else{
+      $('.intelligenceEmailRule').hide();
+      $(this).css('border-color', '#d5d5d5');
+    }
+  });
+
+  //单位名称
+  $('#unitName').on('input', function() {
+    $('.unitNameRule').hide();
+  });
+
+  //弹出增加资质弹框
+  $('.myInvoice-intelligence-btn').on('click', function() {
+    $('.add-intelligence-bg').show();
+  });
+
+  //关闭增加资质弹框
+  $('.closeIntelligence').on('click', function() {
+    $('.add-intelligence-bg').hide();
+  });
+
+  //修改资质
+  $('.edit-intelligence-btn').on('click', function() {
+    $('.add-intelligence-bg').show();
+  });
+
+  //增加资质保存
+  $('.add-intelligence-save').on('click', function() {
+    if($('#unitName').val() == '') {
+      $('.unitNameRule').show();
+      return false;
+    }
+
+    if($('#taxpayerID').val() == '') {
+      $('.taxpayerID').show().text('请填写纳税人识别码');
+      return false;
+    }
+
+    if($('#intelligencePhone').val() == '') {
+      $('.intelligencePhone').show().text('请填写手机号');
+      return false;
+    }
+
+    if($('#intelligenceEmail').val() == '') {
+      $('.intelligenceEmail').show().text('请填写邮箱');
+      return false;
+    }
+  });
+
 })
 
 

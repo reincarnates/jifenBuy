@@ -756,7 +756,7 @@
               <h3>四、品牌类目信息</h3>
               <div class="brand-btn-warpper">
                 <div class="add-brand">添加品牌</div>
-                <!-- <div class="add-not-brand">添加无品牌类目</div> -->
+                <div class="add-not-brand">添加无品牌类目</div>
               </div>
               <div class="no-brand-category-style" id="noCheckBrand">请选择您要经营的品牌、类目</div>
               <div class="pop-brand-main-tabs el-tabs el-tabs--left" style="display: none;" id="addBrand">
@@ -771,6 +771,7 @@
                           <div class="brand-tab-content">京字 </div>
                         </div>
                         <div id="tab-name1" aria-controls="pane-name1" role="tab" aria-selected="true" tabindex="0" class="el-tabs__item is-left" style="display: none;"><div class="brand-tab-content">未填写 </div></div>
+                        <div id="tab-name1" aria-controls="pane-name1" role="tab" aria-selected="true" tabindex="0" class="el-tabs__item is-left" style="display: none;"><div class="brand-tab-content">无品牌（noBrand） </div></div>
                       </div>
                     </div>
                   </div>
@@ -1784,6 +1785,31 @@
                           </div>
                         </div>
                       </div>
+                      <div class="brand-category-box">
+                        <h2 class="pop-brand-base-infor-main-title">经营类目</h2>
+                        <div class="clearfix2 flex-center" style="width: 100%;">
+                          <h3 class="pop-brand-base-infor-sub-title fl" style="margin: 0; margin-top: 10px;">类目信息</h3>
+                          <button type="button"
+                            class="el-button fr btn-bg-style el-button--default el-button--small checkThick">
+                            <span>选择类目</span>
+                          </button>
+                        </div>
+                        <div class="brand-border-box">
+                          <div style="text-align: center;">请选择您要经营的类目</div>
+                        </div>
+                      </div>
+                      <div class="pop-brand-main-save-button">
+                        <button type="button" class="el-button el-button--default el-button--small">
+                          <span>删除品牌</span>
+                        </button>
+                        <button type="button" class="el-button btn-bg-style el-button--primary el-button--small">
+                          <span>保存</span>
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="el-tab-pane" style="display: none;">
+                    <form class="el-form demo-ruleForm brand-category-form">
                       <div class="brand-category-box">
                         <h2 class="pop-brand-base-infor-main-title">经营类目</h2>
                         <div class="clearfix2 flex-center" style="width: 100%;">
