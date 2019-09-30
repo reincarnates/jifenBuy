@@ -636,7 +636,7 @@ $(function () {
     $('.el-tabs__item:eq(0), .el-tab-pane:eq(0)').show();
     $('.el-tab-pane:eq(1)').hide();
     $('.el-tabs__item:eq(0)').addClass('is-active');
-    $('.el-tabs__item:eq(1)').removeClass('is-active');
+    $('.el-tabs__item:eq(1), .el-tabs__item:eq(2)').removeClass('is-active');
     brandState = 1;
   });
 
@@ -751,6 +751,8 @@ $(function () {
       $('.el-tab-pane:eq(0)').show().siblings().hide();
     }else if(index == 2) {
       $('.el-tab-pane:eq(1)').show().siblings().hide();
+    }else if(index == 3) {
+      $('.el-tab-pane:eq(2)').show().siblings().hide();
     }
   });
 
@@ -785,8 +787,9 @@ $(function () {
 
   //添加无品牌类目
   $('.add-not-brand').on('click', function() {
-    $('.el-tabs__item:eq(3)').show();
-    $('.el-tab-pane:eq(3)').show();
+    $('#noCheckBrand').hide();
+    $('#addBrand, .noBrand, .noBrandCont').show();
+    $('.noBrand').addClass('is-active').siblings().removeClass('is-active');
   });
 
   //银行卡号Luhn校验算法
