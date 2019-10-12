@@ -340,349 +340,283 @@
   <div class="investment-wrap">
     <div class="investment-agree">
       <div class="inner">
-          <div class="inner clearfix">
-              <div class="left" style="width: calc(100% - 330px); float: left">
-                <form>
-                  <div class="form-box" style="margin-bottom: 0;">
-                    <h3>一、公司信息</h3>
-                    <ul>
-                      <li class="clearfix">
-                        <div class="tl">
-                          <em>*</em>
-                          公司名称：
-                        </div>
-                        <div class="tr">
-                          <input id="companyName" name="companyName" class="input" type="text" placeholder="请填写公司的完整名称">
-                          <span class="investment-rule companyName">请填写公司名称</span>
-                        </div>
-                      </li>
-                      <li class="clearfix">
-                        <div class="tl">
-                          <em>*</em>
-                          统一社会信用代码（或税号）：
-                        </div>
-                        <div class="tr">
-                          <input id="uscc" name="uscc" class="input" type="text" placeholder="请填写统一社会信用代码（或税号）">
-                          <span class="investment-rule uscc">请填写统一社会信用代码（或税号）</span>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </form>
-                <form>
-                  <div class="form-box form-upload" id="attachmentInfoDiv" style="margin-bottom: 0;">
-                    <!-- <h3>二、资质信息</h3> -->
-                    <div class="tips2">
-                      <p>请确保图片清晰，文字可辨并有清晰的红色公章；附件文件名请勿包含！@#（）等特殊字符。</p>
-                      <p>建议使用Chrome/FireFox等主流浏览器上传。</p>
+        <div class="inner clearfix">
+          <div class="left" style="width: calc(100% - 330px); float: left">
+            <form>
+              <div class="form-box" style="margin-bottom: 0;">
+                <h3>一、公司信息</h3>
+                <ul>
+                  <li class="clearfix">
+                    <div class="tl">
+                      <em>*</em>
+                      公司名称：
                     </div>
-                    <div class="upload-row" data-code="1">
-                      <span class="upload-row-title"><em
-                          style="color: red; font-style: normal;">*</em>营业执照（三证合一）</span>
-                      <span id="filePicker" class="webuploader-container">
-                        <div class="webuploader-pick">选择文件</div>
-                        <div id="rt_rt_1ddngk20h1e2r1ojq1rl51imu7qf1"
-                          style="position: absolute; top: -10px; left: 0px; width: 66px; height: 24px; overflow: hidden; bottom: auto; right: auto;">
-                          <input type="file" name="file" class="webuploader-element-invisible"
-                            accept="image/jpeg,image/bmp,image/png,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
-                          <label
-                            style="opacity: 0; width: 100%; height: 100%; display: block; cursor: pointer; background: rgb(255, 255, 255);"
-                            id="upladFile"></label>
-                        </div>
-                      </span>
-                      <ul class="upload-file-list">
-                        <li>1</li>
-                      </ul>
+                    <div class="tr">
+                      <input id="companyName" name="companyName" class="input" type="text" placeholder="请填写公司的完整名称">
+                      <span class="investment-rule companyName">请填写公司名称</span>
                     </div>
-                    <div id="file_up"></div>
-                  </div>
-                </form>
-                <form>
-                  <div class="form-box">
-                    <!-- <h3>一、公司信息</h3> -->
-                    <ul>
-                      <li class="clearfix">
-                        <div class="tl">
-                          <em>*</em>
-                          法定代表人姓名：
-                        </div>
-                        <div class="tr">
-                          <input id="legalName" name="legalName" class="input" type="text" placeholder="请填写您的法定代表人姓名">
-                          <div class="invite-rule legalName">请填写您的法定代表人姓名</div>
-                        </div>
-                      </li>
-                      <li class="clearfix">
-                        <div class="tl">
-                          <em>*</em>
-                          法定代表人身份证号：
-                        </div>
-                        <div class="tr">
-                          <input id="legalNameNumber" name="legalNameNumber" class="input" type="text"
-                            placeholder="请填写法定代表人身份证号">
-                          <div class="invite-rule legalNameNumber">请填写法定代表人身份证号</div>
-                        </div>
-                      </li>
-                      <li class="clearfix">
-                        <div class="tl">
-                          <em>*</em>
-                          法人身份证电子版：
-                        </div>
-                        <div class="tr">
-                          <div class="upload_file_word">身份证要求正反两面，复印件请加盖开店公司公章</div>
-                          <div class="upload_file_btn2">
-                            <img src="../../images/static/upload_btn.png" alt="">
-                          </div>
-                          <input type="file" name="uploadCompanyFile2" id="uploadCompanyFile2" style="display: none;">
-                        </div>
-                      </li>
-                      <li class="clearfix">
-                        <div class="tl">
-                          <em>*</em>
-                          营业执照详细地址：
-                        </div>
-                        <div class="tr">
-                          <input id="licenseAddress" name="licenseAddress" class="input" type="text"
-                            placeholder="请填写营业执照详细地址">
-                          <div class="invite-rule licenseAddress">请填写营业执照详细地址</div>
-                        </div>
-                      </li>
-                      <li class="clearfix">
-                        <div class="tl">
-                          <em>*</em>
-                          成立日期：
-                        </div>
-                        <div class="tr">
-                          <!-- <input id="foundDate" name="foundDate" class="input" type="text" placeholder="请填写成立日期"> -->
-                          <div class="c-datepicker-date-editor c-datepicker-single-editor J-datepicker-day mt10">
-                            <!-- <i class="c-datepicker-range__icon kxiconfont icon-clock"></i> -->
-                            <input type="text" autocomplete="off" name="foundDate" id="foundDate" placeholder="选择日期"
-                              class=" c-datepicker-data-input only-date" value="">
-                          </div>
-                          <div class="invite-rule foundDate">请填写成立日期</div>
-                        </div>
-                      </li>
-                      <li class="clearfix">
-                        <div class="tl">
-                          <em>*</em>
-                          营业执照有效期：
-                        </div>
-                        <div class="tr">
-                          <!-- <input id="licenseValidDate" name="licenseValidDate" class="input" type="text"
-                              placeholder="请填写营业执照有效期"> -->
-                          <div class="c-datepicker-date-editor J-datepicker-range-day starOrend">
-                            <input placeholder="开始日期" name="licenseValidStartDate" id="licenseValidStartDate"
-                              class="c-datepicker-data-input only-date" value="">
-                            <span class="c-datepicker-range-separator">-</span>
-                            <input placeholder="结束日期" name="licenseValidEndDate" id="licenseValidEndDate"
-                              class="c-datepicker-data-input only-date" value="">
-                          </div>
-      
-                          <div class="c-datepicker-date-editor c-datepicker-single-editor J-datepicker-day long">
-                            <input type="text" autocomplete="off" name="foundDate" id="foundDate" placeholder="选择日期"
-                              class=" c-datepicker-data-input only-date" value="">
-                            <span class="c-datepicker-range-separator">-</span>
-                            <span style="width: 84px; display: inline-block; padding-left: 15px;">长期</span>
-                          </div>
-                          <div class="invite-rule ValidDate">请填写营业执照有效期</div>
-                          <button type="button" class="long-term">长期</button>
-                        </div>
-                      </li>
-                      <li class="clearfix">
-                        <div class="tl">
-                          <em>*</em>
-                          公司紧急联系人：
-                        </div>
-                        <div class="tr">
-                          <input id="urgentLiaison" name="urgentLiaison" class="input" type="text" placeholder="请填写公司紧急联系人">
-                          <div class="invite-rule urgentLiaison">请填写公司紧急联系人</div>
-                        </div>
-                      </li>
-                      <li class="clearfix">
-                        <div class="tl">
-                          <em>*</em>
-                          公司紧急联系人手机：
-                        </div>
-                        <div class="tr">
-                          <input id="urgentLiaisonPhone" name="urgentLiaisonPhone" class="input" type="text"
-                            placeholder="请填写公司紧急联系人手机">
-                          <div class="invite-rule urgentLiaisonPhone">请填写公司紧急联系人</div>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="form-box">
-                    <h3>二、结算银行信息</h3>
-                    <ul>
-                      <li class="for-pc clearfix">
-                        <div class="tl"><em>*</em>开户名：</div>
-                        <div class="tr">
-                          <input id="accountName" name="accountName" class="input" type="text" placeholder="请填写开户名">
-                          <div class="invite-rule accountName">请填写开户名</div>
-                        </div>
-                      </li>
-                      <li class="clearfix">
-                        <div class="tl"><em>*</em>开户行支行名称：</div>
-                        <div class="tr">
-                          <input id="accountBranchName" name="accountBranchName" class="input" type="text"
-                            placeholder="请填写您的开户行支行名称">
-                          <div class="invite-rule accountBranchName">请填写您的开户行支行名称</div>
-                        </div>
-                      </li>
-                      <li class="clearfix">
-                        <div class="tl"><em>*</em>开户银行支行所在地：</div>
-                        <div class="tr">
-                          <select name="" id="" class="bank_address">
-                            <option value="">请选择</option>
-                          </select>
-                          <select name="" id="" class="bank_address">
-                            <option value="">请选择</option>
-                          </select>
-                          <select name="" id="" class="bank_address">
-                            <option value="">请选择</option>
-                          </select>
-                        </div>
-                      </li>
-                      <li class="clearfix">
-                        <div class="tl"><em>*</em>银行账号：</div>
-                        <div class="tr">
-                          <!-- <input id="" name="" class="input" type="text" placeholder="请填写银行账号"> -->
-                          <input id="accountLocation" name="accountLocation" class="input" type="text" placeholder="请填写银行账号">
-                          <div class="invite-rule accountLocation">请填写银行账号</div>
-                        </div>
-                      </li>
-                      <li class="clearfix">
-                        <div class="tl"><em>*</em>银行支行联行号：</div>
-                        <div class="tr">
-                          <input id="accountLinkNumber" name="accountLinkNumber" class="input" type="text"
-                            placeholder="请填写银行支行联行号">
-                          <div class="invite-rule accountLinkNumber">请填写银行支行联行号</div>
-                        </div>
-                      </li>
-                      <li class="clearfix">
-                        <div class="tl"><em>*</em>银行开户许可证：</div>
-                        <div class="tr">
-                          <div class="upload_file_btn3">
-                            <img src="../../images/static/upload_btn.png" alt="">
-                          </div>
-                          <input type="file" name="uploadCompanyFile3" id="uploadCompanyFile3" style="display: none;">
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </form>
-                <!-- <div class="form-btn-area">
-                    <button type="button" name="button" class="btn-save" id="saveAndExit">保存草稿</button>
-                    <button type="button" name="button" class="btn-submit" id="saveAndNext">保存并提交</button>
-                  </div> -->
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl">
+                      <em>*</em>
+                      统一社会信用代码（或税号）：
+                    </div>
+                    <div class="tr">
+                      <input id="uscc" name="uscc" class="input" type="text" placeholder="请填写统一社会信用代码（或税号）">
+                      <span class="investment-rule uscc">请填写统一社会信用代码（或税号）</span>
+                    </div>
+                  </li>
+                </ul>
               </div>
-              <div class="form-help">
-                <h3>入驻帮助</h3>
-                <div class="list">
-                  <ul>
-                    <li>
-                      <div class="help-title">1. 供应商入驻条件：</div>
-                      <div class="help-content" style="display: none;">
-                        <p>① 产品生产厂商，不接受授权和代理</p>
-                        <p>② 已依照中华人民共和国法律注册并领取合法有效营业执照及其他经营许可</p>
-                        <p>③ 申请经营的商品符合国家规定标准，来源合法，资质齐全</p>
-                        <p>④ 同意并遵守阳光福利平台的相关规则 </p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="help-title">2. 入驻审核要求：</div>
-                      <div class="help-content" style="display: none;">
-                        <p>① 基础资质要求<br>
-                          提供三证合一营业执照扫描件，需确保未在企业经营异常名录中且所售商品在营业执照经营范围内。<br>
-                          企业法定代表人身份证扫描件正反面，且有效期大于90天。<br>
-                          开户行许可证扫描件，需与营业执照一致。<br>
-                          一般纳税人资格证明，如为一般纳税人需提供此证件（税务局网站查询截图亦可，需加盖公司公章红章）
-                        </p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="help-title">3. 产品资质要求：</div>
-                      <div class="help-content" style="display: none;">
-                        <p>① 商标注册证及专利权证书等知识产权证明复印件</p>
-                        <p>② 质检报告或产品质量合格证复印件（根据不同品牌与类目均需单独提供）</p>
-                        <p>③ 进口商品的报关单、检验检疫证书、产品来源地证明等复印件</p>
-                        <p>④ 特殊商品生产许可证或质量合格证明等复印件，例如，食品流通许可证，肉禽产品防疫证明等。<br>
-                          真实有效：请务必保证您入驻前后提供的相关资质的真实有效性（若您提供的 相关资质为第三方提供，如商标注册证、授权书等，请务必先行核实其真实有效性），<br>
-                          一旦发现虚假资质，您的公司将被列入非诚信商家名单。
-                        </p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="help-title">4. 商品定价要求：</div>
-                      <div class="help-content" style="display: none;">
-                        <p>① 必须低于市场价以及其他电商平台价格</p>
-                      </div>
-                    </li>
+            </form>
+            <form>
+              <div class="form-box form-upload" id="attachmentInfoDiv" style="margin-bottom: 0;">
+                <!-- <h3>二、资质信息</h3> -->
+                <div class="tips2">
+                  <p>请确保图片清晰，文字可辨并有清晰的红色公章；附件文件名请勿包含！@#（）等特殊字符。</p>
+                  <p>建议使用Chrome/FireFox等主流浏览器上传。</p>
+                </div>
+                <div class="upload-row" data-code="1">
+                  <span class="upload-row-title"><em style="color: red; font-style: normal;">*</em>营业执照（三证合一）</span>
+                  <span id="filePicker" class="webuploader-container">
+                    <div class="webuploader-pick">选择文件</div>
+                    <div id="rt_rt_1ddngk20h1e2r1ojq1rl51imu7qf1"
+                      style="position: absolute; top: -10px; left: 0px; width: 66px; height: 24px; overflow: hidden; bottom: auto; right: auto;">
+                      <input type="file" name="file" class="webuploader-element-invisible"
+                        accept="image/jpeg,image/bmp,image/png,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+                      <label
+                        style="opacity: 0; width: 100%; height: 100%; display: block; cursor: pointer; background: rgb(255, 255, 255);"
+                        id="upladFile"></label>
+                    </div>
+                  </span>
+                  <ul class="upload-file-list">
+                    <li>1</li>
                   </ul>
                 </div>
+                <div id="file_up"></div>
               </div>
-            </div>
-        <!-- <div class="agreement-mask">
-          <div class="agreement-mask-cont">
-            <strong>请仔细阅读以下自营供应商入驻服务协议及规则</strong>
-            <div class="txt-area">
-              <p> 用户使用“阳光福利商城供应商在线入驻系统”前请认真阅读并理解本协议内容。</p>
-              <p>1.本协议的订立</p>
-              <p>依据《阳光福利商城供应商注册账号》登记注册，且符合本网站商家入驻标准的用户（以下简称“商家”），在同意本协议全部条款后，方有资格使用“阳光福利商城商家在线入驻系统”（以下简称“入驻系统”）
-                申请入驻。一经商家点击“我已阅读并且同意以上服务协议”按键，即意味着商家同意与本网站签订本协议并同意受本协议约束。</p>
-              <p>2.入驻系统使用说明</p>
-              <p>2.1
-                商家通过入驻系统提出入驻申请，并按照要求填写商家信息、提供商家资质资料后，由本网站审核并与有合作意向的商家联系协商合作相关事宜，经双方协商一致线上签署”阳光福利商城供应商入驻协议“约定支付相应保证金等必要费用后，商家可申请开通后台系统操作权限。
-              </p>
-              <p>2.2
-                商家以及本网站通过入驻系统做出的申请、资料提交及确认等各类沟通，仅为双方合作的意向以及本网站对商家资格审核的必备程序，除遵守本协议各项约定外，对双方不产生法律约束力。双方间最终合作事宜及运营规则均以“阳光福利商城供应商入驻协议”的约定及商家后台系统公示的各项规则为准。
-              </p>
-              <p>3.商家权利义务</p>
-              <p>3.1 商家应查看本网站公示的入驻商家标准，并确保资质符合本网站公示的基本要求，商家知悉并理解本网站将结合自身业务发展情况对商家进行选择。</p>
-              <p>3.2
-                商家应按照本网站要求诚信提供入驻申请所需资料并如实填写相关信息，商家应确保提供的申请资料及信息真实、准确、完整、合法有效，经本网站审核通过后，商家不得擅自修改替换相应资料及主要信息。如商家提供的申请资料及信息不合法、不真实、不准确的，商家需承担因此引起的相应责任及后果，并且本网站有权立即终止商家使用入驻系统的权利。
-              </p>
-              <p>3.3
-                商家使用入驻系统提交的所有内容应不含有木马等软件病毒、政治宣传、或其他任何形式的“垃圾信息”、违法信息，且商家应按本网站规则使用入驻系统，不得从事影响或可能影响本网站或入驻系统正常运营的行为，否则，本网站有权清除前述内容，并有权立即终止商家使用入驻系统的权利。
-              </p>
-              <p>3.4
-                商家应注意查看入驻系统公示的入驻申请结果，如审核通过的商家，则按照本网站工作人员的通知按要求办理入驻的相关手续；如审批未通过的商家，则可自本网站通过入驻系统将审批结果告知商家（需商家登陆入驻系统查看）之日起
-                15 日内提出异议并提供相应资料，如审批仍未通过的，则商家同意提交的申请资料及信息本网站无需返还，由本网站自行处理。
-                15
-                日内提出异议并提供相应资料，如审批仍未通过的，则商家同意提交的申请资料及信息本网站无需返还，由本网站自行处理。</p>
-              <p>3.5 商家不得以任何形式擅自转让或授权他人使用自己在本网站的用户帐号使用入驻系统，否则由此产生的不利后果均由商家自行承担。</p>
-              <p>4.本网站权利义务</p>
-              <p>4.1 本网站开发的入驻系统仅为商家申请入驻的平台，商家正式入驻后，将在商家后台系统中进行相关操作。</p>
-              <p>4.2
-                本网站有权对商家提供的资料及信息进行审核，并有权结合自身业务情况对合作商家进行选择；本网站对商家提交资料及信息的审核均不代表本网站对审核内容的真实、合法、准确、完整性作出的确认，商家应对提供资料及信息承担相应的法律责任。
-              </p>
-              <p>4.3 无论商家是否通过本网站的审核，本网站有权对商家提供的资料及信息予以留存并随时查阅，同时，本网站有义务对商家提供的资料予以保密，但国家行政机关、司法机关等国家机构调取资料的除外。</p>
-              <p>4.4 本网站会尽力维护本系统信息的安全，但法律规定的不可抗力，以及因为黑客入侵、计算机病毒侵入发作等原因造成商家资料泄露、丢失、被盗用、被篡改的，本网站不承担任何责任。</p>
-              <p>4.5 本网站应在现有技术支持的基础上确保入驻系统的正常运营，尽量避免入驻系统服务的中断给商家带来的不便。</p>
-              <p>5.知识产权</p>
-              <p>5.1 本网站开发的入驻系统及其包含的各类信息的知识产权归本网站所有者所有，受国家法律保护,本网站有权不时地对入驻系统的内容进行修改，并在入驻系统中公示，无须另行通知商家。</p>
-              <p>5.2 在法律允许的最大限度范围内，本网站所有者对本协议及入驻系统涉及的内容拥有解释权。</p>
-              <p>5.3 商家未经本网站所有者书面许可，不得擅自使用、非法全部或部分的复制、转载、抓取入驻系统中的信息，否则由此给本网站造成的损失，商家应予以全部赔偿。</p>
-              <p>6.入驻系统服务的终止</p>
-              <p>6.1 商家自行终止入驻申请，或商家经本网站审批未通过的，则入驻系统服务自行终止。</p>
-              <p>6.2 商家使用本网站或入驻系统时，如违反相关法律法规或者违反本协议规定的，本网站有权随时终止商家使用入驻系统。</p>
-              <p>7.本协议的修改</p>
-              <p>本协议可由本网站随时修订，并将修订后的协议公告于本网站及入驻系统，修订后的条款内容自公告时起生效，并成为本协议的一部分。</p>
-              <p>8.法律适用与争议解决</p>
-              <p>8.1 本协议适用中华人民共和国法律。</p>
-              <p>8.2 因本协议产生的任何争议，由双方协商解决，协商不成的，任何一方有权向有管辖权的中华人民共和国大陆地区法院提起诉讼。</p>
-            </div>
-            <span id="read">
-              <input type="checkbox" id="iAgree">
-              <label for="iAgree">我已阅读以上协议</label>
-            </span>
-            <div class="btn-area">
-              <button class="btn-agree" disabled="disabled" id="agree">同意</button>
+            </form>
+            <form>
+              <div class="form-box">
+                <!-- <h3>一、公司信息</h3> -->
+                <ul>
+                  <li class="clearfix">
+                    <div class="tl">
+                      <em>*</em>
+                      法定代表人姓名：
+                    </div>
+                    <div class="tr">
+                      <input id="legalName" name="legalName" class="input" type="text" placeholder="请填写您的法定代表人姓名">
+                      <div class="invite-rule legalName">请填写您的法定代表人姓名</div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl">
+                      <em>*</em>
+                      法定代表人身份证号：
+                    </div>
+                    <div class="tr">
+                      <input id="legalNameNumber" name="legalNameNumber" class="input" type="text"
+                        placeholder="请填写法定代表人身份证号">
+                      <div class="invite-rule legalNameNumber">请填写法定代表人身份证号</div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl">
+                      <em>*</em>
+                      法人身份证电子版：
+                    </div>
+                    <div class="tr">
+                      <div class="upload_file_word">身份证要求正反两面，复印件请加盖开店公司公章</div>
+                      <div class="upload_file_btn2">
+                        <img src="../../images/static/upload_btn.png" alt="">
+                      </div>
+                      <input type="file" name="uploadCompanyFile2" id="uploadCompanyFile2" style="display: none;">
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl">
+                      <em>*</em>
+                      营业执照详细地址：
+                    </div>
+                    <div class="tr">
+                      <input id="licenseAddress" name="licenseAddress" class="input" type="text"
+                        placeholder="请填写营业执照详细地址">
+                      <div class="invite-rule licenseAddress">请填写营业执照详细地址</div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl">
+                      <em>*</em>
+                      成立日期：
+                    </div>
+                    <div class="tr">
+                      <!-- <input id="foundDate" name="foundDate" class="input" type="text" placeholder="请填写成立日期"> -->
+                      <div class="c-datepicker-date-editor c-datepicker-single-editor J-datepicker-day mt10">
+                        <!-- <i class="c-datepicker-range__icon kxiconfont icon-clock"></i> -->
+                        <input type="text" autocomplete="off" name="foundDate" id="foundDate" placeholder="选择日期"
+                          class=" c-datepicker-data-input only-date" value="">
+                      </div>
+                      <div class="invite-rule foundDate">请填写成立日期</div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl">
+                      <em>*</em>
+                      营业执照有效期：
+                    </div>
+                    <div class="tr">
+                      <!-- <input id="licenseValidDate" name="licenseValidDate" class="input" type="text"
+                            placeholder="请填写营业执照有效期"> -->
+                      <div class="c-datepicker-date-editor J-datepicker-range-day starOrend">
+                        <input placeholder="开始日期" name="licenseValidStartDate" id="licenseValidStartDate"
+                          class="c-datepicker-data-input only-date" value="">
+                        <span class="c-datepicker-range-separator">-</span>
+                        <input placeholder="结束日期" name="licenseValidEndDate" id="licenseValidEndDate"
+                          class="c-datepicker-data-input only-date" value="">
+                      </div>
+
+                      <div class="c-datepicker-date-editor c-datepicker-single-editor J-datepicker-day long">
+                        <input type="text" autocomplete="off" name="foundDate" id="foundDate" placeholder="选择日期"
+                          class=" c-datepicker-data-input only-date" value="">
+                        <span class="c-datepicker-range-separator">-</span>
+                        <span style="width: 84px; display: inline-block; padding-left: 15px;">长期</span>
+                      </div>
+                      <div class="invite-rule ValidDate">请填写营业执照有效期</div>
+                      <button type="button" class="long-term">长期</button>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl">
+                      <em>*</em>
+                      公司紧急联系人：
+                    </div>
+                    <div class="tr">
+                      <input id="urgentLiaison" name="urgentLiaison" class="input" type="text" placeholder="请填写公司紧急联系人">
+                      <div class="invite-rule urgentLiaison">请填写公司紧急联系人</div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl">
+                      <em>*</em>
+                      公司紧急联系人手机：
+                    </div>
+                    <div class="tr">
+                      <input id="urgentLiaisonPhone" name="urgentLiaisonPhone" class="input" type="text"
+                        placeholder="请填写公司紧急联系人手机">
+                      <div class="invite-rule urgentLiaisonPhone">请填写公司紧急联系人</div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="form-box">
+                <h3>二、结算银行信息</h3>
+                <ul>
+                  <li class="for-pc clearfix">
+                    <div class="tl"><em>*</em>开户名：</div>
+                    <div class="tr">
+                      <input id="accountName" name="accountName" class="input" type="text" placeholder="请填写开户名">
+                      <div class="invite-rule accountName">请填写开户名</div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl"><em>*</em>开户行支行名称：</div>
+                    <div class="tr">
+                      <input id="accountBranchName" name="accountBranchName" class="input" type="text"
+                        placeholder="请填写您的开户行支行名称">
+                      <div class="invite-rule accountBranchName">请填写您的开户行支行名称</div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl"><em>*</em>开户银行支行所在地：</div>
+                    <div class="tr">
+                      <select name="" id="" class="bank_address">
+                        <option value="">请选择</option>
+                      </select>
+                      <select name="" id="" class="bank_address">
+                        <option value="">请选择</option>
+                      </select>
+                      <select name="" id="" class="bank_address">
+                        <option value="">请选择</option>
+                      </select>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl"><em>*</em>银行账号：</div>
+                    <div class="tr">
+                      <!-- <input id="" name="" class="input" type="text" placeholder="请填写银行账号"> -->
+                      <input id="accountLocation" name="accountLocation" class="input" type="text"
+                        placeholder="请填写银行账号">
+                      <div class="invite-rule accountLocation">请填写银行账号</div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl"><em>*</em>银行支行联行号：</div>
+                    <div class="tr">
+                      <input id="accountLinkNumber" name="accountLinkNumber" class="input" type="text"
+                        placeholder="请填写银行支行联行号">
+                      <div class="invite-rule accountLinkNumber">请填写银行支行联行号</div>
+                    </div>
+                  </li>
+                  <li class="clearfix">
+                    <div class="tl"><em>*</em>银行开户许可证：</div>
+                    <div class="tr">
+                      <div class="upload_file_btn3">
+                        <img src="../../images/static/upload_btn.png" alt="">
+                      </div>
+                      <input type="file" name="uploadCompanyFile3" id="uploadCompanyFile3" style="display: none;">
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </form>
+          </div>
+          <div class="form-help">
+            <h3>入驻帮助</h3>
+            <div class="list">
+              <ul>
+                <li>
+                  <div class="help-title">1. 供应商入驻条件：</div>
+                  <div class="help-content" style="display: none;">
+                    <p>① 产品生产厂商，不接受授权和代理</p>
+                    <p>② 已依照中华人民共和国法律注册并领取合法有效营业执照及其他经营许可</p>
+                    <p>③ 申请经营的商品符合国家规定标准，来源合法，资质齐全</p>
+                    <p>④ 同意并遵守阳光福利平台的相关规则 </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="help-title">2. 入驻审核要求：</div>
+                  <div class="help-content" style="display: none;">
+                    <p>① 基础资质要求<br>
+                      提供三证合一营业执照扫描件，需确保未在企业经营异常名录中且所售商品在营业执照经营范围内。<br>
+                      企业法定代表人身份证扫描件正反面，且有效期大于90天。<br>
+                      开户行许可证扫描件，需与营业执照一致。<br>
+                      一般纳税人资格证明，如为一般纳税人需提供此证件（税务局网站查询截图亦可，需加盖公司公章红章）
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="help-title">3. 产品资质要求：</div>
+                  <div class="help-content" style="display: none;">
+                    <p>① 商标注册证及专利权证书等知识产权证明复印件</p>
+                    <p>② 质检报告或产品质量合格证复印件（根据不同品牌与类目均需单独提供）</p>
+                    <p>③ 进口商品的报关单、检验检疫证书、产品来源地证明等复印件</p>
+                    <p>④ 特殊商品生产许可证或质量合格证明等复印件，例如，食品流通许可证，肉禽产品防疫证明等。<br>
+                      真实有效：请务必保证您入驻前后提供的相关资质的真实有效性（若您提供的 相关资质为第三方提供，如商标注册证、授权书等，请务必先行核实其真实有效性），<br>
+                      一旦发现虚假资质，您的公司将被列入非诚信商家名单。
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="help-title">4. 商品定价要求：</div>
+                  <div class="help-content" style="display: none;">
+                    <p>① 必须低于市场价以及其他电商平台价格</p>
+                  </div>
+                </li>
+              </ul>
             </div>
           </div>
-        </div> -->
-        <!-- <div class="inner clearfix">
-          
-        </div> -->
+        </div>
         <div class="inner">
           <form>
             <div class="form-box">
@@ -766,1073 +700,17 @@
                       <div class="el-tabs__nav">
                         <div class="el-tabs__active-bar is-left" style="height: 39px; transform: translateY(0px);">
                         </div>
-                        <div id="tab-name0" aria-controls="pane-name0" role="tab" aria-selected="true" tabindex="0"
-                          class="el-tabs__item is-left is-active" style="display: none;">
-                          <div class="brand-tab-content">京字 </div>
-                        </div>
-                        <div id="tab-name1" aria-controls="pane-name1" role="tab" aria-selected="true" tabindex="0" class="el-tabs__item is-left" style="display: none;"><div class="brand-tab-content">未填写 </div></div>
-                        <div id="tab-name1" aria-controls="pane-name1" role="tab" aria-selected="true" tabindex="0" class="el-tabs__item noBrand is-left" style="display: none;"><div class="brand-tab-content">无品牌（noBrand） </div></div>
+
+
+
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="el-tabs__content" style="padding-right: 30px;">
-                  <div class="el-tab-pane" style="display: none;">
-                    <form class="el-form demo-ruleForm brand-category-form">
-                      <div>
-                        <h2 class="pop-brand-base-infor-main-title">经营品牌</h2>
-                        <h3 class="pop-brand-base-infor-sub-title">品牌信息</h3>
-                      </div>
-                      <div>
-                        <div class="el-form-item"><label for="brandZhName" class="el-form-item__label"
-                            style="width: 130px;">品牌中文名</label>
-                          <div class="el-form-item__content" style="margin-left: 130px;">
-                            <div class="el-input el-input--small is-disabled">
-                              <input type="text" disabled="disabled" autocomplete="off"
-                                class="el-input__inner el-input-width">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="form-describe-text-new">请按品牌商标填写中文名称，没有中文名称的请留空</div>
-                        <div class="el-form-item"><label for="brandEnName" class="el-form-item__label"
-                            style="width: 130px;">品牌英文名</label>
-                          <div class="el-form-item__content" style="margin-left: 130px;">
-                            <div class="el-input el-input--small is-disabled">
-                              <input type="text" disabled="disabled" autocomplete="off"
-                                class="el-input__inner el-input-width">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="form-describe-text-new">请按品牌商标填写英文名称，没有英文名称的请留空</div>
-                        <div class="el-form-item is-required"><label for="brandFirstChar" class="el-form-item__label"
-                            style="width: 130px;">中文名首字母</label>
-                          <div class="el-form-item__content" style="margin-left: 130px;">
-                            <div class="el-input el-input--small is-disabled">
-                              <input type="text" disabled="disabled" autocomplete="off"
-                                onkeyup="value=value.replace(/[^A-Za-z]/g,'');" class="el-input__inner el-input-width">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="el-form-item is-required"><label for="trademarkRegistrant"
-                            class="el-form-item__label" style="width: 130px;">品牌商标注册人</label>
-                          <div class="el-form-item__content" style="margin-left: 130px;">
-                            <div class="el-input el-input--small is-disabled">
-                              <input type="text" disabled="disabled" autocomplete="off"
-                                class="el-input__inner el-input-width">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="el-form-item"><label for="brandLogo" class="el-form-item__label"
-                            style="width: 130px;">品牌LOGO</label>
-                          <div class="el-form-item__content" style="margin-left: 130px;">
-                            <div class="pop-logo-img-simple-upload">
-                              <div>
-                                <ul class="el-upload-list el-upload-list--picture-card">
-                                  <li tabindex="0" class="el-upload-list__item is-success"><img
-                                      src="http://img30.360buyimg.com/popshop/jfs/t1/24896/16/8140/31300/5c735583Efcb8ab1c/3b7f0af806826e4a.jpg"
-                                      alt="" class="el-upload-list__item-thumbnail"><a
-                                      class="el-upload-list__item-name"><i class="el-icon-document"></i>
-                                    </a><label class="el-upload-list__item-status-label"><i
-                                        class="el-icon-upload-success el-icon-check"></i></label><i
-                                      class="el-icon-close"></i><i class="el-icon-close-tip">按 delete 键可删除</i>
-                                    <!----><span class="el-upload-list__item-actions"><span
-                                        class="el-upload-list__item-preview"><i class="el-icon-zoom-in"></i></span><span
-                                        class="el-upload-list__item-delete"><i class="el-icon-delete"></i></span></span>
-                                  </li>
-                                </ul>
-                                <div tabindex="0" class="el-upload el-upload--picture-card" style="display: none;"><i
-                                    class="el-icon-plus"></i><input type="file" name="fileData"
-                                    accept="image/png,image/jpeg,image/gif" class="el-upload__input"></div>
-                              </div>
-                            </div>
-                            <div class="upload-brand-logo-pic-describe-text">必须与商标图文一致</div>
-                            <!---->
-                          </div>
-                        </div>
-                        <div class="el-form-item"><label for="brandId" class="el-form-item__label"
-                            style="width: 130px;">品牌ID</label>
-                          <div class="el-form-item__content" style="margin-left: 130px;"></div>
-                        </div>
-                        <div class="el-form-item"><label for="trademarkRegistrationNumber" class="el-form-item__label"
-                            style="width: 130px;">品牌商标注册号</label>
-                          <div class="el-form-item__content" style="margin-left: 130px;">
-                            <div class="el-input el-input--small">
-                              <input type="text" autocomplete="off" placeholder="请输入品牌商标注册号"
-                                class="el-input__inner el-input-width">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="el-form-item"><label for="trademarkCategory" class="el-form-item__label"
-                            style="width: 130px;">品牌商标类别</label>
-                          <div class="el-form-item__content" style="margin-left: 130px;">
-                            <div class="el-select">
-                              <div class="el-input el-input--suffix" style="position: relative;">
-                                <!-- 品牌商标类别 -->
-                                <div class="el-select-dropdown el-popper checkTrademark"
-                                  style="min-width: 178px; transform-origin: center top; z-index: 2009; position: absolute; top: 35px; left: 0; display: none;"
-                                  x-placement="bottom-start">
-                                  <div class="el-scrollbar" style="">
-                                    <div class="el-select-dropdown__wrap el-scrollbar__wrap"
-                                      style="margin-bottom: -17px; margin-right: -17px;">
-                                      <ul class="el-scrollbar__view el-select-dropdown__list">
-                                        <!---->
-                                        <li class="el-select-dropdown__item"><span>请选择</span></li>
-                                        <li class="el-select-dropdown__item"><span>第01类-化学原料</span></li>
-                                        <li class="el-select-dropdown__item"><span>第02类-颜料油漆</span></li>
-                                        <li class="el-select-dropdown__item"><span>第03类-日化用品</span></li>
-                                        <li class="el-select-dropdown__item"><span>第04类-燃料油脂</span></li>
-                                        <li class="el-select-dropdown__item"><span>第05类-医药</span></li>
-                                        <li class="el-select-dropdown__item"><span>第06类-金属材料</span></li>
-                                        <li class="el-select-dropdown__item"><span>第07类-机械设备</span></li>
-                                        <li class="el-select-dropdown__item"><span>第08类-手工器械</span></li>
-                                        <li class="el-select-dropdown__item"><span>第09类-科学仪器</span></li>
-                                        <li class="el-select-dropdown__item"><span>第10类-医疗器械</span></li>
-                                        <li class="el-select-dropdown__item"><span>第11类-灯具空调</span></li>
-                                        <li class="el-select-dropdown__item"><span>第12类-运输工具</span></li>
-                                        <li class="el-select-dropdown__item"><span>第13类-军火烟</span></li>
-                                        <li class="el-select-dropdown__item"><span>第14类-珠宝钟表</span></li>
-                                        <li class="el-select-dropdown__item"><span>第15类-乐器</span></li>
-                                        <li class="el-select-dropdown__item"><span>第16类-办公用品</span></li>
-                                        <li class="el-select-dropdown__item"><span>第17类-橡胶制品</span></li>
-                                        <li class="el-select-dropdown__item"><span>第18类-皮革皮具</span></li>
-                                        <li class="el-select-dropdown__item"><span>第19类-建筑材料</span></li>
-                                        <li class="el-select-dropdown__item"><span>第20类-家具</span></li>
-                                        <li class="el-select-dropdown__item"><span>第21类-厨房洁具</span></li>
-                                        <li class="el-select-dropdown__item"><span>第22类-绳网袋篷</span></li>
-                                        <li class="el-select-dropdown__item"><span>第23类-纱线丝</span></li>
-                                        <li class="el-select-dropdown__item"><span>第24类-布料床单</span></li>
-                                        <li class="el-select-dropdown__item"><span>第25类-服装鞋帽</span></li>
-                                        <li class="el-select-dropdown__item"><span>第26类-钮扣拉链</span></li>
-                                        <li class="el-select-dropdown__item"><span>第27类-地毯席垫</span></li>
-                                        <li class="el-select-dropdown__item"><span>第28类-健身器材</span></li>
-                                        <li class="el-select-dropdown__item"><span>第29类-食品</span></li>
-                                        <li class="el-select-dropdown__item"><span>第30类-方便食品</span></li>
-                                        <li class="el-select-dropdown__item"><span>第31类-饲料种籽</span></li>
-                                        <li class="el-select-dropdown__item"><span>第32类-啤酒饮料</span></li>
-                                        <li class="el-select-dropdown__item"><span>第33类-酒</span></li>
-                                        <li class="el-select-dropdown__item"><span>第34类-烟草烟具</span></li>
-                                        <li class="el-select-dropdown__item"><span>第35类-广告销售</span></li>
-                                        <li class="el-select-dropdown__item"><span>第36类-金融物管</span></li>
-                                        <li class="el-select-dropdown__item"><span>第37类-建筑修理</span></li>
-                                        <li class="el-select-dropdown__item"><span>第38类-通讯服务</span></li>
-                                        <li class="el-select-dropdown__item"><span>第39类-运输贮藏</span></li>
-                                        <li class="el-select-dropdown__item"><span>第40类-材料加工</span></li>
-                                        <li class="el-select-dropdown__item"><span>第41类-教育娱乐</span></li>
-                                        <li class="el-select-dropdown__item"><span>第42类-网站服务</span></li>
-                                        <li class="el-select-dropdown__item"><span>第43类-餐饮住宿</span></li>
-                                        <li class="el-select-dropdown__item"><span>第44类-医疗园艺</span></li>
-                                        <li class="el-select-dropdown__item"><span>第45类-社会服务</span></li>
-                                      </ul>
-                                    </div>
-                                    <div class="el-scrollbar__bar is-horizontal">
-                                      <div class="el-scrollbar__thumb" style="transform: translateX(0%);"></div>
-                                    </div>
-                                    <div class="el-scrollbar__bar is-vertical">
-                                      <div class="el-scrollbar__thumb"
-                                        style="transform: translateY(0%); height: 16.3071%;"></div>
-                                    </div>
-                                  </div>
-                                  <!---->
-                                  <div x-arrow="" class="popper__arrow" style="left: 35px;"></div>
-                                </div>
-                                <!-- 品牌商标类别end -->
-                                <input type="text" autocomplete="off" placeholder="请选择" readonly="readonly"
-                                  class="el-input__inner" style="width: 178px;" id="checkTrademark">
-                                <span class="el-input__suffix"><span class="el-input__suffix-inner"><i
-                                      class="el-select__caret el-input__icon el-icon-arrow-up"></i>
-                                  </span>
-                                </span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="el-form-item is-required"><label for="brandType" class="el-form-item__label"
-                            style="width: 130px;">品牌类型</label>
-                          <div class="el-form-item__content" style="margin-left: 130px;">
-                            <div role="radiogroup" class="el-radio-group">
-                              <label role="radio" tabindex="0" class="el-radio checkBrandType">
-                                <span class="el-radio__input">
-                                  <span class="el-radio__inner"></span>
-                                  <input type="radio" aria-hidden="true" tabindex="-1" class="el-radio__original"
-                                    value="1" checked>
-                                </span>
-                                <span class="el-radio__label">国内品牌</span>
-                              </label>
-                              <label role="radio" tabindex="-1" class="el-radio checkBrandType"
-                                style="margin-left: 15px;">
-                                <span class="el-radio__input">
-                                  <span class="el-radio__inner"></span>
-                                  <input type="radio" aria-hidden="true" tabindex="-1" class="el-radio__original"
-                                    value="2">
-                                </span>
-                                <span class="el-radio__label">国际品牌</span>
-                              </label>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="el-form-item is-success is-required"><label for="operateType"
-                            class="el-form-item__label" style="width: 130px;">经营类型</label>
-                          <div class="el-form-item__content" style="margin-left: 130px;">
-                            <div role="radiogroup" class="el-radio-group">
-                              <label role="radio" tabindex="-1" class="el-radio checkManageType">
-                                <span class="el-radio__input">
-                                  <span class="el-radio__inner"></span>
-                                  <input type="radio" aria-hidden="true" tabindex="-1" class="el-radio__original"
-                                    value="1">
-                                </span>
-                                <span class="el-radio__label">自有品牌</span>
-                              </label>
-                              <label role="radio" tabindex="0" class="el-radio checkManageType"
-                                style="margin-left: 15px;">
-                                <span class="el-radio__input">
-                                  <span class="el-radio__inner"></span>
-                                  <input type="radio" aria-hidden="true" tabindex="-1" class="el-radio__original"
-                                    value="2">
-                                </span>
-                                <span class="el-radio__label">代理品牌</span>
-                              </label>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="el-form-item"><label for="" class="el-form-item__label"
-                            style="width: 130px;">产品外包装图片</label>
-                          <div class="el-form-item__content" style="margin-left: 130px;">
-                            <div class="pop-qua-img-simple-upload">
-                              <div>
-                                <ul class="el-upload-list el-upload-list--picture-card"></ul>
-                                <div tabindex="0" class="el-upload el-upload--picture-card flex-center">
-                                  <img src="../../images/static/upload_btn.png" alt="">
-                                  <input type="file" name="fileData" accept="image/png,image/jpeg,image/gif"
-                                    class="el-upload__input" style="display: none">
-                                </div>
-                                <div class="el-upload__tip">图片尺寸请确保800px*800px以上，文件大小在5MB以内，支持png、jpeg、gif格式，最多可上传1张
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div style="display: none;" id="brandNatural">
-                        <h3 class="pop-brand-base-infor-sub-title">品牌资质</h3>
-                        <div class="clearfix">
-                          <div>
-                            <ul class="pop-brand-quaslist">
-                              <li>
-                                <h2>1.商标注册证/商品注册申请书</h2>
-                                <p>
-                                  请上传商标注册证书（如商标类目页在背面或第二页请同时上传），未获得注册证的请上传商标注册受理通知书，装饰字画类目无需提供。若商标有变更，请去商标网下载最新的商标流程和商标详情，打印并加盖入驻公司公章
-                                </p>
-                                <div class="el-form-item mt-brand-quas"><label for="" class="el-form-item__label"
-                                    style="width: 130px;">有效期至</label>
-                                  <div class="el-form-item__content" style="margin-left: 130px;">
-                                    <div
-                                      class="c-datepicker-date-editor c-datepicker-single-editor J-datepicker-day mt10">
-                                      <!-- <i class="c-datepicker-range__icon kxiconfont icon-clock"></i> -->
-                                      <input type="text" autocomplete="off" name="foundDate" id="foundDate"
-                                        placeholder="选择日期" class=" c-datepicker-data-input only-date" value="">
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="el-form-item"><label for="" class="el-form-item__label"
-                                    style="width: 130px;">资质图片</label>
-                                  <div class="el-form-item__content" style="margin-left: 130px;">
-                                    <div class="img-upload-box">
-                                      <div>
-                                        <ul class="el-upload-list el-upload-list--picture-card"></ul>
-                                        <div tabindex="0" class="el-upload el-upload--picture-card flex-center">
-                                          <img src="../../images/static/upload_btn.png" alt="">
-                                          <input type="file" name="fileData" accept="image/png,image/jpeg,image/gif"
-                                            class="el-upload__input" style="display: none;">
-                                        </div>
-                                        <div class="el-upload__tip">
-                                          图片尺寸请确保800px*800px以上，文件大小在5MB以内，支持格式PNG、JPG、JPEG、GIF，最多可上传20张
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </li>
-                              <li>
-                                <h2>2.销售授权书</h2>
-                                <p>
-                                  请上传品牌方提供的品牌授权证书。
-                                </p>
-                                <div class="el-form-item mt-brand-quas"><label for="" class="el-form-item__label"
-                                    style="width: 130px;">有效期至</label>
-                                  <div class="el-form-item__content" style="margin-left: 130px;">
-                                    <div
-                                      class="c-datepicker-date-editor c-datepicker-single-editor J-datepicker-day mt10">
-                                      <!-- <i class="c-datepicker-range__icon kxiconfont icon-clock"></i> -->
-                                      <input type="text" autocomplete="off" name="foundDate" id="foundDate"
-                                        placeholder="选择日期" class=" c-datepicker-data-input only-date" value="">
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="el-form-item"><label for="" class="el-form-item__label"
-                                    style="width: 130px;">资质图片</label>
-                                  <div class="el-form-item__content" style="margin-left: 130px;">
-                                    <div class="img-upload-box">
-                                      <div>
-                                        <ul class="el-upload-list el-upload-list--picture-card"></ul>
-                                        <div tabindex="0" class="el-upload el-upload--picture-card flex-center">
-                                          <img src="../../images/static/upload_btn.png" alt="">
-                                          <input type="file" name="fileData" accept="image/png,image/jpeg,image/gif"
-                                            class="el-upload__input" style="display: none;">
-                                        </div>
-                                        <div class="el-upload__tip">
-                                          图片尺寸请确保800px*800px以上，文件大小在5MB以内，支持格式PNG、JPG、JPEG、GIF，最多可上传20张
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </li>
-                              <li>
-                                <h2>3.报关单类</h2>
-                                <p>
-                                  进口品牌商品请上传报关单证书。
-                                </p>
-                                <div class="el-form-item mt-brand-quas"><label for="" class="el-form-item__label"
-                                    style="width: 130px;">有效期至</label>
-                                  <div class="el-form-item__content" style="margin-left: 130px;">
-                                    <div
-                                      class="c-datepicker-date-editor c-datepicker-single-editor J-datepicker-day mt10">
-                                      <!-- <i class="c-datepicker-range__icon kxiconfont icon-clock"></i> -->
-                                      <input type="text" autocomplete="off" name="foundDate" id="foundDate"
-                                        placeholder="选择日期" class=" c-datepicker-data-input only-date" value="">
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="el-form-item"><label for="" class="el-form-item__label"
-                                    style="width: 130px;">资质图片</label>
-                                  <div class="el-form-item__content" style="margin-left: 130px;">
-                                    <div class="img-upload-box">
-                                      <div>
-                                        <ul class="el-upload-list el-upload-list--picture-card"></ul>
-                                        <div tabindex="0" class="el-upload el-upload--picture-card flex-center">
-                                          <img src="../../images/static/upload_btn.png" alt="">
-                                          <input type="file" name="fileData" accept="image/png,image/jpeg,image/gif"
-                                            class="el-upload__input" style="display: none;">
-                                        </div>
-                                        <div class="el-upload__tip">
-                                          图片尺寸请确保800px*800px以上，文件大小在5MB以内，支持格式PNG、JPG、JPEG、GIF，最多可上传20张
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </li>
-                              <li>
-                                <h2>4.进货发票</h2>
-                                <p>
-                                  进口品牌商品请提供上传日期六个月以内的进货凭证。
-                                </p>
-                                <div class="el-form-item mt-brand-quas"><label for="" class="el-form-item__label"
-                                    style="width: 130px;">有效期至</label>
-                                  <div class="el-form-item__content" style="margin-left: 130px;">
-                                    <div
-                                      class="c-datepicker-date-editor c-datepicker-single-editor J-datepicker-day mt10">
-                                      <!-- <i class="c-datepicker-range__icon kxiconfont icon-clock"></i> -->
-                                      <input type="text" autocomplete="off" name="foundDate" id="foundDate"
-                                        placeholder="选择日期" class=" c-datepicker-data-input only-date" value="">
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="el-form-item"><label for="" class="el-form-item__label"
-                                    style="width: 130px;">资质图片</label>
-                                  <div class="el-form-item__content" style="margin-left: 130px;">
-                                    <div class="img-upload-box">
-                                      <div>
-                                        <ul class="el-upload-list el-upload-list--picture-card"></ul>
-                                        <div tabindex="0" class="el-upload el-upload--picture-card flex-center">
-                                          <img src="../../images/static/upload_btn.png" alt="">
-                                          <input type="file" name="fileData" accept="image/png,image/jpeg,image/gif"
-                                            class="el-upload__input" style="display: none;">
-                                        </div>
-                                        <div class="el-upload__tip">
-                                          图片尺寸请确保800px*800px以上，文件大小在5MB以内，支持格式PNG、JPG、JPEG、GIF，最多可上传20张
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </li>
-                              <li>
-                                <h2>5.质检、检疫、检验报告</h2>
-                                <p>
-                                  请上传正规部门提供的质检检疫报告。
-                                </p>
-                                <div class="el-form-item mt-brand-quas"><label for="" class="el-form-item__label"
-                                    style="width: 130px;">有效期至</label>
-                                  <div class="el-form-item__content" style="margin-left: 130px;">
-                                    <div
-                                      class="c-datepicker-date-editor c-datepicker-single-editor J-datepicker-day mt10 fiveDate">
-                                      <!-- <i class="c-datepicker-range__icon kxiconfont icon-clock"></i> -->
-                                      <input type="text" autocomplete="off" name="foundDate" id="fiveDate"
-                                        placeholder="选择日期" class=" c-datepicker-data-input only-date" value="">
-                                    </div>
-                                    &nbsp;&nbsp;
-                                    <label role="checkbox" class="el-checkbox checkPermanentLabel flex-center">
-                                      <span aria-checked="mixed" class="el-checkbox__input">
-                                        <span class="el-checkbox__inner"></span>
-                                        <input type="checkbox" class="el-checkbox__original checkPermanent" value="永久">
-                                      </span>
-                                      <span class="el-checkbox__label">永久</span>
-                                    </label>
-                                  </div>
-                                </div>
-                                <div class="el-form-item"><label for="" class="el-form-item__label"
-                                    style="width: 130px;">资质图片</label>
-                                  <div class="el-form-item__content" style="margin-left: 130px;">
-                                    <div class="img-upload-box">
-                                      <div>
-                                        <ul class="el-upload-list el-upload-list--picture-card"></ul>
-                                        <div tabindex="0" class="el-upload el-upload--picture-card flex-center">
-                                          <img src="../../images/static/upload_btn.png" alt="">
-                                          <input type="file" name="fileData" accept="image/png,image/jpeg,image/gif"
-                                            class="el-upload__input" style="display: none;">
-                                        </div>
-                                        <div class="el-upload__tip">
-                                          图片尺寸请确保800px*800px以上，文件大小在5MB以内，支持格式PNG、JPG、JPEG、GIF，最多可上传20张
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </li>
-                              <li>
-                                <h2>6.卫生/生产许可证</h2>
-                                <p>
-                                  请提供品牌方持有的卫生/生产许可证证书。
-                                </p>
-                                <div class="el-form-item mt-brand-quas"><label for="" class="el-form-item__label"
-                                    style="width: 130px;">有效期至</label>
-                                  <div class="el-form-item__content" style="margin-left: 130px;">
-                                    <div
-                                      class="c-datepicker-date-editor c-datepicker-single-editor J-datepicker-day mt10">
-                                      <!-- <i class="c-datepicker-range__icon kxiconfont icon-clock"></i> -->
-                                      <input type="text" autocomplete="off" name="foundDate" id="foundDate"
-                                        placeholder="选择日期" class=" c-datepicker-data-input only-date" value="">
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="el-form-item"><label for="" class="el-form-item__label"
-                                    style="width: 130px;">资质图片</label>
-                                  <div class="el-form-item__content" style="margin-left: 130px;">
-                                    <div class="img-upload-box">
-                                      <div>
-                                        <ul class="el-upload-list el-upload-list--picture-card"></ul>
-                                        <div tabindex="0" class="el-upload el-upload--picture-card flex-center">
-                                          <img src="../../images/static/upload_btn.png" alt="">
-                                          <input type="file" name="fileData" accept="image/png,image/jpeg,image/gif"
-                                            class="el-upload__input" style="display: none;">
-                                        </div>
-                                        <div class="el-upload__tip">
-                                          图片尺寸请确保800px*800px以上，文件大小在5MB以内，支持格式PNG、JPG、JPEG、GIF，最多可上传20张
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </li>
-                              <li>
-                                <h2>7.其他资质</h2>
-                                <p>
-                                  需提交特殊产品资质的类目请将资质上传在此处，包括全国工业生产许可证、3C、医疗器械生产许可证、化妆品生产企业卫生许可证等，根据具体类目资质要求提交
-                                </p>
-                                <div class="el-form-item mt-brand-quas"><label for="" class="el-form-item__label"
-                                    style="width: 130px;">有效期至</label>
-                                  <div class="el-form-item__content" style="margin-left: 130px;">
-                                    <div
-                                      class="c-datepicker-date-editor c-datepicker-single-editor J-datepicker-day mt10">
-                                      <!-- <i class="c-datepicker-range__icon kxiconfont icon-clock"></i> -->
-                                      <input type="text" autocomplete="off" name="foundDate" id="foundDate"
-                                        placeholder="选择日期" class=" c-datepicker-data-input only-date" value="">
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="el-form-item"><label for="" class="el-form-item__label"
-                                    style="width: 130px;">资质图片</label>
-                                  <div class="el-form-item__content" style="margin-left: 130px;">
-                                    <div class="img-upload-box">
-                                      <div>
-                                        <ul class="el-upload-list el-upload-list--picture-card"></ul>
-                                        <div tabindex="0" class="el-upload el-upload--picture-card flex-center">
-                                          <img src="../../images/static/upload_btn.png" alt="">
-                                          <input type="file" name="fileData" accept="image/png,image/jpeg,image/gif"
-                                            class="el-upload__input" style="display: none;">
-                                        </div>
-                                        <div class="el-upload__tip">
-                                          图片尺寸请确保800px*800px以上，文件大小在5MB以内，支持格式PNG、JPG、JPEG、GIF，最多可上传20张
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="brand-category-box">
-                        <h2 class="pop-brand-base-infor-main-title">经营类目</h2>
-                        <div class="clearfix2 flex-center" style="width: 100%;">
-                          <h3 class="pop-brand-base-infor-sub-title fl" style="margin: 0; margin-top: 10px;">类目信息</h3>
-                          <button type="button"
-                            class="el-button fr btn-bg-style el-button--default el-button--small checkThick">
-                            <span>选择类目</span>
-                          </button>
-                        </div>
-                        <div class="brand-border-box">
-                          <div style="text-align: center;">请选择您要经营的类目</div>
-                        </div>
-                      </div>
-                      <div class="pop-brand-main-save-button">
-                        <button type="button" class="el-button el-button--default el-button--small">
-                          <span>删除品牌</span>
-                        </button>
-                        <button type="button" class="el-button btn-bg-style el-button--primary el-button--small">
-                          <span>保存</span>
-                        </button>
-                      </div>
-                    </form>
-                  </div>
-                  <div class="el-tab-pane" style="display: none;">
-                    <form class="el-form demo-ruleForm brand-category-form">
-                      <div>
-                        <h2 class="pop-brand-base-infor-main-title">经营品牌</h2>
-                        <h3 class="pop-brand-base-infor-sub-title">品牌信息</h3>
-                        <p class="b-alert b-alert-s01" style="margin: 10px 20px 20px 41px;">温馨提示：您当前申请的品牌未被阳光福利商城收录，提交入驻申请后需先进行品牌评估，评估后进行入驻资质审核。</p>
-                      </div>
-                      <div>
-                        <div class="el-form-item"><label for="brandZhName" class="el-form-item__label"
-                            style="width: 130px;">品牌中文名</label>
-                          <div class="el-form-item__content" style="margin-left: 130px;">
-                            <div class="el-input el-input--small">
-                              <input type="text" autocomplete="off" class="el-input__inner el-input-width" id="brandChineseName">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="form-describe-text-new">请按品牌商标填写中文名称，没有中文名称的请留空</div>
-                        <div class="el-form-item"><label for="brandEnName" class="el-form-item__label"
-                            style="width: 130px;">品牌英文名</label>
-                          <div class="el-form-item__content" style="margin-left: 130px;">
-                            <div class="el-input el-input--small">
-                              <input type="text" autocomplete="off" class="el-input__inner el-input-width">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="form-describe-text-new">请按品牌商标填写英文名称，没有英文名称的请留空</div>
-                        <div class="el-form-item is-required"><label for="brandFirstChar" class="el-form-item__label"
-                            style="width: 130px;">中文名首字母</label>
-                          <div class="el-form-item__content" style="margin-left: 130px;">
-                            <div class="el-input el-input--small">
-                              <input type="text" autocomplete="off" onkeyup="value=value.replace(/[^A-Za-z]/g,'');"
-                                class="el-input__inner el-input-width">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="el-form-item is-required"><label for="trademarkRegistrant"
-                            class="el-form-item__label" style="width: 130px;">品牌商标注册人</label>
-                          <div class="el-form-item__content" style="margin-left: 130px;">
-                            <div class="el-input el-input--small">
-                              <input type="text" autocomplete="off" class="el-input__inner el-input-width">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="el-form-item"><label for="brandLogo" class="el-form-item__label"
-                            style="width: 130px;">品牌LOGO</label>
-                          <div class="el-form-item__content" style="margin-left: 130px;">
-                            <div class="pop-logo-img-simple-upload">
-                              <div>
-                                <ul class="el-upload-list el-upload-list--picture-card"></ul>
-                                <div tabindex="0" class="el-upload el-upload--picture-card flex-center">
-                                  <img src="../../images/static/upload_btn.png" alt="">
-                                  <input type="file" name="fileData" accept="image/png,image/jpeg,image/gif"
-                                    class="el-upload__input" style="display: none">
-                                </div>
-                                <div tabindex="0" class="el-upload el-upload--picture-card" style="display: none;"><i
-                                    class="el-icon-plus"></i><input type="file" name="fileData"
-                                    accept="image/png,image/jpeg,image/gif" class="el-upload__input"></div>
-                              </div>
-                            </div>
-                            <div class="upload-brand-logo-pic-describe-text">必须与商标图文一致</div>
-                            <!---->
-                          </div>
-                        </div>
-                        <div class="el-form-item"><label for="brandId" class="el-form-item__label"
-                            style="width: 130px;">品牌ID</label>
-                          <div class="el-form-item__content" style="margin-left: 130px;"></div>
-                        </div>
-                        <div class="el-form-item"><label for="trademarkRegistrationNumber" class="el-form-item__label"
-                            style="width: 130px;">品牌商标注册号</label>
-                          <div class="el-form-item__content" style="margin-left: 130px;">
-                            <div class="el-input el-input--small">
-                              <input type="text" autocomplete="off" placeholder="请输入品牌商标注册号"
-                                class="el-input__inner el-input-width">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="el-form-item"><label for="trademarkCategory" class="el-form-item__label"
-                            style="width: 130px;">品牌商标类别</label>
-                          <div class="el-form-item__content" style="margin-left: 130px;">
-                            <div class="el-select">
-                              <div class="el-input el-input--suffix" style="position: relative;">
-                                <!-- 品牌商标类别 -->
-                                <div class="el-select-dropdown el-popper checkTrademark"
-                                  style="min-width: 178px; transform-origin: center top; z-index: 2009; position: absolute; top: 35px; left: 0; display: none;"
-                                  x-placement="bottom-start">
-                                  <div class="el-scrollbar" style="">
-                                    <div class="el-select-dropdown__wrap el-scrollbar__wrap"
-                                      style="margin-bottom: -17px; margin-right: -17px;">
-                                      <ul class="el-scrollbar__view el-select-dropdown__list">
-                                        <!---->
-                                        <li class="el-select-dropdown__item"><span>请选择</span></li>
-                                        <li class="el-select-dropdown__item"><span>第01类-化学原料</span></li>
-                                        <li class="el-select-dropdown__item"><span>第02类-颜料油漆</span></li>
-                                        <li class="el-select-dropdown__item"><span>第03类-日化用品</span></li>
-                                        <li class="el-select-dropdown__item"><span>第04类-燃料油脂</span></li>
-                                        <li class="el-select-dropdown__item"><span>第05类-医药</span></li>
-                                        <li class="el-select-dropdown__item"><span>第06类-金属材料</span></li>
-                                        <li class="el-select-dropdown__item"><span>第07类-机械设备</span></li>
-                                        <li class="el-select-dropdown__item"><span>第08类-手工器械</span></li>
-                                        <li class="el-select-dropdown__item"><span>第09类-科学仪器</span></li>
-                                        <li class="el-select-dropdown__item"><span>第10类-医疗器械</span></li>
-                                        <li class="el-select-dropdown__item"><span>第11类-灯具空调</span></li>
-                                        <li class="el-select-dropdown__item"><span>第12类-运输工具</span></li>
-                                        <li class="el-select-dropdown__item"><span>第13类-军火烟</span></li>
-                                        <li class="el-select-dropdown__item"><span>第14类-珠宝钟表</span></li>
-                                        <li class="el-select-dropdown__item"><span>第15类-乐器</span></li>
-                                        <li class="el-select-dropdown__item"><span>第16类-办公用品</span></li>
-                                        <li class="el-select-dropdown__item"><span>第17类-橡胶制品</span></li>
-                                        <li class="el-select-dropdown__item"><span>第18类-皮革皮具</span></li>
-                                        <li class="el-select-dropdown__item"><span>第19类-建筑材料</span></li>
-                                        <li class="el-select-dropdown__item"><span>第20类-家具</span></li>
-                                        <li class="el-select-dropdown__item"><span>第21类-厨房洁具</span></li>
-                                        <li class="el-select-dropdown__item"><span>第22类-绳网袋篷</span></li>
-                                        <li class="el-select-dropdown__item"><span>第23类-纱线丝</span></li>
-                                        <li class="el-select-dropdown__item"><span>第24类-布料床单</span></li>
-                                        <li class="el-select-dropdown__item"><span>第25类-服装鞋帽</span></li>
-                                        <li class="el-select-dropdown__item"><span>第26类-钮扣拉链</span></li>
-                                        <li class="el-select-dropdown__item"><span>第27类-地毯席垫</span></li>
-                                        <li class="el-select-dropdown__item"><span>第28类-健身器材</span></li>
-                                        <li class="el-select-dropdown__item"><span>第29类-食品</span></li>
-                                        <li class="el-select-dropdown__item"><span>第30类-方便食品</span></li>
-                                        <li class="el-select-dropdown__item"><span>第31类-饲料种籽</span></li>
-                                        <li class="el-select-dropdown__item"><span>第32类-啤酒饮料</span></li>
-                                        <li class="el-select-dropdown__item"><span>第33类-酒</span></li>
-                                        <li class="el-select-dropdown__item"><span>第34类-烟草烟具</span></li>
-                                        <li class="el-select-dropdown__item"><span>第35类-广告销售</span></li>
-                                        <li class="el-select-dropdown__item"><span>第36类-金融物管</span></li>
-                                        <li class="el-select-dropdown__item"><span>第37类-建筑修理</span></li>
-                                        <li class="el-select-dropdown__item"><span>第38类-通讯服务</span></li>
-                                        <li class="el-select-dropdown__item"><span>第39类-运输贮藏</span></li>
-                                        <li class="el-select-dropdown__item"><span>第40类-材料加工</span></li>
-                                        <li class="el-select-dropdown__item"><span>第41类-教育娱乐</span></li>
-                                        <li class="el-select-dropdown__item"><span>第42类-网站服务</span></li>
-                                        <li class="el-select-dropdown__item"><span>第43类-餐饮住宿</span></li>
-                                        <li class="el-select-dropdown__item"><span>第44类-医疗园艺</span></li>
-                                        <li class="el-select-dropdown__item"><span>第45类-社会服务</span></li>
-                                      </ul>
-                                    </div>
-                                    <div class="el-scrollbar__bar is-horizontal">
-                                      <div class="el-scrollbar__thumb" style="transform: translateX(0%);"></div>
-                                    </div>
-                                    <div class="el-scrollbar__bar is-vertical">
-                                      <div class="el-scrollbar__thumb"
-                                        style="transform: translateY(0%); height: 16.3071%;"></div>
-                                    </div>
-                                  </div>
-                                  <!---->
-                                  <div x-arrow="" class="popper__arrow" style="left: 35px;"></div>
-                                </div>
-                                <!-- 品牌商标类别end -->
-                                <input type="text" autocomplete="off" placeholder="请选择" readonly="readonly"
-                                  class="el-input__inner" style="width: 178px;" id="checkTrademark">
-                                <span class="el-input__suffix"><span class="el-input__suffix-inner"><i
-                                      class="el-select__caret el-input__icon el-icon-arrow-up"></i>
-                                  </span>
-                                </span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="el-form-item is-required"><label for="brandType" class="el-form-item__label"
-                            style="width: 130px;">品牌类型</label>
-                          <div class="el-form-item__content" style="margin-left: 130px;">
-                            <div role="radiogroup" class="el-radio-group">
-                              <label role="radio" tabindex="0" class="el-radio checkBrandType2">
-                                <span class="el-radio__input">
-                                  <span class="el-radio__inner"></span>
-                                  <input type="radio" aria-hidden="true" tabindex="-1" class="el-radio__original"
-                                    value="1" checked>
-                                </span>
-                                <span class="el-radio__label">国内品牌</span>
-                              </label>
-                              <label role="radio" tabindex="-1" class="el-radio checkBrandType2"
-                                style="margin-left: 15px;">
-                                <span class="el-radio__input">
-                                  <span class="el-radio__inner"></span>
-                                  <input type="radio" aria-hidden="true" tabindex="-1" class="el-radio__original"
-                                    value="2">
-                                </span>
-                                <span class="el-radio__label">国际品牌</span>
-                              </label>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="el-form-item is-success is-required"><label for="operateType"
-                            class="el-form-item__label" style="width: 130px;">经营类型</label>
-                          <div class="el-form-item__content" style="margin-left: 130px;">
-                            <div role="radiogroup" class="el-radio-group">
-                              <label role="radio" tabindex="-1" class="el-radio checkManageType">
-                                <span class="el-radio__input">
-                                  <span class="el-radio__inner"></span>
-                                  <input type="radio" aria-hidden="true" tabindex="-1" class="el-radio__original"
-                                    value="1">
-                                </span>
-                                <span class="el-radio__label">自有品牌</span>
-                              </label>
-                              <label role="radio" tabindex="0" class="el-radio checkManageType"
-                                style="margin-left: 15px;">
-                                <span class="el-radio__input">
-                                  <span class="el-radio__inner"></span>
-                                  <input type="radio" aria-hidden="true" tabindex="-1" class="el-radio__original"
-                                    value="2">
-                                </span>
-                                <span class="el-radio__label">代理品牌</span>
-                              </label>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="el-form-item"><label for="" class="el-form-item__label"
-                            style="width: 130px;">产品外包装图片</label>
-                          <div class="el-form-item__content" style="margin-left: 130px;">
-                            <div class="pop-qua-img-simple-upload">
-                              <div>
-                                <ul class="el-upload-list el-upload-list--picture-card"></ul>
-                                <div tabindex="0" class="el-upload el-upload--picture-card flex-center">
-                                  <img src="../../images/static/upload_btn.png" alt="">
-                                  <input type="file" name="fileData" accept="image/png,image/jpeg,image/gif"
-                                    class="el-upload__input" style="display: none">
-                                </div>
-                                <div class="el-upload__tip">图片尺寸请确保800px*800px以上，文件大小在5MB以内，支持png、jpeg、gif格式，最多可上传1张
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div style="display: none;" id="brandNatural2">
-                        <h3 class="pop-brand-base-infor-sub-title">品牌资质</h3>
-                        <div class="clearfix">
-                          <div>
-                            <ul class="pop-brand-quaslist">
-                              <li>
-                                <h2>1.商标注册证/商品注册申请书</h2>
-                                <p>
-                                  请上传商标注册证书（如商标类目页在背面或第二页请同时上传），未获得注册证的请上传商标注册受理通知书，装饰字画类目无需提供。若商标有变更，请去商标网下载最新的商标流程和商标详情，打印并加盖入驻公司公章
-                                </p>
-                                <div class="el-form-item mt-brand-quas"><label for="" class="el-form-item__label"
-                                    style="width: 130px;">有效期至</label>
-                                  <div class="el-form-item__content" style="margin-left: 130px;">
-                                    <div
-                                      class="c-datepicker-date-editor c-datepicker-single-editor J-datepicker-day mt10">
-                                      <!-- <i class="c-datepicker-range__icon kxiconfont icon-clock"></i> -->
-                                      <input type="text" autocomplete="off" name="foundDate" id="foundDate"
-                                        placeholder="选择日期" class=" c-datepicker-data-input only-date" value="">
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="el-form-item"><label for="" class="el-form-item__label"
-                                    style="width: 130px;">资质图片</label>
-                                  <div class="el-form-item__content" style="margin-left: 130px;">
-                                    <div class="img-upload-box">
-                                      <div>
-                                        <ul class="el-upload-list el-upload-list--picture-card"></ul>
-                                        <div tabindex="0" class="el-upload el-upload--picture-card flex-center">
-                                          <img src="../../images/static/upload_btn.png" alt="">
-                                          <input type="file" name="fileData" accept="image/png,image/jpeg,image/gif"
-                                            class="el-upload__input" style="display: none;">
-                                        </div>
-                                        <div class="el-upload__tip">
-                                          图片尺寸请确保800px*800px以上，文件大小在5MB以内，支持格式PNG、JPG、JPEG、GIF，最多可上传20张
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </li>
-                              <li>
-                                <h2>2.销售授权书</h2>
-                                <p>
-                                  请上传品牌方提供的品牌授权证书。
-                                </p>
-                                <div class="el-form-item mt-brand-quas"><label for="" class="el-form-item__label"
-                                    style="width: 130px;">有效期至</label>
-                                  <div class="el-form-item__content" style="margin-left: 130px;">
-                                    <div
-                                      class="c-datepicker-date-editor c-datepicker-single-editor J-datepicker-day mt10">
-                                      <!-- <i class="c-datepicker-range__icon kxiconfont icon-clock"></i> -->
-                                      <input type="text" autocomplete="off" name="foundDate" id="foundDate"
-                                        placeholder="选择日期" class=" c-datepicker-data-input only-date" value="">
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="el-form-item"><label for="" class="el-form-item__label"
-                                    style="width: 130px;">资质图片</label>
-                                  <div class="el-form-item__content" style="margin-left: 130px;">
-                                    <div class="img-upload-box">
-                                      <div>
-                                        <ul class="el-upload-list el-upload-list--picture-card"></ul>
-                                        <div tabindex="0" class="el-upload el-upload--picture-card flex-center">
-                                          <img src="../../images/static/upload_btn.png" alt="">
-                                          <input type="file" name="fileData" accept="image/png,image/jpeg,image/gif"
-                                            class="el-upload__input" style="display: none;">
-                                        </div>
-                                        <div class="el-upload__tip">
-                                          图片尺寸请确保800px*800px以上，文件大小在5MB以内，支持格式PNG、JPG、JPEG、GIF，最多可上传20张
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </li>
-                              <li>
-                                <h2>3.报关单类</h2>
-                                <p>
-                                  进口品牌商品请上传报关单证书。
-                                </p>
-                                <div class="el-form-item mt-brand-quas"><label for="" class="el-form-item__label"
-                                    style="width: 130px;">有效期至</label>
-                                  <div class="el-form-item__content" style="margin-left: 130px;">
-                                    <div
-                                      class="c-datepicker-date-editor c-datepicker-single-editor J-datepicker-day mt10">
-                                      <!-- <i class="c-datepicker-range__icon kxiconfont icon-clock"></i> -->
-                                      <input type="text" autocomplete="off" name="foundDate" id="foundDate"
-                                        placeholder="选择日期" class=" c-datepicker-data-input only-date" value="">
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="el-form-item"><label for="" class="el-form-item__label"
-                                    style="width: 130px;">资质图片</label>
-                                  <div class="el-form-item__content" style="margin-left: 130px;">
-                                    <div class="img-upload-box">
-                                      <div>
-                                        <ul class="el-upload-list el-upload-list--picture-card"></ul>
-                                        <div tabindex="0" class="el-upload el-upload--picture-card flex-center">
-                                          <img src="../../images/static/upload_btn.png" alt="">
-                                          <input type="file" name="fileData" accept="image/png,image/jpeg,image/gif"
-                                            class="el-upload__input" style="display: none;">
-                                        </div>
-                                        <div class="el-upload__tip">
-                                          图片尺寸请确保800px*800px以上，文件大小在5MB以内，支持格式PNG、JPG、JPEG、GIF，最多可上传20张
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </li>
-                              <li>
-                                <h2>4.进货发票</h2>
-                                <p>
-                                  进口品牌商品请提供上传日期六个月以内的进货凭证。
-                                </p>
-                                <div class="el-form-item mt-brand-quas"><label for="" class="el-form-item__label"
-                                    style="width: 130px;">有效期至</label>
-                                  <div class="el-form-item__content" style="margin-left: 130px;">
-                                    <div
-                                      class="c-datepicker-date-editor c-datepicker-single-editor J-datepicker-day mt10">
-                                      <!-- <i class="c-datepicker-range__icon kxiconfont icon-clock"></i> -->
-                                      <input type="text" autocomplete="off" name="foundDate" id="foundDate"
-                                        placeholder="选择日期" class=" c-datepicker-data-input only-date" value="">
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="el-form-item"><label for="" class="el-form-item__label"
-                                    style="width: 130px;">资质图片</label>
-                                  <div class="el-form-item__content" style="margin-left: 130px;">
-                                    <div class="img-upload-box">
-                                      <div>
-                                        <ul class="el-upload-list el-upload-list--picture-card"></ul>
-                                        <div tabindex="0" class="el-upload el-upload--picture-card flex-center">
-                                          <img src="../../images/static/upload_btn.png" alt="">
-                                          <input type="file" name="fileData" accept="image/png,image/jpeg,image/gif"
-                                            class="el-upload__input" style="display: none;">
-                                        </div>
-                                        <div class="el-upload__tip">
-                                          图片尺寸请确保800px*800px以上，文件大小在5MB以内，支持格式PNG、JPG、JPEG、GIF，最多可上传20张
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </li>
-                              <li>
-                                <h2>5.质检、检疫、检验报告</h2>
-                                <p>
-                                  请上传正规部门提供的质检检疫报告。
-                                </p>
-                                <div class="el-form-item mt-brand-quas"><label for="" class="el-form-item__label"
-                                    style="width: 130px;">有效期至</label>
-                                  <div class="el-form-item__content" style="margin-left: 130px;">
-                                    <div
-                                      class="c-datepicker-date-editor c-datepicker-single-editor J-datepicker-day mt10 fiveDate">
-                                      <!-- <i class="c-datepicker-range__icon kxiconfont icon-clock"></i> -->
-                                      <input type="text" autocomplete="off" name="foundDate" id="fiveDate"
-                                        placeholder="选择日期" class=" c-datepicker-data-input only-date" value="">
-                                    </div>
-                                    &nbsp;&nbsp;
-                                    <label role="checkbox" class="el-checkbox checkPermanentLabel flex-center">
-                                      <span aria-checked="mixed" class="el-checkbox__input">
-                                        <span class="el-checkbox__inner"></span>
-                                        <input type="checkbox" class="el-checkbox__original checkPermanent" value="永久">
-                                      </span>
-                                      <span class="el-checkbox__label">永久</span>
-                                    </label>
-                                  </div>
-                                </div>
-                                <div class="el-form-item"><label for="" class="el-form-item__label"
-                                    style="width: 130px;">资质图片</label>
-                                  <div class="el-form-item__content" style="margin-left: 130px;">
-                                    <div class="img-upload-box">
-                                      <div>
-                                        <ul class="el-upload-list el-upload-list--picture-card"></ul>
-                                        <div tabindex="0" class="el-upload el-upload--picture-card flex-center">
-                                          <img src="../../images/static/upload_btn.png" alt="">
-                                          <input type="file" name="fileData" accept="image/png,image/jpeg,image/gif"
-                                            class="el-upload__input" style="display: none;">
-                                        </div>
-                                        <div class="el-upload__tip">
-                                          图片尺寸请确保800px*800px以上，文件大小在5MB以内，支持格式PNG、JPG、JPEG、GIF，最多可上传20张
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </li>
-                              <li>
-                                <h2>6.卫生/生产许可证</h2>
-                                <p>
-                                  请提供品牌方持有的卫生/生产许可证证书。
-                                </p>
-                                <div class="el-form-item mt-brand-quas"><label for="" class="el-form-item__label"
-                                    style="width: 130px;">有效期至</label>
-                                  <div class="el-form-item__content" style="margin-left: 130px;">
-                                    <div
-                                      class="c-datepicker-date-editor c-datepicker-single-editor J-datepicker-day mt10">
-                                      <!-- <i class="c-datepicker-range__icon kxiconfont icon-clock"></i> -->
-                                      <input type="text" autocomplete="off" name="foundDate" id="foundDate"
-                                        placeholder="选择日期" class=" c-datepicker-data-input only-date" value="">
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="el-form-item"><label for="" class="el-form-item__label"
-                                    style="width: 130px;">资质图片</label>
-                                  <div class="el-form-item__content" style="margin-left: 130px;">
-                                    <div class="img-upload-box">
-                                      <div>
-                                        <ul class="el-upload-list el-upload-list--picture-card"></ul>
-                                        <div tabindex="0" class="el-upload el-upload--picture-card flex-center">
-                                          <img src="../../images/static/upload_btn.png" alt="">
-                                          <input type="file" name="fileData" accept="image/png,image/jpeg,image/gif"
-                                            class="el-upload__input" style="display: none;">
-                                        </div>
-                                        <div class="el-upload__tip">
-                                          图片尺寸请确保800px*800px以上，文件大小在5MB以内，支持格式PNG、JPG、JPEG、GIF，最多可上传20张
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </li>
-                              <li>
-                                <h2>7.其他资质</h2>
-                                <p>
-                                  需提交特殊产品资质的类目请将资质上传在此处，包括全国工业生产许可证、3C、医疗器械生产许可证、化妆品生产企业卫生许可证等，根据具体类目资质要求提交
-                                </p>
-                                <div class="el-form-item mt-brand-quas"><label for="" class="el-form-item__label"
-                                    style="width: 130px;">有效期至</label>
-                                  <div class="el-form-item__content" style="margin-left: 130px;">
-                                    <div
-                                      class="c-datepicker-date-editor c-datepicker-single-editor J-datepicker-day mt10">
-                                      <!-- <i class="c-datepicker-range__icon kxiconfont icon-clock"></i> -->
-                                      <input type="text" autocomplete="off" name="foundDate" id="foundDate"
-                                        placeholder="选择日期" class=" c-datepicker-data-input only-date" value="">
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="el-form-item"><label for="" class="el-form-item__label"
-                                    style="width: 130px;">资质图片</label>
-                                  <div class="el-form-item__content" style="margin-left: 130px;">
-                                    <div class="img-upload-box">
-                                      <div>
-                                        <ul class="el-upload-list el-upload-list--picture-card"></ul>
-                                        <div tabindex="0" class="el-upload el-upload--picture-card flex-center">
-                                          <img src="../../images/static/upload_btn.png" alt="">
-                                          <input type="file" name="fileData" accept="image/png,image/jpeg,image/gif"
-                                            class="el-upload__input" style="display: none;">
-                                        </div>
-                                        <div class="el-upload__tip">
-                                          图片尺寸请确保800px*800px以上，文件大小在5MB以内，支持格式PNG、JPG、JPEG、GIF，最多可上传20张
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="brand-category-box">
-                        <h2 class="pop-brand-base-infor-main-title">经营类目</h2>
-                        <div class="clearfix2 flex-center" style="width: 100%;">
-                          <h3 class="pop-brand-base-infor-sub-title fl" style="margin: 0; margin-top: 10px;">类目信息</h3>
-                          <button type="button"
-                            class="el-button fr btn-bg-style el-button--default el-button--small checkThick">
-                            <span>选择类目</span>
-                          </button>
-                        </div>
-                        <div class="brand-border-box">
-                          <div style="text-align: center;">请选择您要经营的类目</div>
-                        </div>
-                      </div>
-                      <div class="pop-brand-main-save-button">
-                        <button type="button" class="el-button el-button--default el-button--small">
-                          <span>删除品牌</span>
-                        </button>
-                        <button type="button" class="el-button btn-bg-style el-button--primary el-button--small">
-                          <span>保存</span>
-                        </button>
-                      </div>
-                    </form>
-                  </div>
-                  <div class="el-tab-pane noBrandCont" style="display: none;">
-                    <form class="el-form demo-ruleForm brand-category-form">
-                      <div class="brand-category-box">
-                        <h2 class="pop-brand-base-infor-main-title">经营类目</h2>
-                        <div class="clearfix2 flex-center" style="width: 100%;">
-                          <h3 class="pop-brand-base-infor-sub-title fl" style="margin: 0; margin-top: 10px;">类目信息</h3>
-                          <button type="button"
-                            class="el-button fr btn-bg-style el-button--default el-button--small checkThick">
-                            <span>选择类目</span>
-                          </button>
-                        </div>
-                        <div class="brand-border-box">
-                          <div style="text-align: center;">请选择您要经营的类目</div>
-                        </div>
-                      </div>
-                      <div class="pop-brand-main-save-button">
-                        <button type="button" class="el-button el-button--default el-button--small">
-                          <span>删除品牌</span>
-                        </button>
-                        <button type="button" class="el-button btn-bg-style el-button--primary el-button--small">
-                          <span>保存</span>
-                        </button>
-                      </div>
-                    </form>
-                  </div>
+                <div class="el-tabs__content" style="padding-right: 30px;" id="brandCont">
+
+
+
                 </div>
               </div>
             </div>
@@ -1863,10 +741,12 @@
                 <li class="clearfix">
                   <div class="tl"><em>*</em>是否有阳光福利招商人员对接：</div>
                   <div class="tr" style="display: flex;">
-                    <label for="yesInput" style="width: 30px; height: 30px; line-height: 30px; display: flex; align-items: center; cursor: pointer;">
+                    <label for="yesInput"
+                      style="width: 30px; height: 30px; line-height: 30px; display: flex; align-items: center; cursor: pointer;">
                       <input type="radio" name="personal" id="yesInput" value="是" class="yesOrno" />&nbsp;是
                     </label>
-                    <label for="noInput" style="width: 30px; height: 30px; line-height: 30px; display: flex; align-items: center; margin-left: 15px; cursor: pointer;">
+                    <label for="noInput"
+                      style="width: 30px; height: 30px; line-height: 30px; display: flex; align-items: center; margin-left: 15px; cursor: pointer;">
                       <input type="radio" name="personal" id="noInput" value="否" class="yesOrno" />&nbsp;否
                     </label>
                   </div>
@@ -1885,8 +765,6 @@
             <button type="button" name="button" class="btn-submit" id="saveAndNext3">提交申请</button>
           </div>
         </div>
-        <!-- </div> -->
-        <!-- <div class="agree-box5"> -->
         <!-- 等待审核 -->
         <div class="inner">
           <div class="apply-success clearfix">
@@ -1899,9 +777,6 @@
             </div>
           </div>
         </div>
-        <!-- 等待审核end -->
-        <!-- </div> -->
-        <!-- <div class="agree-box6"> -->
 
         <!-- 审核未通过 -->
         <div class="inner">
@@ -2027,7 +902,127 @@
                 <col name="el-table_2_column_10" width="300">
                 <col name="el-table_2_column_11" width="110">
               </colgroup>
-              <tbody>
+              <tbody id="pageInfo">
+                <tr class="el-table__row">
+                  <td class="el-table_2_column_7  ">
+                    <div class="cell">428837</div>
+                  </td>
+                  <td class="el-table_2_column_8  ">
+                    <div class="cell">京字</div>
+                  </td>
+                  <td class="el-table_2_column_9  ">
+                    <div class="cell"><img
+                        src="http://img30.360buyimg.com/popshop/jfs/t1/24896/16/8140/31300/5c735583Efcb8ab1c/3b7f0af806826e4a.jpg"
+                        width="100%" alt=""></div>
+                  </td>
+                  <td class="el-table_2_column_10  ">
+                    <div class="cell">河北宝阳鞋业有限公司</div>
+                  </td>
+                  <td class="el-table_2_column_11  ">
+                    <div class="cell">
+                      <button type="button"
+                        class="el-button btn-bg-style el-button--primary el-button--small apply-brand">
+                        <span>申请品牌</span>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+                <tr class="el-table__row">
+                  <td class="el-table_2_column_7  ">
+                    <div class="cell">428837</div>
+                  </td>
+                  <td class="el-table_2_column_8  ">
+                    <div class="cell">京字</div>
+                  </td>
+                  <td class="el-table_2_column_9  ">
+                    <div class="cell"><img
+                        src="http://img30.360buyimg.com/popshop/jfs/t1/24896/16/8140/31300/5c735583Efcb8ab1c/3b7f0af806826e4a.jpg"
+                        width="100%" alt=""></div>
+                  </td>
+                  <td class="el-table_2_column_10  ">
+                    <div class="cell">河北宝阳鞋业有限公司</div>
+                  </td>
+                  <td class="el-table_2_column_11  ">
+                    <div class="cell">
+                      <button type="button"
+                        class="el-button btn-bg-style el-button--primary el-button--small apply-brand">
+                        <span>申请品牌</span>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+                <tr class="el-table__row">
+                  <td class="el-table_2_column_7  ">
+                    <div class="cell">428837</div>
+                  </td>
+                  <td class="el-table_2_column_8  ">
+                    <div class="cell">京字</div>
+                  </td>
+                  <td class="el-table_2_column_9  ">
+                    <div class="cell"><img
+                        src="http://img30.360buyimg.com/popshop/jfs/t1/24896/16/8140/31300/5c735583Efcb8ab1c/3b7f0af806826e4a.jpg"
+                        width="100%" alt=""></div>
+                  </td>
+                  <td class="el-table_2_column_10  ">
+                    <div class="cell">河北宝阳鞋业有限公司</div>
+                  </td>
+                  <td class="el-table_2_column_11  ">
+                    <div class="cell">
+                      <button type="button"
+                        class="el-button btn-bg-style el-button--primary el-button--small apply-brand">
+                        <span>申请品牌</span>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+                <tr class="el-table__row">
+                  <td class="el-table_2_column_7  ">
+                    <div class="cell">428837</div>
+                  </td>
+                  <td class="el-table_2_column_8  ">
+                    <div class="cell">京字</div>
+                  </td>
+                  <td class="el-table_2_column_9  ">
+                    <div class="cell"><img
+                        src="http://img30.360buyimg.com/popshop/jfs/t1/24896/16/8140/31300/5c735583Efcb8ab1c/3b7f0af806826e4a.jpg"
+                        width="100%" alt=""></div>
+                  </td>
+                  <td class="el-table_2_column_10  ">
+                    <div class="cell">河北宝阳鞋业有限公司</div>
+                  </td>
+                  <td class="el-table_2_column_11  ">
+                    <div class="cell">
+                      <button type="button"
+                        class="el-button btn-bg-style el-button--primary el-button--small apply-brand">
+                        <span>申请品牌</span>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+                <tr class="el-table__row">
+                  <td class="el-table_2_column_7  ">
+                    <div class="cell">428837</div>
+                  </td>
+                  <td class="el-table_2_column_8  ">
+                    <div class="cell">京字</div>
+                  </td>
+                  <td class="el-table_2_column_9  ">
+                    <div class="cell"><img
+                        src="http://img30.360buyimg.com/popshop/jfs/t1/24896/16/8140/31300/5c735583Efcb8ab1c/3b7f0af806826e4a.jpg"
+                        width="100%" alt=""></div>
+                  </td>
+                  <td class="el-table_2_column_10  ">
+                    <div class="cell">河北宝阳鞋业有限公司</div>
+                  </td>
+                  <td class="el-table_2_column_11  ">
+                    <div class="cell">
+                      <button type="button"
+                        class="el-button btn-bg-style el-button--primary el-button--small apply-brand">
+                        <span>申请品牌</span>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
                 <tr class="el-table__row">
                   <td class="el-table_2_column_7  ">
                     <div class="cell">428837</div>
@@ -2053,13 +1048,22 @@
                   </td>
                 </tr>
               </tbody>
+
+              <div id="pagination" style="margin-top: 10px;height: 35px;">
+                <a id="firPage" οnclick="firstPage()" style="margin-left: 0px;width: 35px;">首页</a>
+                <a id="prePage" οnclick="prevPage()">上一页</a>
+                <a id="nexPage" οnclick="pnextPage()">下一页</a>
+                <a id="lasPage" οnclick="lastPage()" style="width: 35px;">尾页</a>
+                <input id="numPage" style="width: 40px;margin-left: 10px;height: 16px;" />
+              </div>
             </table>
             <!-- <div class="el-table__empty-block" style="width: 920px;"><span
                 class="el-table__empty-text">筛选出品牌后才能选择品牌</span></div> -->
             <!---->
           </div>
         </div>
-        <span style="margin-top: 25px; display: inline-block;">未查询到所需品牌？<a href="###" class="link-blue addNewBrand">添加新品牌</a></span>
+        <span style="margin-top: 25px; display: inline-block;">未查询到所需品牌？<a href="###"
+            class="link-blue addNewBrand">添加新品牌</a></span>
       </div>
     </div>
   </div>
@@ -2080,7 +1084,7 @@
                     <div class="col-1">
                       <div class="checkall"><a data-class="all-lev1" class="checkbox" style="visibility:hidden"><span
                             class="none" id="all-limit-lev1"></span></a> <label for="all-limit-lev1"><span
-                            class="i18nlanguage" style=""
+                            class="i18nlanguage"
                             data-i18n="common.label.category_info_normal_first_cate">一级类目</span></label></div>
                       <div class="select-area lev1-area">
                         <ul>
@@ -3048,69 +2052,59 @@
 
   </script>
 
+
   <script type="text/javascript">
-
+    var departmentInfo = document.getElementById("pageInfo");  /*获取table中的内容*/
+    var totalRow = departmentInfo.rows.length;   /*计算出总条数(这种方法用来获取table行数，获取列数用var cells = departmentsInfo.rows[0].cells.length;*/
+    var pagesize = 5;   /*每页条数*/
+    var totalPage = Math.ceil(totalRow / pagesize);  /*计算出总页数*/
+    var currentPage;
+    var startRow;
+    var lastRow;
+    function pagination(i) {
+      currentPage = i;/*当前页*/
+      document.getElementById("numPage").value = "第" + currentPage + "页";   /*显示页码*/
+      startRow = (currentPage - 1) * pagesize;/*每页显示第一条数据的行数*/
+      lastRow = currentPage * pagesize;/*每页显示的最后一条数据的行数,因为表头也算一行，所以这里不需要减1，这种情况以自己的实际情况为准*/
+      if (lastRow > totalRow) {
+        lastRow = totalRow;/*如果最后一页的最后一条数据显示的行数大于总条数，那么就让最后一条的行数等于总条数*/
+      }
+      for (var i = 0; i < totalRow; i++) {   /*将数据遍历出来*/
+        var hrow = departmentInfo.rows[i];
+        if (i >= startRow && i < lastRow) {
+          hrow.style.display = "table-row";
+        } else {
+          hrow.style.display = "none";
+        }
+      }
+    }
     $(function () {
-
-      var DATAPICKERAPI = {
-        // 默认input显示当前月,自己获取后填充
-        activeMonthRange: function () {
-          return {
-            begin: moment().set({ 'date': 1, 'hour': 0, 'minute': 0, 'second': 0 }).format('YYYY-MM-DD HH:mm:ss'),
-            end: moment().set({ 'hour': 23, 'minute': 59, 'second': 59 }).format('YYYY-MM-DD HH:mm:ss')
-          }
-        },
-        shortcutMonth: function () {
-          // 当月
-          var nowDay = moment().get('date');
-          var prevMonthFirstDay = moment().subtract(1, 'months').set({ 'date': 1 });
-          var prevMonthDay = moment().diff(prevMonthFirstDay, 'days');
-          return {
-            now: '-' + nowDay + ',0',
-            prev: '-' + prevMonthDay + ',-' + nowDay
-          }
-        },
-        // 近n小时计算返回
-        shortcutPrevHours: function (hour) {
-          var nowDay = moment().get('date');
-          var prevHours = moment().subtract(hour, 'hours');
-          var prevDate = prevHours.get('date') - nowDay;
-          var nowTime = moment().format('HH:mm:ss');
-          var prevTime = prevHours.format('HH:mm:ss');
-          return {
-            day: prevDate + ',0',
-            time: prevTime + ',' + nowTime,
-            name: '近' + hour + '小时'
-          }
-        },
-      };
-
-      //年月日单个
-      $('.J-datepicker-day').datePicker({
-        hasShortcut: true,
-        format: 'YYYY-MM-DD',
-        // shortcutOptions: [{
-        //   name: '今天',
-        //   day: '0'
-        // }, {
-        //   name: '昨天',
-        //   day: '-1'
-        // }, {
-        //   name: '一周前',
-        //   day: '-7'
-        // }]
-      });
-
-      //年月日范围
-      $('.J-datepicker-range-day').datePicker({
-        hasShortcut: true,
-        format: 'YYYY-MM-DD',
-        isRange: true,
-        shortcutOptions: DATAPICKERAPI.rangeShortcutOption1
-      });
-
+      firstPage();
     });
+    function firstPage() {
+      var i = 1;
+      pagination(i);
+    }
+    function prevPage() {
+      var i = currentPage - 1;
+      if (i < 1) {
+        i = currentPage;
+      }
+      pagination(i);
+    }
+    function pnextPage() {
+      var i = currentPage + 1;
+      if (i > totalPage) {
+        i = currentPage;
+      }
+      pagination(i);
+    }
+    function lastPage() {
+      var i = totalPage;
+      pagination(i);
+    }
   </script>
+
 </body>
 
 </html>

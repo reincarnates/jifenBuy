@@ -2259,6 +2259,22 @@ ol, ul {
   background: #f5f7f9;
 }
 
+.my-class.check{
+  position: relative;
+  box-sizing: content-box;
+  border: 1px solid #d7dde4;
+  border-radius: 2px;
+  background: url(https://static.360buyimg.com/pop-vender-static/apply/2018/web/image/category-right.png) no-repeat;
+  background-position: -45px -9px;
+  width: 14px;
+  height: 14px;
+  background-color: #3399ff;
+}
+
+.el-upload__input {
+  display: none;
+}
+
 .lev1-area .my-class, .lev2-area .my-class, .lev3-area .my-class, .lev3-area span {
   float: left;
   width: 16px;
@@ -2358,4 +2374,12 @@ em {
 }
 .b-alert-s01 {
   margin-bottom: 10px;
+}
+
+#pagination a{
+  border: 1px solid #000000;
+  width: 50px;
+  height:20px;
+  float: left;
+  margin-left: 10px;cursor: pointer;
 }
