@@ -628,7 +628,7 @@ $(function () {
                   <div tabindex="0" class="el-upload el-upload--picture-card flex-center uploadImg">
                     <img src="../../images/static/upload_btn.png" alt="">
                   </div>
-                  <input type="file" accept="image/png,image/jpeg,image/gif" class="el-upload__input uploadInput">
+                  <input type="file" accept="image/png,image/jpeg,image/gif" class="el-upload__input uploadInput" multiple>
                   <div class="el-upload__tip">图片尺寸请确保800px*800px以上，文件大小在5MB以内，支持png、jpeg、gif格式，最多可上传1张
                   </div>
                 </div>
@@ -951,6 +951,12 @@ $(function () {
     });
   });
 
+  $(document).on('keyup', '#brandName', function (event) {
+    if (event.keyCode == 13) {
+      console.log(1);
+    }
+  })
+
   //选择品牌类型
   $(document).on('click', '.checkBrandType', function () {
     $(this).addClass('is-checked').find('.el-radio__inner').addClass('is-checked2').parents('.checkBrandType').siblings('.checkBrandType').removeClass('is-checked').find('.el-radio__inner').removeClass('is-checked2');
@@ -974,12 +980,10 @@ $(function () {
   $(document).on('click', '.checkPermanent', function () {
     if ($(this).parents('.checkPermanentLabel').hasClass('checkbox-check')) {
       $(this).parents('.checkPermanentLabel').removeClass('checkbox-check').find('.el-checkbox__inner').removeClass('checkbox-check2');
-      $('.fiveDate').css({ 'cursor': 'pointer', 'opacity': '1' });
-      $('#fiveDate').removeAttr('disabled').css('cursor', 'pointer');
+      $(this).parents('.checkPermanentLabel').siblings('.fiveDate').css({ 'cursor': 'pointer', 'opacity': '1' }).removeAttr('disabled').css('cursor', 'pointer');
     } else {
       $(this).parents('.checkPermanentLabel').addClass('checkbox-check').find('.el-checkbox__inner').addClass('checkbox-check2');
-      $('.fiveDate').css({ 'cursor': 'no-drop', 'opacity': '.3' });
-      $('#fiveDate').attr('disabled', 'true').css('cursor', 'no-drop');
+      $(this).parents('.checkPermanentLabel').siblings('.fiveDate').css({ 'cursor': 'no-drop', 'opacity': '.3' }).attr('disabled', 'true').css('cursor', 'no-drop');
     }
   });
 
@@ -1781,6 +1785,52 @@ $(function () {
   });
 
 
+  var taxpayerState = 1;
+    $(document).on('click', '#taxpayerType', function() {
+      if(taxpayerState == 1) {
+        $('.taxpayerTypeSele').show();
+        taxpayerState = 2;
+      }else{
+        $('.taxpayerTypeSele').hide();
+        taxpayerState = 1;
+      }
+    });
+
+    $('.checkTaxpayer').on('click', function() {
+      $('#taxpayerType').val($(this).text());
+      $('.taxpayerTypeSele').hide();
+      $('.taxpayerType').hide();
+      $('#taxpayerType').removeClass('investment-rule');
+      if($(this).text() == '一般纳税人') {
+        $('.taxpayerElectronic').show();
+      }else{
+        $('.taxpayerElectronic').hide();
+      }
+      taxpayerState = 1;
+    });
+
+    var enterpriseState = 1;
+    $(document).on('click', '#enterpriseType', function() {
+      if(enterpriseState == 1) {
+        $('.enterpriseTypeSele').show();
+        enterpriseState = 2;
+      }else{
+        $('.enterpriseTypeSele').hide();
+        enterpriseState = 1;
+      }
+    });
+    $('.checkenterprise').on('click', function() {
+      $('#enterpriseType').val($(this).text());
+      $('.enterpriseTypeSele').hide();
+        $('.enterpriseType').hide();
+        $('#enterpriseType').removeClass('investment-rule');
+      enterpriseState = 1;
+    });
+
+    //上传一般纳税人资质电子版
+    $('.upload_file_btn7').on('click', function () {
+      return $('#taxpayerElectronicUp').trigger('click');
+    });
 
  
  

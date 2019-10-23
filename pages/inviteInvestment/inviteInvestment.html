@@ -366,6 +366,87 @@
                       <span class="investment-rule uscc">请填写统一社会信用代码（或税号）</span>
                     </div>
                   </li>
+
+                  <li class="clearfix">
+                    <div class="tl">
+                      <em>*</em>
+                      纳税人类型：
+                    </div>
+                    <div class="tr">
+                      <input id="taxpayerType" name="taxpayerType" class="input" type="text" placeholder="请选择"
+                        value="" readonly style="cursor: pointer;">
+                      <img src="../../images/static/drop-arrow.png" class="drop-arrow" alt="">
+                      <span class="investment-rule taxpayerType">请选择纳税人类型</span>
+                      <div class="el-select-dropdown el-popper taxpayerTypeSele" x-placement="bottom-start">
+                        <div class="el-scrollbar" style="">
+                          <div class="el-select-dropdown__wrap el-scrollbar__wrap"
+                            style="margin-bottom: -17px; margin-right: -17px;">
+                            <ul class="el-scrollbar__view el-select-dropdown__list">
+                              <!---->
+                              <li class="el-select-dropdown__item checkTaxpayer"><span>一般纳税人</span></li>
+                              <li class="el-select-dropdown__item checkTaxpayer"><span>小规模纳税人</span></li>
+                              <li class="el-select-dropdown__item checkTaxpayer"><span>非增值税纳税人</span></li>
+                            </ul>
+                          </div>
+
+                          <div class="el-scrollbar__bar is-horizontal">
+                            <div class="el-scrollbar__thumb" style="transform: translateX(0%);"></div>
+                          </div>
+                          <div class="el-scrollbar__bar is-vertical">
+                            <div class="el-scrollbar__thumb" style="transform: translateY(0%); height: 16.3071%;"></div>
+                          </div>
+                        </div>
+                        <div x-arrow="" class="popper__arrow" style="left: 35px;"></div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="clearfix taxpayerElectronic" style="display: none;">
+                    <div class="tl"><em>*</em>一般纳税人资质电子版：</div>
+                    <div class="tr">
+                        <div class="upload_file_btn7">
+                            <img src="../../images/static/upload_btn.png"
+                                alt="" style="max-height: 80px">
+                        </div>
+                        <input type="file" name="taxpayerElectronicUp" id="taxpayerElectronicUp" style="display: none;">
+                        <input type="hidden" name="taxpayer_pic" value="{$info.taxpayer_pic|default=''}">
+                    </div>
+                  </li>
+
+                  <li class="clearfix">
+                    <div class="tl">
+                      <em>*</em>
+                      企业类型：
+                    </div>
+                    <div class="tr">
+                      <input id="enterpriseType" name="enterpriseType" class="input" type="text" placeholder="请选择"
+                        value="" readonly style="cursor: pointer;">
+                      <img src="../../images/static/drop-arrow.png" class="drop-arrow" alt="">
+                      <span class="investment-rule enterpriseType">请选择企业类型</span>
+                      <div class="el-select-dropdown el-popper enterpriseTypeSele" x-placement="bottom-start">
+                        <div class="el-scrollbar" style="">
+                          <div class="el-select-dropdown__wrap el-scrollbar__wrap"
+                            style="margin-bottom: -17px; margin-right: -17px;">
+                            <ul class="el-scrollbar__view el-select-dropdown__list">
+                              <!---->
+                              <li class="el-select-dropdown__item checkenterprise"><span>代理商</span></li>
+                              <li class="el-select-dropdown__item checkenterprise"><span>生产工商</span></li>
+                              <li class="el-select-dropdown__item checkenterprise"><span>品牌商</span></li>
+                              <li class="el-select-dropdown__item checkenterprise"><span>经销商</span></li>
+                            </ul>
+                          </div>
+
+                          <div class="el-scrollbar__bar is-horizontal">
+                            <div class="el-scrollbar__thumb" style="transform: translateX(0%);"></div>
+                          </div>
+                          <div class="el-scrollbar__bar is-vertical">
+                            <div class="el-scrollbar__thumb" style="transform: translateY(0%); height: 16.3071%;"></div>
+                          </div>
+                        </div>
+                        <div x-arrow="" class="popper__arrow" style="left: 35px;"></div>
+                      </div>
+                    </div>
+                  </li>
                 </ul>
               </div>
             </form>
@@ -831,7 +912,7 @@
           <div class="el-form-item"><label class="el-form-item__label">品牌名称</label>
             <div class="el-form-item__content">
               <div class="el-input el-input--small">
-                <!----><input type="text" autocomplete="off" class="el-input__inner">
+                <!----><input type="text" autocomplete="off" class="el-input__inner" id="brandName">
                 <!---->
                 <!---->
                 <!---->
@@ -927,135 +1008,7 @@
                     </div>
                   </td>
                 </tr>
-                <tr class="el-table__row">
-                  <td class="el-table_2_column_7  ">
-                    <div class="cell">428837</div>
-                  </td>
-                  <td class="el-table_2_column_8  ">
-                    <div class="cell">京字</div>
-                  </td>
-                  <td class="el-table_2_column_9  ">
-                    <div class="cell"><img
-                        src="http://img30.360buyimg.com/popshop/jfs/t1/24896/16/8140/31300/5c735583Efcb8ab1c/3b7f0af806826e4a.jpg"
-                        width="100%" alt=""></div>
-                  </td>
-                  <td class="el-table_2_column_10  ">
-                    <div class="cell">河北宝阳鞋业有限公司</div>
-                  </td>
-                  <td class="el-table_2_column_11  ">
-                    <div class="cell">
-                      <button type="button"
-                        class="el-button btn-bg-style el-button--primary el-button--small apply-brand">
-                        <span>申请品牌</span>
-                      </button>
-                    </div>
-                  </td>
-                </tr>
-                <tr class="el-table__row">
-                  <td class="el-table_2_column_7  ">
-                    <div class="cell">428837</div>
-                  </td>
-                  <td class="el-table_2_column_8  ">
-                    <div class="cell">京字</div>
-                  </td>
-                  <td class="el-table_2_column_9  ">
-                    <div class="cell"><img
-                        src="http://img30.360buyimg.com/popshop/jfs/t1/24896/16/8140/31300/5c735583Efcb8ab1c/3b7f0af806826e4a.jpg"
-                        width="100%" alt=""></div>
-                  </td>
-                  <td class="el-table_2_column_10  ">
-                    <div class="cell">河北宝阳鞋业有限公司</div>
-                  </td>
-                  <td class="el-table_2_column_11  ">
-                    <div class="cell">
-                      <button type="button"
-                        class="el-button btn-bg-style el-button--primary el-button--small apply-brand">
-                        <span>申请品牌</span>
-                      </button>
-                    </div>
-                  </td>
-                </tr>
-                <tr class="el-table__row">
-                  <td class="el-table_2_column_7  ">
-                    <div class="cell">428837</div>
-                  </td>
-                  <td class="el-table_2_column_8  ">
-                    <div class="cell">京字</div>
-                  </td>
-                  <td class="el-table_2_column_9  ">
-                    <div class="cell"><img
-                        src="http://img30.360buyimg.com/popshop/jfs/t1/24896/16/8140/31300/5c735583Efcb8ab1c/3b7f0af806826e4a.jpg"
-                        width="100%" alt=""></div>
-                  </td>
-                  <td class="el-table_2_column_10  ">
-                    <div class="cell">河北宝阳鞋业有限公司</div>
-                  </td>
-                  <td class="el-table_2_column_11  ">
-                    <div class="cell">
-                      <button type="button"
-                        class="el-button btn-bg-style el-button--primary el-button--small apply-brand">
-                        <span>申请品牌</span>
-                      </button>
-                    </div>
-                  </td>
-                </tr>
-                <tr class="el-table__row">
-                  <td class="el-table_2_column_7  ">
-                    <div class="cell">428837</div>
-                  </td>
-                  <td class="el-table_2_column_8  ">
-                    <div class="cell">京字</div>
-                  </td>
-                  <td class="el-table_2_column_9  ">
-                    <div class="cell"><img
-                        src="http://img30.360buyimg.com/popshop/jfs/t1/24896/16/8140/31300/5c735583Efcb8ab1c/3b7f0af806826e4a.jpg"
-                        width="100%" alt=""></div>
-                  </td>
-                  <td class="el-table_2_column_10  ">
-                    <div class="cell">河北宝阳鞋业有限公司</div>
-                  </td>
-                  <td class="el-table_2_column_11  ">
-                    <div class="cell">
-                      <button type="button"
-                        class="el-button btn-bg-style el-button--primary el-button--small apply-brand">
-                        <span>申请品牌</span>
-                      </button>
-                    </div>
-                  </td>
-                </tr>
-                <tr class="el-table__row">
-                  <td class="el-table_2_column_7  ">
-                    <div class="cell">428837</div>
-                  </td>
-                  <td class="el-table_2_column_8  ">
-                    <div class="cell">京字</div>
-                  </td>
-                  <td class="el-table_2_column_9  ">
-                    <div class="cell"><img
-                        src="http://img30.360buyimg.com/popshop/jfs/t1/24896/16/8140/31300/5c735583Efcb8ab1c/3b7f0af806826e4a.jpg"
-                        width="100%" alt=""></div>
-                  </td>
-                  <td class="el-table_2_column_10  ">
-                    <div class="cell">河北宝阳鞋业有限公司</div>
-                  </td>
-                  <td class="el-table_2_column_11  ">
-                    <div class="cell">
-                      <button type="button"
-                        class="el-button btn-bg-style el-button--primary el-button--small apply-brand">
-                        <span>申请品牌</span>
-                      </button>
-                    </div>
-                  </td>
-                </tr>
               </tbody>
-
-              <div id="pagination" style="margin-top: 10px;height: 35px;">
-                <a id="firPage" οnclick="firstPage()" style="margin-left: 0px;width: 35px;">首页</a>
-                <a id="prePage" οnclick="prevPage()">上一页</a>
-                <a id="nexPage" οnclick="pnextPage()">下一页</a>
-                <a id="lasPage" οnclick="lastPage()" style="width: 35px;">尾页</a>
-                <input id="numPage" style="width: 40px;margin-left: 10px;height: 16px;" />
-              </div>
             </table>
             <!-- <div class="el-table__empty-block" style="width: 920px;"><span
                 class="el-table__empty-text">筛选出品牌后才能选择品牌</span></div> -->

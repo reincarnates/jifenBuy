@@ -454,7 +454,7 @@ li.for-pc {
   color: #0000FF;
 }
 
-.upload_file_btn, .upload_file_btn2, .upload_file_btn3, .upload_file_btn4, .upload_file_btn5, .upload_file_btn6{
+.upload_file_btn, .upload_file_btn2, .upload_file_btn3, .upload_file_btn4, .upload_file_btn5, .upload_file_btn6, .upload_file_btn7{
   width: 80px;
   height: 80px;
   border: 1px solid #E5E5E5;
@@ -2382,4 +2382,18 @@ em {
   height:20px;
   float: left;
   margin-left: 10px;cursor: pointer;
+}
+
+.taxpayerTypeSele,
+.enterpriseTypeSele{
+  position: absolute;
+  /* bottom: 0; */
+  width: 100%;
+  display: none;
+}
+
+.drop-arrow{
+  position: absolute;
+  top: 12px;
+  right: 20px;
 }
